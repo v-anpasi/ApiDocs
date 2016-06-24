@@ -1,116 +1,116 @@
 [submodule "hosting"]
 	path = aspnet/hosting
 	url = https://github.com/aspnet/hosting
-	branch = master
+	branch = release
 [submodule "httpabstractions"]
 	path = aspnet/httpabstractions
 	url = https://github.com/aspnet/httpabstractions
-	branch = master
+	branch = release
 [submodule "configuration"]
 	path = aspnet/configuration
 	url = https://github.com/aspnet/configuration
-	branch = master
+	branch = release
 [submodule "aspnet/caching"]
 	path = aspnet/caching
 	url = https://github.com/aspnet/caching
-	branch = master
+	branch = release
 [submodule "aspnet/dataprotection"]
 	path = aspnet/dataprotection
 	url = https://github.com/aspnet/dataprotection
-	branch = master
+	branch = release
 [submodule "aspnet/dependencyinjection"]
 	path = aspnet/dependencyinjection
 	url = https://github.com/aspnet/dependencyinjection
-	branch = master
+	branch = release
 [submodule "aspnet/diagnostics"]
 	path = aspnet/diagnostics
 	url = https://github.com/aspnet/diagnostics
-	branch = master
+	branch = release
 [submodule "aspnet/filesystem"]
 	path = aspnet/filesystem
 	url = https://github.com/aspnet/filesystem
-	branch = master
+	branch = release
 [submodule "aspnet/iisintegration"]
 	path = aspnet/iisintegration
 	url = https://github.com/aspnet/iisintegration
-	branch = master
+	branch = release
 [submodule "aspnet/jsonpatch"]
 	path = aspnet/jsonpatch
 	url = https://github.com/aspnet/jsonpatch
-	branch = master
+	branch = release
 [submodule "aspnet/localization"]
 	path = aspnet/localization
 	url = https://github.com/aspnet/localization
-	branch = master
+	branch = release
 [submodule "aspnet/logging"]
 	path = aspnet/logging
 	url = https://github.com/aspnet/logging
-	branch = master
+	branch = release
 [submodule "aspnet/routing"]
 	path = aspnet/routing
 	url = https://github.com/aspnet/routing
-	branch = master
+	branch = release
 [submodule "aspnet/security"]
 	path = aspnet/security
 	url = https://github.com/aspnet/security
-	branch = master
+	branch = release
 [submodule "aspnet/session"]
 	path = aspnet/session
 	url = https://github.com/aspnet/session
-	branch = master
+	branch = release
 [submodule "aspnet/options"]
 	path = aspnet/options
 	url = https://github.com/aspnet/options
-	branch = master
+	branch = release
 [submodule "aspnet/staticfiles"]
 	path = aspnet/staticfiles
 	url = https://github.com/aspnet/staticfiles
-	branch = master
+	branch = release
 [submodule "aspnet/eventnotification"]
 	path = aspnet/eventnotification
 	url = https://github.com/aspnet/eventnotification
-	branch = master
+	branch = release
 [submodule "aspnet/kestrelhttpserver"]
 	path = aspnet/kestrelhttpserver
 	url = https://github.com/aspnet/kestrelhttpserver
-	branch = master
+	branch = release
 [submodule "aspnet/cors"]
 	path = aspnet/cors
 	url = https://github.com/aspnet/cors
-	branch = master
+	branch = release
 [submodule "aspnet/antiforgery"]
 	path = aspnet/antiforgery
 	url = https://github.com/aspnet/antiforgery
-	branch = master
+	branch = release
 [submodule "aspnet/identity"]
 	path = aspnet/identity
 	url = https://github.com/aspnet/identity
-	branch = master
+	branch = release
 [submodule "aspnet/weblistener"]
 	path = aspnet/weblistener
 	url = https://github.com/aspnet/weblistener
-	branch = master
+	branch = release
 [submodule "aspnet/mvc"]
 	path = aspnet/mvc
 	url = https://github.com/aspnet/mvc
-	branch = master
+	branch = release
 [submodule "aspnet/razor"]
 	path = aspnet/razor
 	url = https://github.com/aspnet/razor
-	branch = master
+	branch = release
 [submodule "aspnet/htmlabstractions"]
 	path = aspnet/htmlabstractions
 	url = https://github.com/aspnet/HtmlAbstractions
-	branch = master
+	branch = release
 [submodule "aspnet/websockets"]
 	path = aspnet/websockets
 	url = https://github.com/aspnet/WebSockets
-	branch = master
+	branch = release
 [submodule "aspnet/platformabstractions"]
 	path = aspnet/platformabstractions
 	url = https://github.com/aspnet/PlatformAbstractions
-	branch = master
+	branch = release
 [submodule "aspnet/common"]
 	path = aspnet/common
 	url = https://github.com/aspnet/Common
-	branch = master
+	branch = release
