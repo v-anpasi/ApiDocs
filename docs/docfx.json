@@ -1,35 +1,486 @@
 {
-  "metadata": [{
-    "src": [{
-      "files": [ 
-        "**/src/**/project.json"
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Hosting"
+        }
       ],
-      "exclude": [
-        "../aspnet/razor/src/Microsoft.AspNet.Razor.Runtime.VSRC1/*",
-        "../aspnet/razor/src/Microsoft.AspNet.Razor.VSRC1/*",
-        "../aspnet/mvc/src/Microsoft.AspNet.Mvc.Razor.Host.VSRC1/*",
-        "../aspnet/filesystem/src/Microsoft.AspNet.FileProviders.Abstractions.VSRC1/*",
-        "../aspnet/filesystem/src/Microsoft.AspNet.FileProviders.Physical.VSRC1/*",
-        "../aspnet/caching/src/Microsoft.Extensions.Caching.Abstractions.VSRC1/*",
-        "../aspnet/caching/src/Microsoft.Extensions.Caching.Memory.VSRC1/*",
-        "../aspnet/options/src/Microsoft.Extensions.OptionsModel.VSRC1/*"
+      "dest": "api/Hosting"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/HttpAbstractions"
+        }
       ],
-      "src": "../aspnet"
-    }],
-    "dest": "api/"
-  }],
+      "dest": "api/HttpAbstractions"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Configuration"
+        }
+      ],
+      "dest": "api/Configuration"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json",
+            "src/Microsoft.Extensions.Caching.Abstractions.VSRC1/*",
+            "src/Microsoft.Extensions.Caching.Memory.VSRC1/*"
+          ],
+          "src": "../aspnet/Caching"
+        }
+      ],
+      "dest": "api/Caching"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/DataProtection"
+        }
+      ],
+      "dest": "api/DataProtection"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/DependencyInjection"
+        }
+      ],
+      "dest": "api/DependencyInjection"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Diagnostics"
+        }
+      ],
+      "dest": "api/Diagnostics"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json",
+            "src/Microsoft.AspNet.FileProviders.Abstractions.VSRC1/*",
+            "src/Microsoft.AspNet.FileProviders.Physical.VSRC1/*"
+          ],
+          "src": "../aspnet/FileSystem"
+        }
+      ],
+      "dest": "api/FileSystem"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/IISIntegration"
+        }
+      ],
+      "dest": "api/IISIntegration"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/JsonPatch"
+        }
+      ],
+      "dest": "api/JsonPatch"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Localization"
+        }
+      ],
+      "dest": "api/Localization"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Logging"
+        }
+      ],
+      "dest": "api/Logging"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Routing"
+        }
+      ],
+      "dest": "api/Routing"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Security"
+        }
+      ],
+      "dest": "api/Security"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Session"
+        }
+      ],
+      "dest": "api/Session"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json",
+            "src/Microsoft.Extensions.OptionsModel.VSRC1/*"
+          ],
+          "src": "../aspnet/Options"
+        }
+      ],
+      "dest": "api/Options"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/StaticFiles"
+        }
+      ],
+      "dest": "api/StaticFiles"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/EventNotification"
+        }
+      ],
+      "dest": "api/EventNotification"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/KestrelHttpServer"
+        }
+      ],
+      "dest": "api/KestrelHttpServer"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/CORS"
+        }
+      ],
+      "dest": "api/CORS"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Antiforgery"
+        }
+      ],
+      "dest": "api/Antiforgery"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Identity"
+        }
+      ],
+      "dest": "api/Identity"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json",
+            "src/Microsoft.AspNet.Mvc.Razor.Host.VSRC1/*"
+          ],
+          "src": "../aspnet/Mvc"
+        }
+      ],
+      "dest": "api/Mvc"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json",
+            "src/Microsoft.AspNet.Razor.Runtime.VSRC1/*",
+            "src/Microsoft.AspNet.Razor.VSRC1/*"
+          ],
+          "src": "../aspnet/Razor"
+        }
+      ],
+      "dest": "api/Razor"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/HtmlAbstractions"
+        }
+      ],
+      "dest": "api/HtmlAbstractions"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/WebSockets"
+        }
+      ],
+      "dest": "api/WebSockets"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/PlatformAbstractions"
+        }
+      ],
+      "dest": "api/PlatformAbstractions"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "**/project.json"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.Tests/project.json"
+          ],
+          "src": "../aspnet/Common"
+        }
+      ]
+    }
+  ],
   "build": {
     "content": [
       {
         "files": [
           "**/*.md"
-        ]
+        ],
+        "dest": "."
       },
       {
         "files": [
           "**/*.yml"
-        ]
-      }
+        ],
+        "exclude": [
+          "**/toc.yml"
+        ],
+        "src": "api",
+        "dest": "."
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "api",
+        "dest": "."
+      },
     ],
     "resource": [
       {
@@ -52,6 +503,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "aspnet/api"
+    "dest": "_site"
   }
 }
