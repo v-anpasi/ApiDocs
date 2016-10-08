@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  id: WelcomePageSampleTest
+  parent: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  children:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.#ctor(Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup})
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.Client
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.WelcomePage_ShowsWelcome
+  langs:
+  - csharp
+  - vb
+  name: WelcomePageSampleTest
+  nameWithType: WelcomePageSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: WelcomePageSampleTest
+    path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  syntax:
+    content: 'public class WelcomePageSampleTest : IClassFixture<TestFixture<Startup>>'
+    content.vb: >-
+      Public Class WelcomePageSampleTest
+          Implements IClassFixture(Of TestFixture(Of Startup))
+  inheritance:
+  - System.Object
+  implements:
+  - Xunit.IClassFixture{Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.#ctor(Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup})
+  commentId: M:Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.#ctor(Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup})
+  id: '#ctor(Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup})'
+  parent: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  langs:
+  - csharp
+  - vb
+  name: WelcomePageSampleTest(TestFixture<Startup>)
+  nameWithType: WelcomePageSampleTest.WelcomePageSampleTest(TestFixture<Startup>)
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.WelcomePageSampleTest(Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture<WelcomePageSample.Startup>)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  syntax:
+    content: public WelcomePageSampleTest(TestFixture<Startup> fixture)
+    content.vb: Public Sub New(fixture As TestFixture(Of Startup))
+    parameters:
+    - id: fixture
+      type: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup}
+  nameWithType.vb: WelcomePageSampleTest.WelcomePageSampleTest(TestFixture(Of Startup))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.WelcomePageSampleTest(Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture(Of WelcomePageSample.Startup))
+  name.vb: WelcomePageSampleTest(TestFixture(Of Startup))
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.Client
+  commentId: P:Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.Client
+  id: Client
+  parent: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: WelcomePageSampleTest.Client
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.Client
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: Client
+    path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  syntax:
+    content: public HttpClient Client { get; }
+    content.vb: Public ReadOnly Property Client As HttpClient
+    parameters: []
+    return:
+      type: System.Net.Http.HttpClient
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.WelcomePage_ShowsWelcome
+  commentId: M:Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.WelcomePage_ShowsWelcome
+  id: WelcomePage_ShowsWelcome
+  parent: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  langs:
+  - csharp
+  - vb
+  name: WelcomePage_ShowsWelcome()
+  nameWithType: WelcomePageSampleTest.WelcomePage_ShowsWelcome()
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest.WelcomePage_ShowsWelcome()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: WelcomePage_ShowsWelcome
+    path: test/Microsoft.AspNetCore.Diagnostics.FunctionalTests/WelcomePageSampleTest.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task WelcomePage_ShowsWelcome()
+    content.vb: >-
+      <Fact>
+
+      Public Function WelcomePage_ShowsWelcome As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xunit.IClassFixture{Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup}}
+  commentId: T:Xunit.IClassFixture{Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup}}
+  parent: Xunit
+  definition: Xunit.IClassFixture`1
+  name: IClassFixture<TestFixture<Startup>>
+  nameWithType: IClassFixture<TestFixture<Startup>>
+  fullName: Xunit.IClassFixture<Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture<WelcomePageSample.Startup>>
+  nameWithType.vb: IClassFixture(Of TestFixture(Of Startup))
+  fullname.vb: Xunit.IClassFixture(Of Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture(Of WelcomePageSample.Startup))
+  name.vb: IClassFixture(Of TestFixture(Of Startup))
+  spec.csharp:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: WelcomePageSample.Startup
+    name: Startup
+    nameWithType: Startup
+    fullName: WelcomePageSample.Startup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: WelcomePageSample.Startup
+    name: Startup
+    nameWithType: Startup
+    fullName: WelcomePageSample.Startup
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.IClassFixture`1
+  commentId: T:Xunit.IClassFixture`1
+  isExternal: true
+  name: IClassFixture<TFixture>
+  nameWithType: IClassFixture<TFixture>
+  fullName: Xunit.IClassFixture<TFixture>
+  nameWithType.vb: IClassFixture(Of TFixture)
+  fullname.vb: Xunit.IClassFixture(Of TFixture)
+  name.vb: IClassFixture(Of TFixture)
+  spec.csharp:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFixture
+    nameWithType: TFixture
+    fullName: TFixture
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFixture
+    nameWithType: TFixture
+    fullName: TFixture
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit
+  commentId: N:Xunit
+  isExternal: false
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup}
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture{WelcomePageSample.Startup}
+  parent: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  definition: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+  name: TestFixture<Startup>
+  nameWithType: TestFixture<Startup>
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture<WelcomePageSample.Startup>
+  nameWithType.vb: TestFixture(Of Startup)
+  fullname.vb: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture(Of WelcomePageSample.Startup)
+  name.vb: TestFixture(Of Startup)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: WelcomePageSample.Startup
+    name: Startup
+    nameWithType: Startup
+    fullName: WelcomePageSample.Startup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: WelcomePageSample.Startup
+    name: Startup
+    nameWithType: Startup
+    fullName: WelcomePageSample.Startup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+  isExternal: false
+  name: TestFixture<TStartup>
+  nameWithType: TestFixture<TStartup>
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture<TStartup>
+  nameWithType.vb: TestFixture(Of TStartup)
+  fullname.vb: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture(Of TStartup)
+  name.vb: TestFixture(Of TStartup)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TStartup
+    nameWithType: TStartup
+    fullName: TStartup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TStartup
+    nameWithType: TStartup
+    fullName: TStartup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: false
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

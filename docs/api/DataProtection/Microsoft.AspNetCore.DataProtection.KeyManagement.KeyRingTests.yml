@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  id: KeyRingTests
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement
+  children:
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyId_Prop
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo
+  langs:
+  - csharp
+  - vb
+  name: KeyRingTests
+  nameWithType: KeyRingTests
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: KeyRingTests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: public class KeyRingTests
+    content.vb: Public Class KeyRingTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred
+  id: DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  langs:
+  - csharp
+  - vb
+  name: DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred()
+  nameWithType: KeyRingTests.DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DefaultAuthenticatedEncryptor_Prop_InstantiationIsDeferred
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyId_Prop
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyId_Prop
+  id: DefaultKeyId_Prop
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  langs:
+  - csharp
+  - vb
+  name: DefaultKeyId_Prop()
+  nameWithType: KeyRingTests.DefaultKeyId_Prop()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyId_Prop()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DefaultKeyId_Prop
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DefaultKeyId_Prop()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DefaultKeyId_Prop
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys
+  id: DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  langs:
+  - csharp
+  - vb
+  name: DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys()
+  nameWithType: KeyRingTests.DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+    startLine: 46
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DefaultKeyIdAndEncryptor_IfDefaultKeyNotPresentInAllKeys
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo
+  id: GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
+  langs:
+  - csharp
+  - vb
+  name: GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo()
+  nameWithType: KeyRingTests.GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests.GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingTests.cs
+    startLine: 63
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAuthenticatedEncryptorByKeyId_DefersInstantiation_AndReturnsRevocationInfo
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement
+  commentId: N:Microsoft.AspNetCore.DataProtection.KeyManagement
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.KeyManagement
+  nameWithType: Microsoft.AspNetCore.DataProtection.KeyManagement
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

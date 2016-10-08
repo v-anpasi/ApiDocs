@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SqlServerCacheConcurrencySample
+  commentId: N:SqlServerCacheConcurrencySample
+  id: SqlServerCacheConcurrencySample
+  children:
+  - SqlServerCacheConcurrencySample.Program
+  langs:
+  - csharp
+  - vb
+  name: SqlServerCacheConcurrencySample
+  nameWithType: SqlServerCacheConcurrencySample
+  fullName: SqlServerCacheConcurrencySample
+  type: Namespace
+  assemblies:
+  - SqlServerCacheConcurencySample
+references:
+- uid: SqlServerCacheConcurrencySample.Program
+  commentId: T:SqlServerCacheConcurrencySample.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: SqlServerCacheConcurrencySample.Program

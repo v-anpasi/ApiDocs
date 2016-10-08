@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: SampleStartups.IMyCustomService
+  commentId: T:SampleStartups.IMyCustomService
+  id: IMyCustomService
+  parent: SampleStartups
+  children:
+  - SampleStartups.IMyCustomService.Go
+  langs:
+  - csharp
+  - vb
+  name: IMyCustomService
+  nameWithType: IMyCustomService
+  fullName: SampleStartups.IMyCustomService
+  type: Interface
+  source:
+    remote:
+      path: samples/SampleStartups/StartupFullControl.cs
+      branch: master
+      repo: https://github.com/aspnet/Hosting.git
+    id: IMyCustomService
+    path: samples/SampleStartups/StartupFullControl.cs
+    startLine: 62
+  assemblies:
+  - SampleStartups
+  namespace: SampleStartups
+  syntax:
+    content: public interface IMyCustomService
+    content.vb: Public Interface IMyCustomService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SampleStartups.IMyCustomService.Go
+  commentId: M:SampleStartups.IMyCustomService.Go
+  id: Go
+  parent: SampleStartups.IMyCustomService
+  langs:
+  - csharp
+  - vb
+  name: Go()
+  nameWithType: IMyCustomService.Go()
+  fullName: SampleStartups.IMyCustomService.Go()
+  type: Method
+  source:
+    remote:
+      path: samples/SampleStartups/StartupFullControl.cs
+      branch: master
+      repo: https://github.com/aspnet/Hosting.git
+    id: Go
+    path: samples/SampleStartups/StartupFullControl.cs
+    startLine: 64
+  assemblies:
+  - SampleStartups
+  namespace: SampleStartups
+  syntax:
+    content: void Go()
+    content.vb: Sub Go
+references:
+- uid: SampleStartups
+  commentId: N:SampleStartups
+  isExternal: false
+  name: SampleStartups
+  nameWithType: SampleStartups
+  fullName: SampleStartups

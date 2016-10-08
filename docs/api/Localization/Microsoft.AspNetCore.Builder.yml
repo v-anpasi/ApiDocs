@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  id: Microsoft.AspNetCore.Builder
+  children:
+  - Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  - Microsoft.AspNetCore.Builder.RequestLocalizationOptions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Localization
+references:
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  isExternal: false
+  name: ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.RequestLocalizationOptions
+  commentId: T:Microsoft.AspNetCore.Builder.RequestLocalizationOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: RequestLocalizationOptions
+  nameWithType: RequestLocalizationOptions
+  fullName: Microsoft.AspNetCore.Builder.RequestLocalizationOptions
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder

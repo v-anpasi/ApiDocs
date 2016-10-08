@@ -1,0 +1,128 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.Extensions.FileProviders
+  name: Microsoft.Extensions.FileProviders
+  items:
+  - uid: Microsoft.Extensions.FileProviders.CompositeFileProvider
+    name: CompositeFileProvider
+  - uid: Microsoft.Extensions.FileProviders.EmbeddedFileProvider
+    name: EmbeddedFileProvider
+  - uid: Microsoft.Extensions.FileProviders.FileSystemInfoHelper
+    name: FileSystemInfoHelper
+  - uid: Microsoft.Extensions.FileProviders.IDirectoryContents
+    name: IDirectoryContents
+  - uid: Microsoft.Extensions.FileProviders.IFileInfo
+    name: IFileInfo
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+  - uid: Microsoft.Extensions.FileProviders.NotFoundDirectoryContents
+    name: NotFoundDirectoryContents
+  - uid: Microsoft.Extensions.FileProviders.NotFoundFileInfo
+    name: NotFoundFileInfo
+  - uid: Microsoft.Extensions.FileProviders.NullChangeToken
+    name: NullChangeToken
+  - uid: Microsoft.Extensions.FileProviders.NullFileProvider
+    name: NullFileProvider
+  - uid: Microsoft.Extensions.FileProviders.PhysicalFileProvider
+    name: PhysicalFileProvider
+- uid: Microsoft.Extensions.FileProviders.Composite
+  name: Microsoft.Extensions.FileProviders.Composite
+  items:
+  - uid: Microsoft.Extensions.FileProviders.Composite.CompositeDirectoryContents
+    name: CompositeDirectoryContents
+- uid: Microsoft.Extensions.FileProviders.Embedded
+  name: Microsoft.Extensions.FileProviders.Embedded
+  items:
+  - uid: Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo
+    name: EmbeddedResourceFileInfo
+- uid: Microsoft.Extensions.FileProviders.Physical
+  name: Microsoft.Extensions.FileProviders.Physical
+  items:
+  - uid: Microsoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo
+    name: PhysicalDirectoryInfo
+  - uid: Microsoft.Extensions.FileProviders.Physical.PhysicalFileInfo
+    name: PhysicalFileInfo
+  - uid: Microsoft.Extensions.FileProviders.Physical.PhysicalFilesWatcher
+    name: PhysicalFilesWatcher
+  - uid: Microsoft.Extensions.FileProviders.Physical.PollingFileChangeToken
+    name: PollingFileChangeToken
+- uid: Microsoft.Extensions.FileSystemGlobbing
+  name: Microsoft.Extensions.FileSystemGlobbing
+  items:
+  - uid: Microsoft.Extensions.FileSystemGlobbing.FilePatternMatch
+    name: FilePatternMatch
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Matcher
+    name: Matcher
+  - uid: Microsoft.Extensions.FileSystemGlobbing.MatcherExtensions
+    name: MatcherExtensions
+  - uid: Microsoft.Extensions.FileSystemGlobbing.PatternMatchingResult
+    name: PatternMatchingResult
+- uid: Microsoft.Extensions.FileSystemGlobbing.Abstractions
+  name: Microsoft.Extensions.FileSystemGlobbing.Abstractions
+  items:
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Abstractions.DirectoryInfoBase
+    name: DirectoryInfoBase
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Abstractions.DirectoryInfoWrapper
+    name: DirectoryInfoWrapper
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Abstractions.FileInfoBase
+    name: FileInfoBase
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Abstractions.FileInfoWrapper
+    name: FileInfoWrapper
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Abstractions.FileSystemInfoBase
+    name: FileSystemInfoBase
+- uid: Microsoft.Extensions.FileSystemGlobbing.Internal
+  name: Microsoft.Extensions.FileSystemGlobbing.Internal
+  items:
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.ILinearPattern
+    name: ILinearPattern
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment
+    name: IPathSegment
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.IPattern
+    name: IPattern
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.IPatternContext
+    name: IPatternContext
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.IRaggedPattern
+    name: IRaggedPattern
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.MatcherContext
+    name: MatcherContext
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternTestResult
+    name: PatternTestResult
+- uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments
+  name: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments
+  items:
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.CurrentPathSegment
+    name: CurrentPathSegment
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.LiteralPathSegment
+    name: LiteralPathSegment
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.ParentPathSegment
+    name: ParentPathSegment
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.RecursiveWildcardSegment
+    name: RecursiveWildcardSegment
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.WildcardPathSegment
+    name: WildcardPathSegment
+- uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts
+  name: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts
+  items:
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContext`1
+    name: PatternContext<TFrame>
+    name.vb: PatternContext(Of TFrame)
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextLinear
+    name: PatternContextLinear
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextLinear.FrameData
+    name: PatternContextLinear.FrameData
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextLinearExclude
+    name: PatternContextLinearExclude
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextLinearInclude
+    name: PatternContextLinearInclude
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextRagged
+    name: PatternContextRagged
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextRagged.FrameData
+    name: PatternContextRagged.FrameData
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextRaggedExclude
+    name: PatternContextRaggedExclude
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextRaggedInclude
+    name: PatternContextRaggedInclude
+- uid: Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns
+  name: Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns
+  items:
+  - uid: Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns.PatternBuilder
+    name: PatternBuilder

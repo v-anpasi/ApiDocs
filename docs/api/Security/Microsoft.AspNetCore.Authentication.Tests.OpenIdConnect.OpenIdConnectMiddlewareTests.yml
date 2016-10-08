@@ -1,0 +1,1117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  id: OpenIdConnectMiddlewareTests
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  children:
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingMessage
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingState(System.String,System.String)
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillIssueHtmlFormWhenEnabled
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetDefaults
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetNonceAndStateCookies
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseEvents
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseOptionsProperties
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.NonceCookieExpirationTime
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutSettingMessage
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWith_Specific_RedirectUri_From_Authentication_Properites
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithCustomRedirectUri
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithDefaultRedirectUri
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.StateDataSet
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoClientId
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoConfigurationValues
+  langs:
+  - csharp
+  - vb
+  name: OpenIdConnectMiddlewareTests
+  nameWithType: OpenIdConnectMiddlewareTests
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: OpenIdConnectMiddlewareTests
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 26
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public class OpenIdConnectMiddlewareTests
+    content.vb: Public Class OpenIdConnectMiddlewareTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillIssueHtmlFormWhenEnabled
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillIssueHtmlFormWhenEnabled
+  id: ChallengeWillIssueHtmlFormWhenEnabled
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillIssueHtmlFormWhenEnabled()
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeWillIssueHtmlFormWhenEnabled()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillIssueHtmlFormWhenEnabled()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillIssueHtmlFormWhenEnabled
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 41
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillIssueHtmlFormWhenEnabled()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillIssueHtmlFormWhenEnabled As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetDefaults
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetDefaults
+  id: ChallengeWillSetDefaults
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillSetDefaults()
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeWillSetDefaults()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetDefaults()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillSetDefaults
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillSetDefaults()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillSetDefaults As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetNonceAndStateCookies
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetNonceAndStateCookies
+  id: ChallengeWillSetNonceAndStateCookies
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillSetNonceAndStateCookies()
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeWillSetNonceAndStateCookies()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillSetNonceAndStateCookies()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillSetNonceAndStateCookies
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 70
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillSetNonceAndStateCookies()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillSetNonceAndStateCookies As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseOptionsProperties
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseOptionsProperties
+  id: ChallengeWillUseOptionsProperties
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillUseOptionsProperties()
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeWillUseOptionsProperties()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseOptionsProperties()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillUseOptionsProperties
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 90
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillUseOptionsProperties()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillUseOptionsProperties As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingMessage
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingMessage
+  id: ChallengeSettingMessage
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeSettingMessage()
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeSettingMessage()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingMessage()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeSettingMessage
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 105
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  summary: "\nTests RedirectForAuthenticationContext replaces the OpenIdConnectMesssage correctly.\n"
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeSettingMessage()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeSettingMessage As Task
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutSettingMessage
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutSettingMessage
+  id: SignOutSettingMessage
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutSettingMessage()
+  nameWithType: OpenIdConnectMiddlewareTests.SignOutSettingMessage()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutSettingMessage()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutSettingMessage
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 127
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  summary: "\nTests RedirectForSignOutContext replaces the OpenIdConnectMesssage correctly.\n"
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutSettingMessage()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutSettingMessage As Task
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingState(System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingState(System.String,System.String)
+  id: ChallengeSettingState(System.String,System.String)
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeSettingState(String, String)
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeSettingState(String, String)
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeSettingState(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeSettingState
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 197
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  summary: "\nTests for users who want to add 'state'. There are two ways to do it.\n1. Users set 'state' (OpenIdConnectMessage.State) in the event. The runtime appends to that state.\n2. Users add to the AuthenticationProperties (context.AuthenticationProperties), values will be serialized.\n"
+  example: []
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("StateDataSet", new object[]{})]
+
+      public Task ChallengeSettingState(string userState, string challenge)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("StateDataSet", New Object() {})>
+
+      Public Function ChallengeSettingState(userState As String, challenge As String) As Task
+    parameters:
+    - id: userState
+      type: System.String
+    - id: challenge
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.StateDataSet
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.StateDataSet
+  id: StateDataSet
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: StateDataSet
+  nameWithType: OpenIdConnectMiddlewareTests.StateDataSet
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.StateDataSet
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: StateDataSet
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 238
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public static TheoryData<string, string> StateDataSet { get; }
+    content.vb: Public Shared ReadOnly Property StateDataSet As TheoryData(Of String, String)
+    parameters: []
+    return:
+      type: Xunit.TheoryData{System.String,System.String}
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseEvents
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseEvents
+  id: ChallengeWillUseEvents
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillUseEvents()
+  nameWithType: OpenIdConnectMiddlewareTests.ChallengeWillUseEvents()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ChallengeWillUseEvents()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillUseEvents
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 254
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillUseEvents()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillUseEvents As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithDefaultRedirectUri
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithDefaultRedirectUri
+  id: SignOutWithDefaultRedirectUri
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutWithDefaultRedirectUri()
+  nameWithType: OpenIdConnectMiddlewareTests.SignOutWithDefaultRedirectUri()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithDefaultRedirectUri()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutWithDefaultRedirectUri
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 329
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutWithDefaultRedirectUri()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutWithDefaultRedirectUri As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithCustomRedirectUri
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithCustomRedirectUri
+  id: SignOutWithCustomRedirectUri
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutWithCustomRedirectUri()
+  nameWithType: OpenIdConnectMiddlewareTests.SignOutWithCustomRedirectUri()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWithCustomRedirectUri()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutWithCustomRedirectUri
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 345
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutWithCustomRedirectUri()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutWithCustomRedirectUri As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWith_Specific_RedirectUri_From_Authentication_Properites
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWith_Specific_RedirectUri_From_Authentication_Properites
+  id: SignOutWith_Specific_RedirectUri_From_Authentication_Properites
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutWith_Specific_RedirectUri_From_Authentication_Properites()
+  nameWithType: OpenIdConnectMiddlewareTests.SignOutWith_Specific_RedirectUri_From_Authentication_Properites()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.SignOutWith_Specific_RedirectUri_From_Authentication_Properites()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutWith_Specific_RedirectUri_From_Authentication_Properites
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 362
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutWith_Specific_RedirectUri_From_Authentication_Properites()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutWith_Specific_RedirectUri_From_Authentication_Properites As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.NonceCookieExpirationTime
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.NonceCookieExpirationTime
+  id: NonceCookieExpirationTime
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: NonceCookieExpirationTime()
+  nameWithType: OpenIdConnectMiddlewareTests.NonceCookieExpirationTime()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.NonceCookieExpirationTime()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: NonceCookieExpirationTime
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 502
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NonceCookieExpirationTime()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NonceCookieExpirationTime
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoClientId
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoClientId
+  id: ThrowsWithNoClientId
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowsWithNoClientId()
+  nameWithType: OpenIdConnectMiddlewareTests.ThrowsWithNoClientId()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoClientId()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ThrowsWithNoClientId
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 555
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsWithNoClientId()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsWithNoClientId
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoConfigurationValues
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoConfigurationValues
+  id: ThrowsWithNoConfigurationValues
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowsWithNoConfigurationValues()
+  nameWithType: OpenIdConnectMiddlewareTests.ThrowsWithNoConfigurationValues()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests.ThrowsWithNoConfigurationValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ThrowsWithNoConfigurationValues
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/OpenIdConnectMiddlewareTests.cs
+    startLine: 586
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsWithNoConfigurationValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsWithNoConfigurationValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  commentId: N:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  isExternal: false
+  name: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  nameWithType: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Xunit.TheoryData{System.String,System.String}
+  commentId: T:Xunit.TheoryData{System.String,System.String}
+  parent: Xunit
+  definition: Xunit.TheoryData`2
+  name: TheoryData<String, String>
+  nameWithType: TheoryData<String, String>
+  fullName: Xunit.TheoryData<System.String, System.String>
+  nameWithType.vb: TheoryData(Of String, String)
+  fullname.vb: Xunit.TheoryData(Of System.String, System.String)
+  name.vb: TheoryData(Of String, String)
+  spec.csharp:
+  - uid: Xunit.TheoryData`2
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.TheoryData`2
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit.TheoryData`2
+  commentId: T:Xunit.TheoryData`2
+  isExternal: true
+  name: TheoryData<T1, T2>
+  nameWithType: TheoryData<T1, T2>
+  fullName: Xunit.TheoryData<T1, T2>
+  nameWithType.vb: TheoryData(Of T1, T2)
+  fullname.vb: Xunit.TheoryData(Of T1, T2)
+  name.vb: TheoryData(Of T1, T2)
+  spec.csharp:
+  - uid: Xunit.TheoryData`2
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.TheoryData`2
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit
+  commentId: N:Xunit
+  isExternal: false
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit

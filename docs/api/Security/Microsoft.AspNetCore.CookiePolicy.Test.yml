@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.CookiePolicy.Test
+  commentId: N:Microsoft.AspNetCore.CookiePolicy.Test
+  id: Microsoft.AspNetCore.CookiePolicy.Test
+  children:
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.CookiePolicy.Test
+  nameWithType: Microsoft.AspNetCore.CookiePolicy.Test
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+references:
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  commentId: T:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  isExternal: false
+  name: CookiePolicyTests
+  nameWithType: CookiePolicyTests
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests

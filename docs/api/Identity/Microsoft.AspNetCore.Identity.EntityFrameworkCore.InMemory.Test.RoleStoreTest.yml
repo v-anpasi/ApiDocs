@@ -1,0 +1,566 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  id: RoleStoreTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateRoleWithSingletonManager
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateUsingAddRoleManager
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanUpdateRoleName
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStoreMethodsThrowWhenDisposedTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStorePublicNullCheckTest
+  langs:
+  - csharp
+  - vb
+  name: RoleStoreTest
+  nameWithType: RoleStoreTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleStoreTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: public class RoleStoreTest
+    content.vb: Public Class RoleStoreTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateUsingAddRoleManager
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateUsingAddRoleManager
+  id: CanCreateUsingAddRoleManager
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  langs:
+  - csharp
+  - vb
+  name: CanCreateUsingAddRoleManager()
+  nameWithType: RoleStoreTest.CanCreateUsingAddRoleManager()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateUsingAddRoleManager()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanCreateUsingAddRoleManager
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanCreateUsingAddRoleManager()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanCreateUsingAddRoleManager As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateRoleWithSingletonManager
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateRoleWithSingletonManager
+  id: CanCreateRoleWithSingletonManager
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  langs:
+  - csharp
+  - vb
+  name: CanCreateRoleWithSingletonManager()
+  nameWithType: RoleStoreTest.CanCreateRoleWithSingletonManager()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanCreateRoleWithSingletonManager()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanCreateRoleWithSingletonManager
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+    startLine: 23
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanCreateRoleWithSingletonManager()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanCreateRoleWithSingletonManager As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStoreMethodsThrowWhenDisposedTest
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStoreMethodsThrowWhenDisposedTest
+  id: RoleStoreMethodsThrowWhenDisposedTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  langs:
+  - csharp
+  - vb
+  name: RoleStoreMethodsThrowWhenDisposedTest()
+  nameWithType: RoleStoreTest.RoleStoreMethodsThrowWhenDisposedTest()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStoreMethodsThrowWhenDisposedTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleStoreMethodsThrowWhenDisposedTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+    startLine: 37
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RoleStoreMethodsThrowWhenDisposedTest()
+    content.vb: >-
+      <Fact>
+
+      Public Function RoleStoreMethodsThrowWhenDisposedTest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStorePublicNullCheckTest
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStorePublicNullCheckTest
+  id: RoleStorePublicNullCheckTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  langs:
+  - csharp
+  - vb
+  name: RoleStorePublicNullCheckTest()
+  nameWithType: RoleStoreTest.RoleStorePublicNullCheckTest()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.RoleStorePublicNullCheckTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleStorePublicNullCheckTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+    startLine: 52
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RoleStorePublicNullCheckTest()
+    content.vb: >-
+      <Fact>
+
+      Public Function RoleStorePublicNullCheckTest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanUpdateRoleName
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanUpdateRoleName
+  id: CanUpdateRoleName
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateRoleName()
+  nameWithType: RoleStoreTest.CanUpdateRoleName()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest.CanUpdateRoleName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanUpdateRoleName
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/RoleStoreTest.cs
+    startLine: 65
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanUpdateRoleName()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanUpdateRoleName As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.Test.Shared
+  commentId: N:Microsoft.AspNetCore.DataProtection.Test.Shared
+  id: Microsoft.AspNetCore.DataProtection.Test.Shared
+  children:
+  - Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindows8OrLaterAttribute
+  - Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindowsAttribute
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.DataProtection.Test.Shared
+  nameWithType: Microsoft.AspNetCore.DataProtection.Test.Shared
+  fullName: Microsoft.AspNetCore.DataProtection.Test.Shared
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.KeyDerivation.Test
+references:
+- uid: Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindows8OrLaterAttribute
+  commentId: T:Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindows8OrLaterAttribute
+  isExternal: false
+  name: ConditionalRunTestOnlyOnWindows8OrLaterAttribute
+  nameWithType: ConditionalRunTestOnlyOnWindows8OrLaterAttribute
+  fullName: Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindows8OrLaterAttribute
+- uid: Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindowsAttribute
+  commentId: T:Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindowsAttribute
+  isExternal: false
+  name: ConditionalRunTestOnlyOnWindowsAttribute
+  nameWithType: ConditionalRunTestOnlyOnWindowsAttribute
+  fullName: Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindowsAttribute

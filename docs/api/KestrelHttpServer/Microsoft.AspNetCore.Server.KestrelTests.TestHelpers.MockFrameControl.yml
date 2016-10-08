@@ -1,0 +1,891 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  id: MockFrameControl
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Flush
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.FlushAsync(System.Threading.CancellationToken)
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.ProduceContinue
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Write(System.ArraySegment{System.Byte})
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: MockFrameControl
+  nameWithType: MockFrameControl
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: MockFrameControl
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: 'public class MockFrameControl : IFrameControl'
+    content.vb: >-
+      Public Class MockFrameControl
+          Implements IFrameControl
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Flush
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Flush
+  id: Flush
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: MockFrameControl.Flush()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Flush()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Flush
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.FlushAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.FlushAsync(System.Threading.CancellationToken)
+  id: FlushAsync(System.Threading.CancellationToken)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync(CancellationToken)
+  nameWithType: MockFrameControl.FlushAsync(CancellationToken)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.FlushAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: FlushAsync
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public Task FlushAsync(CancellationToken cancellationToken)
+    content.vb: Public Function FlushAsync(cancellationToken As CancellationToken) As Task
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.ProduceContinue
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.ProduceContinue
+  id: ProduceContinue
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  langs:
+  - csharp
+  - vb
+  name: ProduceContinue()
+  nameWithType: MockFrameControl.ProduceContinue()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.ProduceContinue()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ProduceContinue
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public void ProduceContinue()
+    content.vb: Public Sub ProduceContinue
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Write(System.ArraySegment{System.Byte})
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Write(System.ArraySegment{System.Byte})
+  id: Write(System.ArraySegment{System.Byte})
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  langs:
+  - csharp
+  - vb
+  name: Write(ArraySegment<Byte>)
+  nameWithType: MockFrameControl.Write(ArraySegment<Byte>)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Write(System.ArraySegment<System.Byte>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Write
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+    startLine: 26
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public void Write(ArraySegment<byte> data)
+    content.vb: Public Sub Write(data As ArraySegment(Of Byte))
+    parameters:
+    - id: data
+      type: System.ArraySegment{System.Byte}
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment{System.Byte})
+  nameWithType.vb: MockFrameControl.Write(ArraySegment(Of Byte))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.Write(System.ArraySegment(Of System.Byte))
+  name.vb: Write(ArraySegment(Of Byte))
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  id: WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+  langs:
+  - csharp
+  - vb
+  name: WriteAsync(ArraySegment<Byte>, CancellationToken)
+  nameWithType: MockFrameControl.WriteAsync(ArraySegment<Byte>, CancellationToken)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.WriteAsync(System.ArraySegment<System.Byte>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: WriteAsync
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockFrameControl.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public Task WriteAsync(ArraySegment<byte> data, CancellationToken cancellationToken)
+    content.vb: Public Function WriteAsync(data As ArraySegment(Of Byte), cancellationToken As CancellationToken) As Task
+    parameters:
+    - id: data
+      type: System.ArraySegment{System.Byte}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  nameWithType.vb: MockFrameControl.WriteAsync(ArraySegment(Of Byte), CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl.WriteAsync(System.ArraySegment(Of System.Byte), System.Threading.CancellationToken)
+  name.vb: WriteAsync(ArraySegment(Of Byte), CancellationToken)
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: IFrameControl
+  nameWithType: IFrameControl
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  commentId: N:Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  nameWithType: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  isExternal: false
+  name: Flush()
+  nameWithType: IFrameControl.Flush()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+    name: Flush
+    nameWithType: IFrameControl.Flush
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+    name: Flush
+    nameWithType: IFrameControl.Flush
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Flush
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync(System.Threading.CancellationToken)
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  isExternal: true
+  name: FlushAsync(CancellationToken)
+  nameWithType: IFrameControl.FlushAsync(CancellationToken)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync(System.Threading.CancellationToken)
+    name: FlushAsync
+    nameWithType: IFrameControl.FlushAsync
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync(System.Threading.CancellationToken)
+    name: FlushAsync
+    nameWithType: IFrameControl.FlushAsync
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: false
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  isExternal: false
+  name: ProduceContinue()
+  nameWithType: IFrameControl.ProduceContinue()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+    name: ProduceContinue
+    nameWithType: IFrameControl.ProduceContinue
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+    name: ProduceContinue
+    nameWithType: IFrameControl.ProduceContinue
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.ProduceContinue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment{System.Byte})
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment{System.Byte})
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  isExternal: true
+  name: Write(ArraySegment<Byte>)
+  nameWithType: IFrameControl.Write(ArraySegment<Byte>)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment<System.Byte>)
+  nameWithType.vb: IFrameControl.Write(ArraySegment(Of Byte))
+  fullname.vb: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment(Of System.Byte))
+  name.vb: Write(ArraySegment(Of Byte))
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment{System.Byte})
+    name: Write
+    nameWithType: IFrameControl.Write
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write(System.ArraySegment{System.Byte})
+    name: Write
+    nameWithType: IFrameControl.Write
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ArraySegment{System.Byte}
+  commentId: T:System.ArraySegment{System.Byte}
+  parent: System
+  definition: System.ArraySegment`1
+  name: ArraySegment<Byte>
+  nameWithType: ArraySegment<Byte>
+  fullName: System.ArraySegment<System.Byte>
+  nameWithType.vb: ArraySegment(Of Byte)
+  fullname.vb: System.ArraySegment(Of System.Byte)
+  name.vb: ArraySegment(Of Byte)
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ArraySegment`1
+  commentId: T:System.ArraySegment`1
+  isExternal: true
+  name: ArraySegment<T>
+  nameWithType: ArraySegment<T>
+  fullName: System.ArraySegment<T>
+  nameWithType.vb: ArraySegment(Of T)
+  fullname.vb: System.ArraySegment(Of T)
+  name.vb: ArraySegment(Of T)
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+  isExternal: true
+  name: WriteAsync(ArraySegment<Byte>, CancellationToken)
+  nameWithType: IFrameControl.WriteAsync(ArraySegment<Byte>, CancellationToken)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment<System.Byte>, System.Threading.CancellationToken)
+  nameWithType.vb: IFrameControl.WriteAsync(ArraySegment(Of Byte), CancellationToken)
+  fullname.vb: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment(Of System.Byte), System.Threading.CancellationToken)
+  name.vb: WriteAsync(ArraySegment(Of Byte), CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+    name: WriteAsync
+    nameWithType: IFrameControl.WriteAsync
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+    name: WriteAsync
+    nameWithType: IFrameControl.WriteAsync
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl.WriteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

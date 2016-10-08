@@ -1,0 +1,940 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest
+  commentId: T:Microsoft.Extensions.Logging.LoggerMessageTest
+  id: LoggerMessageTest
+  parent: Microsoft.Extensions.Logging
+  children:
+  - Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  - Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  - Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  - Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogMessage
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogMessages(System.Delegate,System.Int32)
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogMessagesData
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithOneParameter
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithoutAnyParameters
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithThreeParameters
+  - Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithTwoParameters
+  langs:
+  - csharp
+  - vb
+  name: LoggerMessageTest
+  nameWithType: LoggerMessageTest
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LoggerMessageTest
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: public class LoggerMessageTest
+    content.vb: Public Class LoggerMessageTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogMessage
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.LogMessage
+  id: LogMessage
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogMessage()
+  nameWithType: LoggerMessageTest.LogMessage()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogMessage()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogMessage
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogMessage()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogMessage
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithoutAnyParameters
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithoutAnyParameters
+  id: LogScope_WithoutAnyParameters
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogScope_WithoutAnyParameters()
+  nameWithType: LoggerMessageTest.LogScope_WithoutAnyParameters()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithoutAnyParameters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogScope_WithoutAnyParameters
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 48
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogScope_WithoutAnyParameters()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogScope_WithoutAnyParameters
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithOneParameter
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithOneParameter
+  id: LogScope_WithOneParameter
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogScope_WithOneParameter()
+  nameWithType: LoggerMessageTest.LogScope_WithOneParameter()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithOneParameter()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogScope_WithOneParameter
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 74
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogScope_WithOneParameter()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogScope_WithOneParameter
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithTwoParameters
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithTwoParameters
+  id: LogScope_WithTwoParameters
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogScope_WithTwoParameters()
+  nameWithType: LoggerMessageTest.LogScope_WithTwoParameters()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithTwoParameters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogScope_WithTwoParameters
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogScope_WithTwoParameters()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogScope_WithTwoParameters
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithThreeParameters
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithThreeParameters
+  id: LogScope_WithThreeParameters
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogScope_WithThreeParameters()
+  nameWithType: LoggerMessageTest.LogScope_WithThreeParameters()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogScope_WithThreeParameters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogScope_WithThreeParameters
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 132
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogScope_WithThreeParameters()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogScope_WithThreeParameters
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogMessages(System.Delegate,System.Int32)
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.LogMessages(System.Delegate,System.Int32)
+  id: LogMessages(System.Delegate,System.Int32)
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogMessages(Delegate, Int32)
+  nameWithType: LoggerMessageTest.LogMessages(Delegate, Int32)
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogMessages(System.Delegate, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogMessages
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 164
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("LogMessagesData", new object[]{})]
+
+      public void LogMessages(Delegate messageDelegate, int argumentCount)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("LogMessagesData", New Object() {})>
+
+      Public Sub LogMessages(messageDelegate As  Delegate, argumentCount As Integer)
+    parameters:
+    - id: messageDelegate
+      type: System.Delegate
+    - id: argumentCount
+      type: System.Int32
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  id: DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+  nameWithType: LoggerMessageTest.DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 194
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DefineMessage_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  id: DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(Int32)
+  nameWithType: LoggerMessageTest.DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(Int32)
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 209
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{1})]
+
+      [InlineData(new object[]{2})]
+
+      [InlineData(new object[]{3})]
+
+      [InlineData(new object[]{4})]
+
+      [InlineData(new object[]{5})]
+
+      [InlineData(new object[]{6})]
+
+      public void DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(int expectedNamedParameterCount)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {1})>
+
+      <InlineData(New Object() {2})>
+
+      <InlineData(New Object() {3})>
+
+      <InlineData(New Object() {4})>
+
+      <InlineData(New Object() {5})>
+
+      <InlineData(New Object() {6})>
+
+      Public Sub DefineMessage_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(expectedNamedParameterCount As Integer)
+    parameters:
+    - id: expectedNamedParameterCount
+      type: System.Int32
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  id: DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+  nameWithType: LoggerMessageTest.DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 259
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DefineScope_WithNoParameters_ThrowsException_WhenFormatString_HasNamedParameters
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  commentId: M:Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  id: DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(Int32)
+  nameWithType: LoggerMessageTest.DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(Int32)
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 274
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{1})]
+
+      [InlineData(new object[]{2})]
+
+      [InlineData(new object[]{3})]
+
+      public void DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(int expectedNamedParameterCount)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {1})>
+
+      <InlineData(New Object() {2})>
+
+      <InlineData(New Object() {3})>
+
+      Public Sub DefineScope_ThrowsException_WhenExpectedFormatStringParameterCount_NotFound(expectedNamedParameterCount As Integer)
+    parameters:
+    - id: expectedNamedParameterCount
+      type: System.Int32
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.LoggerMessageTest.LogMessagesData
+  commentId: P:Microsoft.Extensions.Logging.LoggerMessageTest.LogMessagesData
+  id: LogMessagesData
+  parent: Microsoft.Extensions.Logging.LoggerMessageTest
+  langs:
+  - csharp
+  - vb
+  name: LogMessagesData
+  nameWithType: LoggerMessageTest.LogMessagesData
+  fullName: Microsoft.Extensions.Logging.LoggerMessageTest.LogMessagesData
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogMessagesData
+    path: test/Microsoft.Extensions.Logging.Test/LoggerMessageTest.cs
+    startLine: 309
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: public static IEnumerable<object[]> LogMessagesData { get; }
+    content.vb: Public Shared ReadOnly Property LogMessagesData As IEnumerable(Of Object())
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object[]}
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: false
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Delegate
+  commentId: T:System.Delegate
+  parent: System
+  isExternal: true
+  name: Delegate
+  nameWithType: Delegate
+  fullName: System.Delegate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEnumerable{System.Object[]}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Object[]>
+  nameWithType: IEnumerable<Object[]>
+  fullName: System.Collections.Generic.IEnumerable<System.Object[]>
+  nameWithType.vb: IEnumerable(Of Object())
+  fullname.vb: System.Collections.Generic.IEnumerable(Of System.Object())
+  name.vb: IEnumerable(Of Object())
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

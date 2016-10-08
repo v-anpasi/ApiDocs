@@ -1,0 +1,172 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Hosting
+  name: Microsoft.AspNetCore.Hosting
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.ConventionBasedStartup
+    name: ConventionBasedStartup
+  - uid: Microsoft.AspNetCore.Hosting.DelegateStartup
+    name: DelegateStartup
+  - uid: Microsoft.AspNetCore.Hosting.EnvironmentName
+    name: EnvironmentName
+  - uid: Microsoft.AspNetCore.Hosting.HostingAbstractionsWebHostBuilderExtensions
+    name: HostingAbstractionsWebHostBuilderExtensions
+  - uid: Microsoft.AspNetCore.Hosting.HostingEnvironmentExtensions
+    name: HostingEnvironmentExtensions
+  - uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+    name: IApplicationLifetime
+  - uid: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+    name: IHostingEnvironment
+  - uid: Microsoft.AspNetCore.Hosting.IStartup
+    name: IStartup
+  - uid: Microsoft.AspNetCore.Hosting.IStartupFilter
+    name: IStartupFilter
+  - uid: Microsoft.AspNetCore.Hosting.IWebHost
+    name: IWebHost
+  - uid: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    name: IWebHostBuilder
+  - uid: Microsoft.AspNetCore.Hosting.StartupBase
+    name: StartupBase
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilder
+    name: WebHostBuilder
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderExtensions
+    name: WebHostBuilderExtensions
+  - uid: Microsoft.AspNetCore.Hosting.WebHostDefaults
+    name: WebHostDefaults
+  - uid: Microsoft.AspNetCore.Hosting.WebHostExtensions
+    name: WebHostExtensions
+- uid: Microsoft.AspNetCore.Hosting.Builder
+  name: Microsoft.AspNetCore.Hosting.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.Builder.ApplicationBuilderFactory
+    name: ApplicationBuilderFactory
+  - uid: Microsoft.AspNetCore.Hosting.Builder.IApplicationBuilderFactory
+    name: IApplicationBuilderFactory
+- uid: Microsoft.AspNetCore.Hosting.Internal
+  name: Microsoft.AspNetCore.Hosting.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime
+    name: ApplicationLifetime
+  - uid: Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter
+    name: AutoRequestServicesStartupFilter
+  - uid: Microsoft.AspNetCore.Hosting.Internal.ConfigureBuilder
+    name: ConfigureBuilder
+  - uid: Microsoft.AspNetCore.Hosting.Internal.ConfigureServicesBuilder
+    name: ConfigureServicesBuilder
+  - uid: Microsoft.AspNetCore.Hosting.Internal.HostingApplication
+    name: HostingApplication
+  - uid: Microsoft.AspNetCore.Hosting.Internal.HostingApplication.Context
+    name: HostingApplication.Context
+  - uid: Microsoft.AspNetCore.Hosting.Internal.HostingEnvironment
+    name: HostingEnvironment
+  - uid: Microsoft.AspNetCore.Hosting.Internal.HostingEnvironmentExtensions
+    name: HostingEnvironmentExtensions
+  - uid: Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware
+    name: RequestServicesContainerMiddleware
+  - uid: Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature
+    name: RequestServicesFeature
+  - uid: Microsoft.AspNetCore.Hosting.Internal.StartupLoader
+    name: StartupLoader
+  - uid: Microsoft.AspNetCore.Hosting.Internal.StartupMethods
+    name: StartupMethods
+  - uid: Microsoft.AspNetCore.Hosting.Internal.WebHost
+    name: WebHost
+  - uid: Microsoft.AspNetCore.Hosting.Internal.WebHostOptions
+    name: WebHostOptions
+- uid: Microsoft.AspNetCore.Hosting.Server
+  name: Microsoft.AspNetCore.Hosting.Server
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+    name: IHttpApplication<TContext>
+    name.vb: IHttpApplication(Of TContext)
+  - uid: Microsoft.AspNetCore.Hosting.Server.IServer
+    name: IServer
+- uid: Microsoft.AspNetCore.Hosting.Server.Features
+  name: Microsoft.AspNetCore.Hosting.Server.Features
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.Server.Features.IServerAddressesFeature
+    name: IServerAddressesFeature
+  - uid: Microsoft.AspNetCore.Hosting.Server.Features.ServerAddressesFeature
+    name: ServerAddressesFeature
+- uid: Microsoft.AspNetCore.Hosting.WindowsServices
+  name: Microsoft.AspNetCore.Hosting.WindowsServices
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.WindowsServices.WebHostService
+    name: WebHostService
+  - uid: Microsoft.AspNetCore.Hosting.WindowsServices.WebHostWindowsServiceExtensions
+    name: WebHostWindowsServiceExtensions
+- uid: Microsoft.AspNetCore.Server.Testing
+  name: Microsoft.AspNetCore.Server.Testing
+  items:
+  - uid: Microsoft.AspNetCore.Server.Testing.ApplicationDeployer
+    name: ApplicationDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.ApplicationDeployerFactory
+    name: ApplicationDeployerFactory
+  - uid: Microsoft.AspNetCore.Server.Testing.ApplicationType
+    name: ApplicationType
+  - uid: Microsoft.AspNetCore.Server.Testing.DeploymentParameters
+    name: DeploymentParameters
+  - uid: Microsoft.AspNetCore.Server.Testing.DeploymentResult
+    name: DeploymentResult
+  - uid: Microsoft.AspNetCore.Server.Testing.IApplicationDeployer
+    name: IApplicationDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.IISDeployer
+    name: IISDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.IISExpressDeployer
+    name: IISExpressDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.NginxDeployer
+    name: NginxDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.RemoteWindowsDeployer
+    name: RemoteWindowsDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.RemoteWindowsDeploymentParameters
+    name: RemoteWindowsDeploymentParameters
+  - uid: Microsoft.AspNetCore.Server.Testing.RetryHelper
+    name: RetryHelper
+  - uid: Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture
+    name: RuntimeArchitecture
+  - uid: Microsoft.AspNetCore.Server.Testing.RuntimeFlavor
+    name: RuntimeFlavor
+  - uid: Microsoft.AspNetCore.Server.Testing.SelfHostDeployer
+    name: SelfHostDeployer
+  - uid: Microsoft.AspNetCore.Server.Testing.ServerType
+    name: ServerType
+  - uid: Microsoft.AspNetCore.Server.Testing.SkipIfCurrentRuntimeIsCoreClrAttribute
+    name: SkipIfCurrentRuntimeIsCoreClrAttribute
+  - uid: Microsoft.AspNetCore.Server.Testing.SkipIfEnvironmentVariableNotEnabledAttribute
+    name: SkipIfEnvironmentVariableNotEnabledAttribute
+  - uid: Microsoft.AspNetCore.Server.Testing.SkipOn32BitOSAttribute
+    name: SkipOn32BitOSAttribute
+- uid: Microsoft.AspNetCore.Server.Testing.Common
+  name: Microsoft.AspNetCore.Server.Testing.Common
+  items:
+  - uid: Microsoft.AspNetCore.Server.Testing.Common.TestUriHelper
+    name: TestUriHelper
+- uid: Microsoft.AspNetCore.TestHost
+  name: Microsoft.AspNetCore.TestHost
+  items:
+  - uid: Microsoft.AspNetCore.TestHost.ClientHandler
+    name: ClientHandler
+  - uid: Microsoft.AspNetCore.TestHost.RequestBuilder
+    name: RequestBuilder
+  - uid: Microsoft.AspNetCore.TestHost.TestServer
+    name: TestServer
+  - uid: Microsoft.AspNetCore.TestHost.WebSocketClient
+    name: WebSocketClient
+- uid: SampleStartups
+  name: SampleStartups
+  items:
+  - uid: SampleStartups.IMyCustomService
+    name: IMyCustomService
+  - uid: SampleStartups.MyCustomService
+    name: MyCustomService
+  - uid: SampleStartups.MyHostLoggerProvider
+    name: MyHostLoggerProvider
+  - uid: SampleStartups.StartupBlockingOnStart
+    name: StartupBlockingOnStart
+  - uid: SampleStartups.StartupConfigureAddresses
+    name: StartupConfigureAddresses
+  - uid: SampleStartups.StartupExternallyControlled
+    name: StartupExternallyControlled
+  - uid: SampleStartups.StartupFullControl
+    name: StartupFullControl
+  - uid: SampleStartups.StartupHelloWorld
+    name: StartupHelloWorld

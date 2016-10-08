@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySamples
+  commentId: N:IdentitySamples
+  id: IdentitySamples
+  children:
+  - IdentitySamples.MessageServices
+  langs:
+  - csharp
+  - vb
+  name: IdentitySamples
+  nameWithType: IdentitySamples
+  fullName: IdentitySamples
+  type: Namespace
+  assemblies:
+  - IdentitySample.Mvc
+references:
+- uid: IdentitySamples.MessageServices
+  commentId: T:IdentitySamples.MessageServices
+  isExternal: false
+  name: MessageServices
+  nameWithType: MessageServices
+  fullName: IdentitySamples.MessageServices

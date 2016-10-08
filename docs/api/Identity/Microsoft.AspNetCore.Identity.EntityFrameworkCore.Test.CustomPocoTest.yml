@@ -1,0 +1,1000 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  id: CustomPocoTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserInt
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserIntViaSet
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameGuid
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameInt
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameIntWithSet
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameString
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CreateContext``1(System.Boolean)
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.GetContext``1
+  langs:
+  - csharp
+  - vb
+  name: CustomPocoTest
+  nameWithType: CustomPocoTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CustomPocoTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: 'public class CustomPocoTest : IClassFixture<ScratchDatabaseFixture>'
+    content.vb: >-
+      Public Class CustomPocoTest
+          Implements IClassFixture(Of ScratchDatabaseFixture)
+  inheritance:
+  - System.Object
+  implements:
+  - Xunit.IClassFixture{Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  id: '#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)'
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CustomPocoTest(ScratchDatabaseFixture)
+  nameWithType: CustomPocoTest.CustomPocoTest(ScratchDatabaseFixture)
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomPocoTest(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: public CustomPocoTest(ScratchDatabaseFixture fixture)
+    content.vb: Public Sub New(fixture As ScratchDatabaseFixture)
+    parameters:
+    - id: fixture
+      type: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.GetContext``1
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.GetContext``1
+  id: GetContext``1
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: GetContext<TKey>()
+  nameWithType: CustomPocoTest.GetContext<TKey>()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.GetContext<TKey>()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: GetContext
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 37
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: 'public CustomPocoTest.CustomDbContext<TKey> GetContext<TKey>()where TKey : IEquatable<TKey>'
+    content.vb: Public Function GetContext(Of TKey As IEquatable(Of TKey)) As CustomPocoTest.CustomDbContext(Of TKey)
+    typeParameters:
+    - id: TKey
+    return:
+      type: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext{{TKey}}
+  nameWithType.vb: CustomPocoTest.GetContext(Of TKey)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.GetContext(Of TKey)()
+  name.vb: GetContext(Of TKey)()
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CreateContext``1(System.Boolean)
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CreateContext``1(System.Boolean)
+  id: CreateContext``1(System.Boolean)
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CreateContext<TKey>(Boolean)
+  nameWithType: CustomPocoTest.CreateContext<TKey>(Boolean)
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CreateContext<TKey>(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CreateContext
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 42
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: 'public CustomPocoTest.CustomDbContext<TKey> CreateContext<TKey>(bool delete = false)where TKey : IEquatable<TKey>'
+    content.vb: Public Function CreateContext(Of TKey As IEquatable(Of TKey))(delete As Boolean = False) As CustomPocoTest.CustomDbContext(Of TKey)
+    parameters:
+    - id: delete
+      type: System.Boolean
+    typeParameters:
+    - id: TKey
+    return:
+      type: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext{{TKey}}
+  nameWithType.vb: CustomPocoTest.CreateContext(Of TKey)(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CreateContext(Of TKey)(System.Boolean)
+  name.vb: CreateContext(Of TKey)(Boolean)
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameGuid
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameGuid
+  id: CanUpdateNameGuid
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateNameGuid()
+  nameWithType: CustomPocoTest.CanUpdateNameGuid()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameGuid()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanUpdateNameGuid
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 53
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanUpdateNameGuid()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanUpdateNameGuid As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameString
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameString
+  id: CanUpdateNameString
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateNameString()
+  nameWithType: CustomPocoTest.CanUpdateNameString()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameString()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanUpdateNameString
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 73
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanUpdateNameString()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanUpdateNameString As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserInt
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserInt
+  id: CanCreateUserInt
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanCreateUserInt()
+  nameWithType: CustomPocoTest.CanCreateUserInt()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserInt()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanCreateUserInt
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 93
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanCreateUserInt()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanCreateUserInt As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserIntViaSet
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserIntViaSet
+  id: CanCreateUserIntViaSet
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanCreateUserIntViaSet()
+  nameWithType: CustomPocoTest.CanCreateUserIntViaSet()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanCreateUserIntViaSet()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanCreateUserIntViaSet
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 111
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanCreateUserIntViaSet()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanCreateUserIntViaSet As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameInt
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameInt
+  id: CanUpdateNameInt
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateNameInt()
+  nameWithType: CustomPocoTest.CanUpdateNameInt()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameInt()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanUpdateNameInt
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 130
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanUpdateNameInt()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanUpdateNameInt As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameIntWithSet
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameIntWithSet
+  id: CanUpdateNameIntWithSet
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateNameIntWithSet()
+  nameWithType: CustomPocoTest.CanUpdateNameIntWithSet()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CanUpdateNameIntWithSet()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanUpdateNameIntWithSet
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/CustomPocoTest.cs
+    startLine: 150
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanUpdateNameIntWithSet()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanUpdateNameIntWithSet As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xunit.IClassFixture{Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture}
+  commentId: T:Xunit.IClassFixture{Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture}
+  parent: Xunit
+  definition: Xunit.IClassFixture`1
+  name: IClassFixture<ScratchDatabaseFixture>
+  nameWithType: IClassFixture<ScratchDatabaseFixture>
+  fullName: Xunit.IClassFixture<Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture>
+  nameWithType.vb: IClassFixture(Of ScratchDatabaseFixture)
+  fullname.vb: Xunit.IClassFixture(Of Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  name.vb: IClassFixture(Of ScratchDatabaseFixture)
+  spec.csharp:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+    name: ScratchDatabaseFixture
+    nameWithType: ScratchDatabaseFixture
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+    name: ScratchDatabaseFixture
+    nameWithType: ScratchDatabaseFixture
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.IClassFixture`1
+  commentId: T:Xunit.IClassFixture`1
+  isExternal: true
+  name: IClassFixture<TFixture>
+  nameWithType: IClassFixture<TFixture>
+  fullName: Xunit.IClassFixture<TFixture>
+  nameWithType.vb: IClassFixture(Of TFixture)
+  fullname.vb: Xunit.IClassFixture(Of TFixture)
+  name.vb: IClassFixture(Of TFixture)
+  spec.csharp:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFixture
+    nameWithType: TFixture
+    fullName: TFixture
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFixture
+    nameWithType: TFixture
+    fullName: TFixture
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit
+  commentId: N:Xunit
+  isExternal: false
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: ScratchDatabaseFixture
+  nameWithType: ScratchDatabaseFixture
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext{{TKey}}
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext{``0}
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+  name: CustomPocoTest.CustomDbContext<TKey>
+  nameWithType: CustomPocoTest.CustomDbContext<TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext<TKey>
+  nameWithType.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext(Of TKey)
+  name.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext
+    nameWithType: CustomPocoTest.CustomDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext
+    nameWithType: CustomPocoTest.CustomDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+  isExternal: false
+  name: CustomPocoTest.CustomDbContext<TKey>
+  nameWithType: CustomPocoTest.CustomDbContext<TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext<TKey>
+  nameWithType.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext(Of TKey)
+  name.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext
+    nameWithType: CustomPocoTest.CustomDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext
+    nameWithType: CustomPocoTest.CustomDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

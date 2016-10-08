@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: LargeResponseApp
+  commentId: N:LargeResponseApp
+  id: LargeResponseApp
+  children:
+  - LargeResponseApp.Startup
+  langs:
+  - csharp
+  - vb
+  name: LargeResponseApp
+  nameWithType: LargeResponseApp
+  fullName: LargeResponseApp
+  type: Namespace
+  assemblies:
+  - LargeResponseApp
+references:
+- uid: LargeResponseApp.Startup
+  commentId: T:LargeResponseApp.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: LargeResponseApp.Startup

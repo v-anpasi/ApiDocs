@@ -1,0 +1,680 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  id: PathBaseTests
+  parent: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  children:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.DefaultPathBaseIsEmpty(System.String,System.String,System.String,System.String)
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseAndPathPreserveRequestCasing
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseCanHaveUTF8Characters
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseNeverEndsWithSlash(System.String,System.String,System.String,System.String)
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.RequestPathBaseIsServerPathBase(System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: PathBaseTests
+  nameWithType: PathBaseTests
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: PathBaseTests
+    path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  namespace: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  syntax:
+    content: public class PathBaseTests
+    content.vb: Public Class PathBaseTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.RequestPathBaseIsServerPathBase(System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.RequestPathBaseIsServerPathBase(System.String,System.String,System.String,System.String)
+  id: RequestPathBaseIsServerPathBase(System.String,System.String,System.String,System.String)
+  parent: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  langs:
+  - csharp
+  - vb
+  name: RequestPathBaseIsServerPathBase(String, String, String, String)
+  nameWithType: PathBaseTests.RequestPathBaseIsServerPathBase(String, String, String, String)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.RequestPathBaseIsServerPathBase(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestPathBaseIsServerPathBase
+    path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+    startLine: 16
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  namespace: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"/base", "/base", "/base", ""})]
+
+      [InlineData(new object[]{"/base", "/base/", "/base", "/"})]
+
+      [InlineData(new object[]{"/base", "/base/something", "/base", "/something"})]
+
+      [InlineData(new object[]{"/base", "/base/something/", "/base", "/something/"})]
+
+      [InlineData(new object[]{"/base/more", "/base/more", "/base/more", ""})]
+
+      [InlineData(new object[]{"/base/more", "/base/more/something", "/base/more", "/something"})]
+
+      [InlineData(new object[]{"/base/more", "/base/more/something/", "/base/more", "/something/"})]
+
+      public Task RequestPathBaseIsServerPathBase(string registerPathBase, string requestPath, string expectedPathBase, string expectedPath)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"/base", "/base", "/base", ""})>
+
+      <InlineData(New Object() {"/base", "/base/", "/base", "/"})>
+
+      <InlineData(New Object() {"/base", "/base/something", "/base", "/something"})>
+
+      <InlineData(New Object() {"/base", "/base/something/", "/base", "/something/"})>
+
+      <InlineData(New Object() {"/base/more", "/base/more", "/base/more", ""})>
+
+      <InlineData(New Object() {"/base/more", "/base/more/something", "/base/more", "/something"})>
+
+      <InlineData(New Object() {"/base/more", "/base/more/something/", "/base/more", "/something/"})>
+
+      Public Function RequestPathBaseIsServerPathBase(registerPathBase As String, requestPath As String, expectedPathBase As String, expectedPath As String) As Task
+    parameters:
+    - id: registerPathBase
+      type: System.String
+    - id: requestPath
+      type: System.String
+    - id: expectedPathBase
+      type: System.String
+    - id: expectedPath
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.DefaultPathBaseIsEmpty(System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.DefaultPathBaseIsEmpty(System.String,System.String,System.String,System.String)
+  id: DefaultPathBaseIsEmpty(System.String,System.String,System.String,System.String)
+  parent: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  langs:
+  - csharp
+  - vb
+  name: DefaultPathBaseIsEmpty(String, String, String, String)
+  nameWithType: PathBaseTests.DefaultPathBaseIsEmpty(String, String, String, String)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.DefaultPathBaseIsEmpty(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: DefaultPathBaseIsEmpty
+    path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+    startLine: 29
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  namespace: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"", "/", "", "/"})]
+
+      [InlineData(new object[]{"", "/something", "", "/something"})]
+
+      [InlineData(new object[]{"/", "/", "", "/"})]
+
+      [InlineData(new object[]{"/base", "/", "", "/"})]
+
+      [InlineData(new object[]{"/base", "/something", "", "/something"})]
+
+      [InlineData(new object[]{"/base", "/baseandsomething", "", "/baseandsomething"})]
+
+      [InlineData(new object[]{"/base", "/ba", "", "/ba"})]
+
+      [InlineData(new object[]{"/base", "/ba/se", "", "/ba/se"})]
+
+      public Task DefaultPathBaseIsEmpty(string registerPathBase, string requestPath, string expectedPathBase, string expectedPath)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"", "/", "", "/"})>
+
+      <InlineData(New Object() {"", "/something", "", "/something"})>
+
+      <InlineData(New Object() {"/", "/", "", "/"})>
+
+      <InlineData(New Object() {"/base", "/", "", "/"})>
+
+      <InlineData(New Object() {"/base", "/something", "", "/something"})>
+
+      <InlineData(New Object() {"/base", "/baseandsomething", "", "/baseandsomething"})>
+
+      <InlineData(New Object() {"/base", "/ba", "", "/ba"})>
+
+      <InlineData(New Object() {"/base", "/ba/se", "", "/ba/se"})>
+
+      Public Function DefaultPathBaseIsEmpty(registerPathBase As String, requestPath As String, expectedPathBase As String, expectedPath As String) As Task
+    parameters:
+    - id: registerPathBase
+      type: System.String
+    - id: requestPath
+      type: System.String
+    - id: expectedPathBase
+      type: System.String
+    - id: expectedPath
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseNeverEndsWithSlash(System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseNeverEndsWithSlash(System.String,System.String,System.String,System.String)
+  id: PathBaseNeverEndsWithSlash(System.String,System.String,System.String,System.String)
+  parent: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  langs:
+  - csharp
+  - vb
+  name: PathBaseNeverEndsWithSlash(String, String, String, String)
+  nameWithType: PathBaseTests.PathBaseNeverEndsWithSlash(String, String, String, String)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseNeverEndsWithSlash(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: PathBaseNeverEndsWithSlash
+    path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+    startLine: 43
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  namespace: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"", "/", "", "/"})]
+
+      [InlineData(new object[]{"/", "/", "", "/"})]
+
+      [InlineData(new object[]{"/base", "/base/", "/base", "/"})]
+
+      [InlineData(new object[]{"/base/", "/base", "/base", ""})]
+
+      [InlineData(new object[]{"/base/", "/base/", "/base", "/"})]
+
+      public Task PathBaseNeverEndsWithSlash(string registerPathBase, string requestPath, string expectedPathBase, string expectedPath)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"", "/", "", "/"})>
+
+      <InlineData(New Object() {"/", "/", "", "/"})>
+
+      <InlineData(New Object() {"/base", "/base/", "/base", "/"})>
+
+      <InlineData(New Object() {"/base/", "/base", "/base", ""})>
+
+      <InlineData(New Object() {"/base/", "/base/", "/base", "/"})>
+
+      Public Function PathBaseNeverEndsWithSlash(registerPathBase As String, requestPath As String, expectedPathBase As String, expectedPath As String) As Task
+    parameters:
+    - id: registerPathBase
+      type: System.String
+    - id: requestPath
+      type: System.String
+    - id: expectedPathBase
+      type: System.String
+    - id: expectedPath
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseAndPathPreserveRequestCasing
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseAndPathPreserveRequestCasing
+  id: PathBaseAndPathPreserveRequestCasing
+  parent: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  langs:
+  - csharp
+  - vb
+  name: PathBaseAndPathPreserveRequestCasing()
+  nameWithType: PathBaseTests.PathBaseAndPathPreserveRequestCasing()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseAndPathPreserveRequestCasing()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: PathBaseAndPathPreserveRequestCasing
+    path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+    startLine: 54
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  namespace: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task PathBaseAndPathPreserveRequestCasing()
+    content.vb: >-
+      <Fact>
+
+      Public Function PathBaseAndPathPreserveRequestCasing As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseCanHaveUTF8Characters
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseCanHaveUTF8Characters
+  id: PathBaseCanHaveUTF8Characters
+  parent: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+  langs:
+  - csharp
+  - vb
+  name: PathBaseCanHaveUTF8Characters()
+  nameWithType: PathBaseTests.PathBaseCanHaveUTF8Characters()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests.PathBaseCanHaveUTF8Characters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: PathBaseCanHaveUTF8Characters
+    path: test/Microsoft.AspNetCore.Server.Kestrel.FunctionalTests/PathBaseTests.cs
+    startLine: 60
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  namespace: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task PathBaseCanHaveUTF8Characters()
+    content.vb: >-
+      <Fact>
+
+      Public Function PathBaseCanHaveUTF8Characters As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  fullName: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

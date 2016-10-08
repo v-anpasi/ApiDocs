@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext
+  id: IdentityUserLoginWithContext
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext.Context
+  langs:
+  - csharp
+  - vb
+  name: IdentityUserLoginWithContext
+  nameWithType: IdentityUserLoginWithContext
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/InMemoryStoreWithGenericsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: IdentityUserLoginWithContext
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/InMemoryStoreWithGenericsTest.cs
+    startLine: 302
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: 'public class IdentityUserLoginWithContext : IdentityUserLogin<string>'
+    content.vb: >-
+      Public Class IdentityUserLoginWithContext
+          Inherits IdentityUserLogin(Of String)
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  inheritedMembers:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.LoginProvider
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.ProviderKey
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.ProviderDisplayName
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.UserId
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext.Context
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext.Context
+  id: Context
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: IdentityUserLoginWithContext.Context
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext.Context
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/InMemoryStoreWithGenericsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Context
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test/InMemoryStoreWithGenericsTest.cs
+    startLine: 304
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  syntax:
+    content: public string Context { get; set; }
+    content.vb: Public Property Context As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+  name: IdentityUserLogin<String>
+  nameWithType: IdentityUserLogin<String>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<System.String>
+  nameWithType.vb: IdentityUserLogin(Of String)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of System.String)
+  name.vb: IdentityUserLogin(Of String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+    name: IdentityUserLogin
+    nameWithType: IdentityUserLogin
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+    name: IdentityUserLogin
+    nameWithType: IdentityUserLogin
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.LoginProvider
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.LoginProvider
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.LoginProvider
+  name: LoginProvider
+  nameWithType: IdentityUserLogin<String>.LoginProvider
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<System.String>.LoginProvider
+  nameWithType.vb: IdentityUserLogin(Of String).LoginProvider
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of System.String).LoginProvider
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.ProviderKey
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.ProviderKey
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.ProviderKey
+  name: ProviderKey
+  nameWithType: IdentityUserLogin<String>.ProviderKey
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<System.String>.ProviderKey
+  nameWithType.vb: IdentityUserLogin(Of String).ProviderKey
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of System.String).ProviderKey
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.ProviderDisplayName
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.ProviderDisplayName
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.ProviderDisplayName
+  name: ProviderDisplayName
+  nameWithType: IdentityUserLogin<String>.ProviderDisplayName
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<System.String>.ProviderDisplayName
+  nameWithType.vb: IdentityUserLogin(Of String).ProviderDisplayName
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of System.String).ProviderDisplayName
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.UserId
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}.UserId
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin{System.String}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.UserId
+  name: UserId
+  nameWithType: IdentityUserLogin<String>.UserId
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<System.String>.UserId
+  nameWithType.vb: IdentityUserLogin(Of String).UserId
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of System.String).UserId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+  isExternal: false
+  name: IdentityUserLogin<TKey>
+  nameWithType: IdentityUserLogin<TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<TKey>
+  nameWithType.vb: IdentityUserLogin(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of TKey)
+  name.vb: IdentityUserLogin(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+    name: IdentityUserLogin
+    nameWithType: IdentityUserLogin
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+    name: IdentityUserLogin
+    nameWithType: IdentityUserLogin
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.LoginProvider
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.LoginProvider
+  isExternal: false
+  name: LoginProvider
+  nameWithType: IdentityUserLogin<TKey>.LoginProvider
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<TKey>.LoginProvider
+  nameWithType.vb: IdentityUserLogin(Of TKey).LoginProvider
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of TKey).LoginProvider
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.ProviderKey
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.ProviderKey
+  isExternal: false
+  name: ProviderKey
+  nameWithType: IdentityUserLogin<TKey>.ProviderKey
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<TKey>.ProviderKey
+  nameWithType.vb: IdentityUserLogin(Of TKey).ProviderKey
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of TKey).ProviderKey
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.ProviderDisplayName
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.ProviderDisplayName
+  isExternal: false
+  name: ProviderDisplayName
+  nameWithType: IdentityUserLogin<TKey>.ProviderDisplayName
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<TKey>.ProviderDisplayName
+  nameWithType.vb: IdentityUserLogin(Of TKey).ProviderDisplayName
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of TKey).ProviderDisplayName
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.UserId
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: IdentityUserLogin<TKey>.UserId
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<TKey>.UserId
+  nameWithType.vb: IdentityUserLogin(Of TKey).UserId
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin(Of TKey).UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  commentId: T:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  id: LoggerExtensionsTest
+  parent: Microsoft.Extensions.Logging.Test
+  children:
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.BeginScope_CreatesScope_WithFormatStringValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessage_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessageAndEventId_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValues_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndError_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndEventId_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesEventIdAndError_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndError_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndEventId_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageEventIdAndError_LogsCorrectValues
+  - Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageOnly_LogsCorrectValues
+  langs:
+  - csharp
+  - vb
+  name: LoggerExtensionsTest
+  nameWithType: LoggerExtensionsTest
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LoggerExtensionsTest
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: public class LoggerExtensionsTest
+    content.vb: Public Class LoggerExtensionsTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageOnly_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageOnly_LogsCorrectValues
+  id: MessageOnly_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: MessageOnly_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.MessageOnly_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageOnly_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: MessageOnly_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MessageOnly_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MessageOnly_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessage_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessage_LogsCorrectValues
+  id: FormatMessage_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: FormatMessage_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.FormatMessage_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessage_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: FormatMessage_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void FormatMessage_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub FormatMessage_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndEventId_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndEventId_LogsCorrectValues
+  id: MessageAndEventId_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: MessageAndEventId_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.MessageAndEventId_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndEventId_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: MessageAndEventId_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 135
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MessageAndEventId_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MessageAndEventId_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessageAndEventId_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessageAndEventId_LogsCorrectValues
+  id: FormatMessageAndEventId_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: FormatMessageAndEventId_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.FormatMessageAndEventId_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.FormatMessageAndEventId_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: FormatMessageAndEventId_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 190
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void FormatMessageAndEventId_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub FormatMessageAndEventId_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndError_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndError_LogsCorrectValues
+  id: MessageAndError_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: MessageAndError_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.MessageAndError_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageAndError_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: MessageAndError_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 245
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MessageAndError_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MessageAndError_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageEventIdAndError_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageEventIdAndError_LogsCorrectValues
+  id: MessageEventIdAndError_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: MessageEventIdAndError_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.MessageEventIdAndError_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.MessageEventIdAndError_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: MessageEventIdAndError_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 279
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MessageEventIdAndError_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MessageEventIdAndError_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValues_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValues_LogsCorrectValues
+  id: LogValues_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: LogValues_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.LogValues_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValues_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogValues_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 313
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogValues_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogValues_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndEventId_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndEventId_LogsCorrectValues
+  id: LogValuesAndEventId_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: LogValuesAndEventId_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.LogValuesAndEventId_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndEventId_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogValuesAndEventId_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 372
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogValuesAndEventId_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogValuesAndEventId_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndError_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndError_LogsCorrectValues
+  id: LogValuesAndError_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: LogValuesAndError_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.LogValuesAndError_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesAndError_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogValuesAndError_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 431
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogValuesAndError_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogValuesAndError_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesEventIdAndError_LogsCorrectValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesEventIdAndError_LogsCorrectValues
+  id: LogValuesEventIdAndError_LogsCorrectValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: LogValuesEventIdAndError_LogsCorrectValues()
+  nameWithType: LoggerExtensionsTest.LogValuesEventIdAndError_LogsCorrectValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.LogValuesEventIdAndError_LogsCorrectValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogValuesEventIdAndError_LogsCorrectValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 502
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogValuesEventIdAndError_LogsCorrectValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogValuesEventIdAndError_LogsCorrectValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.BeginScope_CreatesScope_WithFormatStringValues
+  commentId: M:Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.BeginScope_CreatesScope_WithFormatStringValues
+  id: BeginScope_CreatesScope_WithFormatStringValues
+  parent: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+  langs:
+  - csharp
+  - vb
+  name: BeginScope_CreatesScope_WithFormatStringValues()
+  nameWithType: LoggerExtensionsTest.BeginScope_CreatesScope_WithFormatStringValues()
+  fullName: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest.BeginScope_CreatesScope_WithFormatStringValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: BeginScope_CreatesScope_WithFormatStringValues
+    path: test/Microsoft.Extensions.Logging.Test/LoggerExtensionsTest.cs
+    startLine: 579
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void BeginScope_CreatesScope_WithFormatStringValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub BeginScope_CreatesScope_WithFormatStringValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Logging.Test
+  commentId: N:Microsoft.Extensions.Logging.Test
+  isExternal: false
+  name: Microsoft.Extensions.Logging.Test
+  nameWithType: Microsoft.Extensions.Logging.Test
+  fullName: Microsoft.Extensions.Logging.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,2094 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  commentId: T:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  id: DefaultAuthorizationServiceTests
+  parent: Microsoft.AspNetCore.Authorization.Test
+  children:
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_CustomRolePolicy
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_HasAnyClaimOfTypePolicy
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_PolicyCanAuthenticationSchemeWithNameClaim
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsAmongValues
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresent
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowWithNoAuthType
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldFailWhenAllRequirementsNotHandled
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimTypeIsNotPresent
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimValueIsNotPresent
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNoClaims
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNotCorrectAuthType
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfUserIsNull
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ThrowsWithUnknownPolicy
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeCombineThrowsOnUnknownPolicy
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeHandlerNotCalledWithNullResource
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanApproveAnyAuthenticatedUser
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeAllSuperuserOperations
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeOnlyAllowedOperations
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAssertionRequirement
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAsyncAssertionRequirement
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanBlockNonAuthenticatedUser
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanCombinePolicies
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanReplaceDefaultPolicyProvider
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireRoleWithDiffClaimType
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserName
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserNameWithDiffClaimType
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseDynamicPolicyProvider
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseValueTypeResource
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinedPoliciesWillFailIfExtraRequirementFails
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinePoliciesWillFailIfBasePolicyFails
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithHandlerSucceeds
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithNoHandlerFails
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.DoesNotCallHandlerWithWrongResourceType
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PassThroughRequirementWillSucceedWithoutCustomHandler(System.Boolean)
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PolicyThrowsWithNoRequirements
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RequireUserNameFailsForWrongUserName
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockNoRole
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockWrongRole
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireOneOfManyRoles
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireSingleRole
+  langs:
+  - csharp
+  - vb
+  name: DefaultAuthorizationServiceTests
+  nameWithType: DefaultAuthorizationServiceTests
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: DefaultAuthorizationServiceTests
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: public class DefaultAuthorizationServiceTests
+    content.vb: Public Class DefaultAuthorizationServiceTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeCombineThrowsOnUnknownPolicy
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeCombineThrowsOnUnknownPolicy
+  id: AuthorizeCombineThrowsOnUnknownPolicy
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: AuthorizeCombineThrowsOnUnknownPolicy()
+  nameWithType: DefaultAuthorizationServiceTests.AuthorizeCombineThrowsOnUnknownPolicy()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeCombineThrowsOnUnknownPolicy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: AuthorizeCombineThrowsOnUnknownPolicy
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task AuthorizeCombineThrowsOnUnknownPolicy()
+    content.vb: >-
+      <Fact>
+
+      Public Function AuthorizeCombineThrowsOnUnknownPolicy As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresent
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresent
+  id: Authorize_ShouldAllowIfClaimIsPresent
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldAllowIfClaimIsPresent()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresent()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldAllowIfClaimIsPresent
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 41
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldAllowIfClaimIsPresent()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldAllowIfClaimIsPresent As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType
+  id: Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 61
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsAmongValues
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsAmongValues
+  id: Authorize_ShouldAllowIfClaimIsAmongValues
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldAllowIfClaimIsAmongValues()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsAmongValues()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowIfClaimIsAmongValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldAllowIfClaimIsAmongValues
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 84
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldAllowIfClaimIsAmongValues()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldAllowIfClaimIsAmongValues As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldFailWhenAllRequirementsNotHandled
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldFailWhenAllRequirementsNotHandled
+  id: Authorize_ShouldFailWhenAllRequirementsNotHandled
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldFailWhenAllRequirementsNotHandled()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldFailWhenAllRequirementsNotHandled()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldFailWhenAllRequirementsNotHandled()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldFailWhenAllRequirementsNotHandled
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 111
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldFailWhenAllRequirementsNotHandled()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldFailWhenAllRequirementsNotHandled As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimTypeIsNotPresent
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimTypeIsNotPresent
+  id: Authorize_ShouldNotAllowIfClaimTypeIsNotPresent
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldNotAllowIfClaimTypeIsNotPresent()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimTypeIsNotPresent()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimTypeIsNotPresent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldNotAllowIfClaimTypeIsNotPresent
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 137
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldNotAllowIfClaimTypeIsNotPresent()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldNotAllowIfClaimTypeIsNotPresent As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimValueIsNotPresent
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimValueIsNotPresent
+  id: Authorize_ShouldNotAllowIfClaimValueIsNotPresent
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldNotAllowIfClaimValueIsNotPresent()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimValueIsNotPresent()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfClaimValueIsNotPresent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldNotAllowIfClaimValueIsNotPresent
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 163
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldNotAllowIfClaimValueIsNotPresent()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldNotAllowIfClaimValueIsNotPresent As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNoClaims
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNoClaims
+  id: Authorize_ShouldNotAllowIfNoClaims
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldNotAllowIfNoClaims()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNoClaims()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNoClaims()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldNotAllowIfNoClaims
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 189
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldNotAllowIfNoClaims()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldNotAllowIfNoClaims As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfUserIsNull
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfUserIsNull
+  id: Authorize_ShouldNotAllowIfUserIsNull
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldNotAllowIfUserIsNull()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfUserIsNull()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfUserIsNull()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldNotAllowIfUserIsNull
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 213
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldNotAllowIfUserIsNull()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldNotAllowIfUserIsNull As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNotCorrectAuthType
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNotCorrectAuthType
+  id: Authorize_ShouldNotAllowIfNotCorrectAuthType
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldNotAllowIfNotCorrectAuthType()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNotCorrectAuthType()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldNotAllowIfNotCorrectAuthType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldNotAllowIfNotCorrectAuthType
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 232
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldNotAllowIfNotCorrectAuthType()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldNotAllowIfNotCorrectAuthType As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowWithNoAuthType
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowWithNoAuthType
+  id: Authorize_ShouldAllowWithNoAuthType
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ShouldAllowWithNoAuthType()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ShouldAllowWithNoAuthType()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ShouldAllowWithNoAuthType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ShouldAllowWithNoAuthType
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 252
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ShouldAllowWithNoAuthType()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ShouldAllowWithNoAuthType As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ThrowsWithUnknownPolicy
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ThrowsWithUnknownPolicy
+  id: Authorize_ThrowsWithUnknownPolicy
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_ThrowsWithUnknownPolicy()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_ThrowsWithUnknownPolicy()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_ThrowsWithUnknownPolicy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_ThrowsWithUnknownPolicy
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 278
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_ThrowsWithUnknownPolicy()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_ThrowsWithUnknownPolicy As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_CustomRolePolicy
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_CustomRolePolicy
+  id: Authorize_CustomRolePolicy
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_CustomRolePolicy()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_CustomRolePolicy()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_CustomRolePolicy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_CustomRolePolicy
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 290
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_CustomRolePolicy()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_CustomRolePolicy As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_HasAnyClaimOfTypePolicy
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_HasAnyClaimOfTypePolicy
+  id: Authorize_HasAnyClaimOfTypePolicy
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_HasAnyClaimOfTypePolicy()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_HasAnyClaimOfTypePolicy()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_HasAnyClaimOfTypePolicy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_HasAnyClaimOfTypePolicy
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 313
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_HasAnyClaimOfTypePolicy()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_HasAnyClaimOfTypePolicy As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_PolicyCanAuthenticationSchemeWithNameClaim
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_PolicyCanAuthenticationSchemeWithNameClaim
+  id: Authorize_PolicyCanAuthenticationSchemeWithNameClaim
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: Authorize_PolicyCanAuthenticationSchemeWithNameClaim()
+  nameWithType: DefaultAuthorizationServiceTests.Authorize_PolicyCanAuthenticationSchemeWithNameClaim()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Authorize_PolicyCanAuthenticationSchemeWithNameClaim()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authorize_PolicyCanAuthenticationSchemeWithNameClaim
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 334
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Authorize_PolicyCanAuthenticationSchemeWithNameClaim()
+    content.vb: >-
+      <Fact>
+
+      Public Function Authorize_PolicyCanAuthenticationSchemeWithNameClaim As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireSingleRole
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireSingleRole
+  id: RolePolicyCanRequireSingleRole
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: RolePolicyCanRequireSingleRole()
+  nameWithType: DefaultAuthorizationServiceTests.RolePolicyCanRequireSingleRole()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireSingleRole()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RolePolicyCanRequireSingleRole
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 351
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RolePolicyCanRequireSingleRole()
+    content.vb: >-
+      <Fact>
+
+      Public Function RolePolicyCanRequireSingleRole As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireOneOfManyRoles
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireOneOfManyRoles
+  id: RolePolicyCanRequireOneOfManyRoles
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: RolePolicyCanRequireOneOfManyRoles()
+  nameWithType: DefaultAuthorizationServiceTests.RolePolicyCanRequireOneOfManyRoles()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanRequireOneOfManyRoles()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RolePolicyCanRequireOneOfManyRoles
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 368
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RolePolicyCanRequireOneOfManyRoles()
+    content.vb: >-
+      <Fact>
+
+      Public Function RolePolicyCanRequireOneOfManyRoles As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockWrongRole
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockWrongRole
+  id: RolePolicyCanBlockWrongRole
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: RolePolicyCanBlockWrongRole()
+  nameWithType: DefaultAuthorizationServiceTests.RolePolicyCanBlockWrongRole()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockWrongRole()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RolePolicyCanBlockWrongRole
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 384
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RolePolicyCanBlockWrongRole()
+    content.vb: >-
+      <Fact>
+
+      Public Function RolePolicyCanBlockWrongRole As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockNoRole
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockNoRole
+  id: RolePolicyCanBlockNoRole
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: RolePolicyCanBlockNoRole()
+  nameWithType: DefaultAuthorizationServiceTests.RolePolicyCanBlockNoRole()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RolePolicyCanBlockNoRole()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RolePolicyCanBlockNoRole
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 405
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RolePolicyCanBlockNoRole()
+    content.vb: >-
+      <Fact>
+
+      Public Function RolePolicyCanBlockNoRole As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PolicyThrowsWithNoRequirements
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PolicyThrowsWithNoRequirements
+  id: PolicyThrowsWithNoRequirements
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: PolicyThrowsWithNoRequirements()
+  nameWithType: DefaultAuthorizationServiceTests.PolicyThrowsWithNoRequirements()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PolicyThrowsWithNoRequirements()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: PolicyThrowsWithNoRequirements
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 430
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void PolicyThrowsWithNoRequirements()
+    content.vb: >-
+      <Fact>
+
+      Public Sub PolicyThrowsWithNoRequirements
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RequireUserNameFailsForWrongUserName
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RequireUserNameFailsForWrongUserName
+  id: RequireUserNameFailsForWrongUserName
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: RequireUserNameFailsForWrongUserName()
+  nameWithType: DefaultAuthorizationServiceTests.RequireUserNameFailsForWrongUserName()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.RequireUserNameFailsForWrongUserName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RequireUserNameFailsForWrongUserName
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 442
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RequireUserNameFailsForWrongUserName()
+    content.vb: >-
+      <Fact>
+
+      Public Function RequireUserNameFailsForWrongUserName As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserName
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserName
+  id: CanRequireUserName
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanRequireUserName()
+  nameWithType: DefaultAuthorizationServiceTests.CanRequireUserName()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanRequireUserName
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 468
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanRequireUserName()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanRequireUserName As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserNameWithDiffClaimType
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserNameWithDiffClaimType
+  id: CanRequireUserNameWithDiffClaimType
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanRequireUserNameWithDiffClaimType()
+  nameWithType: DefaultAuthorizationServiceTests.CanRequireUserNameWithDiffClaimType()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireUserNameWithDiffClaimType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanRequireUserNameWithDiffClaimType
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 494
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanRequireUserNameWithDiffClaimType()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanRequireUserNameWithDiffClaimType As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireRoleWithDiffClaimType
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireRoleWithDiffClaimType
+  id: CanRequireRoleWithDiffClaimType
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanRequireRoleWithDiffClaimType()
+  nameWithType: DefaultAuthorizationServiceTests.CanRequireRoleWithDiffClaimType()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanRequireRoleWithDiffClaimType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanRequireRoleWithDiffClaimType
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 516
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanRequireRoleWithDiffClaimType()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanRequireRoleWithDiffClaimType As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanApproveAnyAuthenticatedUser
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanApproveAnyAuthenticatedUser
+  id: CanApproveAnyAuthenticatedUser
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanApproveAnyAuthenticatedUser()
+  nameWithType: DefaultAuthorizationServiceTests.CanApproveAnyAuthenticatedUser()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanApproveAnyAuthenticatedUser()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanApproveAnyAuthenticatedUser
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 538
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanApproveAnyAuthenticatedUser()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanApproveAnyAuthenticatedUser As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanBlockNonAuthenticatedUser
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanBlockNonAuthenticatedUser
+  id: CanBlockNonAuthenticatedUser
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanBlockNonAuthenticatedUser()
+  nameWithType: DefaultAuthorizationServiceTests.CanBlockNonAuthenticatedUser()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanBlockNonAuthenticatedUser()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanBlockNonAuthenticatedUser
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 563
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanBlockNonAuthenticatedUser()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanBlockNonAuthenticatedUser As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithNoHandlerFails
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithNoHandlerFails
+  id: CustomReqWithNoHandlerFails
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CustomReqWithNoHandlerFails()
+  nameWithType: DefaultAuthorizationServiceTests.CustomReqWithNoHandlerFails()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithNoHandlerFails()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CustomReqWithNoHandlerFails
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 593
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CustomReqWithNoHandlerFails()
+    content.vb: >-
+      <Fact>
+
+      Public Function CustomReqWithNoHandlerFails As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithHandlerSucceeds
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithHandlerSucceeds
+  id: CustomReqWithHandlerSucceeds
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CustomReqWithHandlerSucceeds()
+  nameWithType: DefaultAuthorizationServiceTests.CustomReqWithHandlerSucceeds()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomReqWithHandlerSucceeds()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CustomReqWithHandlerSucceeds
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 613
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CustomReqWithHandlerSucceeds()
+    content.vb: >-
+      <Fact>
+
+      Public Function CustomReqWithHandlerSucceeds As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PassThroughRequirementWillSucceedWithoutCustomHandler(System.Boolean)
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PassThroughRequirementWillSucceedWithoutCustomHandler(System.Boolean)
+  id: PassThroughRequirementWillSucceedWithoutCustomHandler(System.Boolean)
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: PassThroughRequirementWillSucceedWithoutCustomHandler(Boolean)
+  nameWithType: DefaultAuthorizationServiceTests.PassThroughRequirementWillSucceedWithoutCustomHandler(Boolean)
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PassThroughRequirementWillSucceedWithoutCustomHandler(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: PassThroughRequirementWillSucceedWithoutCustomHandler
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 652
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{true})]
+
+      [InlineData(new object[]{false})]
+
+      public Task PassThroughRequirementWillSucceedWithoutCustomHandler(bool shouldSucceed)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {True})>
+
+      <InlineData(New Object() {False})>
+
+      Public Function PassThroughRequirementWillSucceedWithoutCustomHandler(shouldSucceed As Boolean) As Task
+    parameters:
+    - id: shouldSucceed
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanCombinePolicies
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanCombinePolicies
+  id: CanCombinePolicies
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanCombinePolicies()
+  nameWithType: DefaultAuthorizationServiceTests.CanCombinePolicies()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanCombinePolicies()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanCombinePolicies
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 674
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanCombinePolicies()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanCombinePolicies As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinePoliciesWillFailIfBasePolicyFails
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinePoliciesWillFailIfBasePolicyFails
+  id: CombinePoliciesWillFailIfBasePolicyFails
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CombinePoliciesWillFailIfBasePolicyFails()
+  nameWithType: DefaultAuthorizationServiceTests.CombinePoliciesWillFailIfBasePolicyFails()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinePoliciesWillFailIfBasePolicyFails()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CombinePoliciesWillFailIfBasePolicyFails
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 702
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CombinePoliciesWillFailIfBasePolicyFails()
+    content.vb: >-
+      <Fact>
+
+      Public Function CombinePoliciesWillFailIfBasePolicyFails As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinedPoliciesWillFailIfExtraRequirementFails
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinedPoliciesWillFailIfExtraRequirementFails
+  id: CombinedPoliciesWillFailIfExtraRequirementFails
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CombinedPoliciesWillFailIfExtraRequirementFails()
+  nameWithType: DefaultAuthorizationServiceTests.CombinedPoliciesWillFailIfExtraRequirementFails()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CombinedPoliciesWillFailIfExtraRequirementFails()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CombinedPoliciesWillFailIfExtraRequirementFails
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 729
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CombinedPoliciesWillFailIfExtraRequirementFails()
+    content.vb: >-
+      <Fact>
+
+      Public Function CombinedPoliciesWillFailIfExtraRequirementFails As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeAllSuperuserOperations
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeAllSuperuserOperations
+  id: CanAuthorizeAllSuperuserOperations
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanAuthorizeAllSuperuserOperations()
+  nameWithType: DefaultAuthorizationServiceTests.CanAuthorizeAllSuperuserOperations()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeAllSuperuserOperations()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanAuthorizeAllSuperuserOperations
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 796
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanAuthorizeAllSuperuserOperations()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanAuthorizeAllSuperuserOperations As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseValueTypeResource
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseValueTypeResource
+  id: CanUseValueTypeResource
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanUseValueTypeResource()
+  nameWithType: DefaultAuthorizationServiceTests.CanUseValueTypeResource()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseValueTypeResource()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanUseValueTypeResource
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 840
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanUseValueTypeResource()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanUseValueTypeResource As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.DoesNotCallHandlerWithWrongResourceType
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.DoesNotCallHandlerWithWrongResourceType
+  id: DoesNotCallHandlerWithWrongResourceType
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotCallHandlerWithWrongResourceType()
+  nameWithType: DefaultAuthorizationServiceTests.DoesNotCallHandlerWithWrongResourceType()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.DoesNotCallHandlerWithWrongResourceType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: DoesNotCallHandlerWithWrongResourceType
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 862
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DoesNotCallHandlerWithWrongResourceType()
+    content.vb: >-
+      <Fact>
+
+      Public Function DoesNotCallHandlerWithWrongResourceType As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeOnlyAllowedOperations
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeOnlyAllowedOperations
+  id: CanAuthorizeOnlyAllowedOperations
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanAuthorizeOnlyAllowedOperations()
+  nameWithType: DefaultAuthorizationServiceTests.CanAuthorizeOnlyAllowedOperations()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeOnlyAllowedOperations()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanAuthorizeOnlyAllowedOperations
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 883
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanAuthorizeOnlyAllowedOperations()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanAuthorizeOnlyAllowedOperations As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeHandlerNotCalledWithNullResource
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeHandlerNotCalledWithNullResource
+  id: AuthorizeHandlerNotCalledWithNullResource
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: AuthorizeHandlerNotCalledWithNullResource()
+  nameWithType: DefaultAuthorizationServiceTests.AuthorizeHandlerNotCalledWithNullResource()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.AuthorizeHandlerNotCalledWithNullResource()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: AuthorizeHandlerNotCalledWithNullResource
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 900
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task AuthorizeHandlerNotCalledWithNullResource()
+    content.vb: >-
+      <Fact>
+
+      Public Function AuthorizeHandlerNotCalledWithNullResource As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAssertionRequirement
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAssertionRequirement
+  id: CanAuthorizeWithAssertionRequirement
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanAuthorizeWithAssertionRequirement()
+  nameWithType: DefaultAuthorizationServiceTests.CanAuthorizeWithAssertionRequirement()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAssertionRequirement()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanAuthorizeWithAssertionRequirement
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 915
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanAuthorizeWithAssertionRequirement()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanAuthorizeWithAssertionRequirement As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAsyncAssertionRequirement
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAsyncAssertionRequirement
+  id: CanAuthorizeWithAsyncAssertionRequirement
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanAuthorizeWithAsyncAssertionRequirement()
+  nameWithType: DefaultAuthorizationServiceTests.CanAuthorizeWithAsyncAssertionRequirement()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanAuthorizeWithAsyncAssertionRequirement()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanAuthorizeWithAsyncAssertionRequirement
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 934
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanAuthorizeWithAsyncAssertionRequirement()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanAuthorizeWithAsyncAssertionRequirement As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanReplaceDefaultPolicyProvider
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanReplaceDefaultPolicyProvider
+  id: CanReplaceDefaultPolicyProvider
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanReplaceDefaultPolicyProvider()
+  nameWithType: DefaultAuthorizationServiceTests.CanReplaceDefaultPolicyProvider()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanReplaceDefaultPolicyProvider()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanReplaceDefaultPolicyProvider
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 966
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanReplaceDefaultPolicyProvider()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanReplaceDefaultPolicyProvider As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseDynamicPolicyProvider
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseDynamicPolicyProvider
+  id: CanUseDynamicPolicyProvider
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+  langs:
+  - csharp
+  - vb
+  name: CanUseDynamicPolicyProvider()
+  nameWithType: DefaultAuthorizationServiceTests.CanUseDynamicPolicyProvider()
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CanUseDynamicPolicyProvider()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanUseDynamicPolicyProvider
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 1000
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanUseDynamicPolicyProvider()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanUseDynamicPolicyProvider As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Authorization.Test
+  commentId: N:Microsoft.AspNetCore.Authorization.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Authorization.Test
+  nameWithType: Microsoft.AspNetCore.Authorization.Test
+  fullName: Microsoft.AspNetCore.Authorization.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

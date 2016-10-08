@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
+  commentId: T:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
+  id: BloggingContextWithSnapshotThatThrows.MigrationOne
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  children:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.TargetModel
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  langs:
+  - csharp
+  - vb
+  name: BloggingContextWithSnapshotThatThrows.MigrationOne
+  nameWithType: BloggingContextWithSnapshotThatThrows.MigrationOne
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithSnapshotThatThrows.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: MigrationOne
+    path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithSnapshotThatThrows.cs
+    startLine: 26
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  syntax:
+    content: >-
+      [DbContext(typeof (BloggingContextWithSnapshotThatThrows))]
+
+      [Migration("111111111111111_MigrationOne")]
+
+      public class MigrationOne : Migration
+    content.vb: >-
+      <DbContext(GetType(BloggingContextWithSnapshotThatThrows))>
+
+      <Migration("111111111111111_MigrationOne")>
+
+      Public Class MigrationOne
+          Inherits Migration
+  inheritance:
+  - System.Object
+  - Microsoft.EntityFrameworkCore.Migrations.Migration
+  inheritedMembers:
+  - Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+  - Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  - Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+  - Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+  - Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+    ctor: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows
+  - type: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+    ctor: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 111111111111111_MigrationOne
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.TargetModel
+  commentId: P:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.TargetModel
+  id: TargetModel
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
+  langs:
+  - csharp
+  - vb
+  name: TargetModel
+  nameWithType: BloggingContextWithSnapshotThatThrows.MigrationOne.TargetModel
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.TargetModel
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithSnapshotThatThrows.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: TargetModel
+    path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithSnapshotThatThrows.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  syntax:
+    content: public override IModel TargetModel { get; }
+    content.vb: Public Overrides ReadOnly Property TargetModel As IModel
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.Metadata.IModel
+  overridden: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
+  langs:
+  - csharp
+  - vb
+  name: Up(MigrationBuilder)
+  nameWithType: BloggingContextWithSnapshotThatThrows.MigrationOne.Up(MigrationBuilder)
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithSnapshotThatThrows.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: Up
+    path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithSnapshotThatThrows.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  syntax:
+    content: protected override void Up(MigrationBuilder migrationBuilder)
+    content.vb: Protected Overrides Sub Up(migrationBuilder As MigrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  overridden: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  commentId: N:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  isExternal: false
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  nameWithType: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration
+  commentId: T:Microsoft.EntityFrameworkCore.Migrations.Migration
+  parent: Microsoft.EntityFrameworkCore.Migrations
+  isExternal: true
+  name: Migration
+  nameWithType: Migration
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+  commentId: F:Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: InitialDatabase
+  nameWithType: Migration.InitialDatabase
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: BuildTargetModel(ModelBuilder)
+  nameWithType: Migration.BuildTargetModel(ModelBuilder)
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+    name: BuildTargetModel
+    nameWithType: Migration.BuildTargetModel
+    fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.ModelBuilder
+    name: ModelBuilder
+    nameWithType: ModelBuilder
+    fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+    name: BuildTargetModel
+    nameWithType: Migration.BuildTargetModel
+    fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.ModelBuilder
+    name: ModelBuilder
+    nameWithType: ModelBuilder
+    fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: Down(MigrationBuilder)
+  nameWithType: Migration.Down(MigrationBuilder)
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+    name: Down
+    nameWithType: Migration.Down
+    fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.Down
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    name: MigrationBuilder
+    nameWithType: MigrationBuilder
+    fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+    name: Down
+    nameWithType: Migration.Down
+    fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.Down
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    name: MigrationBuilder
+    nameWithType: MigrationBuilder
+    fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+  commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: UpOperations
+  nameWithType: Migration.UpOperations
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+  commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: DownOperations
+  nameWithType: Migration.DownOperations
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+  commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: ActiveProvider
+  nameWithType: Migration.ActiveProvider
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.EntityFrameworkCore.Migrations
+  commentId: N:Microsoft.EntityFrameworkCore.Migrations
+  isExternal: false
+  name: Microsoft.EntityFrameworkCore.Migrations
+  nameWithType: Microsoft.EntityFrameworkCore.Migrations
+  fullName: Microsoft.EntityFrameworkCore.Migrations
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+  commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: TargetModel
+  nameWithType: Migration.TargetModel
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+- uid: Microsoft.EntityFrameworkCore.Metadata.IModel
+  commentId: T:Microsoft.EntityFrameworkCore.Metadata.IModel
+  parent: Microsoft.EntityFrameworkCore.Metadata
+  isExternal: true
+  name: IModel
+  nameWithType: IModel
+  fullName: Microsoft.EntityFrameworkCore.Metadata.IModel
+- uid: Microsoft.EntityFrameworkCore.Metadata
+  commentId: N:Microsoft.EntityFrameworkCore.Metadata
+  isExternal: false
+  name: Microsoft.EntityFrameworkCore.Metadata
+  nameWithType: Microsoft.EntityFrameworkCore.Metadata
+  fullName: Microsoft.EntityFrameworkCore.Metadata
+- uid: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+  isExternal: true
+  name: Up(MigrationBuilder)
+  nameWithType: Migration.Up(MigrationBuilder)
+  fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+    name: Up
+    nameWithType: Migration.Up
+    fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.Up
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    name: MigrationBuilder
+    nameWithType: MigrationBuilder
+    fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+    name: Up
+    nameWithType: Migration.Up
+    fullName: Microsoft.EntityFrameworkCore.Migrations.Migration.Up
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    name: MigrationBuilder
+    nameWithType: MigrationBuilder
+    fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  commentId: T:Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  parent: Microsoft.EntityFrameworkCore.Migrations
+  isExternal: true
+  name: MigrationBuilder
+  nameWithType: MigrationBuilder
+  fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder

@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.ITestLogger
+  commentId: T:Microsoft.AspNetCore.Identity.Test.ITestLogger
+  id: ITestLogger
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.ITestLogger.LogMessages
+  langs:
+  - csharp
+  - vb
+  name: ITestLogger
+  nameWithType: ITestLogger
+  fullName: Microsoft.AspNetCore.Identity.Test.ITestLogger
+  type: Interface
+  source:
+    remote:
+      path: test/Shared/TestLogger.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ITestLogger
+    path: test/Shared/TestLogger.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public interface ITestLogger
+    content.vb: Public Interface ITestLogger
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Microsoft.AspNetCore.Identity.Test.ITestLogger.LogMessages
+  commentId: P:Microsoft.AspNetCore.Identity.Test.ITestLogger.LogMessages
+  id: LogMessages
+  parent: Microsoft.AspNetCore.Identity.Test.ITestLogger
+  langs:
+  - csharp
+  - vb
+  name: LogMessages
+  nameWithType: ITestLogger.LogMessages
+  fullName: Microsoft.AspNetCore.Identity.Test.ITestLogger.LogMessages
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestLogger.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: LogMessages
+    path: test/Shared/TestLogger.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: IList<string> LogMessages { get; }
+    content.vb: ReadOnly Property LogMessages As IList(Of String)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.String}
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Collections.Generic.IList{System.String}
+  commentId: T:System.Collections.Generic.IList{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<String>
+  nameWithType: IList<String>
+  fullName: System.Collections.Generic.IList<System.String>
+  nameWithType.vb: IList(Of String)
+  fullname.vb: System.Collections.Generic.IList(Of System.String)
+  name.vb: IList(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullname.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

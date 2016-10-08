@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MemoryCacheSample
+  commentId: N:MemoryCacheSample
+  id: MemoryCacheSample
+  children:
+  - MemoryCacheSample.Program
+  langs:
+  - csharp
+  - vb
+  name: MemoryCacheSample
+  nameWithType: MemoryCacheSample
+  fullName: MemoryCacheSample
+  type: Namespace
+  assemblies:
+  - MemoryCacheSample
+references:
+- uid: MemoryCacheSample.Program
+  commentId: T:MemoryCacheSample.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: MemoryCacheSample.Program

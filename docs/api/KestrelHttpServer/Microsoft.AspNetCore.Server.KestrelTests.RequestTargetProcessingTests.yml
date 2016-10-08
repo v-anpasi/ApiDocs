@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+  id: RequestTargetProcessingTests
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.NonPathRequestTargetSetInRawTarget(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestFeatureContainsRawTarget(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestPathIsNotNormalized
+  langs:
+  - csharp
+  - vb
+  name: RequestTargetProcessingTests
+  nameWithType: RequestTargetProcessingTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestTargetProcessingTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public class RequestTargetProcessingTests
+    content.vb: Public Class RequestTargetProcessingTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestPathIsNotNormalized
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestPathIsNotNormalized
+  id: RequestPathIsNotNormalized
+  parent: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+  langs:
+  - csharp
+  - vb
+  name: RequestPathIsNotNormalized()
+  nameWithType: RequestTargetProcessingTests.RequestPathIsNotNormalized()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestPathIsNotNormalized()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestPathIsNotNormalized
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RequestPathIsNotNormalized()
+    content.vb: >-
+      <Fact>
+
+      Public Function RequestPathIsNotNormalized As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestFeatureContainsRawTarget(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestFeatureContainsRawTarget(System.String)
+  id: RequestFeatureContainsRawTarget(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+  langs:
+  - csharp
+  - vb
+  name: RequestFeatureContainsRawTarget(String)
+  nameWithType: RequestTargetProcessingTests.RequestFeatureContainsRawTarget(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.RequestFeatureContainsRawTarget(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestFeatureContainsRawTarget
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+    startLine: 42
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"/"})]
+
+      [InlineData(new object[]{"/."})]
+
+      [InlineData(new object[]{"/.."})]
+
+      [InlineData(new object[]{"/./."})]
+
+      [InlineData(new object[]{"/./.."})]
+
+      [InlineData(new object[]{"/../."})]
+
+      [InlineData(new object[]{"/../.."})]
+
+      [InlineData(new object[]{"/path"})]
+
+      [InlineData(new object[]{"/path?foo=1&bar=2"})]
+
+      [InlineData(new object[]{"/hello%20world"})]
+
+      [InlineData(new object[]{"/hello%20world?foo=1&bar=2"})]
+
+      [InlineData(new object[]{"/base/path"})]
+
+      [InlineData(new object[]{"/base/path?foo=1&bar=2"})]
+
+      [InlineData(new object[]{"/base/hello%20world"})]
+
+      [InlineData(new object[]{"/base/hello%20world?foo=1&bar=2"})]
+
+      public Task RequestFeatureContainsRawTarget(string requestTarget)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"/"})>
+
+      <InlineData(New Object() {"/."})>
+
+      <InlineData(New Object() {"/.."})>
+
+      <InlineData(New Object() {"/./."})>
+
+      <InlineData(New Object() {"/./.."})>
+
+      <InlineData(New Object() {"/../."})>
+
+      <InlineData(New Object() {"/../.."})>
+
+      <InlineData(New Object() {"/path"})>
+
+      <InlineData(New Object() {"/path?foo=1&bar=2"})>
+
+      <InlineData(New Object() {"/hello%20world"})>
+
+      <InlineData(New Object() {"/hello%20world?foo=1&bar=2"})>
+
+      <InlineData(New Object() {"/base/path"})>
+
+      <InlineData(New Object() {"/base/path?foo=1&bar=2"})>
+
+      <InlineData(New Object() {"/base/hello%20world"})>
+
+      <InlineData(New Object() {"/base/hello%20world?foo=1&bar=2"})>
+
+      Public Function RequestFeatureContainsRawTarget(requestTarget As String) As Task
+    parameters:
+    - id: requestTarget
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.NonPathRequestTargetSetInRawTarget(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.NonPathRequestTargetSetInRawTarget(System.String)
+  id: NonPathRequestTargetSetInRawTarget(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+  langs:
+  - csharp
+  - vb
+  name: NonPathRequestTargetSetInRawTarget(String)
+  nameWithType: RequestTargetProcessingTests.NonPathRequestTargetSetInRawTarget(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests.NonPathRequestTargetSetInRawTarget(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: NonPathRequestTargetSetInRawTarget
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/RequestTargetProcessingTests.cs
+    startLine: 86
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"*"})]
+
+      [InlineData(new object[]{"*/?arg=value"})]
+
+      [InlineData(new object[]{"*?arg=value"})]
+
+      [InlineData(new object[]{"DoesNotStartWith/"})]
+
+      [InlineData(new object[]{"DoesNotStartWith/?arg=value"})]
+
+      [InlineData(new object[]{"DoesNotStartWithSlash?arg=value"})]
+
+      [InlineData(new object[]{"./"})]
+
+      [InlineData(new object[]{"../"})]
+
+      [InlineData(new object[]{"../."})]
+
+      [InlineData(new object[]{".././"})]
+
+      [InlineData(new object[]{"../.."})]
+
+      [InlineData(new object[]{"../../"})]
+
+      public Task NonPathRequestTargetSetInRawTarget(string requestTarget)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"*"})>
+
+      <InlineData(New Object() {"*/?arg=value"})>
+
+      <InlineData(New Object() {"*?arg=value"})>
+
+      <InlineData(New Object() {"DoesNotStartWith/"})>
+
+      <InlineData(New Object() {"DoesNotStartWith/?arg=value"})>
+
+      <InlineData(New Object() {"DoesNotStartWithSlash?arg=value"})>
+
+      <InlineData(New Object() {"./"})>
+
+      <InlineData(New Object() {"../"})>
+
+      <InlineData(New Object() {"../."})>
+
+      <InlineData(New Object() {".././"})>
+
+      <InlineData(New Object() {"../.."})>
+
+      <InlineData(New Object() {"../../"})>
+
+      Public Function NonPathRequestTargetSetInRawTarget(requestTarget As String) As Task
+    parameters:
+    - id: requestTarget
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

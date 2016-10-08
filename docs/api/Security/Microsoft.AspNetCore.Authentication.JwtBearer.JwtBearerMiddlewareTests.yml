@@ -1,0 +1,1382 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  id: JwtBearerMiddlewareTests
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer
+  children:
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerDoesNothingTo401IfNotAuthenticated
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTokenValidation
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTurns401To403IfAuthenticated
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomHeaderReceived
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomTokenValidated
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnChallengeSkipped_ResponseNotModified
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnMessageReceivedSkipped_NoMoreEventsExecuted
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnTokenValidatedSkipped_NoMoreEventsExecuted
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderForOtherFailures(System.Type)
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenTokenWasMissing
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionReportedInHeaderForAuthenticationFailures(System.Type,System.String)
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderExposesUserDefinedError(System.String,System.String,System.String)
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderForMultipleAuthenticationFailures
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.HeaderWithoutBearerReceived
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.InvalidTokenReceived
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.NoHeaderReceived
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.RetrievingTokenFromAlternateLocation
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignInThrows
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignOutThrows
+  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.UnrecognizedTokenReceived
+  langs:
+  - csharp
+  - vb
+  name: JwtBearerMiddlewareTests
+  nameWithType: JwtBearerMiddlewareTests
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: JwtBearerMiddlewareTests
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: public class JwtBearerMiddlewareTests
+    content.vb: Public Class JwtBearerMiddlewareTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTokenValidation
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTokenValidation
+  id: BearerTokenValidation
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: BearerTokenValidation()
+  nameWithType: JwtBearerMiddlewareTests.BearerTokenValidation()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTokenValidation()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: BearerTokenValidation
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [ConditionalFact(Skip = "Need to remove dependency on AAD since the generated tokens will expire")]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      public Task BearerTokenValidation()
+    content.vb: >-
+      <ConditionalFact(Skip:="Need to remove dependency on AAD since the generated tokens will expire")>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      Public Function BearerTokenValidation As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Skip
+      type: System.String
+      value: Need to remove dependency on AAD since the generated tokens will expire
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignInThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignInThrows
+  id: SignInThrows
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignInThrows()
+  nameWithType: JwtBearerMiddlewareTests.SignInThrows()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignInThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignInThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignInThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignInThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignOutThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignOutThrows
+  id: SignOutThrows
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutThrows()
+  nameWithType: JwtBearerMiddlewareTests.SignOutThrows()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.SignOutThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 53
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomHeaderReceived
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomHeaderReceived
+  id: CustomHeaderReceived
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: CustomHeaderReceived()
+  nameWithType: JwtBearerMiddlewareTests.CustomHeaderReceived()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomHeaderReceived()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CustomHeaderReceived
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 62
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CustomHeaderReceived()
+    content.vb: >-
+      <Fact>
+
+      Public Function CustomHeaderReceived As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.NoHeaderReceived
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.NoHeaderReceived
+  id: NoHeaderReceived
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: NoHeaderReceived()
+  nameWithType: JwtBearerMiddlewareTests.NoHeaderReceived()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.NoHeaderReceived()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: NoHeaderReceived
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 94
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task NoHeaderReceived()
+    content.vb: >-
+      <Fact>
+
+      Public Function NoHeaderReceived As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.HeaderWithoutBearerReceived
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.HeaderWithoutBearerReceived
+  id: HeaderWithoutBearerReceived
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: HeaderWithoutBearerReceived()
+  nameWithType: JwtBearerMiddlewareTests.HeaderWithoutBearerReceived()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.HeaderWithoutBearerReceived()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: HeaderWithoutBearerReceived
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task HeaderWithoutBearerReceived()
+    content.vb: >-
+      <Fact>
+
+      Public Function HeaderWithoutBearerReceived As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.UnrecognizedTokenReceived
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.UnrecognizedTokenReceived
+  id: UnrecognizedTokenReceived
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: UnrecognizedTokenReceived()
+  nameWithType: JwtBearerMiddlewareTests.UnrecognizedTokenReceived()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.UnrecognizedTokenReceived()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: UnrecognizedTokenReceived
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 110
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UnrecognizedTokenReceived()
+    content.vb: >-
+      <Fact>
+
+      Public Function UnrecognizedTokenReceived As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.InvalidTokenReceived
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.InvalidTokenReceived
+  id: InvalidTokenReceived
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: InvalidTokenReceived()
+  nameWithType: JwtBearerMiddlewareTests.InvalidTokenReceived()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.InvalidTokenReceived()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: InvalidTokenReceived
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 120
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task InvalidTokenReceived()
+    content.vb: >-
+      <Fact>
+
+      Public Function InvalidTokenReceived As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionReportedInHeaderForAuthenticationFailures(System.Type,System.String)
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionReportedInHeaderForAuthenticationFailures(System.Type,System.String)
+  id: ExceptionReportedInHeaderForAuthenticationFailures(System.Type,System.String)
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ExceptionReportedInHeaderForAuthenticationFailures(Type, String)
+  nameWithType: JwtBearerMiddlewareTests.ExceptionReportedInHeaderForAuthenticationFailures(Type, String)
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionReportedInHeaderForAuthenticationFailures(System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExceptionReportedInHeaderForAuthenticationFailures
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 134
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{typeof (SecurityTokenInvalidAudienceException), "The audience is invalid"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenInvalidIssuerException), "The issuer is invalid"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenNoExpirationException), "The token has no expiration"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenInvalidLifetimeException), "The token lifetime is invalid"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenNotYetValidException), "The token is not valid yet"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenExpiredException), "The token is expired"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenInvalidSignatureException), "The signature is invalid"})]
+
+      [InlineData(new object[]{typeof (SecurityTokenSignatureKeyNotFoundException), "The signature key was not found"})]
+
+      public Task ExceptionReportedInHeaderForAuthenticationFailures(Type errorType, string message)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {GetType(SecurityTokenInvalidAudienceException), "The audience is invalid"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenInvalidIssuerException), "The issuer is invalid"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenNoExpirationException), "The token has no expiration"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenInvalidLifetimeException), "The token lifetime is invalid"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenNotYetValidException), "The token is not valid yet"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenExpiredException), "The token is expired"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenInvalidSignatureException), "The signature is invalid"})>
+
+      <InlineData(New Object() {GetType(SecurityTokenSignatureKeyNotFoundException), "The signature key was not found"})>
+
+      Public Function ExceptionReportedInHeaderForAuthenticationFailures(errorType As Type, message As String) As Task
+    parameters:
+    - id: errorType
+      type: System.Type
+    - id: message
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderForOtherFailures(System.Type)
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderForOtherFailures(System.Type)
+  id: ExceptionNotReportedInHeaderForOtherFailures(System.Type)
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ExceptionNotReportedInHeaderForOtherFailures(Type)
+  nameWithType: JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderForOtherFailures(Type)
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderForOtherFailures(System.Type)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExceptionNotReportedInHeaderForOtherFailures
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 156
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{typeof (ArgumentException)})]
+
+      public Task ExceptionNotReportedInHeaderForOtherFailures(Type errorType)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {GetType(ArgumentException)})>
+
+      Public Function ExceptionNotReportedInHeaderForOtherFailures(errorType As Type) As Task
+    parameters:
+    - id: errorType
+      type: System.Type
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderForMultipleAuthenticationFailures
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderForMultipleAuthenticationFailures
+  id: ExceptionsReportedInHeaderForMultipleAuthenticationFailures
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ExceptionsReportedInHeaderForMultipleAuthenticationFailures()
+  nameWithType: JwtBearerMiddlewareTests.ExceptionsReportedInHeaderForMultipleAuthenticationFailures()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderForMultipleAuthenticationFailures()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExceptionsReportedInHeaderForMultipleAuthenticationFailures
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 171
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ExceptionsReportedInHeaderForMultipleAuthenticationFailures()
+    content.vb: >-
+      <Fact>
+
+      Public Function ExceptionsReportedInHeaderForMultipleAuthenticationFailures As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderExposesUserDefinedError(System.String,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderExposesUserDefinedError(System.String,System.String,System.String)
+  id: ExceptionsReportedInHeaderExposesUserDefinedError(System.String,System.String,System.String)
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ExceptionsReportedInHeaderExposesUserDefinedError(String, String, String)
+  nameWithType: JwtBearerMiddlewareTests.ExceptionsReportedInHeaderExposesUserDefinedError(String, String, String)
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionsReportedInHeaderExposesUserDefinedError(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExceptionsReportedInHeaderExposesUserDefinedError
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 187
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"custom_error", "custom_description", "custom_uri"})]
+
+      [InlineData(new object[]{"custom_error", "custom_description", null})]
+
+      [InlineData(new object[]{"custom_error", null, null})]
+
+      [InlineData(new object[]{null, "custom_description", "custom_uri"})]
+
+      [InlineData(new object[]{null, "custom_description", null})]
+
+      [InlineData(new object[]{null, null, "custom_uri"})]
+
+      public Task ExceptionsReportedInHeaderExposesUserDefinedError(string error, string description, string uri)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"custom_error", "custom_description", "custom_uri"})>
+
+      <InlineData(New Object() {"custom_error", "custom_description", Nothing})>
+
+      <InlineData(New Object() {"custom_error", Nothing, Nothing})>
+
+      <InlineData(New Object() {Nothing, "custom_description", "custom_uri"})>
+
+      <InlineData(New Object() {Nothing, "custom_description", Nothing})>
+
+      <InlineData(New Object() {Nothing, Nothing, "custom_uri"})>
+
+      Public Function ExceptionsReportedInHeaderExposesUserDefinedError(error As String, description As String, uri As String) As Task
+    parameters:
+    - id: error
+      type: System.String
+    - id: description
+      type: System.String
+    - id: uri
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse
+  id: ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse()
+  nameWithType: JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 251
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse()
+    content.vb: >-
+      <Fact>
+
+      Public Function ExceptionNotReportedInHeaderWhenIncludeErrorDetailsIsFalse As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenTokenWasMissing
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenTokenWasMissing
+  id: ExceptionNotReportedInHeaderWhenTokenWasMissing
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ExceptionNotReportedInHeaderWhenTokenWasMissing()
+  nameWithType: JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenTokenWasMissing()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.ExceptionNotReportedInHeaderWhenTokenWasMissing()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExceptionNotReportedInHeaderWhenTokenWasMissing
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 265
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ExceptionNotReportedInHeaderWhenTokenWasMissing()
+    content.vb: >-
+      <Fact>
+
+      Public Function ExceptionNotReportedInHeaderWhenTokenWasMissing As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomTokenValidated
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomTokenValidated
+  id: CustomTokenValidated
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: CustomTokenValidated()
+  nameWithType: JwtBearerMiddlewareTests.CustomTokenValidated()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.CustomTokenValidated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CustomTokenValidated
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 276
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CustomTokenValidated()
+    content.vb: >-
+      <Fact>
+
+      Public Function CustomTokenValidated As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.RetrievingTokenFromAlternateLocation
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.RetrievingTokenFromAlternateLocation
+  id: RetrievingTokenFromAlternateLocation
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: RetrievingTokenFromAlternateLocation()
+  nameWithType: JwtBearerMiddlewareTests.RetrievingTokenFromAlternateLocation()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.RetrievingTokenFromAlternateLocation()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RetrievingTokenFromAlternateLocation
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 312
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RetrievingTokenFromAlternateLocation()
+    content.vb: >-
+      <Fact>
+
+      Public Function RetrievingTokenFromAlternateLocation As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTurns401To403IfAuthenticated
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTurns401To403IfAuthenticated
+  id: BearerTurns401To403IfAuthenticated
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: BearerTurns401To403IfAuthenticated()
+  nameWithType: JwtBearerMiddlewareTests.BearerTurns401To403IfAuthenticated()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerTurns401To403IfAuthenticated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: BearerTurns401To403IfAuthenticated
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 338
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task BearerTurns401To403IfAuthenticated()
+    content.vb: >-
+      <Fact>
+
+      Public Function BearerTurns401To403IfAuthenticated As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerDoesNothingTo401IfNotAuthenticated
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerDoesNothingTo401IfNotAuthenticated
+  id: BearerDoesNothingTo401IfNotAuthenticated
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: BearerDoesNothingTo401IfNotAuthenticated()
+  nameWithType: JwtBearerMiddlewareTests.BearerDoesNothingTo401IfNotAuthenticated()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.BearerDoesNothingTo401IfNotAuthenticated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: BearerDoesNothingTo401IfNotAuthenticated
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 350
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task BearerDoesNothingTo401IfNotAuthenticated()
+    content.vb: >-
+      <Fact>
+
+      Public Function BearerDoesNothingTo401IfNotAuthenticated As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnMessageReceivedSkipped_NoMoreEventsExecuted
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnMessageReceivedSkipped_NoMoreEventsExecuted
+  id: EventOnMessageReceivedSkipped_NoMoreEventsExecuted
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: EventOnMessageReceivedSkipped_NoMoreEventsExecuted()
+  nameWithType: JwtBearerMiddlewareTests.EventOnMessageReceivedSkipped_NoMoreEventsExecuted()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnMessageReceivedSkipped_NoMoreEventsExecuted()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: EventOnMessageReceivedSkipped_NoMoreEventsExecuted
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 359
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task EventOnMessageReceivedSkipped_NoMoreEventsExecuted()
+    content.vb: >-
+      <Fact>
+
+      Public Function EventOnMessageReceivedSkipped_NoMoreEventsExecuted As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnTokenValidatedSkipped_NoMoreEventsExecuted
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnTokenValidatedSkipped_NoMoreEventsExecuted
+  id: EventOnTokenValidatedSkipped_NoMoreEventsExecuted
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: EventOnTokenValidatedSkipped_NoMoreEventsExecuted()
+  nameWithType: JwtBearerMiddlewareTests.EventOnTokenValidatedSkipped_NoMoreEventsExecuted()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnTokenValidatedSkipped_NoMoreEventsExecuted()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: EventOnTokenValidatedSkipped_NoMoreEventsExecuted
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 391
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task EventOnTokenValidatedSkipped_NoMoreEventsExecuted()
+    content.vb: >-
+      <Fact>
+
+      Public Function EventOnTokenValidatedSkipped_NoMoreEventsExecuted As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted
+  id: EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted()
+  nameWithType: JwtBearerMiddlewareTests.EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 422
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted()
+    content.vb: >-
+      <Fact>
+
+      Public Function EventOnAuthenticationFailedSkipped_NoMoreEventsExecuted As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnChallengeSkipped_ResponseNotModified
+  commentId: M:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnChallengeSkipped_ResponseNotModified
+  id: EventOnChallengeSkipped_ResponseNotModified
+  parent: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: EventOnChallengeSkipped_ResponseNotModified()
+  nameWithType: JwtBearerMiddlewareTests.EventOnChallengeSkipped_ResponseNotModified()
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests.EventOnChallengeSkipped_ResponseNotModified()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: EventOnChallengeSkipped_ResponseNotModified
+    path: test/Microsoft.AspNetCore.Authentication.Test/JwtBearer/JwtBearerMiddlewareTests.cs
+    startLine: 453
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.JwtBearer
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task EventOnChallengeSkipped_ResponseNotModified()
+    content.vb: >-
+      <Fact>
+
+      Public Function EventOnChallengeSkipped_ResponseNotModified As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer
+  commentId: N:Microsoft.AspNetCore.Authentication.JwtBearer
+  isExternal: false
+  name: Microsoft.AspNetCore.Authentication.JwtBearer
+  nameWithType: Microsoft.AspNetCore.Authentication.JwtBearer
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

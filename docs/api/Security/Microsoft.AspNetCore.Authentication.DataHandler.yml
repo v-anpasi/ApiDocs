@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.DataHandler
+  commentId: N:Microsoft.AspNetCore.Authentication.DataHandler
+  id: Microsoft.AspNetCore.Authentication.DataHandler
+  children:
+  - Microsoft.AspNetCore.Authentication.DataHandler.SecureDataFormatTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Authentication.DataHandler
+  nameWithType: Microsoft.AspNetCore.Authentication.DataHandler
+  fullName: Microsoft.AspNetCore.Authentication.DataHandler
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+references:
+- uid: Microsoft.AspNetCore.Authentication.DataHandler.SecureDataFormatTests
+  commentId: T:Microsoft.AspNetCore.Authentication.DataHandler.SecureDataFormatTests
+  isExternal: false
+  name: SecureDataFormatTests
+  nameWithType: SecureDataFormatTests
+  fullName: Microsoft.AspNetCore.Authentication.DataHandler.SecureDataFormatTests

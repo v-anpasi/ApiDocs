@@ -1,0 +1,275 @@
+### YamlMime:TableOfContent
+- uid: DatabaseErrorPageSample
+  name: DatabaseErrorPageSample
+  items:
+  - uid: DatabaseErrorPageSample.Blog
+    name: Blog
+  - uid: DatabaseErrorPageSample.MyContext
+    name: MyContext
+  - uid: DatabaseErrorPageSample.Startup
+    name: Startup
+- uid: DeveloperExceptionPageSample
+  name: DeveloperExceptionPageSample
+  items:
+  - uid: DeveloperExceptionPageSample.Startup
+    name: Startup
+- uid: ElmPageSample
+  name: ElmPageSample
+  items:
+  - uid: ElmPageSample.HelloWorldMiddleware
+    name: HelloWorldMiddleware
+  - uid: ElmPageSample.Startup
+    name: Startup
+- uid: ExceptionHandlerSample
+  name: ExceptionHandlerSample
+  items:
+  - uid: ExceptionHandlerSample.Startup
+    name: Startup
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
+    name: DatabaseErrorPageExtensions
+  - uid: Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
+    name: DatabaseErrorPageOptions
+  - uid: Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions
+    name: DeveloperExceptionPageExtensions
+  - uid: Microsoft.AspNetCore.Builder.DeveloperExceptionPageOptions
+    name: DeveloperExceptionPageOptions
+  - uid: Microsoft.AspNetCore.Builder.ElmExtensions
+    name: ElmExtensions
+  - uid: Microsoft.AspNetCore.Builder.ExceptionHandlerExtensions
+    name: ExceptionHandlerExtensions
+  - uid: Microsoft.AspNetCore.Builder.ExceptionHandlerOptions
+    name: ExceptionHandlerOptions
+  - uid: Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
+    name: MigrationsEndPointExtensions
+  - uid: Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
+    name: MigrationsEndPointOptions
+  - uid: Microsoft.AspNetCore.Builder.StatusCodePagesExtensions
+    name: StatusCodePagesExtensions
+  - uid: Microsoft.AspNetCore.Builder.StatusCodePagesOptions
+    name: StatusCodePagesOptions
+  - uid: Microsoft.AspNetCore.Builder.WelcomePageExtensions
+    name: WelcomePageExtensions
+  - uid: Microsoft.AspNetCore.Builder.WelcomePageOptions
+    name: WelcomePageOptions
+- uid: Microsoft.AspNetCore.Diagnostics
+  name: Microsoft.AspNetCore.Diagnostics
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.CompilationFailure
+    name: CompilationFailure
+  - uid: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+    name: DeveloperExceptionPageMiddleware
+  - uid: Microsoft.AspNetCore.Diagnostics.DiagnosticMessage
+    name: DiagnosticMessage
+  - uid: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+    name: ExceptionHandlerFeature
+  - uid: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware
+    name: ExceptionHandlerMiddleware
+  - uid: Microsoft.AspNetCore.Diagnostics.ICompilationException
+    name: ICompilationException
+  - uid: Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature
+    name: IExceptionHandlerFeature
+  - uid: Microsoft.AspNetCore.Diagnostics.IStatusCodePagesFeature
+    name: IStatusCodePagesFeature
+  - uid: Microsoft.AspNetCore.Diagnostics.IStatusCodeReExecuteFeature
+    name: IStatusCodeReExecuteFeature
+  - uid: Microsoft.AspNetCore.Diagnostics.StatusCodeContext
+    name: StatusCodeContext
+  - uid: Microsoft.AspNetCore.Diagnostics.StatusCodePagesFeature
+    name: StatusCodePagesFeature
+  - uid: Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware
+    name: StatusCodePagesMiddleware
+  - uid: Microsoft.AspNetCore.Diagnostics.StatusCodeReExecuteFeature
+    name: StatusCodeReExecuteFeature
+  - uid: Microsoft.AspNetCore.Diagnostics.WelcomePageMiddleware
+    name: WelcomePageMiddleware
+- uid: Microsoft.AspNetCore.Diagnostics.Elm
+  name: Microsoft.AspNetCore.Diagnostics.Elm
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ActivityContext
+    name: ActivityContext
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmCaptureMiddleware
+    name: ElmCaptureMiddleware
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmLogger
+    name: ElmLogger
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmLoggerProvider
+    name: ElmLoggerProvider
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmOptions
+    name: ElmOptions
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmPageMiddleware
+    name: ElmPageMiddleware
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmScope
+    name: ElmScope
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ElmStore
+    name: ElmStore
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.HttpInfo
+    name: HttpInfo
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.LogInfo
+    name: LogInfo
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ScopeNode
+    name: ScopeNode
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.ViewOptions
+    name: ViewOptions
+- uid: Microsoft.AspNetCore.Diagnostics.Elm.Views
+  name: Microsoft.AspNetCore.Diagnostics.Elm.Views
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.Views.DetailsPage
+    name: DetailsPage
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.Views.DetailsPageModel
+    name: DetailsPageModel
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.Views.LogPage
+    name: LogPage
+  - uid: Microsoft.AspNetCore.Diagnostics.Elm.Views.LogPageModel
+    name: LogPageModel
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware
+    name: DatabaseErrorPageMiddleware
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DataStoreErrorLogger
+    name: DataStoreErrorLogger
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DataStoreErrorLogger.DataStoreErrorLog
+    name: DataStoreErrorLogger.DataStoreErrorLog
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DataStoreErrorLoggerProvider
+    name: DataStoreErrorLoggerProvider
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware
+    name: MigrationsEndPointMiddleware
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.PlatformHelper
+    name: PlatformHelper
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider
+    name: TestLoggerProvider
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger
+    name: TestLoggerProvider.TestLogger
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger.NullScope
+    name: TestLoggerProvider.TestLogger.NullScope
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.Blog
+    name: Blog
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContext
+    name: BloggingContext
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations
+    name: BloggingContextWithMigrations
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations.BloggingContextWithMigrationsModelSnapshot
+    name: BloggingContextWithMigrations.BloggingContextWithMigrationsModelSnapshot
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations.MigrationOne
+    name: BloggingContextWithMigrations.MigrationOne
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations.MigrationTwo
+    name: BloggingContextWithMigrations.MigrationTwo
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges
+    name: BloggingContextWithPendingModelChanges
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+    name: BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.MigrationOne
+    name: BloggingContextWithPendingModelChanges.MigrationOne
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows
+    name: BloggingContextWithSnapshotThatThrows
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.BloggingContextWithSnapshotThatThrowsModelSnapshot
+    name: BloggingContextWithSnapshotThatThrows.BloggingContextWithSnapshotThatThrowsModelSnapshot
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
+    name: BloggingContextWithSnapshotThatThrows.MigrationOne
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.DatabaseErrorPageMiddlewareTest
+    name: DatabaseErrorPageMiddlewareTest
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.MigrationsEndPointMiddlewareTest
+    name: MigrationsEndPointMiddlewareTest
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.SqlServerTestStore
+    name: SqlServerTestStore
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage
+    name: DatabaseErrorPage
+  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPageModel
+    name: DatabaseErrorPageModel
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  name: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DatabaseErrorPageSampleTest
+    name: DatabaseErrorPageSampleTest
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DeveloperExceptionPageSampleTest
+    name: DeveloperExceptionPageSampleTest
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ElmPageSampleTest
+    name: ElmPageSampleTest
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ExceptionHandlerSampleTest
+    name: ExceptionHandlerSampleTest
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.MiddlewareAnalysisSampleTest
+    name: MiddlewareAnalysisSampleTest
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.StatusCodeSampleTest
+    name: StatusCodeSampleTest
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture<TStartup>
+    name.vb: TestFixture(Of TStartup)
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+    name: WelcomePageSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.Views
+  name: Microsoft.AspNetCore.Diagnostics.Views
+  items:
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.CompilationErrorPage
+    name: CompilationErrorPage
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.CompilationErrorPageModel
+    name: CompilationErrorPageModel
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.ErrorDetails
+    name: ErrorDetails
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.ErrorPage
+    name: ErrorPage
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.ErrorPageModel
+    name: ErrorPageModel
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.StackFrame
+    name: StackFrame
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.StackFrameInfo
+    name: StackFrameInfo
+  - uid: Microsoft.AspNetCore.Diagnostics.Views.WelcomePage
+    name: WelcomePage
+- uid: Microsoft.AspNetCore.DiagnosticsViewPage.Views
+  name: Microsoft.AspNetCore.DiagnosticsViewPage.Views
+  items:
+  - uid: Microsoft.AspNetCore.DiagnosticsViewPage.Views.AttributeValue
+    name: AttributeValue
+  - uid: Microsoft.AspNetCore.DiagnosticsViewPage.Views.BaseView
+    name: BaseView
+  - uid: Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult
+    name: HelperResult
+- uid: Microsoft.AspNetCore.MiddlewareAnalysis
+  name: Microsoft.AspNetCore.MiddlewareAnalysis
+  items:
+  - uid: Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisBuilder
+    name: AnalysisBuilder
+  - uid: Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware
+    name: AnalysisMiddleware
+  - uid: Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisStartupFilter
+    name: AnalysisStartupFilter
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.AnalysisServiceCollectionExtensions
+    name: AnalysisServiceCollectionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.ElmServiceCollectionExtensions
+    name: ElmServiceCollectionExtensions
+- uid: MiddlewareAnaysisSample
+  name: MiddlewareAnaysisSample
+  items:
+  - uid: MiddlewareAnaysisSample.Startup
+    name: Startup
+  - uid: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+    name: Startup.TestDiagnosticListener
+- uid: PageGenerator
+  name: PageGenerator
+  items:
+  - uid: PageGenerator.Program
+    name: Program
+- uid: StatusCodePagesSample
+  name: StatusCodePagesSample
+  items:
+  - uid: StatusCodePagesSample.Startup
+    name: Startup
+- uid: WelcomePageSample
+  name: WelcomePageSample
+  items:
+  - uid: WelcomePageSample.Startup
+    name: Startup

@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  commentId: T:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  id: CookiePolicyTests
+  parent: Microsoft.AspNetCore.CookiePolicy.Test
+  children:
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuth
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuthChunks
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCallsCookieFeature
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackAppend
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackDelete
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyAlwaysSetsItAlways
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyNoneLeavesItAlone
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureAlwaysSetsSecure
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureNoneLeavesSecureUnchanged
+  - Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureSameUsesRequest
+  langs:
+  - csharp
+  - vb
+  name: CookiePolicyTests
+  nameWithType: CookiePolicyTests
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CookiePolicyTests
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: public class CookiePolicyTests
+    content.vb: Public Class CookiePolicyTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureAlwaysSetsSecure
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureAlwaysSetsSecure
+  id: SecureAlwaysSetsSecure
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: SecureAlwaysSetsSecure()
+  nameWithType: CookiePolicyTests.SecureAlwaysSetsSecure()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureAlwaysSetsSecure()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SecureAlwaysSetsSecure
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 38
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SecureAlwaysSetsSecure()
+    content.vb: >-
+      <Fact>
+
+      Public Function SecureAlwaysSetsSecure As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureNoneLeavesSecureUnchanged
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureNoneLeavesSecureUnchanged
+  id: SecureNoneLeavesSecureUnchanged
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: SecureNoneLeavesSecureUnchanged()
+  nameWithType: CookiePolicyTests.SecureNoneLeavesSecureUnchanged()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureNoneLeavesSecureUnchanged()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SecureNoneLeavesSecureUnchanged
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 58
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SecureNoneLeavesSecureUnchanged()
+    content.vb: >-
+      <Fact>
+
+      Public Function SecureNoneLeavesSecureUnchanged As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureSameUsesRequest
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureSameUsesRequest
+  id: SecureSameUsesRequest
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: SecureSameUsesRequest()
+  nameWithType: CookiePolicyTests.SecureSameUsesRequest()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.SecureSameUsesRequest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SecureSameUsesRequest
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 78
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SecureSameUsesRequest()
+    content.vb: >-
+      <Fact>
+
+      Public Function SecureSameUsesRequest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyAlwaysSetsItAlways
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyAlwaysSetsItAlways
+  id: HttpOnlyAlwaysSetsItAlways
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: HttpOnlyAlwaysSetsItAlways()
+  nameWithType: CookiePolicyTests.HttpOnlyAlwaysSetsItAlways()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyAlwaysSetsItAlways()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: HttpOnlyAlwaysSetsItAlways
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 107
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task HttpOnlyAlwaysSetsItAlways()
+    content.vb: >-
+      <Fact>
+
+      Public Function HttpOnlyAlwaysSetsItAlways As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyNoneLeavesItAlone
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyNoneLeavesItAlone
+  id: HttpOnlyNoneLeavesItAlone
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: HttpOnlyNoneLeavesItAlone()
+  nameWithType: CookiePolicyTests.HttpOnlyNoneLeavesItAlone()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.HttpOnlyNoneLeavesItAlone()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: HttpOnlyNoneLeavesItAlone
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 127
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task HttpOnlyNoneLeavesItAlone()
+    content.vb: >-
+      <Fact>
+
+      Public Function HttpOnlyNoneLeavesItAlone As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackAppend
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackAppend
+  id: CookiePolicyCanHijackAppend
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: CookiePolicyCanHijackAppend()
+  nameWithType: CookiePolicyTests.CookiePolicyCanHijackAppend()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackAppend()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CookiePolicyCanHijackAppend
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 147
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CookiePolicyCanHijackAppend()
+    content.vb: >-
+      <Fact>
+
+      Public Function CookiePolicyCanHijackAppend As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackDelete
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackDelete
+  id: CookiePolicyCanHijackDelete
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: CookiePolicyCanHijackDelete()
+  nameWithType: CookiePolicyTests.CookiePolicyCanHijackDelete()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCanHijackDelete()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CookiePolicyCanHijackDelete
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 177
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CookiePolicyCanHijackDelete()
+    content.vb: >-
+      <Fact>
+
+      Public Function CookiePolicyCanHijackDelete As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCallsCookieFeature
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCallsCookieFeature
+  id: CookiePolicyCallsCookieFeature
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: CookiePolicyCallsCookieFeature()
+  nameWithType: CookiePolicyTests.CookiePolicyCallsCookieFeature()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyCallsCookieFeature()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CookiePolicyCallsCookieFeature
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 205
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CookiePolicyCallsCookieFeature()
+    content.vb: >-
+      <Fact>
+
+      Public Function CookiePolicyCallsCookieFeature As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuth
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuth
+  id: CookiePolicyAppliesToCookieAuth
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: CookiePolicyAppliesToCookieAuth()
+  nameWithType: CookiePolicyTests.CookiePolicyAppliesToCookieAuth()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuth()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CookiePolicyAppliesToCookieAuth
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 235
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CookiePolicyAppliesToCookieAuth()
+    content.vb: >-
+      <Fact>
+
+      Public Function CookiePolicyAppliesToCookieAuth As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuthChunks
+  commentId: M:Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuthChunks
+  id: CookiePolicyAppliesToCookieAuthChunks
+  parent: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+  langs:
+  - csharp
+  - vb
+  name: CookiePolicyAppliesToCookieAuthChunks()
+  nameWithType: CookiePolicyTests.CookiePolicyAppliesToCookieAuthChunks()
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests.CookiePolicyAppliesToCookieAuthChunks()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CookiePolicyAppliesToCookieAuthChunks
+    path: test/Microsoft.AspNetCore.CookiePolicy.Test/CookiePolicyTests.cs
+    startLine: 275
+  assemblies:
+  - Microsoft.AspNetCore.CookiePolicy.Test
+  namespace: Microsoft.AspNetCore.CookiePolicy.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CookiePolicyAppliesToCookieAuthChunks()
+    content.vb: >-
+      <Fact>
+
+      Public Function CookiePolicyAppliesToCookieAuthChunks As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.CookiePolicy.Test
+  commentId: N:Microsoft.AspNetCore.CookiePolicy.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.CookiePolicy.Test
+  nameWithType: Microsoft.AspNetCore.CookiePolicy.Test
+  fullName: Microsoft.AspNetCore.CookiePolicy.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test
+  commentId: N:Microsoft.Extensions.Configuration.CommandLine.Test
+  id: Microsoft.Extensions.Configuration.CommandLine.Test
+  children:
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.Configuration.CommandLine.Test
+  nameWithType: Microsoft.Extensions.Configuration.CommandLine.Test
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+references:
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  commentId: T:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  isExternal: false
+  name: CommandLineTest
+  nameWithType: CommandLineTest
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest

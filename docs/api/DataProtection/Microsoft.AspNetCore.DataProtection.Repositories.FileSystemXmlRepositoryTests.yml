@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  id: FileSystemXmlRepositoryTests
+  parent: Microsoft.AspNetCore.DataProtection.Repositories
+  children:
+  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.DefaultKeyStorageDirectory_Property
+  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.Directory_Property
+  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection
+  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(System.String)
+  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithValidFriendlyName_UsesFriendlyName
+  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElements_ThenRetrieve_SeesAllElements
+  langs:
+  - csharp
+  - vb
+  name: FileSystemXmlRepositoryTests
+  nameWithType: FileSystemXmlRepositoryTests
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: FileSystemXmlRepositoryTests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: public class FileSystemXmlRepositoryTests
+    content.vb: Public Class FileSystemXmlRepositoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.DefaultKeyStorageDirectory_Property
+  commentId: M:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.DefaultKeyStorageDirectory_Property
+  id: DefaultKeyStorageDirectory_Property
+  parent: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  langs:
+  - csharp
+  - vb
+  name: DefaultKeyStorageDirectory_Property()
+  nameWithType: FileSystemXmlRepositoryTests.DefaultKeyStorageDirectory_Property()
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.DefaultKeyStorageDirectory_Property()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DefaultKeyStorageDirectory_Property
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void DefaultKeyStorageDirectory_Property()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub DefaultKeyStorageDirectory_Property
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.Directory_Property
+  commentId: M:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.Directory_Property
+  id: Directory_Property
+  parent: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  langs:
+  - csharp
+  - vb
+  name: Directory_Property()
+  nameWithType: FileSystemXmlRepositoryTests.Directory_Property()
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.Directory_Property()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: Directory_Property
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 26
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Directory_Property()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Directory_Property
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection
+  commentId: M:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection
+  id: GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection
+  parent: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection()
+  nameWithType: FileSystemXmlRepositoryTests.GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection()
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 42
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllElements_EmptyOrNonexistentDirectory_ReturnsEmptyCollection
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithValidFriendlyName_UsesFriendlyName
+  commentId: M:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithValidFriendlyName_UsesFriendlyName
+  id: StoreElement_WithValidFriendlyName_UsesFriendlyName
+  parent: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  langs:
+  - csharp
+  - vb
+  name: StoreElement_WithValidFriendlyName_UsesFriendlyName()
+  nameWithType: FileSystemXmlRepositoryTests.StoreElement_WithValidFriendlyName_UsesFriendlyName()
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithValidFriendlyName_UsesFriendlyName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: StoreElement_WithValidFriendlyName_UsesFriendlyName
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 58
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: >-
+      [Fact]
+
+      public void StoreElement_WithValidFriendlyName_UsesFriendlyName()
+    content.vb: >-
+      <Fact>
+
+      Public Sub StoreElement_WithValidFriendlyName_UsesFriendlyName
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(System.String)
+  id: StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(System.String)
+  parent: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  langs:
+  - csharp
+  - vb
+  name: StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(String)
+  nameWithType: FileSystemXmlRepositoryTests.StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(String)
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 83
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(null)]
+
+      [InlineData(new object[]{""})]
+
+      [InlineData(new object[]{" "})]
+
+      [InlineData(new object[]{".."})]
+
+      [InlineData(new object[]{"not*friendly"})]
+
+      public void StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(string friendlyName)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(Nothing)>
+
+      <InlineData(New Object() {""})>
+
+      <InlineData(New Object() {" "})>
+
+      <InlineData(New Object() {".."})>
+
+      <InlineData(New Object() {"not*friendly"})>
+
+      Public Sub StoreElement_WithInvalidFriendlyName_CreatesNewGuidAsName(friendlyName As String)
+    parameters:
+    - id: friendlyName
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElements_ThenRetrieve_SeesAllElements
+  commentId: M:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElements_ThenRetrieve_SeesAllElements
+  id: StoreElements_ThenRetrieve_SeesAllElements
+  parent: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
+  langs:
+  - csharp
+  - vb
+  name: StoreElements_ThenRetrieve_SeesAllElements()
+  nameWithType: FileSystemXmlRepositoryTests.StoreElements_ThenRetrieve_SeesAllElements()
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests.StoreElements_ThenRetrieve_SeesAllElements()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: StoreElements_ThenRetrieve_SeesAllElements
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Repositories/FileSystemXmlRepositoryTests.cs
+    startLine: 117
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Repositories
+  syntax:
+    content: >-
+      [Fact]
+
+      public void StoreElements_ThenRetrieve_SeesAllElements()
+    content.vb: >-
+      <Fact>
+
+      Public Sub StoreElements_ThenRetrieve_SeesAllElements
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection.Repositories
+  commentId: N:Microsoft.AspNetCore.DataProtection.Repositories
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.Repositories
+  nameWithType: Microsoft.AspNetCore.DataProtection.Repositories
+  fullName: Microsoft.AspNetCore.DataProtection.Repositories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

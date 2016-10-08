@@ -1,0 +1,703 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  commentId: T:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  id: CommandLineTest
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test
+  children:
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.OverrideValueWhenKeyIsDuplicated
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenAnArgumentCannotBeRecognized
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenNullIsPassedToConstructorAsArgs
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenShortSwitchNotDefined
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenSwitchMappingsContainInvalidKey
+  - Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenValueForAKeyIsMissing
+  langs:
+  - csharp
+  - vb
+  name: CommandLineTest
+  nameWithType: CommandLineTest
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CommandLineTest
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: public class CommandLineTest
+    content.vb: Public Class CommandLineTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings
+  id: LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings()
+  nameWithType: CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadKeyValuePairsFromCommandLineArgumentsWithoutSwitchMappings
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings
+  id: LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings()
+  nameWithType: CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 34
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadKeyValuePairsFromCommandLineArgumentsWithSwitchMappings
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys
+  id: ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys()
+  nameWithType: CommandLineTest.ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 64
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenPassingSwitchMappingsWithDuplicatedKeys
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenSwitchMappingsContainInvalidKey
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenSwitchMappingsContainInvalidKey
+  id: ThrowExceptionWhenSwitchMappingsContainInvalidKey
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenSwitchMappingsContainInvalidKey()
+  nameWithType: CommandLineTest.ThrowExceptionWhenSwitchMappingsContainInvalidKey()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenSwitchMappingsContainInvalidKey()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenSwitchMappingsContainInvalidKey
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 109
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenSwitchMappingsContainInvalidKey()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenSwitchMappingsContainInvalidKey
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenNullIsPassedToConstructorAsArgs
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenNullIsPassedToConstructorAsArgs
+  id: ThrowExceptionWhenNullIsPassedToConstructorAsArgs
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenNullIsPassedToConstructorAsArgs()
+  nameWithType: CommandLineTest.ThrowExceptionWhenNullIsPassedToConstructorAsArgs()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenNullIsPassedToConstructorAsArgs()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenNullIsPassedToConstructorAsArgs
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 135
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenNullIsPassedToConstructorAsArgs()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenNullIsPassedToConstructorAsArgs
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.OverrideValueWhenKeyIsDuplicated
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.OverrideValueWhenKeyIsDuplicated
+  id: OverrideValueWhenKeyIsDuplicated
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: OverrideValueWhenKeyIsDuplicated()
+  nameWithType: CommandLineTest.OverrideValueWhenKeyIsDuplicated()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.OverrideValueWhenKeyIsDuplicated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: OverrideValueWhenKeyIsDuplicated
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 146
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void OverrideValueWhenKeyIsDuplicated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub OverrideValueWhenKeyIsDuplicated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenValueForAKeyIsMissing
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenValueForAKeyIsMissing
+  id: ThrowExceptionWhenValueForAKeyIsMissing
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenValueForAKeyIsMissing()
+  nameWithType: CommandLineTest.ThrowExceptionWhenValueForAKeyIsMissing()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenValueForAKeyIsMissing()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenValueForAKeyIsMissing
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 161
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenValueForAKeyIsMissing()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenValueForAKeyIsMissing
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenAnArgumentCannotBeRecognized
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenAnArgumentCannotBeRecognized
+  id: ThrowExceptionWhenAnArgumentCannotBeRecognized
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenAnArgumentCannotBeRecognized()
+  nameWithType: CommandLineTest.ThrowExceptionWhenAnArgumentCannotBeRecognized()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenAnArgumentCannotBeRecognized()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenAnArgumentCannotBeRecognized
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 177
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenAnArgumentCannotBeRecognized()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenAnArgumentCannotBeRecognized
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenShortSwitchNotDefined
+  commentId: M:Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenShortSwitchNotDefined
+  id: ThrowExceptionWhenShortSwitchNotDefined
+  parent: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenShortSwitchNotDefined()
+  nameWithType: CommandLineTest.ThrowExceptionWhenShortSwitchNotDefined()
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest.ThrowExceptionWhenShortSwitchNotDefined()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenShortSwitchNotDefined
+    path: test/Microsoft.Extensions.Configuration.CommandLine.Test/CommandLineTest.cs
+    startLine: 193
+  assemblies:
+  - Microsoft.Extensions.Configuration.CommandLine.Test
+  namespace: Microsoft.Extensions.Configuration.CommandLine.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenShortSwitchNotDefined()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenShortSwitchNotDefined
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Configuration.CommandLine.Test
+  commentId: N:Microsoft.Extensions.Configuration.CommandLine.Test
+  isExternal: false
+  name: Microsoft.Extensions.Configuration.CommandLine.Test
+  nameWithType: Microsoft.Extensions.Configuration.CommandLine.Test
+  fullName: Microsoft.Extensions.Configuration.CommandLine.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

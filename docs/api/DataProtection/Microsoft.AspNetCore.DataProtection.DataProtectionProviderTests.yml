@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
+  id: DataProtectionProviderTests
+  parent: Microsoft.AspNetCore.DataProtection
+  children:
+  - Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory
+  - Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory
+  - Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory_WithConfigurationCallback
+  langs:
+  - csharp
+  - vb
+  name: DataProtectionProviderTests
+  nameWithType: DataProtectionProviderTests
+  fullName: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DataProtectionProviderTests
+    path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Extensions.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: public class DataProtectionProviderTests
+    content.vb: Public Class DataProtectionProviderTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory
+  commentId: M:Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory
+  id: System_UsesProvidedDirectory
+  parent: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
+  langs:
+  - csharp
+  - vb
+  name: System_UsesProvidedDirectory()
+  nameWithType: DataProtectionProviderTests.System_UsesProvidedDirectory()
+  fullName: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: System_UsesProvidedDirectory
+    path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Extensions.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void System_UsesProvidedDirectory()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub System_UsesProvidedDirectory
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory
+  commentId: M:Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory
+  id: System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory
+  parent: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
+  langs:
+  - csharp
+  - vb
+  name: System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory()
+  nameWithType: DataProtectionProviderTests.System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory()
+  fullName: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory
+    path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+    startLine: 39
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Extensions.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub System_NoKeysDirectoryProvided_UsesDefaultKeysDirectory
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory_WithConfigurationCallback
+  commentId: M:Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory_WithConfigurationCallback
+  id: System_UsesProvidedDirectory_WithConfigurationCallback
+  parent: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
+  langs:
+  - csharp
+  - vb
+  name: System_UsesProvidedDirectory_WithConfigurationCallback()
+  nameWithType: DataProtectionProviderTests.System_UsesProvidedDirectory_WithConfigurationCallback()
+  fullName: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests.System_UsesProvidedDirectory_WithConfigurationCallback()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: System_UsesProvidedDirectory_WithConfigurationCallback
+    path: test/Microsoft.AspNetCore.DataProtection.Extensions.Test/DataProtectionProviderTests.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Extensions.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void System_UsesProvidedDirectory_WithConfigurationCallback()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub System_UsesProvidedDirectory_WithConfigurationCallback
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection
+  commentId: N:Microsoft.AspNetCore.DataProtection
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection
+  nameWithType: Microsoft.AspNetCore.DataProtection
+  fullName: Microsoft.AspNetCore.DataProtection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

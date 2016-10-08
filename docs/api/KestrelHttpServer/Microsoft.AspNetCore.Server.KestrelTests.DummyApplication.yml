@@ -1,0 +1,912 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  id: DummyApplication
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)
+  - Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  - Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  - Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: DummyApplication
+  nameWithType: DummyApplication
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: DummyApplication
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: 'public class DummyApplication : IHttpApplication<HttpContext>'
+    content.vb: >-
+      Public Class DummyApplication
+          Implements IHttpApplication(Of HttpContext)
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)
+  id: '#ctor(Microsoft.AspNetCore.Http.RequestDelegate)'
+  parent: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  langs:
+  - csharp
+  - vb
+  name: DummyApplication(RequestDelegate)
+  nameWithType: DummyApplication.DummyApplication(RequestDelegate)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.DummyApplication(Microsoft.AspNetCore.Http.RequestDelegate)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public DummyApplication(RequestDelegate requestDelegate)
+    content.vb: Public Sub New(requestDelegate As RequestDelegate)
+    parameters:
+    - id: requestDelegate
+      type: Microsoft.AspNetCore.Http.RequestDelegate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  id: CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  langs:
+  - csharp
+  - vb
+  name: CreateContext(IFeatureCollection)
+  nameWithType: DummyApplication.CreateContext(IFeatureCollection)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: CreateContext
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+    startLine: 20
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public HttpContext CreateContext(IFeatureCollection contextFeatures)
+    content.vb: Public Function CreateContext(contextFeatures As IFeatureCollection) As HttpContext
+    parameters:
+    - id: contextFeatures
+      type: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    return:
+      type: Microsoft.AspNetCore.Http.HttpContext
+  implements:
+  - Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  id: DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  langs:
+  - csharp
+  - vb
+  name: DisposeContext(HttpContext, Exception)
+  nameWithType: DummyApplication.DisposeContext(HttpContext, Exception)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.DisposeContext(Microsoft.AspNetCore.Http.HttpContext, System.Exception)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: DisposeContext
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public void DisposeContext(HttpContext context, Exception exception)
+    content.vb: Public Sub DisposeContext(context As HttpContext, exception As Exception)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Http.HttpContext
+    - id: exception
+      type: System.Exception
+  implements:
+  - Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  id: ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+  langs:
+  - csharp
+  - vb
+  name: ProcessRequestAsync(HttpContext)
+  nameWithType: DummyApplication.ProcessRequestAsync(HttpContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ProcessRequestAsync
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/DummyApplication.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public Task ProcessRequestAsync(HttpContext context)
+    content.vb: Public Function ProcessRequestAsync(context As HttpContext) As Task
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Http.HttpContext
+    return:
+      type: System.Threading.Tasks.Task
+  implements:
+  - Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}
+  commentId: T:Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}
+  parent: Microsoft.AspNetCore.Hosting.Server
+  definition: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+  name: IHttpApplication<HttpContext>
+  nameWithType: IHttpApplication<HttpContext>
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>
+  nameWithType.vb: IHttpApplication(Of HttpContext)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext)
+  name.vb: IHttpApplication(Of HttpContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+    name: IHttpApplication
+    nameWithType: IHttpApplication
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+    name: IHttpApplication
+    nameWithType: IHttpApplication
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+  commentId: T:Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+  isExternal: true
+  name: IHttpApplication<TContext>
+  nameWithType: IHttpApplication<TContext>
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>
+  nameWithType.vb: IHttpApplication(Of TContext)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext)
+  name.vb: IHttpApplication(Of TContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+    name: IHttpApplication
+    nameWithType: IHttpApplication
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1
+    name: IHttpApplication
+    nameWithType: IHttpApplication
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Hosting.Server
+  commentId: N:Microsoft.AspNetCore.Hosting.Server
+  isExternal: false
+  name: Microsoft.AspNetCore.Hosting.Server
+  nameWithType: Microsoft.AspNetCore.Hosting.Server
+  fullName: Microsoft.AspNetCore.Hosting.Server
+- uid: Microsoft.AspNetCore.Http.RequestDelegate
+  commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: RequestDelegate
+  nameWithType: RequestDelegate
+  fullName: Microsoft.AspNetCore.Http.RequestDelegate
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: false
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  commentId: M:Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  parent: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}
+  definition: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  name: CreateContext(IFeatureCollection)
+  nameWithType: IHttpApplication<HttpContext>.CreateContext(IFeatureCollection)
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  nameWithType.vb: IHttpApplication(Of HttpContext).CreateContext(IFeatureCollection)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext).CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+    name: CreateContext
+    nameWithType: IHttpApplication<HttpContext>.CreateContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>.CreateContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    name: IFeatureCollection
+    nameWithType: IFeatureCollection
+    fullName: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+    name: CreateContext
+    nameWithType: IHttpApplication(Of HttpContext).CreateContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext).CreateContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    name: IFeatureCollection
+    nameWithType: IFeatureCollection
+    fullName: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+  commentId: T:Microsoft.AspNetCore.Http.Features.IFeatureCollection
+  parent: Microsoft.AspNetCore.Http.Features
+  isExternal: true
+  name: IFeatureCollection
+  nameWithType: IFeatureCollection
+  fullName: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  commentId: M:Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  isExternal: true
+  name: CreateContext(IFeatureCollection)
+  nameWithType: IHttpApplication<TContext>.CreateContext(IFeatureCollection)
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  nameWithType.vb: IHttpApplication(Of TContext).CreateContext(IFeatureCollection)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext).CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+    name: CreateContext
+    nameWithType: IHttpApplication<TContext>.CreateContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>.CreateContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    name: IFeatureCollection
+    nameWithType: IFeatureCollection
+    fullName: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.CreateContext(Microsoft.AspNetCore.Http.Features.IFeatureCollection)
+    name: CreateContext
+    nameWithType: IHttpApplication(Of TContext).CreateContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext).CreateContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    name: IFeatureCollection
+    nameWithType: IFeatureCollection
+    fullName: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Http.Features
+  commentId: N:Microsoft.AspNetCore.Http.Features
+  isExternal: false
+  name: Microsoft.AspNetCore.Http.Features
+  nameWithType: Microsoft.AspNetCore.Http.Features
+  fullName: Microsoft.AspNetCore.Http.Features
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  commentId: M:Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.DisposeContext(Microsoft.AspNetCore.Http.HttpContext,System.Exception)
+  parent: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}
+  definition: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+  name: DisposeContext(HttpContext, Exception)
+  nameWithType: IHttpApplication<HttpContext>.DisposeContext(HttpContext, Exception)
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>.DisposeContext(Microsoft.AspNetCore.Http.HttpContext, System.Exception)
+  nameWithType.vb: IHttpApplication(Of HttpContext).DisposeContext(HttpContext, Exception)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext).DisposeContext(Microsoft.AspNetCore.Http.HttpContext, System.Exception)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+    name: DisposeContext
+    nameWithType: IHttpApplication<HttpContext>.DisposeContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>.DisposeContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+    name: DisposeContext
+    nameWithType: IHttpApplication(Of HttpContext).DisposeContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext).DisposeContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+  commentId: M:Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+  isExternal: true
+  name: DisposeContext(TContext, Exception)
+  nameWithType: IHttpApplication<TContext>.DisposeContext(TContext, Exception)
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>.DisposeContext(TContext, System.Exception)
+  nameWithType.vb: IHttpApplication(Of TContext).DisposeContext(TContext, Exception)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext).DisposeContext(TContext, System.Exception)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+    name: DisposeContext
+    nameWithType: IHttpApplication<TContext>.DisposeContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>.DisposeContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.DisposeContext(`0,System.Exception)
+    name: DisposeContext
+    nameWithType: IHttpApplication(Of TContext).DisposeContext
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext).DisposeContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  parent: Microsoft.AspNetCore.Hosting.Server.IHttpApplication{Microsoft.AspNetCore.Http.HttpContext}
+  definition: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+  name: ProcessRequestAsync(HttpContext)
+  nameWithType: IHttpApplication<HttpContext>.ProcessRequestAsync(HttpContext)
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>.ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  nameWithType.vb: IHttpApplication(Of HttpContext).ProcessRequestAsync(HttpContext)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext).ProcessRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+    name: ProcessRequestAsync
+    nameWithType: IHttpApplication<HttpContext>.ProcessRequestAsync
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<Microsoft.AspNetCore.Http.HttpContext>.ProcessRequestAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+    name: ProcessRequestAsync
+    nameWithType: IHttpApplication(Of HttpContext).ProcessRequestAsync
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of Microsoft.AspNetCore.Http.HttpContext).ProcessRequestAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+  isExternal: true
+  name: ProcessRequestAsync(TContext)
+  nameWithType: IHttpApplication<TContext>.ProcessRequestAsync(TContext)
+  fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>.ProcessRequestAsync(TContext)
+  nameWithType.vb: IHttpApplication(Of TContext).ProcessRequestAsync(TContext)
+  fullname.vb: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext).ProcessRequestAsync(TContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+    name: ProcessRequestAsync
+    nameWithType: IHttpApplication<TContext>.ProcessRequestAsync
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication<TContext>.ProcessRequestAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1.ProcessRequestAsync(`0)
+    name: ProcessRequestAsync
+    nameWithType: IHttpApplication(Of TContext).ProcessRequestAsync
+    fullName: Microsoft.AspNetCore.Hosting.Server.IHttpApplication(Of TContext).ProcessRequestAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

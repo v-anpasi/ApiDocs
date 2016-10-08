@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  commentId: T:Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  id: ArrayTest
+  parent: Microsoft.Extensions.Configuration.Json.Test
+  children:
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayMerge
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayOfObjects
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreConvertedToKeyValuePairs
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreKeptInFileOrder
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ExplicitArrayReplacement
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ImplicitArrayItemReplacement
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.NestedArrays
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest.PropertiesAreSortedByNumberOnlyFirst
+  langs:
+  - csharp
+  - vb
+  name: ArrayTest
+  nameWithType: ArrayTest
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ArrayTest
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: public class ArrayTest
+    content.vb: Public Class ArrayTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreConvertedToKeyValuePairs
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreConvertedToKeyValuePairs
+  id: ArraysAreConvertedToKeyValuePairs
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: ArraysAreConvertedToKeyValuePairs()
+  nameWithType: ArrayTest.ArraysAreConvertedToKeyValuePairs()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreConvertedToKeyValuePairs()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ArraysAreConvertedToKeyValuePairs
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ArraysAreConvertedToKeyValuePairs()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ArraysAreConvertedToKeyValuePairs
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayOfObjects
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayOfObjects
+  id: ArrayOfObjects
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: ArrayOfObjects()
+  nameWithType: ArrayTest.ArrayOfObjects()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayOfObjects()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ArrayOfObjects
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ArrayOfObjects()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ArrayOfObjects
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.NestedArrays
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.NestedArrays
+  id: NestedArrays
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: NestedArrays()
+  nameWithType: ArrayTest.NestedArrays()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.NestedArrays()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: NestedArrays
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 55
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedArrays()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedArrays
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ImplicitArrayItemReplacement
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ImplicitArrayItemReplacement
+  id: ImplicitArrayItemReplacement
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: ImplicitArrayItemReplacement()
+  nameWithType: ArrayTest.ImplicitArrayItemReplacement()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ImplicitArrayItemReplacement()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ImplicitArrayItemReplacement
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ImplicitArrayItemReplacement()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ImplicitArrayItemReplacement
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ExplicitArrayReplacement
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ExplicitArrayReplacement
+  id: ExplicitArrayReplacement
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: ExplicitArrayReplacement()
+  nameWithType: ArrayTest.ExplicitArrayReplacement()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ExplicitArrayReplacement()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ExplicitArrayReplacement
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 111
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ExplicitArrayReplacement()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ExplicitArrayReplacement
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayMerge
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayMerge
+  id: ArrayMerge
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: ArrayMerge()
+  nameWithType: ArrayTest.ArrayMerge()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArrayMerge()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ArrayMerge
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 142
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ArrayMerge()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ArrayMerge
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreKeptInFileOrder
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreKeptInFileOrder
+  id: ArraysAreKeptInFileOrder
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: ArraysAreKeptInFileOrder()
+  nameWithType: ArrayTest.ArraysAreKeptInFileOrder()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.ArraysAreKeptInFileOrder()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ArraysAreKeptInFileOrder
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 174
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ArraysAreKeptInFileOrder()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ArraysAreKeptInFileOrder
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.PropertiesAreSortedByNumberOnlyFirst
+  commentId: M:Microsoft.Extensions.Configuration.Json.Test.ArrayTest.PropertiesAreSortedByNumberOnlyFirst
+  id: PropertiesAreSortedByNumberOnlyFirst
+  parent: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: PropertiesAreSortedByNumberOnlyFirst()
+  nameWithType: ArrayTest.PropertiesAreSortedByNumberOnlyFirst()
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest.PropertiesAreSortedByNumberOnlyFirst()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: PropertiesAreSortedByNumberOnlyFirst
+    path: test/Microsoft.Extensions.Configuration.Json.Test/ArrayTest.cs
+    startLine: 200
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+  namespace: Microsoft.Extensions.Configuration.Json.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void PropertiesAreSortedByNumberOnlyFirst()
+    content.vb: >-
+      <Fact>
+
+      Public Sub PropertiesAreSortedByNumberOnlyFirst
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Configuration.Json.Test
+  commentId: N:Microsoft.Extensions.Configuration.Json.Test
+  isExternal: false
+  name: Microsoft.Extensions.Configuration.Json.Test
+  nameWithType: Microsoft.Extensions.Configuration.Json.Test
+  fullName: Microsoft.Extensions.Configuration.Json.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

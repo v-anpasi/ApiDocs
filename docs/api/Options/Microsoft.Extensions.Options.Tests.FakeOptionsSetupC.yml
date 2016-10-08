@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Options.Tests.FakeOptionsSetupC
+  commentId: T:Microsoft.Extensions.Options.Tests.FakeOptionsSetupC
+  id: FakeOptionsSetupC
+  parent: Microsoft.Extensions.Options.Tests
+  children:
+  - Microsoft.Extensions.Options.Tests.FakeOptionsSetupC.#ctor
+  langs:
+  - csharp
+  - vb
+  name: FakeOptionsSetupC
+  nameWithType: FakeOptionsSetupC
+  fullName: Microsoft.Extensions.Options.Tests.FakeOptionsSetupC
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/FakeOptionsSetup.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: FakeOptionsSetupC
+    path: test/Microsoft.Extensions.Options.Test/FakeOptionsSetup.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: 'public class FakeOptionsSetupC : ConfigureOptions<FakeOptions>, IConfigureOptions<FakeOptions>'
+    content.vb: >-
+      Public Class FakeOptionsSetupC
+          Inherits ConfigureOptions(Of FakeOptions)
+          Implements IConfigureOptions(Of FakeOptions)
+  inheritance:
+  - System.Object
+  - Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  implements:
+  - Microsoft.Extensions.Options.IConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  inheritedMembers:
+  - Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}.Action
+  - Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}.Configure(Microsoft.Extensions.Options.Tests.FakeOptions)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Options.Tests.FakeOptionsSetupC.#ctor
+  commentId: M:Microsoft.Extensions.Options.Tests.FakeOptionsSetupC.#ctor
+  id: '#ctor'
+  parent: Microsoft.Extensions.Options.Tests.FakeOptionsSetupC
+  langs:
+  - csharp
+  - vb
+  name: FakeOptionsSetupC()
+  nameWithType: FakeOptionsSetupC.FakeOptionsSetupC()
+  fullName: Microsoft.Extensions.Options.Tests.FakeOptionsSetupC.FakeOptionsSetupC()
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/FakeOptionsSetup.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: .ctor
+    path: test/Microsoft.Extensions.Options.Test/FakeOptionsSetup.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: public FakeOptionsSetupC()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Options.Tests
+  commentId: N:Microsoft.Extensions.Options.Tests
+  isExternal: false
+  name: Microsoft.Extensions.Options.Tests
+  nameWithType: Microsoft.Extensions.Options.Tests
+  fullName: Microsoft.Extensions.Options.Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  commentId: T:Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.ConfigureOptions`1
+  name: ConfigureOptions<FakeOptions>
+  nameWithType: ConfigureOptions<FakeOptions>
+  fullName: Microsoft.Extensions.Options.ConfigureOptions<Microsoft.Extensions.Options.Tests.FakeOptions>
+  nameWithType.vb: ConfigureOptions(Of FakeOptions)
+  fullname.vb: Microsoft.Extensions.Options.ConfigureOptions(Of Microsoft.Extensions.Options.Tests.FakeOptions)
+  name.vb: ConfigureOptions(Of FakeOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1
+    name: ConfigureOptions
+    nameWithType: ConfigureOptions
+    fullName: Microsoft.Extensions.Options.ConfigureOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
+    name: FakeOptions
+    nameWithType: FakeOptions
+    fullName: Microsoft.Extensions.Options.Tests.FakeOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1
+    name: ConfigureOptions
+    nameWithType: ConfigureOptions
+    fullName: Microsoft.Extensions.Options.ConfigureOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
+    name: FakeOptions
+    nameWithType: FakeOptions
+    fullName: Microsoft.Extensions.Options.Tests.FakeOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  commentId: T:Microsoft.Extensions.Options.IConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IConfigureOptions`1
+  name: IConfigureOptions<FakeOptions>
+  nameWithType: IConfigureOptions<FakeOptions>
+  fullName: Microsoft.Extensions.Options.IConfigureOptions<Microsoft.Extensions.Options.Tests.FakeOptions>
+  nameWithType.vb: IConfigureOptions(Of FakeOptions)
+  fullname.vb: Microsoft.Extensions.Options.IConfigureOptions(Of Microsoft.Extensions.Options.Tests.FakeOptions)
+  name.vb: IConfigureOptions(Of FakeOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IConfigureOptions`1
+    name: IConfigureOptions
+    nameWithType: IConfigureOptions
+    fullName: Microsoft.Extensions.Options.IConfigureOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
+    name: FakeOptions
+    nameWithType: FakeOptions
+    fullName: Microsoft.Extensions.Options.Tests.FakeOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IConfigureOptions`1
+    name: IConfigureOptions
+    nameWithType: IConfigureOptions
+    fullName: Microsoft.Extensions.Options.IConfigureOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
+    name: FakeOptions
+    nameWithType: FakeOptions
+    fullName: Microsoft.Extensions.Options.Tests.FakeOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}.Action
+  commentId: P:Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}.Action
+  parent: Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  definition: Microsoft.Extensions.Options.ConfigureOptions`1.Action
+  name: Action
+  nameWithType: ConfigureOptions<FakeOptions>.Action
+  fullName: Microsoft.Extensions.Options.ConfigureOptions<Microsoft.Extensions.Options.Tests.FakeOptions>.Action
+  nameWithType.vb: ConfigureOptions(Of FakeOptions).Action
+  fullname.vb: Microsoft.Extensions.Options.ConfigureOptions(Of Microsoft.Extensions.Options.Tests.FakeOptions).Action
+- uid: Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}.Configure(Microsoft.Extensions.Options.Tests.FakeOptions)
+  commentId: M:Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}.Configure(Microsoft.Extensions.Options.Tests.FakeOptions)
+  parent: Microsoft.Extensions.Options.ConfigureOptions{Microsoft.Extensions.Options.Tests.FakeOptions}
+  definition: Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+  name: Configure(FakeOptions)
+  nameWithType: ConfigureOptions<FakeOptions>.Configure(FakeOptions)
+  fullName: Microsoft.Extensions.Options.ConfigureOptions<Microsoft.Extensions.Options.Tests.FakeOptions>.Configure(Microsoft.Extensions.Options.Tests.FakeOptions)
+  nameWithType.vb: ConfigureOptions(Of FakeOptions).Configure(FakeOptions)
+  fullname.vb: Microsoft.Extensions.Options.ConfigureOptions(Of Microsoft.Extensions.Options.Tests.FakeOptions).Configure(Microsoft.Extensions.Options.Tests.FakeOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+    name: Configure
+    nameWithType: ConfigureOptions<FakeOptions>.Configure
+    fullName: Microsoft.Extensions.Options.ConfigureOptions<Microsoft.Extensions.Options.Tests.FakeOptions>.Configure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
+    name: FakeOptions
+    nameWithType: FakeOptions
+    fullName: Microsoft.Extensions.Options.Tests.FakeOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+    name: Configure
+    nameWithType: ConfigureOptions(Of FakeOptions).Configure
+    fullName: Microsoft.Extensions.Options.ConfigureOptions(Of Microsoft.Extensions.Options.Tests.FakeOptions).Configure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
+    name: FakeOptions
+    nameWithType: FakeOptions
+    fullName: Microsoft.Extensions.Options.Tests.FakeOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Options.ConfigureOptions`1
+  commentId: T:Microsoft.Extensions.Options.ConfigureOptions`1
+  isExternal: false
+  name: ConfigureOptions<TOptions>
+  nameWithType: ConfigureOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.ConfigureOptions<TOptions>
+  nameWithType.vb: ConfigureOptions(Of TOptions)
+  fullname.vb: Microsoft.Extensions.Options.ConfigureOptions(Of TOptions)
+  name.vb: ConfigureOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1
+    name: ConfigureOptions
+    nameWithType: ConfigureOptions
+    fullName: Microsoft.Extensions.Options.ConfigureOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1
+    name: ConfigureOptions
+    nameWithType: ConfigureOptions
+    fullName: Microsoft.Extensions.Options.ConfigureOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: false
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Microsoft.Extensions.Options.IConfigureOptions`1
+  commentId: T:Microsoft.Extensions.Options.IConfigureOptions`1
+  isExternal: false
+  name: IConfigureOptions<TOptions>
+  nameWithType: IConfigureOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IConfigureOptions<TOptions>
+  nameWithType.vb: IConfigureOptions(Of TOptions)
+  fullname.vb: Microsoft.Extensions.Options.IConfigureOptions(Of TOptions)
+  name.vb: IConfigureOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IConfigureOptions`1
+    name: IConfigureOptions
+    nameWithType: IConfigureOptions
+    fullName: Microsoft.Extensions.Options.IConfigureOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IConfigureOptions`1
+    name: IConfigureOptions
+    nameWithType: IConfigureOptions
+    fullName: Microsoft.Extensions.Options.IConfigureOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.ConfigureOptions`1.Action
+  commentId: P:Microsoft.Extensions.Options.ConfigureOptions`1.Action
+  isExternal: false
+  name: Action
+  nameWithType: ConfigureOptions<TOptions>.Action
+  fullName: Microsoft.Extensions.Options.ConfigureOptions<TOptions>.Action
+  nameWithType.vb: ConfigureOptions(Of TOptions).Action
+  fullname.vb: Microsoft.Extensions.Options.ConfigureOptions(Of TOptions).Action
+- uid: Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+  commentId: M:Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+  isExternal: false
+  name: Configure(TOptions)
+  nameWithType: ConfigureOptions<TOptions>.Configure(TOptions)
+  fullName: Microsoft.Extensions.Options.ConfigureOptions<TOptions>.Configure(TOptions)
+  nameWithType.vb: ConfigureOptions(Of TOptions).Configure(TOptions)
+  fullname.vb: Microsoft.Extensions.Options.ConfigureOptions(Of TOptions).Configure(TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+    name: Configure
+    nameWithType: ConfigureOptions<TOptions>.Configure
+    fullName: Microsoft.Extensions.Options.ConfigureOptions<TOptions>.Configure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.ConfigureOptions`1.Configure(`0)
+    name: Configure
+    nameWithType: ConfigureOptions(Of TOptions).Configure
+    fullName: Microsoft.Extensions.Options.ConfigureOptions(Of TOptions).Configure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )

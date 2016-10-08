@@ -1,0 +1,782 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  id: DefaultPocoTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeRoleClaimsTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserClaimsTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserLoginsTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserRolesTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.EnsureStartupUsageWorks
+  langs:
+  - csharp
+  - vb
+  name: DefaultPocoTest
+  nameWithType: DefaultPocoTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: DefaultPocoTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 16
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: 'public class DefaultPocoTest : IClassFixture<ScratchDatabaseFixture>'
+    content.vb: >-
+      Public Class DefaultPocoTest
+          Implements IClassFixture(Of ScratchDatabaseFixture)
+  inheritance:
+  - System.Object
+  implements:
+  - Xunit.IClassFixture{Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  id: '#ctor(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)'
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  langs:
+  - csharp
+  - vb
+  name: DefaultPocoTest(ScratchDatabaseFixture)
+  nameWithType: DefaultPocoTest.DefaultPocoTest(ScratchDatabaseFixture)
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.DefaultPocoTest(Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: public DefaultPocoTest(ScratchDatabaseFixture fixture)
+    content.vb: Public Sub New(fixture As ScratchDatabaseFixture)
+    parameters:
+    - id: fixture
+      type: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.EnsureStartupUsageWorks
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.EnsureStartupUsageWorks
+  id: EnsureStartupUsageWorks
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  langs:
+  - csharp
+  - vb
+  name: EnsureStartupUsageWorks()
+  nameWithType: DefaultPocoTest.EnsureStartupUsageWorks()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.EnsureStartupUsageWorks()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: EnsureStartupUsageWorks
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 42
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task EnsureStartupUsageWorks()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function EnsureStartupUsageWorks As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserClaimsTest
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserClaimsTest
+  id: CanIncludeUserClaimsTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanIncludeUserClaimsTest()
+  nameWithType: DefaultPocoTest.CanIncludeUserClaimsTest()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserClaimsTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanIncludeUserClaimsTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 61
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanIncludeUserClaimsTest()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanIncludeUserClaimsTest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserLoginsTest
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserLoginsTest
+  id: CanIncludeUserLoginsTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanIncludeUserLoginsTest()
+  nameWithType: DefaultPocoTest.CanIncludeUserLoginsTest()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserLoginsTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanIncludeUserLoginsTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 88
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanIncludeUserLoginsTest()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanIncludeUserLoginsTest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserRolesTest
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserRolesTest
+  id: CanIncludeUserRolesTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanIncludeUserRolesTest()
+  nameWithType: DefaultPocoTest.CanIncludeUserRolesTest()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeUserRolesTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanIncludeUserRolesTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 115
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanIncludeUserRolesTest()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanIncludeUserRolesTest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeRoleClaimsTest
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeRoleClaimsTest
+  id: CanIncludeRoleClaimsTest
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  langs:
+  - csharp
+  - vb
+  name: CanIncludeRoleClaimsTest()
+  nameWithType: DefaultPocoTest.CanIncludeRoleClaimsTest()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest.CanIncludeRoleClaimsTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanIncludeRoleClaimsTest
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/DefaultPocoTest.cs
+    startLine: 156
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
+
+      [OSSkipCondition(OperatingSystems.Linux, new string[]{})]
+
+      [OSSkipCondition(OperatingSystems.MacOSX, new string[]{})]
+
+      public Task CanIncludeRoleClaimsTest()
+    content.vb: >-
+      <ConditionalFact>
+
+      <FrameworkSkipCondition(RuntimeFrameworks.Mono)>
+
+      <OSSkipCondition(OperatingSystems.Linux, New String() {})>
+
+      <OSSkipCondition(OperatingSystems.MacOSX, New String() {})>
+
+      Public Function CanIncludeRoleClaimsTest As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.FrameworkSkipConditionAttribute.#ctor(Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks)
+    arguments:
+    - type: Microsoft.AspNetCore.Testing.xunit.RuntimeFrameworks
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xunit.IClassFixture{Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture}
+  commentId: T:Xunit.IClassFixture{Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture}
+  parent: Xunit
+  definition: Xunit.IClassFixture`1
+  name: IClassFixture<ScratchDatabaseFixture>
+  nameWithType: IClassFixture<ScratchDatabaseFixture>
+  fullName: Xunit.IClassFixture<Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture>
+  nameWithType.vb: IClassFixture(Of ScratchDatabaseFixture)
+  fullname.vb: Xunit.IClassFixture(Of Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture)
+  name.vb: IClassFixture(Of ScratchDatabaseFixture)
+  spec.csharp:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+    name: ScratchDatabaseFixture
+    nameWithType: ScratchDatabaseFixture
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+    name: ScratchDatabaseFixture
+    nameWithType: ScratchDatabaseFixture
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.IClassFixture`1
+  commentId: T:Xunit.IClassFixture`1
+  isExternal: true
+  name: IClassFixture<TFixture>
+  nameWithType: IClassFixture<TFixture>
+  fullName: Xunit.IClassFixture<TFixture>
+  nameWithType.vb: IClassFixture(Of TFixture)
+  fullname.vb: Xunit.IClassFixture(Of TFixture)
+  name.vb: IClassFixture(Of TFixture)
+  spec.csharp:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFixture
+    nameWithType: TFixture
+    fullName: TFixture
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.IClassFixture`1
+    name: IClassFixture
+    nameWithType: IClassFixture
+    fullName: Xunit.IClassFixture
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFixture
+    nameWithType: TFixture
+    fullName: TFixture
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit
+  commentId: N:Xunit
+  isExternal: false
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: ScratchDatabaseFixture
+  nameWithType: ScratchDatabaseFixture
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

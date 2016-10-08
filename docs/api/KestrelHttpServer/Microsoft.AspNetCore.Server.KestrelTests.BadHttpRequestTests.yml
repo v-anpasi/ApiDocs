@@ -1,0 +1,1017 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  id: BadHttpRequestTests
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestIfPathContainsNullCharacters(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestWhenNameHeaderNamesContainsNonASCIICharacters
+  - Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestBadRequestLines(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestInvalidHeaders(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BadHttpRequestTests
+  nameWithType: BadHttpRequestTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: BadHttpRequestTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public class BadHttpRequestTests
+    content.vb: Public Class BadHttpRequestTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestBadRequestLines(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestBadRequestLines(System.String)
+  id: TestBadRequestLines(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  langs:
+  - csharp
+  - vb
+  name: TestBadRequestLines(String)
+  nameWithType: BadHttpRequestTests.TestBadRequestLines(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestBadRequestLines(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: TestBadRequestLines
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"G"})]
+
+      [InlineData(new object[]{"GE"})]
+
+      [InlineData(new object[]{"GET"})]
+
+      [InlineData(new object[]{"GET "})]
+
+      [InlineData(new object[]{"GET /"})]
+
+      [InlineData(new object[]{"GET / "})]
+
+      [InlineData(new object[]{"GET / H"})]
+
+      [InlineData(new object[]{"GET / HT"})]
+
+      [InlineData(new object[]{"GET / HTT"})]
+
+      [InlineData(new object[]{"GET / HTTP"})]
+
+      [InlineData(new object[]{"GET / HTTP/"})]
+
+      [InlineData(new object[]{"GET / HTTP/1"})]
+
+      [InlineData(new object[]{"GET / HTTP/1."})]
+
+      [InlineData(new object[]{"GET / HTTP/1.1"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.1\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.0"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.0\r"})]
+
+      [InlineData(new object[]{" "})]
+
+      [InlineData(new object[]{"/ "})]
+
+      [InlineData(new object[]{"GET /\r\n"})]
+
+      [InlineData(new object[]{"GET  "})]
+
+      [InlineData(new object[]{"GET / \r"})]
+
+      [InlineData(new object[]{"GET / \n"})]
+
+      [InlineData(new object[]{"GET / http/1.0\r"})]
+
+      [InlineData(new object[]{"GET / http/1.1\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.1 \r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.1a\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.0\n\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.2\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/3.0\r"})]
+
+      [InlineData(new object[]{"GET / H\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.\r"})]
+
+      [InlineData(new object[]{"GET / hello\r"})]
+
+      [InlineData(new object[]{"GET / 8charact\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.0\rA"})]
+
+      [InlineData(new object[]{"( / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{") / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"< / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"> / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"@ / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{", / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"; / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{": / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"\\ / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"\" / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"/ / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"[ / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"] / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"? / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"= / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"{ / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"} / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"get@ / HTTP/1.0\r\n"})]
+
+      [InlineData(new object[]{"post= / HTTP/1.0\r\n"})]
+
+      public Task TestBadRequestLines(string request)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"G"})>
+
+      <InlineData(New Object() {"GE"})>
+
+      <InlineData(New Object() {"GET"})>
+
+      <InlineData(New Object() {"GET "})>
+
+      <InlineData(New Object() {"GET /"})>
+
+      <InlineData(New Object() {"GET / "})>
+
+      <InlineData(New Object() {"GET / H"})>
+
+      <InlineData(New Object() {"GET / HT"})>
+
+      <InlineData(New Object() {"GET / HTT"})>
+
+      <InlineData(New Object() {"GET / HTTP"})>
+
+      <InlineData(New Object() {"GET / HTTP/"})>
+
+      <InlineData(New Object() {"GET / HTTP/1"})>
+
+      <InlineData(New Object() {"GET / HTTP/1."})>
+
+      <InlineData(New Object() {"GET / HTTP/1.1"})>
+
+      <InlineData(New Object() {"GET / HTTP/1.1" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.0"})>
+
+      <InlineData(New Object() {"GET / HTTP/1.0" & vbCr})>
+
+      <InlineData(New Object() {" "})>
+
+      <InlineData(New Object() {"/ "})>
+
+      <InlineData(New Object() {"GET /" & vbCrLf})>
+
+      <InlineData(New Object() {"GET  "})>
+
+      <InlineData(New Object() {"GET / " & vbCr})>
+
+      <InlineData(New Object() {"GET / " & vbLf})>
+
+      <InlineData(New Object() {"GET / http/1.0" & vbCr})>
+
+      <InlineData(New Object() {"GET / http/1.1" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.1 " & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.1a" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.0" & vbLf & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.2" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/3.0" & vbCr})>
+
+      <InlineData(New Object() {"GET / H" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1." & vbCr})>
+
+      <InlineData(New Object() {"GET / hello" & vbCr})>
+
+      <InlineData(New Object() {"GET / 8charact" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.0" & vbCr & "A"})>
+
+      <InlineData(New Object() {"( / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {") / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"< / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"> / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"@ / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {", / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"; / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {": / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"\ / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {""" / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"/ / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"[ / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"] / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"? / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"= / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"{ / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"} / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"get@ / HTTP/1.0" & vbCrLf})>
+
+      <InlineData(New Object() {"post= / HTTP/1.0" & vbCrLf})>
+
+      Public Function TestBadRequestLines(request As String) As Task
+    parameters:
+    - id: request
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(System.String)
+  id: ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  langs:
+  - csharp
+  - vb
+  name: ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(String)
+  nameWithType: BadHttpRequestTests.ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ServerClosesConnectionAsSoonAsBadRequestLineIsDetected
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+    startLine: 101
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{" "})]
+
+      [InlineData(new object[]{"GET  "})]
+
+      [InlineData(new object[]{"GET / HTTP/1.2\r"})]
+
+      [InlineData(new object[]{"GET / HTTP/1.0\rA"})]
+
+      [InlineData(new object[]{"( "})]
+
+      [InlineData(new object[]{") "})]
+
+      [InlineData(new object[]{"< "})]
+
+      [InlineData(new object[]{"> "})]
+
+      [InlineData(new object[]{"@ "})]
+
+      [InlineData(new object[]{", "})]
+
+      [InlineData(new object[]{"; "})]
+
+      [InlineData(new object[]{": "})]
+
+      [InlineData(new object[]{"\\ "})]
+
+      [InlineData(new object[]{"\" "})]
+
+      [InlineData(new object[]{"/ "})]
+
+      [InlineData(new object[]{"[ "})]
+
+      [InlineData(new object[]{"] "})]
+
+      [InlineData(new object[]{"? "})]
+
+      [InlineData(new object[]{"= "})]
+
+      [InlineData(new object[]{"{ "})]
+
+      [InlineData(new object[]{"} "})]
+
+      [InlineData(new object[]{"get@ "})]
+
+      [InlineData(new object[]{"post= "})]
+
+      public Task ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(string request)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {" "})>
+
+      <InlineData(New Object() {"GET  "})>
+
+      <InlineData(New Object() {"GET / HTTP/1.2" & vbCr})>
+
+      <InlineData(New Object() {"GET / HTTP/1.0" & vbCr & "A"})>
+
+      <InlineData(New Object() {"( "})>
+
+      <InlineData(New Object() {") "})>
+
+      <InlineData(New Object() {"< "})>
+
+      <InlineData(New Object() {"> "})>
+
+      <InlineData(New Object() {"@ "})>
+
+      <InlineData(New Object() {", "})>
+
+      <InlineData(New Object() {"; "})>
+
+      <InlineData(New Object() {": "})>
+
+      <InlineData(New Object() {"\ "})>
+
+      <InlineData(New Object() {""" "})>
+
+      <InlineData(New Object() {"/ "})>
+
+      <InlineData(New Object() {"[ "})>
+
+      <InlineData(New Object() {"] "})>
+
+      <InlineData(New Object() {"? "})>
+
+      <InlineData(New Object() {"= "})>
+
+      <InlineData(New Object() {"{ "})>
+
+      <InlineData(New Object() {"} "})>
+
+      <InlineData(New Object() {"get@ "})>
+
+      <InlineData(New Object() {"post= "})>
+
+      Public Function ServerClosesConnectionAsSoonAsBadRequestLineIsDetected(request As String) As Task
+    parameters:
+    - id: request
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestInvalidHeaders(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestInvalidHeaders(System.String)
+  id: TestInvalidHeaders(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  langs:
+  - csharp
+  - vb
+  name: TestInvalidHeaders(String)
+  nameWithType: BadHttpRequestTests.TestInvalidHeaders(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.TestInvalidHeaders(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: TestInvalidHeaders
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+    startLine: 138
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader-2: value2\r\n"})]
+
+      [InlineData(new object[]{" Header-1: value1\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"\tHeader-1: value1\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\n Header-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\n\tHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\rHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader-2: value2\r\r\n"})]
+
+      [InlineData(new object[]{"Header-1: multi\r\n line\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader-2: multi\r\n line\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1 value1\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader-2 value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header 1: value1\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader 2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1 : value1\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1\t: value1\r\nHeader-2: value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader-2 : value2\r\n\r\n"})]
+
+      [InlineData(new object[]{"Header-1: value1\r\nHeader-2\t: value2\r\n\r\n"})]
+
+      public Task TestInvalidHeaders(string rawHeaders)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header-2: value2" & vbCrLf})>
+
+      <InlineData(New Object() {" Header-1: value1" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {vbTab & "Header-1: value1" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & " Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & vbTab & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCr & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header-2: value2" & vbCr & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: multi" & vbCrLf & " line" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header-2: multi" & vbCrLf & " line" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1 value1" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header-2 value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header 1: value1" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header 2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1 : value1" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1" & vbTab & ": value1" & vbCrLf & "Header-2: value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header-2 : value2" & vbCrLf & vbCrLf})>
+
+      <InlineData(New Object() {"Header-1: value1" & vbCrLf & "Header-2" & vbTab & ": value2" & vbCrLf & vbCrLf})>
+
+      Public Function TestInvalidHeaders(rawHeaders As String) As Task
+    parameters:
+    - id: rawHeaders
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestWhenNameHeaderNamesContainsNonASCIICharacters
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestWhenNameHeaderNamesContainsNonASCIICharacters
+  id: BadRequestWhenNameHeaderNamesContainsNonASCIICharacters
+  parent: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  langs:
+  - csharp
+  - vb
+  name: BadRequestWhenNameHeaderNamesContainsNonASCIICharacters()
+  nameWithType: BadHttpRequestTests.BadRequestWhenNameHeaderNamesContainsNonASCIICharacters()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestWhenNameHeaderNamesContainsNonASCIICharacters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: BadRequestWhenNameHeaderNamesContainsNonASCIICharacters
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+    startLine: 174
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task BadRequestWhenNameHeaderNamesContainsNonASCIICharacters()
+    content.vb: >-
+      <Fact>
+
+      Public Function BadRequestWhenNameHeaderNamesContainsNonASCIICharacters As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestIfPathContainsNullCharacters(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestIfPathContainsNullCharacters(System.String)
+  id: BadRequestIfPathContainsNullCharacters(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+  langs:
+  - csharp
+  - vb
+  name: BadRequestIfPathContainsNullCharacters(String)
+  nameWithType: BadHttpRequestTests.BadRequestIfPathContainsNullCharacters(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests.BadRequestIfPathContainsNullCharacters(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: BadRequestIfPathContainsNullCharacters
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/BadHttpRequestTests.cs
+    startLine: 191
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"\0"})]
+
+      [InlineData(new object[]{"%00"})]
+
+      [InlineData(new object[]{"/\0"})]
+
+      [InlineData(new object[]{"/%00"})]
+
+      [InlineData(new object[]{"/\0\0"})]
+
+      [InlineData(new object[]{"/%00%00"})]
+
+      [InlineData(new object[]{"/%C8\0"})]
+
+      [InlineData(new object[]{"/%E8%00%84"})]
+
+      [InlineData(new object[]{"/%E8%85%00"})]
+
+      [InlineData(new object[]{"/%F3%00%82%86"})]
+
+      [InlineData(new object[]{"/%F3%85%00%82"})]
+
+      [InlineData(new object[]{"/%F3%85%82%00"})]
+
+      [InlineData(new object[]{"/%E8%85%00"})]
+
+      [InlineData(new object[]{"/%E8%01%00"})]
+
+      public Task BadRequestIfPathContainsNullCharacters(string path)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {vbNullChar})>
+
+      <InlineData(New Object() {"%00"})>
+
+      <InlineData(New Object() {"/" & vbNullChar})>
+
+      <InlineData(New Object() {"/%00"})>
+
+      <InlineData(New Object() {"/" & vbNullChar & vbNullChar})>
+
+      <InlineData(New Object() {"/%00%00"})>
+
+      <InlineData(New Object() {"/%C8" & vbNullChar})>
+
+      <InlineData(New Object() {"/%E8%00%84"})>
+
+      <InlineData(New Object() {"/%E8%85%00"})>
+
+      <InlineData(New Object() {"/%F3%00%82%86"})>
+
+      <InlineData(New Object() {"/%F3%85%00%82"})>
+
+      <InlineData(New Object() {"/%F3%85%82%00"})>
+
+      <InlineData(New Object() {"/%E8%85%00"})>
+
+      <InlineData(New Object() {"/%E8%01%00"})>
+
+      Public Function BadRequestIfPathContainsNullCharacters(path As String) As Task
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

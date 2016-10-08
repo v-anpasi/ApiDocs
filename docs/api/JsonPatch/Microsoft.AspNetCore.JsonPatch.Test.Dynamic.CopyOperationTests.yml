@@ -1,0 +1,823 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  id: CopyOperationTests
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  children:
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.Copy
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToNonList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromNonListToList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyInList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopy
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToNonList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromNonListToList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyInList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyToEndOfList
+  langs:
+  - csharp
+  - vb
+  name: CopyOperationTests
+  nameWithType: CopyOperationTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyOperationTests
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: public class CopyOperationTests
+    content.vb: Public Class CopyOperationTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.Copy
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.Copy
+  id: Copy
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: CopyOperationTests.Copy()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.Copy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: Copy
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Copy()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Copy
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyInList
+  id: CopyInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: CopyInList()
+  nameWithType: CopyOperationTests.CopyInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToEndOfList
+  id: CopyFromListToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromListToEndOfList()
+  nameWithType: CopyOperationTests.CopyFromListToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromListToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 48
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromListToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromListToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToNonList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToNonList
+  id: CopyFromListToNonList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromListToNonList()
+  nameWithType: CopyOperationTests.CopyFromListToNonList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromListToNonList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromListToNonList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 65
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromListToNonList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromListToNonList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromNonListToList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromNonListToList
+  id: CopyFromNonListToList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromNonListToList()
+  nameWithType: CopyOperationTests.CopyFromNonListToList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyFromNonListToList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromNonListToList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 83
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromNonListToList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromNonListToList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyToEndOfList
+  id: CopyToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: CopyToEndOfList()
+  nameWithType: CopyOperationTests.CopyToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.CopyToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 101
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopy
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopy
+  id: NestedCopy
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedCopy()
+  nameWithType: CopyOperationTests.NestedCopy()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedCopy
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 120
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedCopy()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedCopy
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyInList
+  id: NestedCopyInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedCopyInList()
+  nameWithType: CopyOperationTests.NestedCopyInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedCopyInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 142
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedCopyInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedCopyInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToEndOfList
+  id: NestedCopyFromListToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedCopyFromListToEndOfList()
+  nameWithType: CopyOperationTests.NestedCopyFromListToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedCopyFromListToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 162
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedCopyFromListToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedCopyFromListToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToNonList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToNonList
+  id: NestedCopyFromListToNonList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedCopyFromListToNonList()
+  nameWithType: CopyOperationTests.NestedCopyFromListToNonList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromListToNonList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedCopyFromListToNonList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 183
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedCopyFromListToNonList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedCopyFromListToNonList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromNonListToList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromNonListToList
+  id: NestedCopyFromNonListToList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedCopyFromNonListToList()
+  nameWithType: CopyOperationTests.NestedCopyFromNonListToList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyFromNonListToList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedCopyFromNonListToList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 203
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedCopyFromNonListToList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedCopyFromNonListToList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyToEndOfList
+  id: NestedCopyToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedCopyToEndOfList()
+  nameWithType: CopyOperationTests.NestedCopyToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests.NestedCopyToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedCopyToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/CopyOperationTests.cs
+    startLine: 223
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedCopyToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedCopyToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  isExternal: false
+  name: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

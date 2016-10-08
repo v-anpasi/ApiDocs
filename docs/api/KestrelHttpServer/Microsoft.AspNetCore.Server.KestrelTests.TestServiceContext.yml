@@ -1,0 +1,573 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  id: TestServiceContext
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.#ctor
+  - Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.#ctor(Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter)
+  - Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.App
+  - Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.DateHeaderValue
+  langs:
+  - csharp
+  - vb
+  name: TestServiceContext
+  nameWithType: TestServiceContext
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: TestServiceContext
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: 'public class TestServiceContext : ServiceContext'
+    content.vb: >-
+      Public Class TestServiceContext
+          Inherits ServiceContext
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  inheritedMembers:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.#ctor
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.#ctor
+  id: '#ctor'
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  langs:
+  - csharp
+  - vb
+  name: TestServiceContext()
+  nameWithType: TestServiceContext.TestServiceContext()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.TestServiceContext()
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public TestServiceContext()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.#ctor(Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.#ctor(Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter)
+  id: '#ctor(Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter)'
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  langs:
+  - csharp
+  - vb
+  name: TestServiceContext(IConnectionFilter)
+  nameWithType: TestServiceContext.TestServiceContext(IConnectionFilter)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.TestServiceContext(Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+    startLine: 29
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public TestServiceContext(IConnectionFilter filter)
+    content.vb: Public Sub New(filter As IConnectionFilter)
+    parameters:
+    - id: filter
+      type: Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.DateHeaderValue
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.DateHeaderValue
+  id: DateHeaderValue
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  langs:
+  - csharp
+  - vb
+  name: DateHeaderValue
+  nameWithType: TestServiceContext.DateHeaderValue
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.DateHeaderValue
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: DateHeaderValue
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+    startLine: 35
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public string DateHeaderValue { get; }
+    content.vb: Public ReadOnly Property DateHeaderValue As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.App
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.App
+  id: App
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  langs:
+  - csharp
+  - vb
+  name: App
+  nameWithType: TestServiceContext.App
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext.App
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: App
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestServiceContext.cs
+    startLine: 37
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public RequestDelegate App { get; set; }
+    content.vb: Public Property App As RequestDelegate
+    parameters: []
+    return:
+      type: Microsoft.AspNetCore.Http.RequestDelegate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal
+  isExternal: false
+  name: ServiceContext
+  nameWithType: ServiceContext
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: AppLifetime
+  nameWithType: ServiceContext.AppLifetime
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: Log
+  nameWithType: ServiceContext.Log
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: ThreadPool
+  nameWithType: ServiceContext.ThreadPool
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: FrameFactory
+  nameWithType: ServiceContext.FrameFactory
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: DateHeaderValueManager
+  nameWithType: ServiceContext.DateHeaderValueManager
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: ServerOptions
+  nameWithType: ServiceContext.ServerOptions
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal
+  commentId: N:Microsoft.AspNetCore.Server.Kestrel.Internal
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal
+  nameWithType: Microsoft.AspNetCore.Server.Kestrel.Internal
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal
+- uid: Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter
+  parent: Microsoft.AspNetCore.Server.Kestrel.Filter
+  isExternal: false
+  name: IConnectionFilter
+  nameWithType: IConnectionFilter
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter
+- uid: Microsoft.AspNetCore.Server.Kestrel.Filter
+  commentId: N:Microsoft.AspNetCore.Server.Kestrel.Filter
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Kestrel.Filter
+  nameWithType: Microsoft.AspNetCore.Server.Kestrel.Filter
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Filter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.AspNetCore.Http.RequestDelegate
+  commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: RequestDelegate
+  nameWithType: RequestDelegate
+  fullName: Microsoft.AspNetCore.Http.RequestDelegate
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: false
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http

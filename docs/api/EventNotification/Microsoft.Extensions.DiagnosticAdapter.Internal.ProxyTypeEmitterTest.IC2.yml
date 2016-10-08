@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  id: ProxyTypeEmitterTest.IC2
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  children:
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.C1
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.Tag
+  langs:
+  - csharp
+  - vb
+  name: ProxyTypeEmitterTest.IC2
+  nameWithType: ProxyTypeEmitterTest.IC2
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  type: Interface
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: IC2
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 679
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: public interface IC2
+    content.vb: Public Interface IC2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.C1
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.C1
+  id: C1
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  langs:
+  - csharp
+  - vb
+  name: C1
+  nameWithType: ProxyTypeEmitterTest.IC2.C1
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.C1
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: C1
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 681
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: ProxyTypeEmitterTest.IC1 C1 { get; }
+    content.vb: ReadOnly Property C1 As ProxyTypeEmitterTest.IC1
+    parameters: []
+    return:
+      type: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.Tag
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.Tag
+  id: Tag
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: ProxyTypeEmitterTest.IC2.Tag
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2.Tag
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Tag
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 682
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: string Tag { get; }
+    content.vb: ReadOnly Property Tag As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal
+  commentId: N:Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: Microsoft.Extensions.DiagnosticAdapter.Internal
+  nameWithType: Microsoft.Extensions.DiagnosticAdapter.Internal
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.IC1
+  nameWithType: ProxyTypeEmitterTest.IC1
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

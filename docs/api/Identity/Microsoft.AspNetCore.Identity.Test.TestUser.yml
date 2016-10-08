@@ -1,0 +1,837 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestUser
+  id: TestUser
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.TestUser.#ctor
+  - Microsoft.AspNetCore.Identity.Test.TestUser.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TestUser
+  nameWithType: TestUser
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser
+  type: Class
+  source:
+    remote:
+      path: test/Shared/TestUser.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: TestUser
+    path: test/Shared/TestUser.cs
+    startLine: 8
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: 'public class TestUser : TestUser<string>'
+    content.vb: >-
+      Public Class TestUser
+          Inherits TestUser(Of String)
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  inheritedMembers:
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Id
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.UserName
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.NormalizedUserName
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Email
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.NormalizedEmail
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.EmailConfirmed
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PasswordHash
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.SecurityStamp
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.ConcurrencyStamp
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PhoneNumber
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PhoneNumberConfirmed
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.TwoFactorEnabled
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.LockoutEnd
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.LockoutEnabled
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.AccessFailedCount
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Roles
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Claims
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Logins
+  - Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Tokens
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser.#ctor
+  commentId: M:Microsoft.AspNetCore.Identity.Test.TestUser.#ctor
+  id: '#ctor'
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser
+  langs:
+  - csharp
+  - vb
+  name: TestUser()
+  nameWithType: TestUser.TestUser()
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser.TestUser()
+  type: Constructor
+  source:
+    remote:
+      path: test/Shared/TestUser.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Shared/TestUser.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public TestUser()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser.#ctor(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.Test.TestUser.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser
+  langs:
+  - csharp
+  - vb
+  name: TestUser(String)
+  nameWithType: TestUser.TestUser(String)
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser.TestUser(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: test/Shared/TestUser.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Shared/TestUser.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public TestUser(string userName)
+    content.vb: Public Sub New(userName As String)
+    parameters:
+    - id: userName
+      type: System.String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  parent: Microsoft.AspNetCore.Identity.Test
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1
+  name: TestUser<String>
+  nameWithType: TestUser<String>
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>
+  nameWithType.vb: TestUser(Of String)
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String)
+  name.vb: TestUser(Of String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUser`1
+    name: TestUser
+    nameWithType: TestUser
+    fullName: Microsoft.AspNetCore.Identity.Test.TestUser
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUser`1
+    name: TestUser
+    nameWithType: TestUser
+    fullName: Microsoft.AspNetCore.Identity.Test.TestUser
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Id
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Id
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.Id
+  name: Id
+  nameWithType: TestUser<String>.Id
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.Id
+  nameWithType.vb: TestUser(Of String).Id
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).Id
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.UserName
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.UserName
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.UserName
+  name: UserName
+  nameWithType: TestUser<String>.UserName
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.UserName
+  nameWithType.vb: TestUser(Of String).UserName
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).UserName
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.NormalizedUserName
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.NormalizedUserName
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.NormalizedUserName
+  name: NormalizedUserName
+  nameWithType: TestUser<String>.NormalizedUserName
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.NormalizedUserName
+  nameWithType.vb: TestUser(Of String).NormalizedUserName
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).NormalizedUserName
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Email
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Email
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.Email
+  name: Email
+  nameWithType: TestUser<String>.Email
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.Email
+  nameWithType.vb: TestUser(Of String).Email
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).Email
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.NormalizedEmail
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.NormalizedEmail
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.NormalizedEmail
+  name: NormalizedEmail
+  nameWithType: TestUser<String>.NormalizedEmail
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.NormalizedEmail
+  nameWithType.vb: TestUser(Of String).NormalizedEmail
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).NormalizedEmail
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.EmailConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.EmailConfirmed
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.EmailConfirmed
+  name: EmailConfirmed
+  nameWithType: TestUser<String>.EmailConfirmed
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.EmailConfirmed
+  nameWithType.vb: TestUser(Of String).EmailConfirmed
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).EmailConfirmed
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PasswordHash
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PasswordHash
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.PasswordHash
+  name: PasswordHash
+  nameWithType: TestUser<String>.PasswordHash
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.PasswordHash
+  nameWithType.vb: TestUser(Of String).PasswordHash
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).PasswordHash
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.SecurityStamp
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.SecurityStamp
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.SecurityStamp
+  name: SecurityStamp
+  nameWithType: TestUser<String>.SecurityStamp
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.SecurityStamp
+  nameWithType.vb: TestUser(Of String).SecurityStamp
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).SecurityStamp
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.ConcurrencyStamp
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.ConcurrencyStamp
+  name: ConcurrencyStamp
+  nameWithType: TestUser<String>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.ConcurrencyStamp
+  nameWithType.vb: TestUser(Of String).ConcurrencyStamp
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).ConcurrencyStamp
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PhoneNumber
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PhoneNumber
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.PhoneNumber
+  name: PhoneNumber
+  nameWithType: TestUser<String>.PhoneNumber
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.PhoneNumber
+  nameWithType.vb: TestUser(Of String).PhoneNumber
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).PhoneNumber
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PhoneNumberConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.PhoneNumberConfirmed
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.PhoneNumberConfirmed
+  name: PhoneNumberConfirmed
+  nameWithType: TestUser<String>.PhoneNumberConfirmed
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.PhoneNumberConfirmed
+  nameWithType.vb: TestUser(Of String).PhoneNumberConfirmed
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).PhoneNumberConfirmed
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.TwoFactorEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.TwoFactorEnabled
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.TwoFactorEnabled
+  name: TwoFactorEnabled
+  nameWithType: TestUser<String>.TwoFactorEnabled
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.TwoFactorEnabled
+  nameWithType.vb: TestUser(Of String).TwoFactorEnabled
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).TwoFactorEnabled
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.LockoutEnd
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.LockoutEnd
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.LockoutEnd
+  name: LockoutEnd
+  nameWithType: TestUser<String>.LockoutEnd
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.LockoutEnd
+  nameWithType.vb: TestUser(Of String).LockoutEnd
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).LockoutEnd
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.LockoutEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.LockoutEnabled
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.LockoutEnabled
+  name: LockoutEnabled
+  nameWithType: TestUser<String>.LockoutEnabled
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.LockoutEnabled
+  nameWithType.vb: TestUser(Of String).LockoutEnabled
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).LockoutEnabled
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.AccessFailedCount
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.AccessFailedCount
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.AccessFailedCount
+  name: AccessFailedCount
+  nameWithType: TestUser<String>.AccessFailedCount
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.AccessFailedCount
+  nameWithType.vb: TestUser(Of String).AccessFailedCount
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).AccessFailedCount
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Roles
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Roles
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.Roles
+  name: Roles
+  nameWithType: TestUser<String>.Roles
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.Roles
+  nameWithType.vb: TestUser(Of String).Roles
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).Roles
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Claims
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Claims
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.Claims
+  name: Claims
+  nameWithType: TestUser<String>.Claims
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.Claims
+  nameWithType.vb: TestUser(Of String).Claims
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).Claims
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Logins
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Logins
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.Logins
+  name: Logins
+  nameWithType: TestUser<String>.Logins
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.Logins
+  nameWithType.vb: TestUser(Of String).Logins
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).Logins
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Tokens
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser{System.String}.Tokens
+  parent: Microsoft.AspNetCore.Identity.Test.TestUser{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestUser`1.Tokens
+  name: Tokens
+  nameWithType: TestUser<String>.Tokens
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<System.String>.Tokens
+  nameWithType.vb: TestUser(Of String).Tokens
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of System.String).Tokens
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestUser`1
+  isExternal: false
+  name: TestUser<TKey>
+  nameWithType: TestUser<TKey>
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>
+  nameWithType.vb: TestUser(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey)
+  name.vb: TestUser(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUser`1
+    name: TestUser
+    nameWithType: TestUser
+    fullName: Microsoft.AspNetCore.Identity.Test.TestUser
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUser`1
+    name: TestUser
+    nameWithType: TestUser
+    fullName: Microsoft.AspNetCore.Identity.Test.TestUser
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.Id
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.Id
+  isExternal: false
+  name: Id
+  nameWithType: TestUser<TKey>.Id
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.Id
+  nameWithType.vb: TestUser(Of TKey).Id
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).Id
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.UserName
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.UserName
+  isExternal: false
+  name: UserName
+  nameWithType: TestUser<TKey>.UserName
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.UserName
+  nameWithType.vb: TestUser(Of TKey).UserName
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).UserName
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.NormalizedUserName
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.NormalizedUserName
+  isExternal: false
+  name: NormalizedUserName
+  nameWithType: TestUser<TKey>.NormalizedUserName
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.NormalizedUserName
+  nameWithType.vb: TestUser(Of TKey).NormalizedUserName
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).NormalizedUserName
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.Email
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.Email
+  isExternal: false
+  name: Email
+  nameWithType: TestUser<TKey>.Email
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.Email
+  nameWithType.vb: TestUser(Of TKey).Email
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).Email
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.NormalizedEmail
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.NormalizedEmail
+  isExternal: false
+  name: NormalizedEmail
+  nameWithType: TestUser<TKey>.NormalizedEmail
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.NormalizedEmail
+  nameWithType.vb: TestUser(Of TKey).NormalizedEmail
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).NormalizedEmail
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.EmailConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.EmailConfirmed
+  isExternal: false
+  name: EmailConfirmed
+  nameWithType: TestUser<TKey>.EmailConfirmed
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.EmailConfirmed
+  nameWithType.vb: TestUser(Of TKey).EmailConfirmed
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).EmailConfirmed
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.PasswordHash
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.PasswordHash
+  isExternal: false
+  name: PasswordHash
+  nameWithType: TestUser<TKey>.PasswordHash
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.PasswordHash
+  nameWithType.vb: TestUser(Of TKey).PasswordHash
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).PasswordHash
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.SecurityStamp
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.SecurityStamp
+  isExternal: false
+  name: SecurityStamp
+  nameWithType: TestUser<TKey>.SecurityStamp
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.SecurityStamp
+  nameWithType.vb: TestUser(Of TKey).SecurityStamp
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).SecurityStamp
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.ConcurrencyStamp
+  isExternal: false
+  name: ConcurrencyStamp
+  nameWithType: TestUser<TKey>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.ConcurrencyStamp
+  nameWithType.vb: TestUser(Of TKey).ConcurrencyStamp
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).ConcurrencyStamp
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.PhoneNumber
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: TestUser<TKey>.PhoneNumber
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.PhoneNumber
+  nameWithType.vb: TestUser(Of TKey).PhoneNumber
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).PhoneNumber
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.PhoneNumberConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.PhoneNumberConfirmed
+  isExternal: false
+  name: PhoneNumberConfirmed
+  nameWithType: TestUser<TKey>.PhoneNumberConfirmed
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.PhoneNumberConfirmed
+  nameWithType.vb: TestUser(Of TKey).PhoneNumberConfirmed
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).PhoneNumberConfirmed
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.TwoFactorEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.TwoFactorEnabled
+  isExternal: false
+  name: TwoFactorEnabled
+  nameWithType: TestUser<TKey>.TwoFactorEnabled
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.TwoFactorEnabled
+  nameWithType.vb: TestUser(Of TKey).TwoFactorEnabled
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).TwoFactorEnabled
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.LockoutEnd
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.LockoutEnd
+  isExternal: false
+  name: LockoutEnd
+  nameWithType: TestUser<TKey>.LockoutEnd
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.LockoutEnd
+  nameWithType.vb: TestUser(Of TKey).LockoutEnd
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).LockoutEnd
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.LockoutEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.LockoutEnabled
+  isExternal: false
+  name: LockoutEnabled
+  nameWithType: TestUser<TKey>.LockoutEnabled
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.LockoutEnabled
+  nameWithType.vb: TestUser(Of TKey).LockoutEnabled
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).LockoutEnabled
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.AccessFailedCount
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.AccessFailedCount
+  isExternal: false
+  name: AccessFailedCount
+  nameWithType: TestUser<TKey>.AccessFailedCount
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.AccessFailedCount
+  nameWithType.vb: TestUser(Of TKey).AccessFailedCount
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).AccessFailedCount
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.Roles
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.Roles
+  isExternal: false
+  name: Roles
+  nameWithType: TestUser<TKey>.Roles
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.Roles
+  nameWithType.vb: TestUser(Of TKey).Roles
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).Roles
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.Claims
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.Claims
+  isExternal: false
+  name: Claims
+  nameWithType: TestUser<TKey>.Claims
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.Claims
+  nameWithType.vb: TestUser(Of TKey).Claims
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).Claims
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.Logins
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.Logins
+  isExternal: false
+  name: Logins
+  nameWithType: TestUser<TKey>.Logins
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.Logins
+  nameWithType.vb: TestUser(Of TKey).Logins
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).Logins
+- uid: Microsoft.AspNetCore.Identity.Test.TestUser`1.Tokens
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUser`1.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: TestUser<TKey>.Tokens
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUser<TKey>.Tokens
+  nameWithType.vb: TestUser(Of TKey).Tokens
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestUser(Of TKey).Tokens
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

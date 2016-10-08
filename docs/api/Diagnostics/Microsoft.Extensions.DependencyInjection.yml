@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  id: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.AnalysisServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.ElmServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.Elm
+references:
+- uid: Microsoft.Extensions.DependencyInjection.ElmServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.ElmServiceCollectionExtensions
+  isExternal: false
+  name: ElmServiceCollectionExtensions
+  nameWithType: ElmServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ElmServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.AnalysisServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.AnalysisServiceCollectionExtensions
+  isExternal: false
+  name: AnalysisServiceCollectionExtensions
+  nameWithType: AnalysisServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.AnalysisServiceCollectionExtensions

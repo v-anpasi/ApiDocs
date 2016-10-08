@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SampleApp
+  commentId: N:SampleApp
+  id: SampleApp
+  children:
+  - SampleApp.Startup
+  langs:
+  - csharp
+  - vb
+  name: SampleApp
+  nameWithType: SampleApp
+  fullName: SampleApp
+  type: Namespace
+  assemblies:
+  - SampleApp
+references:
+- uid: SampleApp.Startup
+  commentId: T:SampleApp.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: SampleApp.Startup

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.Json.Test
+  commentId: N:Microsoft.Extensions.Configuration.Json.Test
+  id: Microsoft.Extensions.Configuration.Json.Test
+  children:
+  - Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.Configuration.Json.Test
+  nameWithType: Microsoft.Extensions.Configuration.Json.Test
+  fullName: Microsoft.Extensions.Configuration.Json.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.Configuration.Json.Test
+references:
+- uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  commentId: T:Microsoft.Extensions.Configuration.Json.Test.ArrayTest
+  isExternal: false
+  name: ArrayTest
+  nameWithType: ArrayTest
+  fullName: Microsoft.Extensions.Configuration.Json.Test.ArrayTest

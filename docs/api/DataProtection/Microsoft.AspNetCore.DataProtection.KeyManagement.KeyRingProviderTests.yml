@@ -1,0 +1,863 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  id: KeyRingProviderTests
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement
+  children:
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing
+  langs:
+  - csharp
+  - vb
+  name: KeyRingProviderTests
+  nameWithType: KeyRingProviderTests
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: KeyRingProviderTests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: public class KeyRingProviderTests
+    content.vb: Public Class KeyRingProviderTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod
+  id: CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresAfterRefreshPeriod
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod
+  id: CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 59
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_NoGenerationRequired_DefaultKeyExpiresBeforeRefreshPeriod
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation
+  id: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 97
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey
+  id: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 147
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_CreatesNewKeyWithImmediateActivation_StillNoDefaultKey_ReturnsNewlyCreatedKey
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails
+  id: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 195
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_GenerationRequired_NoDefaultKey_KeyGenerationDisabled_Fails
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime
+  id: CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 229
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_CreatesNewKeyWithDeferredActivationAndExpirationBasedOnCreationTime
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  id: CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 279
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_GenerationRequired_WithDefaultKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  id: CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+  nameWithType: KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 317
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateCacheableKeyRing_GenerationRequired_WithFallbackKey_KeyGenerationDisabled_DoesNotCreateDefaultKey
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns
+  id: GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns()
+  nameWithType: KeyRingProviderTests.GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 411
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCurrentKeyRing_NoKeyRingCached_CachesAndReturns
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache
+  id: GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache()
+  nameWithType: KeyRingProviderTests.GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 437
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCurrentKeyRing_KeyRingCached_AfterExpiration_ClearsCache
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated
+  id: GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated()
+  nameWithType: KeyRingProviderTests.GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 470
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCurrentKeyRing_NoExistingKeyRing_HoldsAllThreadsUntilKeyRingCreated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking
+  id: GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking()
+  nameWithType: KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 519
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCurrentKeyRing_WithExpiredExistingKeyRing_AllowsOneThreadToUpdate_ReturnsExistingKeyRingToOtherCallersWithoutBlocking
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing
+  id: GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing()
+  nameWithType: KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests.GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/KeyRingProviderTests.cs
+    startLine: 559
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCurrentKeyRing_WithExpiredExistingKeyRing_UpdateFails_ThrowsButCachesOldKeyRing
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement
+  commentId: N:Microsoft.AspNetCore.DataProtection.KeyManagement
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.KeyManagement
+  nameWithType: Microsoft.AspNetCore.DataProtection.KeyManagement
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

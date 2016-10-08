@@ -1,0 +1,1259 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  commentId: T:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  id: CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  children:
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32)
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.Dispose
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: MockableEncryptor
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+    startLine: 91
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  syntax:
+    content: 'public abstract class MockableEncryptor : CngAuthenticatedEncryptorBase, IOptimizedAuthenticatedEncryptor, IAuthenticatedEncryptor, IDisposable'
+    content.vb: >-
+      Public MustInherit Class MockableEncryptor
+          Inherits CngAuthenticatedEncryptorBase
+          Implements IOptimizedAuthenticatedEncryptor, IAuthenticatedEncryptor, IDisposable
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  implements:
+  - Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.IAuthenticatedEncryptor
+  - System.IDisposable
+  inheritedMembers:
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte},System.UInt32,System.UInt32)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.Dispose
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.Dispose
+  id: Dispose
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor.Dispose()
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.Dispose()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: Dispose
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+    startLine: 93
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose
+  overridden: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32)
+  id: DecryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  langs:
+  - csharp
+  - vb
+  name: DecryptHook(IntPtr, UInt32, IntPtr, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptHook(IntPtr, UInt32, IntPtr, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptHook(System.IntPtr, System.UInt32, System.IntPtr, System.UInt32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DecryptHook
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+    startLine: 97
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  syntax:
+    content: public abstract byte[] DecryptHook(IntPtr pbCiphertext, uint cbCiphertext, IntPtr pbAdditionalAuthenticatedData, uint cbAdditionalAuthenticatedData)
+    content.vb: Public MustOverride Function DecryptHook(pbCiphertext As IntPtr, cbCiphertext As UInteger, pbAdditionalAuthenticatedData As IntPtr, cbAdditionalAuthenticatedData As UInteger) As Byte()
+    parameters:
+    - id: pbCiphertext
+      type: System.IntPtr
+    - id: cbCiphertext
+      type: System.UInt32
+    - id: pbAdditionalAuthenticatedData
+      type: System.IntPtr
+    - id: cbAdditionalAuthenticatedData
+      type: System.UInt32
+    return:
+      type: System.Byte[]
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  id: DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  langs:
+  - csharp
+  - vb
+  name: DecryptImpl(Byte*, UInt32, Byte*, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptImpl(Byte*, UInt32, Byte*, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.DecryptImpl(System.Byte*, System.UInt32, System.Byte*, System.UInt32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DecryptImpl
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+    startLine: 99
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  syntax:
+    content: protected override sealed byte[] DecryptImpl(byte *pbCiphertext, uint cbCiphertext, byte *pbAdditionalAuthenticatedData, uint cbAdditionalAuthenticatedData)
+    content.vb: Protected NotOverridable Overrides Function DecryptImpl(pbCiphertext As Byte *, cbCiphertext As UInteger, pbAdditionalAuthenticatedData As Byte *, cbAdditionalAuthenticatedData As UInteger) As Byte()
+    parameters:
+    - id: pbCiphertext
+      type: System.Byte*
+    - id: cbCiphertext
+      type: System.UInt32
+    - id: pbAdditionalAuthenticatedData
+      type: System.Byte*
+    - id: cbAdditionalAuthenticatedData
+      type: System.UInt32
+    return:
+      type: System.Byte[]
+  overridden: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  modifiers.csharp:
+  - protected
+  - override
+  - sealed
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - NotOverridable
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
+  id: EncryptHook(System.IntPtr,System.UInt32,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  langs:
+  - csharp
+  - vb
+  name: EncryptHook(IntPtr, UInt32, IntPtr, UInt32, UInt32, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptHook(IntPtr, UInt32, IntPtr, UInt32, UInt32, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptHook(System.IntPtr, System.UInt32, System.IntPtr, System.UInt32, System.UInt32, System.UInt32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: EncryptHook
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+    startLine: 104
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  syntax:
+    content: public abstract byte[] EncryptHook(IntPtr pbPlaintext, uint cbPlaintext, IntPtr pbAdditionalAuthenticatedData, uint cbAdditionalAuthenticatedData, uint cbPreBuffer, uint cbPostBuffer)
+    content.vb: Public MustOverride Function EncryptHook(pbPlaintext As IntPtr, cbPlaintext As UInteger, pbAdditionalAuthenticatedData As IntPtr, cbAdditionalAuthenticatedData As UInteger, cbPreBuffer As UInteger, cbPostBuffer As UInteger) As Byte()
+    parameters:
+    - id: pbPlaintext
+      type: System.IntPtr
+    - id: cbPlaintext
+      type: System.UInt32
+    - id: pbAdditionalAuthenticatedData
+      type: System.IntPtr
+    - id: cbAdditionalAuthenticatedData
+      type: System.UInt32
+    - id: cbPreBuffer
+      type: System.UInt32
+    - id: cbPostBuffer
+      type: System.UInt32
+    return:
+      type: System.Byte[]
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  id: EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
+  langs:
+  - csharp
+  - vb
+  name: EncryptImpl(Byte*, UInt32, Byte*, UInt32, UInt32, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptImpl(Byte*, UInt32, Byte*, UInt32, UInt32, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor.EncryptImpl(System.Byte*, System.UInt32, System.Byte*, System.UInt32, System.UInt32, System.UInt32)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: EncryptImpl
+    path: test/Microsoft.AspNetCore.DataProtection.Test/Cng/CngAuthenticatedEncryptorBaseTests.cs
+    startLine: 106
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  syntax:
+    content: protected override sealed byte[] EncryptImpl(byte *pbPlaintext, uint cbPlaintext, byte *pbAdditionalAuthenticatedData, uint cbAdditionalAuthenticatedData, uint cbPreBuffer, uint cbPostBuffer)
+    content.vb: Protected NotOverridable Overrides Function EncryptImpl(pbPlaintext As Byte *, cbPlaintext As UInteger, pbAdditionalAuthenticatedData As Byte *, cbAdditionalAuthenticatedData As UInteger, cbPreBuffer As UInteger, cbPostBuffer As UInteger) As Byte()
+    parameters:
+    - id: pbPlaintext
+      type: System.Byte*
+    - id: cbPlaintext
+      type: System.UInt32
+    - id: pbAdditionalAuthenticatedData
+      type: System.Byte*
+    - id: cbAdditionalAuthenticatedData
+      type: System.UInt32
+    - id: cbPreBuffer
+      type: System.UInt32
+    - id: cbPostBuffer
+      type: System.UInt32
+    return:
+      type: System.Byte[]
+  overridden: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  modifiers.csharp:
+  - protected
+  - override
+  - sealed
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - NotOverridable
+references:
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  commentId: N:Microsoft.AspNetCore.DataProtection.Cng.Internal
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  nameWithType: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  commentId: T:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal
+  isExternal: false
+  name: CngAuthenticatedEncryptorBase
+  nameWithType: CngAuthenticatedEncryptorBase
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+- uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.IAuthenticatedEncryptor
+  commentId: T:Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.IAuthenticatedEncryptor
+  parent: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
+  isExternal: false
+  name: IAuthenticatedEncryptor
+  nameWithType: IAuthenticatedEncryptor
+  fullName: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.IAuthenticatedEncryptor
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  isExternal: true
+  name: Decrypt(ArraySegment<Byte>, ArraySegment<Byte>)
+  nameWithType: CngAuthenticatedEncryptorBase.Decrypt(ArraySegment<Byte>, ArraySegment<Byte>)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment<System.Byte>, System.ArraySegment<System.Byte>)
+  nameWithType.vb: CngAuthenticatedEncryptorBase.Decrypt(ArraySegment(Of Byte), ArraySegment(Of Byte))
+  fullname.vb: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment(Of System.Byte), System.ArraySegment(Of System.Byte))
+  name.vb: Decrypt(ArraySegment(Of Byte), ArraySegment(Of Byte))
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+    name: Decrypt
+    nameWithType: CngAuthenticatedEncryptorBase.Decrypt
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+    name: Decrypt
+    nameWithType: CngAuthenticatedEncryptorBase.Decrypt
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  isExternal: true
+  name: Encrypt(ArraySegment<Byte>, ArraySegment<Byte>)
+  nameWithType: CngAuthenticatedEncryptorBase.Encrypt(ArraySegment<Byte>, ArraySegment<Byte>)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment<System.Byte>, System.ArraySegment<System.Byte>)
+  nameWithType.vb: CngAuthenticatedEncryptorBase.Encrypt(ArraySegment(Of Byte), ArraySegment(Of Byte))
+  fullname.vb: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment(Of System.Byte), System.ArraySegment(Of System.Byte))
+  name.vb: Encrypt(ArraySegment(Of Byte), ArraySegment(Of Byte))
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+    name: Encrypt
+    nameWithType: CngAuthenticatedEncryptorBase.Encrypt
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte})
+    name: Encrypt
+    nameWithType: CngAuthenticatedEncryptorBase.Encrypt
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte},System.UInt32,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte},System.UInt32,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  isExternal: true
+  name: Encrypt(ArraySegment<Byte>, ArraySegment<Byte>, UInt32, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBase.Encrypt(ArraySegment<Byte>, ArraySegment<Byte>, UInt32, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment<System.Byte>, System.ArraySegment<System.Byte>, System.UInt32, System.UInt32)
+  nameWithType.vb: CngAuthenticatedEncryptorBase.Encrypt(ArraySegment(Of Byte), ArraySegment(Of Byte), UInt32, UInt32)
+  fullname.vb: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment(Of System.Byte), System.ArraySegment(Of System.Byte), System.UInt32, System.UInt32)
+  name.vb: Encrypt(ArraySegment(Of Byte), ArraySegment(Of Byte), UInt32, UInt32)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte},System.UInt32,System.UInt32)
+    name: Encrypt
+    nameWithType: CngAuthenticatedEncryptorBase.Encrypt
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt(System.ArraySegment{System.Byte},System.ArraySegment{System.Byte},System.UInt32,System.UInt32)
+    name: Encrypt
+    nameWithType: CngAuthenticatedEncryptorBase.Encrypt
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Encrypt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
+  commentId: N:Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
+  nameWithType: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
+  fullName: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  isExternal: false
+  name: Dispose()
+  nameWithType: CngAuthenticatedEncryptorBase.Dispose()
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+    name: Dispose
+    nameWithType: CngAuthenticatedEncryptorBase.Dispose
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+    name: Dispose
+    nameWithType: CngAuthenticatedEncryptorBase.Dispose
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullname.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  isExternal: true
+  name: DecryptImpl(Byte*, UInt32, Byte*, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBase.DecryptImpl(Byte*, UInt32, Byte*, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl(System.Byte*, System.UInt32, System.Byte*, System.UInt32)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+    name: DecryptImpl
+    nameWithType: CngAuthenticatedEncryptorBase.DecryptImpl
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32)
+    name: DecryptImpl
+    nameWithType: CngAuthenticatedEncryptorBase.DecryptImpl
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.DecryptImpl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte*
+  name: Byte*
+  nameWithType: Byte*
+  fullName: System.Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
+  isExternal: true
+  name: EncryptImpl(Byte*, UInt32, Byte*, UInt32, UInt32, UInt32)
+  nameWithType: CngAuthenticatedEncryptorBase.EncryptImpl(Byte*, UInt32, Byte*, UInt32, UInt32, UInt32)
+  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl(System.Byte*, System.UInt32, System.Byte*, System.UInt32, System.UInt32, System.UInt32)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+    name: EncryptImpl
+    nameWithType: CngAuthenticatedEncryptorBase.EncryptImpl
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl(System.Byte*,System.UInt32,System.Byte*,System.UInt32,System.UInt32,System.UInt32)
+    name: EncryptImpl
+    nameWithType: CngAuthenticatedEncryptorBase.EncryptImpl
+    fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.EncryptImpl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,1966 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  id: EngineTests
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionCanReadAndWrite(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceived(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceivedBeforeRequestCompletes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionFilterData
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.DisconnectingClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.EngineCanStartAndStop(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Expect100ContinueForBody(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.FailedWritesResultInAbortedRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.HeadersAndStreamsAreReused(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10ContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAlive(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveNotUsedIfResponseContentLengthNotSet(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10RequestReceivesHttp11Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http11(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ListenerCanCreateAndDispose(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoErrorsLoggedWhenServerEndsConnectionBeforeClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.PathEscapeTests(System.String,System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestsCanBeAbortedMidRead(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ResponseHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterPartialWriteKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterWritingKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnCompletedIsLoggedAndClosesConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnStartingResultsInFailedWritesAnd500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingResultsIn500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForHeadRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  - Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthSetAutomaticallyAfterNoWrites(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  langs:
+  - csharp
+  - vb
+  name: EngineTests
+  nameWithType: EngineTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: EngineTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 23
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  summary: "\nSummary description for EngineTests\n"
+  example: []
+  syntax:
+    content: public class EngineTests
+    content.vb: Public Class EngineTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionFilterData
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionFilterData
+  id: ConnectionFilterData
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ConnectionFilterData
+  nameWithType: EngineTests.ConnectionFilterData
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionFilterData
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ConnectionFilterData
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public static TheoryData<TestServiceContext> ConnectionFilterData { get; }
+    content.vb: Public Shared ReadOnly Property ConnectionFilterData As TheoryData(Of TestServiceContext)
+    parameters: []
+    return:
+      type: Xunit.TheoryData{Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext}
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.EngineCanStartAndStop(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.EngineCanStartAndStop(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: EngineCanStartAndStop(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: EngineCanStartAndStop(TestServiceContext)
+  nameWithType: EngineTests.EngineCanStartAndStop(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.EngineCanStartAndStop(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: EngineCanStartAndStop
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 74
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public void EngineCanStartAndStop(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Sub EngineCanStartAndStop(testContext As TestServiceContext)
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ListenerCanCreateAndDispose(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ListenerCanCreateAndDispose(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ListenerCanCreateAndDispose(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ListenerCanCreateAndDispose(TestServiceContext)
+  nameWithType: EngineTests.ListenerCanCreateAndDispose(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ListenerCanCreateAndDispose(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ListenerCanCreateAndDispose
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 83
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public void ListenerCanCreateAndDispose(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Sub ListenerCanCreateAndDispose(testContext As TestServiceContext)
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionCanReadAndWrite(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionCanReadAndWrite(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ConnectionCanReadAndWrite(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ConnectionCanReadAndWrite(TestServiceContext)
+  nameWithType: EngineTests.ConnectionCanReadAndWrite(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionCanReadAndWrite(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ConnectionCanReadAndWrite
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 96
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public void ConnectionCanReadAndWrite(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Sub ConnectionCanReadAndWrite(testContext As TestServiceContext)
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10RequestReceivesHttp11Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10RequestReceivesHttp11Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Http10RequestReceivesHttp11Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Http10RequestReceivesHttp11Response(TestServiceContext)
+  nameWithType: EngineTests.Http10RequestReceivesHttp11Response(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10RequestReceivesHttp11Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Http10RequestReceivesHttp11Response
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 121
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Http10RequestReceivesHttp11Response(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Http10RequestReceivesHttp11Response(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http11(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http11(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Http11(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Http11(TestServiceContext)
+  nameWithType: EngineTests.Http11(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http11(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Http11
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 143
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Http11(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Http11(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.HeadersAndStreamsAreReused(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.HeadersAndStreamsAreReused(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: HeadersAndStreamsAreReused(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: HeadersAndStreamsAreReused(TestServiceContext)
+  nameWithType: EngineTests.HeadersAndStreamsAreReused(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.HeadersAndStreamsAreReused(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: HeadersAndStreamsAreReused
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 173
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task HeadersAndStreamsAreReused(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function HeadersAndStreamsAreReused(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10ContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10ContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Http10ContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Http10ContentLength(TestServiceContext)
+  nameWithType: EngineTests.Http10ContentLength(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10ContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Http10ContentLength
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 244
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Http10ContentLength(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Http10ContentLength(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAlive(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAlive(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Http10KeepAlive(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Http10KeepAlive(TestServiceContext)
+  nameWithType: EngineTests.Http10KeepAlive(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAlive(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Http10KeepAlive
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 266
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Http10KeepAlive(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Http10KeepAlive(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveNotUsedIfResponseContentLengthNotSet(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveNotUsedIfResponseContentLengthNotSet(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Http10KeepAliveNotUsedIfResponseContentLengthNotSet(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Http10KeepAliveNotUsedIfResponseContentLengthNotSet(TestServiceContext)
+  nameWithType: EngineTests.Http10KeepAliveNotUsedIfResponseContentLengthNotSet(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveNotUsedIfResponseContentLengthNotSet(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Http10KeepAliveNotUsedIfResponseContentLengthNotSet
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 297
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Http10KeepAliveNotUsedIfResponseContentLengthNotSet(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Http10KeepAliveNotUsedIfResponseContentLengthNotSet(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Http10KeepAliveContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Http10KeepAliveContentLength(TestServiceContext)
+  nameWithType: EngineTests.Http10KeepAliveContentLength(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Http10KeepAliveContentLength(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Http10KeepAliveContentLength
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 329
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Http10KeepAliveContentLength(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Http10KeepAliveContentLength(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Expect100ContinueForBody(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Expect100ContinueForBody(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: Expect100ContinueForBody(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: Expect100ContinueForBody(TestServiceContext)
+  nameWithType: EngineTests.Expect100ContinueForBody(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.Expect100ContinueForBody(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Expect100ContinueForBody
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 362
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task Expect100ContinueForBody(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function Expect100ContinueForBody(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.DisconnectingClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.DisconnectingClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: DisconnectingClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: DisconnectingClient(TestServiceContext)
+  nameWithType: EngineTests.DisconnectingClient(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.DisconnectingClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: DisconnectingClient
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 389
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task DisconnectingClient(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function DisconnectingClient(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthSetAutomaticallyAfterNoWrites(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthSetAutomaticallyAfterNoWrites(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ZeroContentLengthSetAutomaticallyAfterNoWrites(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ZeroContentLengthSetAutomaticallyAfterNoWrites(TestServiceContext)
+  nameWithType: EngineTests.ZeroContentLengthSetAutomaticallyAfterNoWrites(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthSetAutomaticallyAfterNoWrites(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ZeroContentLengthSetAutomaticallyAfterNoWrites
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 413
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ZeroContentLengthSetAutomaticallyAfterNoWrites(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ZeroContentLengthSetAutomaticallyAfterNoWrites(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(TestServiceContext)
+  nameWithType: EngineTests.ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 443
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ZeroContentLengthNotSetAutomaticallyForNonKeepAliveRequests(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForHeadRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForHeadRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ZeroContentLengthNotSetAutomaticallyForHeadRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ZeroContentLengthNotSetAutomaticallyForHeadRequests(TestServiceContext)
+  nameWithType: EngineTests.ZeroContentLengthNotSetAutomaticallyForHeadRequests(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForHeadRequests(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ZeroContentLengthNotSetAutomaticallyForHeadRequests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 479
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ZeroContentLengthNotSetAutomaticallyForHeadRequests(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ZeroContentLengthNotSetAutomaticallyForHeadRequests(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(TestServiceContext)
+  nameWithType: EngineTests.ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 500
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ZeroContentLengthNotSetAutomaticallyForCertainStatusCodes(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingResultsIn500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingResultsIn500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ThrowingResultsIn500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowingResultsIn500Response(TestServiceContext)
+  nameWithType: EngineTests.ThrowingResultsIn500Response(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingResultsIn500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowingResultsIn500Response
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 557
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ThrowingResultsIn500Response(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ThrowingResultsIn500Response(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterWritingKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterWritingKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ThrowingAfterWritingKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowingAfterWritingKillsConnection(TestServiceContext)
+  nameWithType: EngineTests.ThrowingAfterWritingKillsConnection(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterWritingKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowingAfterWritingKillsConnection
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 612
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ThrowingAfterWritingKillsConnection(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ThrowingAfterWritingKillsConnection(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterPartialWriteKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterPartialWriteKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ThrowingAfterPartialWriteKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowingAfterPartialWriteKillsConnection(TestServiceContext)
+  nameWithType: EngineTests.ThrowingAfterPartialWriteKillsConnection(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingAfterPartialWriteKillsConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowingAfterPartialWriteKillsConnection
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 654
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ThrowingAfterPartialWriteKillsConnection(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ThrowingAfterPartialWriteKillsConnection(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceived(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceived(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ConnectionClosesWhenFinReceived(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ConnectionClosesWhenFinReceived(TestServiceContext)
+  nameWithType: EngineTests.ConnectionClosesWhenFinReceived(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceived(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ConnectionClosesWhenFinReceived
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 696
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ConnectionClosesWhenFinReceived(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ConnectionClosesWhenFinReceived(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceivedBeforeRequestCompletes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceivedBeforeRequestCompletes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ConnectionClosesWhenFinReceivedBeforeRequestCompletes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ConnectionClosesWhenFinReceivedBeforeRequestCompletes(TestServiceContext)
+  nameWithType: EngineTests.ConnectionClosesWhenFinReceivedBeforeRequestCompletes(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ConnectionClosesWhenFinReceivedBeforeRequestCompletes(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ConnectionClosesWhenFinReceivedBeforeRequestCompletes
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 725
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ConnectionClosesWhenFinReceivedBeforeRequestCompletes(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ConnectionClosesWhenFinReceivedBeforeRequestCompletes(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnStartingResultsInFailedWritesAnd500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnStartingResultsInFailedWritesAnd500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ThrowingInOnStartingResultsInFailedWritesAnd500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowingInOnStartingResultsInFailedWritesAnd500Response(TestServiceContext)
+  nameWithType: EngineTests.ThrowingInOnStartingResultsInFailedWritesAnd500Response(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnStartingResultsInFailedWritesAnd500Response(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowingInOnStartingResultsInFailedWritesAnd500Response
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 772
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ThrowingInOnStartingResultsInFailedWritesAnd500Response(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ThrowingInOnStartingResultsInFailedWritesAnd500Response(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnCompletedIsLoggedAndClosesConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnCompletedIsLoggedAndClosesConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ThrowingInOnCompletedIsLoggedAndClosesConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowingInOnCompletedIsLoggedAndClosesConnection(TestServiceContext)
+  nameWithType: EngineTests.ThrowingInOnCompletedIsLoggedAndClosesConnection(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ThrowingInOnCompletedIsLoggedAndClosesConnection(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowingInOnCompletedIsLoggedAndClosesConnection
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 842
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ThrowingInOnCompletedIsLoggedAndClosesConnection(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ThrowingInOnCompletedIsLoggedAndClosesConnection(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestsCanBeAbortedMidRead(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestsCanBeAbortedMidRead(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: RequestsCanBeAbortedMidRead(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: RequestsCanBeAbortedMidRead(TestServiceContext)
+  nameWithType: EngineTests.RequestsCanBeAbortedMidRead(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestsCanBeAbortedMidRead(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestsCanBeAbortedMidRead
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 892
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task RequestsCanBeAbortedMidRead(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function RequestsCanBeAbortedMidRead(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.FailedWritesResultInAbortedRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.FailedWritesResultInAbortedRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: FailedWritesResultInAbortedRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: FailedWritesResultInAbortedRequest(TestServiceContext)
+  nameWithType: EngineTests.FailedWritesResultInAbortedRequest(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.FailedWritesResultInAbortedRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: FailedWritesResultInAbortedRequest
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 964
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task FailedWritesResultInAbortedRequest(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function FailedWritesResultInAbortedRequest(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoErrorsLoggedWhenServerEndsConnectionBeforeClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoErrorsLoggedWhenServerEndsConnectionBeforeClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: NoErrorsLoggedWhenServerEndsConnectionBeforeClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: NoErrorsLoggedWhenServerEndsConnectionBeforeClient(TestServiceContext)
+  nameWithType: EngineTests.NoErrorsLoggedWhenServerEndsConnectionBeforeClient(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoErrorsLoggedWhenServerEndsConnectionBeforeClient(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: NoErrorsLoggedWhenServerEndsConnectionBeforeClient
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 1025
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task NoErrorsLoggedWhenServerEndsConnectionBeforeClient(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function NoErrorsLoggedWhenServerEndsConnectionBeforeClient(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(TestServiceContext)
+  nameWithType: EngineTests.NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 1057
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function NoResponseSentWhenConnectionIsClosedByServerBeforeClientFinishesSendingRequest(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: RequestHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: RequestHeadersAreResetOnEachRequest(TestServiceContext)
+  nameWithType: EngineTests.RequestHeadersAreResetOnEachRequest(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.RequestHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestHeadersAreResetOnEachRequest
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 1079
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task RequestHeadersAreResetOnEachRequest(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function RequestHeadersAreResetOnEachRequest(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ResponseHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ResponseHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  id: ResponseHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: ResponseHeadersAreResetOnEachRequest(TestServiceContext)
+  nameWithType: EngineTests.ResponseHeadersAreResetOnEachRequest(TestServiceContext)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.ResponseHeadersAreResetOnEachRequest(Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ResponseHeadersAreResetOnEachRequest
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 1126
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("ConnectionFilterData", new object[]{})]
+
+      public Task ResponseHeadersAreResetOnEachRequest(TestServiceContext testContext)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("ConnectionFilterData", New Object() {})>
+
+      Public Function ResponseHeadersAreResetOnEachRequest(testContext As TestServiceContext) As Task
+    parameters:
+    - id: testContext
+      type: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.PathEscapeTests(System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.EngineTests.PathEscapeTests(System.String,System.String)
+  id: PathEscapeTests(System.String,System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+  langs:
+  - csharp
+  - vb
+  name: PathEscapeTests(String, String)
+  nameWithType: EngineTests.PathEscapeTests(String, String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.EngineTests.PathEscapeTests(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: PathEscapeTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/EngineTests.cs
+    startLine: 1173
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"/%%2000", "/% 00"})]
+
+      [InlineData(new object[]{"/%25%30%30", "/%00"})]
+
+      public Task PathEscapeTests(string inputPath, string expectedPath)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"/%%2000", "/% 00"})>
+
+      <InlineData(New Object() {"/%25%30%30", "/%00"})>
+
+      Public Function PathEscapeTests(inputPath As String, expectedPath As String) As Task
+    parameters:
+    - id: inputPath
+      type: System.String
+    - id: expectedPath
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.TheoryData{Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext}
+  commentId: T:Xunit.TheoryData{Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext}
+  parent: Xunit
+  definition: Xunit.TheoryData`1
+  name: TheoryData<TestServiceContext>
+  nameWithType: TheoryData<TestServiceContext>
+  fullName: Xunit.TheoryData<Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext>
+  nameWithType.vb: TheoryData(Of TestServiceContext)
+  fullname.vb: Xunit.TheoryData(Of Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext)
+  name.vb: TheoryData(Of TestServiceContext)
+  spec.csharp:
+  - uid: Xunit.TheoryData`1
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    name: TestServiceContext
+    nameWithType: TestServiceContext
+    fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.TheoryData`1
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    name: TestServiceContext
+    nameWithType: TestServiceContext
+    fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit.TheoryData`1
+  commentId: T:Xunit.TheoryData`1
+  isExternal: true
+  name: TheoryData<T>
+  nameWithType: TheoryData<T>
+  fullName: Xunit.TheoryData<T>
+  nameWithType.vb: TheoryData(Of T)
+  fullname.vb: Xunit.TheoryData(Of T)
+  name.vb: TheoryData(Of T)
+  spec.csharp:
+  - uid: Xunit.TheoryData`1
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xunit.TheoryData`1
+    name: TheoryData
+    nameWithType: TheoryData
+    fullName: Xunit.TheoryData
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit
+  commentId: N:Xunit
+  isExternal: false
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: TestServiceContext
+  nameWithType: TestServiceContext
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

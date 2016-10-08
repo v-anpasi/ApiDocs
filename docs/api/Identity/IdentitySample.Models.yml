@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySample.Models
+  commentId: N:IdentitySample.Models
+  id: IdentitySample.Models
+  children:
+  - IdentitySample.Models.ApplicationDbContext
+  - IdentitySample.Models.ApplicationUser
+  langs:
+  - csharp
+  - vb
+  name: IdentitySample.Models
+  nameWithType: IdentitySample.Models
+  fullName: IdentitySample.Models
+  type: Namespace
+  assemblies:
+  - IdentitySample.Mvc
+references:
+- uid: IdentitySample.Models.ApplicationDbContext
+  commentId: T:IdentitySample.Models.ApplicationDbContext
+  parent: IdentitySample.Models
+  isExternal: false
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: IdentitySample.Models.ApplicationDbContext
+- uid: IdentitySample.Models.ApplicationUser
+  commentId: T:IdentitySample.Models.ApplicationUser
+  isExternal: false
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: IdentitySample.Models.ApplicationUser
+- uid: IdentitySample.Models
+  commentId: N:IdentitySample.Models
+  isExternal: false
+  name: IdentitySample.Models
+  nameWithType: IdentitySample.Models
+  fullName: IdentitySample.Models

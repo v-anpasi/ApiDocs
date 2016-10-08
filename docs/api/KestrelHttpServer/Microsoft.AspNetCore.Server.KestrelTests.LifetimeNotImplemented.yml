@@ -1,0 +1,568 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  id: LifetimeNotImplemented
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStarted
+  - Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopped
+  - Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopping
+  - Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.StopApplication
+  langs:
+  - csharp
+  - vb
+  name: LifetimeNotImplemented
+  nameWithType: LifetimeNotImplemented
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: LifetimeNotImplemented
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: 'public class LifetimeNotImplemented : IApplicationLifetime'
+    content.vb: >-
+      Public Class LifetimeNotImplemented
+          Implements IApplicationLifetime
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStarted
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStarted
+  id: ApplicationStarted
+  parent: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  langs:
+  - csharp
+  - vb
+  name: ApplicationStarted
+  nameWithType: LifetimeNotImplemented.ApplicationStarted
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStarted
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ApplicationStarted
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public CancellationToken ApplicationStarted { get; }
+    content.vb: Public ReadOnly Property ApplicationStarted As CancellationToken
+    parameters: []
+    return:
+      type: System.Threading.CancellationToken
+  implements:
+  - Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStarted
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopped
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopped
+  id: ApplicationStopped
+  parent: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  langs:
+  - csharp
+  - vb
+  name: ApplicationStopped
+  nameWithType: LifetimeNotImplemented.ApplicationStopped
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopped
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ApplicationStopped
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public CancellationToken ApplicationStopped { get; }
+    content.vb: Public ReadOnly Property ApplicationStopped As CancellationToken
+    parameters: []
+    return:
+      type: System.Threading.CancellationToken
+  implements:
+  - Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopped
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopping
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopping
+  id: ApplicationStopping
+  parent: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  langs:
+  - csharp
+  - vb
+  name: ApplicationStopping
+  nameWithType: LifetimeNotImplemented.ApplicationStopping
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.ApplicationStopping
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ApplicationStopping
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public CancellationToken ApplicationStopping { get; }
+    content.vb: Public ReadOnly Property ApplicationStopping As CancellationToken
+    parameters: []
+    return:
+      type: System.Threading.CancellationToken
+  implements:
+  - Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopping
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.StopApplication
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.StopApplication
+  id: StopApplication
+  parent: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+  langs:
+  - csharp
+  - vb
+  name: StopApplication()
+  nameWithType: LifetimeNotImplemented.StopApplication()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented.StopApplication()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: StopApplication
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/LifetimeNotImplemented.cs
+    startLine: 35
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public void StopApplication()
+    content.vb: Public Sub StopApplication
+  implements:
+  - Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  commentId: T:Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: IApplicationLifetime
+  nameWithType: IApplicationLifetime
+  fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  isExternal: false
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting
+- uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStarted
+  commentId: P:Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStarted
+  parent: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  isExternal: true
+  name: ApplicationStarted
+  nameWithType: IApplicationLifetime.ApplicationStarted
+  fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStarted
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: false
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopped
+  commentId: P:Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopped
+  parent: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  isExternal: true
+  name: ApplicationStopped
+  nameWithType: IApplicationLifetime.ApplicationStopped
+  fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopped
+- uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopping
+  commentId: P:Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopping
+  parent: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  isExternal: true
+  name: ApplicationStopping
+  nameWithType: IApplicationLifetime.ApplicationStopping
+  fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime.ApplicationStopping
+- uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+  commentId: M:Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+  parent: Microsoft.AspNetCore.Hosting.IApplicationLifetime
+  isExternal: true
+  name: StopApplication()
+  nameWithType: IApplicationLifetime.StopApplication()
+  fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+    name: StopApplication
+    nameWithType: IApplicationLifetime.StopApplication
+    fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+    name: StopApplication
+    nameWithType: IApplicationLifetime.StopApplication
+    fullName: Microsoft.AspNetCore.Hosting.IApplicationLifetime.StopApplication
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

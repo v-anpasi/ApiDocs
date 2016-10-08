@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  id: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  children:
+  - Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiForgerySampleTestFixture
+  - Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiforgerySampleTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  fullName: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.FunctionalTests
+references:
+- uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiforgerySampleTests
+  commentId: T:Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiforgerySampleTests
+  isExternal: false
+  name: AntiforgerySampleTests
+  nameWithType: AntiforgerySampleTests
+  fullName: Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiforgerySampleTests
+- uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiForgerySampleTestFixture
+  commentId: T:Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiForgerySampleTestFixture
+  parent: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  isExternal: false
+  name: AntiForgerySampleTestFixture
+  nameWithType: AntiForgerySampleTestFixture
+  fullName: Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiForgerySampleTestFixture
+- uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Antiforgery.FunctionalTests
+  fullName: Microsoft.AspNetCore.Antiforgery.FunctionalTests

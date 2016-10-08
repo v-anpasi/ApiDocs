@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  commentId: T:Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  id: TestRunner
+  parent: Microsoft.AspNetCore.Localization.FunctionalTests
+  children:
+  - Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.#ctor(System.String)
+  - Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponse(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  - Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponseHeading(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TestRunner
+  nameWithType: TestRunner
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+      branch: master
+      repo: https://github.com/aspnet/Localization.git
+    id: TestRunner
+    path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Localization.FunctionalTests
+  namespace: Microsoft.AspNetCore.Localization.FunctionalTests
+  syntax:
+    content: public class TestRunner
+    content.vb: Public Class TestRunner
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.#ctor(System.String)
+  commentId: M:Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  langs:
+  - csharp
+  - vb
+  name: TestRunner(String)
+  nameWithType: TestRunner.TestRunner(String)
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.TestRunner(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+      branch: master
+      repo: https://github.com/aspnet/Localization.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Localization.FunctionalTests
+  namespace: Microsoft.AspNetCore.Localization.FunctionalTests
+  syntax:
+    content: public TestRunner(string applicationPath)
+    content.vb: Public Sub New(applicationPath As String)
+    parameters:
+    - id: applicationPath
+      type: System.String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponse(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponse(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  id: RunTestAndVerifyResponse(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  parent: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  langs:
+  - csharp
+  - vb
+  name: RunTestAndVerifyResponse(RuntimeFlavor, RuntimeArchitecture, String, String, String, String)
+  nameWithType: TestRunner.RunTestAndVerifyResponse(RuntimeFlavor, RuntimeArchitecture, String, String, String, String)
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponse(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor, Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+      branch: master
+      repo: https://github.com/aspnet/Localization.git
+    id: RunTestAndVerifyResponse
+    path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+    startLine: 89
+  assemblies:
+  - Microsoft.AspNetCore.Localization.FunctionalTests
+  namespace: Microsoft.AspNetCore.Localization.FunctionalTests
+  syntax:
+    content: public Task RunTestAndVerifyResponse(RuntimeFlavor runtimeFlavor, RuntimeArchitecture runtimeArchitecture, string applicationBaseUrl, string environmentName, string locale, string expectedText)
+    content.vb: Public Function RunTestAndVerifyResponse(runtimeFlavor As RuntimeFlavor, runtimeArchitecture As RuntimeArchitecture, applicationBaseUrl As String, environmentName As String, locale As String, expectedText As String) As Task
+    parameters:
+    - id: runtimeFlavor
+      type: Microsoft.AspNetCore.Server.Testing.RuntimeFlavor
+    - id: runtimeArchitecture
+      type: Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture
+    - id: applicationBaseUrl
+      type: System.String
+    - id: environmentName
+      type: System.String
+    - id: locale
+      type: System.String
+    - id: expectedText
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponseHeading(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponseHeading(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  id: RunTestAndVerifyResponseHeading(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor,Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture,System.String,System.String,System.String,System.String)
+  parent: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  langs:
+  - csharp
+  - vb
+  name: RunTestAndVerifyResponseHeading(RuntimeFlavor, RuntimeArchitecture, String, String, String, String)
+  nameWithType: TestRunner.RunTestAndVerifyResponseHeading(RuntimeFlavor, RuntimeArchitecture, String, String, String, String)
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner.RunTestAndVerifyResponseHeading(Microsoft.AspNetCore.Server.Testing.RuntimeFlavor, Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+      branch: master
+      repo: https://github.com/aspnet/Localization.git
+    id: RunTestAndVerifyResponseHeading
+    path: test/Microsoft.AspNetCore.Localization.FunctionalTests/TestRunner.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.AspNetCore.Localization.FunctionalTests
+  namespace: Microsoft.AspNetCore.Localization.FunctionalTests
+  syntax:
+    content: public Task RunTestAndVerifyResponseHeading(RuntimeFlavor runtimeFlavor, RuntimeArchitecture runtimeArchitecture, string applicationBaseUrl, string environmentName, string locale, string expectedHeadingText)
+    content.vb: Public Function RunTestAndVerifyResponseHeading(runtimeFlavor As RuntimeFlavor, runtimeArchitecture As RuntimeArchitecture, applicationBaseUrl As String, environmentName As String, locale As String, expectedHeadingText As String) As Task
+    parameters:
+    - id: runtimeFlavor
+      type: Microsoft.AspNetCore.Server.Testing.RuntimeFlavor
+    - id: runtimeArchitecture
+      type: Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture
+    - id: applicationBaseUrl
+      type: System.String
+    - id: environmentName
+      type: System.String
+    - id: locale
+      type: System.String
+    - id: expectedHeadingText
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Localization.FunctionalTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Localization.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Localization.FunctionalTests
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.AspNetCore.Server.Testing.RuntimeFlavor
+  commentId: T:Microsoft.AspNetCore.Server.Testing.RuntimeFlavor
+  parent: Microsoft.AspNetCore.Server.Testing
+  isExternal: true
+  name: RuntimeFlavor
+  nameWithType: RuntimeFlavor
+  fullName: Microsoft.AspNetCore.Server.Testing.RuntimeFlavor
+- uid: Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture
+  commentId: T:Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture
+  parent: Microsoft.AspNetCore.Server.Testing
+  isExternal: true
+  name: RuntimeArchitecture
+  nameWithType: RuntimeArchitecture
+  fullName: Microsoft.AspNetCore.Server.Testing.RuntimeArchitecture
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.Server.Testing
+  commentId: N:Microsoft.AspNetCore.Server.Testing
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Testing
+  nameWithType: Microsoft.AspNetCore.Server.Testing
+  fullName: Microsoft.AspNetCore.Server.Testing
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

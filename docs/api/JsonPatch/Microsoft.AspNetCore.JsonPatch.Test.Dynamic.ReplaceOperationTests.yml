@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  id: ReplaceOperationTests
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  children:
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceAtEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListFromEnumerable
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListWithCollection
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTest
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObjectInAnonymous
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInListAtEnd
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceNestedObjectTest
+  langs:
+  - csharp
+  - vb
+  name: ReplaceOperationTests
+  nameWithType: ReplaceOperationTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceOperationTests
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: public class ReplaceOperationTests
+    content.vb: Public Class ReplaceOperationTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTest
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTest
+  id: ReplaceGuidTest
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceGuidTest()
+  nameWithType: ReplaceOperationTests.ReplaceGuidTest()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceGuidTest
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceGuidTest()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceGuidTest
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObject
+  id: ReplaceGuidTestExpandoObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceGuidTestExpandoObject()
+  nameWithType: ReplaceOperationTests.ReplaceGuidTestExpandoObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceGuidTestExpandoObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 36
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceGuidTestExpandoObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceGuidTestExpandoObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObjectInAnonymous
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObjectInAnonymous
+  id: ReplaceGuidTestExpandoObjectInAnonymous
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceGuidTestExpandoObjectInAnonymous()
+  nameWithType: ReplaceOperationTests.ReplaceGuidTestExpandoObjectInAnonymous()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceGuidTestExpandoObjectInAnonymous()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceGuidTestExpandoObjectInAnonymous
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 56
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceGuidTestExpandoObjectInAnonymous()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceGuidTestExpandoObjectInAnonymous
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceNestedObjectTest
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceNestedObjectTest
+  id: ReplaceNestedObjectTest
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNestedObjectTest()
+  nameWithType: ReplaceOperationTests.ReplaceNestedObjectTest()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceNestedObjectTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceNestedObjectTest
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 81
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceNestedObjectTest()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceNestedObjectTest
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInList
+  id: ReplaceInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInList()
+  nameWithType: ReplaceOperationTests.ReplaceInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 111
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullList
+  id: ReplaceFullList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullList()
+  nameWithType: ReplaceOperationTests.ReplaceFullList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 129
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInList
+  id: ReplaceInListInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInList()
+  nameWithType: ReplaceOperationTests.ReplaceInListInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 147
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInListAtEnd
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInListAtEnd
+  id: ReplaceInListInListAtEnd
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInListAtEnd()
+  nameWithType: ReplaceOperationTests.ReplaceInListInListAtEnd()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceInListInListAtEnd()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInListAtEnd
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 168
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInListAtEnd()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInListAtEnd
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListFromEnumerable
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListFromEnumerable
+  id: ReplaceFullListFromEnumerable
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListFromEnumerable()
+  nameWithType: ReplaceOperationTests.ReplaceFullListFromEnumerable()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListFromEnumerable()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListFromEnumerable
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 189
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListFromEnumerable()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListFromEnumerable
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListWithCollection
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListWithCollection
+  id: ReplaceFullListWithCollection
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListWithCollection()
+  nameWithType: ReplaceOperationTests.ReplaceFullListWithCollection()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceFullListWithCollection()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListWithCollection
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 206
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListWithCollection()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListWithCollection
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceAtEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceAtEndOfList
+  id: ReplaceAtEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceAtEndOfList()
+  nameWithType: ReplaceOperationTests.ReplaceAtEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests.ReplaceAtEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceAtEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/ReplaceOperationTests.cs
+    startLine: 224
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceAtEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceAtEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  isExternal: false
+  name: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

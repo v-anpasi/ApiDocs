@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  id: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.Options
+references:
+- uid: Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions
+  isExternal: false
+  name: OptionsServiceCollectionExtensions
+  nameWithType: OptionsServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
+  isExternal: false
+  name: OptionsConfigurationServiceCollectionExtensions
+  nameWithType: OptionsConfigurationServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
+  isExternal: false
+  name: OptionsMonitorServiceCollectionExtensions
+  nameWithType: OptionsMonitorServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions

@@ -1,0 +1,220 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions
+    name: LoggingServiceCollectionExtensions
+- uid: Microsoft.Extensions.Logging
+  name: Microsoft.Extensions.Logging
+  items:
+  - uid: Microsoft.Extensions.Logging.AnsiLogConsoleTest
+    name: AnsiLogConsoleTest
+  - uid: Microsoft.Extensions.Logging.ConsoleLoggerExtensions
+    name: ConsoleLoggerExtensions
+  - uid: Microsoft.Extensions.Logging.DebugLoggerFactoryExtensions
+    name: DebugLoggerFactoryExtensions
+  - uid: Microsoft.Extensions.Logging.DebugLoggerTest
+    name: DebugLoggerTest
+  - uid: Microsoft.Extensions.Logging.EventId
+    name: EventId
+  - uid: Microsoft.Extensions.Logging.EventLoggerFactoryExtensions
+    name: EventLoggerFactoryExtensions
+  - uid: Microsoft.Extensions.Logging.FilterLoggerFactoryExtensions
+    name: FilterLoggerFactoryExtensions
+  - uid: Microsoft.Extensions.Logging.FilterLoggerSettings
+    name: FilterLoggerSettings
+  - uid: Microsoft.Extensions.Logging.IFilterLoggerSettings
+    name: IFilterLoggerSettings
+  - uid: Microsoft.Extensions.Logging.ILogger
+    name: ILogger
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger<TCategoryName>
+    name.vb: ILogger(Of TCategoryName)
+  - uid: Microsoft.Extensions.Logging.ILoggerFactory
+    name: ILoggerFactory
+  - uid: Microsoft.Extensions.Logging.ILoggerProvider
+    name: ILoggerProvider
+  - uid: Microsoft.Extensions.Logging.Logger`1
+    name: Logger<T>
+    name.vb: Logger(Of T)
+  - uid: Microsoft.Extensions.Logging.LoggerExtensions
+    name: LoggerExtensions
+  - uid: Microsoft.Extensions.Logging.LoggerFactory
+    name: LoggerFactory
+  - uid: Microsoft.Extensions.Logging.LoggerFactoryExtensions
+    name: LoggerFactoryExtensions
+  - uid: Microsoft.Extensions.Logging.LoggerFilterTest
+    name: LoggerFilterTest
+  - uid: Microsoft.Extensions.Logging.LoggerMessage
+    name: LoggerMessage
+  - uid: Microsoft.Extensions.Logging.LoggerMessageTest
+    name: LoggerMessageTest
+  - uid: Microsoft.Extensions.Logging.LoggerTest
+    name: LoggerTest
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+  - uid: Microsoft.Extensions.Logging.TestLoggerExtensions
+    name: TestLoggerExtensions
+  - uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ActionMatchedInfo
+    name: TestLoggerExtensions.ActionMatchedInfo
+  - uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithThreeParameters
+    name: TestLoggerExtensions.ScopeInfoWithThreeParameters
+  - uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithTwoParameters
+    name: TestLoggerExtensions.ScopeInfoWithTwoParameters
+  - uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithOneParameter
+    name: TestLoggerExtensions.ScopeWithOneParameter
+  - uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithoutAnyParameters
+    name: TestLoggerExtensions.ScopeWithoutAnyParameters
+  - uid: Microsoft.Extensions.Logging.TraceSourceFactoryExtensions
+    name: TraceSourceFactoryExtensions
+  - uid: Microsoft.Extensions.Logging.WriteContext
+    name: WriteContext
+- uid: Microsoft.Extensions.Logging.Abstractions.Internal
+  name: Microsoft.Extensions.Logging.Abstractions.Internal
+  items:
+  - uid: Microsoft.Extensions.Logging.Abstractions.Internal.TypeNameHelper
+    name: TypeNameHelper
+  - uid: Microsoft.Extensions.Logging.Abstractions.Internal.TypeNameHelperTest
+    name: TypeNameHelperTest
+- uid: Microsoft.Extensions.Logging.Console
+  name: Microsoft.Extensions.Logging.Console
+  items:
+  - uid: Microsoft.Extensions.Logging.Console.ConfigurationConsoleLoggerSettings
+    name: ConfigurationConsoleLoggerSettings
+  - uid: Microsoft.Extensions.Logging.Console.ConsoleLogger
+    name: ConsoleLogger
+  - uid: Microsoft.Extensions.Logging.Console.ConsoleLoggerProvider
+    name: ConsoleLoggerProvider
+  - uid: Microsoft.Extensions.Logging.Console.ConsoleLoggerSettings
+    name: ConsoleLoggerSettings
+  - uid: Microsoft.Extensions.Logging.Console.ConsoleLogScope
+    name: ConsoleLogScope
+  - uid: Microsoft.Extensions.Logging.Console.IConsoleLoggerSettings
+    name: IConsoleLoggerSettings
+- uid: Microsoft.Extensions.Logging.Console.Internal
+  name: Microsoft.Extensions.Logging.Console.Internal
+  items:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.AnsiLogConsole
+    name: AnsiLogConsole
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IAnsiSystemConsole
+    name: IAnsiSystemConsole
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole
+    name: IConsole
+  - uid: Microsoft.Extensions.Logging.Console.Internal.WindowsLogConsole
+    name: WindowsLogConsole
+- uid: Microsoft.Extensions.Logging.Debug
+  name: Microsoft.Extensions.Logging.Debug
+  items:
+  - uid: Microsoft.Extensions.Logging.Debug.DebugLogger
+    name: DebugLogger
+  - uid: Microsoft.Extensions.Logging.Debug.DebugLoggerProvider
+    name: DebugLoggerProvider
+- uid: Microsoft.Extensions.Logging.EventLog
+  name: Microsoft.Extensions.Logging.EventLog
+  items:
+  - uid: Microsoft.Extensions.Logging.EventLog.EventLogLogger
+    name: EventLogLogger
+  - uid: Microsoft.Extensions.Logging.EventLog.EventLogLoggerProvider
+    name: EventLogLoggerProvider
+  - uid: Microsoft.Extensions.Logging.EventLog.EventLogSettings
+    name: EventLogSettings
+  - uid: Microsoft.Extensions.Logging.EventLog.WindowsEventLog
+    name: WindowsEventLog
+- uid: Microsoft.Extensions.Logging.EventLog.Internal
+  name: Microsoft.Extensions.Logging.EventLog.Internal
+  items:
+  - uid: Microsoft.Extensions.Logging.EventLog.Internal.IEventLog
+    name: IEventLog
+- uid: Microsoft.Extensions.Logging.Filter.Internal
+  name: Microsoft.Extensions.Logging.Filter.Internal
+  items:
+  - uid: Microsoft.Extensions.Logging.Filter.Internal.FilterLogger
+    name: FilterLogger
+  - uid: Microsoft.Extensions.Logging.Filter.Internal.FilterLoggerFactory
+    name: FilterLoggerFactory
+  - uid: Microsoft.Extensions.Logging.Filter.Internal.FilterLoggerProvider
+    name: FilterLoggerProvider
+- uid: Microsoft.Extensions.Logging.Internal
+  name: Microsoft.Extensions.Logging.Internal
+  items:
+  - uid: Microsoft.Extensions.Logging.Internal.FormattedLogValues
+    name: FormattedLogValues
+  - uid: Microsoft.Extensions.Logging.Internal.LogValuesFormatter
+    name: LogValuesFormatter
+- uid: Microsoft.Extensions.Logging.Test
+  name: Microsoft.Extensions.Logging.Test
+  items:
+  - uid: Microsoft.Extensions.Logging.Test.BeginScopeContext
+    name: BeginScopeContext
+  - uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+    name: ConsoleLoggerTest
+  - uid: Microsoft.Extensions.Logging.Test.FormattedLogValuesTest
+    name: FormattedLogValuesTest
+  - uid: Microsoft.Extensions.Logging.Test.LoggerExtensionsTest
+    name: LoggerExtensionsTest
+  - uid: Microsoft.Extensions.Logging.Test.LoggerFactoryExtensionsTest
+    name: LoggerFactoryExtensionsTest
+  - uid: Microsoft.Extensions.Logging.Test.LoggerFactoryTest
+    name: LoggerFactoryTest
+  - uid: Microsoft.Extensions.Logging.Test.LoggingServiceCollectionExtensionsTest
+    name: LoggingServiceCollectionExtensionsTest
+  - uid: Microsoft.Extensions.Logging.Test.LogLevelEnumTest
+    name: LogLevelEnumTest
+  - uid: Microsoft.Extensions.Logging.Test.TestLogger
+    name: TestLogger
+  - uid: Microsoft.Extensions.Logging.Test.TestLoggerFactory
+    name: TestLoggerFactory
+  - uid: Microsoft.Extensions.Logging.Test.TestLoggerProvider
+    name: TestLoggerProvider
+  - uid: Microsoft.Extensions.Logging.Test.TestSink
+    name: TestSink
+  - uid: Microsoft.Extensions.Logging.Test.TraceSourceScopeTest
+    name: TraceSourceScopeTest
+- uid: Microsoft.Extensions.Logging.Test.Console
+  name: Microsoft.Extensions.Logging.Test.Console
+  items:
+  - uid: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+    name: ConsoleContext
+  - uid: Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+    name: ConsoleSink
+  - uid: Microsoft.Extensions.Logging.Test.Console.TestConsole
+    name: TestConsole
+- uid: Microsoft.Extensions.Logging.Testing
+  name: Microsoft.Extensions.Logging.Testing
+  items:
+  - uid: Microsoft.Extensions.Logging.Testing.BeginScopeContext
+    name: BeginScopeContext
+  - uid: Microsoft.Extensions.Logging.Testing.LogValuesAssert
+    name: LogValuesAssert
+  - uid: Microsoft.Extensions.Logging.Testing.NullLogger
+    name: NullLogger
+  - uid: Microsoft.Extensions.Logging.Testing.NullLogger`1
+    name: NullLogger<T>
+    name.vb: NullLogger(Of T)
+  - uid: Microsoft.Extensions.Logging.Testing.NullLoggerFactory
+    name: NullLoggerFactory
+  - uid: Microsoft.Extensions.Logging.Testing.TestLogger
+    name: TestLogger
+  - uid: Microsoft.Extensions.Logging.Testing.TestLogger`1
+    name: TestLogger<T>
+    name.vb: TestLogger(Of T)
+  - uid: Microsoft.Extensions.Logging.Testing.TestLoggerFactory
+    name: TestLoggerFactory
+  - uid: Microsoft.Extensions.Logging.Testing.TestSink
+    name: TestSink
+  - uid: Microsoft.Extensions.Logging.Testing.WriteContext
+    name: WriteContext
+- uid: Microsoft.Extensions.Logging.TraceSource
+  name: Microsoft.Extensions.Logging.TraceSource
+  items:
+  - uid: Microsoft.Extensions.Logging.TraceSource.TraceSourceLogger
+    name: TraceSourceLogger
+  - uid: Microsoft.Extensions.Logging.TraceSource.TraceSourceLoggerProvider
+    name: TraceSourceLoggerProvider
+  - uid: Microsoft.Extensions.Logging.TraceSource.TraceSourceScope
+    name: TraceSourceScope
+- uid: SampleApp
+  name: SampleApp
+  items:
+  - uid: SampleApp.Program
+    name: Program

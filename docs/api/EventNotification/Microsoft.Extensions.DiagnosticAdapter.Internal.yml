@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal
+  commentId: N:Microsoft.Extensions.DiagnosticAdapter.Internal
+  id: Microsoft.Extensions.DiagnosticAdapter.Internal
+  children:
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyAssembly
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase`1
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2.ProxyEnumerator
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactory
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.IPerson
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.Person
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList`2
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyMethodEmitter
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCache
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCacheResult
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Address
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C1
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C2
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.DerivedPerson
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasArrayProperty
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListOfPersonProperty
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListProperty
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasReadOnlyListProperty
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IBadPerson
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListOfPersonProperty
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListProperty
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IIndexer
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Indexer
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPrivateGetter
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Person
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.PrivateGetter
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.SomeValueType
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DiagnosticAdapter.Internal
+  nameWithType: Microsoft.Extensions.DiagnosticAdapter.Internal
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter
+references:
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyAssembly
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyAssembly
+  isExternal: false
+  name: ProxyAssembly
+  nameWithType: ProxyAssembly
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyAssembly
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyBase
+  nameWithType: ProxyBase
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase`1
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase`1
+  isExternal: false
+  name: ProxyBase<T>
+  nameWithType: ProxyBase<T>
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase<T>
+  nameWithType.vb: ProxyBase(Of T)
+  fullname.vb: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase(Of T)
+  name.vb: ProxyBase(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase`1
+    name: ProxyBase
+    nameWithType: ProxyBase
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase`1
+    name: ProxyBase
+    nameWithType: ProxyBase
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2
+  isExternal: false
+  name: ProxyEnumerable<TSourceElement, TTargetElement>
+  nameWithType: ProxyEnumerable<TSourceElement, TTargetElement>
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable<TSourceElement, TTargetElement>
+  nameWithType.vb: ProxyEnumerable(Of TSourceElement, TTargetElement)
+  fullname.vb: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable(Of TSourceElement, TTargetElement)
+  name.vb: ProxyEnumerable(Of TSourceElement, TTargetElement)
+  spec.csharp:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2
+    name: ProxyEnumerable
+    nameWithType: ProxyEnumerable
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSourceElement
+    nameWithType: TSourceElement
+    fullName: TSourceElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTargetElement
+    nameWithType: TTargetElement
+    fullName: TTargetElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2
+    name: ProxyEnumerable
+    nameWithType: ProxyEnumerable
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSourceElement
+    nameWithType: TSourceElement
+    fullName: TSourceElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTargetElement
+    nameWithType: TTargetElement
+    fullName: TTargetElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2.ProxyEnumerator
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2.ProxyEnumerator
+  isExternal: false
+  name: ProxyEnumerable.ProxyEnumerator<>
+  nameWithType: ProxyEnumerable.ProxyEnumerator<>
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable.ProxyEnumerator<>
+  nameWithType.vb: ProxyEnumerable.ProxyEnumerator(Of )
+  fullname.vb: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable.ProxyEnumerator(Of )
+  name.vb: ProxyEnumerable.ProxyEnumerator(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2.ProxyEnumerator
+    name: ProxyEnumerable.ProxyEnumerator
+    nameWithType: ProxyEnumerable.ProxyEnumerator
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable.ProxyEnumerator
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2.ProxyEnumerator
+    name: ProxyEnumerable.ProxyEnumerator
+    nameWithType: ProxyEnumerable.ProxyEnumerator
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable.ProxyEnumerator
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactory
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactory
+  isExternal: false
+  name: ProxyFactory
+  nameWithType: ProxyFactory
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactory
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList`2
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList`2
+  isExternal: false
+  name: ProxyList<TSourceElement, TTargetElement>
+  nameWithType: ProxyList<TSourceElement, TTargetElement>
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList<TSourceElement, TTargetElement>
+  nameWithType.vb: ProxyList(Of TSourceElement, TTargetElement)
+  fullname.vb: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList(Of TSourceElement, TTargetElement)
+  name.vb: ProxyList(Of TSourceElement, TTargetElement)
+  spec.csharp:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList`2
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSourceElement
+    nameWithType: TSourceElement
+    fullName: TSourceElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTargetElement
+    nameWithType: TTargetElement
+    fullName: TTargetElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList`2
+    name: ProxyList
+    nameWithType: ProxyList
+    fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSourceElement
+    nameWithType: TSourceElement
+    fullName: TSourceElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTargetElement
+    nameWithType: TTargetElement
+    fullName: TTargetElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyMethodEmitter
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyMethodEmitter
+  isExternal: false
+  name: ProxyMethodEmitter
+  nameWithType: ProxyMethodEmitter
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyMethodEmitter
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCache
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCache
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeCache
+  nameWithType: ProxyTypeCache
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCache
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCacheResult
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCacheResult
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeCacheResult
+  nameWithType: ProxyTypeCacheResult
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeCacheResult
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter
+  isExternal: false
+  name: ProxyTypeEmitter
+  nameWithType: ProxyTypeEmitter
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest
+  isExternal: false
+  name: ProxyFactoryTest
+  nameWithType: ProxyFactoryTest
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.Person
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.Person
+  isExternal: false
+  name: ProxyFactoryTest.Person
+  nameWithType: ProxyFactoryTest.Person
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.Person
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.IPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.IPerson
+  isExternal: false
+  name: ProxyFactoryTest.IPerson
+  nameWithType: ProxyFactoryTest.IPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactoryTest.IPerson
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest
+  isExternal: false
+  name: ProxyTypeEmitterTest
+  nameWithType: ProxyTypeEmitterTest
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListProperty
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListProperty
+  isExternal: false
+  name: ProxyTypeEmitterTest.IHasReadOnlyListProperty
+  nameWithType: ProxyTypeEmitterTest.IHasReadOnlyListProperty
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListProperty
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListProperty
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListProperty
+  isExternal: false
+  name: ProxyTypeEmitterTest.HasListProperty
+  nameWithType: ProxyTypeEmitterTest.HasListProperty
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListProperty
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasArrayProperty
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasArrayProperty
+  isExternal: false
+  name: ProxyTypeEmitterTest.HasArrayProperty
+  nameWithType: ProxyTypeEmitterTest.HasArrayProperty
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasArrayProperty
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasReadOnlyListProperty
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasReadOnlyListProperty
+  isExternal: false
+  name: ProxyTypeEmitterTest.HasReadOnlyListProperty
+  nameWithType: ProxyTypeEmitterTest.HasReadOnlyListProperty
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasReadOnlyListProperty
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListOfPersonProperty
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListOfPersonProperty
+  isExternal: false
+  name: ProxyTypeEmitterTest.IHasReadOnlyListOfPersonProperty
+  nameWithType: ProxyTypeEmitterTest.IHasReadOnlyListOfPersonProperty
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IHasReadOnlyListOfPersonProperty
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListOfPersonProperty
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListOfPersonProperty
+  isExternal: false
+  name: ProxyTypeEmitterTest.HasListOfPersonProperty
+  nameWithType: ProxyTypeEmitterTest.HasListOfPersonProperty
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.HasListOfPersonProperty
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPrivateGetter
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPrivateGetter
+  isExternal: false
+  name: ProxyTypeEmitterTest.IPrivateGetter
+  nameWithType: ProxyTypeEmitterTest.IPrivateGetter
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPrivateGetter
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.PrivateGetter
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.PrivateGetter
+  isExternal: false
+  name: ProxyTypeEmitterTest.PrivateGetter
+  nameWithType: ProxyTypeEmitterTest.PrivateGetter
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.PrivateGetter
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IIndexer
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IIndexer
+  isExternal: false
+  name: ProxyTypeEmitterTest.IIndexer
+  nameWithType: ProxyTypeEmitterTest.IIndexer
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IIndexer
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Indexer
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Indexer
+  isExternal: false
+  name: ProxyTypeEmitterTest.Indexer
+  nameWithType: ProxyTypeEmitterTest.Indexer
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Indexer
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.IC1
+  nameWithType: ProxyTypeEmitterTest.IC1
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC1
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.IC2
+  nameWithType: ProxyTypeEmitterTest.IC2
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IC2
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C1
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C1
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.C1
+  nameWithType: ProxyTypeEmitterTest.C1
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C1
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C2
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C2
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.C2
+  nameWithType: ProxyTypeEmitterTest.C2
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.C2
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  isExternal: false
+  name: ProxyTypeEmitterTest.IPerson
+  nameWithType: ProxyTypeEmitterTest.IPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.IAddress
+  nameWithType: ProxyTypeEmitterTest.IAddress
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Person
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Person
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.Person
+  nameWithType: ProxyTypeEmitterTest.Person
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Person
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IBadPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IBadPerson
+  isExternal: false
+  name: ProxyTypeEmitterTest.IBadPerson
+  nameWithType: ProxyTypeEmitterTest.IBadPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IBadPerson
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.DerivedPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.DerivedPerson
+  isExternal: false
+  name: ProxyTypeEmitterTest.DerivedPerson
+  nameWithType: ProxyTypeEmitterTest.DerivedPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.DerivedPerson
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Address
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Address
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.Address
+  nameWithType: ProxyTypeEmitterTest.Address
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.Address
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.SomeValueType
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.SomeValueType
+  isExternal: false
+  name: ProxyTypeEmitterTest.SomeValueType
+  nameWithType: ProxyTypeEmitterTest.SomeValueType
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.SomeValueType
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal
+  commentId: N:Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: Microsoft.Extensions.DiagnosticAdapter.Internal
+  nameWithType: Microsoft.Extensions.DiagnosticAdapter.Internal
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal

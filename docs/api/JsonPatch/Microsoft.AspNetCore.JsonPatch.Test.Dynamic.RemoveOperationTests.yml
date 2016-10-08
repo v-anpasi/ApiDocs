@@ -1,0 +1,863 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  id: RemoveOperationTests
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  children:
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemove
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooLarge
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooSmall
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListMixedCase
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveMixedCase
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObjectMixedCase
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObjectMixedCase
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfItDoesntExist
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfRootIsAnonymous
+  langs:
+  - csharp
+  - vb
+  name: RemoveOperationTests
+  nameWithType: RemoveOperationTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveOperationTests
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: public class RemoveOperationTests
+    content.vb: Public Class RemoveOperationTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfRootIsAnonymous
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfRootIsAnonymous
+  id: RemovePropertyShouldFailIfRootIsAnonymous
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: RemovePropertyShouldFailIfRootIsAnonymous()
+  nameWithType: RemoveOperationTests.RemovePropertyShouldFailIfRootIsAnonymous()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfRootIsAnonymous()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemovePropertyShouldFailIfRootIsAnonymous
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemovePropertyShouldFailIfRootIsAnonymous()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemovePropertyShouldFailIfRootIsAnonymous
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfItDoesntExist
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfItDoesntExist
+  id: RemovePropertyShouldFailIfItDoesntExist
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: RemovePropertyShouldFailIfItDoesntExist()
+  nameWithType: RemoveOperationTests.RemovePropertyShouldFailIfItDoesntExist()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyShouldFailIfItDoesntExist()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemovePropertyShouldFailIfItDoesntExist
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 37
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemovePropertyShouldFailIfItDoesntExist()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemovePropertyShouldFailIfItDoesntExist
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObject
+  id: RemovePropertyFromExpandoObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: RemovePropertyFromExpandoObject()
+  nameWithType: RemoveOperationTests.RemovePropertyFromExpandoObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemovePropertyFromExpandoObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 59
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemovePropertyFromExpandoObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemovePropertyFromExpandoObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObjectMixedCase
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObjectMixedCase
+  id: RemovePropertyFromExpandoObjectMixedCase
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: RemovePropertyFromExpandoObjectMixedCase()
+  nameWithType: RemoveOperationTests.RemovePropertyFromExpandoObjectMixedCase()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemovePropertyFromExpandoObjectMixedCase()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemovePropertyFromExpandoObjectMixedCase
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 81
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemovePropertyFromExpandoObjectMixedCase()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemovePropertyFromExpandoObjectMixedCase
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObject
+  id: RemoveNestedPropertyFromExpandoObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveNestedPropertyFromExpandoObject()
+  nameWithType: RemoveOperationTests.RemoveNestedPropertyFromExpandoObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveNestedPropertyFromExpandoObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 103
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveNestedPropertyFromExpandoObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveNestedPropertyFromExpandoObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObjectMixedCase
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObjectMixedCase
+  id: RemoveNestedPropertyFromExpandoObjectMixedCase
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveNestedPropertyFromExpandoObjectMixedCase()
+  nameWithType: RemoveOperationTests.RemoveNestedPropertyFromExpandoObjectMixedCase()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.RemoveNestedPropertyFromExpandoObjectMixedCase()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveNestedPropertyFromExpandoObjectMixedCase
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 126
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveNestedPropertyFromExpandoObjectMixedCase()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveNestedPropertyFromExpandoObjectMixedCase
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemove
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemove
+  id: NestedRemove
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemove()
+  nameWithType: RemoveOperationTests.NestedRemove()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemove()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemove
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 148
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemove()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemove
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveMixedCase
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveMixedCase
+  id: NestedRemoveMixedCase
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemoveMixedCase()
+  nameWithType: RemoveOperationTests.NestedRemoveMixedCase()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveMixedCase()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemoveMixedCase
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 168
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemoveMixedCase()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemoveMixedCase
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromList
+  id: NestedRemoveFromList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemoveFromList()
+  nameWithType: RemoveOperationTests.NestedRemoveFromList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemoveFromList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 189
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemoveFromList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemoveFromList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListMixedCase
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListMixedCase
+  id: NestedRemoveFromListMixedCase
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemoveFromListMixedCase()
+  nameWithType: RemoveOperationTests.NestedRemoveFromListMixedCase()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListMixedCase()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemoveFromListMixedCase
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 210
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemoveFromListMixedCase()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemoveFromListMixedCase
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooLarge
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooLarge
+  id: NestedRemoveFromListInvalidPositionTooLarge
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemoveFromListInvalidPositionTooLarge()
+  nameWithType: RemoveOperationTests.NestedRemoveFromListInvalidPositionTooLarge()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooLarge()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemoveFromListInvalidPositionTooLarge
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 231
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemoveFromListInvalidPositionTooLarge()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemoveFromListInvalidPositionTooLarge
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooSmall
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooSmall
+  id: NestedRemoveFromListInvalidPositionTooSmall
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemoveFromListInvalidPositionTooSmall()
+  nameWithType: RemoveOperationTests.NestedRemoveFromListInvalidPositionTooSmall()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromListInvalidPositionTooSmall()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemoveFromListInvalidPositionTooSmall
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 256
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemoveFromListInvalidPositionTooSmall()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemoveFromListInvalidPositionTooSmall
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromEndOfList
+  id: NestedRemoveFromEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedRemoveFromEndOfList()
+  nameWithType: RemoveOperationTests.NestedRemoveFromEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests.NestedRemoveFromEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedRemoveFromEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/RemoveOperationTests.cs
+    startLine: 281
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NestedRemoveFromEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NestedRemoveFromEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  isExternal: false
+  name: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

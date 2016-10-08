@@ -1,0 +1,193 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.MapRouteRouteBuilderExtensions
+    name: MapRouteRouteBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.RouterMiddleware
+    name: RouterMiddleware
+  - uid: Microsoft.AspNetCore.Builder.RoutingBuilderExtensions
+    name: RoutingBuilderExtensions
+- uid: Microsoft.AspNetCore.Routing
+  name: Microsoft.AspNetCore.Routing
+  items:
+  - uid: Microsoft.AspNetCore.Routing.DefaultInlineConstraintResolver
+    name: DefaultInlineConstraintResolver
+  - uid: Microsoft.AspNetCore.Routing.IInlineConstraintResolver
+    name: IInlineConstraintResolver
+  - uid: Microsoft.AspNetCore.Routing.INamedRouter
+    name: INamedRouter
+  - uid: Microsoft.AspNetCore.Routing.InlineRouteParameterParser
+    name: InlineRouteParameterParser
+  - uid: Microsoft.AspNetCore.Routing.IRouteBuilder
+    name: IRouteBuilder
+  - uid: Microsoft.AspNetCore.Routing.IRouteCollection
+    name: IRouteCollection
+  - uid: Microsoft.AspNetCore.Routing.IRouteConstraint
+    name: IRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.IRouteHandler
+    name: IRouteHandler
+  - uid: Microsoft.AspNetCore.Routing.IRouter
+    name: IRouter
+  - uid: Microsoft.AspNetCore.Routing.IRoutingFeature
+    name: IRoutingFeature
+  - uid: Microsoft.AspNetCore.Routing.RequestDelegateRouteBuilderExtensions
+    name: RequestDelegateRouteBuilderExtensions
+  - uid: Microsoft.AspNetCore.Routing.Route
+    name: Route
+  - uid: Microsoft.AspNetCore.Routing.RouteBase
+    name: RouteBase
+  - uid: Microsoft.AspNetCore.Routing.RouteBuilder
+    name: RouteBuilder
+  - uid: Microsoft.AspNetCore.Routing.RouteCollection
+    name: RouteCollection
+  - uid: Microsoft.AspNetCore.Routing.RouteConstraintBuilder
+    name: RouteConstraintBuilder
+  - uid: Microsoft.AspNetCore.Routing.RouteConstraintMatcher
+    name: RouteConstraintMatcher
+  - uid: Microsoft.AspNetCore.Routing.RouteContext
+    name: RouteContext
+  - uid: Microsoft.AspNetCore.Routing.RouteData
+    name: RouteData
+  - uid: Microsoft.AspNetCore.Routing.RouteData.RouteDataSnapshot
+    name: RouteData.RouteDataSnapshot
+  - uid: Microsoft.AspNetCore.Routing.RouteDirection
+    name: RouteDirection
+  - uid: Microsoft.AspNetCore.Routing.RouteHandler
+    name: RouteHandler
+  - uid: Microsoft.AspNetCore.Routing.RouteOptions
+    name: RouteOptions
+  - uid: Microsoft.AspNetCore.Routing.RouteValueDictionary
+    name: RouteValueDictionary
+  - uid: Microsoft.AspNetCore.Routing.RouteValueDictionary.Enumerator
+    name: RouteValueDictionary.Enumerator
+  - uid: Microsoft.AspNetCore.Routing.RouteValueEqualityComparer
+    name: RouteValueEqualityComparer
+  - uid: Microsoft.AspNetCore.Routing.RoutingHttpContextExtensions
+    name: RoutingHttpContextExtensions
+  - uid: Microsoft.AspNetCore.Routing.VirtualPathContext
+    name: VirtualPathContext
+  - uid: Microsoft.AspNetCore.Routing.VirtualPathData
+    name: VirtualPathData
+- uid: Microsoft.AspNetCore.Routing.Constraints
+  name: Microsoft.AspNetCore.Routing.Constraints
+  items:
+  - uid: Microsoft.AspNetCore.Routing.Constraints.AlphaRouteConstraint
+    name: AlphaRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.BoolRouteConstraint
+    name: BoolRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.CompositeRouteConstraint
+    name: CompositeRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.DateTimeRouteConstraint
+    name: DateTimeRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.DecimalRouteConstraint
+    name: DecimalRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.DoubleRouteConstraint
+    name: DoubleRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.FloatRouteConstraint
+    name: FloatRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint
+    name: GuidRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.HttpMethodRouteConstraint
+    name: HttpMethodRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.IntRouteConstraint
+    name: IntRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.LengthRouteConstraint
+    name: LengthRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.LongRouteConstraint
+    name: LongRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.MaxLengthRouteConstraint
+    name: MaxLengthRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.MaxRouteConstraint
+    name: MaxRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.MinLengthRouteConstraint
+    name: MinLengthRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.MinRouteConstraint
+    name: MinRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.OptionalRouteConstraint
+    name: OptionalRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.RangeRouteConstraint
+    name: RangeRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.RegexInlineRouteConstraint
+    name: RegexInlineRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.RegexRouteConstraint
+    name: RegexRouteConstraint
+  - uid: Microsoft.AspNetCore.Routing.Constraints.RequiredRouteConstraint
+    name: RequiredRouteConstraint
+- uid: Microsoft.AspNetCore.Routing.Internal
+  name: Microsoft.AspNetCore.Routing.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Routing.Internal.BufferValue
+    name: BufferValue
+  - uid: Microsoft.AspNetCore.Routing.Internal.LinkGenerationDecisionTree
+    name: LinkGenerationDecisionTree
+  - uid: Microsoft.AspNetCore.Routing.Internal.OutboundMatchResult
+    name: OutboundMatchResult
+  - uid: Microsoft.AspNetCore.Routing.Internal.PathTokenizer
+    name: PathTokenizer
+  - uid: Microsoft.AspNetCore.Routing.Internal.PathTokenizer.Enumerator
+    name: PathTokenizer.Enumerator
+  - uid: Microsoft.AspNetCore.Routing.Internal.RoutingMarkerService
+    name: RoutingMarkerService
+  - uid: Microsoft.AspNetCore.Routing.Internal.SegmentState
+    name: SegmentState
+  - uid: Microsoft.AspNetCore.Routing.Internal.TaskCache
+    name: TaskCache
+  - uid: Microsoft.AspNetCore.Routing.Internal.UriBuilderContextPooledObjectPolicy
+    name: UriBuilderContextPooledObjectPolicy
+  - uid: Microsoft.AspNetCore.Routing.Internal.UriBuildingContext
+    name: UriBuildingContext
+- uid: Microsoft.AspNetCore.Routing.Template
+  name: Microsoft.AspNetCore.Routing.Template
+  items:
+  - uid: Microsoft.AspNetCore.Routing.Template.InlineConstraint
+    name: InlineConstraint
+  - uid: Microsoft.AspNetCore.Routing.Template.RoutePrecedence
+    name: RoutePrecedence
+  - uid: Microsoft.AspNetCore.Routing.Template.RouteTemplate
+    name: RouteTemplate
+  - uid: Microsoft.AspNetCore.Routing.Template.TemplateBinder
+    name: TemplateBinder
+  - uid: Microsoft.AspNetCore.Routing.Template.TemplateMatcher
+    name: TemplateMatcher
+  - uid: Microsoft.AspNetCore.Routing.Template.TemplateParser
+    name: TemplateParser
+  - uid: Microsoft.AspNetCore.Routing.Template.TemplatePart
+    name: TemplatePart
+  - uid: Microsoft.AspNetCore.Routing.Template.TemplateSegment
+    name: TemplateSegment
+  - uid: Microsoft.AspNetCore.Routing.Template.TemplateValuesResult
+    name: TemplateValuesResult
+- uid: Microsoft.AspNetCore.Routing.Tree
+  name: Microsoft.AspNetCore.Routing.Tree
+  items:
+  - uid: Microsoft.AspNetCore.Routing.Tree.InboundMatch
+    name: InboundMatch
+  - uid: Microsoft.AspNetCore.Routing.Tree.InboundRouteEntry
+    name: InboundRouteEntry
+  - uid: Microsoft.AspNetCore.Routing.Tree.OutboundMatch
+    name: OutboundMatch
+  - uid: Microsoft.AspNetCore.Routing.Tree.OutboundRouteEntry
+    name: OutboundRouteEntry
+  - uid: Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder
+    name: TreeRouteBuilder
+  - uid: Microsoft.AspNetCore.Routing.Tree.TreeRouter
+    name: TreeRouter
+  - uid: Microsoft.AspNetCore.Routing.Tree.UrlMatchingNode
+    name: UrlMatchingNode
+  - uid: Microsoft.AspNetCore.Routing.Tree.UrlMatchingTree
+    name: UrlMatchingTree
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.RoutingServiceCollectionExtensions
+    name: RoutingServiceCollectionExtensions
+- uid: RoutingSample.Web
+  name: RoutingSample.Web
+  items:
+  - uid: RoutingSample.Web.PrefixRoute
+    name: PrefixRoute
+  - uid: RoutingSample.Web.RouteBuilderExtensions
+    name: RouteBuilderExtensions
+  - uid: RoutingSample.Web.Startup
+    name: Startup

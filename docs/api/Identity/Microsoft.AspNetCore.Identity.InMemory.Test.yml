@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.InMemory.Test
+  commentId: N:Microsoft.AspNetCore.Identity.InMemory.Test
+  id: Microsoft.AspNetCore.Identity.InMemory.Test
+  children:
+  - Microsoft.AspNetCore.Identity.InMemory.Test.ControllerTest
+  - Microsoft.AspNetCore.Identity.InMemory.Test.InMemoryStoreTest
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Identity.InMemory.Test
+  nameWithType: Microsoft.AspNetCore.Identity.InMemory.Test
+  fullName: Microsoft.AspNetCore.Identity.InMemory.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+references:
+- uid: Microsoft.AspNetCore.Identity.InMemory.Test.ControllerTest
+  commentId: T:Microsoft.AspNetCore.Identity.InMemory.Test.ControllerTest
+  isExternal: false
+  name: ControllerTest
+  nameWithType: ControllerTest
+  fullName: Microsoft.AspNetCore.Identity.InMemory.Test.ControllerTest
+- uid: Microsoft.AspNetCore.Identity.InMemory.Test.InMemoryStoreTest
+  commentId: T:Microsoft.AspNetCore.Identity.InMemory.Test.InMemoryStoreTest
+  isExternal: false
+  name: InMemoryStoreTest
+  nameWithType: InMemoryStoreTest
+  fullName: Microsoft.AspNetCore.Identity.InMemory.Test.InMemoryStoreTest

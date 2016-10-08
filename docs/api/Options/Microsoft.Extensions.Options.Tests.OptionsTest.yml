@@ -1,0 +1,1057 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest
+  commentId: T:Microsoft.Extensions.Options.Tests.OptionsTest
+  id: OptionsTest
+  parent: Microsoft.Extensions.Options.Tests
+  children:
+  - Microsoft.Extensions.Options.Tests.OptionsTest.CanReadComplexProperties
+  - Microsoft.Extensions.Options.Tests.OptionsTest.CanReadInheritedProperties
+  - Microsoft.Extensions.Options.Tests.OptionsTest.CanReadStaticProperty
+  - Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  - Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration_Data
+  - Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  - Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration_Data
+  - Microsoft.Extensions.Options.Tests.OptionsTest.Options_CanOverrideForSpecificTOptions
+  - Microsoft.Extensions.Options.Tests.OptionsTest.Options_StaticCreateCreateMakesOptions
+  - Microsoft.Extensions.Options.Tests.OptionsTest.OptionsWrapper_MakesOptions
+  - Microsoft.Extensions.Options.Tests.OptionsTest.SetupCallsInOrder
+  - Microsoft.Extensions.Options.Tests.OptionsTest.ShouldBeIgnoredTests(System.String)
+  langs:
+  - csharp
+  - vb
+  name: OptionsTest
+  nameWithType: OptionsTest
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: OptionsTest
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: public class OptionsTest
+    content.vb: Public Class OptionsTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.CanReadComplexProperties
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.CanReadComplexProperties
+  id: CanReadComplexProperties
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: CanReadComplexProperties()
+  nameWithType: OptionsTest.CanReadComplexProperties()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.CanReadComplexProperties()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: CanReadComplexProperties
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 71
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanReadComplexProperties()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanReadComplexProperties
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.CanReadInheritedProperties
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.CanReadInheritedProperties
+  id: CanReadInheritedProperties
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: CanReadInheritedProperties()
+  nameWithType: OptionsTest.CanReadInheritedProperties()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.CanReadInheritedProperties()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: CanReadInheritedProperties
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 89
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanReadInheritedProperties()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanReadInheritedProperties
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.CanReadStaticProperty
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.CanReadStaticProperty
+  id: CanReadStaticProperty
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: CanReadStaticProperty()
+  nameWithType: OptionsTest.CanReadStaticProperty()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.CanReadStaticProperty()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: CanReadStaticProperty
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 109
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanReadStaticProperty()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanReadStaticProperty
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.ShouldBeIgnoredTests(System.String)
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.ShouldBeIgnoredTests(System.String)
+  id: ShouldBeIgnoredTests(System.String)
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: ShouldBeIgnoredTests(String)
+  nameWithType: OptionsTest.ShouldBeIgnoredTests(String)
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.ShouldBeIgnoredTests(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: ShouldBeIgnoredTests
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 123
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"ReadOnly"})]
+
+      [InlineData(new object[]{"PrivateSetter"})]
+
+      [InlineData(new object[]{"ProtectedSetter"})]
+
+      [InlineData(new object[]{"InternalSetter"})]
+
+      public void ShouldBeIgnoredTests(string property)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"ReadOnly"})>
+
+      <InlineData(New Object() {"PrivateSetter"})>
+
+      <InlineData(New Object() {"ProtectedSetter"})>
+
+      <InlineData(New Object() {"InternalSetter"})>
+
+      Public Sub ShouldBeIgnoredTests(property As String)
+    parameters:
+    - id: property
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.SetupCallsInOrder
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.SetupCallsInOrder
+  id: SetupCallsInOrder
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: SetupCallsInOrder()
+  nameWithType: OptionsTest.SetupCallsInOrder()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.SetupCallsInOrder()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: SetupCallsInOrder
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 141
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SetupCallsInOrder()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SetupCallsInOrder
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration_Data
+  commentId: P:Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration_Data
+  id: Configure_GetsNullableOptionsFromConfiguration_Data
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: Configure_GetsNullableOptionsFromConfiguration_Data
+  nameWithType: OptionsTest.Configure_GetsNullableOptionsFromConfiguration_Data
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration_Data
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: Configure_GetsNullableOptionsFromConfiguration_Data
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 163
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: public static TheoryData Configure_GetsNullableOptionsFromConfiguration_Data { get; }
+    content.vb: Public Shared ReadOnly Property Configure_GetsNullableOptionsFromConfiguration_Data As TheoryData
+    parameters: []
+    return:
+      type: Xunit.TheoryData
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  id: Configure_GetsNullableOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: Configure_GetsNullableOptionsFromConfiguration(IDictionary<String, String>, IDictionary<String, Object>)
+  nameWithType: OptionsTest.Configure_GetsNullableOptionsFromConfiguration(IDictionary<String, String>, IDictionary<String, Object>)
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration(System.Collections.Generic.IDictionary<System.String, System.String>, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: Configure_GetsNullableOptionsFromConfiguration
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 215
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("Configure_GetsNullableOptionsFromConfiguration_Data", new object[]{})]
+
+      public void Configure_GetsNullableOptionsFromConfiguration(IDictionary<string, string> configValues, IDictionary<string, object> expectedValues)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("Configure_GetsNullableOptionsFromConfiguration_Data", New Object() {})>
+
+      Public Sub Configure_GetsNullableOptionsFromConfiguration(configValues As IDictionary(Of String, String), expectedValues As IDictionary(Of String, Object))
+    parameters:
+    - id: configValues
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: expectedValues
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  nameWithType.vb: OptionsTest.Configure_GetsNullableOptionsFromConfiguration(IDictionary(Of String, String), IDictionary(Of String, Object))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsNullableOptionsFromConfiguration(System.Collections.Generic.IDictionary(Of System.String, System.String), System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: Configure_GetsNullableOptionsFromConfiguration(IDictionary(Of String, String), IDictionary(Of String, Object))
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration_Data
+  commentId: P:Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration_Data
+  id: Configure_GetsEnumOptionsFromConfiguration_Data
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: Configure_GetsEnumOptionsFromConfiguration_Data
+  nameWithType: OptionsTest.Configure_GetsEnumOptionsFromConfiguration_Data
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration_Data
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: Configure_GetsEnumOptionsFromConfiguration_Data
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 238
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: public static TheoryData Configure_GetsEnumOptionsFromConfiguration_Data { get; }
+    content.vb: Public Shared ReadOnly Property Configure_GetsEnumOptionsFromConfiguration_Data As TheoryData
+    parameters: []
+    return:
+      type: Xunit.TheoryData
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  id: Configure_GetsEnumOptionsFromConfiguration(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object})
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: Configure_GetsEnumOptionsFromConfiguration(IDictionary<String, String>, IDictionary<String, Object>)
+  nameWithType: OptionsTest.Configure_GetsEnumOptionsFromConfiguration(IDictionary<String, String>, IDictionary<String, Object>)
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration(System.Collections.Generic.IDictionary<System.String, System.String>, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: Configure_GetsEnumOptionsFromConfiguration
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 278
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Theory]
+
+      [MemberData("Configure_GetsEnumOptionsFromConfiguration_Data", new object[]{})]
+
+      public void Configure_GetsEnumOptionsFromConfiguration(IDictionary<string, string> configValues, IDictionary<string, object> expectedValues)
+    content.vb: >-
+      <Theory>
+
+      <MemberData("Configure_GetsEnumOptionsFromConfiguration_Data", New Object() {})>
+
+      Public Sub Configure_GetsEnumOptionsFromConfiguration(configValues As IDictionary(Of String, String), expectedValues As IDictionary(Of String, Object))
+    parameters:
+    - id: configValues
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: expectedValues
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  nameWithType.vb: OptionsTest.Configure_GetsEnumOptionsFromConfiguration(IDictionary(Of String, String), IDictionary(Of String, Object))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.Options.Tests.OptionsTest.Configure_GetsEnumOptionsFromConfiguration(System.Collections.Generic.IDictionary(Of System.String, System.String), System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: Configure_GetsEnumOptionsFromConfiguration(IDictionary(Of String, String), IDictionary(Of String, Object))
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.Options_StaticCreateCreateMakesOptions
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.Options_StaticCreateCreateMakesOptions
+  id: Options_StaticCreateCreateMakesOptions
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: Options_StaticCreateCreateMakesOptions()
+  nameWithType: OptionsTest.Options_StaticCreateCreateMakesOptions()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.Options_StaticCreateCreateMakesOptions()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: Options_StaticCreateCreateMakesOptions
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 301
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Options_StaticCreateCreateMakesOptions()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Options_StaticCreateCreateMakesOptions
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.OptionsWrapper_MakesOptions
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.OptionsWrapper_MakesOptions
+  id: OptionsWrapper_MakesOptions
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: OptionsWrapper_MakesOptions()
+  nameWithType: OptionsTest.OptionsWrapper_MakesOptions()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.OptionsWrapper_MakesOptions()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: OptionsWrapper_MakesOptions
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 312
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void OptionsWrapper_MakesOptions()
+    content.vb: >-
+      <Fact>
+
+      Public Sub OptionsWrapper_MakesOptions
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Options.Tests.OptionsTest.Options_CanOverrideForSpecificTOptions
+  commentId: M:Microsoft.Extensions.Options.Tests.OptionsTest.Options_CanOverrideForSpecificTOptions
+  id: Options_CanOverrideForSpecificTOptions
+  parent: Microsoft.Extensions.Options.Tests.OptionsTest
+  langs:
+  - csharp
+  - vb
+  name: Options_CanOverrideForSpecificTOptions()
+  nameWithType: OptionsTest.Options_CanOverrideForSpecificTOptions()
+  fullName: Microsoft.Extensions.Options.Tests.OptionsTest.Options_CanOverrideForSpecificTOptions()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Options.git
+    id: Options_CanOverrideForSpecificTOptions
+    path: test/Microsoft.Extensions.Options.Test/OptionsTest.cs
+    startLine: 323
+  assemblies:
+  - Microsoft.Extensions.Options.Test
+  namespace: Microsoft.Extensions.Options.Tests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Options_CanOverrideForSpecificTOptions()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Options_CanOverrideForSpecificTOptions
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Options.Tests
+  commentId: N:Microsoft.Extensions.Options.Tests
+  isExternal: false
+  name: Microsoft.Extensions.Options.Tests
+  nameWithType: Microsoft.Extensions.Options.Tests
+  fullName: Microsoft.Extensions.Options.Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Xunit.TheoryData
+  commentId: T:Xunit.TheoryData
+  parent: Xunit
+  isExternal: true
+  name: TheoryData
+  nameWithType: TheoryData
+  fullName: Xunit.TheoryData
+- uid: Xunit
+  commentId: N:Xunit
+  isExternal: false
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullname.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullname.vb: System.Collections.Generic.IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

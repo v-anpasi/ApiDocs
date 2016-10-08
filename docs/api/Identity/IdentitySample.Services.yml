@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySample.Services
+  commentId: N:IdentitySample.Services
+  id: IdentitySample.Services
+  children:
+  - IdentitySample.Services.AuthMessageSender
+  - IdentitySample.Services.IEmailSender
+  - IdentitySample.Services.ISmsSender
+  langs:
+  - csharp
+  - vb
+  name: IdentitySample.Services
+  nameWithType: IdentitySample.Services
+  fullName: IdentitySample.Services
+  type: Namespace
+  assemblies:
+  - IdentitySample.Mvc
+references:
+- uid: IdentitySample.Services.IEmailSender
+  commentId: T:IdentitySample.Services.IEmailSender
+  parent: IdentitySample.Services
+  isExternal: false
+  name: IEmailSender
+  nameWithType: IEmailSender
+  fullName: IdentitySample.Services.IEmailSender
+- uid: IdentitySample.Services.ISmsSender
+  commentId: T:IdentitySample.Services.ISmsSender
+  parent: IdentitySample.Services
+  isExternal: false
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: IdentitySample.Services.ISmsSender
+- uid: IdentitySample.Services.AuthMessageSender
+  commentId: T:IdentitySample.Services.AuthMessageSender
+  isExternal: false
+  name: AuthMessageSender
+  nameWithType: AuthMessageSender
+  fullName: IdentitySample.Services.AuthMessageSender
+- uid: IdentitySample.Services
+  commentId: N:IdentitySample.Services
+  isExternal: false
+  name: IdentitySample.Services
+  nameWithType: IdentitySample.Services
+  fullName: IdentitySample.Services

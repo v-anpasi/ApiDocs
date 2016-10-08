@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  id: Microsoft.AspNetCore.Hosting
+  children:
+  - Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
+  - Microsoft.AspNetCore.Hosting.KestrelServerOptionsConnectionLoggingExtensions
+  - Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
+  - Microsoft.AspNetCore.Hosting.WebHostBuilderKestrelExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Server.Kestrel
+references:
+- uid: Microsoft.AspNetCore.Hosting.WebHostBuilderKestrelExtensions
+  commentId: T:Microsoft.AspNetCore.Hosting.WebHostBuilderKestrelExtensions
+  isExternal: false
+  name: WebHostBuilderKestrelExtensions
+  nameWithType: WebHostBuilderKestrelExtensions
+  fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderKestrelExtensions
+- uid: Microsoft.AspNetCore.Hosting.KestrelServerOptionsConnectionLoggingExtensions
+  commentId: T:Microsoft.AspNetCore.Hosting.KestrelServerOptionsConnectionLoggingExtensions
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: false
+  name: KestrelServerOptionsConnectionLoggingExtensions
+  nameWithType: KestrelServerOptionsConnectionLoggingExtensions
+  fullName: Microsoft.AspNetCore.Hosting.KestrelServerOptionsConnectionLoggingExtensions
+- uid: Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
+  commentId: T:Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: false
+  name: KestrelServerOptionsHttpsExtensions
+  nameWithType: KestrelServerOptionsHttpsExtensions
+  fullName: Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
+- uid: Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
+  commentId: T:Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
+  isExternal: false
+  name: IWebHostPortExtensions
+  nameWithType: IWebHostPortExtensions
+  fullName: Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  isExternal: false
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting

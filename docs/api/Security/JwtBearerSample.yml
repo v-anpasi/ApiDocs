@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: JwtBearerSample
+  commentId: N:JwtBearerSample
+  id: JwtBearerSample
+  children:
+  - JwtBearerSample.Program
+  - JwtBearerSample.Startup
+  - JwtBearerSample.Todo
+  langs:
+  - csharp
+  - vb
+  name: JwtBearerSample
+  nameWithType: JwtBearerSample
+  fullName: JwtBearerSample
+  type: Namespace
+  assemblies:
+  - JwtBearerSample
+references:
+- uid: JwtBearerSample.Program
+  commentId: T:JwtBearerSample.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: JwtBearerSample.Program
+- uid: JwtBearerSample.Startup
+  commentId: T:JwtBearerSample.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: JwtBearerSample.Startup
+- uid: JwtBearerSample.Todo
+  commentId: T:JwtBearerSample.Todo
+  isExternal: false
+  name: Todo
+  nameWithType: Todo
+  fullName: JwtBearerSample.Todo

@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  id: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  children:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.DatabaseErrorPageSampleTest
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.DeveloperExceptionPageSampleTest
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.ElmPageSampleTest
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.ExceptionHandlerSampleTest
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.MiddlewareAnalysisSampleTest
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.StatusCodeSampleTest
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.FunctionalTests
+references:
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DatabaseErrorPageSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.DatabaseErrorPageSampleTest
+  isExternal: false
+  name: DatabaseErrorPageSampleTest
+  nameWithType: DatabaseErrorPageSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DatabaseErrorPageSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DeveloperExceptionPageSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.DeveloperExceptionPageSampleTest
+  isExternal: false
+  name: DeveloperExceptionPageSampleTest
+  nameWithType: DeveloperExceptionPageSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DeveloperExceptionPageSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ElmPageSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.ElmPageSampleTest
+  isExternal: false
+  name: ElmPageSampleTest
+  nameWithType: ElmPageSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ElmPageSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ExceptionHandlerSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.ExceptionHandlerSampleTest
+  isExternal: false
+  name: ExceptionHandlerSampleTest
+  nameWithType: ExceptionHandlerSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ExceptionHandlerSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.MiddlewareAnalysisSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.MiddlewareAnalysisSampleTest
+  isExternal: false
+  name: MiddlewareAnalysisSampleTest
+  nameWithType: MiddlewareAnalysisSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.MiddlewareAnalysisSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.StatusCodeSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.StatusCodeSampleTest
+  isExternal: false
+  name: StatusCodeSampleTest
+  nameWithType: StatusCodeSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.StatusCodeSampleTest
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+  isExternal: false
+  name: TestFixture<TStartup>
+  nameWithType: TestFixture<TStartup>
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture<TStartup>
+  nameWithType.vb: TestFixture(Of TStartup)
+  fullname.vb: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture(Of TStartup)
+  name.vb: TestFixture(Of TStartup)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TStartup
+    nameWithType: TStartup
+    fullName: TStartup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
+    name: TestFixture
+    nameWithType: TestFixture
+    fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TStartup
+    nameWithType: TStartup
+    fullName: TStartup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  commentId: T:Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
+  isExternal: false
+  name: WelcomePageSampleTest
+  nameWithType: WelcomePageSampleTest
+  fullName: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest

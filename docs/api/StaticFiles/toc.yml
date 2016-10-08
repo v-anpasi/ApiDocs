@@ -1,0 +1,56 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.DefaultFilesExtensions
+    name: DefaultFilesExtensions
+  - uid: Microsoft.AspNetCore.Builder.DefaultFilesOptions
+    name: DefaultFilesOptions
+  - uid: Microsoft.AspNetCore.Builder.DirectoryBrowserExtensions
+    name: DirectoryBrowserExtensions
+  - uid: Microsoft.AspNetCore.Builder.DirectoryBrowserOptions
+    name: DirectoryBrowserOptions
+  - uid: Microsoft.AspNetCore.Builder.FileServerExtensions
+    name: FileServerExtensions
+  - uid: Microsoft.AspNetCore.Builder.FileServerOptions
+    name: FileServerOptions
+  - uid: Microsoft.AspNetCore.Builder.StaticFileExtensions
+    name: StaticFileExtensions
+  - uid: Microsoft.AspNetCore.Builder.StaticFileOptions
+    name: StaticFileOptions
+- uid: Microsoft.AspNetCore.StaticFiles
+  name: Microsoft.AspNetCore.StaticFiles
+  items:
+  - uid: Microsoft.AspNetCore.StaticFiles.DefaultFilesMiddleware
+    name: DefaultFilesMiddleware
+  - uid: Microsoft.AspNetCore.StaticFiles.DirectoryBrowserMiddleware
+    name: DirectoryBrowserMiddleware
+  - uid: Microsoft.AspNetCore.StaticFiles.FileExtensionContentTypeProvider
+    name: FileExtensionContentTypeProvider
+  - uid: Microsoft.AspNetCore.StaticFiles.HtmlDirectoryFormatter
+    name: HtmlDirectoryFormatter
+  - uid: Microsoft.AspNetCore.StaticFiles.IContentTypeProvider
+    name: IContentTypeProvider
+  - uid: Microsoft.AspNetCore.StaticFiles.IDirectoryFormatter
+    name: IDirectoryFormatter
+  - uid: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+    name: StaticFileMiddleware
+  - uid: Microsoft.AspNetCore.StaticFiles.StaticFileResponseContext
+    name: StaticFileResponseContext
+- uid: Microsoft.AspNetCore.StaticFiles.Infrastructure
+  name: Microsoft.AspNetCore.StaticFiles.Infrastructure
+  items:
+  - uid: Microsoft.AspNetCore.StaticFiles.Infrastructure.SharedOptions
+    name: SharedOptions
+  - uid: Microsoft.AspNetCore.StaticFiles.Infrastructure.SharedOptionsBase
+    name: SharedOptionsBase
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.DirectoryBrowserServiceExtensions
+    name: DirectoryBrowserServiceExtensions
+- uid: StaticFilesSample
+  name: StaticFilesSample
+  items:
+  - uid: StaticFilesSample.Startup
+    name: Startup

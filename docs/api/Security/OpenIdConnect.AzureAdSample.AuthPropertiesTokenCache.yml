@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
+  commentId: T:OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
+  id: AuthPropertiesTokenCache
+  parent: OpenIdConnect.AzureAdSample
+  children:
+  - OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForApiCalls(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  - OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForCodeRedemption(Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties)
+  langs:
+  - csharp
+  - vb
+  name: AuthPropertiesTokenCache
+  nameWithType: AuthPropertiesTokenCache
+  fullName: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
+  type: Class
+  source:
+    remote:
+      path: samples/OpenIdConnect.AzureAdSample/AuthPropertiesTokenCache.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: AuthPropertiesTokenCache
+    path: samples/OpenIdConnect.AzureAdSample/AuthPropertiesTokenCache.cs
+    startLine: 10
+  assemblies:
+  - OpenIdConnect.AzureAdSample
+  namespace: OpenIdConnect.AzureAdSample
+  syntax:
+    content: 'public class AuthPropertiesTokenCache : TokenCache'
+    content.vb: >-
+      Public Class AuthPropertiesTokenCache
+          Inherits TokenCache
+  inheritance:
+  - System.Object
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  inheritedMembers:
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem(Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem)
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DefaultShared
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeAccess
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeWrite
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.AfterAccess
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.HasStateChanged
+  - Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Count
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForCodeRedemption(Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties)
+  commentId: M:OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForCodeRedemption(Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties)
+  id: ForCodeRedemption(Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties)
+  parent: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
+  langs:
+  - csharp
+  - vb
+  name: ForCodeRedemption(AuthenticationProperties)
+  nameWithType: AuthPropertiesTokenCache.ForCodeRedemption(AuthenticationProperties)
+  fullName: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForCodeRedemption(Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties)
+  type: Method
+  source:
+    remote:
+      path: samples/OpenIdConnect.AzureAdSample/AuthPropertiesTokenCache.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ForCodeRedemption
+    path: samples/OpenIdConnect.AzureAdSample/AuthPropertiesTokenCache.cs
+    startLine: 36
+  assemblies:
+  - OpenIdConnect.AzureAdSample
+  namespace: OpenIdConnect.AzureAdSample
+  syntax:
+    content: public static TokenCache ForCodeRedemption(AuthenticationProperties authProperties)
+    content.vb: Public Shared Function ForCodeRedemption(authProperties As AuthenticationProperties) As TokenCache
+    parameters:
+    - id: authProperties
+      type: Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties
+    return:
+      type: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForApiCalls(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  commentId: M:OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForApiCalls(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  id: ForApiCalls(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  parent: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
+  langs:
+  - csharp
+  - vb
+  name: ForApiCalls(HttpContext, String)
+  nameWithType: AuthPropertiesTokenCache.ForApiCalls(HttpContext, String)
+  fullName: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache.ForApiCalls(Microsoft.AspNetCore.Http.HttpContext, System.String)
+  type: Method
+  source:
+    remote:
+      path: samples/OpenIdConnect.AzureAdSample/AuthPropertiesTokenCache.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ForApiCalls
+    path: samples/OpenIdConnect.AzureAdSample/AuthPropertiesTokenCache.cs
+    startLine: 41
+  assemblies:
+  - OpenIdConnect.AzureAdSample
+  namespace: OpenIdConnect.AzureAdSample
+  syntax:
+    content: public static TokenCache ForApiCalls(HttpContext httpContext, string signInScheme = "Cookies")
+    content.vb: Public Shared Function ForApiCalls(httpContext As HttpContext, signInScheme As String = "Cookies") As TokenCache
+    parameters:
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    - id: signInScheme
+      type: System.String
+    return:
+      type: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenIdConnect.AzureAdSample
+  commentId: N:OpenIdConnect.AzureAdSample
+  isExternal: false
+  name: OpenIdConnect.AzureAdSample
+  nameWithType: OpenIdConnect.AzureAdSample
+  fullName: OpenIdConnect.AzureAdSample
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  commentId: T:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory
+  isExternal: true
+  name: TokenCache
+  nameWithType: TokenCache
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+  commentId: M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: Serialize()
+  nameWithType: TokenCache.Serialize()
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize()
+  spec.csharp:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+    name: Serialize
+    nameWithType: TokenCache.Serialize
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+    name: Serialize
+    nameWithType: TokenCache.Serialize
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Serialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])
+  commentId: M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: Deserialize(Byte[])
+  nameWithType: TokenCache.Deserialize(Byte[])
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])
+  nameWithType.vb: TokenCache.Deserialize(Byte())
+  fullname.vb: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte())
+  name.vb: Deserialize(Byte())
+  spec.csharp:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])
+    name: Deserialize
+    nameWithType: TokenCache.Deserialize
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])
+    name: Deserialize
+    nameWithType: TokenCache.Deserialize
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+  commentId: M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: ReadItems()
+  nameWithType: TokenCache.ReadItems()
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems()
+  spec.csharp:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+    name: ReadItems
+    nameWithType: TokenCache.ReadItems
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+    name: ReadItems
+    nameWithType: TokenCache.ReadItems
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.ReadItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem(Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem)
+  commentId: M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem(Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem)
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: DeleteItem(TokenCacheItem)
+  nameWithType: TokenCache.DeleteItem(TokenCacheItem)
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem(Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem)
+  spec.csharp:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem(Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem)
+    name: DeleteItem
+    nameWithType: TokenCache.DeleteItem
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem
+    name: TokenCacheItem
+    nameWithType: TokenCacheItem
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem(Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem)
+    name: DeleteItem
+    nameWithType: TokenCache.DeleteItem
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeleteItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem
+    name: TokenCacheItem
+    nameWithType: TokenCacheItem
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+  commentId: M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: Clear()
+  nameWithType: TokenCache.Clear()
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear()
+  spec.csharp:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+    name: Clear
+    nameWithType: TokenCache.Clear
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+    name: Clear
+    nameWithType: TokenCache.Clear
+    fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DefaultShared
+  commentId: P:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DefaultShared
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: DefaultShared
+  nameWithType: TokenCache.DefaultShared
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DefaultShared
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeAccess
+  commentId: P:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeAccess
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: BeforeAccess
+  nameWithType: TokenCache.BeforeAccess
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeAccess
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeWrite
+  commentId: P:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeWrite
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: BeforeWrite
+  nameWithType: TokenCache.BeforeWrite
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.BeforeWrite
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.AfterAccess
+  commentId: P:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.AfterAccess
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: AfterAccess
+  nameWithType: TokenCache.AfterAccess
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.AfterAccess
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.HasStateChanged
+  commentId: P:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.HasStateChanged
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: HasStateChanged
+  nameWithType: TokenCache.HasStateChanged
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.HasStateChanged
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Count
+  commentId: P:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Count
+  parent: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache
+  isExternal: true
+  name: Count
+  nameWithType: TokenCache.Count
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Count
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.IdentityModel.Clients.ActiveDirectory
+  commentId: N:Microsoft.IdentityModel.Clients.ActiveDirectory
+  isExternal: false
+  name: Microsoft.IdentityModel.Clients.ActiveDirectory
+  nameWithType: Microsoft.IdentityModel.Clients.ActiveDirectory
+  fullName: Microsoft.IdentityModel.Clients.ActiveDirectory
+- uid: Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties
+  commentId: T:Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties
+  parent: Microsoft.AspNetCore.Http.Authentication
+  isExternal: true
+  name: AuthenticationProperties
+  nameWithType: AuthenticationProperties
+  fullName: Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties
+- uid: Microsoft.AspNetCore.Http.Authentication
+  commentId: N:Microsoft.AspNetCore.Http.Authentication
+  isExternal: false
+  name: Microsoft.AspNetCore.Http.Authentication
+  nameWithType: Microsoft.AspNetCore.Http.Authentication
+  fullName: Microsoft.AspNetCore.Http.Authentication
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: false
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http

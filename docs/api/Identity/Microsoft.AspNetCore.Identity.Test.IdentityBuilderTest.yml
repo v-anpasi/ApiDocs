@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  commentId: T:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  id: IdentityBuilderTest
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddManagerWithWrongTypesThrows
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddTokenProviderWithWrongTypesThrows
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverridePasswordValidator
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleManager
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleStore
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleValidator
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserManager
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserStore
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserValidator
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultServices
+  - Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultTokenProviders
+  langs:
+  - csharp
+  - vb
+  name: IdentityBuilderTest
+  nameWithType: IdentityBuilderTest
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: IdentityBuilderTest
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public class IdentityBuilderTest
+    content.vb: Public Class IdentityBuilderTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserStore
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserStore
+  id: CanOverrideUserStore
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideUserStore()
+  nameWithType: IdentityBuilderTest.CanOverrideUserStore()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserStore()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverrideUserStore
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideUserStore()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideUserStore
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleStore
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleStore
+  id: CanOverrideRoleStore
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideRoleStore()
+  nameWithType: IdentityBuilderTest.CanOverrideRoleStore()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleStore()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverrideRoleStore
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideRoleStore()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideRoleStore
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleValidator
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleValidator
+  id: CanOverrideRoleValidator
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideRoleValidator()
+  nameWithType: IdentityBuilderTest.CanOverrideRoleValidator()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleValidator()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverrideRoleValidator
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 36
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideRoleValidator()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideRoleValidator
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserValidator
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserValidator
+  id: CanOverrideUserValidator
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideUserValidator()
+  nameWithType: IdentityBuilderTest.CanOverrideUserValidator()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserValidator()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverrideUserValidator
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideUserValidator()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideUserValidator
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverridePasswordValidator
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverridePasswordValidator
+  id: CanOverridePasswordValidator
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverridePasswordValidator()
+  nameWithType: IdentityBuilderTest.CanOverridePasswordValidator()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverridePasswordValidator()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverridePasswordValidator
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 54
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverridePasswordValidator()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverridePasswordValidator
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserManager
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserManager
+  id: CanOverrideUserManager
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideUserManager()
+  nameWithType: IdentityBuilderTest.CanOverrideUserManager()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideUserManager()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverrideUserManager
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 63
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideUserManager()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideUserManager
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleManager
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleManager
+  id: CanOverrideRoleManager
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideRoleManager()
+  nameWithType: IdentityBuilderTest.CanOverrideRoleManager()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.CanOverrideRoleManager()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanOverrideRoleManager
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 74
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideRoleManager()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideRoleManager
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultServices
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultServices
+  id: EnsureDefaultServices
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: EnsureDefaultServices()
+  nameWithType: IdentityBuilderTest.EnsureDefaultServices()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultServices()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: EnsureDefaultServices
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 85
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void EnsureDefaultServices()
+    content.vb: >-
+      <Fact>
+
+      Public Sub EnsureDefaultServices
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultTokenProviders
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultTokenProviders
+  id: EnsureDefaultTokenProviders
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: EnsureDefaultTokenProviders()
+  nameWithType: IdentityBuilderTest.EnsureDefaultTokenProviders()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.EnsureDefaultTokenProviders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: EnsureDefaultTokenProviders
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void EnsureDefaultTokenProviders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub EnsureDefaultTokenProviders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddManagerWithWrongTypesThrows
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddManagerWithWrongTypesThrows
+  id: AddManagerWithWrongTypesThrows
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: AddManagerWithWrongTypesThrows()
+  nameWithType: IdentityBuilderTest.AddManagerWithWrongTypesThrows()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddManagerWithWrongTypesThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: AddManagerWithWrongTypesThrows
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 113
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddManagerWithWrongTypesThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddManagerWithWrongTypesThrows
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddTokenProviderWithWrongTypesThrows
+  commentId: M:Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddTokenProviderWithWrongTypesThrows
+  id: AddTokenProviderWithWrongTypesThrows
+  parent: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+  langs:
+  - csharp
+  - vb
+  name: AddTokenProviderWithWrongTypesThrows()
+  nameWithType: IdentityBuilderTest.AddTokenProviderWithWrongTypesThrows()
+  fullName: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest.AddTokenProviderWithWrongTypesThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: AddTokenProviderWithWrongTypesThrows
+    path: test/Microsoft.AspNetCore.Identity.Test/IdentityBuilderTest.cs
+    startLine: 124
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddTokenProviderWithWrongTypesThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddTokenProviderWithWrongTypesThrows
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

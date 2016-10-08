@@ -1,0 +1,943 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  id: DiagnosticSourceAdapterTest
+  parent: Microsoft.Extensions.DiagnosticAdapter
+  children:
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteForNonEnlistedNameIsHarmless
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteWillInvokeMethod
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ExtraParametersAreHarmless
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_False_PredicateCalledForIsEnabled
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_FalseForNonenlistedEvent
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_True_PredicateCalledForIsEnabled
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_TrueForEnlistedEvent
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.MissingParametersArriveAsNull
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ParametersWillSplatFromObjectByName
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_Null
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_RuntimeType
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_False_CallsIsEnabled
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_NominialType
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_True_CallsIsEnabled
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticSourceAdapterTest
+  nameWithType: DiagnosticSourceAdapterTest
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: DiagnosticSourceAdapterTest
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: public class DiagnosticSourceAdapterTest
+    content.vb: Public Class DiagnosticSourceAdapterTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_TrueForEnlistedEvent
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_TrueForEnlistedEvent
+  id: IsEnabled_TrueForEnlistedEvent
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled_TrueForEnlistedEvent()
+  nameWithType: DiagnosticSourceAdapterTest.IsEnabled_TrueForEnlistedEvent()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_TrueForEnlistedEvent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: IsEnabled_TrueForEnlistedEvent
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsEnabled_TrueForEnlistedEvent()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsEnabled_TrueForEnlistedEvent
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_True_PredicateCalledForIsEnabled
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_True_PredicateCalledForIsEnabled
+  id: IsEnabled_True_PredicateCalledForIsEnabled
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled_True_PredicateCalledForIsEnabled()
+  nameWithType: DiagnosticSourceAdapterTest.IsEnabled_True_PredicateCalledForIsEnabled()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_True_PredicateCalledForIsEnabled()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: IsEnabled_True_PredicateCalledForIsEnabled
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsEnabled_True_PredicateCalledForIsEnabled()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsEnabled_True_PredicateCalledForIsEnabled
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_False_PredicateCalledForIsEnabled
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_False_PredicateCalledForIsEnabled
+  id: IsEnabled_False_PredicateCalledForIsEnabled
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled_False_PredicateCalledForIsEnabled()
+  nameWithType: DiagnosticSourceAdapterTest.IsEnabled_False_PredicateCalledForIsEnabled()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_False_PredicateCalledForIsEnabled()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: IsEnabled_False_PredicateCalledForIsEnabled
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 51
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsEnabled_False_PredicateCalledForIsEnabled()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsEnabled_False_PredicateCalledForIsEnabled
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_FalseForNonenlistedEvent
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_FalseForNonenlistedEvent
+  id: IsEnabled_FalseForNonenlistedEvent
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled_FalseForNonenlistedEvent()
+  nameWithType: DiagnosticSourceAdapterTest.IsEnabled_FalseForNonenlistedEvent()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IsEnabled_FalseForNonenlistedEvent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: IsEnabled_FalseForNonenlistedEvent
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 70
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsEnabled_FalseForNonenlistedEvent()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsEnabled_FalseForNonenlistedEvent
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteWillInvokeMethod
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteWillInvokeMethod
+  id: CallingWriteWillInvokeMethod
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: CallingWriteWillInvokeMethod()
+  nameWithType: DiagnosticSourceAdapterTest.CallingWriteWillInvokeMethod()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteWillInvokeMethod()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: CallingWriteWillInvokeMethod
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CallingWriteWillInvokeMethod()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CallingWriteWillInvokeMethod
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteForNonEnlistedNameIsHarmless
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteForNonEnlistedNameIsHarmless
+  id: CallingWriteForNonEnlistedNameIsHarmless
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: CallingWriteForNonEnlistedNameIsHarmless()
+  nameWithType: DiagnosticSourceAdapterTest.CallingWriteForNonEnlistedNameIsHarmless()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.CallingWriteForNonEnlistedNameIsHarmless()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: CallingWriteForNonEnlistedNameIsHarmless
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 93
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CallingWriteForNonEnlistedNameIsHarmless()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CallingWriteForNonEnlistedNameIsHarmless
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_True_CallsIsEnabled
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_True_CallsIsEnabled
+  id: Write_True_CallsIsEnabled
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: Write_True_CallsIsEnabled()
+  nameWithType: DiagnosticSourceAdapterTest.Write_True_CallsIsEnabled()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_True_CallsIsEnabled()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Write_True_CallsIsEnabled
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 106
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Write_True_CallsIsEnabled()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Write_True_CallsIsEnabled
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_False_CallsIsEnabled
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_False_CallsIsEnabled
+  id: Write_False_CallsIsEnabled
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: Write_False_CallsIsEnabled()
+  nameWithType: DiagnosticSourceAdapterTest.Write_False_CallsIsEnabled()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_False_CallsIsEnabled()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Write_False_CallsIsEnabled
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 129
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Write_False_CallsIsEnabled()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Write_False_CallsIsEnabled
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ParametersWillSplatFromObjectByName
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ParametersWillSplatFromObjectByName
+  id: ParametersWillSplatFromObjectByName
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: ParametersWillSplatFromObjectByName()
+  nameWithType: DiagnosticSourceAdapterTest.ParametersWillSplatFromObjectByName()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ParametersWillSplatFromObjectByName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: ParametersWillSplatFromObjectByName
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 167
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ParametersWillSplatFromObjectByName()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ParametersWillSplatFromObjectByName
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ExtraParametersAreHarmless
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ExtraParametersAreHarmless
+  id: ExtraParametersAreHarmless
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: ExtraParametersAreHarmless()
+  nameWithType: DiagnosticSourceAdapterTest.ExtraParametersAreHarmless()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ExtraParametersAreHarmless()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: ExtraParametersAreHarmless
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 183
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ExtraParametersAreHarmless()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ExtraParametersAreHarmless
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.MissingParametersArriveAsNull
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.MissingParametersArriveAsNull
+  id: MissingParametersArriveAsNull
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: MissingParametersArriveAsNull()
+  nameWithType: DiagnosticSourceAdapterTest.MissingParametersArriveAsNull()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.MissingParametersArriveAsNull()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: MissingParametersArriveAsNull
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 199
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MissingParametersArriveAsNull()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MissingParametersArriveAsNull
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType
+  id: Write_CanDuckType
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: Write_CanDuckType()
+  nameWithType: DiagnosticSourceAdapterTest.Write_CanDuckType()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Write_CanDuckType
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 215
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Write_CanDuckType()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Write_CanDuckType
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_RuntimeType
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_RuntimeType
+  id: Write_CanDuckType_RuntimeType
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: Write_CanDuckType_RuntimeType()
+  nameWithType: DiagnosticSourceAdapterTest.Write_CanDuckType_RuntimeType()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_RuntimeType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Write_CanDuckType_RuntimeType
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 244
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Write_CanDuckType_RuntimeType()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Write_CanDuckType_RuntimeType
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_Null
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_Null
+  id: Write_CanDuckType_Null
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: Write_CanDuckType_Null()
+  nameWithType: DiagnosticSourceAdapterTest.Write_CanDuckType_Null()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_CanDuckType_Null()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Write_CanDuckType_Null
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 275
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Write_CanDuckType_Null()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Write_CanDuckType_Null
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_NominialType
+  commentId: M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_NominialType
+  id: Write_NominialType
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest
+  langs:
+  - csharp
+  - vb
+  name: Write_NominialType()
+  nameWithType: DiagnosticSourceAdapterTest.Write_NominialType()
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.Write_NominialType()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Write_NominialType
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 292
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Write_NominialType()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Write_NominialType
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.DiagnosticAdapter
+  commentId: N:Microsoft.Extensions.DiagnosticAdapter
+  isExternal: false
+  name: Microsoft.Extensions.DiagnosticAdapter
+  nameWithType: Microsoft.Extensions.DiagnosticAdapter
+  fullName: Microsoft.Extensions.DiagnosticAdapter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

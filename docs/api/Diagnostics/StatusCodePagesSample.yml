@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: StatusCodePagesSample
+  commentId: N:StatusCodePagesSample
+  id: StatusCodePagesSample
+  children:
+  - StatusCodePagesSample.Startup
+  langs:
+  - csharp
+  - vb
+  name: StatusCodePagesSample
+  nameWithType: StatusCodePagesSample
+  fullName: StatusCodePagesSample
+  type: Namespace
+  assemblies:
+  - StatusCodePagesSample
+references:
+- uid: StatusCodePagesSample.Startup
+  commentId: T:StatusCodePagesSample.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: StatusCodePagesSample.Startup

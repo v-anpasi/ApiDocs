@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  commentId: T:Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  id: ConsoleContext
+  parent: Microsoft.Extensions.Logging.Test.Console
+  children:
+  - Microsoft.Extensions.Logging.Test.Console.ConsoleContext.BackgroundColor
+  - Microsoft.Extensions.Logging.Test.Console.ConsoleContext.ForegroundColor
+  - Microsoft.Extensions.Logging.Test.Console.ConsoleContext.Message
+  langs:
+  - csharp
+  - vb
+  name: ConsoleContext
+  nameWithType: ConsoleContext
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ConsoleContext
+    path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+    startLine: 7
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public class ConsoleContext
+    content.vb: Public Class ConsoleContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleContext.BackgroundColor
+  commentId: P:Microsoft.Extensions.Logging.Test.Console.ConsoleContext.BackgroundColor
+  id: BackgroundColor
+  parent: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  langs:
+  - csharp
+  - vb
+  name: BackgroundColor
+  nameWithType: ConsoleContext.BackgroundColor
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleContext.BackgroundColor
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: BackgroundColor
+    path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public ConsoleColor? BackgroundColor { get; set; }
+    content.vb: Public Property BackgroundColor As ConsoleColor?
+    parameters: []
+    return:
+      type: System.Nullable{System.ConsoleColor}
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleContext.ForegroundColor
+  commentId: P:Microsoft.Extensions.Logging.Test.Console.ConsoleContext.ForegroundColor
+  id: ForegroundColor
+  parent: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  langs:
+  - csharp
+  - vb
+  name: ForegroundColor
+  nameWithType: ConsoleContext.ForegroundColor
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleContext.ForegroundColor
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ForegroundColor
+    path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public ConsoleColor? ForegroundColor { get; set; }
+    content.vb: Public Property ForegroundColor As ConsoleColor?
+    parameters: []
+    return:
+      type: System.Nullable{System.ConsoleColor}
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleContext.Message
+  commentId: P:Microsoft.Extensions.Logging.Test.Console.ConsoleContext.Message
+  id: Message
+  parent: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ConsoleContext.Message
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleContext.Message
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: Message
+    path: test/Microsoft.Extensions.Logging.Test/Console/ConsoleContext.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public string Message { get; set; }
+    content.vb: Public Property Message As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Logging.Test.Console
+  commentId: N:Microsoft.Extensions.Logging.Test.Console
+  isExternal: false
+  name: Microsoft.Extensions.Logging.Test.Console
+  nameWithType: Microsoft.Extensions.Logging.Test.Console
+  fullName: Microsoft.Extensions.Logging.Test.Console
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Nullable{System.ConsoleColor}
+  commentId: T:System.Nullable{System.ConsoleColor}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<ConsoleColor>
+  nameWithType: Nullable<ConsoleColor>
+  fullName: System.Nullable<System.ConsoleColor>
+  nameWithType.vb: Nullable(Of ConsoleColor)
+  fullname.vb: System.Nullable(Of System.ConsoleColor)
+  name.vb: Nullable(Of ConsoleColor)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

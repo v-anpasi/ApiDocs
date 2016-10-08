@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  id: IntRole
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole.#ctor
+  langs:
+  - csharp
+  - vb
+  name: IntRole
+  nameWithType: IntRole
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/UserStoreIntKeyTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: IntRole
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/UserStoreIntKeyTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: 'public class IntRole : IdentityRole<int>'
+    content.vb: >-
+      Public Class IntRole
+          Inherits IdentityRole(Of Integer)
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32}
+  inheritedMembers:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Users
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Claims
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Id
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Name
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.NormalizedName
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.ConcurrencyStamp
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole.#ctor
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole.#ctor
+  id: '#ctor'
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  langs:
+  - csharp
+  - vb
+  name: IntRole()
+  nameWithType: IntRole.IntRole()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole.IntRole()
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/UserStoreIntKeyTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/UserStoreIntKeyTest.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  syntax:
+    content: public IntRole()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+  name: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32))
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32))
+  name.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32))
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole`1
+    name: IdentityUserRole
+    nameWithType: IdentityUserRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim`1
+    name: IdentityRoleClaim
+    nameWithType: IdentityRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole`1
+    name: IdentityUserRole
+    nameWithType: IdentityUserRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim`1
+    name: IdentityRoleClaim
+    nameWithType: IdentityRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32}
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32}
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+  name: IdentityRole<Int32>
+  nameWithType: IdentityRole<Int32>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32>
+  nameWithType.vb: IdentityRole(Of Int32)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32)
+  name.vb: IdentityRole(Of Int32)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Users
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Users
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Users
+  name: Users
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.Users
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.Users
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).Users
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).Users
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Claims
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Claims
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Claims
+  name: Claims
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.Claims
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.Claims
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).Claims
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).Claims
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Id
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Id
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Id
+  name: Id
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.Id
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.Id
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).Id
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).Id
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Name
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.Name
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Name
+  name: Name
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.Name
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.Name
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).Name
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).Name
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.NormalizedName
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.NormalizedName
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.NormalizedName
+  name: NormalizedName
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.NormalizedName
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.NormalizedName
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).NormalizedName
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).NormalizedName
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.ConcurrencyStamp
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ConcurrencyStamp
+  name: ConcurrencyStamp
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.ConcurrencyStamp
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).ConcurrencyStamp
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).ConcurrencyStamp
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.ToString
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}.ToString
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole{System.Int32,Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole{System.Int32},Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim{System.Int32}}
+  definition: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+  name: ToString()
+  nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.ToString()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.ToString()
+  nameWithType.vb: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).ToString()
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).ToString()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+    name: ToString
+    nameWithType: IdentityRole<Int32, IdentityUserRole<Int32>, IdentityRoleClaim<Int32>>.ToString
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole<System.Int32>, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<System.Int32>>.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+    name: ToString
+    nameWithType: IdentityRole(Of Int32, IdentityUserRole(Of Int32), IdentityRoleClaim(Of Int32)).ToString
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of System.Int32, Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole(Of System.Int32), Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim(Of System.Int32)).ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+  isExternal: false
+  name: IdentityRole<TKey, TUserRole, TRoleClaim>
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim)
+  name.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUserRole
+    nameWithType: TUserRole
+    fullName: TUserRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRoleClaim
+    nameWithType: TRoleClaim
+    fullName: TRoleClaim
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUserRole
+    nameWithType: TUserRole
+    fullName: TUserRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRoleClaim
+    nameWithType: TRoleClaim
+    fullName: TRoleClaim
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+  isExternal: false
+  name: IdentityRole<TKey>
+  nameWithType: IdentityRole<TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey>
+  nameWithType.vb: IdentityRole(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey)
+  name.vb: IdentityRole(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Users
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Users
+  isExternal: false
+  name: Users
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.Users
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.Users
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).Users
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).Users
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Claims
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Claims
+  isExternal: false
+  name: Claims
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.Claims
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.Claims
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).Claims
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).Claims
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Id
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Id
+  isExternal: false
+  name: Id
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.Id
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.Id
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).Id
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).Id
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Name
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.Name
+  isExternal: false
+  name: Name
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.Name
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.Name
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).Name
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).Name
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.NormalizedName
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.NormalizedName
+  isExternal: false
+  name: NormalizedName
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.NormalizedName
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.NormalizedName
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).NormalizedName
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).NormalizedName
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ConcurrencyStamp
+  isExternal: false
+  name: ConcurrencyStamp
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.ConcurrencyStamp
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).ConcurrencyStamp
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).ConcurrencyStamp
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+  isExternal: false
+  name: ToString()
+  nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.ToString()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.ToString()
+  nameWithType.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim).ToString()
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).ToString()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+    name: ToString
+    nameWithType: IdentityRole<TKey, TUserRole, TRoleClaim>.ToString
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole<TKey, TUserRole, TRoleClaim>.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3.ToString
+    name: ToString
+    nameWithType: IdentityRole(Of TKey, TUserRole, TRoleClaim).ToString
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole(Of TKey, TUserRole, TRoleClaim).ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

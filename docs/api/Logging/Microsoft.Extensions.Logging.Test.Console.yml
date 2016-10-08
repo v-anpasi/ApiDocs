@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.Test.Console
+  commentId: N:Microsoft.Extensions.Logging.Test.Console
+  id: Microsoft.Extensions.Logging.Test.Console
+  children:
+  - Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  - Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.Logging.Test.Console
+  nameWithType: Microsoft.Extensions.Logging.Test.Console
+  fullName: Microsoft.Extensions.Logging.Test.Console
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+references:
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  commentId: T:Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+  parent: Microsoft.Extensions.Logging.Test.Console
+  isExternal: false
+  name: ConsoleContext
+  nameWithType: ConsoleContext
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleContext
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+  commentId: T:Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+  parent: Microsoft.Extensions.Logging.Test.Console
+  isExternal: false
+  name: ConsoleSink
+  nameWithType: ConsoleSink
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  commentId: T:Microsoft.Extensions.Logging.Test.Console.TestConsole
+  isExternal: false
+  name: TestConsole
+  nameWithType: TestConsole
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole
+- uid: Microsoft.Extensions.Logging.Test.Console
+  commentId: N:Microsoft.Extensions.Logging.Test.Console
+  isExternal: false
+  name: Microsoft.Extensions.Logging.Test.Console
+  nameWithType: Microsoft.Extensions.Logging.Test.Console
+  fullName: Microsoft.Extensions.Logging.Test.Console

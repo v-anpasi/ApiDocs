@@ -1,0 +1,874 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  commentId: T:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  id: DefaultAntiforgeryTokenStoreTest
+  parent: Microsoft.AspNetCore.Antiforgery.Internal
+  children:
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieDoesNotExist_ReturnsNull
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsEmpty_ReturnsNull
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsNotEmpty_ReturnsToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_CookieIsEmpty_ReturnsNullTokens
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_HeaderTokenTakensPriority_OverFormToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_FallsBackToFormToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NonFormContentType_UsesHeaderToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.SaveCookieToken(System.Boolean,System.Nullable{System.Boolean})
+  langs:
+  - csharp
+  - vb
+  name: DefaultAntiforgeryTokenStoreTest
+  nameWithType: DefaultAntiforgeryTokenStoreTest
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: DefaultAntiforgeryTokenStoreTest
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: public class DefaultAntiforgeryTokenStoreTest
+    content.vb: Public Class DefaultAntiforgeryTokenStoreTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieDoesNotExist_ReturnsNull
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieDoesNotExist_ReturnsNull
+  id: GetCookieToken_CookieDoesNotExist_ReturnsNull
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetCookieToken_CookieDoesNotExist_ReturnsNull()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieDoesNotExist_ReturnsNull()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieDoesNotExist_ReturnsNull()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetCookieToken_CookieDoesNotExist_ReturnsNull
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCookieToken_CookieDoesNotExist_ReturnsNull()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCookieToken_CookieDoesNotExist_ReturnsNull
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsEmpty_ReturnsNull
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsEmpty_ReturnsNull
+  id: GetCookieToken_CookieIsEmpty_ReturnsNull
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetCookieToken_CookieIsEmpty_ReturnsNull()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsEmpty_ReturnsNull()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsEmpty_ReturnsNull()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetCookieToken_CookieIsEmpty_ReturnsNull
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 38
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCookieToken_CookieIsEmpty_ReturnsNull()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCookieToken_CookieIsEmpty_ReturnsNull
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsNotEmpty_ReturnsToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsNotEmpty_ReturnsToken
+  id: GetCookieToken_CookieIsNotEmpty_ReturnsToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetCookieToken_CookieIsNotEmpty_ReturnsToken()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsNotEmpty_ReturnsToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetCookieToken_CookieIsNotEmpty_ReturnsToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetCookieToken_CookieIsNotEmpty_ReturnsToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetCookieToken_CookieIsNotEmpty_ReturnsToken()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetCookieToken_CookieIsNotEmpty_ReturnsToken
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_CookieIsEmpty_ReturnsNullTokens
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_CookieIsEmpty_ReturnsNullTokens
+  id: GetRequestTokens_CookieIsEmpty_ReturnsNullTokens
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetRequestTokens_CookieIsEmpty_ReturnsNullTokens()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetRequestTokens_CookieIsEmpty_ReturnsNullTokens()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_CookieIsEmpty_ReturnsNullTokens()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetRequestTokens_CookieIsEmpty_ReturnsNullTokens
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 78
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetRequestTokens_CookieIsEmpty_ReturnsNullTokens()
+    content.vb: >-
+      <Fact>
+
+      Public Function GetRequestTokens_CookieIsEmpty_ReturnsNullTokens As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_HeaderTokenTakensPriority_OverFormToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_HeaderTokenTakensPriority_OverFormToken
+  id: GetRequestTokens_HeaderTokenTakensPriority_OverFormToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetRequestTokens_HeaderTokenTakensPriority_OverFormToken()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetRequestTokens_HeaderTokenTakensPriority_OverFormToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_HeaderTokenTakensPriority_OverFormToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetRequestTokens_HeaderTokenTakensPriority_OverFormToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 101
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetRequestTokens_HeaderTokenTakensPriority_OverFormToken()
+    content.vb: >-
+      <Fact>
+
+      Public Function GetRequestTokens_HeaderTokenTakensPriority_OverFormToken As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_FallsBackToFormToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_FallsBackToFormToken
+  id: GetRequestTokens_NoHeaderToken_FallsBackToFormToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetRequestTokens_NoHeaderToken_FallsBackToFormToken()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_FallsBackToFormToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_FallsBackToFormToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetRequestTokens_NoHeaderToken_FallsBackToFormToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 130
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetRequestTokens_NoHeaderToken_FallsBackToFormToken()
+    content.vb: >-
+      <Fact>
+
+      Public Function GetRequestTokens_NoHeaderToken_FallsBackToFormToken As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NonFormContentType_UsesHeaderToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NonFormContentType_UsesHeaderToken
+  id: GetRequestTokens_NonFormContentType_UsesHeaderToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetRequestTokens_NonFormContentType_UsesHeaderToken()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NonFormContentType_UsesHeaderToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NonFormContentType_UsesHeaderToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetRequestTokens_NonFormContentType_UsesHeaderToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 158
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetRequestTokens_NonFormContentType_UsesHeaderToken()
+    content.vb: >-
+      <Fact>
+
+      Public Function GetRequestTokens_NonFormContentType_UsesHeaderToken As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken
+  id: GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 186
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken()
+    content.vb: >-
+      <Fact>
+
+      Public Function GetRequestTokens_NoHeaderToken_NonFormContentType_ReturnsNullToken As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens
+  id: GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens()
+  nameWithType: DefaultAntiforgeryTokenStoreTest.GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 213
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens()
+    content.vb: >-
+      <Fact>
+
+      Public Function GetRequestTokens_BothHeaderValueAndFormFieldsEmpty_ReturnsNullTokens As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.SaveCookieToken(System.Boolean,System.Nullable{System.Boolean})
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.SaveCookieToken(System.Boolean,System.Nullable{System.Boolean})
+  id: SaveCookieToken(System.Boolean,System.Nullable{System.Boolean})
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
+  langs:
+  - csharp
+  - vb
+  name: SaveCookieToken(Boolean, Nullable<Boolean>)
+  nameWithType: DefaultAntiforgeryTokenStoreTest.SaveCookieToken(Boolean, Nullable<Boolean>)
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.SaveCookieToken(System.Boolean, System.Nullable<System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: SaveCookieToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenStoreTest.cs
+    startLine: 238
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{true, true})]
+
+      [InlineData(new object[]{false, null})]
+
+      public void SaveCookieToken(bool requireSsl, bool ? expectedCookieSecureFlag)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {True, True})>
+
+      <InlineData(New Object() {False, Nothing})>
+
+      Public Sub SaveCookieToken(requireSsl As Boolean, expectedCookieSecureFlag As Boolean?)
+    parameters:
+    - id: requireSsl
+      type: System.Boolean
+    - id: expectedCookieSecureFlag
+      type: System.Nullable{System.Boolean}
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  nameWithType.vb: DefaultAntiforgeryTokenStoreTest.SaveCookieToken(Boolean, Nullable(Of Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest.SaveCookieToken(System.Boolean, System.Nullable(Of System.Boolean))
+  name.vb: SaveCookieToken(Boolean, Nullable(Of Boolean))
+references:
+- uid: Microsoft.AspNetCore.Antiforgery.Internal
+  commentId: N:Microsoft.AspNetCore.Antiforgery.Internal
+  isExternal: false
+  name: Microsoft.AspNetCore.Antiforgery.Internal
+  nameWithType: Microsoft.AspNetCore.Antiforgery.Internal
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullname.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

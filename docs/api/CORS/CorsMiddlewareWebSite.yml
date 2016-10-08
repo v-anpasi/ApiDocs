@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CorsMiddlewareWebSite
+  commentId: N:CorsMiddlewareWebSite
+  id: CorsMiddlewareWebSite
+  children:
+  - CorsMiddlewareWebSite.EchoMiddleware
+  - CorsMiddlewareWebSite.Startup
+  langs:
+  - csharp
+  - vb
+  name: CorsMiddlewareWebSite
+  nameWithType: CorsMiddlewareWebSite
+  fullName: CorsMiddlewareWebSite
+  type: Namespace
+  assemblies:
+  - CorsMiddlewareWebSite
+references:
+- uid: CorsMiddlewareWebSite.EchoMiddleware
+  commentId: T:CorsMiddlewareWebSite.EchoMiddleware
+  isExternal: false
+  name: EchoMiddleware
+  nameWithType: EchoMiddleware
+  fullName: CorsMiddlewareWebSite.EchoMiddleware
+- uid: CorsMiddlewareWebSite.Startup
+  commentId: T:CorsMiddlewareWebSite.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: CorsMiddlewareWebSite.Startup

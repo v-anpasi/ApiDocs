@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+  commentId: T:MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+  id: Startup.TestDiagnosticListener
+  parent: MiddlewareAnaysisSample
+  children:
+  - MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareException(System.Exception,System.String)
+  - MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareFinished(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  - MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareStarting(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Startup.TestDiagnosticListener
+  nameWithType: Startup.TestDiagnosticListener
+  fullName: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+  type: Class
+  source:
+    remote:
+      path: samples/MiddlewareAnalysisSample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: TestDiagnosticListener
+    path: samples/MiddlewareAnalysisSample/Startup.cs
+    startLine: 95
+  assemblies:
+  - MiddlewareAnalysisSample
+  namespace: MiddlewareAnaysisSample
+  syntax:
+    content: public class TestDiagnosticListener
+    content.vb: Public Class TestDiagnosticListener
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareStarting(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  commentId: M:MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareStarting(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  id: OnMiddlewareStarting(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  parent: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+  langs:
+  - csharp
+  - vb
+  name: OnMiddlewareStarting(HttpContext, String)
+  nameWithType: Startup.TestDiagnosticListener.OnMiddlewareStarting(HttpContext, String)
+  fullName: MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareStarting(Microsoft.AspNetCore.Http.HttpContext, System.String)
+  type: Method
+  source:
+    remote:
+      path: samples/MiddlewareAnalysisSample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: OnMiddlewareStarting
+    path: samples/MiddlewareAnalysisSample/Startup.cs
+    startLine: 97
+  assemblies:
+  - MiddlewareAnalysisSample
+  namespace: MiddlewareAnaysisSample
+  syntax:
+    content: >-
+      [DiagnosticName("Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareStarting")]
+
+      public virtual void OnMiddlewareStarting(HttpContext httpContext, string name)
+    content.vb: >-
+      <DiagnosticName("Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareStarting")>
+
+      Public Overridable Sub OnMiddlewareStarting(httpContext As HttpContext, name As String)
+    parameters:
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    - id: name
+      type: System.String
+  attributes:
+  - type: Microsoft.Extensions.DiagnosticAdapter.DiagnosticNameAttribute
+    ctor: Microsoft.Extensions.DiagnosticAdapter.DiagnosticNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareStarting
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareException(System.Exception,System.String)
+  commentId: M:MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareException(System.Exception,System.String)
+  id: OnMiddlewareException(System.Exception,System.String)
+  parent: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+  langs:
+  - csharp
+  - vb
+  name: OnMiddlewareException(Exception, String)
+  nameWithType: Startup.TestDiagnosticListener.OnMiddlewareException(Exception, String)
+  fullName: MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareException(System.Exception, System.String)
+  type: Method
+  source:
+    remote:
+      path: samples/MiddlewareAnalysisSample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: OnMiddlewareException
+    path: samples/MiddlewareAnalysisSample/Startup.cs
+    startLine: 103
+  assemblies:
+  - MiddlewareAnalysisSample
+  namespace: MiddlewareAnaysisSample
+  syntax:
+    content: >-
+      [DiagnosticName("Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareException")]
+
+      public virtual void OnMiddlewareException(Exception exception, string name)
+    content.vb: >-
+      <DiagnosticName("Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareException")>
+
+      Public Overridable Sub OnMiddlewareException(exception As Exception, name As String)
+    parameters:
+    - id: exception
+      type: System.Exception
+    - id: name
+      type: System.String
+  attributes:
+  - type: Microsoft.Extensions.DiagnosticAdapter.DiagnosticNameAttribute
+    ctor: Microsoft.Extensions.DiagnosticAdapter.DiagnosticNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareException
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareFinished(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  commentId: M:MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareFinished(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  id: OnMiddlewareFinished(Microsoft.AspNetCore.Http.HttpContext,System.String)
+  parent: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
+  langs:
+  - csharp
+  - vb
+  name: OnMiddlewareFinished(HttpContext, String)
+  nameWithType: Startup.TestDiagnosticListener.OnMiddlewareFinished(HttpContext, String)
+  fullName: MiddlewareAnaysisSample.Startup.TestDiagnosticListener.OnMiddlewareFinished(Microsoft.AspNetCore.Http.HttpContext, System.String)
+  type: Method
+  source:
+    remote:
+      path: samples/MiddlewareAnalysisSample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: OnMiddlewareFinished
+    path: samples/MiddlewareAnalysisSample/Startup.cs
+    startLine: 109
+  assemblies:
+  - MiddlewareAnalysisSample
+  namespace: MiddlewareAnaysisSample
+  syntax:
+    content: >-
+      [DiagnosticName("Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareFinished")]
+
+      public virtual void OnMiddlewareFinished(HttpContext httpContext, string name)
+    content.vb: >-
+      <DiagnosticName("Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareFinished")>
+
+      Public Overridable Sub OnMiddlewareFinished(httpContext As HttpContext, name As String)
+    parameters:
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    - id: name
+      type: System.String
+  attributes:
+  - type: Microsoft.Extensions.DiagnosticAdapter.DiagnosticNameAttribute
+    ctor: Microsoft.Extensions.DiagnosticAdapter.DiagnosticNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Microsoft.AspNetCore.MiddlewareAnalysis.MiddlewareFinished
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: MiddlewareAnaysisSample
+  commentId: N:MiddlewareAnaysisSample
+  isExternal: false
+  name: MiddlewareAnaysisSample
+  nameWithType: MiddlewareAnaysisSample
+  fullName: MiddlewareAnaysisSample
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: false
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  id: Microsoft.AspNetCore.Builder
+  children:
+  - Microsoft.AspNetCore.Builder.BuilderExtensions
+  - Microsoft.AspNetCore.Builder.IdentityOptions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Identity
+references:
+- uid: Microsoft.AspNetCore.Builder.BuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.BuilderExtensions
+  isExternal: false
+  name: BuilderExtensions
+  nameWithType: BuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.BuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.IdentityOptions
+  commentId: T:Microsoft.AspNetCore.Builder.IdentityOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: IdentityOptions
+  nameWithType: IdentityOptions
+  fullName: Microsoft.AspNetCore.Builder.IdentityOptions
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder

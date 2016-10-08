@@ -1,0 +1,878 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  commentId: T:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  id: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  parent: Microsoft.AspNetCore.Authorization.Test
+  children:
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.#ctor(System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement})
+  - Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  langs:
+  - csharp
+  - vb
+  name: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  nameWithType: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpenseReportAuthorizationHandler
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 765
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: 'public class ExpenseReportAuthorizationHandler : AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>, IAuthorizationHandler'
+    content.vb: >-
+      Public Class ExpenseReportAuthorizationHandler
+          Inherits AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+          Implements IAuthorizationHandler
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}
+  implements:
+  - Microsoft.AspNetCore.Authorization.IAuthorizationHandler
+  inheritedMembers:
+  - Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  - Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.#ctor(System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement})
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.#ctor(System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement})
+  id: '#ctor(System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement})'
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  langs:
+  - csharp
+  - vb
+  name: ExpenseReportAuthorizationHandler(IEnumerable<OperationAuthorizationRequirement>)
+  nameWithType: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.ExpenseReportAuthorizationHandler(IEnumerable<OperationAuthorizationRequirement>)
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.ExpenseReportAuthorizationHandler(System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement>)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 767
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: public ExpenseReportAuthorizationHandler(IEnumerable<OperationAuthorizationRequirement> authorized)
+    content.vb: Public Sub New(authorized As IEnumerable(Of OperationAuthorizationRequirement))
+    parameters:
+    - id: authorized
+      type: System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement}
+  nameWithType.vb: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.ExpenseReportAuthorizationHandler(IEnumerable(Of OperationAuthorizationRequirement))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.ExpenseReportAuthorizationHandler(System.Collections.Generic.IEnumerable(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement))
+  name.vb: ExpenseReportAuthorizationHandler(IEnumerable(Of OperationAuthorizationRequirement))
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  commentId: M:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  id: HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  parent: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  langs:
+  - csharp
+  - vb
+  name: HandleRequirementAsync(AuthorizationHandlerContext, OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  nameWithType: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.HandleRequirementAsync(AuthorizationHandlerContext, OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: HandleRequirementAsync
+    path: test/Microsoft.AspNetCore.Authorization.Test/DefaultAuthorizationServiceTests.cs
+    startLine: 774
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+  namespace: Microsoft.AspNetCore.Authorization.Test
+  syntax:
+    content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, OperationAuthorizationRequirement requirement, DefaultAuthorizationServiceTests.ExpenseReport resource)
+    content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As OperationAuthorizationRequirement, resource As DefaultAuthorizationServiceTests.ExpenseReport) As Task
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    - id: requirement
+      type: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    - id: resource
+      type: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+    return:
+      type: System.Threading.Tasks.Task
+  overridden: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.AspNetCore.Authorization.Test
+  commentId: N:Microsoft.AspNetCore.Authorization.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Authorization.Test
+  nameWithType: Microsoft.AspNetCore.Authorization.Test
+  fullName: Microsoft.AspNetCore.Authorization.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}
+  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}
+  parent: Microsoft.AspNetCore.Authorization
+  definition: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+  name: AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>
+  nameWithType: AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport>
+  nameWithType.vb: AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  fullname.vb: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  name.vb: AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+    name: AuthorizationHandler
+    nameWithType: AuthorizationHandler
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+    nameWithType: OperationAuthorizationRequirement
+    fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+    name: DefaultAuthorizationServiceTests.ExpenseReport
+    nameWithType: DefaultAuthorizationServiceTests.ExpenseReport
+    fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+    name: AuthorizationHandler
+    nameWithType: AuthorizationHandler
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+    nameWithType: OperationAuthorizationRequirement
+    fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+    name: DefaultAuthorizationServiceTests.ExpenseReport
+    nameWithType: DefaultAuthorizationServiceTests.ExpenseReport
+    fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Authorization.IAuthorizationHandler
+  commentId: T:Microsoft.AspNetCore.Authorization.IAuthorizationHandler
+  parent: Microsoft.AspNetCore.Authorization
+  isExternal: false
+  name: IAuthorizationHandler
+  nameWithType: IAuthorizationHandler
+  fullName: Microsoft.AspNetCore.Authorization.IAuthorizationHandler
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  commentId: M:Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  parent: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}
+  definition: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  name: HandleAsync(AuthorizationHandlerContext)
+  nameWithType: AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>.HandleAsync(AuthorizationHandlerContext)
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport>.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  nameWithType.vb: AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport).HandleAsync(AuthorizationHandlerContext)
+  fullname.vb: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport).HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+    name: HandleAsync
+    nameWithType: AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>.HandleAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport>.HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+    name: HandleAsync
+    nameWithType: AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport).HandleAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport).HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  commentId: M:Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  parent: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement,Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport}
+  definition: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+  name: HandleRequirementAsync(AuthorizationHandlerContext, OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  nameWithType: AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>.HandleRequirementAsync(AuthorizationHandlerContext, OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport>.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  nameWithType.vb: AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport).HandleRequirementAsync(AuthorizationHandlerContext, OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport)
+  fullname.vb: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport).HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+    name: HandleRequirementAsync
+    nameWithType: AuthorizationHandler<OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport>.HandleRequirementAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport>.HandleRequirementAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+    nameWithType: OperationAuthorizationRequirement
+    fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+    name: DefaultAuthorizationServiceTests.ExpenseReport
+    nameWithType: DefaultAuthorizationServiceTests.ExpenseReport
+    fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+    name: HandleRequirementAsync
+    nameWithType: AuthorizationHandler(Of OperationAuthorizationRequirement, DefaultAuthorizationServiceTests.ExpenseReport).HandleRequirementAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement, Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport).HandleRequirementAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+    nameWithType: OperationAuthorizationRequirement
+    fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+    name: DefaultAuthorizationServiceTests.ExpenseReport
+    nameWithType: DefaultAuthorizationServiceTests.ExpenseReport
+    fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+  isExternal: false
+  name: AuthorizationHandler<TRequirement, TResource>
+  nameWithType: AuthorizationHandler<TRequirement, TResource>
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<TRequirement, TResource>
+  nameWithType.vb: AuthorizationHandler(Of TRequirement, TResource)
+  fullname.vb: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of TRequirement, TResource)
+  name.vb: AuthorizationHandler(Of TRequirement, TResource)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+    name: AuthorizationHandler
+    nameWithType: AuthorizationHandler
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRequirement
+    nameWithType: TRequirement
+    fullName: TRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+    name: AuthorizationHandler
+    nameWithType: AuthorizationHandler
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRequirement
+    nameWithType: TRequirement
+    fullName: TRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Authorization
+  commentId: N:Microsoft.AspNetCore.Authorization
+  isExternal: false
+  name: Microsoft.AspNetCore.Authorization
+  nameWithType: Microsoft.AspNetCore.Authorization
+  fullName: Microsoft.AspNetCore.Authorization
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  commentId: M:Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  isExternal: false
+  name: HandleAsync(AuthorizationHandlerContext)
+  nameWithType: AuthorizationHandler<TRequirement, TResource>.HandleAsync(AuthorizationHandlerContext)
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<TRequirement, TResource>.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  nameWithType.vb: AuthorizationHandler(Of TRequirement, TResource).HandleAsync(AuthorizationHandlerContext)
+  fullname.vb: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of TRequirement, TResource).HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+    name: HandleAsync
+    nameWithType: AuthorizationHandler<TRequirement, TResource>.HandleAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<TRequirement, TResource>.HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)
+    name: HandleAsync
+    nameWithType: AuthorizationHandler(Of TRequirement, TResource).HandleAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of TRequirement, TResource).HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+  commentId: M:Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+  isExternal: false
+  name: HandleRequirementAsync(AuthorizationHandlerContext, TRequirement, TResource)
+  nameWithType: AuthorizationHandler<TRequirement, TResource>.HandleRequirementAsync(AuthorizationHandlerContext, TRequirement, TResource)
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<TRequirement, TResource>.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, TRequirement, TResource)
+  nameWithType.vb: AuthorizationHandler(Of TRequirement, TResource).HandleRequirementAsync(AuthorizationHandlerContext, TRequirement, TResource)
+  fullname.vb: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of TRequirement, TResource).HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, TRequirement, TResource)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+    name: HandleRequirementAsync
+    nameWithType: AuthorizationHandler<TRequirement, TResource>.HandleRequirementAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler<TRequirement, TResource>.HandleRequirementAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRequirement
+    nameWithType: TRequirement
+    fullName: TRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,`0,`1)
+    name: HandleRequirementAsync
+    nameWithType: AuthorizationHandler(Of TRequirement, TResource).HandleRequirementAsync
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandler(Of TRequirement, TResource).HandleRequirementAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+    nameWithType: AuthorizationHandlerContext
+    fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRequirement
+    nameWithType: TRequirement
+    fullName: TRequirement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement}
+  commentId: T:System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<OperationAuthorizationRequirement>
+  nameWithType: IEnumerable<OperationAuthorizationRequirement>
+  fullName: System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement>
+  nameWithType.vb: IEnumerable(Of OperationAuthorizationRequirement)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement)
+  name.vb: IEnumerable(Of OperationAuthorizationRequirement)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+    nameWithType: OperationAuthorizationRequirement
+    fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+    nameWithType: OperationAuthorizationRequirement
+    fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  parent: Microsoft.AspNetCore.Authorization
+  isExternal: false
+  name: AuthorizationHandlerContext
+  nameWithType: AuthorizationHandlerContext
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+- uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  commentId: T:Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+  parent: Microsoft.AspNetCore.Authorization.Infrastructure
+  isExternal: false
+  name: OperationAuthorizationRequirement
+  nameWithType: OperationAuthorizationRequirement
+  fullName: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+- uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+  commentId: T:Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+  parent: Microsoft.AspNetCore.Authorization.Test
+  isExternal: false
+  name: DefaultAuthorizationServiceTests.ExpenseReport
+  nameWithType: DefaultAuthorizationServiceTests.ExpenseReport
+  fullName: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.Authorization.Infrastructure
+  commentId: N:Microsoft.AspNetCore.Authorization.Infrastructure
+  isExternal: false
+  name: Microsoft.AspNetCore.Authorization.Infrastructure
+  nameWithType: Microsoft.AspNetCore.Authorization.Infrastructure
+  fullName: Microsoft.AspNetCore.Authorization.Infrastructure
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

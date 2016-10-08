@@ -453,7 +453,8 @@
           ],
           "src": "../aspnet/Common"
         }
-      ]
+      ],
+      "dest": "api/PlatformAbstractions"
     }
   ],
   "build": {

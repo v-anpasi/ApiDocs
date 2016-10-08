@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  id: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.RedisCacheServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.SqlServerCachingServicesExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.Caching.SqlServer
+references:
+- uid: Microsoft.Extensions.DependencyInjection.SqlServerCachingServicesExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.SqlServerCachingServicesExtensions
+  isExternal: false
+  name: SqlServerCachingServicesExtensions
+  nameWithType: SqlServerCachingServicesExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.SqlServerCachingServicesExtensions
+- uid: Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions
+  isExternal: false
+  name: MemoryCacheServiceCollectionExtensions
+  nameWithType: MemoryCacheServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.RedisCacheServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.RedisCacheServiceCollectionExtensions
+  isExternal: false
+  name: RedisCacheServiceCollectionExtensions
+  nameWithType: RedisCacheServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.RedisCacheServiceCollectionExtensions

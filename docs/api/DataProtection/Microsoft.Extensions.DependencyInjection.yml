@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  id: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.DataProtectionServices
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection
+references:
+- uid: Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions
+  isExternal: false
+  name: DataProtectionServiceCollectionExtensions
+  nameWithType: DataProtectionServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.DataProtectionServices
+  commentId: T:Microsoft.Extensions.DependencyInjection.DataProtectionServices
+  isExternal: false
+  name: DataProtectionServices
+  nameWithType: DataProtectionServices
+  fullName: Microsoft.Extensions.DependencyInjection.DataProtectionServices

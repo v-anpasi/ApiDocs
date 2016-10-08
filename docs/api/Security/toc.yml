@@ -1,0 +1,504 @@
+### YamlMime:TableOfContent
+- uid: CookieSample
+  name: CookieSample
+  items:
+  - uid: CookieSample.Program
+    name: Program
+  - uid: CookieSample.Startup
+    name: Startup
+- uid: CookieSessionSample
+  name: CookieSessionSample
+  items:
+  - uid: CookieSessionSample.MemoryCacheTicketStore
+    name: MemoryCacheTicketStore
+  - uid: CookieSessionSample.Program
+    name: Program
+  - uid: CookieSessionSample.Startup
+    name: Startup
+- uid: JwtBearerSample
+  name: JwtBearerSample
+  items:
+  - uid: JwtBearerSample.Program
+    name: Program
+  - uid: JwtBearerSample.Startup
+    name: Startup
+  - uid: JwtBearerSample.Todo
+    name: Todo
+- uid: Microsoft.AspNetCore.Authentication
+  name: Microsoft.AspNetCore.Authentication
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticateResult
+    name: AuthenticateResult
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationHandler`1
+    name: AuthenticationHandler<TOptions>
+    name.vb: AuthenticationHandler(Of TOptions)
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationHandlerFacts
+    name: AuthenticationHandlerFacts
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1
+    name: AuthenticationMiddleware<TOptions>
+    name.vb: AuthenticationMiddleware(Of TOptions)
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationTicket
+    name: AuthenticationTicket
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationToken
+    name: AuthenticationToken
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationTokenExtensions
+    name: AuthenticationTokenExtensions
+  - uid: Microsoft.AspNetCore.Authentication.Base64UrlTextEncoder
+    name: Base64UrlTextEncoder
+  - uid: Microsoft.AspNetCore.Authentication.Base64UrlTextEncoderTests
+    name: Base64UrlTextEncoderTests
+  - uid: Microsoft.AspNetCore.Authentication.BaseContext
+    name: BaseContext
+  - uid: Microsoft.AspNetCore.Authentication.BaseControlContext
+    name: BaseControlContext
+  - uid: Microsoft.AspNetCore.Authentication.ClaimsTransformationContext
+    name: ClaimsTransformationContext
+  - uid: Microsoft.AspNetCore.Authentication.ClaimsTransformationHandler
+    name: ClaimsTransformationHandler
+  - uid: Microsoft.AspNetCore.Authentication.ClaimsTransformationMiddleware
+    name: ClaimsTransformationMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.ClaimsTransformer
+    name: ClaimsTransformer
+  - uid: Microsoft.AspNetCore.Authentication.EventResultState
+    name: EventResultState
+  - uid: Microsoft.AspNetCore.Authentication.FailureContext
+    name: FailureContext
+  - uid: Microsoft.AspNetCore.Authentication.IClaimsTransformer
+    name: IClaimsTransformer
+  - uid: Microsoft.AspNetCore.Authentication.IDataSerializer`1
+    name: IDataSerializer<TModel>
+    name.vb: IDataSerializer(Of TModel)
+  - uid: Microsoft.AspNetCore.Authentication.IRemoteAuthenticationEvents
+    name: IRemoteAuthenticationEvents
+  - uid: Microsoft.AspNetCore.Authentication.ISecureDataFormat`1
+    name: ISecureDataFormat<TData>
+    name.vb: ISecureDataFormat(Of TData)
+  - uid: Microsoft.AspNetCore.Authentication.ISystemClock
+    name: ISystemClock
+  - uid: Microsoft.AspNetCore.Authentication.PropertiesDataFormat
+    name: PropertiesDataFormat
+  - uid: Microsoft.AspNetCore.Authentication.PropertiesSerializer
+    name: PropertiesSerializer
+  - uid: Microsoft.AspNetCore.Authentication.RemoteAuthenticationEvents
+    name: RemoteAuthenticationEvents
+  - uid: Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1
+    name: RemoteAuthenticationHandler<TOptions>
+    name.vb: RemoteAuthenticationHandler(Of TOptions)
+  - uid: Microsoft.AspNetCore.Authentication.SecureDataFormat`1
+    name: SecureDataFormat<TData>
+    name.vb: SecureDataFormat(Of TData)
+  - uid: Microsoft.AspNetCore.Authentication.SharedAuthenticationOptions
+    name: SharedAuthenticationOptions
+  - uid: Microsoft.AspNetCore.Authentication.SystemClock
+    name: SystemClock
+  - uid: Microsoft.AspNetCore.Authentication.TestClock
+    name: TestClock
+  - uid: Microsoft.AspNetCore.Authentication.TestExtensions
+    name: TestExtensions
+  - uid: Microsoft.AspNetCore.Authentication.TestHttpMessageHandler
+    name: TestHttpMessageHandler
+  - uid: Microsoft.AspNetCore.Authentication.TicketDataFormat
+    name: TicketDataFormat
+  - uid: Microsoft.AspNetCore.Authentication.TicketReceivedContext
+    name: TicketReceivedContext
+  - uid: Microsoft.AspNetCore.Authentication.TicketSerializer
+    name: TicketSerializer
+  - uid: Microsoft.AspNetCore.Authentication.TicketSerializerTests
+    name: TicketSerializerTests
+  - uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+    name: TokenExtensionTests
+  - uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.TestAuthHandler
+    name: TokenExtensionTests.TestAuthHandler
+  - uid: Microsoft.AspNetCore.Authentication.Transaction
+    name: Transaction
+- uid: Microsoft.AspNetCore.Authentication.Cookies
+  name: Microsoft.AspNetCore.Authentication.Cookies
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.BaseCookieContext
+    name: BaseCookieContext
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.ChunkingCookieManager
+    name: ChunkingCookieManager
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults
+    name: CookieAuthenticationDefaults
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents
+    name: CookieAuthenticationEvents
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware
+    name: CookieAuthenticationMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieMiddlewareTests
+    name: CookieMiddlewareTests
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieRedirectContext
+    name: CookieRedirectContext
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieSignedInContext
+    name: CookieSignedInContext
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieSigningInContext
+    name: CookieSigningInContext
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieSigningOutContext
+    name: CookieSigningOutContext
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext
+    name: CookieValidatePrincipalContext
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.ICookieAuthenticationEvents
+    name: ICookieAuthenticationEvents
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.ICookieManager
+    name: ICookieManager
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.ITicketStore
+    name: ITicketStore
+- uid: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  name: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure.CookieChunkingTests
+    name: CookieChunkingTests
+- uid: Microsoft.AspNetCore.Authentication.DataHandler
+  name: Microsoft.AspNetCore.Authentication.DataHandler
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.DataHandler.SecureDataFormatTests
+    name: SecureDataFormatTests
+- uid: Microsoft.AspNetCore.Authentication.Facebook
+  name: Microsoft.AspNetCore.Authentication.Facebook
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookDefaults
+    name: FacebookDefaults
+  - uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookHelper
+    name: FacebookHelper
+  - uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware
+    name: FacebookMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddlewareTests
+    name: FacebookMiddlewareTests
+- uid: Microsoft.AspNetCore.Authentication.Google
+  name: Microsoft.AspNetCore.Authentication.Google
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Google.GoogleDefaults
+    name: GoogleDefaults
+  - uid: Microsoft.AspNetCore.Authentication.Google.GoogleHelper
+    name: GoogleHelper
+  - uid: Microsoft.AspNetCore.Authentication.Google.GoogleMiddleware
+    name: GoogleMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.Google.GoogleMiddlewareTests
+    name: GoogleMiddlewareTests
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer
+  name: Microsoft.AspNetCore.Authentication.JwtBearer
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext
+    name: AuthenticationFailedContext
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.BaseJwtBearerContext
+    name: BaseJwtBearerContext
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.IJwtBearerEvents
+    name: IJwtBearerEvents
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerChallengeContext
+    name: JwtBearerChallengeContext
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults
+    name: JwtBearerDefaults
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+    name: JwtBearerEvents
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddleware
+    name: JwtBearerMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
+    name: JwtBearerMiddlewareTests
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.MessageReceivedContext
+    name: MessageReceivedContext
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
+    name: TokenValidatedContext
+- uid: Microsoft.AspNetCore.Authentication.MicrosoftAccount
+  name: Microsoft.AspNetCore.Authentication.MicrosoftAccount
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.MicrosoftAccount.MicrosoftAccountDefaults
+    name: MicrosoftAccountDefaults
+  - uid: Microsoft.AspNetCore.Authentication.MicrosoftAccount.MicrosoftAccountHelper
+    name: MicrosoftAccountHelper
+  - uid: Microsoft.AspNetCore.Authentication.MicrosoftAccount.MicrosoftAccountMiddleware
+    name: MicrosoftAccountMiddleware
+- uid: Microsoft.AspNetCore.Authentication.OAuth
+  name: Microsoft.AspNetCore.Authentication.OAuth
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.IOAuthEvents
+    name: IOAuthEvents
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext
+    name: OAuthCreatingTicketContext
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.OAuthEvents
+    name: OAuthEvents
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.OAuthHandler`1
+    name: OAuthHandler<TOptions>
+    name.vb: OAuthHandler(Of TOptions)
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.OAuthMiddleware`1
+    name: OAuthMiddleware<TOptions>
+    name.vb: OAuthMiddleware(Of TOptions)
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.OAuthRedirectToAuthorizationContext
+    name: OAuthRedirectToAuthorizationContext
+  - uid: Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponse
+    name: OAuthTokenResponse
+- uid: Microsoft.AspNetCore.Authentication.OpenIdConnect
+  name: Microsoft.AspNetCore.Authentication.OpenIdConnect
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.AuthenticationFailedContext
+    name: AuthenticationFailedContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.AuthorizationCodeReceivedContext
+    name: AuthorizationCodeReceivedContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.BaseOpenIdConnectContext
+    name: BaseOpenIdConnectContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.IOpenIdConnectEvents
+    name: IOpenIdConnectEvents
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.MessageReceivedContext
+    name: MessageReceivedContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectDefaults
+    name: OpenIdConnectDefaults
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectEvents
+    name: OpenIdConnectEvents
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler
+    name: OpenIdConnectHandler
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectMiddleware
+    name: OpenIdConnectMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectRedirectBehavior
+    name: OpenIdConnectRedirectBehavior
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.RedirectContext
+    name: RedirectContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.RemoteSignOutContext
+    name: RemoteSignOutContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.TokenResponseReceivedContext
+    name: TokenResponseReceivedContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.TokenValidatedContext
+    name: TokenValidatedContext
+  - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.UserInformationReceivedContext
+    name: UserInformationReceivedContext
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  name: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+    name: MicrosoftAccountMiddlewareTests
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  name: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.AuthenticationPropertiesFormaterKeyValue
+    name: AuthenticationPropertiesFormaterKeyValue
+  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+    name: ExpectedQueryValues
+  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
+    name: OpenIdConnectMiddlewareTests
+  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.TestUtilities
+    name: TestUtilities
+- uid: Microsoft.AspNetCore.Authentication.Twitter
+  name: Microsoft.AspNetCore.Authentication.Twitter
+  items:
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.AccessToken
+    name: AccessToken
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.BaseTwitterContext
+    name: BaseTwitterContext
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.ITwitterEvents
+    name: ITwitterEvents
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.RequestToken
+    name: RequestToken
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.RequestTokenSerializer
+    name: RequestTokenSerializer
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterCreatingTicketContext
+    name: TwitterCreatingTicketContext
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterDefaults
+    name: TwitterDefaults
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterEvents
+    name: TwitterEvents
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddleware
+    name: TwitterMiddleware
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+    name: TwitterMiddlewareTests
+  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterRedirectToAuthorizationEndpointContext
+    name: TwitterRedirectToAuthorizationEndpointContext
+- uid: Microsoft.AspNetCore.Authorization
+  name: Microsoft.AspNetCore.Authorization
+  items:
+  - uid: Microsoft.AspNetCore.Authorization.AllowAnonymousAttribute
+    name: AllowAnonymousAttribute
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`2
+    name: AuthorizationHandler<TRequirement, TResource>
+    name.vb: AuthorizationHandler(Of TRequirement, TResource)
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandler`1
+    name: AuthorizationHandler<TRequirement>
+    name.vb: AuthorizationHandler(Of TRequirement)
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    name: AuthorizationHandlerContext
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationOptions
+    name: AuthorizationOptions
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+    name: AuthorizationPolicy
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+    name: AuthorizationPolicyBuilder
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizationServiceExtensions
+    name: AuthorizationServiceExtensions
+  - uid: Microsoft.AspNetCore.Authorization.AuthorizeAttribute
+    name: AuthorizeAttribute
+  - uid: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider
+    name: DefaultAuthorizationPolicyProvider
+  - uid: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+    name: DefaultAuthorizationService
+  - uid: Microsoft.AspNetCore.Authorization.IAllowAnonymous
+    name: IAllowAnonymous
+  - uid: Microsoft.AspNetCore.Authorization.IAuthorizationHandler
+    name: IAuthorizationHandler
+  - uid: Microsoft.AspNetCore.Authorization.IAuthorizationPolicyProvider
+    name: IAuthorizationPolicyProvider
+  - uid: Microsoft.AspNetCore.Authorization.IAuthorizationRequirement
+    name: IAuthorizationRequirement
+  - uid: Microsoft.AspNetCore.Authorization.IAuthorizationService
+    name: IAuthorizationService
+  - uid: Microsoft.AspNetCore.Authorization.IAuthorizeData
+    name: IAuthorizeData
+- uid: Microsoft.AspNetCore.Authorization.Infrastructure
+  name: Microsoft.AspNetCore.Authorization.Infrastructure
+  items:
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.AssertionRequirement
+    name: AssertionRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.ClaimsAuthorizationRequirement
+    name: ClaimsAuthorizationRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.DenyAnonymousAuthorizationRequirement
+    name: DenyAnonymousAuthorizationRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.NameAuthorizationRequirement
+    name: NameAuthorizationRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
+    name: OperationAuthorizationRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.PassThroughAuthorizationHandler
+    name: PassThroughAuthorizationHandler
+  - uid: Microsoft.AspNetCore.Authorization.Infrastructure.RolesAuthorizationRequirement
+    name: RolesAuthorizationRequirement
+- uid: Microsoft.AspNetCore.Authorization.Test
+  name: Microsoft.AspNetCore.Authorization.Test
+  items:
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
+    name: DefaultAuthorizationServiceTests
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomHandler
+    name: DefaultAuthorizationServiceTests.CustomHandler
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomRequirement
+    name: DefaultAuthorizationServiceTests.CustomRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.DynamicPolicyProvider
+    name: DefaultAuthorizationServiceTests.DynamicPolicyProvider
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.EvenHandler
+    name: DefaultAuthorizationServiceTests.EvenHandler
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
+    name: DefaultAuthorizationServiceTests.ExpenseReport
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+    name: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.NotCalledHandler
+    name: DefaultAuthorizationServiceTests.NotCalledHandler
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Operations
+    name: DefaultAuthorizationServiceTests.Operations
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PassThroughRequirement
+    name: DefaultAuthorizationServiceTests.PassThroughRequirement
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.StaticPolicyProvider
+    name: DefaultAuthorizationServiceTests.StaticPolicyProvider
+  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.SuperUserHandler
+    name: DefaultAuthorizationServiceTests.SuperUserHandler
+- uid: Microsoft.AspNetCore.Authroization.Test
+  name: Microsoft.AspNetCore.Authroization.Test
+  items:
+  - uid: Microsoft.AspNetCore.Authroization.Test.AuthorizationPolicyFacts
+    name: AuthorizationPolicyFacts
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.AuthenticationOptions
+    name: AuthenticationOptions
+  - uid: Microsoft.AspNetCore.Builder.ClaimsTransformationAppBuilderExtensions
+    name: ClaimsTransformationAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.ClaimsTransformationOptions
+    name: ClaimsTransformationOptions
+  - uid: Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
+    name: CookieAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
+    name: CookieAuthenticationOptions
+  - uid: Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
+    name: CookiePolicyAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.CookiePolicyOptions
+    name: CookiePolicyOptions
+  - uid: Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
+    name: FacebookAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.FacebookOptions
+    name: FacebookOptions
+  - uid: Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
+    name: GoogleAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.GoogleOptions
+    name: GoogleOptions
+  - uid: Microsoft.AspNetCore.Builder.JwtBearerAppBuilderExtensions
+    name: JwtBearerAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.JwtBearerOptions
+    name: JwtBearerOptions
+  - uid: Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
+    name: MicrosoftAccountAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
+    name: MicrosoftAccountOptions
+  - uid: Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
+    name: OAuthAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.OAuthOptions
+    name: OAuthOptions
+  - uid: Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
+    name: OpenIdConnectAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.OpenIdConnectOptions
+    name: OpenIdConnectOptions
+  - uid: Microsoft.AspNetCore.Builder.RemoteAuthenticationOptions
+    name: RemoteAuthenticationOptions
+  - uid: Microsoft.AspNetCore.Builder.TwitterAppBuilderExtensions
+    name: TwitterAppBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.TwitterOptions
+    name: TwitterOptions
+- uid: Microsoft.AspNetCore.CookiePolicy
+  name: Microsoft.AspNetCore.CookiePolicy
+  items:
+  - uid: Microsoft.AspNetCore.CookiePolicy.AppendCookieContext
+    name: AppendCookieContext
+  - uid: Microsoft.AspNetCore.CookiePolicy.CookiePolicyMiddleware
+    name: CookiePolicyMiddleware
+  - uid: Microsoft.AspNetCore.CookiePolicy.DeleteCookieContext
+    name: DeleteCookieContext
+  - uid: Microsoft.AspNetCore.CookiePolicy.HttpOnlyPolicy
+    name: HttpOnlyPolicy
+  - uid: Microsoft.AspNetCore.CookiePolicy.TestExtensions
+    name: TestExtensions
+  - uid: Microsoft.AspNetCore.CookiePolicy.Transaction
+    name: Transaction
+- uid: Microsoft.AspNetCore.CookiePolicy.Test
+  name: Microsoft.AspNetCore.CookiePolicy.Test
+  items:
+  - uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
+    name: CookiePolicyTests
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions
+    name: AuthenticationServiceCollectionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.AuthorizationServiceCollectionExtensions
+    name: AuthorizationServiceCollectionExtensions
+- uid: Microsoft.Owin.Security.Interop
+  name: Microsoft.Owin.Security.Interop
+  items:
+  - uid: Microsoft.Owin.Security.Interop.AspNetTicketDataFormat
+    name: AspNetTicketDataFormat
+  - uid: Microsoft.Owin.Security.Interop.AspNetTicketSerializer
+    name: AspNetTicketSerializer
+  - uid: Microsoft.Owin.Security.Interop.ChunkingCookieManager
+    name: ChunkingCookieManager
+  - uid: Microsoft.Owin.Security.Interop.CookiesInteropTests
+    name: CookiesInteropTests
+  - uid: Microsoft.Owin.Security.Interop.DataProtectorShim
+    name: DataProtectorShim
+- uid: Microsoft.Owin.Security.Interop.Test
+  name: Microsoft.Owin.Security.Interop.Test
+  items:
+  - uid: Microsoft.Owin.Security.Interop.Test.TicketInteropTests
+    name: TicketInteropTests
+- uid: OpenIdConnect.AzureAdSample
+  name: OpenIdConnect.AzureAdSample
+  items:
+  - uid: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
+    name: AuthPropertiesTokenCache
+  - uid: OpenIdConnect.AzureAdSample.Program
+    name: Program
+  - uid: OpenIdConnect.AzureAdSample.Startup
+    name: Startup
+- uid: OpenIdConnectSample
+  name: OpenIdConnectSample
+  items:
+  - uid: OpenIdConnectSample.Program
+    name: Program
+  - uid: OpenIdConnectSample.Startup
+    name: Startup
+- uid: SocialSample
+  name: SocialSample
+  items:
+  - uid: SocialSample.Program
+    name: Program
+  - uid: SocialSample.Startup
+    name: Startup

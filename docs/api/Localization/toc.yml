@@ -1,0 +1,105 @@
+### YamlMime:TableOfContent
+- uid: LocalizationSample
+  name: LocalizationSample
+  items:
+  - uid: LocalizationSample.Startup
+    name: Startup
+- uid: LocalizationWebsite
+  name: LocalizationWebsite
+  items:
+  - uid: LocalizationWebsite.Program
+    name: Program
+  - uid: LocalizationWebsite.StartupResourcesAtRootFolder
+    name: StartupResourcesAtRootFolder
+  - uid: LocalizationWebsite.StartupResourcesInFolder
+    name: StartupResourcesInFolder
+- uid: LocalizationWebsite.Models
+  name: LocalizationWebsite.Models
+  items:
+  - uid: LocalizationWebsite.Models.Customer
+    name: Customer
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+    name: ApplicationBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.RequestLocalizationOptions
+    name: RequestLocalizationOptions
+- uid: Microsoft.AspNetCore.Localization
+  name: Microsoft.AspNetCore.Localization
+  items:
+  - uid: Microsoft.AspNetCore.Localization.AcceptLanguageHeaderRequestCultureProvider
+    name: AcceptLanguageHeaderRequestCultureProvider
+  - uid: Microsoft.AspNetCore.Localization.CookieRequestCultureProvider
+    name: CookieRequestCultureProvider
+  - uid: Microsoft.AspNetCore.Localization.CustomRequestCultureProvider
+    name: CustomRequestCultureProvider
+  - uid: Microsoft.AspNetCore.Localization.IRequestCultureFeature
+    name: IRequestCultureFeature
+  - uid: Microsoft.AspNetCore.Localization.IRequestCultureProvider
+    name: IRequestCultureProvider
+  - uid: Microsoft.AspNetCore.Localization.ProviderCultureResult
+    name: ProviderCultureResult
+  - uid: Microsoft.AspNetCore.Localization.QueryStringRequestCultureProvider
+    name: QueryStringRequestCultureProvider
+  - uid: Microsoft.AspNetCore.Localization.RequestCulture
+    name: RequestCulture
+  - uid: Microsoft.AspNetCore.Localization.RequestCultureFeature
+    name: RequestCultureFeature
+  - uid: Microsoft.AspNetCore.Localization.RequestCultureProvider
+    name: RequestCultureProvider
+  - uid: Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware
+    name: RequestLocalizationMiddleware
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests
+  name: Microsoft.AspNetCore.Localization.FunctionalTests
+  items:
+  - uid: Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationSampleTest
+    name: LocalizationSampleTest
+  - uid: Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationTest
+    name: LocalizationTest
+  - uid: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+    name: TestRunner
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.LocalizationServiceCollectionExtensions
+    name: LocalizationServiceCollectionExtensions
+- uid: Microsoft.Extensions.Globalization
+  name: Microsoft.Extensions.Globalization
+  items:
+  - uid: Microsoft.Extensions.Globalization.CultureInfoCache
+    name: CultureInfoCache
+- uid: Microsoft.Extensions.Localization
+  name: Microsoft.Extensions.Localization
+  items:
+  - uid: Microsoft.Extensions.Localization.IResourceNamesCache
+    name: IResourceNamesCache
+  - uid: Microsoft.Extensions.Localization.IStringLocalizer
+    name: IStringLocalizer
+  - uid: Microsoft.Extensions.Localization.IStringLocalizer`1
+    name: IStringLocalizer<T>
+    name.vb: IStringLocalizer(Of T)
+  - uid: Microsoft.Extensions.Localization.IStringLocalizerFactory
+    name: IStringLocalizerFactory
+  - uid: Microsoft.Extensions.Localization.LocalizationOptions
+    name: LocalizationOptions
+  - uid: Microsoft.Extensions.Localization.LocalizedString
+    name: LocalizedString
+  - uid: Microsoft.Extensions.Localization.ResourceManagerStringLocalizer
+    name: ResourceManagerStringLocalizer
+  - uid: Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory
+    name: ResourceManagerStringLocalizerFactory
+  - uid: Microsoft.Extensions.Localization.ResourceManagerWithCultureStringLocalizer
+    name: ResourceManagerWithCultureStringLocalizer
+  - uid: Microsoft.Extensions.Localization.ResourceNamesCache
+    name: ResourceNamesCache
+  - uid: Microsoft.Extensions.Localization.StringLocalizer`1
+    name: StringLocalizer<TResourceSource>
+    name.vb: StringLocalizer(Of TResourceSource)
+  - uid: Microsoft.Extensions.Localization.StringLocalizerExtensions
+    name: StringLocalizerExtensions
+- uid: Microsoft.Extensions.Localization.Internal
+  name: Microsoft.Extensions.Localization.Internal
+  items:
+  - uid: Microsoft.Extensions.Localization.Internal.AssemblyWrapper
+    name: AssemblyWrapper

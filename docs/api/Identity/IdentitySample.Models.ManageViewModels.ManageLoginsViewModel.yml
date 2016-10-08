@@ -1,0 +1,544 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel
+  commentId: T:IdentitySample.Models.ManageViewModels.ManageLoginsViewModel
+  id: ManageLoginsViewModel
+  parent: IdentitySample.Models.ManageViewModels
+  children:
+  - IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  - IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  langs:
+  - csharp
+  - vb
+  name: ManageLoginsViewModel
+  nameWithType: ManageLoginsViewModel
+  fullName: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel
+  type: Class
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Models/ManageViewModels/ManageLoginsViewModel.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ManageLoginsViewModel
+    path: samples/IdentitySample.Mvc/Models/ManageViewModels/ManageLoginsViewModel.cs
+    startLine: 9
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySample.Models.ManageViewModels
+  syntax:
+    content: public class ManageLoginsViewModel
+    content.vb: Public Class ManageLoginsViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  commentId: P:IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  id: CurrentLogins
+  parent: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentLogins
+  nameWithType: ManageLoginsViewModel.CurrentLogins
+  fullName: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  type: Property
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Models/ManageViewModels/ManageLoginsViewModel.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CurrentLogins
+    path: samples/IdentitySample.Mvc/Models/ManageViewModels/ManageLoginsViewModel.cs
+    startLine: 11
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySample.Models.ManageViewModels
+  syntax:
+    content: public IList<UserLoginInfo> CurrentLogins { get; set; }
+    content.vb: Public Property CurrentLogins As IList(Of UserLoginInfo)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.AspNetCore.Identity.UserLoginInfo}
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  commentId: P:IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  id: OtherLogins
+  parent: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel
+  langs:
+  - csharp
+  - vb
+  name: OtherLogins
+  nameWithType: ManageLoginsViewModel.OtherLogins
+  fullName: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  type: Property
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Models/ManageViewModels/ManageLoginsViewModel.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: OtherLogins
+    path: samples/IdentitySample.Mvc/Models/ManageViewModels/ManageLoginsViewModel.cs
+    startLine: 13
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySample.Models.ManageViewModels
+  syntax:
+    content: public IList<AuthenticationDescription> OtherLogins { get; set; }
+    content.vb: Public Property OtherLogins As IList(Of AuthenticationDescription)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription}
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: IdentitySample.Models.ManageViewModels
+  commentId: N:IdentitySample.Models.ManageViewModels
+  isExternal: false
+  name: IdentitySample.Models.ManageViewModels
+  nameWithType: IdentitySample.Models.ManageViewModels
+  fullName: IdentitySample.Models.ManageViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IList{Microsoft.AspNetCore.Identity.UserLoginInfo}
+  commentId: T:System.Collections.Generic.IList{Microsoft.AspNetCore.Identity.UserLoginInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<UserLoginInfo>
+  nameWithType: IList<UserLoginInfo>
+  fullName: System.Collections.Generic.IList<Microsoft.AspNetCore.Identity.UserLoginInfo>
+  nameWithType.vb: IList(Of UserLoginInfo)
+  fullname.vb: System.Collections.Generic.IList(Of Microsoft.AspNetCore.Identity.UserLoginInfo)
+  name.vb: IList(Of UserLoginInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.UserLoginInfo
+    name: UserLoginInfo
+    nameWithType: UserLoginInfo
+    fullName: Microsoft.AspNetCore.Identity.UserLoginInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.UserLoginInfo
+    name: UserLoginInfo
+    nameWithType: UserLoginInfo
+    fullName: Microsoft.AspNetCore.Identity.UserLoginInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullname.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.IList{Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription}
+  commentId: T:System.Collections.Generic.IList{Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<AuthenticationDescription>
+  nameWithType: IList<AuthenticationDescription>
+  fullName: System.Collections.Generic.IList<Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription>
+  nameWithType.vb: IList(Of AuthenticationDescription)
+  fullname.vb: System.Collections.Generic.IList(Of Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription)
+  name.vb: IList(Of AuthenticationDescription)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription
+    name: AuthenticationDescription
+    nameWithType: AuthenticationDescription
+    fullName: Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription
+    name: AuthenticationDescription
+    nameWithType: AuthenticationDescription
+    fullName: Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

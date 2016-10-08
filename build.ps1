@@ -32,10 +32,26 @@ if (-Not (Test-Path $docfx\docfx.exe))
     Unzip $docfxZip $docfx
 }
 
+Pop-Location
+
+# clean docs
+Remove-Item $docs\api\* -Force -recurse
+
 # run docfx metadata to generate YAML metadata
 & $docfx\docfx.exe metadata $docs\docfx.json
 if($LASTEXITCODE -ne 0)
 {
     Pop-Location
     exit 1
+}
+
+# merge toc.yml if needed
+if(Test-Path aspnet/mergeToc.js)
+{
+    & node aspnet/mergeToc.js
+    if($LASTEXITCODE -ne 0)
+    {
+        Pop-Location
+        exit 1
+    }
 }

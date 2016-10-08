@@ -1,0 +1,1303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  id: AddOperationTests
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  children:
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewProperty
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyShouldFailIfRootIsNotAnExpandoObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToAnonymousObjectShouldFail
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOjectInTypedObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToNestedAnonymousObjectShouldFail
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectInExpandoObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectShouldFail
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsReplaceShouldFailOnAnonymousDueToNoSetter
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplace
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNested
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNestedInDynamic
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToExistingPropertyOnNestedObject
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToList
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAppend
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtBeginning
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtEndWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooLarge
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooSmall
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListNegativePosition
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldAddToListWithDifferentCase
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot
+  - Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldReplacePropertyWithDifferentCase
+  langs:
+  - csharp
+  - vb
+  name: AddOperationTests
+  nameWithType: AddOperationTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddOperationTests
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: public class AddOperationTests
+    content.vb: Public Class AddOperationTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyShouldFailIfRootIsNotAnExpandoObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyShouldFailIfRootIsNotAnExpandoObject
+  id: AddNewPropertyShouldFailIfRootIsNotAnExpandoObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyShouldFailIfRootIsNotAnExpandoObject()
+  nameWithType: AddOperationTests.AddNewPropertyShouldFailIfRootIsNotAnExpandoObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyShouldFailIfRootIsNotAnExpandoObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyShouldFailIfRootIsNotAnExpandoObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyShouldFailIfRootIsNotAnExpandoObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyShouldFailIfRootIsNotAnExpandoObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewProperty
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewProperty
+  id: AddNewProperty
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewProperty()
+  nameWithType: AddOperationTests.AddNewProperty()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewProperty()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewProperty
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 38
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewProperty()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewProperty
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToNestedAnonymousObjectShouldFail
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToNestedAnonymousObjectShouldFail
+  id: AddNewPropertyToNestedAnonymousObjectShouldFail
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyToNestedAnonymousObjectShouldFail()
+  nameWithType: AddOperationTests.AddNewPropertyToNestedAnonymousObjectShouldFail()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToNestedAnonymousObjectShouldFail()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyToNestedAnonymousObjectShouldFail
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyToNestedAnonymousObjectShouldFail()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyToNestedAnonymousObjectShouldFail
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectShouldFail
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectShouldFail
+  id: AddNewPropertyToTypedObjectShouldFail
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyToTypedObjectShouldFail()
+  nameWithType: AddOperationTests.AddNewPropertyToTypedObjectShouldFail()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectShouldFail()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyToTypedObjectShouldFail
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 82
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyToTypedObjectShouldFail()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyToTypedObjectShouldFail
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToExistingPropertyOnNestedObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToExistingPropertyOnNestedObject
+  id: AddToExistingPropertyOnNestedObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToExistingPropertyOnNestedObject()
+  nameWithType: AddOperationTests.AddToExistingPropertyOnNestedObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToExistingPropertyOnNestedObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToExistingPropertyOnNestedObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 107
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToExistingPropertyOnNestedObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToExistingPropertyOnNestedObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOject
+  id: AddNewPropertyToExpandoOject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyToExpandoOject()
+  nameWithType: AddOperationTests.AddNewPropertyToExpandoOject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyToExpandoOject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 129
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyToExpandoOject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyToExpandoOject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOjectInTypedObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOjectInTypedObject
+  id: AddNewPropertyToExpandoOjectInTypedObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyToExpandoOjectInTypedObject()
+  nameWithType: AddOperationTests.AddNewPropertyToExpandoOjectInTypedObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToExpandoOjectInTypedObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyToExpandoOjectInTypedObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 151
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyToExpandoOjectInTypedObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyToExpandoOjectInTypedObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectInExpandoObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectInExpandoObject
+  id: AddNewPropertyToTypedObjectInExpandoObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyToTypedObjectInExpandoObject()
+  nameWithType: AddOperationTests.AddNewPropertyToTypedObjectInExpandoObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToTypedObjectInExpandoObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyToTypedObjectInExpandoObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 171
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyToTypedObjectInExpandoObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyToTypedObjectInExpandoObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToAnonymousObjectShouldFail
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToAnonymousObjectShouldFail
+  id: AddNewPropertyToAnonymousObjectShouldFail
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddNewPropertyToAnonymousObjectShouldFail()
+  nameWithType: AddOperationTests.AddNewPropertyToAnonymousObjectShouldFail()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddNewPropertyToAnonymousObjectShouldFail()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddNewPropertyToAnonymousObjectShouldFail
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 194
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddNewPropertyToAnonymousObjectShouldFail()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddNewPropertyToAnonymousObjectShouldFail
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsReplaceShouldFailOnAnonymousDueToNoSetter
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsReplaceShouldFailOnAnonymousDueToNoSetter
+  id: AddResultsReplaceShouldFailOnAnonymousDueToNoSetter
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddResultsReplaceShouldFailOnAnonymousDueToNoSetter()
+  nameWithType: AddOperationTests.AddResultsReplaceShouldFailOnAnonymousDueToNoSetter()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsReplaceShouldFailOnAnonymousDueToNoSetter()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddResultsReplaceShouldFailOnAnonymousDueToNoSetter
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 220
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddResultsReplaceShouldFailOnAnonymousDueToNoSetter()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddResultsReplaceShouldFailOnAnonymousDueToNoSetter
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplace
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplace
+  id: AddResultsShouldReplace
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddResultsShouldReplace()
+  nameWithType: AddOperationTests.AddResultsShouldReplace()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplace()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddResultsShouldReplace
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 244
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddResultsShouldReplace()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddResultsShouldReplace
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNested
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNested
+  id: AddResultsShouldReplaceInNested
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddResultsShouldReplaceInNested()
+  nameWithType: AddOperationTests.AddResultsShouldReplaceInNested()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNested()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddResultsShouldReplaceInNested
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 262
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddResultsShouldReplaceInNested()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddResultsShouldReplaceInNested
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNestedInDynamic
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNestedInDynamic
+  id: AddResultsShouldReplaceInNestedInDynamic
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddResultsShouldReplaceInNestedInDynamic()
+  nameWithType: AddOperationTests.AddResultsShouldReplaceInNestedInDynamic()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddResultsShouldReplaceInNestedInDynamic()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddResultsShouldReplaceInNestedInDynamic
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 282
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddResultsShouldReplaceInNestedInDynamic()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddResultsShouldReplaceInNestedInDynamic
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot
+  id: ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot()
+  nameWithType: AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 304
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ShouldNotBeAbleToAddToNonExistingPropertyThatIsNotTheRoot
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot
+  id: ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot()
+  nameWithType: AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 342
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ShouldNotBeAbleToAddToNonExistingPropertyInNestedPropertyThatIsNotTheRoot
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldReplacePropertyWithDifferentCase
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldReplacePropertyWithDifferentCase
+  id: ShouldReplacePropertyWithDifferentCase
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ShouldReplacePropertyWithDifferentCase()
+  nameWithType: AddOperationTests.ShouldReplacePropertyWithDifferentCase()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldReplacePropertyWithDifferentCase()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ShouldReplacePropertyWithDifferentCase
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 380
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ShouldReplacePropertyWithDifferentCase()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ShouldReplacePropertyWithDifferentCase
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToList
+  id: AddToList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToList()
+  nameWithType: AddOperationTests.AddToList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 398
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListNegativePosition
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListNegativePosition
+  id: AddToListNegativePosition
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListNegativePosition()
+  nameWithType: AddOperationTests.AddToListNegativePosition()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListNegativePosition()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListNegativePosition
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 418
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListNegativePosition()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListNegativePosition
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldAddToListWithDifferentCase
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldAddToListWithDifferentCase
+  id: ShouldAddToListWithDifferentCase
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: ShouldAddToListWithDifferentCase()
+  nameWithType: AddOperationTests.ShouldAddToListWithDifferentCase()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.ShouldAddToListWithDifferentCase()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ShouldAddToListWithDifferentCase
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 440
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ShouldAddToListWithDifferentCase()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ShouldAddToListWithDifferentCase
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooLarge
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooLarge
+  id: AddToListInvalidPositionTooLarge
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooLarge()
+  nameWithType: AddOperationTests.AddToListInvalidPositionTooLarge()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooLarge()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooLarge
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 460
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooLarge()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooLarge
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtEndWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtEndWithSerialization
+  id: AddToListAtEndWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListAtEndWithSerialization()
+  nameWithType: AddOperationTests.AddToListAtEndWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtEndWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListAtEndWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 484
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListAtEndWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListAtEndWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtBeginning
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtBeginning
+  id: AddToListAtBeginning
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListAtBeginning()
+  nameWithType: AddOperationTests.AddToListAtBeginning()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAtBeginning()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListAtBeginning
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 504
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListAtBeginning()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListAtBeginning
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooSmall
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooSmall
+  id: AddToListInvalidPositionTooSmall
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooSmall()
+  nameWithType: AddOperationTests.AddToListInvalidPositionTooSmall()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListInvalidPositionTooSmall()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooSmall
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 524
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooSmall()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooSmall
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAppend
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAppend
+  id: AddToListAppend
+  parent: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListAppend()
+  nameWithType: AddOperationTests.AddToListAppend()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests.AddToListAppend()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListAppend
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/Dynamic/AddOperationTests.cs
+    startLine: 548
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListAppend()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListAppend
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  isExternal: false
+  name: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

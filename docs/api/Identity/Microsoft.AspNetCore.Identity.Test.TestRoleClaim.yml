@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  id: TestRoleClaim
+  parent: Microsoft.AspNetCore.Identity.Test
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TestRoleClaim
+  nameWithType: TestRoleClaim
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  type: Class
+  source:
+    remote:
+      path: test/Shared/TestRoleClaim.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: TestRoleClaim
+    path: test/Shared/TestRoleClaim.cs
+    startLine: 7
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: 'public class TestRoleClaim : TestRoleClaim<string>'
+    content.vb: >-
+      Public Class TestRoleClaim
+          Inherits TestRoleClaim(Of String)
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  inheritedMembers:
+  - Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.Id
+  - Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.RoleId
+  - Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.ClaimType
+  - Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.ClaimValue
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  parent: Microsoft.AspNetCore.Identity.Test
+  definition: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+  name: TestRoleClaim<String>
+  nameWithType: TestRoleClaim<String>
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<System.String>
+  nameWithType.vb: TestRoleClaim(Of String)
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of System.String)
+  name.vb: TestRoleClaim(Of String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim
+    nameWithType: TestRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim
+    nameWithType: TestRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.Id
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.Id
+  parent: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.Id
+  name: Id
+  nameWithType: TestRoleClaim<String>.Id
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<System.String>.Id
+  nameWithType.vb: TestRoleClaim(Of String).Id
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of System.String).Id
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.RoleId
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.RoleId
+  parent: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.RoleId
+  name: RoleId
+  nameWithType: TestRoleClaim<String>.RoleId
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<System.String>.RoleId
+  nameWithType.vb: TestRoleClaim(Of String).RoleId
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of System.String).RoleId
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.ClaimType
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.ClaimType
+  parent: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.ClaimType
+  name: ClaimType
+  nameWithType: TestRoleClaim<String>.ClaimType
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<System.String>.ClaimType
+  nameWithType.vb: TestRoleClaim(Of String).ClaimType
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of System.String).ClaimType
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.ClaimValue
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}.ClaimValue
+  parent: Microsoft.AspNetCore.Identity.Test.TestRoleClaim{System.String}
+  definition: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.ClaimValue
+  name: ClaimValue
+  nameWithType: TestRoleClaim<String>.ClaimValue
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<System.String>.ClaimValue
+  nameWithType.vb: TestRoleClaim(Of String).ClaimValue
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of System.String).ClaimValue
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+  isExternal: false
+  name: TestRoleClaim<TKey>
+  nameWithType: TestRoleClaim<TKey>
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<TKey>
+  nameWithType.vb: TestRoleClaim(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of TKey)
+  name.vb: TestRoleClaim(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim
+    nameWithType: TestRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim
+    nameWithType: TestRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.Id
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.Id
+  isExternal: false
+  name: Id
+  nameWithType: TestRoleClaim<TKey>.Id
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<TKey>.Id
+  nameWithType.vb: TestRoleClaim(Of TKey).Id
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of TKey).Id
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.RoleId
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.RoleId
+  isExternal: false
+  name: RoleId
+  nameWithType: TestRoleClaim<TKey>.RoleId
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<TKey>.RoleId
+  nameWithType.vb: TestRoleClaim(Of TKey).RoleId
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of TKey).RoleId
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.ClaimType
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.ClaimType
+  isExternal: false
+  name: ClaimType
+  nameWithType: TestRoleClaim<TKey>.ClaimType
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<TKey>.ClaimType
+  nameWithType.vb: TestRoleClaim(Of TKey).ClaimType
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of TKey).ClaimType
+- uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.ClaimValue
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1.ClaimValue
+  isExternal: false
+  name: ClaimValue
+  nameWithType: TestRoleClaim<TKey>.ClaimValue
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim<TKey>.ClaimValue
+  nameWithType.vb: TestRoleClaim(Of TKey).ClaimValue
+  fullname.vb: Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of TKey).ClaimValue

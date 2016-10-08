@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  id: FrameResponseHeadersTests
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.AddingControlOrNonAsciiCharactersToHeadersThrows(System.String,System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.InitialDictionaryIsEmpty
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenAddingHeaderAfterReadOnlyIsSet
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenChangingHeaderAfterReadOnlyIsSet
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenClearingHeadersAfterReadOnlyIsSet
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenRemovingHeaderAfterReadOnlyIsSet
+  langs:
+  - csharp
+  - vb
+  name: FrameResponseHeadersTests
+  nameWithType: FrameResponseHeadersTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: FrameResponseHeadersTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public class FrameResponseHeadersTests
+    content.vb: Public Class FrameResponseHeadersTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.InitialDictionaryIsEmpty
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.InitialDictionaryIsEmpty
+  id: InitialDictionaryIsEmpty
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: InitialDictionaryIsEmpty()
+  nameWithType: FrameResponseHeadersTests.InitialDictionaryIsEmpty()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.InitialDictionaryIsEmpty()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: InitialDictionaryIsEmpty
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void InitialDictionaryIsEmpty()
+    content.vb: >-
+      <Fact>
+
+      Public Sub InitialDictionaryIsEmpty
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.AddingControlOrNonAsciiCharactersToHeadersThrows(System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.AddingControlOrNonAsciiCharactersToHeadersThrows(System.String,System.String)
+  id: AddingControlOrNonAsciiCharactersToHeadersThrows(System.String,System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: AddingControlOrNonAsciiCharactersToHeadersThrows(String, String)
+  nameWithType: FrameResponseHeadersTests.AddingControlOrNonAsciiCharactersToHeadersThrows(String, String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.AddingControlOrNonAsciiCharactersToHeadersThrows(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: AddingControlOrNonAsciiCharactersToHeadersThrows
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 37
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"Server", "\r\nData"})]
+
+      [InlineData(new object[]{"Server", "\0Data"})]
+
+      [InlineData(new object[]{"Server", "Data\r"})]
+
+      [InlineData(new object[]{"Server", "Da\0ta"})]
+
+      [InlineData(new object[]{"Server", "Da\u001fta"})]
+
+      [InlineData(new object[]{"Unknown-Header", "\r\nData"})]
+
+      [InlineData(new object[]{"Unknown-Header", "\0Data"})]
+
+      [InlineData(new object[]{"Unknown-Header", "Data\0"})]
+
+      [InlineData(new object[]{"Unknown-Header", "Da\nta"})]
+
+      [InlineData(new object[]{"\r\nServer", "Data"})]
+
+      [InlineData(new object[]{"Server\r", "Data"})]
+
+      [InlineData(new object[]{"Ser\0ver", "Data"})]
+
+      [InlineData(new object[]{"Server\r\n", "Data"})]
+
+      [InlineData(new object[]{"\0Server", "Data"})]
+
+      [InlineData(new object[]{"Server", "Data\0"})]
+
+      [InlineData(new object[]{"\u001fServer", "Data"})]
+
+      [InlineData(new object[]{"Unknown-Header\r\n", "Data"})]
+
+      [InlineData(new object[]{"\0Unknown-Header", "Data"})]
+
+      [InlineData(new object[]{"Unknown\r-Header", "Data"})]
+
+      [InlineData(new object[]{"Unk\nown-Header", "Data"})]
+
+      [InlineData(new object[]{"Server", "Da\u007fta"})]
+
+      [InlineData(new object[]{"Unknown\u007f-Header", "Data"})]
+
+      [InlineData(new object[]{"Ser\u0080ver", "Data"})]
+
+      [InlineData(new object[]{"Server", "Da\u0080ta"})]
+
+      [InlineData(new object[]{"Unknown\u0080-Header", "Data"})]
+
+      [InlineData(new object[]{"Ser�ver", "Data"})]
+
+      [InlineData(new object[]{"Server", "Da�ta"})]
+
+      [InlineData(new object[]{"Unknown�-Header", "Data"})]
+
+      [InlineData(new object[]{"Ser�ver", "Data"})]
+
+      [InlineData(new object[]{"�erver", "Data"})]
+
+      [InlineData(new object[]{"Server", "Da�ta"})]
+
+      [InlineData(new object[]{"Unknown�-Header", "Data"})]
+
+      [InlineData(new object[]{"Ser�ver", "Data"})]
+
+      public void AddingControlOrNonAsciiCharactersToHeadersThrows(string key, string value)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"Server", vbCrLf & "Data"})>
+
+      <InlineData(New Object() {"Server", vbNullChar & "Data"})>
+
+      <InlineData(New Object() {"Server", "Data" & vbCr})>
+
+      <InlineData(New Object() {"Server", "Da" & vbNullChar & "ta"})>
+
+      <InlineData(New Object() {"Server", "Da" & ChrW(31) & "ta"})>
+
+      <InlineData(New Object() {"Unknown-Header", vbCrLf & "Data"})>
+
+      <InlineData(New Object() {"Unknown-Header", vbNullChar & "Data"})>
+
+      <InlineData(New Object() {"Unknown-Header", "Data" & vbNullChar})>
+
+      <InlineData(New Object() {"Unknown-Header", "Da" & vbLf & "ta"})>
+
+      <InlineData(New Object() {vbCrLf & "Server", "Data"})>
+
+      <InlineData(New Object() {"Server" & vbCr, "Data"})>
+
+      <InlineData(New Object() {"Ser" & vbNullChar & "ver", "Data"})>
+
+      <InlineData(New Object() {"Server" & vbCrLf, "Data"})>
+
+      <InlineData(New Object() {vbNullChar & "Server", "Data"})>
+
+      <InlineData(New Object() {"Server", "Data" & vbNullChar})>
+
+      <InlineData(New Object() {ChrW(31) & "Server", "Data"})>
+
+      <InlineData(New Object() {"Unknown-Header" & vbCrLf, "Data"})>
+
+      <InlineData(New Object() {vbNullChar & "Unknown-Header", "Data"})>
+
+      <InlineData(New Object() {"Unknown" & vbCr & "-Header", "Data"})>
+
+      <InlineData(New Object() {"Unk" & vbLf & "own-Header", "Data"})>
+
+      <InlineData(New Object() {"Server", "Da" & ChrW(127) & "ta"})>
+
+      <InlineData(New Object() {"Unknown" & ChrW(127) & "-Header", "Data"})>
+
+      <InlineData(New Object() {"Ser" & ChrW(128) & "ver", "Data"})>
+
+      <InlineData(New Object() {"Server", "Da" & ChrW(128) & "ta"})>
+
+      <InlineData(New Object() {"Unknown" & ChrW(128) & "-Header", "Data"})>
+
+      <InlineData(New Object() {"Ser�ver", "Data"})>
+
+      <InlineData(New Object() {"Server", "Da�ta"})>
+
+      <InlineData(New Object() {"Unknown�-Header", "Data"})>
+
+      <InlineData(New Object() {"Ser�ver", "Data"})>
+
+      <InlineData(New Object() {"�erver", "Data"})>
+
+      <InlineData(New Object() {"Server", "Da�ta"})>
+
+      <InlineData(New Object() {"Unknown�-Header", "Data"})>
+
+      <InlineData(New Object() {"Ser�ver", "Data"})>
+
+      Public Sub AddingControlOrNonAsciiCharactersToHeadersThrows(key As String, value As String)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenAddingHeaderAfterReadOnlyIsSet
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenAddingHeaderAfterReadOnlyIsSet
+  id: ThrowsWhenAddingHeaderAfterReadOnlyIsSet
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowsWhenAddingHeaderAfterReadOnlyIsSet()
+  nameWithType: FrameResponseHeadersTests.ThrowsWhenAddingHeaderAfterReadOnlyIsSet()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenAddingHeaderAfterReadOnlyIsSet()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowsWhenAddingHeaderAfterReadOnlyIsSet
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 98
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsWhenAddingHeaderAfterReadOnlyIsSet()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsWhenAddingHeaderAfterReadOnlyIsSet
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenChangingHeaderAfterReadOnlyIsSet
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenChangingHeaderAfterReadOnlyIsSet
+  id: ThrowsWhenChangingHeaderAfterReadOnlyIsSet
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowsWhenChangingHeaderAfterReadOnlyIsSet()
+  nameWithType: FrameResponseHeadersTests.ThrowsWhenChangingHeaderAfterReadOnlyIsSet()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenChangingHeaderAfterReadOnlyIsSet()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowsWhenChangingHeaderAfterReadOnlyIsSet
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 107
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsWhenChangingHeaderAfterReadOnlyIsSet()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsWhenChangingHeaderAfterReadOnlyIsSet
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenRemovingHeaderAfterReadOnlyIsSet
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenRemovingHeaderAfterReadOnlyIsSet
+  id: ThrowsWhenRemovingHeaderAfterReadOnlyIsSet
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowsWhenRemovingHeaderAfterReadOnlyIsSet()
+  nameWithType: FrameResponseHeadersTests.ThrowsWhenRemovingHeaderAfterReadOnlyIsSet()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenRemovingHeaderAfterReadOnlyIsSet()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowsWhenRemovingHeaderAfterReadOnlyIsSet
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 118
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsWhenRemovingHeaderAfterReadOnlyIsSet()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsWhenRemovingHeaderAfterReadOnlyIsSet
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenClearingHeadersAfterReadOnlyIsSet
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenClearingHeadersAfterReadOnlyIsSet
+  id: ThrowsWhenClearingHeadersAfterReadOnlyIsSet
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: ThrowsWhenClearingHeadersAfterReadOnlyIsSet()
+  nameWithType: FrameResponseHeadersTests.ThrowsWhenClearingHeadersAfterReadOnlyIsSet()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests.ThrowsWhenClearingHeadersAfterReadOnlyIsSet()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ThrowsWhenClearingHeadersAfterReadOnlyIsSet
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameResponseHeadersTests.cs
+    startLine: 129
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsWhenClearingHeadersAfterReadOnlyIsSet()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsWhenClearingHeadersAfterReadOnlyIsSet
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

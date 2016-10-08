@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySample.Controllers
+  commentId: N:IdentitySample.Controllers
+  id: IdentitySample.Controllers
+  children:
+  - IdentitySample.Controllers.AccountController
+  - IdentitySample.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: IdentitySample.Controllers
+  nameWithType: IdentitySample.Controllers
+  fullName: IdentitySample.Controllers
+  type: Namespace
+  assemblies:
+  - IdentitySample.Mvc
+references:
+- uid: IdentitySample.Controllers.AccountController
+  commentId: T:IdentitySample.Controllers.AccountController
+  isExternal: false
+  name: AccountController
+  nameWithType: AccountController
+  fullName: IdentitySample.Controllers.AccountController
+- uid: IdentitySample.Controllers.HomeController
+  commentId: T:IdentitySample.Controllers.HomeController
+  isExternal: false
+  name: HomeController
+  nameWithType: HomeController
+  fullName: IdentitySample.Controllers.HomeController

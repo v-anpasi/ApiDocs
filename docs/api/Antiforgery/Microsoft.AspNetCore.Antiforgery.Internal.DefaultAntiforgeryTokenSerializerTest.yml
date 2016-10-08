@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  commentId: T:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  id: DefaultAntiforgeryTokenSerializerTest
+  parent: Microsoft.AspNetCore.Antiforgery.Internal
+  children:
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Deserialize_BadToken_Throws(System.String)
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_CookieToken_TokenRoundTripSuccessful
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful
+  langs:
+  - csharp
+  - vb
+  name: DefaultAntiforgeryTokenSerializerTest
+  nameWithType: DefaultAntiforgeryTokenSerializerTest
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: DefaultAntiforgeryTokenSerializerTest
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: public class DefaultAntiforgeryTokenSerializerTest
+    content.vb: Public Class DefaultAntiforgeryTokenSerializerTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Deserialize_BadToken_Throws(System.String)
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Deserialize_BadToken_Throws(System.String)
+  id: Deserialize_BadToken_Throws(System.String)
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  langs:
+  - csharp
+  - vb
+  name: Deserialize_BadToken_Throws(String)
+  nameWithType: DefaultAntiforgeryTokenSerializerTest.Deserialize_BadToken_Throws(String)
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Deserialize_BadToken_Throws(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Deserialize_BadToken_Throws
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"01705EEDCC7D42F1D6B3B9"})]
+
+      [InlineData(new object[]{"01705EEDCC7D42F1D6B3B98A593625BB4C0100"})]
+
+      [InlineData(new object[]{"02705EEDCC7D42F1D6B3B98A593625BB4C01"})]
+
+      [InlineData(new object[]{"01705EEDCC7D42F1D6B3B98A593625BB4C0000050000"})]
+
+      public void Deserialize_BadToken_Throws(string serializedToken)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"01705EEDCC7D42F1D6B3B9"})>
+
+      <InlineData(New Object() {"01705EEDCC7D42F1D6B3B98A593625BB4C0100"})>
+
+      <InlineData(New Object() {"02705EEDCC7D42F1D6B3B98A593625BB4C01"})>
+
+      <InlineData(New Object() {"01705EEDCC7D42F1D6B3B98A593625BB4C0000050000"})>
+
+      Public Sub Deserialize_BadToken_Throws(serializedToken As String)
+    parameters:
+    - id: serializedToken
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful
+  id: Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  langs:
+  - csharp
+  - vb
+  name: Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful()
+  nameWithType: DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Serialize_FieldToken_WithClaimUid_TokenRoundTripSuccessful
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful
+  id: Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  langs:
+  - csharp
+  - vb
+  name: Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful()
+  nameWithType: DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+    startLine: 87
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Serialize_FieldToken_WithUsername_TokenRoundTripSuccessful
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_CookieToken_TokenRoundTripSuccessful
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_CookieToken_TokenRoundTripSuccessful
+  id: Serialize_CookieToken_TokenRoundTripSuccessful
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
+  langs:
+  - csharp
+  - vb
+  name: Serialize_CookieToken_TokenRoundTripSuccessful()
+  nameWithType: DefaultAntiforgeryTokenSerializerTest.Serialize_CookieToken_TokenRoundTripSuccessful()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest.Serialize_CookieToken_TokenRoundTripSuccessful()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Serialize_CookieToken_TokenRoundTripSuccessful
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenSerializerTest.cs
+    startLine: 118
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Serialize_CookieToken_TokenRoundTripSuccessful()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Serialize_CookieToken_TokenRoundTripSuccessful
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Antiforgery.Internal
+  commentId: N:Microsoft.AspNetCore.Antiforgery.Internal
+  isExternal: false
+  name: Microsoft.AspNetCore.Antiforgery.Internal
+  nameWithType: Microsoft.AspNetCore.Antiforgery.Internal
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

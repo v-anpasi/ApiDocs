@@ -1,0 +1,925 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  commentId: T:Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  id: ConfigurationTests
+  parent: Microsoft.Extensions.Configuration.Test
+  children:
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.#ctor
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanOverrideValuesWithNewConfigurationProvider
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanReadUnicodeString
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanSetValuesAndReloadValues
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.CreatingWritingDeletingCreatingFileWillReload
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillFire
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillReload(System.Boolean)
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.Dispose
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.GetDefaultBasePathForSources
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadIncorrectJsonFile_ThrowFormatException
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.SetBasePathCalledMultipleTimesForEachSourceLastOneWins
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTests.TouchingFileWillReload
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationTests
+  nameWithType: ConfigurationTests
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ConfigurationTests
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: 'public class ConfigurationTests : IDisposable'
+    content.vb: >-
+      Public Class ConfigurationTests
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.#ctor
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.#ctor
+  id: '#ctor'
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationTests()
+  nameWithType: ConfigurationTests.ConfigurationTests()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.ConfigurationTests()
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: .ctor
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 71
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: public ConfigurationTests()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  id: LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+  nameWithType: ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 90
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanReadUnicodeString
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanReadUnicodeString
+  id: CanReadUnicodeString
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: CanReadUnicodeString()
+  nameWithType: ConfigurationTests.CanReadUnicodeString()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanReadUnicodeString()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CanReadUnicodeString
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 132
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanReadUnicodeString()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanReadUnicodeString
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath
+  id: LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath()
+  nameWithType: ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 143
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadAndCombineKeyValuePairsFromDifferentConfigurationProvidersWithAbsolutePath
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanOverrideValuesWithNewConfigurationProvider
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanOverrideValuesWithNewConfigurationProvider
+  id: CanOverrideValuesWithNewConfigurationProvider
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: CanOverrideValuesWithNewConfigurationProvider()
+  nameWithType: ConfigurationTests.CanOverrideValuesWithNewConfigurationProvider()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanOverrideValuesWithNewConfigurationProvider()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CanOverrideValuesWithNewConfigurationProvider
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 186
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanOverrideValuesWithNewConfigurationProvider()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanOverrideValuesWithNewConfigurationProvider
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanSetValuesAndReloadValues
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanSetValuesAndReloadValues
+  id: CanSetValuesAndReloadValues
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: CanSetValuesAndReloadValues()
+  nameWithType: ConfigurationTests.CanSetValuesAndReloadValues()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CanSetValuesAndReloadValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CanSetValuesAndReloadValues
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 258
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanSetValuesAndReloadValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanSetValuesAndReloadValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.TouchingFileWillReload
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.TouchingFileWillReload
+  id: TouchingFileWillReload
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: TouchingFileWillReload()
+  nameWithType: ConfigurationTests.TouchingFileWillReload()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.TouchingFileWillReload()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: TouchingFileWillReload
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 300
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TouchingFileWillReload()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TouchingFileWillReload
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillFire
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillFire
+  id: DeletingFileWillFire
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: DeletingFileWillFire()
+  nameWithType: ConfigurationTests.DeletingFileWillFire()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillFire()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: DeletingFileWillFire
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 336
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: public void DeletingFileWillFire()
+    content.vb: Public Sub DeletingFileWillFire
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillReload(System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillReload(System.Boolean)
+  id: DeletingFileWillReload(System.Boolean)
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: DeletingFileWillReload(Boolean)
+  nameWithType: ConfigurationTests.DeletingFileWillReload(Boolean)
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.DeletingFileWillReload(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: DeletingFileWillReload
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 355
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{false})]
+
+      [InlineData(new object[]{true})]
+
+      public void DeletingFileWillReload(bool optional)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {False})>
+
+      <InlineData(New Object() {True})>
+
+      Public Sub DeletingFileWillReload(optional As Boolean)
+    parameters:
+    - id: optional
+      type: System.Boolean
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CreatingWritingDeletingCreatingFileWillReload
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.CreatingWritingDeletingCreatingFileWillReload
+  id: CreatingWritingDeletingCreatingFileWillReload
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: CreatingWritingDeletingCreatingFileWillReload()
+  nameWithType: ConfigurationTests.CreatingWritingDeletingCreatingFileWillReload()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.CreatingWritingDeletingCreatingFileWillReload()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CreatingWritingDeletingCreatingFileWillReload
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 395
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: public void CreatingWritingDeletingCreatingFileWillReload()
+    content.vb: Public Sub CreatingWritingDeletingCreatingFileWillReload
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadIncorrectJsonFile_ThrowFormatException
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadIncorrectJsonFile_ThrowFormatException
+  id: LoadIncorrectJsonFile_ThrowFormatException
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: LoadIncorrectJsonFile_ThrowFormatException()
+  nameWithType: ConfigurationTests.LoadIncorrectJsonFile_ThrowFormatException()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.LoadIncorrectJsonFile_ThrowFormatException()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadIncorrectJsonFile_ThrowFormatException
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 467
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadIncorrectJsonFile_ThrowFormatException()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadIncorrectJsonFile_ThrowFormatException
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.SetBasePathCalledMultipleTimesForEachSourceLastOneWins
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.SetBasePathCalledMultipleTimesForEachSourceLastOneWins
+  id: SetBasePathCalledMultipleTimesForEachSourceLastOneWins
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: SetBasePathCalledMultipleTimesForEachSourceLastOneWins()
+  nameWithType: ConfigurationTests.SetBasePathCalledMultipleTimesForEachSourceLastOneWins()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.SetBasePathCalledMultipleTimesForEachSourceLastOneWins()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: SetBasePathCalledMultipleTimesForEachSourceLastOneWins
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 490
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SetBasePathCalledMultipleTimesForEachSourceLastOneWins()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SetBasePathCalledMultipleTimesForEachSourceLastOneWins
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.GetDefaultBasePathForSources
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.GetDefaultBasePathForSources
+  id: GetDefaultBasePathForSources
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultBasePathForSources()
+  nameWithType: ConfigurationTests.GetDefaultBasePathForSources()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.GetDefaultBasePathForSources()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: GetDefaultBasePathForSources
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 523
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetDefaultBasePathForSources()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetDefaultBasePathForSources
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.Dispose
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTests.Dispose
+  id: Dispose
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTests
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ConfigurationTests.Dispose()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTests.Dispose()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: Dispose
+    path: test/Microsoft.Extensions.Configuration.FunctionalTests/ConfigurationTests.cs
+    startLine: 563
+  assemblies:
+  - Microsoft.Extensions.Configuration.FunctionalTests
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Configuration.Test
+  commentId: N:Microsoft.Extensions.Configuration.Test
+  isExternal: false
+  name: Microsoft.Extensions.Configuration.Test
+  nameWithType: Microsoft.Extensions.Configuration.Test
+  fullName: Microsoft.Extensions.Configuration.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

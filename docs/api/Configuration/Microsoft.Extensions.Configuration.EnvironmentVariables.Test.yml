@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+  commentId: N:Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+  id: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+  children:
+  - Microsoft.Extensions.Configuration.EnvironmentVariables.Test.EnvironmentVariablesTest
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+  nameWithType: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.Extensions.Configuration.EnvironmentVariables.Test
+references:
+- uid: Microsoft.Extensions.Configuration.EnvironmentVariables.Test.EnvironmentVariablesTest
+  commentId: T:Microsoft.Extensions.Configuration.EnvironmentVariables.Test.EnvironmentVariablesTest
+  isExternal: false
+  name: EnvironmentVariablesTest
+  nameWithType: EnvironmentVariablesTest
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariables.Test.EnvironmentVariablesTest

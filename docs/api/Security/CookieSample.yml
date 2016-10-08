@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CookieSample
+  commentId: N:CookieSample
+  id: CookieSample
+  children:
+  - CookieSample.Program
+  - CookieSample.Startup
+  langs:
+  - csharp
+  - vb
+  name: CookieSample
+  nameWithType: CookieSample
+  fullName: CookieSample
+  type: Namespace
+  assemblies:
+  - CookieSample
+references:
+- uid: CookieSample.Program
+  commentId: T:CookieSample.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: CookieSample.Program
+- uid: CookieSample.Startup
+  commentId: T:CookieSample.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: CookieSample.Startup

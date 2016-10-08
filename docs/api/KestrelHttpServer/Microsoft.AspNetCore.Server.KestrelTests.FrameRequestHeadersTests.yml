@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  id: FrameRequestHeadersTests
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AddWorksLikeSetAndThrowsIfKeyExists
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AppendThrowsWhenHeaderValueContainsNonASCIICharacters
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ClearRemovesAllHeaders
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ContainsAndContainsKeyWork
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.CopyToMovesDataIntoArray
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.EntriesCanBeEnumerated
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.InitialDictionaryIsEmpty
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KeysAndValuesCanBeEnumerated
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KnownAndCustomHeaderCountAddedTogether
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.RemoveTakesHeadersOutOfDictionary
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SameExceptionThrownForMissingKey
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingKnownHeadersWorks
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingUnknownHeadersWorks
+  - Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.TryGetValueWorksForKnownAndUnknownHeaders
+  langs:
+  - csharp
+  - vb
+  name: FrameRequestHeadersTests
+  nameWithType: FrameRequestHeadersTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: FrameRequestHeadersTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public class FrameRequestHeadersTests
+    content.vb: Public Class FrameRequestHeadersTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.InitialDictionaryIsEmpty
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.InitialDictionaryIsEmpty
+  id: InitialDictionaryIsEmpty
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: InitialDictionaryIsEmpty()
+  nameWithType: FrameRequestHeadersTests.InitialDictionaryIsEmpty()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.InitialDictionaryIsEmpty()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: InitialDictionaryIsEmpty
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void InitialDictionaryIsEmpty()
+    content.vb: >-
+      <Fact>
+
+      Public Sub InitialDictionaryIsEmpty
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingUnknownHeadersWorks
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingUnknownHeadersWorks
+  id: SettingUnknownHeadersWorks
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: SettingUnknownHeadersWorks()
+  nameWithType: FrameRequestHeadersTests.SettingUnknownHeadersWorks()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingUnknownHeadersWorks()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: SettingUnknownHeadersWorks
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SettingUnknownHeadersWorks()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SettingUnknownHeadersWorks
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingKnownHeadersWorks
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingKnownHeadersWorks
+  id: SettingKnownHeadersWorks
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: SettingKnownHeadersWorks()
+  nameWithType: FrameRequestHeadersTests.SettingKnownHeadersWorks()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SettingKnownHeadersWorks()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: SettingKnownHeadersWorks
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 33
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SettingKnownHeadersWorks()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SettingKnownHeadersWorks
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KnownAndCustomHeaderCountAddedTogether
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KnownAndCustomHeaderCountAddedTogether
+  id: KnownAndCustomHeaderCountAddedTogether
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: KnownAndCustomHeaderCountAddedTogether()
+  nameWithType: FrameRequestHeadersTests.KnownAndCustomHeaderCountAddedTogether()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KnownAndCustomHeaderCountAddedTogether()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: KnownAndCustomHeaderCountAddedTogether
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void KnownAndCustomHeaderCountAddedTogether()
+    content.vb: >-
+      <Fact>
+
+      Public Sub KnownAndCustomHeaderCountAddedTogether
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.TryGetValueWorksForKnownAndUnknownHeaders
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.TryGetValueWorksForKnownAndUnknownHeaders
+  id: TryGetValueWorksForKnownAndUnknownHeaders
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: TryGetValueWorksForKnownAndUnknownHeaders()
+  nameWithType: FrameRequestHeadersTests.TryGetValueWorksForKnownAndUnknownHeaders()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.TryGetValueWorksForKnownAndUnknownHeaders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: TryGetValueWorksForKnownAndUnknownHeaders
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 56
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryGetValueWorksForKnownAndUnknownHeaders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryGetValueWorksForKnownAndUnknownHeaders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SameExceptionThrownForMissingKey
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SameExceptionThrownForMissingKey
+  id: SameExceptionThrownForMissingKey
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: SameExceptionThrownForMissingKey()
+  nameWithType: FrameRequestHeadersTests.SameExceptionThrownForMissingKey()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.SameExceptionThrownForMissingKey()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: SameExceptionThrownForMissingKey
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 74
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SameExceptionThrownForMissingKey()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SameExceptionThrownForMissingKey
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.EntriesCanBeEnumerated
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.EntriesCanBeEnumerated
+  id: EntriesCanBeEnumerated
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: EntriesCanBeEnumerated()
+  nameWithType: FrameRequestHeadersTests.EntriesCanBeEnumerated()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.EntriesCanBeEnumerated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: EntriesCanBeEnumerated
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 83
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void EntriesCanBeEnumerated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub EntriesCanBeEnumerated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KeysAndValuesCanBeEnumerated
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KeysAndValuesCanBeEnumerated
+  id: KeysAndValuesCanBeEnumerated
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: KeysAndValuesCanBeEnumerated()
+  nameWithType: FrameRequestHeadersTests.KeysAndValuesCanBeEnumerated()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.KeysAndValuesCanBeEnumerated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: KeysAndValuesCanBeEnumerated
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 100
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void KeysAndValuesCanBeEnumerated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub KeysAndValuesCanBeEnumerated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ContainsAndContainsKeyWork
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ContainsAndContainsKeyWork
+  id: ContainsAndContainsKeyWork
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: ContainsAndContainsKeyWork()
+  nameWithType: FrameRequestHeadersTests.ContainsAndContainsKeyWork()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ContainsAndContainsKeyWork()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ContainsAndContainsKeyWork
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 118
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ContainsAndContainsKeyWork()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ContainsAndContainsKeyWork
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AddWorksLikeSetAndThrowsIfKeyExists
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AddWorksLikeSetAndThrowsIfKeyExists
+  id: AddWorksLikeSetAndThrowsIfKeyExists
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: AddWorksLikeSetAndThrowsIfKeyExists()
+  nameWithType: FrameRequestHeadersTests.AddWorksLikeSetAndThrowsIfKeyExists()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AddWorksLikeSetAndThrowsIfKeyExists()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: AddWorksLikeSetAndThrowsIfKeyExists
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 149
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddWorksLikeSetAndThrowsIfKeyExists()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddWorksLikeSetAndThrowsIfKeyExists
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ClearRemovesAllHeaders
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ClearRemovesAllHeaders
+  id: ClearRemovesAllHeaders
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: ClearRemovesAllHeaders()
+  nameWithType: FrameRequestHeadersTests.ClearRemovesAllHeaders()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.ClearRemovesAllHeaders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ClearRemovesAllHeaders
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 169
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ClearRemovesAllHeaders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ClearRemovesAllHeaders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.RemoveTakesHeadersOutOfDictionary
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.RemoveTakesHeadersOutOfDictionary
+  id: RemoveTakesHeadersOutOfDictionary
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveTakesHeadersOutOfDictionary()
+  nameWithType: FrameRequestHeadersTests.RemoveTakesHeadersOutOfDictionary()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.RemoveTakesHeadersOutOfDictionary()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RemoveTakesHeadersOutOfDictionary
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 188
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveTakesHeadersOutOfDictionary()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveTakesHeadersOutOfDictionary
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.CopyToMovesDataIntoArray
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.CopyToMovesDataIntoArray
+  id: CopyToMovesDataIntoArray
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: CopyToMovesDataIntoArray()
+  nameWithType: FrameRequestHeadersTests.CopyToMovesDataIntoArray()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.CopyToMovesDataIntoArray()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: CopyToMovesDataIntoArray
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 215
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyToMovesDataIntoArray()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyToMovesDataIntoArray
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AppendThrowsWhenHeaderValueContainsNonASCIICharacters
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AppendThrowsWhenHeaderValueContainsNonASCIICharacters
+  id: AppendThrowsWhenHeaderValueContainsNonASCIICharacters
+  parent: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+  langs:
+  - csharp
+  - vb
+  name: AppendThrowsWhenHeaderValueContainsNonASCIICharacters()
+  nameWithType: FrameRequestHeadersTests.AppendThrowsWhenHeaderValueContainsNonASCIICharacters()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests.AppendThrowsWhenHeaderValueContainsNonASCIICharacters()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: AppendThrowsWhenHeaderValueContainsNonASCIICharacters
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/FrameRequestHeadersTests.cs
+    startLine: 238
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AppendThrowsWhenHeaderValueContainsNonASCIICharacters()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AppendThrowsWhenHeaderValueContainsNonASCIICharacters
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

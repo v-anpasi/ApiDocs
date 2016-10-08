@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.PriorityOrderer
+  commentId: T:Microsoft.AspNetCore.Identity.Test.PriorityOrderer
+  id: PriorityOrderer
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.PriorityOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  langs:
+  - csharp
+  - vb
+  name: PriorityOrderer
+  nameWithType: PriorityOrderer
+  fullName: Microsoft.AspNetCore.Identity.Test.PriorityOrderer
+  type: Class
+  source:
+    remote:
+      path: test/Shared/PriorityOrderer.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: PriorityOrderer
+    path: test/Shared/PriorityOrderer.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: 'public class PriorityOrderer : ITestCaseOrderer'
+    content.vb: >-
+      Public Class PriorityOrderer
+          Implements ITestCaseOrderer
+  inheritance:
+  - System.Object
+  implements:
+  - Xunit.Sdk.ITestCaseOrderer
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.Test.PriorityOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:Microsoft.AspNetCore.Identity.Test.PriorityOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  id: OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  parent: Microsoft.AspNetCore.Identity.Test.PriorityOrderer
+  langs:
+  - csharp
+  - vb
+  name: OrderTestCases<XunitTestCase>(IEnumerable<XunitTestCase>)
+  nameWithType: PriorityOrderer.OrderTestCases<XunitTestCase>(IEnumerable<XunitTestCase>)
+  fullName: Microsoft.AspNetCore.Identity.Test.PriorityOrderer.OrderTestCases<XunitTestCase>(System.Collections.Generic.IEnumerable<XunitTestCase>)
+  type: Method
+  source:
+    remote:
+      path: test/Shared/PriorityOrderer.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: OrderTestCases
+    path: test/Shared/PriorityOrderer.cs
+    startLine: 24
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: 'public IEnumerable<XunitTestCase> OrderTestCases<XunitTestCase>(IEnumerable<XunitTestCase> testCases)where XunitTestCase : ITestCase'
+    content.vb: Public Function OrderTestCases(Of XunitTestCase As ITestCase)(testCases As IEnumerable(Of XunitTestCase)) As IEnumerable(Of XunitTestCase)
+    parameters:
+    - id: testCases
+      type: System.Collections.Generic.IEnumerable{{XunitTestCase}}
+    typeParameters:
+    - id: XunitTestCase
+    return:
+      type: System.Collections.Generic.IEnumerable{{XunitTestCase}}
+  implements:
+  - Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{{XunitTestCase}})
+  nameWithType.vb: PriorityOrderer.OrderTestCases(Of XunitTestCase)(IEnumerable(Of XunitTestCase))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.PriorityOrderer.OrderTestCases(Of XunitTestCase)(System.Collections.Generic.IEnumerable(Of XunitTestCase))
+  name.vb: OrderTestCases(Of XunitTestCase)(IEnumerable(Of XunitTestCase))
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xunit.Sdk.ITestCaseOrderer
+  commentId: T:Xunit.Sdk.ITestCaseOrderer
+  parent: Xunit.Sdk
+  isExternal: true
+  name: ITestCaseOrderer
+  nameWithType: ITestCaseOrderer
+  fullName: Xunit.Sdk.ITestCaseOrderer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  isExternal: false
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+- uid: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{{XunitTestCase}})
+  commentId: M:Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  parent: Xunit.Sdk.ITestCaseOrderer
+  definition: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  name: OrderTestCases<XunitTestCase>(IEnumerable<XunitTestCase>)
+  nameWithType: ITestCaseOrderer.OrderTestCases<XunitTestCase>(IEnumerable<XunitTestCase>)
+  fullName: Xunit.Sdk.ITestCaseOrderer.OrderTestCases<XunitTestCase>(System.Collections.Generic.IEnumerable<XunitTestCase>)
+  nameWithType.vb: ITestCaseOrderer.OrderTestCases(Of XunitTestCase)(IEnumerable(Of XunitTestCase))
+  fullname.vb: Xunit.Sdk.ITestCaseOrderer.OrderTestCases(Of XunitTestCase)(System.Collections.Generic.IEnumerable(Of XunitTestCase))
+  name.vb: OrderTestCases(Of XunitTestCase)(IEnumerable(Of XunitTestCase))
+  spec.csharp:
+  - uid: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+    name: OrderTestCases<XunitTestCase>
+    nameWithType: ITestCaseOrderer.OrderTestCases<XunitTestCase>
+    fullName: Xunit.Sdk.ITestCaseOrderer.OrderTestCases<XunitTestCase>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: XunitTestCase
+    nameWithType: XunitTestCase
+    fullName: XunitTestCase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+    name: OrderTestCases(Of XunitTestCase)
+    nameWithType: ITestCaseOrderer.OrderTestCases(Of XunitTestCase)
+    fullName: Xunit.Sdk.ITestCaseOrderer.OrderTestCases(Of XunitTestCase)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: XunitTestCase
+    nameWithType: XunitTestCase
+    fullName: XunitTestCase
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{{XunitTestCase}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<XunitTestCase>
+  nameWithType: IEnumerable<XunitTestCase>
+  fullName: System.Collections.Generic.IEnumerable<XunitTestCase>
+  nameWithType.vb: IEnumerable(Of XunitTestCase)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of XunitTestCase)
+  name.vb: IEnumerable(Of XunitTestCase)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: XunitTestCase
+    nameWithType: XunitTestCase
+    fullName: XunitTestCase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: XunitTestCase
+    nameWithType: XunitTestCase
+    fullName: XunitTestCase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: OrderTestCases<TTestCase>(IEnumerable<TTestCase>)
+  nameWithType: ITestCaseOrderer.OrderTestCases<TTestCase>(IEnumerable<TTestCase>)
+  fullName: Xunit.Sdk.ITestCaseOrderer.OrderTestCases<TTestCase>(System.Collections.Generic.IEnumerable<TTestCase>)
+  nameWithType.vb: ITestCaseOrderer.OrderTestCases(Of TTestCase)(IEnumerable(Of TTestCase))
+  fullname.vb: Xunit.Sdk.ITestCaseOrderer.OrderTestCases(Of TTestCase)(System.Collections.Generic.IEnumerable(Of TTestCase))
+  name.vb: OrderTestCases(Of TTestCase)(IEnumerable(Of TTestCase))
+  spec.csharp:
+  - uid: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+    name: OrderTestCases<TTestCase>
+    nameWithType: ITestCaseOrderer.OrderTestCases<TTestCase>
+    fullName: Xunit.Sdk.ITestCaseOrderer.OrderTestCases<TTestCase>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TTestCase
+    nameWithType: TTestCase
+    fullName: TTestCase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xunit.Sdk.ITestCaseOrderer.OrderTestCases``1(System.Collections.Generic.IEnumerable{``0})
+    name: OrderTestCases(Of TTestCase)
+    nameWithType: ITestCaseOrderer.OrderTestCases(Of TTestCase)
+    fullName: Xunit.Sdk.ITestCaseOrderer.OrderTestCases(Of TTestCase)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TTestCase
+    nameWithType: TTestCase
+    fullName: TTestCase
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

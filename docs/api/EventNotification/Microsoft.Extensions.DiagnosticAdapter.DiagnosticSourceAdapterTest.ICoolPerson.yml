@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson
+  id: DiagnosticSourceAdapterTest.ICoolPerson
+  parent: Microsoft.Extensions.DiagnosticAdapter
+  children:
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson.Coolness
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticSourceAdapterTest.ICoolPerson
+  nameWithType: DiagnosticSourceAdapterTest.ICoolPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson
+  type: Interface
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: ICoolPerson
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 357
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: 'public interface ICoolPerson : DiagnosticSourceAdapterTest.IPerson'
+    content.vb: >-
+      Public Interface ICoolPerson
+          Inherits DiagnosticSourceAdapterTest.IPerson
+  inheritedMembers:
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.FirstName
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.LastName
+  - Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.Address
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson.Coolness
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson.Coolness
+  id: Coolness
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson
+  langs:
+  - csharp
+  - vb
+  name: Coolness
+  nameWithType: DiagnosticSourceAdapterTest.ICoolPerson.Coolness
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.ICoolPerson.Coolness
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Coolness
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/DiagnosticSourceAdapterTest.cs
+    startLine: 359
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter
+  syntax:
+    content: decimal Coolness { get; }
+    content.vb: ReadOnly Property Coolness As Decimal
+    parameters: []
+    return:
+      type: System.Decimal
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Microsoft.Extensions.DiagnosticAdapter
+  commentId: N:Microsoft.Extensions.DiagnosticAdapter
+  isExternal: false
+  name: Microsoft.Extensions.DiagnosticAdapter
+  nameWithType: Microsoft.Extensions.DiagnosticAdapter
+  fullName: Microsoft.Extensions.DiagnosticAdapter
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.FirstName
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.FirstName
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson
+  isExternal: false
+  name: FirstName
+  nameWithType: DiagnosticSourceAdapterTest.IPerson.FirstName
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.FirstName
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.LastName
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.LastName
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson
+  isExternal: false
+  name: LastName
+  nameWithType: DiagnosticSourceAdapterTest.IPerson.LastName
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.LastName
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.Address
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.Address
+  parent: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson
+  isExternal: false
+  name: Address
+  nameWithType: DiagnosticSourceAdapterTest.IPerson.Address
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson.Address
+- uid: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson
+  parent: Microsoft.Extensions.DiagnosticAdapter
+  isExternal: false
+  name: DiagnosticSourceAdapterTest.IPerson
+  nameWithType: DiagnosticSourceAdapterTest.IPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapterTest.IPerson
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

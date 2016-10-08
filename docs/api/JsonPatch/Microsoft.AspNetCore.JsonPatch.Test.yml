@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.JsonPatch.Test
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test
+  id: Microsoft.AspNetCore.JsonPatch.Test
+  children:
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedDTO
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  - Microsoft.AspNetCore.JsonPatch.Test.ObjectAdapterTests
+  - Microsoft.AspNetCore.JsonPatch.Test.SimpleDTO
+  - Microsoft.AspNetCore.JsonPatch.Test.SimpleDTOWithNestedDTO
+  - Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger`1
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.JsonPatch.Test
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test
+  fullName: Microsoft.AspNetCore.JsonPatch.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+references:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedDTO
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.NestedDTO
+  parent: Microsoft.AspNetCore.JsonPatch.Test
+  isExternal: false
+  name: NestedDTO
+  nameWithType: NestedDTO
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedDTO
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  isExternal: false
+  name: NestedObjectTests
+  nameWithType: NestedObjectTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+- uid: Microsoft.AspNetCore.JsonPatch.Test.ObjectAdapterTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.ObjectAdapterTests
+  isExternal: false
+  name: ObjectAdapterTests
+  nameWithType: ObjectAdapterTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.ObjectAdapterTests
+- uid: Microsoft.AspNetCore.JsonPatch.Test.SimpleDTO
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.SimpleDTO
+  parent: Microsoft.AspNetCore.JsonPatch.Test
+  isExternal: false
+  name: SimpleDTO
+  nameWithType: SimpleDTO
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.SimpleDTO
+- uid: Microsoft.AspNetCore.JsonPatch.Test.SimpleDTOWithNestedDTO
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.SimpleDTOWithNestedDTO
+  isExternal: false
+  name: SimpleDTOWithNestedDTO
+  nameWithType: SimpleDTOWithNestedDTO
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.SimpleDTOWithNestedDTO
+- uid: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger`1
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger`1
+  isExternal: false
+  name: TestErrorLogger<T>
+  nameWithType: TestErrorLogger<T>
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger<T>
+  nameWithType.vb: TestErrorLogger(Of T)
+  fullname.vb: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger(Of T)
+  name.vb: TestErrorLogger(Of T)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger`1
+    name: TestErrorLogger
+    nameWithType: TestErrorLogger
+    fullName: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger`1
+    name: TestErrorLogger
+    nameWithType: TestErrorLogger
+    fullName: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.JsonPatch.Test
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.JsonPatch.Test
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test
+  fullName: Microsoft.AspNetCore.JsonPatch.Test

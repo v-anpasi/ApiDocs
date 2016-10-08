@@ -1,0 +1,3503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  commentId: T:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  id: NestedObjectTests
+  parent: Microsoft.AspNetCore.JsonPatch.Test
+  children:
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplace
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplaceWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndex
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndexWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppend
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppendWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge_LogsError
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLargeWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall_LogsError
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmallWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Copy
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Move
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchy
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchyWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Remove
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge_LogsError
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLargeWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall_LogsError
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmallWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Replace
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerable
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerableWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollection
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollectionWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithSerialiation
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInList
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalid_PositionTooLarge_LogsError
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLarge
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLargeWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall_LogsError
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmallWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObject
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObjectWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObject
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObjectWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceWithSerialization
+  - Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.SerializationTests
+  langs:
+  - csharp
+  - vb
+  name: NestedObjectTests
+  nameWithType: NestedObjectTests
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: NestedObjectTests
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: public class NestedObjectTests
+    content.vb: Public Class NestedObjectTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObject
+  id: ReplacePropertyInNestedObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplacePropertyInNestedObject()
+  nameWithType: NestedObjectTests.ReplacePropertyInNestedObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplacePropertyInNestedObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplacePropertyInNestedObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplacePropertyInNestedObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObjectWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObjectWithSerialization
+  id: ReplacePropertyInNestedObjectWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplacePropertyInNestedObjectWithSerialization()
+  nameWithType: NestedObjectTests.ReplacePropertyInNestedObjectWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplacePropertyInNestedObjectWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplacePropertyInNestedObjectWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 33
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplacePropertyInNestedObjectWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplacePropertyInNestedObjectWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObject
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObject
+  id: ReplaceNestedObject
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNestedObject()
+  nameWithType: NestedObjectTests.ReplaceNestedObject()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObject()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceNestedObject
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceNestedObject()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceNestedObject
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObjectWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObjectWithSerialization
+  id: ReplaceNestedObjectWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNestedObjectWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceNestedObjectWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceNestedObjectWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceNestedObjectWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 79
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceNestedObjectWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceNestedObjectWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplace
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplace
+  id: AddResultsInReplace
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddResultsInReplace()
+  nameWithType: NestedObjectTests.AddResultsInReplace()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplace()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddResultsInReplace
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 104
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddResultsInReplace()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddResultsInReplace
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplaceWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplaceWithSerialization
+  id: AddResultsInReplaceWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddResultsInReplaceWithSerialization()
+  nameWithType: NestedObjectTests.AddResultsInReplaceWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddResultsInReplaceWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddResultsInReplaceWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 127
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddResultsInReplaceWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddResultsInReplaceWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToList
+  id: AddToList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToList()
+  nameWithType: NestedObjectTests.AddToList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 153
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListWithSerialization
+  id: AddToListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListWithSerialization()
+  nameWithType: NestedObjectTests.AddToListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 176
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIList
+  id: AddToIntegerIList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToIntegerIList()
+  nameWithType: NestedObjectTests.AddToIntegerIList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToIntegerIList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 202
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToIntegerIList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToIntegerIList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIListWithSerialization
+  id: AddToIntegerIListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToIntegerIListWithSerialization()
+  nameWithType: NestedObjectTests.AddToIntegerIListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToIntegerIListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToIntegerIListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 225
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToIntegerIListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToIntegerIListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIList
+  id: AddToNestedIntegerIList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToNestedIntegerIList()
+  nameWithType: NestedObjectTests.AddToNestedIntegerIList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToNestedIntegerIList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 251
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToNestedIntegerIList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToNestedIntegerIList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIListWithSerialization
+  id: AddToNestedIntegerIListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToNestedIntegerIListWithSerialization()
+  nameWithType: NestedObjectTests.AddToNestedIntegerIListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToNestedIntegerIListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToNestedIntegerIListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 277
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToNestedIntegerIListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToNestedIntegerIListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndex
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndex
+  id: AddToComplextTypeListSpecifyIndex
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToComplextTypeListSpecifyIndex()
+  nameWithType: NestedObjectTests.AddToComplextTypeListSpecifyIndex()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndex()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToComplextTypeListSpecifyIndex
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 306
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToComplextTypeListSpecifyIndex()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToComplextTypeListSpecifyIndex
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndexWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndexWithSerialization
+  id: AddToComplextTypeListSpecifyIndexWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToComplextTypeListSpecifyIndexWithSerialization()
+  nameWithType: NestedObjectTests.AddToComplextTypeListSpecifyIndexWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToComplextTypeListSpecifyIndexWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToComplextTypeListSpecifyIndexWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 336
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToComplextTypeListSpecifyIndexWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToComplextTypeListSpecifyIndexWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge
+  id: AddToListInvalidPositionTooLarge
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooLarge()
+  nameWithType: NestedObjectTests.AddToListInvalidPositionTooLarge()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooLarge
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 369
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooLarge()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooLarge
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLargeWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLargeWithSerialization
+  id: AddToListInvalidPositionTooLargeWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooLargeWithSerialization()
+  nameWithType: NestedObjectTests.AddToListInvalidPositionTooLargeWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLargeWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooLargeWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 394
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooLargeWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooLargeWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge_LogsError
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge_LogsError
+  id: AddToListInvalidPositionTooLarge_LogsError
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooLarge_LogsError()
+  nameWithType: NestedObjectTests.AddToListInvalidPositionTooLarge_LogsError()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooLarge_LogsError()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooLarge_LogsError
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 424
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooLarge_LogsError()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooLarge_LogsError
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall
+  id: AddToListInvalidPositionTooSmall
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooSmall()
+  nameWithType: NestedObjectTests.AddToListInvalidPositionTooSmall()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooSmall
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 453
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooSmall()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooSmall
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmallWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmallWithSerialization
+  id: AddToListInvalidPositionTooSmallWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooSmallWithSerialization()
+  nameWithType: NestedObjectTests.AddToListInvalidPositionTooSmallWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmallWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooSmallWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 476
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooSmallWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooSmallWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall_LogsError
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall_LogsError
+  id: AddToListInvalidPositionTooSmall_LogsError
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListInvalidPositionTooSmall_LogsError()
+  nameWithType: NestedObjectTests.AddToListInvalidPositionTooSmall_LogsError()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListInvalidPositionTooSmall_LogsError()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListInvalidPositionTooSmall_LogsError
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 505
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListInvalidPositionTooSmall_LogsError()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListInvalidPositionTooSmall_LogsError
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppend
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppend
+  id: AddToListAppend
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListAppend()
+  nameWithType: NestedObjectTests.AddToListAppend()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppend()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListAppend
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 533
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListAppend()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListAppend
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppendWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppendWithSerialization
+  id: AddToListAppendWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: AddToListAppendWithSerialization()
+  nameWithType: NestedObjectTests.AddToListAppendWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.AddToListAppendWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: AddToListAppendWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 556
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AddToListAppendWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AddToListAppendWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Remove
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Remove
+  id: Remove
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: Remove()
+  nameWithType: NestedObjectTests.Remove()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Remove()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: Remove
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 582
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Remove()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Remove
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveWithSerialization
+  id: RemoveWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveWithSerialization()
+  nameWithType: NestedObjectTests.RemoveWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 605
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromList
+  id: RemoveFromList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromList()
+  nameWithType: NestedObjectTests.RemoveFromList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 631
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListWithSerialization
+  id: RemoveFromListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListWithSerialization()
+  nameWithType: NestedObjectTests.RemoveFromListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 654
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge
+  id: RemoveFromListInvalidPositionTooLarge
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListInvalidPositionTooLarge()
+  nameWithType: NestedObjectTests.RemoveFromListInvalidPositionTooLarge()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListInvalidPositionTooLarge
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 680
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListInvalidPositionTooLarge()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListInvalidPositionTooLarge
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLargeWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLargeWithSerialization
+  id: RemoveFromListInvalidPositionTooLargeWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListInvalidPositionTooLargeWithSerialization()
+  nameWithType: NestedObjectTests.RemoveFromListInvalidPositionTooLargeWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLargeWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListInvalidPositionTooLargeWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 704
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListInvalidPositionTooLargeWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListInvalidPositionTooLargeWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge_LogsError
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge_LogsError
+  id: RemoveFromListInvalidPositionTooLarge_LogsError
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListInvalidPositionTooLarge_LogsError()
+  nameWithType: NestedObjectTests.RemoveFromListInvalidPositionTooLarge_LogsError()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooLarge_LogsError()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListInvalidPositionTooLarge_LogsError
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 734
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListInvalidPositionTooLarge_LogsError()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListInvalidPositionTooLarge_LogsError
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall
+  id: RemoveFromListInvalidPositionTooSmall
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListInvalidPositionTooSmall()
+  nameWithType: NestedObjectTests.RemoveFromListInvalidPositionTooSmall()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListInvalidPositionTooSmall
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 761
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListInvalidPositionTooSmall()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListInvalidPositionTooSmall
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmallWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmallWithSerialization
+  id: RemoveFromListInvalidPositionTooSmallWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListInvalidPositionTooSmallWithSerialization()
+  nameWithType: NestedObjectTests.RemoveFromListInvalidPositionTooSmallWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmallWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListInvalidPositionTooSmallWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 782
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListInvalidPositionTooSmallWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListInvalidPositionTooSmallWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall_LogsError
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall_LogsError
+  id: RemoveFromListInvalidPositionTooSmall_LogsError
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromListInvalidPositionTooSmall_LogsError()
+  nameWithType: NestedObjectTests.RemoveFromListInvalidPositionTooSmall_LogsError()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromListInvalidPositionTooSmall_LogsError()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromListInvalidPositionTooSmall_LogsError
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 809
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromListInvalidPositionTooSmall_LogsError()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromListInvalidPositionTooSmall_LogsError
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfList
+  id: RemoveFromEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromEndOfList()
+  nameWithType: NestedObjectTests.RemoveFromEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 834
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfListWithSerialization
+  id: RemoveFromEndOfListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromEndOfListWithSerialization()
+  nameWithType: NestedObjectTests.RemoveFromEndOfListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.RemoveFromEndOfListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: RemoveFromEndOfListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 857
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RemoveFromEndOfListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RemoveFromEndOfListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Replace
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Replace
+  id: Replace
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: Replace()
+  nameWithType: NestedObjectTests.Replace()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Replace()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: Replace
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 883
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Replace()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Replace
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceWithSerialization
+  id: ReplaceWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 909
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.SerializationTests
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.SerializationTests
+  id: SerializationTests
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: SerializationTests()
+  nameWithType: NestedObjectTests.SerializationTests()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.SerializationTests()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: SerializationTests
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 938
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SerializationTests()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SerializationTests
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInList
+  id: ReplaceInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInList()
+  nameWithType: NestedObjectTests.ReplaceInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 977
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListWithSerialization
+  id: ReplaceInListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceInListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1000
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullList
+  id: ReplaceFullList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullList()
+  nameWithType: NestedObjectTests.ReplaceFullList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1026
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithSerialiation
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithSerialiation
+  id: ReplaceFullListWithSerialiation
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListWithSerialiation()
+  nameWithType: NestedObjectTests.ReplaceFullListWithSerialiation()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithSerialiation()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListWithSerialiation
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1049
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListWithSerialiation()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListWithSerialiation
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerable
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerable
+  id: ReplaceFullListFromEnumerable
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListFromEnumerable()
+  nameWithType: NestedObjectTests.ReplaceFullListFromEnumerable()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerable()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListFromEnumerable
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1075
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListFromEnumerable()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListFromEnumerable
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerableWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerableWithSerialization
+  id: ReplaceFullListFromEnumerableWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListFromEnumerableWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceFullListFromEnumerableWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListFromEnumerableWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListFromEnumerableWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1098
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListFromEnumerableWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListFromEnumerableWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollection
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollection
+  id: ReplaceFullListWithCollection
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListWithCollection()
+  nameWithType: NestedObjectTests.ReplaceFullListWithCollection()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollection()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListWithCollection
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1124
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListWithCollection()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListWithCollection
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollectionWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollectionWithSerialization
+  id: ReplaceFullListWithCollectionWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFullListWithCollectionWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceFullListWithCollectionWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceFullListWithCollectionWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceFullListWithCollectionWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1147
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceFullListWithCollectionWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceFullListWithCollectionWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfList
+  id: ReplaceAtEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceAtEndOfList()
+  nameWithType: NestedObjectTests.ReplaceAtEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceAtEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1173
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceAtEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceAtEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfListWithSerialization
+  id: ReplaceAtEndOfListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceAtEndOfListWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceAtEndOfListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceAtEndOfListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceAtEndOfListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1196
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceAtEndOfListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceAtEndOfListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLarge
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLarge
+  id: ReplaceInListInvalidInvalidPositionTooLarge
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInvalidInvalidPositionTooLarge()
+  nameWithType: NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLarge()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLarge()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInvalidInvalidPositionTooLarge
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1222
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInvalidInvalidPositionTooLarge()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInvalidInvalidPositionTooLarge
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLargeWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLargeWithSerialization
+  id: ReplaceInListInvalidInvalidPositionTooLargeWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInvalidInvalidPositionTooLargeWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLargeWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidInvalidPositionTooLargeWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInvalidInvalidPositionTooLargeWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1246
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInvalidInvalidPositionTooLargeWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInvalidInvalidPositionTooLargeWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalid_PositionTooLarge_LogsError
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalid_PositionTooLarge_LogsError
+  id: ReplaceInListInvalid_PositionTooLarge_LogsError
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInvalid_PositionTooLarge_LogsError()
+  nameWithType: NestedObjectTests.ReplaceInListInvalid_PositionTooLarge_LogsError()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalid_PositionTooLarge_LogsError()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInvalid_PositionTooLarge_LogsError
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1276
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInvalid_PositionTooLarge_LogsError()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInvalid_PositionTooLarge_LogsError
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall
+  id: ReplaceInListInvalidPositionTooSmall
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInvalidPositionTooSmall()
+  nameWithType: NestedObjectTests.ReplaceInListInvalidPositionTooSmall()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInvalidPositionTooSmall
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1305
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInvalidPositionTooSmall()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInvalidPositionTooSmall
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmallWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmallWithSerialization
+  id: ReplaceInListInvalidPositionTooSmallWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInvalidPositionTooSmallWithSerialization()
+  nameWithType: NestedObjectTests.ReplaceInListInvalidPositionTooSmallWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmallWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInvalidPositionTooSmallWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1327
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInvalidPositionTooSmallWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInvalidPositionTooSmallWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall_LogsError
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall_LogsError
+  id: ReplaceInListInvalidPositionTooSmall_LogsError
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceInListInvalidPositionTooSmall_LogsError()
+  nameWithType: NestedObjectTests.ReplaceInListInvalidPositionTooSmall_LogsError()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.ReplaceInListInvalidPositionTooSmall_LogsError()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: ReplaceInListInvalidPositionTooSmall_LogsError
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1353
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ReplaceInListInvalidPositionTooSmall_LogsError()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ReplaceInListInvalidPositionTooSmall_LogsError
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Copy
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Copy
+  id: Copy
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: NestedObjectTests.Copy()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Copy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: Copy
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1381
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Copy()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Copy
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyWithSerialization
+  id: CopyWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyWithSerialization()
+  nameWithType: NestedObjectTests.CopyWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1405
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInList
+  id: CopyInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyInList()
+  nameWithType: NestedObjectTests.CopyInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1432
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInListWithSerialization
+  id: CopyInListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyInListWithSerialization()
+  nameWithType: NestedObjectTests.CopyInListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyInListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyInListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1455
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyInListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyInListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfList
+  id: CopyFromListToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromListToEndOfList()
+  nameWithType: NestedObjectTests.CopyFromListToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromListToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1481
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromListToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromListToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfListWithSerialization
+  id: CopyFromListToEndOfListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromListToEndOfListWithSerialization()
+  nameWithType: NestedObjectTests.CopyFromListToEndOfListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToEndOfListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromListToEndOfListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1504
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromListToEndOfListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromListToEndOfListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonList
+  id: CopyFromListToNonList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromListToNonList()
+  nameWithType: NestedObjectTests.CopyFromListToNonList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromListToNonList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1530
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromListToNonList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromListToNonList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonListWithSerialization
+  id: CopyFromListToNonListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromListToNonListWithSerialization()
+  nameWithType: NestedObjectTests.CopyFromListToNonListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromListToNonListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromListToNonListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1553
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromListToNonListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromListToNonListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToList
+  id: CopyFromNonListToList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromNonListToList()
+  nameWithType: NestedObjectTests.CopyFromNonListToList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromNonListToList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1579
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromNonListToList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromNonListToList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToListWithSerialization
+  id: CopyFromNonListToListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyFromNonListToListWithSerialization()
+  nameWithType: NestedObjectTests.CopyFromNonListToListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyFromNonListToListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyFromNonListToListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1603
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyFromNonListToListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyFromNonListToListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfList
+  id: CopyToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyToEndOfList()
+  nameWithType: NestedObjectTests.CopyToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1629
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfListWithSerialization
+  id: CopyToEndOfListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: CopyToEndOfListWithSerialization()
+  nameWithType: NestedObjectTests.CopyToEndOfListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.CopyToEndOfListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: CopyToEndOfListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1653
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CopyToEndOfListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CopyToEndOfListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Move
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Move
+  id: Move
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: Move()
+  nameWithType: NestedObjectTests.Move()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.Move()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: Move
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1680
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Move()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Move
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveWithSerialization
+  id: MoveWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveWithSerialization()
+  nameWithType: NestedObjectTests.MoveWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1705
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInList
+  id: MoveInList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveInList()
+  nameWithType: NestedObjectTests.MoveInList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveInList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1733
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveInList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveInList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInListWithSerialization
+  id: MoveInListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveInListWithSerialization()
+  nameWithType: NestedObjectTests.MoveInListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveInListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveInListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1756
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveInListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveInListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfList
+  id: MoveFromListToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFromListToEndOfList()
+  nameWithType: NestedObjectTests.MoveFromListToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFromListToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1782
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFromListToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFromListToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfListWithSerialization
+  id: MoveFromListToEndOfListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFromListToEndOfListWithSerialization()
+  nameWithType: NestedObjectTests.MoveFromListToEndOfListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromListToEndOfListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFromListToEndOfListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1805
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFromListToEndOfListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFromListToEndOfListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonList
+  id: MoveFomListToNonList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFomListToNonList()
+  nameWithType: NestedObjectTests.MoveFomListToNonList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFomListToNonList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1831
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFomListToNonList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFomListToNonList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListWithSerialization
+  id: MoveFomListToNonListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFomListToNonListWithSerialization()
+  nameWithType: NestedObjectTests.MoveFomListToNonListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFomListToNonListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1855
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFomListToNonListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFomListToNonListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchy
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchy
+  id: MoveFomListToNonListBetweenHierarchy
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFomListToNonListBetweenHierarchy()
+  nameWithType: NestedObjectTests.MoveFomListToNonListBetweenHierarchy()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFomListToNonListBetweenHierarchy
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1882
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFomListToNonListBetweenHierarchy()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFomListToNonListBetweenHierarchy
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchyWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchyWithSerialization
+  id: MoveFomListToNonListBetweenHierarchyWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFomListToNonListBetweenHierarchyWithSerialization()
+  nameWithType: NestedObjectTests.MoveFomListToNonListBetweenHierarchyWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFomListToNonListBetweenHierarchyWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFomListToNonListBetweenHierarchyWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1906
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFomListToNonListBetweenHierarchyWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFomListToNonListBetweenHierarchyWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToList
+  id: MoveFromNonListToList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFromNonListToList()
+  nameWithType: NestedObjectTests.MoveFromNonListToList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFromNonListToList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1933
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFromNonListToList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFromNonListToList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToListWithSerialization
+  id: MoveFromNonListToListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveFromNonListToListWithSerialization()
+  nameWithType: NestedObjectTests.MoveFromNonListToListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveFromNonListToListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveFromNonListToListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1958
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveFromNonListToListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveFromNonListToListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfList
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfList
+  id: MoveToEndOfList
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveToEndOfList()
+  nameWithType: NestedObjectTests.MoveToEndOfList()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfList()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveToEndOfList
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 1986
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveToEndOfList()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveToEndOfList
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfListWithSerialization
+  commentId: M:Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfListWithSerialization
+  id: MoveToEndOfListWithSerialization
+  parent: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+  langs:
+  - csharp
+  - vb
+  name: MoveToEndOfListWithSerialization()
+  nameWithType: NestedObjectTests.MoveToEndOfListWithSerialization()
+  fullName: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests.MoveToEndOfListWithSerialization()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+      branch: master
+      repo: https://github.com/aspnet/JsonPatch.git
+    id: MoveToEndOfListWithSerialization
+    path: test/Microsoft.AspNetCore.JsonPatch.Test/NestedObjectTests.cs
+    startLine: 2011
+  assemblies:
+  - Microsoft.AspNetCore.JsonPatch.Test
+  namespace: Microsoft.AspNetCore.JsonPatch.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MoveToEndOfListWithSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MoveToEndOfListWithSerialization
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.JsonPatch.Test
+  commentId: N:Microsoft.AspNetCore.JsonPatch.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.JsonPatch.Test
+  nameWithType: Microsoft.AspNetCore.JsonPatch.Test
+  fullName: Microsoft.AspNetCore.JsonPatch.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

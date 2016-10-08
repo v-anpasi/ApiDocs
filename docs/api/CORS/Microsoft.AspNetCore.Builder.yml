@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  id: Microsoft.AspNetCore.Builder
+  children:
+  - Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Cors
+references:
+- uid: Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions
+  isExternal: false
+  name: CorsMiddlewareExtensions
+  nameWithType: CorsMiddlewareExtensions
+  fullName: Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions

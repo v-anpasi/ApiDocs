@@ -1,0 +1,103 @@
+### YamlMime:TableOfContent
+- uid: MemoryCacheSample
+  name: MemoryCacheSample
+  items:
+  - uid: MemoryCacheSample.Program
+    name: Program
+- uid: Microsoft.Extensions.Caching.Distributed
+  name: Microsoft.Extensions.Caching.Distributed
+  items:
+  - uid: Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryExtensions
+    name: DistributedCacheEntryExtensions
+  - uid: Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions
+    name: DistributedCacheEntryOptions
+  - uid: Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions
+    name: DistributedCacheExtensions
+  - uid: Microsoft.Extensions.Caching.Distributed.IDistributedCache
+    name: IDistributedCache
+  - uid: Microsoft.Extensions.Caching.Distributed.MemoryDistributedCache
+    name: MemoryDistributedCache
+- uid: Microsoft.Extensions.Caching.Memory
+  name: Microsoft.Extensions.Caching.Memory
+  items:
+  - uid: Microsoft.Extensions.Caching.Memory.CacheEntryExtensions
+    name: CacheEntryExtensions
+  - uid: Microsoft.Extensions.Caching.Memory.CacheExtensions
+    name: CacheExtensions
+  - uid: Microsoft.Extensions.Caching.Memory.CacheItemPriority
+    name: CacheItemPriority
+  - uid: Microsoft.Extensions.Caching.Memory.EvictionReason
+    name: EvictionReason
+  - uid: Microsoft.Extensions.Caching.Memory.ICacheEntry
+    name: ICacheEntry
+  - uid: Microsoft.Extensions.Caching.Memory.IMemoryCache
+    name: IMemoryCache
+  - uid: Microsoft.Extensions.Caching.Memory.MemoryCache
+    name: MemoryCache
+  - uid: Microsoft.Extensions.Caching.Memory.MemoryCacheEntryExtensions
+    name: MemoryCacheEntryExtensions
+  - uid: Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions
+    name: MemoryCacheEntryOptions
+  - uid: Microsoft.Extensions.Caching.Memory.MemoryCacheOptions
+    name: MemoryCacheOptions
+  - uid: Microsoft.Extensions.Caching.Memory.PostEvictionCallbackRegistration
+    name: PostEvictionCallbackRegistration
+  - uid: Microsoft.Extensions.Caching.Memory.PostEvictionDelegate
+    name: PostEvictionDelegate
+- uid: Microsoft.Extensions.Caching.Redis
+  name: Microsoft.Extensions.Caching.Redis
+  items:
+  - uid: Microsoft.Extensions.Caching.Redis.RedisCache
+    name: RedisCache
+  - uid: Microsoft.Extensions.Caching.Redis.RedisCacheOptions
+    name: RedisCacheOptions
+- uid: Microsoft.Extensions.Caching.SqlConfig.Tools
+  name: Microsoft.Extensions.Caching.SqlConfig.Tools
+  items:
+  - uid: Microsoft.Extensions.Caching.SqlConfig.Tools.Program
+    name: Program
+- uid: Microsoft.Extensions.Caching.SqlServer
+  name: Microsoft.Extensions.Caching.SqlServer
+  items:
+  - uid: Microsoft.Extensions.Caching.SqlServer.SqlServerCache
+    name: SqlServerCache
+  - uid: Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions
+    name: SqlServerCacheOptions
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions
+    name: MemoryCacheServiceCollectionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.RedisCacheServiceCollectionExtensions
+    name: RedisCacheServiceCollectionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.SqlServerCachingServicesExtensions
+    name: SqlServerCachingServicesExtensions
+- uid: Microsoft.Extensions.Internal
+  name: Microsoft.Extensions.Internal
+  items:
+  - uid: Microsoft.Extensions.Internal.GcNotification
+    name: GcNotification
+  - uid: Microsoft.Extensions.Internal.ISystemClock
+    name: ISystemClock
+  - uid: Microsoft.Extensions.Internal.SystemClock
+    name: SystemClock
+- uid: ProfilingSample
+  name: ProfilingSample
+  items:
+  - uid: ProfilingSample.Program
+    name: Program
+- uid: RedisCacheSample
+  name: RedisCacheSample
+  items:
+  - uid: RedisCacheSample.Program
+    name: Program
+- uid: SqlServerCacheConcurrencySample
+  name: SqlServerCacheConcurrencySample
+  items:
+  - uid: SqlServerCacheConcurrencySample.Program
+    name: Program
+- uid: SqlServerCacheSample
+  name: SqlServerCacheSample
+  items:
+  - uid: SqlServerCacheSample.Program
+    name: Program

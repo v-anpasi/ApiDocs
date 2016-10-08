@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Cryptography.Cng
+  commentId: N:Microsoft.AspNetCore.Cryptography.Cng
+  id: Microsoft.AspNetCore.Cryptography.Cng
+  children:
+  - Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
+  - Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_KEY_LENGTHS_STRUCT_Tests
+  - Microsoft.AspNetCore.Cryptography.Cng.BCryptUtilTests
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Cryptography.Cng
+  nameWithType: Microsoft.AspNetCore.Cryptography.Cng
+  fullName: Microsoft.AspNetCore.Cryptography.Cng
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+references:
+- uid: Microsoft.AspNetCore.Cryptography.Cng.BCryptUtilTests
+  commentId: T:Microsoft.AspNetCore.Cryptography.Cng.BCryptUtilTests
+  isExternal: false
+  name: BCryptUtilTests
+  nameWithType: BCryptUtilTests
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.BCryptUtilTests
+- uid: Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
+  commentId: T:Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
+  isExternal: false
+  name: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
+  nameWithType: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
+- uid: Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_KEY_LENGTHS_STRUCT_Tests
+  commentId: T:Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_KEY_LENGTHS_STRUCT_Tests
+  isExternal: false
+  name: BCRYPT_KEY_LENGTHS_STRUCT_Tests
+  nameWithType: BCRYPT_KEY_LENGTHS_STRUCT_Tests
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_KEY_LENGTHS_STRUCT_Tests
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  commentId: T:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  isExternal: false
+  name: CachedAlgorithmHandlesTests
+  nameWithType: CachedAlgorithmHandlesTests
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests

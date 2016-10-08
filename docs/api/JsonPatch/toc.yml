@@ -1,0 +1,98 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.JsonPatch
+  name: Microsoft.AspNetCore.JsonPatch
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.IJsonPatchDocument
+    name: IJsonPatchDocument
+  - uid: Microsoft.AspNetCore.JsonPatch.JsonPatchDocument
+    name: JsonPatchDocument
+  - uid: Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1
+    name: JsonPatchDocument<TModel>
+    name.vb: JsonPatchDocument(Of TModel)
+  - uid: Microsoft.AspNetCore.JsonPatch.JsonPatchError
+    name: JsonPatchError
+  - uid: Microsoft.AspNetCore.JsonPatch.JsonPatchProperty
+    name: JsonPatchProperty
+- uid: Microsoft.AspNetCore.JsonPatch.Adapters
+  name: Microsoft.AspNetCore.JsonPatch.Adapters
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Adapters.IObjectAdapter
+    name: IObjectAdapter
+  - uid: Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter
+    name: ObjectAdapter
+- uid: Microsoft.AspNetCore.JsonPatch.Converters
+  name: Microsoft.AspNetCore.JsonPatch.Converters
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Converters.JsonPatchDocumentConverter
+    name: JsonPatchDocumentConverter
+  - uid: Microsoft.AspNetCore.JsonPatch.Converters.TypedJsonPatchDocumentConverter
+    name: TypedJsonPatchDocumentConverter
+- uid: Microsoft.AspNetCore.JsonPatch.Exceptions
+  name: Microsoft.AspNetCore.JsonPatch.Exceptions
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException
+    name: JsonPatchException
+- uid: Microsoft.AspNetCore.JsonPatch.Helpers
+  name: Microsoft.AspNetCore.JsonPatch.Helpers
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Helpers.GetValueResult
+    name: GetValueResult
+- uid: Microsoft.AspNetCore.JsonPatch.Operations
+  name: Microsoft.AspNetCore.JsonPatch.Operations
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Operations.Operation
+    name: Operation
+  - uid: Microsoft.AspNetCore.JsonPatch.Operations.Operation`1
+    name: Operation<TModel>
+    name.vb: Operation(Of TModel)
+  - uid: Microsoft.AspNetCore.JsonPatch.Operations.OperationBase
+    name: OperationBase
+  - uid: Microsoft.AspNetCore.JsonPatch.Operations.OperationType
+    name: OperationType
+- uid: Microsoft.AspNetCore.JsonPatch.Test
+  name: Microsoft.AspNetCore.JsonPatch.Test
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.NestedDTO
+    name: NestedDTO
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.NestedObjectTests
+    name: NestedObjectTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.ObjectAdapterTests
+    name: ObjectAdapterTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.SimpleDTO
+    name: SimpleDTO
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.SimpleDTOWithNestedDTO
+    name: SimpleDTOWithNestedDTO
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.TestErrorLogger`1
+    name: TestErrorLogger<T>
+    name.vb: TestErrorLogger(Of T)
+- uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  name: Microsoft.AspNetCore.JsonPatch.Test.Dynamic
+  items:
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddOperationTests
+    name: AddOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.AddTypedOperationTests
+    name: AddTypedOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyOperationTests
+    name: CopyOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.CopyTypedOperationTests
+    name: CopyTypedOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.MoveOperationTests
+    name: MoveOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.MoveTypedOperationTests
+    name: MoveTypedOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.NestedDTO
+    name: NestedDTO
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.PatchDocumentTests
+    name: PatchDocumentTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveOperationTests
+    name: RemoveOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.RemoveTypedOperationTests
+    name: RemoveTypedOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceOperationTests
+    name: ReplaceOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.ReplaceTypedOperationTests
+    name: ReplaceTypedOperationTests
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.SimpleDTO
+    name: SimpleDTO
+  - uid: Microsoft.AspNetCore.JsonPatch.Test.Dynamic.SimpleDTOWithNestedDTO
+    name: SimpleDTOWithNestedDTO

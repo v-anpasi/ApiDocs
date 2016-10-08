@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests
+  commentId: N:Microsoft.AspNetCore.Localization.FunctionalTests
+  id: Microsoft.AspNetCore.Localization.FunctionalTests
+  children:
+  - Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationSampleTest
+  - Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationTest
+  - Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Localization.FunctionalTests
+  nameWithType: Microsoft.AspNetCore.Localization.FunctionalTests
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Localization.FunctionalTests
+references:
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationSampleTest
+  commentId: T:Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationSampleTest
+  isExternal: false
+  name: LocalizationSampleTest
+  nameWithType: LocalizationSampleTest
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationSampleTest
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationTest
+  commentId: T:Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationTest
+  isExternal: false
+  name: LocalizationTest
+  nameWithType: LocalizationTest
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.LocalizationTest
+- uid: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  commentId: T:Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner
+  isExternal: false
+  name: TestRunner
+  nameWithType: TestRunner
+  fullName: Microsoft.AspNetCore.Localization.FunctionalTests.TestRunner

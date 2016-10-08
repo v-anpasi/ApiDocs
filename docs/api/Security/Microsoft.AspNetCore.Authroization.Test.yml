@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authroization.Test
+  commentId: N:Microsoft.AspNetCore.Authroization.Test
+  id: Microsoft.AspNetCore.Authroization.Test
+  children:
+  - Microsoft.AspNetCore.Authroization.Test.AuthorizationPolicyFacts
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Authroization.Test
+  nameWithType: Microsoft.AspNetCore.Authroization.Test
+  fullName: Microsoft.AspNetCore.Authroization.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Authorization.Test
+references:
+- uid: Microsoft.AspNetCore.Authroization.Test.AuthorizationPolicyFacts
+  commentId: T:Microsoft.AspNetCore.Authroization.Test.AuthorizationPolicyFacts
+  isExternal: false
+  name: AuthorizationPolicyFacts
+  nameWithType: AuthorizationPolicyFacts
+  fullName: Microsoft.AspNetCore.Authroization.Test.AuthorizationPolicyFacts

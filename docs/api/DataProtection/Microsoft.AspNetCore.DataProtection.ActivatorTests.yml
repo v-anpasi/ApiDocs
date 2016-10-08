@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.ActivatorTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.ActivatorTests
+  id: ActivatorTests
+  parent: Microsoft.AspNetCore.DataProtection
+  children:
+  - Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast
+  - Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor
+  - Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithServiceProvider_PrefersParameterfulCtor
+  - Microsoft.AspNetCore.DataProtection.ActivatorTests.GetActivator_ServiceProviderHasActivator_ReturnsSameInstance
+  langs:
+  - csharp
+  - vb
+  name: ActivatorTests
+  nameWithType: ActivatorTests
+  fullName: Microsoft.AspNetCore.DataProtection.ActivatorTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: ActivatorTests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: public class ActivatorTests
+    content.vb: Public Class ActivatorTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithServiceProvider_PrefersParameterfulCtor
+  commentId: M:Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithServiceProvider_PrefersParameterfulCtor
+  id: CreateInstance_WithServiceProvider_PrefersParameterfulCtor
+  parent: Microsoft.AspNetCore.DataProtection.ActivatorTests
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance_WithServiceProvider_PrefersParameterfulCtor()
+  nameWithType: ActivatorTests.CreateInstance_WithServiceProvider_PrefersParameterfulCtor()
+  fullName: Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithServiceProvider_PrefersParameterfulCtor()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateInstance_WithServiceProvider_PrefersParameterfulCtor
+    path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateInstance_WithServiceProvider_PrefersParameterfulCtor()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateInstance_WithServiceProvider_PrefersParameterfulCtor
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor
+  commentId: M:Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor
+  id: CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor
+  parent: Microsoft.AspNetCore.DataProtection.ActivatorTests
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor()
+  nameWithType: ActivatorTests.CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor()
+  fullName: Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor
+    path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+    startLine: 36
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateInstance_WithoutServiceProvider_PrefersParameterlessCtor
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast
+  commentId: M:Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast
+  id: CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast
+  parent: Microsoft.AspNetCore.DataProtection.ActivatorTests
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast()
+  nameWithType: ActivatorTests.CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast()
+  fullName: Microsoft.AspNetCore.DataProtection.ActivatorTests.CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast
+    path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateInstance_TypeDoesNotImplementInterface_ThrowsInvalidCast
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.ActivatorTests.GetActivator_ServiceProviderHasActivator_ReturnsSameInstance
+  commentId: M:Microsoft.AspNetCore.DataProtection.ActivatorTests.GetActivator_ServiceProviderHasActivator_ReturnsSameInstance
+  id: GetActivator_ServiceProviderHasActivator_ReturnsSameInstance
+  parent: Microsoft.AspNetCore.DataProtection.ActivatorTests
+  langs:
+  - csharp
+  - vb
+  name: GetActivator_ServiceProviderHasActivator_ReturnsSameInstance()
+  nameWithType: ActivatorTests.GetActivator_ServiceProviderHasActivator_ReturnsSameInstance()
+  fullName: Microsoft.AspNetCore.DataProtection.ActivatorTests.GetActivator_ServiceProviderHasActivator_ReturnsSameInstance()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetActivator_ServiceProviderHasActivator_ReturnsSameInstance
+    path: test/Microsoft.AspNetCore.DataProtection.Test/ActivatorTests.cs
+    startLine: 69
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetActivator_ServiceProviderHasActivator_ReturnsSameInstance()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetActivator_ServiceProviderHasActivator_ReturnsSameInstance
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection
+  commentId: N:Microsoft.AspNetCore.DataProtection
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection
+  nameWithType: Microsoft.AspNetCore.DataProtection
+  fullName: Microsoft.AspNetCore.DataProtection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

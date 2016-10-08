@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  id: MicrosoftAccountMiddlewareTests
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  children:
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.AuthenticatedEventCanGetRefreshToken
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerRedirection
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ForbidThrows
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignInThrows
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignOutThrows
+  langs:
+  - csharp
+  - vb
+  name: MicrosoftAccountMiddlewareTests
+  nameWithType: MicrosoftAccountMiddlewareTests
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: MicrosoftAccountMiddlewareTests
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 23
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: public class MicrosoftAccountMiddlewareTests
+    content.vb: Public Class MicrosoftAccountMiddlewareTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent
+  id: ChallengeWillTriggerApplyRedirectEvent
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillTriggerApplyRedirectEvent()
+  nameWithType: MicrosoftAccountMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillTriggerApplyRedirectEvent
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillTriggerApplyRedirectEvent()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillTriggerApplyRedirectEvent As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignInThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignInThrows
+  id: SignInThrows
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignInThrows()
+  nameWithType: MicrosoftAccountMiddlewareTests.SignInThrows()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignInThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignInThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 47
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignInThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignInThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignOutThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignOutThrows
+  id: SignOutThrows
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutThrows()
+  nameWithType: MicrosoftAccountMiddlewareTests.SignOutThrows()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.SignOutThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 59
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ForbidThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ForbidThrows
+  id: ForbidThrows
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ForbidThrows()
+  nameWithType: MicrosoftAccountMiddlewareTests.ForbidThrows()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ForbidThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ForbidThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 71
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ForbidThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function ForbidThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerRedirection
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerRedirection
+  id: ChallengeWillTriggerRedirection
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillTriggerRedirection()
+  nameWithType: MicrosoftAccountMiddlewareTests.ChallengeWillTriggerRedirection()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.ChallengeWillTriggerRedirection()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillTriggerRedirection
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 83
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillTriggerRedirection()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillTriggerRedirection As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.AuthenticatedEventCanGetRefreshToken
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.AuthenticatedEventCanGetRefreshToken
+  id: AuthenticatedEventCanGetRefreshToken
+  parent: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: AuthenticatedEventCanGetRefreshToken()
+  nameWithType: MicrosoftAccountMiddlewareTests.AuthenticatedEventCanGetRefreshToken()
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests.AuthenticatedEventCanGetRefreshToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: AuthenticatedEventCanGetRefreshToken
+    path: test/Microsoft.AspNetCore.Authentication.Test/MicrosoftAccount/MicrosoftAccountMiddlewareTests.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task AuthenticatedEventCanGetRefreshToken()
+    content.vb: >-
+      <Fact>
+
+      Public Function AuthenticatedEventCanGetRefreshToken As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  commentId: N:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  isExternal: false
+  name: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  nameWithType: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: RedisCacheSample
+  commentId: N:RedisCacheSample
+  id: RedisCacheSample
+  children:
+  - RedisCacheSample.Program
+  langs:
+  - csharp
+  - vb
+  name: RedisCacheSample
+  nameWithType: RedisCacheSample
+  fullName: RedisCacheSample
+  type: Namespace
+  assemblies:
+  - RedisCacheSample
+references:
+- uid: RedisCacheSample.Program
+  commentId: T:RedisCacheSample.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: RedisCacheSample.Program

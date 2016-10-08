@@ -1,0 +1,699 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  commentId: T:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  id: SP800_108Tests
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108
+  children:
+  - Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Managed(System.Int32,System.String)
+  - Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win7(System.Int32,System.String)
+  - Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win8(System.Int32,System.String)
+  - Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Managed(System.Int32,System.String)
+  - Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win7(System.Int32,System.String)
+  - Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win8(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SP800_108Tests
+  nameWithType: SP800_108Tests
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SP800_108Tests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: public class SP800_108Tests
+    content.vb: Public Class SP800_108Tests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Managed(System.Int32,System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Managed(System.Int32,System.String)
+  id: DeriveKeyWithContextHeader_Normal_Managed(System.Int32,System.String)
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  langs:
+  - csharp
+  - vb
+  name: DeriveKeyWithContextHeader_Normal_Managed(Int32, String)
+  nameWithType: SP800_108Tests.DeriveKeyWithContextHeader_Normal_Managed(Int32, String)
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Managed(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DeriveKeyWithContextHeader_Normal_Managed
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{63, "V47WmHzPSkdC2vkLAomIjCzZlDOAetll3yJLcSvon7LJFjJpEN+KnSNp+gIpeydKMsENkflbrIZ/3s6GkEaH"})]
+
+      [InlineData(new object[]{64, "mVaFM4deXLl610CmnCteNzxgbM/VkmKznAlPauHcDBn0le06uOjAKLHx0LfoU2/Ttq9nd78Y6Nk6wArmdwJgJg=="})]
+
+      [InlineData(new object[]{65, "GaHPeqdUxriFpjRtkYQYWr5/iqneD/+hPhVJQt4rXblxSpB1UUqGqL00DMU/FJkX0iMCfqUjQXtXyfks+p++Ev4="})]
+
+      public void DeriveKeyWithContextHeader_Normal_Managed(int numDerivedBytes, string expectedDerivedSubkeyAsBase64)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {63, "V47WmHzPSkdC2vkLAomIjCzZlDOAetll3yJLcSvon7LJFjJpEN+KnSNp+gIpeydKMsENkflbrIZ/3s6GkEaH"})>
+
+      <InlineData(New Object() {64, "mVaFM4deXLl610CmnCteNzxgbM/VkmKznAlPauHcDBn0le06uOjAKLHx0LfoU2/Ttq9nd78Y6Nk6wArmdwJgJg=="})>
+
+      <InlineData(New Object() {65, "GaHPeqdUxriFpjRtkYQYWr5/iqneD/+hPhVJQt4rXblxSpB1UUqGqL00DMU/FJkX0iMCfqUjQXtXyfks+p++Ev4="})>
+
+      Public Sub DeriveKeyWithContextHeader_Normal_Managed(numDerivedBytes As Integer, expectedDerivedSubkeyAsBase64 As String)
+    parameters:
+    - id: numDerivedBytes
+      type: System.Int32
+    - id: expectedDerivedSubkeyAsBase64
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win7(System.Int32,System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win7(System.Int32,System.String)
+  id: DeriveKeyWithContextHeader_Normal_Win7(System.Int32,System.String)
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  langs:
+  - csharp
+  - vb
+  name: DeriveKeyWithContextHeader_Normal_Win7(Int32, String)
+  nameWithType: SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win7(Int32, String)
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win7(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DeriveKeyWithContextHeader_Normal_Win7
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 36
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: >-
+      [ConditionalTheory]
+
+      [InlineData(new object[]{63, "V47WmHzPSkdC2vkLAomIjCzZlDOAetll3yJLcSvon7LJFjJpEN+KnSNp+gIpeydKMsENkflbrIZ/3s6GkEaH"})]
+
+      [InlineData(new object[]{64, "mVaFM4deXLl610CmnCteNzxgbM/VkmKznAlPauHcDBn0le06uOjAKLHx0LfoU2/Ttq9nd78Y6Nk6wArmdwJgJg=="})]
+
+      [InlineData(new object[]{65, "GaHPeqdUxriFpjRtkYQYWr5/iqneD/+hPhVJQt4rXblxSpB1UUqGqL00DMU/FJkX0iMCfqUjQXtXyfks+p++Ev4="})]
+
+      public void DeriveKeyWithContextHeader_Normal_Win7(int numDerivedBytes, string expectedDerivedSubkeyAsBase64)
+    content.vb: >-
+      <ConditionalTheory>
+
+      <InlineData(New Object() {63, "V47WmHzPSkdC2vkLAomIjCzZlDOAetll3yJLcSvon7LJFjJpEN+KnSNp+gIpeydKMsENkflbrIZ/3s6GkEaH"})>
+
+      <InlineData(New Object() {64, "mVaFM4deXLl610CmnCteNzxgbM/VkmKznAlPauHcDBn0le06uOjAKLHx0LfoU2/Ttq9nd78Y6Nk6wArmdwJgJg=="})>
+
+      <InlineData(New Object() {65, "GaHPeqdUxriFpjRtkYQYWr5/iqneD/+hPhVJQt4rXblxSpB1UUqGqL00DMU/FJkX0iMCfqUjQXtXyfks+p++Ev4="})>
+
+      Public Sub DeriveKeyWithContextHeader_Normal_Win7(numDerivedBytes As Integer, expectedDerivedSubkeyAsBase64 As String)
+    parameters:
+    - id: numDerivedBytes
+      type: System.Int32
+    - id: expectedDerivedSubkeyAsBase64
+      type: System.String
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win8(System.Int32,System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win8(System.Int32,System.String)
+  id: DeriveKeyWithContextHeader_Normal_Win8(System.Int32,System.String)
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  langs:
+  - csharp
+  - vb
+  name: DeriveKeyWithContextHeader_Normal_Win8(Int32, String)
+  nameWithType: SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win8(Int32, String)
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_Normal_Win8(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DeriveKeyWithContextHeader_Normal_Win8
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 55
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: >-
+      [ConditionalTheory]
+
+      [InlineData(new object[]{63, "V47WmHzPSkdC2vkLAomIjCzZlDOAetll3yJLcSvon7LJFjJpEN+KnSNp+gIpeydKMsENkflbrIZ/3s6GkEaH"})]
+
+      [InlineData(new object[]{64, "mVaFM4deXLl610CmnCteNzxgbM/VkmKznAlPauHcDBn0le06uOjAKLHx0LfoU2/Ttq9nd78Y6Nk6wArmdwJgJg=="})]
+
+      [InlineData(new object[]{65, "GaHPeqdUxriFpjRtkYQYWr5/iqneD/+hPhVJQt4rXblxSpB1UUqGqL00DMU/FJkX0iMCfqUjQXtXyfks+p++Ev4="})]
+
+      public void DeriveKeyWithContextHeader_Normal_Win8(int numDerivedBytes, string expectedDerivedSubkeyAsBase64)
+    content.vb: >-
+      <ConditionalTheory>
+
+      <InlineData(New Object() {63, "V47WmHzPSkdC2vkLAomIjCzZlDOAetll3yJLcSvon7LJFjJpEN+KnSNp+gIpeydKMsENkflbrIZ/3s6GkEaH"})>
+
+      <InlineData(New Object() {64, "mVaFM4deXLl610CmnCteNzxgbM/VkmKznAlPauHcDBn0le06uOjAKLHx0LfoU2/Ttq9nd78Y6Nk6wArmdwJgJg=="})>
+
+      <InlineData(New Object() {65, "GaHPeqdUxriFpjRtkYQYWr5/iqneD/+hPhVJQt4rXblxSpB1UUqGqL00DMU/FJkX0iMCfqUjQXtXyfks+p++Ev4="})>
+
+      Public Sub DeriveKeyWithContextHeader_Normal_Win8(numDerivedBytes As Integer, expectedDerivedSubkeyAsBase64 As String)
+    parameters:
+    - id: numDerivedBytes
+      type: System.Int32
+    - id: expectedDerivedSubkeyAsBase64
+      type: System.String
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Managed(System.Int32,System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Managed(System.Int32,System.String)
+  id: DeriveKeyWithContextHeader_LongKey_Managed(System.Int32,System.String)
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  langs:
+  - csharp
+  - vb
+  name: DeriveKeyWithContextHeader_LongKey_Managed(Int32, String)
+  nameWithType: SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Managed(Int32, String)
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Managed(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DeriveKeyWithContextHeader_LongKey_Managed
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 74
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{63, "rt2hM6kkQ8hAXmkHx0TU4o3Q+S7fie6b3S1LAq107k++P9v8uSYA2G+WX3pJf9ZkpYrTKD7WUIoLkgA1R9lk"})]
+
+      [InlineData(new object[]{64, "RKiXmHSrWq5gkiRSyNZWNJrMR0jDyYHJMt9odOayRAE5wLSX2caINpQmfzTH7voJQi3tbn5MmD//dcspghfBiw=="})]
+
+      [InlineData(new object[]{65, "KedXO0zAIZ3AfnPqY1NnXxpC3HDHIxefG4bwD3g6nWYEc5+q7pjbam71Yqj0zgHMNC9Z7BX3wS1/tajFocRWZUk="})]
+
+      public void DeriveKeyWithContextHeader_LongKey_Managed(int numDerivedBytes, string expectedDerivedSubkeyAsBase64)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {63, "rt2hM6kkQ8hAXmkHx0TU4o3Q+S7fie6b3S1LAq107k++P9v8uSYA2G+WX3pJf9ZkpYrTKD7WUIoLkgA1R9lk"})>
+
+      <InlineData(New Object() {64, "RKiXmHSrWq5gkiRSyNZWNJrMR0jDyYHJMt9odOayRAE5wLSX2caINpQmfzTH7voJQi3tbn5MmD//dcspghfBiw=="})>
+
+      <InlineData(New Object() {65, "KedXO0zAIZ3AfnPqY1NnXxpC3HDHIxefG4bwD3g6nWYEc5+q7pjbam71Yqj0zgHMNC9Z7BX3wS1/tajFocRWZUk="})>
+
+      Public Sub DeriveKeyWithContextHeader_LongKey_Managed(numDerivedBytes As Integer, expectedDerivedSubkeyAsBase64 As String)
+    parameters:
+    - id: numDerivedBytes
+      type: System.Int32
+    - id: expectedDerivedSubkeyAsBase64
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win7(System.Int32,System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win7(System.Int32,System.String)
+  id: DeriveKeyWithContextHeader_LongKey_Win7(System.Int32,System.String)
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  langs:
+  - csharp
+  - vb
+  name: DeriveKeyWithContextHeader_LongKey_Win7(Int32, String)
+  nameWithType: SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win7(Int32, String)
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win7(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DeriveKeyWithContextHeader_LongKey_Win7
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 97
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: >-
+      [ConditionalTheory]
+
+      [InlineData(new object[]{63, "rt2hM6kkQ8hAXmkHx0TU4o3Q+S7fie6b3S1LAq107k++P9v8uSYA2G+WX3pJf9ZkpYrTKD7WUIoLkgA1R9lk"})]
+
+      [InlineData(new object[]{64, "RKiXmHSrWq5gkiRSyNZWNJrMR0jDyYHJMt9odOayRAE5wLSX2caINpQmfzTH7voJQi3tbn5MmD//dcspghfBiw=="})]
+
+      [InlineData(new object[]{65, "KedXO0zAIZ3AfnPqY1NnXxpC3HDHIxefG4bwD3g6nWYEc5+q7pjbam71Yqj0zgHMNC9Z7BX3wS1/tajFocRWZUk="})]
+
+      public void DeriveKeyWithContextHeader_LongKey_Win7(int numDerivedBytes, string expectedDerivedSubkeyAsBase64)
+    content.vb: >-
+      <ConditionalTheory>
+
+      <InlineData(New Object() {63, "rt2hM6kkQ8hAXmkHx0TU4o3Q+S7fie6b3S1LAq107k++P9v8uSYA2G+WX3pJf9ZkpYrTKD7WUIoLkgA1R9lk"})>
+
+      <InlineData(New Object() {64, "RKiXmHSrWq5gkiRSyNZWNJrMR0jDyYHJMt9odOayRAE5wLSX2caINpQmfzTH7voJQi3tbn5MmD//dcspghfBiw=="})>
+
+      <InlineData(New Object() {65, "KedXO0zAIZ3AfnPqY1NnXxpC3HDHIxefG4bwD3g6nWYEc5+q7pjbam71Yqj0zgHMNC9Z7BX3wS1/tajFocRWZUk="})>
+
+      Public Sub DeriveKeyWithContextHeader_LongKey_Win7(numDerivedBytes As Integer, expectedDerivedSubkeyAsBase64 As String)
+    parameters:
+    - id: numDerivedBytes
+      type: System.Int32
+    - id: expectedDerivedSubkeyAsBase64
+      type: System.String
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win8(System.Int32,System.String)
+  commentId: M:Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win8(System.Int32,System.String)
+  id: DeriveKeyWithContextHeader_LongKey_Win8(System.Int32,System.String)
+  parent: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
+  langs:
+  - csharp
+  - vb
+  name: DeriveKeyWithContextHeader_LongKey_Win8(Int32, String)
+  nameWithType: SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win8(Int32, String)
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests.DeriveKeyWithContextHeader_LongKey_Win8(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: DeriveKeyWithContextHeader_LongKey_Win8
+    path: test/Microsoft.AspNetCore.DataProtection.Test/SP800_108/SP800_108Tests.cs
+    startLine: 121
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.SP800_108
+  syntax:
+    content: >-
+      [ConditionalTheory]
+
+      [InlineData(new object[]{63, "rt2hM6kkQ8hAXmkHx0TU4o3Q+S7fie6b3S1LAq107k++P9v8uSYA2G+WX3pJf9ZkpYrTKD7WUIoLkgA1R9lk"})]
+
+      [InlineData(new object[]{64, "RKiXmHSrWq5gkiRSyNZWNJrMR0jDyYHJMt9odOayRAE5wLSX2caINpQmfzTH7voJQi3tbn5MmD//dcspghfBiw=="})]
+
+      [InlineData(new object[]{65, "KedXO0zAIZ3AfnPqY1NnXxpC3HDHIxefG4bwD3g6nWYEc5+q7pjbam71Yqj0zgHMNC9Z7BX3wS1/tajFocRWZUk="})]
+
+      public void DeriveKeyWithContextHeader_LongKey_Win8(int numDerivedBytes, string expectedDerivedSubkeyAsBase64)
+    content.vb: >-
+      <ConditionalTheory>
+
+      <InlineData(New Object() {63, "rt2hM6kkQ8hAXmkHx0TU4o3Q+S7fie6b3S1LAq107k++P9v8uSYA2G+WX3pJf9ZkpYrTKD7WUIoLkgA1R9lk"})>
+
+      <InlineData(New Object() {64, "RKiXmHSrWq5gkiRSyNZWNJrMR0jDyYHJMt9odOayRAE5wLSX2caINpQmfzTH7voJQi3tbn5MmD//dcspghfBiw=="})>
+
+      <InlineData(New Object() {65, "KedXO0zAIZ3AfnPqY1NnXxpC3HDHIxefG4bwD3g6nWYEc5+q7pjbam71Yqj0zgHMNC9Z7BX3wS1/tajFocRWZUk="})>
+
+      Public Sub DeriveKeyWithContextHeader_LongKey_Win8(numDerivedBytes As Integer, expectedDerivedSubkeyAsBase64 As String)
+    parameters:
+    - id: numDerivedBytes
+      type: System.Int32
+    - id: expectedDerivedSubkeyAsBase64
+      type: System.String
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalTheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection.SP800_108
+  commentId: N:Microsoft.AspNetCore.DataProtection.SP800_108
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.SP800_108
+  nameWithType: Microsoft.AspNetCore.DataProtection.SP800_108
+  fullName: Microsoft.AspNetCore.DataProtection.SP800_108
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

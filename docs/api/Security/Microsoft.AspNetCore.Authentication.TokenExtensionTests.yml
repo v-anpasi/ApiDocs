@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  commentId: T:Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  id: TokenExtensionTests
+  parent: Microsoft.AspNetCore.Authentication
+  children:
+  - Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanGetTokenFromContext
+  - Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanStoreMultipleTokens
+  - Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanUpdateTokens
+  - Microsoft.AspNetCore.Authentication.TokenExtensionTests.SubsequentStoreTokenDeletesPreviousTokens
+  langs:
+  - csharp
+  - vb
+  name: TokenExtensionTests
+  nameWithType: TokenExtensionTests
+  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: TokenExtensionTests
+    path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication
+  syntax:
+    content: public class TokenExtensionTests
+    content.vb: Public Class TokenExtensionTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanStoreMultipleTokens
+  commentId: M:Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanStoreMultipleTokens
+  id: CanStoreMultipleTokens
+  parent: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  langs:
+  - csharp
+  - vb
+  name: CanStoreMultipleTokens()
+  nameWithType: TokenExtensionTests.CanStoreMultipleTokens()
+  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanStoreMultipleTokens()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanStoreMultipleTokens
+    path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanStoreMultipleTokens()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanStoreMultipleTokens
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.SubsequentStoreTokenDeletesPreviousTokens
+  commentId: M:Microsoft.AspNetCore.Authentication.TokenExtensionTests.SubsequentStoreTokenDeletesPreviousTokens
+  id: SubsequentStoreTokenDeletesPreviousTokens
+  parent: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  langs:
+  - csharp
+  - vb
+  name: SubsequentStoreTokenDeletesPreviousTokens()
+  nameWithType: TokenExtensionTests.SubsequentStoreTokenDeletesPreviousTokens()
+  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests.SubsequentStoreTokenDeletesPreviousTokens()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SubsequentStoreTokenDeletesPreviousTokens
+    path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+    startLine: 36
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SubsequentStoreTokenDeletesPreviousTokens()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SubsequentStoreTokenDeletesPreviousTokens
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanUpdateTokens
+  commentId: M:Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanUpdateTokens
+  id: CanUpdateTokens
+  parent: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateTokens()
+  nameWithType: TokenExtensionTests.CanUpdateTokens()
+  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanUpdateTokens()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanUpdateTokens
+    path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+    startLine: 59
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanUpdateTokens()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanUpdateTokens
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanGetTokenFromContext
+  commentId: M:Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanGetTokenFromContext
+  id: CanGetTokenFromContext
+  parent: Microsoft.AspNetCore.Authentication.TokenExtensionTests
+  langs:
+  - csharp
+  - vb
+  name: CanGetTokenFromContext()
+  nameWithType: TokenExtensionTests.CanGetTokenFromContext()
+  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests.CanGetTokenFromContext()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CanGetTokenFromContext
+    path: test/Microsoft.AspNetCore.Authentication.Test/TokenExtensionTests.cs
+    startLine: 118
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanGetTokenFromContext()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanGetTokenFromContext As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Authentication
+  commentId: N:Microsoft.AspNetCore.Authentication
+  isExternal: false
+  name: Microsoft.AspNetCore.Authentication
+  nameWithType: Microsoft.AspNetCore.Authentication
+  fullName: Microsoft.AspNetCore.Authentication
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

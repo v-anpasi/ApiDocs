@@ -1,0 +1,1023 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  commentId: T:Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  id: ConfigurationTest
+  parent: Microsoft.Extensions.Configuration.Test
+  children:
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.AsEnumerateFlattensIntoDictionaryTest
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationChildren
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationSection
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConnectionStrings
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.DifferentReloadTokenReturnedAfterReloading
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyEndingWithColonMeansLastSectionHasEmptyName
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyStartingWithColonMeansFirstSectionHasEmptyName
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyWithDoubleColonHasSectionWithEmptyName
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.MultipleCallbacksCanBeRegisteredToReload
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewTokenAfterReloadIsNotChanged
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.SameReloadTokenIsReturnedRepeatedly
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.SettingValueUpdatesAllConfigurationProviders
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.SetValueThrowsExceptionNoSourceRegistered
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.SourcesReturnsAddedConfigurationProviders
+  - Microsoft.Extensions.Configuration.Test.ConfigurationTest.TokenTriggeredWhenReloadOccurs
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationTest
+  nameWithType: ConfigurationTest
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ConfigurationTest
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: public class ConfigurationTest
+    content.vb: Public Class ConfigurationTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  id: LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+  nameWithType: ConfigurationTest.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadAndCombineKeyValuePairsFromDifferentConfigurationProviders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.AsEnumerateFlattensIntoDictionaryTest
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.AsEnumerateFlattensIntoDictionaryTest
+  id: AsEnumerateFlattensIntoDictionaryTest
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: AsEnumerateFlattensIntoDictionaryTest()
+  nameWithType: ConfigurationTest.AsEnumerateFlattensIntoDictionaryTest()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.AsEnumerateFlattensIntoDictionaryTest()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: AsEnumerateFlattensIntoDictionaryTest
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 61
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void AsEnumerateFlattensIntoDictionaryTest()
+    content.vb: >-
+      <Fact>
+
+      Public Sub AsEnumerateFlattensIntoDictionaryTest
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated
+  id: NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated()
+  nameWithType: ConfigurationTest.NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 104
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NewConfigurationProviderOverridesOldOneWhenKeyIsDuplicated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SettingValueUpdatesAllConfigurationProviders
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.SettingValueUpdatesAllConfigurationProviders
+  id: SettingValueUpdatesAllConfigurationProviders
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: SettingValueUpdatesAllConfigurationProviders()
+  nameWithType: ConfigurationTest.SettingValueUpdatesAllConfigurationProviders()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SettingValueUpdatesAllConfigurationProviders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: SettingValueUpdatesAllConfigurationProviders
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 143
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SettingValueUpdatesAllConfigurationProviders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SettingValueUpdatesAllConfigurationProviders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationSection
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationSection
+  id: CanGetConfigurationSection
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: CanGetConfigurationSection()
+  nameWithType: ConfigurationTest.CanGetConfigurationSection()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationSection()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CanGetConfigurationSection
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 184
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanGetConfigurationSection()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanGetConfigurationSection
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConnectionStrings
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConnectionStrings
+  id: CanGetConnectionStrings
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: CanGetConnectionStrings()
+  nameWithType: ConfigurationTest.CanGetConnectionStrings()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConnectionStrings()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CanGetConnectionStrings
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 233
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanGetConnectionStrings()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanGetConnectionStrings
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationChildren
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationChildren
+  id: CanGetConfigurationChildren
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: CanGetConfigurationChildren()
+  nameWithType: ConfigurationTest.CanGetConfigurationChildren()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.CanGetConfigurationChildren()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: CanGetConfigurationChildren
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 266
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CanGetConfigurationChildren()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CanGetConfigurationChildren
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SourcesReturnsAddedConfigurationProviders
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.SourcesReturnsAddedConfigurationProviders
+  id: SourcesReturnsAddedConfigurationProviders
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: SourcesReturnsAddedConfigurationProviders()
+  nameWithType: ConfigurationTest.SourcesReturnsAddedConfigurationProviders()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SourcesReturnsAddedConfigurationProviders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: SourcesReturnsAddedConfigurationProviders
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 306
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SourcesReturnsAddedConfigurationProviders()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SourcesReturnsAddedConfigurationProviders
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SetValueThrowsExceptionNoSourceRegistered
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.SetValueThrowsExceptionNoSourceRegistered
+  id: SetValueThrowsExceptionNoSourceRegistered
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: SetValueThrowsExceptionNoSourceRegistered()
+  nameWithType: ConfigurationTest.SetValueThrowsExceptionNoSourceRegistered()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SetValueThrowsExceptionNoSourceRegistered()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: SetValueThrowsExceptionNoSourceRegistered
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 338
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SetValueThrowsExceptionNoSourceRegistered()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SetValueThrowsExceptionNoSourceRegistered
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SameReloadTokenIsReturnedRepeatedly
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.SameReloadTokenIsReturnedRepeatedly
+  id: SameReloadTokenIsReturnedRepeatedly
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: SameReloadTokenIsReturnedRepeatedly()
+  nameWithType: ConfigurationTest.SameReloadTokenIsReturnedRepeatedly()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.SameReloadTokenIsReturnedRepeatedly()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: SameReloadTokenIsReturnedRepeatedly
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 354
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SameReloadTokenIsReturnedRepeatedly()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SameReloadTokenIsReturnedRepeatedly
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.DifferentReloadTokenReturnedAfterReloading
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.DifferentReloadTokenReturnedAfterReloading
+  id: DifferentReloadTokenReturnedAfterReloading
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: DifferentReloadTokenReturnedAfterReloading()
+  nameWithType: ConfigurationTest.DifferentReloadTokenReturnedAfterReloading()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.DifferentReloadTokenReturnedAfterReloading()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: DifferentReloadTokenReturnedAfterReloading
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 369
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DifferentReloadTokenReturnedAfterReloading()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DifferentReloadTokenReturnedAfterReloading
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.TokenTriggeredWhenReloadOccurs
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.TokenTriggeredWhenReloadOccurs
+  id: TokenTriggeredWhenReloadOccurs
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: TokenTriggeredWhenReloadOccurs()
+  nameWithType: ConfigurationTest.TokenTriggeredWhenReloadOccurs()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.TokenTriggeredWhenReloadOccurs()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: TokenTriggeredWhenReloadOccurs
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 389
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TokenTriggeredWhenReloadOccurs()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TokenTriggeredWhenReloadOccurs
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.MultipleCallbacksCanBeRegisteredToReload
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.MultipleCallbacksCanBeRegisteredToReload
+  id: MultipleCallbacksCanBeRegisteredToReload
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: MultipleCallbacksCanBeRegisteredToReload()
+  nameWithType: ConfigurationTest.MultipleCallbacksCanBeRegisteredToReload()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.MultipleCallbacksCanBeRegisteredToReload()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: MultipleCallbacksCanBeRegisteredToReload
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 407
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MultipleCallbacksCanBeRegisteredToReload()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MultipleCallbacksCanBeRegisteredToReload
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewTokenAfterReloadIsNotChanged
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewTokenAfterReloadIsNotChanged
+  id: NewTokenAfterReloadIsNotChanged
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: NewTokenAfterReloadIsNotChanged()
+  nameWithType: ConfigurationTest.NewTokenAfterReloadIsNotChanged()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.NewTokenAfterReloadIsNotChanged()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: NewTokenAfterReloadIsNotChanged
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 440
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NewTokenAfterReloadIsNotChanged()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NewTokenAfterReloadIsNotChanged
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyStartingWithColonMeansFirstSectionHasEmptyName
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyStartingWithColonMeansFirstSectionHasEmptyName
+  id: KeyStartingWithColonMeansFirstSectionHasEmptyName
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: KeyStartingWithColonMeansFirstSectionHasEmptyName()
+  nameWithType: ConfigurationTest.KeyStartingWithColonMeansFirstSectionHasEmptyName()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyStartingWithColonMeansFirstSectionHasEmptyName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: KeyStartingWithColonMeansFirstSectionHasEmptyName
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 462
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void KeyStartingWithColonMeansFirstSectionHasEmptyName()
+    content.vb: >-
+      <Fact>
+
+      Public Sub KeyStartingWithColonMeansFirstSectionHasEmptyName
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyWithDoubleColonHasSectionWithEmptyName
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyWithDoubleColonHasSectionWithEmptyName
+  id: KeyWithDoubleColonHasSectionWithEmptyName
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: KeyWithDoubleColonHasSectionWithEmptyName()
+  nameWithType: ConfigurationTest.KeyWithDoubleColonHasSectionWithEmptyName()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyWithDoubleColonHasSectionWithEmptyName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: KeyWithDoubleColonHasSectionWithEmptyName
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 484
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void KeyWithDoubleColonHasSectionWithEmptyName()
+    content.vb: >-
+      <Fact>
+
+      Public Sub KeyWithDoubleColonHasSectionWithEmptyName
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyEndingWithColonMeansLastSectionHasEmptyName
+  commentId: M:Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyEndingWithColonMeansLastSectionHasEmptyName
+  id: KeyEndingWithColonMeansLastSectionHasEmptyName
+  parent: Microsoft.Extensions.Configuration.Test.ConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: KeyEndingWithColonMeansLastSectionHasEmptyName()
+  nameWithType: ConfigurationTest.KeyEndingWithColonMeansLastSectionHasEmptyName()
+  fullName: Microsoft.Extensions.Configuration.Test.ConfigurationTest.KeyEndingWithColonMeansLastSectionHasEmptyName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: KeyEndingWithColonMeansLastSectionHasEmptyName
+    path: test/Microsoft.Extensions.Configuration.Test/ConfigurationTest.cs
+    startLine: 508
+  assemblies:
+  - Microsoft.Extensions.Configuration.Test
+  namespace: Microsoft.Extensions.Configuration.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void KeyEndingWithColonMeansLastSectionHasEmptyName()
+    content.vb: >-
+      <Fact>
+
+      Public Sub KeyEndingWithColonMeansLastSectionHasEmptyName
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Configuration.Test
+  commentId: N:Microsoft.Extensions.Configuration.Test
+  isExternal: false
+  name: Microsoft.Extensions.Configuration.Test
+  nameWithType: Microsoft.Extensions.Configuration.Test
+  fullName: Microsoft.Extensions.Configuration.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

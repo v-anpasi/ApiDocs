@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  commentId: T:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  id: CachedAlgorithmHandlesTests
+  parent: Microsoft.AspNetCore.Cryptography.Cng
+  children:
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_CBC_Cached_Handle
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_GCM_Cached_Handle
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_No_HMAC
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_With_HMAC
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_No_HMAC
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_With_HMAC
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_No_HMAC
+  - Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_With_HMAC
+  langs:
+  - csharp
+  - vb
+  name: CachedAlgorithmHandlesTests
+  nameWithType: CachedAlgorithmHandlesTests
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CachedAlgorithmHandlesTests
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: public class CachedAlgorithmHandlesTests
+    content.vb: Public Class CachedAlgorithmHandlesTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_CBC_Cached_Handle
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_CBC_Cached_Handle
+  id: AES_CBC_Cached_Handle
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: AES_CBC_Cached_Handle()
+  nameWithType: CachedAlgorithmHandlesTests.AES_CBC_Cached_Handle()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_CBC_Cached_Handle()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: AES_CBC_Cached_Handle
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 20
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void AES_CBC_Cached_Handle()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub AES_CBC_Cached_Handle
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_GCM_Cached_Handle
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_GCM_Cached_Handle
+  id: AES_GCM_Cached_Handle
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: AES_GCM_Cached_Handle()
+  nameWithType: CachedAlgorithmHandlesTests.AES_GCM_Cached_Handle()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.AES_GCM_Cached_Handle()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: AES_GCM_Cached_Handle
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void AES_GCM_Cached_Handle()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub AES_GCM_Cached_Handle
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_No_HMAC
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_No_HMAC
+  id: SHA1_Cached_Handle_No_HMAC
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: SHA1_Cached_Handle_No_HMAC()
+  nameWithType: CachedAlgorithmHandlesTests.SHA1_Cached_Handle_No_HMAC()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_No_HMAC()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SHA1_Cached_Handle_No_HMAC
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 34
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void SHA1_Cached_Handle_No_HMAC()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub SHA1_Cached_Handle_No_HMAC
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_With_HMAC
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_With_HMAC
+  id: SHA1_Cached_Handle_With_HMAC
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: SHA1_Cached_Handle_With_HMAC()
+  nameWithType: CachedAlgorithmHandlesTests.SHA1_Cached_Handle_With_HMAC()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA1_Cached_Handle_With_HMAC()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SHA1_Cached_Handle_With_HMAC
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 46
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void SHA1_Cached_Handle_With_HMAC()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub SHA1_Cached_Handle_With_HMAC
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_No_HMAC
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_No_HMAC
+  id: SHA256_Cached_Handle_No_HMAC
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: SHA256_Cached_Handle_No_HMAC()
+  nameWithType: CachedAlgorithmHandlesTests.SHA256_Cached_Handle_No_HMAC()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_No_HMAC()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SHA256_Cached_Handle_No_HMAC
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 58
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void SHA256_Cached_Handle_No_HMAC()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub SHA256_Cached_Handle_No_HMAC
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_With_HMAC
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_With_HMAC
+  id: SHA256_Cached_Handle_With_HMAC
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: SHA256_Cached_Handle_With_HMAC()
+  nameWithType: CachedAlgorithmHandlesTests.SHA256_Cached_Handle_With_HMAC()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA256_Cached_Handle_With_HMAC()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SHA256_Cached_Handle_With_HMAC
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 70
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void SHA256_Cached_Handle_With_HMAC()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub SHA256_Cached_Handle_With_HMAC
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_No_HMAC
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_No_HMAC
+  id: SHA512_Cached_Handle_No_HMAC
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: SHA512_Cached_Handle_No_HMAC()
+  nameWithType: CachedAlgorithmHandlesTests.SHA512_Cached_Handle_No_HMAC()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_No_HMAC()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SHA512_Cached_Handle_No_HMAC
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 82
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void SHA512_Cached_Handle_No_HMAC()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub SHA512_Cached_Handle_No_HMAC
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_With_HMAC
+  commentId: M:Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_With_HMAC
+  id: SHA512_Cached_Handle_With_HMAC
+  parent: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
+  langs:
+  - csharp
+  - vb
+  name: SHA512_Cached_Handle_With_HMAC()
+  nameWithType: CachedAlgorithmHandlesTests.SHA512_Cached_Handle_With_HMAC()
+  fullName: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests.SHA512_Cached_Handle_With_HMAC()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: SHA512_Cached_Handle_With_HMAC
+    path: test/Microsoft.AspNetCore.Cryptography.Internal.Test/Cng/CachedAlgorithmHandlesTests.cs
+    startLine: 94
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+  namespace: Microsoft.AspNetCore.Cryptography.Cng
+  syntax:
+    content: >-
+      [ConditionalFact]
+
+      public void SHA512_Cached_Handle_With_HMAC()
+    content.vb: >-
+      <ConditionalFact>
+
+      Public Sub SHA512_Cached_Handle_With_HMAC
+  attributes:
+  - type: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute
+    ctor: Microsoft.AspNetCore.Testing.xunit.ConditionalFactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Cryptography.Cng
+  commentId: N:Microsoft.AspNetCore.Cryptography.Cng
+  isExternal: false
+  name: Microsoft.AspNetCore.Cryptography.Cng
+  nameWithType: Microsoft.AspNetCore.Cryptography.Cng
+  fullName: Microsoft.AspNetCore.Cryptography.Cng
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

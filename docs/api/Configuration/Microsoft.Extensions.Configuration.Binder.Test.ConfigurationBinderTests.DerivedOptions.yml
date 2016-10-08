@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions
+  commentId: T:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions
+  id: ConfigurationBinderTests.DerivedOptions
+  parent: Microsoft.Extensions.Configuration.Binder.Test
+  children:
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions.Virtual
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationBinderTests.DerivedOptions
+  nameWithType: ConfigurationBinderTests.DerivedOptions
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Binder.Test/ConfigurationBinderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: DerivedOptions
+    path: test/Microsoft.Extensions.Configuration.Binder.Test/ConfigurationBinderTests.cs
+    startLine: 43
+  assemblies:
+  - Microsoft.Extensions.Configuration.Binder.Test
+  namespace: Microsoft.Extensions.Configuration.Binder.Test
+  syntax:
+    content: 'public class DerivedOptions : ConfigurationBinderTests.ComplexOptions'
+    content.vb: >-
+      Public Class DerivedOptions
+          Inherits ConfigurationBinderTests.ComplexOptions
+  inheritance:
+  - System.Object
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  inheritedMembers:
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Nested
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Integer
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Boolean
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.PrivateSetter
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ProtectedSetter
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.InternalSetter
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.StaticProperty
+  - Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ReadOnly
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions.Virtual
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions.Virtual
+  id: Virtual
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions
+  langs:
+  - csharp
+  - vb
+  name: Virtual
+  nameWithType: ConfigurationBinderTests.DerivedOptions.Virtual
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions.Virtual
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Binder.Test/ConfigurationBinderTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: Virtual
+    path: test/Microsoft.Extensions.Configuration.Binder.Test/ConfigurationBinderTests.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.Extensions.Configuration.Binder.Test
+  namespace: Microsoft.Extensions.Configuration.Binder.Test
+  syntax:
+    content: public override string Virtual { get; set; }
+    content.vb: Public Overrides Property Virtual As String
+    parameters: []
+    return:
+      type: System.String
+  overridden: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Virtual
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Microsoft.Extensions.Configuration.Binder.Test
+  commentId: N:Microsoft.Extensions.Configuration.Binder.Test
+  isExternal: false
+  name: Microsoft.Extensions.Configuration.Binder.Test
+  nameWithType: Microsoft.Extensions.Configuration.Binder.Test
+  fullName: Microsoft.Extensions.Configuration.Binder.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  commentId: T:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  parent: Microsoft.Extensions.Configuration.Binder.Test
+  isExternal: false
+  name: ConfigurationBinderTests.ComplexOptions
+  nameWithType: ConfigurationBinderTests.ComplexOptions
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Nested
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Nested
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: Nested
+  nameWithType: ConfigurationBinderTests.ComplexOptions.Nested
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Nested
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Integer
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Integer
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: Integer
+  nameWithType: ConfigurationBinderTests.ComplexOptions.Integer
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Integer
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Boolean
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Boolean
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: Boolean
+  nameWithType: ConfigurationBinderTests.ComplexOptions.Boolean
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Boolean
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.PrivateSetter
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.PrivateSetter
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: PrivateSetter
+  nameWithType: ConfigurationBinderTests.ComplexOptions.PrivateSetter
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.PrivateSetter
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ProtectedSetter
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ProtectedSetter
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: ProtectedSetter
+  nameWithType: ConfigurationBinderTests.ComplexOptions.ProtectedSetter
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ProtectedSetter
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.InternalSetter
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.InternalSetter
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: InternalSetter
+  nameWithType: ConfigurationBinderTests.ComplexOptions.InternalSetter
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.InternalSetter
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.StaticProperty
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.StaticProperty
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: StaticProperty
+  nameWithType: ConfigurationBinderTests.ComplexOptions.StaticProperty
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.StaticProperty
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ReadOnly
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ReadOnly
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: ReadOnly
+  nameWithType: ConfigurationBinderTests.ComplexOptions.ReadOnly
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.ReadOnly
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Virtual
+  commentId: P:Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Virtual
+  parent: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
+  isExternal: false
+  name: Virtual
+  nameWithType: ConfigurationBinderTests.ComplexOptions.Virtual
+  fullName: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions.Virtual
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

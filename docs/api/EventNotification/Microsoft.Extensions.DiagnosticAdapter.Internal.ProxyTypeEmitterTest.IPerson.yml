@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  id: ProxyTypeEmitterTest.IPerson
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  children:
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.Address
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.FirstName
+  - Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.LastName
+  langs:
+  - csharp
+  - vb
+  name: ProxyTypeEmitterTest.IPerson
+  nameWithType: ProxyTypeEmitterTest.IPerson
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  type: Interface
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: IPerson
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 697
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: public interface IPerson
+    content.vb: Public Interface IPerson
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.FirstName
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.FirstName
+  id: FirstName
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: ProxyTypeEmitterTest.IPerson.FirstName
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.FirstName
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: FirstName
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 699
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: string FirstName { get; }
+    content.vb: ReadOnly Property FirstName As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.LastName
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.LastName
+  id: LastName
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: ProxyTypeEmitterTest.IPerson.LastName
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.LastName
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: LastName
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 700
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: string LastName { get; }
+    content.vb: ReadOnly Property LastName As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.Address
+  commentId: P:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.Address
+  id: Address
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: ProxyTypeEmitterTest.IPerson.Address
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IPerson.Address
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+      branch: master
+      repo: https://github.com/aspnet/EventNotification.git
+    id: Address
+    path: test/Microsoft.Extensions.DiagnosticAdapter.Test/Internal/ProxyTypeEmitterTest.cs
+    startLine: 701
+  assemblies:
+  - Microsoft.Extensions.DiagnosticAdapter.Test
+  namespace: Microsoft.Extensions.DiagnosticAdapter.Internal
+  syntax:
+    content: ProxyTypeEmitterTest.IAddress Address { get; }
+    content.vb: ReadOnly Property Address As ProxyTypeEmitterTest.IAddress
+    parameters: []
+    return:
+      type: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal
+  commentId: N:Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: Microsoft.Extensions.DiagnosticAdapter.Internal
+  nameWithType: Microsoft.Extensions.DiagnosticAdapter.Internal
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+  commentId: T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress
+  parent: Microsoft.Extensions.DiagnosticAdapter.Internal
+  isExternal: false
+  name: ProxyTypeEmitterTest.IAddress
+  nameWithType: ProxyTypeEmitterTest.IAddress
+  fullName: Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitterTest.IAddress

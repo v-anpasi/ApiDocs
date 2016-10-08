@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  commentId: T:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  id: IniConfigurationTest
+  parent: Microsoft.Extensions.Configuration.Ini.Test
+  children:
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfNotPaired
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Does_Not_Throw_On_Optional_Configuration
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Throws_On_Missing_Configuration_File
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFile
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithoutSectionHeader
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithQuotedValues
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadMethodCanHandleEmptyValue
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.SupportAndIgnoreComments
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundBrokenSectionHeader
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundInvalidLine
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenKeyIsDuplicated
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingEmptyStringAsFilePath
+  - Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingNullAsFilePath
+  langs:
+  - csharp
+  - vb
+  name: IniConfigurationTest
+  nameWithType: IniConfigurationTest
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: IniConfigurationTest
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: public class IniConfigurationTest
+    content.vb: Public Class IniConfigurationTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFile
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFile
+  id: LoadKeyValuePairsFromValidIniFile
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: LoadKeyValuePairsFromValidIniFile()
+  nameWithType: IniConfigurationTest.LoadKeyValuePairsFromValidIniFile()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFile()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadKeyValuePairsFromValidIniFile
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadKeyValuePairsFromValidIniFile()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadKeyValuePairsFromValidIniFile
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadMethodCanHandleEmptyValue
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadMethodCanHandleEmptyValue
+  id: LoadMethodCanHandleEmptyValue
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: LoadMethodCanHandleEmptyValue()
+  nameWithType: IniConfigurationTest.LoadMethodCanHandleEmptyValue()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadMethodCanHandleEmptyValue()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadMethodCanHandleEmptyValue
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 31
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadMethodCanHandleEmptyValue()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadMethodCanHandleEmptyValue
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithQuotedValues
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithQuotedValues
+  id: LoadKeyValuePairsFromValidIniFileWithQuotedValues
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: LoadKeyValuePairsFromValidIniFileWithQuotedValues()
+  nameWithType: IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithQuotedValues()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithQuotedValues()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadKeyValuePairsFromValidIniFileWithQuotedValues
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 42
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadKeyValuePairsFromValidIniFileWithQuotedValues()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadKeyValuePairsFromValidIniFileWithQuotedValues
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfNotPaired
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfNotPaired
+  id: DoubleQuoteIsPartOfValueIfNotPaired
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: DoubleQuoteIsPartOfValueIfNotPaired()
+  nameWithType: IniConfigurationTest.DoubleQuoteIsPartOfValueIfNotPaired()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfNotPaired()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: DoubleQuoteIsPartOfValueIfNotPaired
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 61
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DoubleQuoteIsPartOfValueIfNotPaired()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DoubleQuoteIsPartOfValueIfNotPaired
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue
+  id: DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue()
+  nameWithType: IniConfigurationTest.DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 75
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DoubleQuoteIsPartOfValueIfAppearInTheMiddleOfValue
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithoutSectionHeader
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithoutSectionHeader
+  id: LoadKeyValuePairsFromValidIniFileWithoutSectionHeader
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: LoadKeyValuePairsFromValidIniFileWithoutSectionHeader()
+  nameWithType: IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithoutSectionHeader()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.LoadKeyValuePairsFromValidIniFileWithoutSectionHeader()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: LoadKeyValuePairsFromValidIniFileWithoutSectionHeader
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 89
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LoadKeyValuePairsFromValidIniFileWithoutSectionHeader()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LoadKeyValuePairsFromValidIniFileWithoutSectionHeader
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.SupportAndIgnoreComments
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.SupportAndIgnoreComments
+  id: SupportAndIgnoreComments
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: SupportAndIgnoreComments()
+  nameWithType: IniConfigurationTest.SupportAndIgnoreComments()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.SupportAndIgnoreComments()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: SupportAndIgnoreComments
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 108
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void SupportAndIgnoreComments()
+    content.vb: >-
+      <Fact>
+
+      Public Sub SupportAndIgnoreComments
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundInvalidLine
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundInvalidLine
+  id: ThrowExceptionWhenFoundInvalidLine
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenFoundInvalidLine()
+  nameWithType: IniConfigurationTest.ThrowExceptionWhenFoundInvalidLine()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundInvalidLine()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenFoundInvalidLine
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 132
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenFoundInvalidLine()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenFoundInvalidLine
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundBrokenSectionHeader
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundBrokenSectionHeader
+  id: ThrowExceptionWhenFoundBrokenSectionHeader
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenFoundBrokenSectionHeader()
+  nameWithType: IniConfigurationTest.ThrowExceptionWhenFoundBrokenSectionHeader()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenFoundBrokenSectionHeader()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenFoundBrokenSectionHeader
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 146
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenFoundBrokenSectionHeader()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenFoundBrokenSectionHeader
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingNullAsFilePath
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingNullAsFilePath
+  id: ThrowExceptionWhenPassingNullAsFilePath
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenPassingNullAsFilePath()
+  nameWithType: IniConfigurationTest.ThrowExceptionWhenPassingNullAsFilePath()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingNullAsFilePath()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenPassingNullAsFilePath
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 161
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenPassingNullAsFilePath()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenPassingNullAsFilePath
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingEmptyStringAsFilePath
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingEmptyStringAsFilePath
+  id: ThrowExceptionWhenPassingEmptyStringAsFilePath
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenPassingEmptyStringAsFilePath()
+  nameWithType: IniConfigurationTest.ThrowExceptionWhenPassingEmptyStringAsFilePath()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenPassingEmptyStringAsFilePath()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenPassingEmptyStringAsFilePath
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 171
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenPassingEmptyStringAsFilePath()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenPassingEmptyStringAsFilePath
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenKeyIsDuplicated
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenKeyIsDuplicated
+  id: ThrowExceptionWhenKeyIsDuplicated
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowExceptionWhenKeyIsDuplicated()
+  nameWithType: IniConfigurationTest.ThrowExceptionWhenKeyIsDuplicated()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.ThrowExceptionWhenKeyIsDuplicated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: ThrowExceptionWhenKeyIsDuplicated
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 181
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowExceptionWhenKeyIsDuplicated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowExceptionWhenKeyIsDuplicated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Throws_On_Missing_Configuration_File
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Throws_On_Missing_Configuration_File
+  id: IniConfiguration_Throws_On_Missing_Configuration_File
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: IniConfiguration_Throws_On_Missing_Configuration_File()
+  nameWithType: IniConfigurationTest.IniConfiguration_Throws_On_Missing_Configuration_File()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Throws_On_Missing_Configuration_File()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: IniConfiguration_Throws_On_Missing_Configuration_File
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 200
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IniConfiguration_Throws_On_Missing_Configuration_File()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IniConfiguration_Throws_On_Missing_Configuration_File
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Does_Not_Throw_On_Optional_Configuration
+  commentId: M:Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Does_Not_Throw_On_Optional_Configuration
+  id: IniConfiguration_Does_Not_Throw_On_Optional_Configuration
+  parent: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
+  langs:
+  - csharp
+  - vb
+  name: IniConfiguration_Does_Not_Throw_On_Optional_Configuration()
+  nameWithType: IniConfigurationTest.IniConfiguration_Does_Not_Throw_On_Optional_Configuration()
+  fullName: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest.IniConfiguration_Does_Not_Throw_On_Optional_Configuration()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Configuration.git
+    id: IniConfiguration_Does_Not_Throw_On_Optional_Configuration
+    path: test/Microsoft.Extensions.Configuration.Ini.Test/IniConfigurationTest.cs
+    startLine: 217
+  assemblies:
+  - Microsoft.Extensions.Configuration.Ini.Test
+  namespace: Microsoft.Extensions.Configuration.Ini.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IniConfiguration_Does_Not_Throw_On_Optional_Configuration()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IniConfiguration_Does_Not_Throw_On_Optional_Configuration
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Configuration.Ini.Test
+  commentId: N:Microsoft.Extensions.Configuration.Ini.Test
+  isExternal: false
+  name: Microsoft.Extensions.Configuration.Ini.Test
+  nameWithType: Microsoft.Extensions.Configuration.Ini.Test
+  fullName: Microsoft.Extensions.Configuration.Ini.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

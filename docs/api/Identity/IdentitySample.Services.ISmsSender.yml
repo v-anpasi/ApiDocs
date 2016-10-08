@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySample.Services.ISmsSender
+  commentId: T:IdentitySample.Services.ISmsSender
+  id: ISmsSender
+  parent: IdentitySample.Services
+  children:
+  - IdentitySample.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: IdentitySample.Services.ISmsSender
+  type: Interface
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Services/ISmsSender.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ISmsSender
+    path: samples/IdentitySample.Mvc/Services/ISmsSender.cs
+    startLine: 7
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySample.Services
+  syntax:
+    content: public interface ISmsSender
+    content.vb: Public Interface ISmsSender
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: IdentitySample.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  commentId: M:IdentitySample.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  id: SendSmsAsync(System.String,System.String)
+  parent: IdentitySample.Services.ISmsSender
+  langs:
+  - csharp
+  - vb
+  name: SendSmsAsync(String, String)
+  nameWithType: ISmsSender.SendSmsAsync(String, String)
+  fullName: IdentitySample.Services.ISmsSender.SendSmsAsync(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Services/ISmsSender.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: SendSmsAsync
+    path: samples/IdentitySample.Mvc/Services/ISmsSender.cs
+    startLine: 9
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySample.Services
+  syntax:
+    content: Task SendSmsAsync(string number, string message)
+    content.vb: Function SendSmsAsync(number As String, message As String) As Task
+    parameters:
+    - id: number
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+references:
+- uid: IdentitySample.Services
+  commentId: N:IdentitySample.Services
+  isExternal: false
+  name: IdentitySample.Services
+  nameWithType: IdentitySample.Services
+  fullName: IdentitySample.Services
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

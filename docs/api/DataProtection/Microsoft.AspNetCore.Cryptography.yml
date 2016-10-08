@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Cryptography
+  commentId: N:Microsoft.AspNetCore.Cryptography
+  id: Microsoft.AspNetCore.Cryptography
+  children:
+  - Microsoft.AspNetCore.Cryptography.CryptoUtilTests
+  - Microsoft.AspNetCore.Cryptography.UnsafeBufferUtilTests
+  - Microsoft.AspNetCore.Cryptography.WeakReferenceHelpersTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Cryptography
+  nameWithType: Microsoft.AspNetCore.Cryptography
+  fullName: Microsoft.AspNetCore.Cryptography
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Cryptography.Internal.Test
+references:
+- uid: Microsoft.AspNetCore.Cryptography.CryptoUtilTests
+  commentId: T:Microsoft.AspNetCore.Cryptography.CryptoUtilTests
+  isExternal: false
+  name: CryptoUtilTests
+  nameWithType: CryptoUtilTests
+  fullName: Microsoft.AspNetCore.Cryptography.CryptoUtilTests
+- uid: Microsoft.AspNetCore.Cryptography.UnsafeBufferUtilTests
+  commentId: T:Microsoft.AspNetCore.Cryptography.UnsafeBufferUtilTests
+  isExternal: false
+  name: UnsafeBufferUtilTests
+  nameWithType: UnsafeBufferUtilTests
+  fullName: Microsoft.AspNetCore.Cryptography.UnsafeBufferUtilTests
+- uid: Microsoft.AspNetCore.Cryptography.WeakReferenceHelpersTests
+  commentId: T:Microsoft.AspNetCore.Cryptography.WeakReferenceHelpersTests
+  isExternal: false
+  name: WeakReferenceHelpersTests
+  nameWithType: WeakReferenceHelpersTests
+  fullName: Microsoft.AspNetCore.Cryptography.WeakReferenceHelpersTests

@@ -1,0 +1,1013 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  commentId: T:Microsoft.Extensions.Logging.Test.Console.TestConsole
+  id: TestConsole
+  parent: Microsoft.Extensions.Logging.Test.Console
+  children:
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.#ctor(Microsoft.Extensions.Logging.Test.Console.ConsoleSink)
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.BackgroundColor
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultBackgroundColor
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultForegroundColor
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.Flush
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.ForegroundColor
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  - Microsoft.Extensions.Logging.Test.Console.TestConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  langs:
+  - csharp
+  - vb
+  name: TestConsole
+  nameWithType: TestConsole
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: TestConsole
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 8
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: 'public class TestConsole : IConsole'
+    content.vb: >-
+      Public Class TestConsole
+          Implements IConsole
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.Extensions.Logging.Console.Internal.IConsole
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultBackgroundColor
+  commentId: F:Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultBackgroundColor
+  id: DefaultBackgroundColor
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: DefaultBackgroundColor
+  nameWithType: TestConsole.DefaultBackgroundColor
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultBackgroundColor
+  type: Field
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DefaultBackgroundColor
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public static readonly ConsoleColor? DefaultBackgroundColor
+    content.vb: Public Shared ReadOnly DefaultBackgroundColor As ConsoleColor?
+    return:
+      type: System.Nullable{System.ConsoleColor}
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultForegroundColor
+  commentId: F:Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultForegroundColor
+  id: DefaultForegroundColor
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: DefaultForegroundColor
+  nameWithType: TestConsole.DefaultForegroundColor
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.DefaultForegroundColor
+  type: Field
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DefaultForegroundColor
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public static readonly ConsoleColor? DefaultForegroundColor
+    content.vb: Public Shared ReadOnly DefaultForegroundColor As ConsoleColor?
+    return:
+      type: System.Nullable{System.ConsoleColor}
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.#ctor(Microsoft.Extensions.Logging.Test.Console.ConsoleSink)
+  commentId: M:Microsoft.Extensions.Logging.Test.Console.TestConsole.#ctor(Microsoft.Extensions.Logging.Test.Console.ConsoleSink)
+  id: '#ctor(Microsoft.Extensions.Logging.Test.Console.ConsoleSink)'
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: TestConsole(ConsoleSink)
+  nameWithType: TestConsole.TestConsole(ConsoleSink)
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.TestConsole(Microsoft.Extensions.Logging.Test.Console.ConsoleSink)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: .ctor
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public TestConsole(ConsoleSink sink)
+    content.vb: Public Sub New(sink As ConsoleSink)
+    parameters:
+    - id: sink
+      type: Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.BackgroundColor
+  commentId: P:Microsoft.Extensions.Logging.Test.Console.TestConsole.BackgroundColor
+  id: BackgroundColor
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: BackgroundColor
+  nameWithType: TestConsole.BackgroundColor
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.BackgroundColor
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: BackgroundColor
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public ConsoleColor? BackgroundColor { get; }
+    content.vb: Public ReadOnly Property BackgroundColor As ConsoleColor?
+    parameters: []
+    return:
+      type: System.Nullable{System.ConsoleColor}
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.ForegroundColor
+  commentId: P:Microsoft.Extensions.Logging.Test.Console.TestConsole.ForegroundColor
+  id: ForegroundColor
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: ForegroundColor
+  nameWithType: TestConsole.ForegroundColor
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.ForegroundColor
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ForegroundColor
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 24
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public ConsoleColor? ForegroundColor { get; }
+    content.vb: Public ReadOnly Property ForegroundColor As ConsoleColor?
+    parameters: []
+    return:
+      type: System.Nullable{System.ConsoleColor}
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  commentId: M:Microsoft.Extensions.Logging.Test.Console.TestConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  id: Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: Write(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  nameWithType: TestConsole.Write(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.Write(System.String, System.Nullable<System.ConsoleColor>, System.Nullable<System.ConsoleColor>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: Write
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 26
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public void Write(string message, ConsoleColor? background, ConsoleColor? foreground)
+    content.vb: Public Sub Write(message As String, background As ConsoleColor?, foreground As ConsoleColor?)
+    parameters:
+    - id: message
+      type: System.String
+    - id: background
+      type: System.Nullable{System.ConsoleColor}
+    - id: foreground
+      type: System.Nullable{System.ConsoleColor}
+  implements:
+  - Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  nameWithType.vb: TestConsole.Write(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.Logging.Test.Console.TestConsole.Write(System.String, System.Nullable(Of System.ConsoleColor), System.Nullable(Of System.ConsoleColor))
+  name.vb: Write(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  commentId: M:Microsoft.Extensions.Logging.Test.Console.TestConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  id: WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  nameWithType: TestConsole.WriteLine(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.WriteLine(System.String, System.Nullable<System.ConsoleColor>, System.Nullable<System.ConsoleColor>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteLine
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 46
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public void WriteLine(string message, ConsoleColor? background, ConsoleColor? foreground)
+    content.vb: Public Sub WriteLine(message As String, background As ConsoleColor?, foreground As ConsoleColor?)
+    parameters:
+    - id: message
+      type: System.String
+    - id: background
+      type: System.Nullable{System.ConsoleColor}
+    - id: foreground
+      type: System.Nullable{System.ConsoleColor}
+  implements:
+  - Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  nameWithType.vb: TestConsole.WriteLine(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.Logging.Test.Console.TestConsole.WriteLine(System.String, System.Nullable(Of System.ConsoleColor), System.Nullable(Of System.ConsoleColor))
+  name.vb: WriteLine(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+- uid: Microsoft.Extensions.Logging.Test.Console.TestConsole.Flush
+  commentId: M:Microsoft.Extensions.Logging.Test.Console.TestConsole.Flush
+  id: Flush
+  parent: Microsoft.Extensions.Logging.Test.Console.TestConsole
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: TestConsole.Flush()
+  fullName: Microsoft.Extensions.Logging.Test.Console.TestConsole.Flush()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: Flush
+    path: test/Microsoft.Extensions.Logging.Test/Console/TestConsole.cs
+    startLine: 51
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test.Console
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush
+  implements:
+  - Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Logging.Test.Console
+  commentId: N:Microsoft.Extensions.Logging.Test.Console
+  isExternal: false
+  name: Microsoft.Extensions.Logging.Test.Console
+  nameWithType: Microsoft.Extensions.Logging.Test.Console
+  fullName: Microsoft.Extensions.Logging.Test.Console
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.Logging.Console.Internal.IConsole
+  commentId: T:Microsoft.Extensions.Logging.Console.Internal.IConsole
+  parent: Microsoft.Extensions.Logging.Console.Internal
+  isExternal: false
+  name: IConsole
+  nameWithType: IConsole
+  fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Logging.Console.Internal
+  commentId: N:Microsoft.Extensions.Logging.Console.Internal
+  isExternal: false
+  name: Microsoft.Extensions.Logging.Console.Internal
+  nameWithType: Microsoft.Extensions.Logging.Console.Internal
+  fullName: Microsoft.Extensions.Logging.Console.Internal
+- uid: System.Nullable{System.ConsoleColor}
+  commentId: T:System.Nullable{System.ConsoleColor}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<ConsoleColor>
+  nameWithType: Nullable<ConsoleColor>
+  fullName: System.Nullable<System.ConsoleColor>
+  nameWithType.vb: Nullable(Of ConsoleColor)
+  fullname.vb: System.Nullable(Of System.ConsoleColor)
+  name.vb: Nullable(Of ConsoleColor)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+  commentId: T:Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+  parent: Microsoft.Extensions.Logging.Test.Console
+  isExternal: false
+  name: ConsoleSink
+  nameWithType: ConsoleSink
+  fullName: Microsoft.Extensions.Logging.Test.Console.ConsoleSink
+- uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  commentId: M:Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  parent: Microsoft.Extensions.Logging.Console.Internal.IConsole
+  isExternal: true
+  name: Write(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  nameWithType: IConsole.Write(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String, System.Nullable<System.ConsoleColor>, System.Nullable<System.ConsoleColor>)
+  nameWithType.vb: IConsole.Write(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+  fullname.vb: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String, System.Nullable(Of System.ConsoleColor), System.Nullable(Of System.ConsoleColor))
+  name.vb: Write(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+    name: Write
+    nameWithType: IConsole.Write
+    fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+    name: Write
+    nameWithType: IConsole.Write
+    fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  commentId: M:Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+  parent: Microsoft.Extensions.Logging.Console.Internal.IConsole
+  isExternal: true
+  name: WriteLine(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  nameWithType: IConsole.WriteLine(String, Nullable<ConsoleColor>, Nullable<ConsoleColor>)
+  fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String, System.Nullable<System.ConsoleColor>, System.Nullable<System.ConsoleColor>)
+  nameWithType.vb: IConsole.WriteLine(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+  fullname.vb: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String, System.Nullable(Of System.ConsoleColor), System.Nullable(Of System.ConsoleColor))
+  name.vb: WriteLine(String, Nullable(Of ConsoleColor), Nullable(Of ConsoleColor))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+    name: WriteLine
+    nameWithType: IConsole.WriteLine
+    fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})
+    name: WriteLine
+    nameWithType: IConsole.WriteLine
+    fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.WriteLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    nameWithType: ConsoleColor
+    fullName: System.ConsoleColor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+  commentId: M:Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+  parent: Microsoft.Extensions.Logging.Console.Internal.IConsole
+  isExternal: false
+  name: Flush()
+  nameWithType: IConsole.Flush()
+  fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush()
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+    name: Flush
+    nameWithType: IConsole.Flush
+    fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+    name: Flush
+    nameWithType: IConsole.Flush
+    fullName: Microsoft.Extensions.Logging.Console.Internal.IConsole.Flush
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

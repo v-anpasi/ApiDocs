@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
+  id: NullXmlEncryptionTests
+  parent: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  children:
+  - Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullDecryptor_ReturnsOriginalElement
+  - Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullEncryptor_ReturnsOriginalElement
+  langs:
+  - csharp
+  - vb
+  name: NullXmlEncryptionTests
+  nameWithType: NullXmlEncryptionTests
+  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/XmlEncryption/NullXmlEncryptionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: NullXmlEncryptionTests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/XmlEncryption/NullXmlEncryptionTests.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  syntax:
+    content: public class NullXmlEncryptionTests
+    content.vb: Public Class NullXmlEncryptionTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullDecryptor_ReturnsOriginalElement
+  commentId: M:Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullDecryptor_ReturnsOriginalElement
+  id: NullDecryptor_ReturnsOriginalElement
+  parent: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
+  langs:
+  - csharp
+  - vb
+  name: NullDecryptor_ReturnsOriginalElement()
+  nameWithType: NullXmlEncryptionTests.NullDecryptor_ReturnsOriginalElement()
+  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullDecryptor_ReturnsOriginalElement()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/XmlEncryption/NullXmlEncryptionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: NullDecryptor_ReturnsOriginalElement
+    path: test/Microsoft.AspNetCore.DataProtection.Test/XmlEncryption/NullXmlEncryptionTests.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NullDecryptor_ReturnsOriginalElement()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NullDecryptor_ReturnsOriginalElement
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullEncryptor_ReturnsOriginalElement
+  commentId: M:Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullEncryptor_ReturnsOriginalElement
+  id: NullEncryptor_ReturnsOriginalElement
+  parent: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
+  langs:
+  - csharp
+  - vb
+  name: NullEncryptor_ReturnsOriginalElement()
+  nameWithType: NullXmlEncryptionTests.NullEncryptor_ReturnsOriginalElement()
+  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests.NullEncryptor_ReturnsOriginalElement()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/XmlEncryption/NullXmlEncryptionTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: NullEncryptor_ReturnsOriginalElement
+    path: test/Microsoft.AspNetCore.DataProtection.Test/XmlEncryption/NullXmlEncryptionTests.cs
+    startLine: 24
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NullEncryptor_ReturnsOriginalElement()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NullEncryptor_ReturnsOriginalElement
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  commentId: N:Microsoft.AspNetCore.DataProtection.XmlEncryption
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  nameWithType: Microsoft.AspNetCore.DataProtection.XmlEncryption
+  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

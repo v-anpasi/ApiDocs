@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  commentId: N:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  id: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  children:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.PlatformHelper
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger.NullScope
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  nameWithType: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests
+references:
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.PlatformHelper
+  commentId: T:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.PlatformHelper
+  isExternal: false
+  name: PlatformHelper
+  nameWithType: PlatformHelper
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.PlatformHelper
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider
+  commentId: T:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider
+  isExternal: false
+  name: TestLoggerProvider
+  nameWithType: TestLoggerProvider
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger
+  commentId: T:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  isExternal: false
+  name: TestLoggerProvider.TestLogger
+  nameWithType: TestLoggerProvider.TestLogger
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger.NullScope
+  commentId: T:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger.NullScope
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  isExternal: false
+  name: TestLoggerProvider.TestLogger.NullScope
+  nameWithType: TestLoggerProvider.TestLogger.NullScope
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger.NullScope
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  commentId: N:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  isExternal: false
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  nameWithType: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers

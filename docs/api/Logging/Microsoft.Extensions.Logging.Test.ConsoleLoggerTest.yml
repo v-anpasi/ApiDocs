@@ -1,0 +1,1627 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  commentId: T:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  id: ConsoleLoggerTest
+  parent: Microsoft.Extensions.Logging.Test
+  children:
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.#ctor
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_ReturnsNonNullableInstance
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanChangeLogLevel
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanReloadMultipleTimes
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CriticalFilter_LogsWhenAppropriate
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DebugFilter_LogsWhenAppropriate
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DoesNotLog_NewLine_WhenNoExceptionIsProvided
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ErrorFilter_LogsWhenAppropriate
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.InformationFilter_LogsWhenAppropriate
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.LogsWhenNullFilterGiven
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.NoLogScope_DoesNotWriteAnyScopeContentToOutput
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoFormatterIsProvided
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageAndExceptionAreProvided
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageIsProvided
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.TraceFilter_LogsWhenAppropriate
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WarningFilter_LogsWhenAppropriate
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_LogsCorrectMessages
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_MessageWithNullException
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithException
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithNullException
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCritical_LogsCorrectColors
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteDebug_LogsCorrectColors
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteError_LogsCorrectColors
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteInformation_LogsCorrectColors
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.Writes_NewLine_WhenExceptionIsProvided(System.String)
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteTrace_LogsCorrectColors
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteWarning_LogsCorrectColors
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingMultipleScopes_LogsExpectedMessage
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingNestedScopes_LogsExpectedMessage
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsExpectedMessage
+  - Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsWithCorrectColors
+  langs:
+  - csharp
+  - vb
+  name: ConsoleLoggerTest
+  nameWithType: ConsoleLoggerTest
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ConsoleLoggerTest
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: public class ConsoleLoggerTest
+    content.vb: Public Class ConsoleLoggerTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.#ctor
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.#ctor
+  id: '#ctor'
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ConsoleLoggerTest()
+  nameWithType: ConsoleLoggerTest.ConsoleLoggerTest()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLoggerTest()
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: .ctor
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: public ConsoleLoggerTest()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageAndExceptionAreProvided
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageAndExceptionAreProvided
+  id: ThrowsException_WhenNoMessageAndExceptionAreProvided
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowsException_WhenNoMessageAndExceptionAreProvided()
+  nameWithType: ConsoleLoggerTest.ThrowsException_WhenNoMessageAndExceptionAreProvided()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageAndExceptionAreProvided()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ThrowsException_WhenNoMessageAndExceptionAreProvided
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 55
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsException_WhenNoMessageAndExceptionAreProvided()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsException_WhenNoMessageAndExceptionAreProvided
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DoesNotLog_NewLine_WhenNoExceptionIsProvided
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DoesNotLog_NewLine_WhenNoExceptionIsProvided
+  id: DoesNotLog_NewLine_WhenNoExceptionIsProvided
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: DoesNotLog_NewLine_WhenNoExceptionIsProvided()
+  nameWithType: ConsoleLoggerTest.DoesNotLog_NewLine_WhenNoExceptionIsProvided()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DoesNotLog_NewLine_WhenNoExceptionIsProvided()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DoesNotLog_NewLine_WhenNoExceptionIsProvided
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 68
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DoesNotLog_NewLine_WhenNoExceptionIsProvided()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DoesNotLog_NewLine_WhenNoExceptionIsProvided
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.Writes_NewLine_WhenExceptionIsProvided(System.String)
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.Writes_NewLine_WhenExceptionIsProvided(System.String)
+  id: Writes_NewLine_WhenExceptionIsProvided(System.String)
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: Writes_NewLine_WhenExceptionIsProvided(String)
+  nameWithType: ConsoleLoggerTest.Writes_NewLine_WhenExceptionIsProvided(String)
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.Writes_NewLine_WhenExceptionIsProvided(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: Writes_NewLine_WhenExceptionIsProvided
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 92
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"Route with name 'Default' was not found."})]
+
+      public void Writes_NewLine_WhenExceptionIsProvided(string message)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"Route with name 'Default' was not found."})>
+
+      Public Sub Writes_NewLine_WhenExceptionIsProvided(message As String)
+    parameters:
+    - id: message
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageIsProvided
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageIsProvided
+  id: ThrowsException_WhenNoMessageIsProvided
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowsException_WhenNoMessageIsProvided()
+  nameWithType: ConsoleLoggerTest.ThrowsException_WhenNoMessageIsProvided()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoMessageIsProvided()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ThrowsException_WhenNoMessageIsProvided
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 116
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsException_WhenNoMessageIsProvided()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsException_WhenNoMessageIsProvided
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoFormatterIsProvided
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoFormatterIsProvided
+  id: ThrowsException_WhenNoFormatterIsProvided
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ThrowsException_WhenNoFormatterIsProvided()
+  nameWithType: ConsoleLoggerTest.ThrowsException_WhenNoFormatterIsProvided()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ThrowsException_WhenNoFormatterIsProvided()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ThrowsException_WhenNoFormatterIsProvided
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 128
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ThrowsException_WhenNoFormatterIsProvided()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ThrowsException_WhenNoFormatterIsProvided
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.LogsWhenNullFilterGiven
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.LogsWhenNullFilterGiven
+  id: LogsWhenNullFilterGiven
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: LogsWhenNullFilterGiven()
+  nameWithType: ConsoleLoggerTest.LogsWhenNullFilterGiven()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.LogsWhenNullFilterGiven()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: LogsWhenNullFilterGiven
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 139
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void LogsWhenNullFilterGiven()
+    content.vb: >-
+      <Fact>
+
+      Public Sub LogsWhenNullFilterGiven
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CriticalFilter_LogsWhenAppropriate
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CriticalFilter_LogsWhenAppropriate
+  id: CriticalFilter_LogsWhenAppropriate
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: CriticalFilter_LogsWhenAppropriate()
+  nameWithType: ConsoleLoggerTest.CriticalFilter_LogsWhenAppropriate()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CriticalFilter_LogsWhenAppropriate()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: CriticalFilter_LogsWhenAppropriate
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 159
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CriticalFilter_LogsWhenAppropriate()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CriticalFilter_LogsWhenAppropriate
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ErrorFilter_LogsWhenAppropriate
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ErrorFilter_LogsWhenAppropriate
+  id: ErrorFilter_LogsWhenAppropriate
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ErrorFilter_LogsWhenAppropriate()
+  nameWithType: ConsoleLoggerTest.ErrorFilter_LogsWhenAppropriate()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ErrorFilter_LogsWhenAppropriate()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ErrorFilter_LogsWhenAppropriate
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 180
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ErrorFilter_LogsWhenAppropriate()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ErrorFilter_LogsWhenAppropriate
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WarningFilter_LogsWhenAppropriate
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WarningFilter_LogsWhenAppropriate
+  id: WarningFilter_LogsWhenAppropriate
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WarningFilter_LogsWhenAppropriate()
+  nameWithType: ConsoleLoggerTest.WarningFilter_LogsWhenAppropriate()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WarningFilter_LogsWhenAppropriate()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WarningFilter_LogsWhenAppropriate
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 201
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WarningFilter_LogsWhenAppropriate()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WarningFilter_LogsWhenAppropriate
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.InformationFilter_LogsWhenAppropriate
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.InformationFilter_LogsWhenAppropriate
+  id: InformationFilter_LogsWhenAppropriate
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: InformationFilter_LogsWhenAppropriate()
+  nameWithType: ConsoleLoggerTest.InformationFilter_LogsWhenAppropriate()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.InformationFilter_LogsWhenAppropriate()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: InformationFilter_LogsWhenAppropriate
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 222
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void InformationFilter_LogsWhenAppropriate()
+    content.vb: >-
+      <Fact>
+
+      Public Sub InformationFilter_LogsWhenAppropriate
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DebugFilter_LogsWhenAppropriate
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DebugFilter_LogsWhenAppropriate
+  id: DebugFilter_LogsWhenAppropriate
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: DebugFilter_LogsWhenAppropriate()
+  nameWithType: ConsoleLoggerTest.DebugFilter_LogsWhenAppropriate()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.DebugFilter_LogsWhenAppropriate()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: DebugFilter_LogsWhenAppropriate
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 243
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DebugFilter_LogsWhenAppropriate()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DebugFilter_LogsWhenAppropriate
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.TraceFilter_LogsWhenAppropriate
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.TraceFilter_LogsWhenAppropriate
+  id: TraceFilter_LogsWhenAppropriate
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: TraceFilter_LogsWhenAppropriate()
+  nameWithType: ConsoleLoggerTest.TraceFilter_LogsWhenAppropriate()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.TraceFilter_LogsWhenAppropriate()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: TraceFilter_LogsWhenAppropriate
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 264
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TraceFilter_LogsWhenAppropriate()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TraceFilter_LogsWhenAppropriate
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCritical_LogsCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCritical_LogsCorrectColors
+  id: WriteCritical_LogsCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteCritical_LogsCorrectColors()
+  nameWithType: ConsoleLoggerTest.WriteCritical_LogsCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCritical_LogsCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteCritical_LogsCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 284
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteCritical_LogsCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteCritical_LogsCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteError_LogsCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteError_LogsCorrectColors
+  id: WriteError_LogsCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteError_LogsCorrectColors()
+  nameWithType: ConsoleLoggerTest.WriteError_LogsCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteError_LogsCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteError_LogsCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 308
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteError_LogsCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteError_LogsCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteWarning_LogsCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteWarning_LogsCorrectColors
+  id: WriteWarning_LogsCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteWarning_LogsCorrectColors()
+  nameWithType: ConsoleLoggerTest.WriteWarning_LogsCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteWarning_LogsCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteWarning_LogsCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 332
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteWarning_LogsCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteWarning_LogsCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteInformation_LogsCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteInformation_LogsCorrectColors
+  id: WriteInformation_LogsCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteInformation_LogsCorrectColors()
+  nameWithType: ConsoleLoggerTest.WriteInformation_LogsCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteInformation_LogsCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteInformation_LogsCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 356
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteInformation_LogsCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteInformation_LogsCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteDebug_LogsCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteDebug_LogsCorrectColors
+  id: WriteDebug_LogsCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteDebug_LogsCorrectColors()
+  nameWithType: ConsoleLoggerTest.WriteDebug_LogsCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteDebug_LogsCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteDebug_LogsCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 380
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteDebug_LogsCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteDebug_LogsCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteTrace_LogsCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteTrace_LogsCorrectColors
+  id: WriteTrace_LogsCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteTrace_LogsCorrectColors()
+  nameWithType: ConsoleLoggerTest.WriteTrace_LogsCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteTrace_LogsCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteTrace_LogsCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 404
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteTrace_LogsCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteTrace_LogsCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_LogsCorrectMessages
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_LogsCorrectMessages
+  id: WriteCore_LogsCorrectMessages
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteCore_LogsCorrectMessages()
+  nameWithType: ConsoleLoggerTest.WriteCore_LogsCorrectMessages()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_LogsCorrectMessages()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteCore_LogsCorrectMessages
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 428
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteCore_LogsCorrectMessages()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteCore_LogsCorrectMessages
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.NoLogScope_DoesNotWriteAnyScopeContentToOutput
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.NoLogScope_DoesNotWriteAnyScopeContentToOutput
+  id: NoLogScope_DoesNotWriteAnyScopeContentToOutput
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: NoLogScope_DoesNotWriteAnyScopeContentToOutput()
+  nameWithType: ConsoleLoggerTest.NoLogScope_DoesNotWriteAnyScopeContentToOutput()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.NoLogScope_DoesNotWriteAnyScopeContentToOutput()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: NoLogScope_DoesNotWriteAnyScopeContentToOutput
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 455
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void NoLogScope_DoesNotWriteAnyScopeContentToOutput()
+    content.vb: >-
+      <Fact>
+
+      Public Sub NoLogScope_DoesNotWriteAnyScopeContentToOutput
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsWithCorrectColors
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsWithCorrectColors
+  id: WritingScopes_LogsWithCorrectColors
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WritingScopes_LogsWithCorrectColors()
+  nameWithType: ConsoleLoggerTest.WritingScopes_LogsWithCorrectColors()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsWithCorrectColors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WritingScopes_LogsWithCorrectColors
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 479
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WritingScopes_LogsWithCorrectColors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WritingScopes_LogsWithCorrectColors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsExpectedMessage
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsExpectedMessage
+  id: WritingScopes_LogsExpectedMessage
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WritingScopes_LogsExpectedMessage()
+  nameWithType: ConsoleLoggerTest.WritingScopes_LogsExpectedMessage()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingScopes_LogsExpectedMessage()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WritingScopes_LogsExpectedMessage
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 511
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WritingScopes_LogsExpectedMessage()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WritingScopes_LogsExpectedMessage
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingNestedScopes_LogsExpectedMessage
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingNestedScopes_LogsExpectedMessage
+  id: WritingNestedScopes_LogsExpectedMessage
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WritingNestedScopes_LogsExpectedMessage()
+  nameWithType: ConsoleLoggerTest.WritingNestedScopes_LogsExpectedMessage()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingNestedScopes_LogsExpectedMessage()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WritingNestedScopes_LogsExpectedMessage
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 538
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WritingNestedScopes_LogsExpectedMessage()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WritingNestedScopes_LogsExpectedMessage
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingMultipleScopes_LogsExpectedMessage
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingMultipleScopes_LogsExpectedMessage
+  id: WritingMultipleScopes_LogsExpectedMessage
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WritingMultipleScopes_LogsExpectedMessage()
+  nameWithType: ConsoleLoggerTest.WritingMultipleScopes_LogsExpectedMessage()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WritingMultipleScopes_LogsExpectedMessage()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WritingMultipleScopes_LogsExpectedMessage
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 568
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WritingMultipleScopes_LogsExpectedMessage()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WritingMultipleScopes_LogsExpectedMessage
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance
+  id: CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance()
+  nameWithType: ConsoleLoggerTest.CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 611
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CallingBeginScopeOnLogger_AlwaysReturnsNewDisposableInstance
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_ReturnsNonNullableInstance
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_ReturnsNonNullableInstance
+  id: CallingBeginScopeOnLogger_ReturnsNonNullableInstance
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: CallingBeginScopeOnLogger_ReturnsNonNullableInstance()
+  nameWithType: ConsoleLoggerTest.CallingBeginScopeOnLogger_ReturnsNonNullableInstance()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.CallingBeginScopeOnLogger_ReturnsNonNullableInstance()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: CallingBeginScopeOnLogger_ReturnsNonNullableInstance
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 629
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CallingBeginScopeOnLogger_ReturnsNonNullableInstance()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CallingBeginScopeOnLogger_ReturnsNonNullableInstance
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanChangeLogLevel
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanChangeLogLevel
+  id: ConsoleLogger_ReloadSettings_CanChangeLogLevel
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ConsoleLogger_ReloadSettings_CanChangeLogLevel()
+  nameWithType: ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanChangeLogLevel()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanChangeLogLevel()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ConsoleLogger_ReloadSettings_CanChangeLogLevel
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 644
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ConsoleLogger_ReloadSettings_CanChangeLogLevel()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ConsoleLogger_ReloadSettings_CanChangeLogLevel
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanReloadMultipleTimes
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanReloadMultipleTimes
+  id: ConsoleLogger_ReloadSettings_CanReloadMultipleTimes
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: ConsoleLogger_ReloadSettings_CanReloadMultipleTimes()
+  nameWithType: ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanReloadMultipleTimes()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.ConsoleLogger_ReloadSettings_CanReloadMultipleTimes()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: ConsoleLogger_ReloadSettings_CanReloadMultipleTimes
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 675
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ConsoleLogger_ReloadSettings_CanReloadMultipleTimes()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ConsoleLogger_ReloadSettings_CanReloadMultipleTimes
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithException
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithException
+  id: WriteCore_NullMessageWithException
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteCore_NullMessageWithException()
+  nameWithType: ConsoleLoggerTest.WriteCore_NullMessageWithException()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithException()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteCore_NullMessageWithException
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 708
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteCore_NullMessageWithException()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteCore_NullMessageWithException
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_MessageWithNullException
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_MessageWithNullException
+  id: WriteCore_MessageWithNullException
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteCore_MessageWithNullException()
+  nameWithType: ConsoleLoggerTest.WriteCore_MessageWithNullException()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_MessageWithNullException()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteCore_MessageWithNullException
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 737
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteCore_MessageWithNullException()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteCore_MessageWithNullException
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithNullException
+  commentId: M:Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithNullException
+  id: WriteCore_NullMessageWithNullException
+  parent: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest
+  langs:
+  - csharp
+  - vb
+  name: WriteCore_NullMessageWithNullException()
+  nameWithType: ConsoleLoggerTest.WriteCore_NullMessageWithNullException()
+  fullName: Microsoft.Extensions.Logging.Test.ConsoleLoggerTest.WriteCore_NullMessageWithNullException()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Logging.git
+    id: WriteCore_NullMessageWithNullException
+    path: test/Microsoft.Extensions.Logging.Test/ConsoleLoggerTest.cs
+    startLine: 764
+  assemblies:
+  - Microsoft.Extensions.Logging.Test
+  namespace: Microsoft.Extensions.Logging.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WriteCore_NullMessageWithNullException()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WriteCore_NullMessageWithNullException
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.Logging.Test
+  commentId: N:Microsoft.Extensions.Logging.Test
+  isExternal: false
+  name: Microsoft.Extensions.Logging.Test
+  nameWithType: Microsoft.Extensions.Logging.Test
+  fullName: Microsoft.Extensions.Logging.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

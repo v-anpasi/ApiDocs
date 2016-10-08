@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  id: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ApplicationUser
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ClaimEqualityComparer
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ContextWithGenerics
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User`1
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DbUtil
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidRole
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidUser
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserClaimWithIssuer
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserLoginWithContext
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserRoleWithDate
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserTokenWithStuff
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserWithGenerics
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntUser
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.MyIdentityRole
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.RoleStoreWithGenerics
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3.TestDbContext
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringRole
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringUser
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationRoleStore
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationUserStore
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreIntTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreStringKeyTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest.ApplicationDbContext
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenerics
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenericsTest
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+  isExternal: false
+  name: CustomPocoTest
+  nameWithType: CustomPocoTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User`1
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User`1
+  isExternal: false
+  name: CustomPocoTest.User<TKey>
+  nameWithType: CustomPocoTest.User<TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User<TKey>
+  nameWithType.vb: CustomPocoTest.User(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User(Of TKey)
+  name.vb: CustomPocoTest.User(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User`1
+    name: CustomPocoTest.User
+    nameWithType: CustomPocoTest.User
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User`1
+    name: CustomPocoTest.User
+    nameWithType: CustomPocoTest.User
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+  isExternal: false
+  name: CustomPocoTest.CustomDbContext<TKey>
+  nameWithType: CustomPocoTest.CustomDbContext<TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext<TKey>
+  nameWithType.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext(Of TKey)
+  name.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext
+    nameWithType: CustomPocoTest.CustomDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext
+    nameWithType: CustomPocoTest.CustomDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DbUtil
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DbUtil
+  isExternal: false
+  name: DbUtil
+  nameWithType: DbUtil
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DbUtil
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+  isExternal: false
+  name: DefaultPocoTest
+  nameWithType: DefaultPocoTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3
+  isExternal: false
+  name: SqlStoreTestBase<TUser, TRole, TKey>
+  nameWithType: SqlStoreTestBase<TUser, TRole, TKey>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase<TUser, TRole, TKey>
+  nameWithType.vb: SqlStoreTestBase(Of TUser, TRole, TKey)
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase(Of TUser, TRole, TKey)
+  name.vb: SqlStoreTestBase(Of TUser, TRole, TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3
+    name: SqlStoreTestBase
+    nameWithType: SqlStoreTestBase
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3
+    name: SqlStoreTestBase
+    nameWithType: SqlStoreTestBase
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3.TestDbContext
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3.TestDbContext
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: SqlStoreTestBase.TestDbContext<>
+  nameWithType: SqlStoreTestBase.TestDbContext<>
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase.TestDbContext<>
+  nameWithType.vb: SqlStoreTestBase.TestDbContext(Of )
+  fullname.vb: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase.TestDbContext(Of )
+  name.vb: SqlStoreTestBase.TestDbContext(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3.TestDbContext
+    name: SqlStoreTestBase.TestDbContext
+    nameWithType: SqlStoreTestBase.TestDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase.TestDbContext
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3.TestDbContext
+    name: SqlStoreTestBase.TestDbContext
+    nameWithType: SqlStoreTestBase.TestDbContext
+    fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase.TestDbContext
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidUser
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidUser
+  isExternal: false
+  name: GuidUser
+  nameWithType: GuidUser
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidUser
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidRole
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidRole
+  isExternal: false
+  name: GuidRole
+  nameWithType: GuidRole
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidRole
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest
+  isExternal: false
+  name: UserStoreGuidTest
+  nameWithType: UserStoreGuidTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationUserStore
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationUserStore
+  isExternal: false
+  name: UserStoreGuidTest.ApplicationUserStore
+  nameWithType: UserStoreGuidTest.ApplicationUserStore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationUserStore
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationRoleStore
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationRoleStore
+  isExternal: false
+  name: UserStoreGuidTest.ApplicationRoleStore
+  nameWithType: UserStoreGuidTest.ApplicationRoleStore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationRoleStore
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntUser
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntUser
+  isExternal: false
+  name: IntUser
+  nameWithType: IntUser
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntUser
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+  isExternal: false
+  name: IntRole
+  nameWithType: IntRole
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreIntTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreIntTest
+  isExternal: false
+  name: UserStoreIntTest
+  nameWithType: UserStoreIntTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreIntTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringUser
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringUser
+  isExternal: false
+  name: StringUser
+  nameWithType: StringUser
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringUser
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringRole
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringRole
+  isExternal: false
+  name: StringRole
+  nameWithType: StringRole
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringRole
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreStringKeyTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreStringKeyTest
+  isExternal: false
+  name: UserStoreStringKeyTest
+  nameWithType: UserStoreStringKeyTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreStringKeyTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest
+  isExternal: false
+  name: UserStoreTest
+  nameWithType: UserStoreTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest.ApplicationDbContext
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest.ApplicationDbContext
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: UserStoreTest.ApplicationDbContext
+  nameWithType: UserStoreTest.ApplicationDbContext
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest.ApplicationDbContext
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ApplicationUser
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ApplicationUser
+  isExternal: false
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ApplicationUser
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenericsTest
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenericsTest
+  isExternal: false
+  name: UserStoreWithGenericsTest
+  nameWithType: UserStoreWithGenericsTest
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenericsTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ClaimEqualityComparer
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ClaimEqualityComparer
+  isExternal: false
+  name: ClaimEqualityComparer
+  nameWithType: ClaimEqualityComparer
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ClaimEqualityComparer
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserWithGenerics
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserWithGenerics
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: IdentityUserWithGenerics
+  nameWithType: IdentityUserWithGenerics
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserWithGenerics
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenerics
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenerics
+  isExternal: false
+  name: UserStoreWithGenerics
+  nameWithType: UserStoreWithGenerics
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenerics
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.RoleStoreWithGenerics
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.RoleStoreWithGenerics
+  isExternal: false
+  name: RoleStoreWithGenerics
+  nameWithType: RoleStoreWithGenerics
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.RoleStoreWithGenerics
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserClaimWithIssuer
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserClaimWithIssuer
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: IdentityUserClaimWithIssuer
+  nameWithType: IdentityUserClaimWithIssuer
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserClaimWithIssuer
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserRoleWithDate
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserRoleWithDate
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: IdentityUserRoleWithDate
+  nameWithType: IdentityUserRoleWithDate
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserRoleWithDate
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.MyIdentityRole
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.MyIdentityRole
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: MyIdentityRole
+  nameWithType: MyIdentityRole
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.MyIdentityRole
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserTokenWithStuff
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserTokenWithStuff
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: IdentityUserTokenWithStuff
+  nameWithType: IdentityUserTokenWithStuff
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserTokenWithStuff
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserLoginWithContext
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserLoginWithContext
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: IdentityUserLoginWithContext
+  nameWithType: IdentityUserLoginWithContext
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserLoginWithContext
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ContextWithGenerics
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ContextWithGenerics
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: ContextWithGenerics
+  nameWithType: ContextWithGenerics
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ContextWithGenerics
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: ScratchDatabaseFixture
+  nameWithType: ScratchDatabaseFixture
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test

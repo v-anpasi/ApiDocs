@@ -1,0 +1,33 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.SessionMiddlewareExtensions
+    name: SessionMiddlewareExtensions
+  - uid: Microsoft.AspNetCore.Builder.SessionOptions
+    name: SessionOptions
+- uid: Microsoft.AspNetCore.Session
+  name: Microsoft.AspNetCore.Session
+  items:
+  - uid: Microsoft.AspNetCore.Session.DistributedSession
+    name: DistributedSession
+  - uid: Microsoft.AspNetCore.Session.DistributedSessionStore
+    name: DistributedSessionStore
+  - uid: Microsoft.AspNetCore.Session.ISessionStore
+    name: ISessionStore
+  - uid: Microsoft.AspNetCore.Session.SessionDefaults
+    name: SessionDefaults
+  - uid: Microsoft.AspNetCore.Session.SessionFeature
+    name: SessionFeature
+  - uid: Microsoft.AspNetCore.Session.SessionMiddleware
+    name: SessionMiddleware
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.SessionServiceCollectionExtensions
+    name: SessionServiceCollectionExtensions
+- uid: SessionSample
+  name: SessionSample
+  items:
+  - uid: SessionSample.Startup
+    name: Startup

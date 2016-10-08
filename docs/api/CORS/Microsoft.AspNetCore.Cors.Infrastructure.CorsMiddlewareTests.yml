@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  id: CorsMiddlewareTests
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  children:
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_MatchPolicy_SetsResponseHeaders
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.DoesNotSetHeaders_ForNoPolicy
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlight_MatchesPolicy_SetsResponseHeaders
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.Uses_PolicyProvider_AsFallback
+  langs:
+  - csharp
+  - vb
+  name: CorsMiddlewareTests
+  nameWithType: CorsMiddlewareTests
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: CorsMiddlewareTests
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 16
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: public class CorsMiddlewareTests
+    content.vb: Public Class CorsMiddlewareTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_MatchPolicy_SetsResponseHeaders
+  commentId: M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_MatchPolicy_SetsResponseHeaders
+  id: CorsRequest_MatchPolicy_SetsResponseHeaders
+  parent: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: CorsRequest_MatchPolicy_SetsResponseHeaders()
+  nameWithType: CorsMiddlewareTests.CorsRequest_MatchPolicy_SetsResponseHeaders()
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_MatchPolicy_SetsResponseHeaders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: CorsRequest_MatchPolicy_SetsResponseHeaders
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CorsRequest_MatchPolicy_SetsResponseHeaders()
+    content.vb: >-
+      <Fact>
+
+      Public Function CorsRequest_MatchPolicy_SetsResponseHeaders As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlight_MatchesPolicy_SetsResponseHeaders
+  commentId: M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlight_MatchesPolicy_SetsResponseHeaders
+  id: PreFlight_MatchesPolicy_SetsResponseHeaders
+  parent: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: PreFlight_MatchesPolicy_SetsResponseHeaders()
+  nameWithType: CorsMiddlewareTests.PreFlight_MatchesPolicy_SetsResponseHeaders()
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlight_MatchesPolicy_SetsResponseHeaders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: PreFlight_MatchesPolicy_SetsResponseHeaders
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 54
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task PreFlight_MatchesPolicy_SetsResponseHeaders()
+    content.vb: >-
+      <Fact>
+
+      Public Function PreFlight_MatchesPolicy_SetsResponseHeaders As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  commentId: M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  id: PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  parent: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+  nameWithType: CorsMiddlewareTests.PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 98
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+    content.vb: >-
+      <Fact>
+
+      Public Function PreFlightRequest_DoesNotMatchPolicy_DoesNotSetHeaders As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  commentId: M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  id: CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+  parent: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+  nameWithType: CorsMiddlewareTests.CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 132
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders()
+    content.vb: >-
+      <Fact>
+
+      Public Function CorsRequest_DoesNotMatchPolicy_DoesNotSetHeaders As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.Uses_PolicyProvider_AsFallback
+  commentId: M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.Uses_PolicyProvider_AsFallback
+  id: Uses_PolicyProvider_AsFallback
+  parent: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: Uses_PolicyProvider_AsFallback()
+  nameWithType: CorsMiddlewareTests.Uses_PolicyProvider_AsFallback()
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.Uses_PolicyProvider_AsFallback()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: Uses_PolicyProvider_AsFallback
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 165
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task Uses_PolicyProvider_AsFallback()
+    content.vb: >-
+      <Fact>
+
+      Public Function Uses_PolicyProvider_AsFallback As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.DoesNotSetHeaders_ForNoPolicy
+  commentId: M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.DoesNotSetHeaders_ForNoPolicy
+  id: DoesNotSetHeaders_ForNoPolicy
+  parent: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotSetHeaders_ForNoPolicy()
+  nameWithType: CorsMiddlewareTests.DoesNotSetHeaders_ForNoPolicy()
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests.DoesNotSetHeaders_ForNoPolicy()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/CORS.git
+    id: DoesNotSetHeaders_ForNoPolicy
+    path: test/Microsoft.AspNetCore.Cors.Test/CorsMiddlewareTests.cs
+    startLine: 193
+  assemblies:
+  - Microsoft.AspNetCore.Cors.Test
+  namespace: Microsoft.AspNetCore.Cors.Infrastructure
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task DoesNotSetHeaders_ForNoPolicy()
+    content.vb: >-
+      <Fact>
+
+      Public Function DoesNotSetHeaders_ForNoPolicy As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Cors.Infrastructure
+  commentId: N:Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: Microsoft.AspNetCore.Cors.Infrastructure
+  nameWithType: Microsoft.AspNetCore.Cors.Infrastructure
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

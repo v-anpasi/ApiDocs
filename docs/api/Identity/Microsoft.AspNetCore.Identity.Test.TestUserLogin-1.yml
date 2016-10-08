@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+  id: TestUserLogin`1
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.LoginProvider
+  - Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.ProviderDisplayName
+  - Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.ProviderKey
+  - Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.UserId
+  langs:
+  - csharp
+  - vb
+  name: TestUserLogin<TKey>
+  nameWithType: TestUserLogin<TKey>
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUserLogin<TKey>
+  type: Class
+  source:
+    remote:
+      path: test/Shared/TestUserLogin.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: TestUserLogin
+    path: test/Shared/TestUserLogin.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Entity type for a user's login (i.e. facebook, google)\n"
+  example: []
+  syntax:
+    content: >-
+      public class TestUserLogin<TKey>
+          where TKey : IEquatable<TKey>
+    content.vb: Public Class TestUserLogin(Of TKey As IEquatable(Of TKey))
+    typeParameters:
+    - id: TKey
+      description: ''
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TestUserLogin(Of TKey)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestUserLogin(Of TKey)
+  name.vb: TestUserLogin(Of TKey)
+- uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.LoginProvider
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.LoginProvider
+  id: LoginProvider
+  parent: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+  langs:
+  - csharp
+  - vb
+  name: LoginProvider
+  nameWithType: TestUserLogin<TKey>.LoginProvider
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUserLogin<TKey>.LoginProvider
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestUserLogin.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: LoginProvider
+    path: test/Shared/TestUserLogin.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    The login provider for the login (i.e. facebook, google)\n"
+  example: []
+  syntax:
+    content: public virtual string LoginProvider { get; set; }
+    content.vb: Public Overridable Property LoginProvider As String
+    parameters: []
+    return:
+      type: System.String
+  nameWithType.vb: TestUserLogin(Of TKey).LoginProvider
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestUserLogin(Of TKey).LoginProvider
+- uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.ProviderKey
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.ProviderKey
+  id: ProviderKey
+  parent: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+  langs:
+  - csharp
+  - vb
+  name: ProviderKey
+  nameWithType: TestUserLogin<TKey>.ProviderKey
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUserLogin<TKey>.ProviderKey
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestUserLogin.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ProviderKey
+    path: test/Shared/TestUserLogin.cs
+    startLine: 23
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Key representing the login for the provider\n"
+  example: []
+  syntax:
+    content: public virtual string ProviderKey { get; set; }
+    content.vb: Public Overridable Property ProviderKey As String
+    parameters: []
+    return:
+      type: System.String
+  nameWithType.vb: TestUserLogin(Of TKey).ProviderKey
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestUserLogin(Of TKey).ProviderKey
+- uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.ProviderDisplayName
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.ProviderDisplayName
+  id: ProviderDisplayName
+  parent: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+  langs:
+  - csharp
+  - vb
+  name: ProviderDisplayName
+  nameWithType: TestUserLogin<TKey>.ProviderDisplayName
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUserLogin<TKey>.ProviderDisplayName
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestUserLogin.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ProviderDisplayName
+    path: test/Shared/TestUserLogin.cs
+    startLine: 28
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Display name for the login\n"
+  example: []
+  syntax:
+    content: public virtual string ProviderDisplayName { get; set; }
+    content.vb: Public Overridable Property ProviderDisplayName As String
+    parameters: []
+    return:
+      type: System.String
+  nameWithType.vb: TestUserLogin(Of TKey).ProviderDisplayName
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestUserLogin(Of TKey).ProviderDisplayName
+- uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.UserId
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestUserLogin`1.UserId
+  id: UserId
+  parent: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TestUserLogin<TKey>.UserId
+  fullName: Microsoft.AspNetCore.Identity.Test.TestUserLogin<TKey>.UserId
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestUserLogin.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: UserId
+    path: test/Shared/TestUserLogin.cs
+    startLine: 33
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    User Id for the user who owns this login\n"
+  example: []
+  syntax:
+    content: public virtual TKey UserId { get; set; }
+    content.vb: Public Overridable Property UserId As TKey
+    parameters: []
+    return:
+      type: '{TKey}'
+  nameWithType.vb: TestUserLogin(Of TKey).UserId
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestUserLogin(Of TKey).UserId
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TKey
+  isExternal: false
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey

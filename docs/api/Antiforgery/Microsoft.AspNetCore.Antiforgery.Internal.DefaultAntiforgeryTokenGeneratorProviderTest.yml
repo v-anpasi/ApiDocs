@@ -1,0 +1,1207 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  commentId: T:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  id: DefaultAntiforgeryTokenGeneratorProviderTest
+  parent: Microsoft.AspNetCore.Antiforgery.Internal
+  children:
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateCookieToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AnonymousUser
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_ClaimsBasedIdentity
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_InvalidCookieToken
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_RegularUserWithUsername
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_FieldToken_ReturnsFalse
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_NullToken_ReturnsFalse
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_ValidToken_ReturnsTrue
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_AdditionalDataRejected
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_ClaimUidMismatch
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_CookieTokenMissing
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldTokenMissing
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AnonymousUser
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AuthenticatedUserWithUsername
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_ClaimsBasedUser
+  - Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_UsernameMismatch(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: DefaultAntiforgeryTokenGeneratorProviderTest
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: DefaultAntiforgeryTokenGeneratorProviderTest
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: public class DefaultAntiforgeryTokenGeneratorProviderTest
+    content.vb: Public Class DefaultAntiforgeryTokenGeneratorProviderTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateCookieToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateCookieToken
+  id: GenerateCookieToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateCookieToken()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateCookieToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateCookieToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateCookieToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateCookieToken()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateCookieToken
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_InvalidCookieToken
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_InvalidCookieToken
+  id: GenerateRequestToken_InvalidCookieToken
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateRequestToken_InvalidCookieToken()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_InvalidCookieToken()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_InvalidCookieToken()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateRequestToken_InvalidCookieToken
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateRequestToken_InvalidCookieToken()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateRequestToken_InvalidCookieToken
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AnonymousUser
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AnonymousUser
+  id: GenerateRequestToken_AnonymousUser
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateRequestToken_AnonymousUser()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AnonymousUser()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AnonymousUser()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateRequestToken_AnonymousUser
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 50
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateRequestToken_AnonymousUser()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateRequestToken_AnonymousUser
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData
+  id: GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 75
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateRequestToken_AuthenticatedWithoutUsernameAndNoAdditionalData_NoAdditionalData
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData
+  id: GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 109
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateRequestToken_AuthenticatedWithoutUsername_WithAdditionalData
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_ClaimsBasedIdentity
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_ClaimsBasedIdentity
+  id: GenerateRequestToken_ClaimsBasedIdentity
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateRequestToken_ClaimsBasedIdentity()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_ClaimsBasedIdentity()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_ClaimsBasedIdentity()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateRequestToken_ClaimsBasedIdentity
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 140
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateRequestToken_ClaimsBasedIdentity()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateRequestToken_ClaimsBasedIdentity
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_RegularUserWithUsername
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_RegularUserWithUsername
+  id: GenerateRequestToken_RegularUserWithUsername
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: GenerateRequestToken_RegularUserWithUsername()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_RegularUserWithUsername()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.GenerateRequestToken_RegularUserWithUsername()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: GenerateRequestToken_RegularUserWithUsername
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 178
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GenerateRequestToken_RegularUserWithUsername()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GenerateRequestToken_RegularUserWithUsername
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_FieldToken_ReturnsFalse
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_FieldToken_ReturnsFalse
+  id: IsCookieTokenValid_FieldToken_ReturnsFalse
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: IsCookieTokenValid_FieldToken_ReturnsFalse()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_FieldToken_ReturnsFalse()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_FieldToken_ReturnsFalse()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: IsCookieTokenValid_FieldToken_ReturnsFalse
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 211
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsCookieTokenValid_FieldToken_ReturnsFalse()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsCookieTokenValid_FieldToken_ReturnsFalse
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_NullToken_ReturnsFalse
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_NullToken_ReturnsFalse
+  id: IsCookieTokenValid_NullToken_ReturnsFalse
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: IsCookieTokenValid_NullToken_ReturnsFalse()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_NullToken_ReturnsFalse()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_NullToken_ReturnsFalse()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: IsCookieTokenValid_NullToken_ReturnsFalse
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 231
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsCookieTokenValid_NullToken_ReturnsFalse()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsCookieTokenValid_NullToken_ReturnsFalse
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_ValidToken_ReturnsTrue
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_ValidToken_ReturnsTrue
+  id: IsCookieTokenValid_ValidToken_ReturnsTrue
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: IsCookieTokenValid_ValidToken_ReturnsTrue()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_ValidToken_ReturnsTrue()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.IsCookieTokenValid_ValidToken_ReturnsTrue()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: IsCookieTokenValid_ValidToken_ReturnsTrue
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 247
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void IsCookieTokenValid_ValidToken_ReturnsTrue()
+    content.vb: >-
+      <Fact>
+
+      Public Sub IsCookieTokenValid_ValidToken_ReturnsTrue
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_CookieTokenMissing
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_CookieTokenMissing
+  id: TryValidateTokenSet_CookieTokenMissing
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_CookieTokenMissing()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_CookieTokenMissing()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_CookieTokenMissing()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_CookieTokenMissing
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 268
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_CookieTokenMissing()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_CookieTokenMissing
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldTokenMissing
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldTokenMissing
+  id: TryValidateTokenSet_FieldTokenMissing
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_FieldTokenMissing()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldTokenMissing()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldTokenMissing()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_FieldTokenMissing
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 290
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_FieldTokenMissing()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_FieldTokenMissing
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated
+  id: TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 313
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_FieldAndCookieTokensSwapped_FieldTokenDuplicated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated
+  id: TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 340
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_FieldAndCookieTokensSwapped_CookieDuplicated
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys
+  id: TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 367
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_FieldAndCookieTokensHaveDifferentSecurityKeys
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_UsernameMismatch(System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_UsernameMismatch(System.String,System.String)
+  id: TryValidateTokenSet_UsernameMismatch(System.String,System.String)
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_UsernameMismatch(String, String)
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_UsernameMismatch(String, String)
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_UsernameMismatch(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_UsernameMismatch
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 392
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"the-user", "the-other-user"})]
+
+      [InlineData(new object[]{"http://example.com/uri-casing", "http://example.com/URI-casing"})]
+
+      [InlineData(new object[]{"https://example.com/secure-uri-casing", "https://example.com/secure-URI-casing"})]
+
+      public void TryValidateTokenSet_UsernameMismatch(string identityUsername, string embeddedUsername)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"the-user", "the-other-user"})>
+
+      <InlineData(New Object() {"http://example.com/uri-casing", "http://example.com/URI-casing"})>
+
+      <InlineData(New Object() {"https://example.com/secure-uri-casing", "https://example.com/secure-URI-casing"})>
+
+      Public Sub TryValidateTokenSet_UsernameMismatch(identityUsername As String, embeddedUsername As String)
+    parameters:
+    - id: identityUsername
+      type: System.String
+    - id: embeddedUsername
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_ClaimUidMismatch
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_ClaimUidMismatch
+  id: TryValidateTokenSet_ClaimUidMismatch
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_ClaimUidMismatch()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_ClaimUidMismatch()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_ClaimUidMismatch()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_ClaimUidMismatch
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 432
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_ClaimUidMismatch()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_ClaimUidMismatch
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_AdditionalDataRejected
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_AdditionalDataRejected
+  id: TryValidateTokenSet_AdditionalDataRejected
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_AdditionalDataRejected()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_AdditionalDataRejected()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_AdditionalDataRejected()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_AdditionalDataRejected
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 470
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_AdditionalDataRejected()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_AdditionalDataRejected
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AnonymousUser
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AnonymousUser
+  id: TryValidateTokenSet_Success_AnonymousUser
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_Success_AnonymousUser()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AnonymousUser()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AnonymousUser()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_Success_AnonymousUser
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 507
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_Success_AnonymousUser()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_Success_AnonymousUser
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AuthenticatedUserWithUsername
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AuthenticatedUserWithUsername
+  id: TryValidateTokenSet_Success_AuthenticatedUserWithUsername
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_Success_AuthenticatedUserWithUsername()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AuthenticatedUserWithUsername()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_AuthenticatedUserWithUsername()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_Success_AuthenticatedUserWithUsername
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 541
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_Success_AuthenticatedUserWithUsername()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_Success_AuthenticatedUserWithUsername
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_ClaimsBasedUser
+  commentId: M:Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_ClaimsBasedUser
+  id: TryValidateTokenSet_Success_ClaimsBasedUser
+  parent: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
+  langs:
+  - csharp
+  - vb
+  name: TryValidateTokenSet_Success_ClaimsBasedUser()
+  nameWithType: DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_ClaimsBasedUser()
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest.TryValidateTokenSet_Success_ClaimsBasedUser()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: TryValidateTokenSet_Success_ClaimsBasedUser
+    path: test/Microsoft.AspNetCore.Antiforgery.Test/Internal/DefaultAntiforgeryTokenGeneratorTest.cs
+    startLine: 575
+  assemblies:
+  - Microsoft.AspNetCore.Antiforgery.Test
+  namespace: Microsoft.AspNetCore.Antiforgery.Internal
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TryValidateTokenSet_Success_ClaimsBasedUser()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TryValidateTokenSet_Success_ClaimsBasedUser
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Antiforgery.Internal
+  commentId: N:Microsoft.AspNetCore.Antiforgery.Internal
+  isExternal: false
+  name: Microsoft.AspNetCore.Antiforgery.Internal
+  nameWithType: Microsoft.AspNetCore.Antiforgery.Internal
+  fullName: Microsoft.AspNetCore.Antiforgery.Internal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

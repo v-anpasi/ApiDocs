@@ -1,0 +1,33 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.ActivatorUtilities
+    name: ActivatorUtilities
+  - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    name: IServiceCollection
+  - uid: Microsoft.Extensions.DependencyInjection.IServiceScope
+    name: IServiceScope
+  - uid: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+    name: IServiceScopeFactory
+  - uid: Microsoft.Extensions.DependencyInjection.ISupportRequiredService
+    name: ISupportRequiredService
+  - uid: Microsoft.Extensions.DependencyInjection.ObjectFactory
+    name: ObjectFactory
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceCollection
+    name: ServiceCollection
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions
+    name: ServiceCollectionContainerBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions
+    name: ServiceCollectionServiceExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceDescriptor
+    name: ServiceDescriptor
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions
+    name: ServiceProviderServiceExtensions
+- uid: Microsoft.Extensions.DependencyInjection.Extensions
+  name: Microsoft.Extensions.DependencyInjection.Extensions
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.Extensions.ServiceCollectionDescriptorExtensions
+    name: ServiceCollectionDescriptorExtensions

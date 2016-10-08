@@ -1,0 +1,379 @@
+### YamlMime:TableOfContent
+- uid: LargeResponseApp
+  name: LargeResponseApp
+  items:
+  - uid: LargeResponseApp.Startup
+    name: Startup
+- uid: Microsoft.AspNetCore.Hosting
+  name: Microsoft.AspNetCore.Hosting
+  items:
+  - uid: Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
+    name: IWebHostPortExtensions
+  - uid: Microsoft.AspNetCore.Hosting.KestrelServerOptionsConnectionLoggingExtensions
+    name: KestrelServerOptionsConnectionLoggingExtensions
+  - uid: Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
+    name: KestrelServerOptionsHttpsExtensions
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderKestrelExtensions
+    name: WebHostBuilderKestrelExtensions
+- uid: Microsoft.AspNetCore.Server.Kestrel
+  name: Microsoft.AspNetCore.Server.Kestrel
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.BadHttpRequestException
+    name: BadHttpRequestException
+  - uid: Microsoft.AspNetCore.Server.Kestrel.KestrelServer
+    name: KestrelServer
+  - uid: Microsoft.AspNetCore.Server.Kestrel.KestrelServerOptions
+    name: KestrelServerOptions
+  - uid: Microsoft.AspNetCore.Server.Kestrel.ServerAddress
+    name: ServerAddress
+- uid: Microsoft.AspNetCore.Server.Kestrel.Filter
+  name: Microsoft.AspNetCore.Server.Kestrel.Filter
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.ConnectionFilterContext
+    name: ConnectionFilterContext
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.IConnectionFilter
+    name: IConnectionFilter
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.LoggingConnectionFilter
+    name: LoggingConnectionFilter
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.NoOpConnectionFilter
+    name: NoOpConnectionFilter
+- uid: Microsoft.AspNetCore.Server.Kestrel.Filter.Internal
+  name: Microsoft.AspNetCore.Server.Kestrel.Filter.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.Internal.FilteredStreamAdapter
+    name: FilteredStreamAdapter
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.Internal.LibuvStream
+    name: LibuvStream
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Filter.Internal.StreamSocketOutput
+    name: StreamSocketOutput
+- uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  name: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.AddressRegistrationTests
+    name: AddressRegistrationTests
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.IPv6SupportedConditionAttribute
+    name: IPv6SupportedConditionAttribute
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.MaxRequestBufferSizeTests
+    name: MaxRequestBufferSizeTests
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.PathBaseTests
+    name: PathBaseTests
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.RequestTests
+    name: RequestTests
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.ResponseTests
+    name: ResponseTests
+  - uid: Microsoft.AspNetCore.Server.Kestrel.FunctionalTests.ThreadCountTests
+    name: ThreadCountTests
+- uid: Microsoft.AspNetCore.Server.Kestrel.GeneratedCode
+  name: Microsoft.AspNetCore.Server.Kestrel.GeneratedCode
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.GeneratedCode.FrameFeatureCollection
+    name: FrameFeatureCollection
+  - uid: Microsoft.AspNetCore.Server.Kestrel.GeneratedCode.KnownHeaders
+    name: KnownHeaders
+  - uid: Microsoft.AspNetCore.Server.Kestrel.GeneratedCode.Program
+    name: Program
+- uid: Microsoft.AspNetCore.Server.Kestrel.Https
+  name: Microsoft.AspNetCore.Server.Kestrel.Https
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Https.ClientCertificateMode
+    name: ClientCertificateMode
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Https.HttpsConnectionFilter
+    name: HttpsConnectionFilter
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Https.HttpsConnectionFilterOptions
+    name: HttpsConnectionFilterOptions
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Disposable
+    name: Disposable
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelEngine
+    name: KestrelEngine
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelServerOptionsSetup
+    name: KestrelServerOptionsSetup
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelThread
+    name: KestrelThread
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelTrace
+    name: KestrelTrace
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+    name: ServiceContext
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.BufferSizeControl
+    name: BufferSizeControl
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ChunkWriter
+    name: ChunkWriter
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+    name: Connection
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+    name: ConnectionContext
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionManager
+    name: ConnectionManager
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.DateHeaderValueManager
+    name: DateHeaderValueManager
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.DateHeaderValueManager.DateHeaderValues
+    name: DateHeaderValueManager.DateHeaderValues
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame
+    name: Frame
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame.RequestLineStatus
+    name: Frame.RequestLineStatus
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame.RequestProcessingStatus
+    name: Frame.RequestProcessingStatus
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1
+    name: Frame<TContext>
+    name.vb: Frame(Of TContext)
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameHeaders
+    name: FrameHeaders
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameRequestHeaders
+    name: FrameRequestHeaders
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameRequestHeaders.Enumerator
+    name: FrameRequestHeaders.Enumerator
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameResponseHeaders
+    name: FrameResponseHeaders
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameResponseHeaders.Enumerator
+    name: FrameResponseHeaders.Enumerator
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IBufferSizeControl
+    name: IBufferSizeControl
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl
+    name: IConnectionControl
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IFrameControl
+    name: IFrameControl
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ISocketOutput
+    name: ISocketOutput
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Listener
+    name: Listener
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+    name: ListenerContext
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerPrimary
+    name: ListenerPrimary
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerSecondary
+    name: ListenerSecondary
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.MessageBody
+    name: MessageBody
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.PathNormalizer
+    name: PathNormalizer
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.PipeListener
+    name: PipeListener
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.PipeListenerPrimary
+    name: PipeListenerPrimary
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.PipeListenerSecondary
+    name: PipeListenerSecondary
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType
+    name: ProduceEndType
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ReasonPhrases
+    name: ReasonPhrases
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.SocketInput
+    name: SocketInput
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.SocketInputExtensions
+    name: SocketInputExtensions
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.SocketOutput
+    name: SocketOutput
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.TcpListener
+    name: TcpListener
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.TcpListenerPrimary
+    name: TcpListenerPrimary
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.TcpListenerSecondary
+    name: TcpListenerSecondary
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.UrlPathDecoder
+    name: UrlPathDecoder
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.IKestrelTrace
+    name: IKestrelTrace
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.IThreadPool
+    name: IThreadPool
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.LoggingThreadPool
+    name: LoggingThreadPool
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPool
+    name: MemoryPool
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolBlock
+    name: MemoryPoolBlock
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator
+    name: MemoryPoolIterator
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIteratorExtensions
+    name: MemoryPoolIteratorExtensions
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolSlab
+    name: MemoryPoolSlab
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.TaskUtilities
+    name: TaskUtilities
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking
+  items:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv
+    name: Libuv
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.HandleType
+    name: Libuv.HandleType
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.RequestType
+    name: Libuv.RequestType
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_alloc_cb
+    name: Libuv.uv_alloc_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_async_cb
+    name: Libuv.uv_async_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_buf_t
+    name: Libuv.uv_buf_t
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_close_cb
+    name: Libuv.uv_close_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_connect_cb
+    name: Libuv.uv_connect_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_connection_cb
+    name: Libuv.uv_connection_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_fileno_func
+    name: Libuv.uv_fileno_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_ip4_addr_func
+    name: Libuv.uv_ip4_addr_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_ip6_addr_func
+    name: Libuv.uv_ip6_addr_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_read_cb
+    name: Libuv.uv_read_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_shutdown_cb
+    name: Libuv.uv_shutdown_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_tcp_bind_func
+    name: Libuv.uv_tcp_bind_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_tcp_getpeername_func
+    name: Libuv.uv_tcp_getpeername_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_tcp_getsockname_func
+    name: Libuv.uv_tcp_getsockname_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_walk_cb
+    name: Libuv.uv_walk_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_write_cb
+    name: Libuv.uv_write_cb
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_write_func
+    name: Libuv.uv_write_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.Libuv.uv_write2_func
+    name: Libuv.uv_write2_func
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.PlatformApis
+    name: PlatformApis
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.SockAddr
+    name: SockAddr
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvAsyncHandle
+    name: UvAsyncHandle
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvConnectRequest
+    name: UvConnectRequest
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvException
+    name: UvException
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvHandle
+    name: UvHandle
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvLoopHandle
+    name: UvLoopHandle
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvMemory
+    name: UvMemory
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvPipeHandle
+    name: UvPipeHandle
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvRequest
+    name: UvRequest
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvShutdownReq
+    name: UvShutdownReq
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvStreamHandle
+    name: UvStreamHandle
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvTcpHandle
+    name: UvTcpHandle
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvWriteReq
+    name: UvWriteReq
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  items:
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.AsciiDecodingTests
+    name: AsciiDecodingTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.BadHttpRequestTests
+    name: BadHttpRequestTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.ChunkedRequestTests
+    name: ChunkedRequestTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.ChunkedResponseTests
+    name: ChunkedResponseTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.ChunkWriterTests
+    name: ChunkWriterTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.ConnectionFilterTests
+    name: ConnectionFilterTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.ConnectionTests
+    name: ConnectionTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.CreateIPEndpointTests
+    name: CreateIPEndpointTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.DateHeaderValueManagerTests
+    name: DateHeaderValueManagerTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.DefaultHeaderTests
+    name: DefaultHeaderTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.DummyApplication
+    name: DummyApplication
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.EngineTests
+    name: EngineTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestHeadersTests
+    name: FrameRequestHeadersTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.FrameRequestStreamTests
+    name: FrameRequestStreamTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseHeadersTests
+    name: FrameResponseHeadersTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.FrameResponseStreamTests
+    name: FrameResponseStreamTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.FrameTests
+    name: FrameTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.HttpsConnectionFilterTests
+    name: HttpsConnectionFilterTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.KestrelServerInformationTests
+    name: KestrelServerInformationTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.KestrelServerTests
+    name: KestrelServerTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.LifetimeNotImplemented
+    name: LifetimeNotImplemented
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.LoggingThreadPoolTests
+    name: LoggingThreadPoolTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolBlockTests
+    name: MemoryPoolBlockTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions
+    name: MemoryPoolExtensions
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolIteratorTests
+    name: MemoryPoolIteratorTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.MessageBodyTests
+    name: MessageBodyTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.MultipleLoopTests
+    name: MultipleLoopTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.NetworkingTests
+    name: NetworkingTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.PassThroughConnectionFilter
+    name: PassThroughConnectionFilter
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.PathNormalizerTests
+    name: PathNormalizerTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.RequestTargetProcessingTests
+    name: RequestTargetProcessingTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+    name: ServerAddressTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.SocketInputTests
+    name: SocketInputTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.SocketOutputTests
+    name: SocketOutputTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.StreamSocketOutputTests
+    name: StreamSocketOutputTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestApplicationErrorLogger
+    name: TestApplicationErrorLogger
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestConnection
+    name: TestConnection
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestKestrelTrace
+    name: TestKestrelTrace
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestServer
+    name: TestServer
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestServiceContext
+    name: TestServiceContext
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.UrlPathDecoderTests
+    name: UrlPathDecoderTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.UvStreamHandleTests
+    name: UvStreamHandleTests
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.WebHostBuilderKestrelExtensionsTests
+    name: WebHostBuilderKestrelExtensionsTests
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  name: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+    name: MockConnection
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockFrameControl
+    name: MockFrameControl
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockLibuv
+    name: MockLibuv
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockSocketOuptut
+    name: MockSocketOuptut
+  - uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockSystemClock
+    name: MockSystemClock
+- uid: SampleApp
+  name: SampleApp
+  items:
+  - uid: SampleApp.Startup
+    name: Startup

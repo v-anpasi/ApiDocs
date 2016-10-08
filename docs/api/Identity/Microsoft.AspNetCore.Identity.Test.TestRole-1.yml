@@ -1,0 +1,749 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  commentId: T:Microsoft.AspNetCore.Identity.Test.TestRole`1
+  id: TestRole`1
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.#ctor
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.#ctor(System.String)
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.Claims
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.ConcurrencyStamp
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.Id
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.Name
+  - Microsoft.AspNetCore.Identity.Test.TestRole`1.NormalizedName
+  langs:
+  - csharp
+  - vb
+  name: TestRole<TKey>
+  nameWithType: TestRole<TKey>
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>
+  type: Class
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: TestRole
+    path: test/Shared/TestRole.cs
+    startLine: 35
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Represents a Role entity\n"
+  example: []
+  syntax:
+    content: >-
+      public class TestRole<TKey>
+          where TKey : IEquatable<TKey>
+    content.vb: Public Class TestRole(Of TKey As IEquatable(Of TKey))
+    typeParameters:
+    - id: TKey
+      description: ''
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TestRole(Of TKey)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey)
+  name.vb: TestRole(Of TKey)
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.#ctor
+  commentId: M:Microsoft.AspNetCore.Identity.Test.TestRole`1.#ctor
+  id: '#ctor'
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: TestRole()
+  nameWithType: TestRole<TKey>.TestRole()
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.TestRole()
+  type: Constructor
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Shared/TestRole.cs
+    startLine: 37
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public TestRole()
+    content.vb: Public Sub New
+  nameWithType.vb: TestRole(Of TKey).TestRole()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).TestRole()
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.#ctor(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.Test.TestRole`1.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: TestRole(String)
+  nameWithType: TestRole<TKey>.TestRole(String)
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.TestRole(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: .ctor
+    path: test/Shared/TestRole.cs
+    startLine: 43
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Constructor\n"
+  example: []
+  syntax:
+    content: public TestRole(string roleName)
+    content.vb: Public Sub New(roleName As String)
+    parameters:
+    - id: roleName
+      type: System.String
+      description: ''
+  nameWithType.vb: TestRole(Of TKey).TestRole(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).TestRole(System.String)
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.Id
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRole`1.Id
+  id: Id
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TestRole<TKey>.Id
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.Id
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Id
+    path: test/Shared/TestRole.cs
+    startLine: 51
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Role id\n"
+  example: []
+  syntax:
+    content: public virtual TKey Id { get; set; }
+    content.vb: Public Overridable Property Id As TKey
+    parameters: []
+    return:
+      type: '{TKey}'
+  nameWithType.vb: TestRole(Of TKey).Id
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).Id
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.Claims
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRole`1.Claims
+  id: Claims
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: Claims
+  nameWithType: TestRole<TKey>.Claims
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.Claims
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Claims
+    path: test/Shared/TestRole.cs
+    startLine: 56
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\nNavigation property for claims in the role\n"
+  example: []
+  syntax:
+    content: public virtual ICollection<TestRoleClaim<TKey>> Claims { get; }
+    content.vb: Public Overridable ReadOnly Property Claims As ICollection(Of TestRoleClaim(Of TKey))
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Microsoft.AspNetCore.Identity.Test.TestRoleClaim{{TKey}}}
+  nameWithType.vb: TestRole(Of TKey).Claims
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).Claims
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.Name
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRole`1.Name
+  id: Name
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TestRole<TKey>.Name
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.Name
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Name
+    path: test/Shared/TestRole.cs
+    startLine: 61
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\n    Role name\n"
+  example: []
+  syntax:
+    content: public virtual string Name { get; set; }
+    content.vb: Public Overridable Property Name As String
+    parameters: []
+    return:
+      type: System.String
+  nameWithType.vb: TestRole(Of TKey).Name
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).Name
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.NormalizedName
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRole`1.NormalizedName
+  id: NormalizedName
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: NormalizedName
+  nameWithType: TestRole<TKey>.NormalizedName
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.NormalizedName
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: NormalizedName
+    path: test/Shared/TestRole.cs
+    startLine: 62
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public virtual string NormalizedName { get; set; }
+    content.vb: Public Overridable Property NormalizedName As String
+    parameters: []
+    return:
+      type: System.String
+  nameWithType.vb: TestRole(Of TKey).NormalizedName
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).NormalizedName
+- uid: Microsoft.AspNetCore.Identity.Test.TestRole`1.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.Test.TestRole`1.ConcurrencyStamp
+  id: ConcurrencyStamp
+  parent: Microsoft.AspNetCore.Identity.Test.TestRole`1
+  langs:
+  - csharp
+  - vb
+  name: ConcurrencyStamp
+  nameWithType: TestRole<TKey>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.Test.TestRole<TKey>.ConcurrencyStamp
+  type: Property
+  source:
+    remote:
+      path: test/Shared/TestRole.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ConcurrencyStamp
+    path: test/Shared/TestRole.cs
+    startLine: 67
+  assemblies:
+  - Microsoft.AspNetCore.Identity.InMemory.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  summary: "\nA random value that should change whenever a role is persisted to the store\n"
+  example: []
+  syntax:
+    content: public virtual string ConcurrencyStamp { get; set; }
+    content.vb: Public Overridable Property ConcurrencyStamp As String
+    parameters: []
+    return:
+      type: System.String
+  nameWithType.vb: TestRole(Of TKey).ConcurrencyStamp
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.AspNetCore.Identity.Test.TestRole(Of TKey).ConcurrencyStamp
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TKey
+  isExternal: false
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: System.Collections.Generic.ICollection{Microsoft.AspNetCore.Identity.Test.TestRoleClaim{{TKey}}}
+  commentId: T:System.Collections.Generic.ICollection{Microsoft.AspNetCore.Identity.Test.TestRoleClaim{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<TestRoleClaim<TKey>>
+  nameWithType: ICollection<TestRoleClaim<TKey>>
+  fullName: System.Collections.Generic.ICollection<Microsoft.AspNetCore.Identity.Test.TestRoleClaim<TKey>>
+  nameWithType.vb: ICollection(Of TestRoleClaim(Of TKey))
+  fullname.vb: System.Collections.Generic.ICollection(Of Microsoft.AspNetCore.Identity.Test.TestRoleClaim(Of TKey))
+  name.vb: ICollection(Of TestRoleClaim(Of TKey))
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim
+    nameWithType: TestRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim
+    nameWithType: TestRoleClaim
+    fullName: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullname.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

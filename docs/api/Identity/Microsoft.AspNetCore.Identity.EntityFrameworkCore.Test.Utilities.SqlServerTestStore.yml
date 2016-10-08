@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  id: SqlServerTestStore
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CommandTimeout
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Connection
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateConnectionString(System.String)
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateScratch(System.Boolean)
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Dispose
+  langs:
+  - csharp
+  - vb
+  name: SqlServerTestStore
+  nameWithType: SqlServerTestStore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: SqlServerTestStore
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+    startLine: 11
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  syntax:
+    content: 'public class SqlServerTestStore : IDisposable'
+    content.vb: >-
+      Public Class SqlServerTestStore
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CommandTimeout
+  commentId: F:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CommandTimeout
+  id: CommandTimeout
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  langs:
+  - csharp
+  - vb
+  name: CommandTimeout
+  nameWithType: SqlServerTestStore.CommandTimeout
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CommandTimeout
+  type: Field
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CommandTimeout
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  syntax:
+    content: public const int CommandTimeout = 90
+    content.vb: Public Const CommandTimeout As Integer = 90
+    return:
+      type: System.Int32
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateConnectionString(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateConnectionString(System.String)
+  id: CreateConnectionString(System.String)
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  langs:
+  - csharp
+  - vb
+  name: CreateConnectionString(String)
+  nameWithType: SqlServerTestStore.CreateConnectionString(String)
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateConnectionString(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CreateConnectionString
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  syntax:
+    content: public static string CreateConnectionString(string name)
+    content.vb: Public Shared Function CreateConnectionString(name As String) As String
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateScratch(System.Boolean)
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateScratch(System.Boolean)
+  id: CreateScratch(System.Boolean)
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  langs:
+  - csharp
+  - vb
+  name: CreateScratch(Boolean)
+  nameWithType: SqlServerTestStore.CreateScratch(Boolean)
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.CreateScratch(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CreateScratch
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+    startLine: 25
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  syntax:
+    content: public static SqlServerTestStore CreateScratch(bool createDatabase = true)
+    content.vb: Public Shared Function CreateScratch(createDatabase As Boolean = True) As SqlServerTestStore
+    parameters:
+    - id: createDatabase
+      type: System.Boolean
+    return:
+      type: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Connection
+  commentId: P:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Connection
+  id: Connection
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  langs:
+  - csharp
+  - vb
+  name: Connection
+  nameWithType: SqlServerTestStore.Connection
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Connection
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Connection
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+    startLine: 152
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  syntax:
+    content: public DbConnection Connection { get; }
+    content.vb: Public ReadOnly Property Connection As DbConnection
+    parameters: []
+    return:
+      type: System.Data.Common.DbConnection
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Dispose
+  commentId: M:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Dispose
+  id: Dispose
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SqlServerTestStore.Dispose()
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore.Dispose()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Dispose
+    path: test/Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test/Utilities/SqlServerTestStore.cs
+    startLine: 154
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  namespace: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  isExternal: false
+  name: SqlServerTestStore
+  nameWithType: SqlServerTestStore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+- uid: System.Data.Common.DbConnection
+  commentId: T:System.Data.Common.DbConnection
+  parent: System.Data.Common
+  isExternal: true
+  name: DbConnection
+  nameWithType: DbConnection
+  fullName: System.Data.Common.DbConnection
+- uid: System.Data.Common
+  commentId: N:System.Data.Common
+  isExternal: false
+  name: System.Data.Common
+  nameWithType: System.Data.Common
+  fullName: System.Data.Common
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

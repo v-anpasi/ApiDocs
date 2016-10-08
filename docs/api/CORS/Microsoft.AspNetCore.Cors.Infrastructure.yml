@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Cors.Infrastructure
+  commentId: N:Microsoft.AspNetCore.Cors.Infrastructure
+  id: Microsoft.AspNetCore.Cors.Infrastructure
+  children:
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsConstants
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareFunctionalTests
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilderTests
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyTest
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsResult
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsResultTest
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsServiceTests
+  - Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture`1
+  - Microsoft.AspNetCore.Cors.Infrastructure.DefaultCorsPolicyProvider
+  - Microsoft.AspNetCore.Cors.Infrastructure.DefaultPolicyProviderTests
+  - Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider
+  - Microsoft.AspNetCore.Cors.Infrastructure.ICorsService
+  - Microsoft.AspNetCore.Cors.Infrastructure.IDisableCorsAttribute
+  - Microsoft.AspNetCore.Cors.Infrastructure.IEnableCorsAttribute
+  - Microsoft.AspNetCore.Cors.Infrastructure.TestCorsOptions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Cors.Infrastructure
+  nameWithType: Microsoft.AspNetCore.Cors.Infrastructure
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Cors
+references:
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsConstants
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsConstants
+  isExternal: false
+  name: CorsConstants
+  nameWithType: CorsConstants
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsConstants
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware
+  isExternal: false
+  name: CorsMiddleware
+  nameWithType: CorsMiddleware
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: CorsOptions
+  nameWithType: CorsOptions
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: CorsPolicy
+  nameWithType: CorsPolicy
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: CorsPolicyBuilder
+  nameWithType: CorsPolicyBuilder
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsResult
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsResult
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: CorsResult
+  nameWithType: CorsResult
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsResult
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+  isExternal: false
+  name: CorsService
+  nameWithType: CorsService
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.DefaultCorsPolicyProvider
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.DefaultCorsPolicyProvider
+  isExternal: false
+  name: DefaultCorsPolicyProvider
+  nameWithType: DefaultCorsPolicyProvider
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.DefaultCorsPolicyProvider
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: ICorsPolicyProvider
+  nameWithType: ICorsPolicyProvider
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.ICorsService
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.ICorsService
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: ICorsService
+  nameWithType: ICorsService
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.ICorsService
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.IDisableCorsAttribute
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.IDisableCorsAttribute
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: IDisableCorsAttribute
+  nameWithType: IDisableCorsAttribute
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.IDisableCorsAttribute
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.IEnableCorsAttribute
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.IEnableCorsAttribute
+  parent: Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: IEnableCorsAttribute
+  nameWithType: IEnableCorsAttribute
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.IEnableCorsAttribute
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareFunctionalTests
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareFunctionalTests
+  isExternal: false
+  name: CorsMiddlewareFunctionalTests
+  nameWithType: CorsMiddlewareFunctionalTests
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareFunctionalTests
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+  isExternal: false
+  name: CorsMiddlewareTests
+  nameWithType: CorsMiddlewareTests
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilderTests
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilderTests
+  isExternal: false
+  name: CorsPolicyBuilderTests
+  nameWithType: CorsPolicyBuilderTests
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilderTests
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyTest
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyTest
+  isExternal: false
+  name: CorsPolicyTest
+  nameWithType: CorsPolicyTest
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyTest
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsResultTest
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsResultTest
+  isExternal: false
+  name: CorsResultTest
+  nameWithType: CorsResultTest
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsResultTest
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsServiceTests
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsServiceTests
+  isExternal: false
+  name: CorsServiceTests
+  nameWithType: CorsServiceTests
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsServiceTests
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture`1
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture`1
+  isExternal: false
+  name: CorsTestFixture<TStartup>
+  nameWithType: CorsTestFixture<TStartup>
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture<TStartup>
+  nameWithType.vb: CorsTestFixture(Of TStartup)
+  fullname.vb: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture(Of TStartup)
+  name.vb: CorsTestFixture(Of TStartup)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture`1
+    name: CorsTestFixture
+    nameWithType: CorsTestFixture
+    fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TStartup
+    nameWithType: TStartup
+    fullName: TStartup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture`1
+    name: CorsTestFixture
+    nameWithType: CorsTestFixture
+    fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TStartup
+    nameWithType: TStartup
+    fullName: TStartup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.DefaultPolicyProviderTests
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.DefaultPolicyProviderTests
+  isExternal: false
+  name: DefaultPolicyProviderTests
+  nameWithType: DefaultPolicyProviderTests
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.DefaultPolicyProviderTests
+- uid: Microsoft.AspNetCore.Cors.Infrastructure.TestCorsOptions
+  commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.TestCorsOptions
+  isExternal: false
+  name: TestCorsOptions
+  nameWithType: TestCorsOptions
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure.TestCorsOptions
+- uid: Microsoft.AspNetCore.Cors.Infrastructure
+  commentId: N:Microsoft.AspNetCore.Cors.Infrastructure
+  isExternal: false
+  name: Microsoft.AspNetCore.Cors.Infrastructure
+  nameWithType: Microsoft.AspNetCore.Cors.Infrastructure
+  fullName: Microsoft.AspNetCore.Cors.Infrastructure

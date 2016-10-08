@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId
+  commentId: T:IdentitySamples.Controllers.ManageController.ManageMessageId
+  id: ManageController.ManageMessageId
+  parent: IdentitySamples.Controllers
+  children:
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.AddLoginSuccess
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.Error
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  - IdentitySamples.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  langs:
+  - csharp
+  - vb
+  name: ManageController.ManageMessageId
+  nameWithType: ManageController.ManageMessageId
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId
+  type: Enum
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ManageMessageId
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 329
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: public enum ManageMessageId
+    content.vb: Public Enum ManageMessageId
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  id: AddPhoneSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneSuccess
+  nameWithType: ManageController.ManageMessageId.AddPhoneSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: AddPhoneSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 331
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: AddPhoneSuccess = 0
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.AddLoginSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.AddLoginSuccess
+  id: AddLoginSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: AddLoginSuccess
+  nameWithType: ManageController.ManageMessageId.AddLoginSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.AddLoginSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: AddLoginSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 332
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: AddLoginSuccess = 1
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  id: ChangePasswordSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: ChangePasswordSuccess
+  nameWithType: ManageController.ManageMessageId.ChangePasswordSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: ChangePasswordSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 333
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: ChangePasswordSuccess = 2
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  id: SetTwoFactorSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: SetTwoFactorSuccess
+  nameWithType: ManageController.ManageMessageId.SetTwoFactorSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: SetTwoFactorSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 334
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: SetTwoFactorSuccess = 3
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  id: SetPasswordSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: SetPasswordSuccess
+  nameWithType: ManageController.ManageMessageId.SetPasswordSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: SetPasswordSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 335
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: SetPasswordSuccess = 4
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  id: RemoveLoginSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: RemoveLoginSuccess
+  nameWithType: ManageController.ManageMessageId.RemoveLoginSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RemoveLoginSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 336
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: RemoveLoginSuccess = 5
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  id: RemovePhoneSuccess
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: RemovePhoneSuccess
+  nameWithType: ManageController.ManageMessageId.RemovePhoneSuccess
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RemovePhoneSuccess
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 337
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: RemovePhoneSuccess = 6
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId.Error
+  commentId: F:IdentitySamples.Controllers.ManageController.ManageMessageId.Error
+  id: Error
+  parent: IdentitySamples.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ManageController.ManageMessageId.Error
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId.Error
+  type: Field
+  source:
+    remote:
+      path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: Error
+    path: samples/IdentitySample.Mvc/Controllers/ManageController.cs
+    startLine: 338
+  assemblies:
+  - IdentitySample.Mvc
+  namespace: IdentitySamples.Controllers
+  syntax:
+    content: Error = 7
+    return:
+      type: IdentitySamples.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: IdentitySamples.Controllers
+  commentId: N:IdentitySamples.Controllers
+  isExternal: false
+  name: IdentitySamples.Controllers
+  nameWithType: IdentitySamples.Controllers
+  fullName: IdentitySamples.Controllers
+- uid: IdentitySamples.Controllers.ManageController.ManageMessageId
+  commentId: T:IdentitySamples.Controllers.ManageController.ManageMessageId
+  parent: IdentitySamples.Controllers
+  isExternal: false
+  name: ManageController.ManageMessageId
+  nameWithType: ManageController.ManageMessageId
+  fullName: IdentitySamples.Controllers.ManageController.ManageMessageId

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  id: Microsoft.AspNetCore.Builder
+  children:
+  - Microsoft.AspNetCore.Builder.MapRouteRouteBuilderExtensions
+  - Microsoft.AspNetCore.Builder.RouterMiddleware
+  - Microsoft.AspNetCore.Builder.RoutingBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Routing
+references:
+- uid: Microsoft.AspNetCore.Builder.RoutingBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.RoutingBuilderExtensions
+  isExternal: false
+  name: RoutingBuilderExtensions
+  nameWithType: RoutingBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.RoutingBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.MapRouteRouteBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.MapRouteRouteBuilderExtensions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: MapRouteRouteBuilderExtensions
+  nameWithType: MapRouteRouteBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.MapRouteRouteBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.RouterMiddleware
+  commentId: T:Microsoft.AspNetCore.Builder.RouterMiddleware
+  isExternal: false
+  name: RouterMiddleware
+  nameWithType: RouterMiddleware
+  fullName: Microsoft.AspNetCore.Builder.RouterMiddleware
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder

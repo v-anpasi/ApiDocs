@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  commentId: N:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  id: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  children:
+  - Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  nameWithType: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+references:
+- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
+  isExternal: false
+  name: MicrosoftAccountMiddlewareTests
+  nameWithType: MicrosoftAccountMiddlewareTests
+  fullName: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests

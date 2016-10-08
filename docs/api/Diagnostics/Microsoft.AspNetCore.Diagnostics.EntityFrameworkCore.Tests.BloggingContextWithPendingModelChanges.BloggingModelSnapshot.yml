@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  commentId: T:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  id: BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  children:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  langs:
+  - csharp
+  - vb
+  name: BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  nameWithType: BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithPendingModelChanges.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: BloggingModelSnapshot
+    path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithPendingModelChanges.cs
+    startLine: 16
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  syntax:
+    content: >-
+      [DbContext(typeof (BloggingContextWithPendingModelChanges))]
+
+      public class BloggingModelSnapshot : ModelSnapshot
+    content.vb: >-
+      <DbContext(GetType(BloggingContextWithPendingModelChanges))>
+
+      Public Class BloggingModelSnapshot
+          Inherits ModelSnapshot
+  inheritance:
+  - System.Object
+  - Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot
+  inheritedMembers:
+  - Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.Model
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+    ctor: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot
+  langs:
+  - csharp
+  - vb
+  name: BuildModel(ModelBuilder)
+  nameWithType: BloggingContextWithPendingModelChanges.BloggingModelSnapshot.BuildModel(ModelBuilder)
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithPendingModelChanges.cs
+      branch: master
+      repo: https://github.com/aspnet/Diagnostics.git
+    id: BuildModel
+    path: test/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests/TestModels/BloggingContextWithPendingModelChanges.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests
+  namespace: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  syntax:
+    content: protected override void BuildModel(ModelBuilder modelBuilder)
+    content.vb: Protected Overrides Sub BuildModel(modelBuilder As ModelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+  overridden: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  commentId: N:Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  isExternal: false
+  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  nameWithType: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+  fullName: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot
+  commentId: T:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot
+  parent: Microsoft.EntityFrameworkCore.Infrastructure
+  isExternal: true
+  name: ModelSnapshot
+  nameWithType: ModelSnapshot
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.Model
+  commentId: P:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.Model
+  parent: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot
+  isExternal: true
+  name: Model
+  nameWithType: ModelSnapshot.Model
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.Model
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.EntityFrameworkCore.Infrastructure
+  commentId: N:Microsoft.EntityFrameworkCore.Infrastructure
+  isExternal: false
+  name: Microsoft.EntityFrameworkCore.Infrastructure
+  nameWithType: Microsoft.EntityFrameworkCore.Infrastructure
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure
+- uid: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot
+  isExternal: true
+  name: BuildModel(ModelBuilder)
+  nameWithType: ModelSnapshot.BuildModel(ModelBuilder)
+  fullName: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+    name: BuildModel
+    nameWithType: ModelSnapshot.BuildModel
+    fullName: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.ModelBuilder
+    name: ModelBuilder
+    nameWithType: ModelBuilder
+    fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+    name: BuildModel
+    nameWithType: ModelSnapshot.BuildModel
+    fullName: Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot.BuildModel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.ModelBuilder
+    name: ModelBuilder
+    nameWithType: ModelBuilder
+    fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  commentId: T:Microsoft.EntityFrameworkCore.ModelBuilder
+  parent: Microsoft.EntityFrameworkCore
+  isExternal: true
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: false
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore

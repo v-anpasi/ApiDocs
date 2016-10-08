@@ -1,0 +1,614 @@
+### YamlMime:ManagedReference
+items:
+- uid: AntiforgerySample.Startup
+  commentId: T:AntiforgerySample.Startup
+  id: Startup
+  parent: AntiforgerySample
+  children:
+  - AntiforgerySample.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Antiforgery.IAntiforgery,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions},AntiforgerySample.TodoRepository)
+  - AntiforgerySample.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - AntiforgerySample.Startup.Main(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Startup
+  nameWithType: Startup
+  fullName: AntiforgerySample.Startup
+  type: Class
+  source:
+    remote:
+      path: samples/AntiforgerySample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Startup
+    path: samples/AntiforgerySample/Startup.cs
+    startLine: 15
+  assemblies:
+  - AntiforgerySample
+  namespace: AntiforgerySample
+  syntax:
+    content: public class Startup
+    content.vb: Public Class Startup
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AntiforgerySample.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:AntiforgerySample.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  parent: AntiforgerySample.Startup
+  langs:
+  - csharp
+  - vb
+  name: ConfigureServices(IServiceCollection)
+  nameWithType: Startup.ConfigureServices(IServiceCollection)
+  fullName: AntiforgerySample.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    remote:
+      path: samples/AntiforgerySample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: ConfigureServices
+    path: samples/AntiforgerySample/Startup.cs
+    startLine: 17
+  assemblies:
+  - AntiforgerySample
+  namespace: AntiforgerySample
+  syntax:
+    content: public void ConfigureServices(IServiceCollection services)
+    content.vb: Public Sub ConfigureServices(services As IServiceCollection)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AntiforgerySample.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Antiforgery.IAntiforgery,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions},AntiforgerySample.TodoRepository)
+  commentId: M:AntiforgerySample.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Antiforgery.IAntiforgery,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions},AntiforgerySample.TodoRepository)
+  id: Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Antiforgery.IAntiforgery,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions},AntiforgerySample.TodoRepository)
+  parent: AntiforgerySample.Startup
+  langs:
+  - csharp
+  - vb
+  name: Configure(IApplicationBuilder, IAntiforgery, IOptions<AntiforgeryOptions>, TodoRepository)
+  nameWithType: Startup.Configure(IApplicationBuilder, IAntiforgery, IOptions<AntiforgeryOptions>, TodoRepository)
+  fullName: AntiforgerySample.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Antiforgery.IAntiforgery, Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions>, AntiforgerySample.TodoRepository)
+  type: Method
+  source:
+    remote:
+      path: samples/AntiforgerySample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Configure
+    path: samples/AntiforgerySample/Startup.cs
+    startLine: 25
+  assemblies:
+  - AntiforgerySample
+  namespace: AntiforgerySample
+  syntax:
+    content: public void Configure(IApplicationBuilder app, IAntiforgery antiforgery, IOptions<AntiforgeryOptions> options, TodoRepository repository)
+    content.vb: Public Sub Configure(app As IApplicationBuilder, antiforgery As IAntiforgery, options As IOptions(Of AntiforgeryOptions), repository As TodoRepository)
+    parameters:
+    - id: app
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    - id: antiforgery
+      type: Microsoft.AspNetCore.Antiforgery.IAntiforgery
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions}
+    - id: repository
+      type: AntiforgerySample.TodoRepository
+  nameWithType.vb: Startup.Configure(IApplicationBuilder, IAntiforgery, IOptions(Of AntiforgeryOptions), TodoRepository)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AntiforgerySample.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Antiforgery.IAntiforgery, Microsoft.Extensions.Options.IOptions(Of Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions), AntiforgerySample.TodoRepository)
+  name.vb: Configure(IApplicationBuilder, IAntiforgery, IOptions(Of AntiforgeryOptions), TodoRepository)
+- uid: AntiforgerySample.Startup.Main(System.String[])
+  commentId: M:AntiforgerySample.Startup.Main(System.String[])
+  id: Main(System.String[])
+  parent: AntiforgerySample.Startup
+  langs:
+  - csharp
+  - vb
+  name: Main(String[])
+  nameWithType: Startup.Main(String[])
+  fullName: AntiforgerySample.Startup.Main(System.String[])
+  type: Method
+  source:
+    remote:
+      path: samples/AntiforgerySample/Startup.cs
+      branch: master
+      repo: https://github.com/aspnet/Antiforgery.git
+    id: Main
+    path: samples/AntiforgerySample/Startup.cs
+    startLine: 68
+  assemblies:
+  - AntiforgerySample
+  namespace: AntiforgerySample
+  syntax:
+    content: public static void Main(string[] args)
+    content.vb: Public Shared Sub Main(args As String())
+    parameters:
+    - id: args
+      type: System.String[]
+  nameWithType.vb: Startup.Main(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AntiforgerySample.Startup.Main(System.String())
+  name.vb: Main(String())
+references:
+- uid: AntiforgerySample
+  commentId: N:AntiforgerySample
+  isExternal: false
+  name: AntiforgerySample
+  nameWithType: AntiforgerySample
+  fullName: AntiforgerySample
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: false
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+  commentId: T:Microsoft.AspNetCore.Builder.IApplicationBuilder
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: true
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+- uid: Microsoft.AspNetCore.Antiforgery.IAntiforgery
+  commentId: T:Microsoft.AspNetCore.Antiforgery.IAntiforgery
+  parent: Microsoft.AspNetCore.Antiforgery
+  isExternal: false
+  name: IAntiforgery
+  nameWithType: IAntiforgery
+  fullName: Microsoft.AspNetCore.Antiforgery.IAntiforgery
+- uid: Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<AntiforgeryOptions>
+  nameWithType: IOptions<AntiforgeryOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions>
+  nameWithType.vb: IOptions(Of AntiforgeryOptions)
+  fullname.vb: Microsoft.Extensions.Options.IOptions(Of Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions)
+  name.vb: IOptions(Of AntiforgeryOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions
+    name: AntiforgeryOptions
+    nameWithType: AntiforgeryOptions
+    fullName: Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions
+    name: AntiforgeryOptions
+    nameWithType: AntiforgeryOptions
+    fullName: Microsoft.AspNetCore.Antiforgery.AntiforgeryOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AntiforgerySample.TodoRepository
+  commentId: T:AntiforgerySample.TodoRepository
+  parent: AntiforgerySample
+  isExternal: false
+  name: TodoRepository
+  nameWithType: TodoRepository
+  fullName: AntiforgerySample.TodoRepository
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+- uid: Microsoft.AspNetCore.Antiforgery
+  commentId: N:Microsoft.AspNetCore.Antiforgery
+  isExternal: false
+  name: Microsoft.AspNetCore.Antiforgery
+  nameWithType: Microsoft.AspNetCore.Antiforgery
+  fullName: Microsoft.AspNetCore.Antiforgery
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullname.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: false
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: System.String[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullname.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

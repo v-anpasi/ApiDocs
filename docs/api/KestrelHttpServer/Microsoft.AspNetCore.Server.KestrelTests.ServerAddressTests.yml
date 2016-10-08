@@ -1,0 +1,708 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  id: ServerAddressTests
+  parent: Microsoft.AspNetCore.Server.KestrelTests
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutHost(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutSchemeDelimiter(System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.PathBaseIsNotNormalized
+  - Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.UrlsAreParsedCorrectly(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  - Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.WithHostReturnsNewInstanceWithDifferentHost
+  langs:
+  - csharp
+  - vb
+  name: ServerAddressTests
+  nameWithType: ServerAddressTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: ServerAddressTests
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: public class ServerAddressTests
+    content.vb: Public Class ServerAddressTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutSchemeDelimiter(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutSchemeDelimiter(System.String)
+  id: FromUriThrowsForUrlsWithoutSchemeDelimiter(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  langs:
+  - csharp
+  - vb
+  name: FromUriThrowsForUrlsWithoutSchemeDelimiter(String)
+  nameWithType: ServerAddressTests.FromUriThrowsForUrlsWithoutSchemeDelimiter(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutSchemeDelimiter(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: FromUriThrowsForUrlsWithoutSchemeDelimiter
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+    startLine: 12
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{""})]
+
+      [InlineData(new object[]{"5000"})]
+
+      [InlineData(new object[]{"//noscheme"})]
+
+      public void FromUriThrowsForUrlsWithoutSchemeDelimiter(string url)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {""})>
+
+      <InlineData(New Object() {"5000"})>
+
+      <InlineData(New Object() {"//noscheme"})>
+
+      Public Sub FromUriThrowsForUrlsWithoutSchemeDelimiter(url As String)
+    parameters:
+    - id: url
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutHost(System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutHost(System.String)
+  id: FromUriThrowsForUrlsWithoutHost(System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  langs:
+  - csharp
+  - vb
+  name: FromUriThrowsForUrlsWithoutHost(String)
+  nameWithType: ServerAddressTests.FromUriThrowsForUrlsWithoutHost(String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.FromUriThrowsForUrlsWithoutHost(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: FromUriThrowsForUrlsWithoutHost
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"://"})]
+
+      [InlineData(new object[]{"://:5000"})]
+
+      [InlineData(new object[]{"http://"})]
+
+      [InlineData(new object[]{"http://:5000"})]
+
+      [InlineData(new object[]{"http:///"})]
+
+      [InlineData(new object[]{"http:///:5000"})]
+
+      [InlineData(new object[]{"http:////"})]
+
+      [InlineData(new object[]{"http:////:5000"})]
+
+      public void FromUriThrowsForUrlsWithoutHost(string url)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"://"})>
+
+      <InlineData(New Object() {"://:5000"})>
+
+      <InlineData(New Object() {"http://"})>
+
+      <InlineData(New Object() {"http://:5000"})>
+
+      <InlineData(New Object() {"http:///"})>
+
+      <InlineData(New Object() {"http:///:5000"})>
+
+      <InlineData(New Object() {"http:////"})>
+
+      <InlineData(New Object() {"http:////:5000"})>
+
+      Public Sub FromUriThrowsForUrlsWithoutHost(url As String)
+    parameters:
+    - id: url
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.UrlsAreParsedCorrectly(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.UrlsAreParsedCorrectly(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  id: UrlsAreParsedCorrectly(System.String,System.String,System.String,System.Int32,System.String,System.String)
+  parent: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  langs:
+  - csharp
+  - vb
+  name: UrlsAreParsedCorrectly(String, String, String, Int32, String, String)
+  nameWithType: ServerAddressTests.UrlsAreParsedCorrectly(String, String, String, Int32, String, String)
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.UrlsAreParsedCorrectly(System.String, System.String, System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: UrlsAreParsedCorrectly
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+    startLine: 35
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Theory]
+
+      [InlineData(new object[]{"://emptyscheme", "", "emptyscheme", 0, "", "://emptyscheme:0"})]
+
+      [InlineData(new object[]{"http://+", "http", "+", 80, "", "http://+:80"})]
+
+      [InlineData(new object[]{"http://*", "http", "*", 80, "", "http://*:80"})]
+
+      [InlineData(new object[]{"http://localhost", "http", "localhost", 80, "", "http://localhost:80"})]
+
+      [InlineData(new object[]{"http://www.example.com", "http", "www.example.com", 80, "", "http://www.example.com:80"})]
+
+      [InlineData(new object[]{"https://www.example.com", "https", "www.example.com", 443, "", "https://www.example.com:443"})]
+
+      [InlineData(new object[]{"http://www.example.com/", "http", "www.example.com", 80, "", "http://www.example.com:80"})]
+
+      [InlineData(new object[]{"http://www.example.com/foo?bar=baz", "http", "www.example.com", 80, "/foo?bar=baz", "http://www.example.com:80/foo?bar=baz"})]
+
+      [InlineData(new object[]{"http://www.example.com:5000", "http", "www.example.com", 5000, "", null})]
+
+      [InlineData(new object[]{"https://www.example.com:5000", "https", "www.example.com", 5000, "", null})]
+
+      [InlineData(new object[]{"http://www.example.com:5000/", "http", "www.example.com", 5000, "", "http://www.example.com:5000"})]
+
+      [InlineData(new object[]{"http://www.example.com:NOTAPORT", "http", "www.example.com:NOTAPORT", 80, "", "http://www.example.com:notaport:80"})]
+
+      [InlineData(new object[]{"https://www.example.com:NOTAPORT", "https", "www.example.com:NOTAPORT", 443, "", "https://www.example.com:notaport:443"})]
+
+      [InlineData(new object[]{"http://www.example.com:NOTAPORT/", "http", "www.example.com:NOTAPORT", 80, "", "http://www.example.com:notaport:80"})]
+
+      [InlineData(new object[]{"http://foo:/tmp/kestrel-test.sock:5000/doesn't/matter", "http", "foo:", 80, "/tmp/kestrel-test.sock:5000/doesn't/matter", "http://foo::80/tmp/kestrel-test.sock:5000/doesn't/matter"})]
+
+      [InlineData(new object[]{"http://unix:foo/tmp/kestrel-test.sock", "http", "unix:foo", 80, "/tmp/kestrel-test.sock", "http://unix:foo:80/tmp/kestrel-test.sock"})]
+
+      [InlineData(new object[]{"http://unix:5000/tmp/kestrel-test.sock", "http", "unix", 5000, "/tmp/kestrel-test.sock", null})]
+
+      [InlineData(new object[]{"http://unix:/tmp/kestrel-test.sock", "http", "unix:/tmp/kestrel-test.sock", 0, "", null})]
+
+      [InlineData(new object[]{"https://unix:/tmp/kestrel-test.sock", "https", "unix:/tmp/kestrel-test.sock", 0, "", null})]
+
+      [InlineData(new object[]{"http://unix:/tmp/kestrel-test.sock:", "http", "unix:/tmp/kestrel-test.sock", 0, "", "http://unix:/tmp/kestrel-test.sock"})]
+
+      [InlineData(new object[]{"http://unix:/tmp/kestrel-test.sock:/", "http", "unix:/tmp/kestrel-test.sock", 0, "", "http://unix:/tmp/kestrel-test.sock"})]
+
+      [InlineData(new object[]{"http://unix:/tmp/kestrel-test.sock:5000/doesn't/matter", "http", "unix:/tmp/kestrel-test.sock", 0, "5000/doesn't/matter", null})]
+
+      public void UrlsAreParsedCorrectly(string url, string scheme, string host, int port, string pathBase, string toString)
+    content.vb: >-
+      <Theory>
+
+      <InlineData(New Object() {"://emptyscheme", "", "emptyscheme", 0, "", "://emptyscheme:0"})>
+
+      <InlineData(New Object() {"http://+", "http", "+", 80, "", "http://+:80"})>
+
+      <InlineData(New Object() {"http://*", "http", "*", 80, "", "http://*:80"})>
+
+      <InlineData(New Object() {"http://localhost", "http", "localhost", 80, "", "http://localhost:80"})>
+
+      <InlineData(New Object() {"http://www.example.com", "http", "www.example.com", 80, "", "http://www.example.com:80"})>
+
+      <InlineData(New Object() {"https://www.example.com", "https", "www.example.com", 443, "", "https://www.example.com:443"})>
+
+      <InlineData(New Object() {"http://www.example.com/", "http", "www.example.com", 80, "", "http://www.example.com:80"})>
+
+      <InlineData(New Object() {"http://www.example.com/foo?bar=baz", "http", "www.example.com", 80, "/foo?bar=baz", "http://www.example.com:80/foo?bar=baz"})>
+
+      <InlineData(New Object() {"http://www.example.com:5000", "http", "www.example.com", 5000, "", Nothing})>
+
+      <InlineData(New Object() {"https://www.example.com:5000", "https", "www.example.com", 5000, "", Nothing})>
+
+      <InlineData(New Object() {"http://www.example.com:5000/", "http", "www.example.com", 5000, "", "http://www.example.com:5000"})>
+
+      <InlineData(New Object() {"http://www.example.com:NOTAPORT", "http", "www.example.com:NOTAPORT", 80, "", "http://www.example.com:notaport:80"})>
+
+      <InlineData(New Object() {"https://www.example.com:NOTAPORT", "https", "www.example.com:NOTAPORT", 443, "", "https://www.example.com:notaport:443"})>
+
+      <InlineData(New Object() {"http://www.example.com:NOTAPORT/", "http", "www.example.com:NOTAPORT", 80, "", "http://www.example.com:notaport:80"})>
+
+      <InlineData(New Object() {"http://foo:/tmp/kestrel-test.sock:5000/doesn't/matter", "http", "foo:", 80, "/tmp/kestrel-test.sock:5000/doesn't/matter", "http://foo::80/tmp/kestrel-test.sock:5000/doesn't/matter"})>
+
+      <InlineData(New Object() {"http://unix:foo/tmp/kestrel-test.sock", "http", "unix:foo", 80, "/tmp/kestrel-test.sock", "http://unix:foo:80/tmp/kestrel-test.sock"})>
+
+      <InlineData(New Object() {"http://unix:5000/tmp/kestrel-test.sock", "http", "unix", 5000, "/tmp/kestrel-test.sock", Nothing})>
+
+      <InlineData(New Object() {"http://unix:/tmp/kestrel-test.sock", "http", "unix:/tmp/kestrel-test.sock", 0, "", Nothing})>
+
+      <InlineData(New Object() {"https://unix:/tmp/kestrel-test.sock", "https", "unix:/tmp/kestrel-test.sock", 0, "", Nothing})>
+
+      <InlineData(New Object() {"http://unix:/tmp/kestrel-test.sock:", "http", "unix:/tmp/kestrel-test.sock", 0, "", "http://unix:/tmp/kestrel-test.sock"})>
+
+      <InlineData(New Object() {"http://unix:/tmp/kestrel-test.sock:/", "http", "unix:/tmp/kestrel-test.sock", 0, "", "http://unix:/tmp/kestrel-test.sock"})>
+
+      <InlineData(New Object() {"http://unix:/tmp/kestrel-test.sock:5000/doesn't/matter", "http", "unix:/tmp/kestrel-test.sock", 0, "5000/doesn't/matter", Nothing})>
+
+      Public Sub UrlsAreParsedCorrectly(url As String, scheme As String, host As String, port As Integer, pathBase As String, toString As String)
+    parameters:
+    - id: url
+      type: System.String
+    - id: scheme
+      type: System.String
+    - id: host
+      type: System.String
+    - id: port
+      type: System.Int32
+    - id: pathBase
+      type: System.String
+    - id: toString
+      type: System.String
+  attributes:
+  - type: Xunit.TheoryAttribute
+    ctor: Xunit.TheoryAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.PathBaseIsNotNormalized
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.PathBaseIsNotNormalized
+  id: PathBaseIsNotNormalized
+  parent: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  langs:
+  - csharp
+  - vb
+  name: PathBaseIsNotNormalized()
+  nameWithType: ServerAddressTests.PathBaseIsNotNormalized()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.PathBaseIsNotNormalized()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: PathBaseIsNotNormalized
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+    startLine: 70
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void PathBaseIsNotNormalized()
+    content.vb: >-
+      <Fact>
+
+      Public Sub PathBaseIsNotNormalized
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.WithHostReturnsNewInstanceWithDifferentHost
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.WithHostReturnsNewInstanceWithDifferentHost
+  id: WithHostReturnsNewInstanceWithDifferentHost
+  parent: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests
+  langs:
+  - csharp
+  - vb
+  name: WithHostReturnsNewInstanceWithDifferentHost()
+  nameWithType: ServerAddressTests.WithHostReturnsNewInstanceWithDifferentHost()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.ServerAddressTests.WithHostReturnsNewInstanceWithDifferentHost()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: WithHostReturnsNewInstanceWithDifferentHost
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/ServerAddressTests.cs
+    startLine: 79
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void WithHostReturnsNewInstanceWithDifferentHost()
+    content.vb: >-
+      <Fact>
+
+      Public Sub WithHostReturnsNewInstanceWithDifferentHost
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
+  fullName: Microsoft.AspNetCore.Server.KestrelTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

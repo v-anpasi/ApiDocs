@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  commentId: N:Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  id: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  children:
+  - Microsoft.AspNetCore.Authentication.Cookies.Infrastructure.CookieChunkingTests
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  nameWithType: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  fullName: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+references:
+- uid: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure.CookieChunkingTests
+  commentId: T:Microsoft.AspNetCore.Authentication.Cookies.Infrastructure.CookieChunkingTests
+  isExternal: false
+  name: CookieChunkingTests
+  nameWithType: CookieChunkingTests
+  fullName: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure.CookieChunkingTests

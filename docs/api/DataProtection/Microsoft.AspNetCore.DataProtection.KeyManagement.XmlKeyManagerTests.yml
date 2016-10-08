@@ -1,0 +1,983 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  id: XmlKeyManagerTests
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement
+  children:
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_CallsInternalManager
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_NoEscrowOrEncryption
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_WithEscrowAndEncryption
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithoutEncryptorOrRepository_UsesFallback
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_Empty
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_IgnoresUnknownElements
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_PerformsDecryption
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SurfacesRevocationDeserializationErrors
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SwallowsKeyDeserializationErrors
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_UnderstandsRevocations
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeAllKeys
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeKey_CallsInternalManager
+  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeSingleKey_Internal
+  langs:
+  - csharp
+  - vb
+  name: XmlKeyManagerTests
+  nameWithType: XmlKeyManagerTests
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: XmlKeyManagerTests
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: public class XmlKeyManagerTests
+    content.vb: Public Class XmlKeyManagerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithoutEncryptorOrRepository_UsesFallback
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithoutEncryptorOrRepository_UsesFallback
+  id: Ctor_WithoutEncryptorOrRepository_UsesFallback
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: Ctor_WithoutEncryptorOrRepository_UsesFallback()
+  nameWithType: XmlKeyManagerTests.Ctor_WithoutEncryptorOrRepository_UsesFallback()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithoutEncryptorOrRepository_UsesFallback()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: Ctor_WithoutEncryptorOrRepository_UsesFallback
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Ctor_WithoutEncryptorOrRepository_UsesFallback()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Ctor_WithoutEncryptorOrRepository_UsesFallback
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound
+  id: Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound()
+  nameWithType: XmlKeyManagerTests.Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 53
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound()
+    content.vb: >-
+      <Fact>
+
+      Public Sub Ctor_WithEncryptorButNoRepository_IgnoresFallback_FailsWithServiceNotFound
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_NoEscrowOrEncryption
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_NoEscrowOrEncryption
+  id: CreateNewKey_Internal_NoEscrowOrEncryption
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateNewKey_Internal_NoEscrowOrEncryption()
+  nameWithType: XmlKeyManagerTests.CreateNewKey_Internal_NoEscrowOrEncryption()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_NoEscrowOrEncryption()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateNewKey_Internal_NoEscrowOrEncryption
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 72
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateNewKey_Internal_NoEscrowOrEncryption()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateNewKey_Internal_NoEscrowOrEncryption
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_WithEscrowAndEncryption
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_WithEscrowAndEncryption
+  id: CreateNewKey_Internal_WithEscrowAndEncryption
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateNewKey_Internal_WithEscrowAndEncryption()
+  nameWithType: XmlKeyManagerTests.CreateNewKey_Internal_WithEscrowAndEncryption()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_Internal_WithEscrowAndEncryption()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateNewKey_Internal_WithEscrowAndEncryption
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 153
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateNewKey_Internal_WithEscrowAndEncryption()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateNewKey_Internal_WithEscrowAndEncryption
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_CallsInternalManager
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_CallsInternalManager
+  id: CreateNewKey_CallsInternalManager
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateNewKey_CallsInternalManager()
+  nameWithType: XmlKeyManagerTests.CreateNewKey_CallsInternalManager()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.CreateNewKey_CallsInternalManager()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: CreateNewKey_CallsInternalManager
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 274
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void CreateNewKey_CallsInternalManager()
+    content.vb: >-
+      <Fact>
+
+      Public Sub CreateNewKey_CallsInternalManager
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_Empty
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_Empty
+  id: GetAllKeys_Empty
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_Empty()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_Empty()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_Empty()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_Empty
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 305
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_Empty()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_Empty
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_IgnoresUnknownElements
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_IgnoresUnknownElements
+  id: GetAllKeys_IgnoresUnknownElements
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_IgnoresUnknownElements()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_IgnoresUnknownElements()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_IgnoresUnknownElements()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_IgnoresUnknownElements
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 319
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_IgnoresUnknownElements()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_IgnoresUnknownElements
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_UnderstandsRevocations
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_UnderstandsRevocations
+  id: GetAllKeys_UnderstandsRevocations
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_UnderstandsRevocations()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_UnderstandsRevocations()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_UnderstandsRevocations()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_UnderstandsRevocations
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 371
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_UnderstandsRevocations()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_UnderstandsRevocations
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_PerformsDecryption
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_PerformsDecryption
+  id: GetAllKeys_PerformsDecryption
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_PerformsDecryption()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_PerformsDecryption()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_PerformsDecryption()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_PerformsDecryption
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 444
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_PerformsDecryption()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_PerformsDecryption
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SwallowsKeyDeserializationErrors
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SwallowsKeyDeserializationErrors
+  id: GetAllKeys_SwallowsKeyDeserializationErrors
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_SwallowsKeyDeserializationErrors()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_SwallowsKeyDeserializationErrors()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SwallowsKeyDeserializationErrors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_SwallowsKeyDeserializationErrors
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 476
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_SwallowsKeyDeserializationErrors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_SwallowsKeyDeserializationErrors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation
+  id: GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 515
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_WithKeyDeserializationError_LogLevelDebug_DoesNotWriteSensitiveInformation
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation
+  id: GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 539
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_WithKeyDeserializationError_LogLevelTrace_WritesSensitiveInformation
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SurfacesRevocationDeserializationErrors
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SurfacesRevocationDeserializationErrors
+  id: GetAllKeys_SurfacesRevocationDeserializationErrors
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: GetAllKeys_SurfacesRevocationDeserializationErrors()
+  nameWithType: XmlKeyManagerTests.GetAllKeys_SurfacesRevocationDeserializationErrors()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.GetAllKeys_SurfacesRevocationDeserializationErrors()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: GetAllKeys_SurfacesRevocationDeserializationErrors
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 563
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void GetAllKeys_SurfacesRevocationDeserializationErrors()
+    content.vb: >-
+      <Fact>
+
+      Public Sub GetAllKeys_SurfacesRevocationDeserializationErrors
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeAllKeys
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeAllKeys
+  id: RevokeAllKeys
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: RevokeAllKeys()
+  nameWithType: XmlKeyManagerTests.RevokeAllKeys()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeAllKeys()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: RevokeAllKeys
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 602
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RevokeAllKeys()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RevokeAllKeys
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeSingleKey_Internal
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeSingleKey_Internal
+  id: RevokeSingleKey_Internal
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: RevokeSingleKey_Internal()
+  nameWithType: XmlKeyManagerTests.RevokeSingleKey_Internal()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeSingleKey_Internal()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: RevokeSingleKey_Internal
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 651
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RevokeSingleKey_Internal()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RevokeSingleKey_Internal
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeKey_CallsInternalManager
+  commentId: M:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeKey_CallsInternalManager
+  id: RevokeKey_CallsInternalManager
+  parent: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
+  langs:
+  - csharp
+  - vb
+  name: RevokeKey_CallsInternalManager()
+  nameWithType: XmlKeyManagerTests.RevokeKey_CallsInternalManager()
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests.RevokeKey_CallsInternalManager()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+      branch: master
+      repo: https://github.com/aspnet/DataProtection.git
+    id: RevokeKey_CallsInternalManager
+    path: test/Microsoft.AspNetCore.DataProtection.Test/KeyManagement/XmlKeyManagerTests.cs
+    startLine: 703
+  assemblies:
+  - Microsoft.AspNetCore.DataProtection.Test
+  namespace: Microsoft.AspNetCore.DataProtection.KeyManagement
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RevokeKey_CallsInternalManager()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RevokeKey_CallsInternalManager
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.DataProtection.KeyManagement
+  commentId: N:Microsoft.AspNetCore.DataProtection.KeyManagement
+  isExternal: false
+  name: Microsoft.AspNetCore.DataProtection.KeyManagement
+  nameWithType: Microsoft.AspNetCore.DataProtection.KeyManagement
+  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

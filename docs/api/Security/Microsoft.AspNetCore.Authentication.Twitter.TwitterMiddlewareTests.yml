@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  commentId: T:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  id: TwitterMiddlewareTests
+  parent: Microsoft.AspNetCore.Authentication.Twitter
+  children:
+  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.BadSignInWillThrow
+  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent
+  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerRedirection
+  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ForbidThrows
+  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignInThrows
+  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignOutThrows
+  langs:
+  - csharp
+  - vb
+  name: TwitterMiddlewareTests
+  nameWithType: TwitterMiddlewareTests
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: TwitterMiddlewareTests
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: public class TwitterMiddlewareTests
+    content.vb: Public Class TwitterMiddlewareTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent
+  commentId: M:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent
+  id: ChallengeWillTriggerApplyRedirectEvent
+  parent: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillTriggerApplyRedirectEvent()
+  nameWithType: TwitterMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent()
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerApplyRedirectEvent()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillTriggerApplyRedirectEvent
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillTriggerApplyRedirectEvent()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillTriggerApplyRedirectEvent As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.BadSignInWillThrow
+  commentId: M:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.BadSignInWillThrow
+  id: BadSignInWillThrow
+  parent: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: BadSignInWillThrow()
+  nameWithType: TwitterMiddlewareTests.BadSignInWillThrow()
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.BadSignInWillThrow()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: BadSignInWillThrow
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 64
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task BadSignInWillThrow()
+    content.vb: >-
+      <Fact>
+
+      Public Function BadSignInWillThrow As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignInThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignInThrows
+  id: SignInThrows
+  parent: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignInThrows()
+  nameWithType: TwitterMiddlewareTests.SignInThrows()
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignInThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignInThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 78
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignInThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignInThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignOutThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignOutThrows
+  id: SignOutThrows
+  parent: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: SignOutThrows()
+  nameWithType: TwitterMiddlewareTests.SignOutThrows()
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.SignOutThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: SignOutThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 90
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task SignOutThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function SignOutThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ForbidThrows
+  commentId: M:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ForbidThrows
+  id: ForbidThrows
+  parent: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ForbidThrows()
+  nameWithType: TwitterMiddlewareTests.ForbidThrows()
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ForbidThrows()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ForbidThrows
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ForbidThrows()
+    content.vb: >-
+      <Fact>
+
+      Public Function ForbidThrows As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerRedirection
+  commentId: M:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerRedirection
+  id: ChallengeWillTriggerRedirection
+  parent: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
+  langs:
+  - csharp
+  - vb
+  name: ChallengeWillTriggerRedirection()
+  nameWithType: TwitterMiddlewareTests.ChallengeWillTriggerRedirection()
+  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests.ChallengeWillTriggerRedirection()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ChallengeWillTriggerRedirection
+    path: test/Microsoft.AspNetCore.Authentication.Test/Twitter/TwitterMiddlewareTests.cs
+    startLine: 115
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Twitter
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task ChallengeWillTriggerRedirection()
+    content.vb: >-
+      <Fact>
+
+      Public Function ChallengeWillTriggerRedirection As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Authentication.Twitter
+  commentId: N:Microsoft.AspNetCore.Authentication.Twitter
+  isExternal: false
+  name: Microsoft.AspNetCore.Authentication.Twitter
+  nameWithType: Microsoft.AspNetCore.Authentication.Twitter
+  fullName: Microsoft.AspNetCore.Authentication.Twitter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

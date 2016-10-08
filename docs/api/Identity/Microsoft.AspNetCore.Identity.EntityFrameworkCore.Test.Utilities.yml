@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  id: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  children:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+references:
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  isExternal: false
+  name: SqlServerTestStore
+  nameWithType: SqlServerTestStore
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.TestEnvironment
+  commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.TestEnvironment
+  isExternal: false
+  name: TestEnvironment
+  nameWithType: TestEnvironment
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.TestEnvironment
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities

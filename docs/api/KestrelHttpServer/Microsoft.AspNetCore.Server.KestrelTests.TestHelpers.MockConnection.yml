@@ -1,0 +1,1028 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  id: MockConnection
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  children:
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.#ctor
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Abort
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Dispose
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.OnSocketClosed
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.RequestAbortedSource
+  - Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.SocketClosed
+  langs:
+  - csharp
+  - vb
+  name: MockConnection
+  nameWithType: MockConnection
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: MockConnection
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: 'public class MockConnection : Connection, IConnectionControl, IDisposable'
+    content.vb: >-
+      Public Class MockConnection
+          Inherits Connection
+          Implements IConnectionControl, IDisposable
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  implements:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl
+  - System.IDisposable
+  inheritedMembers:
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Pause
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Resume
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#End(Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType)
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketInput
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketOutput
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionControl
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.RemoteEndPoint
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.LocalEndPoint
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionId
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.PrepareRequest
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ServerAddress
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Thread
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Memory
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ConnectionManager
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.WriteReqPool
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+  - Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.#ctor
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.#ctor
+  id: '#ctor'
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  langs:
+  - csharp
+  - vb
+  name: MockConnection()
+  nameWithType: MockConnection.MockConnection()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.MockConnection()
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public MockConnection()
+    content.vb: Public Sub New
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Abort
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Abort
+  id: Abort
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  langs:
+  - csharp
+  - vb
+  name: Abort()
+  nameWithType: MockConnection.Abort()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Abort()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Abort
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 19
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public override void Abort()
+    content.vb: Public Overrides Sub Abort
+  overridden: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.OnSocketClosed
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.OnSocketClosed
+  id: OnSocketClosed
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  langs:
+  - csharp
+  - vb
+  name: OnSocketClosed()
+  nameWithType: MockConnection.OnSocketClosed()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.OnSocketClosed()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: OnSocketClosed
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public override void OnSocketClosed()
+    content.vb: Public Overrides Sub OnSocketClosed
+  overridden: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.RequestAbortedSource
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.RequestAbortedSource
+  id: RequestAbortedSource
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  langs:
+  - csharp
+  - vb
+  name: RequestAbortedSource
+  nameWithType: MockConnection.RequestAbortedSource
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.RequestAbortedSource
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: RequestAbortedSource
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public CancellationTokenSource RequestAbortedSource { get; }
+    content.vb: Public ReadOnly Property RequestAbortedSource As CancellationTokenSource
+    parameters: []
+    return:
+      type: System.Threading.CancellationTokenSource
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.SocketClosed
+  commentId: P:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.SocketClosed
+  id: SocketClosed
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  langs:
+  - csharp
+  - vb
+  name: SocketClosed
+  nameWithType: MockConnection.SocketClosed
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.SocketClosed
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: SocketClosed
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 34
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public Task SocketClosed { get; }
+    content.vb: Public ReadOnly Property SocketClosed As Task
+    parameters: []
+    return:
+      type: System.Threading.Tasks.Task
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Dispose
+  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Dispose
+  id: Dispose
+  parent: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MockConnection.Dispose()
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers.MockConnection.Dispose()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+      branch: master
+      repo: https://github.com/aspnet/KestrelHttpServer.git
+    id: Dispose
+    path: test/Microsoft.AspNetCore.Server.KestrelTests/TestHelpers/MockConnection.cs
+    startLine: 42
+  assemblies:
+  - Microsoft.AspNetCore.Server.KestrelTests
+  namespace: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  commentId: N:Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  nameWithType: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+  fullName: Microsoft.AspNetCore.Server.KestrelTests.TestHelpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal
+  isExternal: false
+  name: ServiceContext
+  nameWithType: ServiceContext
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: ListenerContext
+  nameWithType: ListenerContext
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: ConnectionContext
+  nameWithType: ConnectionContext
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: Connection
+  nameWithType: Connection
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl
+  commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: IConnectionControl
+  nameWithType: IConnectionControl
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: Start()
+  nameWithType: Connection.Start()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+    name: Start
+    nameWithType: Connection.Start
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+    name: Start
+    nameWithType: Connection.Start
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: StopAsync()
+  nameWithType: Connection.StopAsync()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+    name: StopAsync
+    nameWithType: Connection.StopAsync
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+    name: StopAsync
+    nameWithType: Connection.StopAsync
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.StopAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Pause
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Pause
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: IConnectionControl.Pause()
+  nameWithType: Connection.IConnectionControl.Pause()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause()
+  nameWithType.vb: Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause()
+  name.vb: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Pause
+    name: IConnectionControl.Pause
+    nameWithType: Connection.IConnectionControl.Pause
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Pause
+    name: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause
+    nameWithType: Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Pause
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Resume
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Resume
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: IConnectionControl.Resume()
+  nameWithType: Connection.IConnectionControl.Resume()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume()
+  nameWithType.vb: Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume()
+  name.vb: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Resume
+    name: IConnectionControl.Resume
+    nameWithType: Connection.IConnectionControl.Resume
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#Resume
+    name: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume
+    nameWithType: Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.Resume
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#End(Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType)
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#End(Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType)
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: IConnectionControl.End(ProduceEndType)
+  nameWithType: Connection.IConnectionControl.End(ProduceEndType)
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End(Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType)
+  nameWithType.vb: Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End(ProduceEndType)
+  name.vb: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End(ProduceEndType)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#End(Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType)
+    name: IConnectionControl.End
+    nameWithType: Connection.IConnectionControl.End
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType
+    name: ProduceEndType
+    nameWithType: ProduceEndType
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft#AspNetCore#Server#Kestrel#Internal#Http#IConnectionControl#End(Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType)
+    name: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End
+    nameWithType: Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Microsoft.AspNetCore.Server.Kestrel.Internal.Http.IConnectionControl.End
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType
+    name: ProduceEndType
+    nameWithType: ProduceEndType
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ProduceEndType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketInput
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketInput
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: SocketInput
+  nameWithType: ConnectionContext.SocketInput
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketInput
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketOutput
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketOutput
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: SocketOutput
+  nameWithType: ConnectionContext.SocketOutput
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.SocketOutput
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionControl
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionControl
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: ConnectionControl
+  nameWithType: ConnectionContext.ConnectionControl
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionControl
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.RemoteEndPoint
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.RemoteEndPoint
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: RemoteEndPoint
+  nameWithType: ConnectionContext.RemoteEndPoint
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.RemoteEndPoint
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.LocalEndPoint
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.LocalEndPoint
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: LocalEndPoint
+  nameWithType: ConnectionContext.LocalEndPoint
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.LocalEndPoint
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionId
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionId
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: ConnectionId
+  nameWithType: ConnectionContext.ConnectionId
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.ConnectionId
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.PrepareRequest
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.PrepareRequest
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext
+  isExternal: false
+  name: PrepareRequest
+  nameWithType: ConnectionContext.PrepareRequest
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ConnectionContext.PrepareRequest
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ServerAddress
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ServerAddress
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  isExternal: false
+  name: ServerAddress
+  nameWithType: ListenerContext.ServerAddress
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ServerAddress
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Thread
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Thread
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  isExternal: false
+  name: Thread
+  nameWithType: ListenerContext.Thread
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Thread
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Memory
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Memory
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  isExternal: false
+  name: Memory
+  nameWithType: ListenerContext.Memory
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.Memory
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ConnectionManager
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ConnectionManager
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  isExternal: false
+  name: ConnectionManager
+  nameWithType: ListenerContext.ConnectionManager
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.ConnectionManager
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.WriteReqPool
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.WriteReqPool
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext
+  isExternal: false
+  name: WriteReqPool
+  nameWithType: ListenerContext.WriteReqPool
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.ListenerContext.WriteReqPool
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: AppLifetime
+  nameWithType: ServiceContext.AppLifetime
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.AppLifetime
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: Log
+  nameWithType: ServiceContext.Log
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.Log
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: ThreadPool
+  nameWithType: ServiceContext.ThreadPool
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ThreadPool
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: FrameFactory
+  nameWithType: ServiceContext.FrameFactory
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.FrameFactory
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: DateHeaderValueManager
+  nameWithType: ServiceContext.DateHeaderValueManager
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.DateHeaderValueManager
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+  commentId: P:Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext
+  isExternal: false
+  name: ServerOptions
+  nameWithType: ServiceContext.ServerOptions
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.ServiceContext.ServerOptions
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal
+  commentId: N:Microsoft.AspNetCore.Server.Kestrel.Internal
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal
+  nameWithType: Microsoft.AspNetCore.Server.Kestrel.Internal
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  commentId: N:Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  isExternal: false
+  name: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  nameWithType: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: Abort()
+  nameWithType: Connection.Abort()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+    name: Abort
+    nameWithType: Connection.Abort
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+    name: Abort
+    nameWithType: Connection.Abort
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.Abort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+  commentId: M:Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+  parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection
+  isExternal: false
+  name: OnSocketClosed()
+  nameWithType: Connection.OnSocketClosed()
+  fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+    name: OnSocketClosed
+    nameWithType: Connection.OnSocketClosed
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+    name: OnSocketClosed
+    nameWithType: Connection.OnSocketClosed
+    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Connection.OnSocketClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationTokenSource
+  commentId: T:System.Threading.CancellationTokenSource
+  parent: System.Threading
+  isExternal: true
+  name: CancellationTokenSource
+  nameWithType: CancellationTokenSource
+  fullName: System.Threading.CancellationTokenSource
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: false
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

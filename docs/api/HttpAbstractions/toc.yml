@@ -1,0 +1,369 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    name: IApplicationBuilder
+  - uid: Microsoft.AspNetCore.Builder.MapExtensions
+    name: MapExtensions
+  - uid: Microsoft.AspNetCore.Builder.MapWhenExtensions
+    name: MapWhenExtensions
+  - uid: Microsoft.AspNetCore.Builder.OwinExtensions
+    name: OwinExtensions
+  - uid: Microsoft.AspNetCore.Builder.RunExtensions
+    name: RunExtensions
+  - uid: Microsoft.AspNetCore.Builder.UseExtensions
+    name: UseExtensions
+  - uid: Microsoft.AspNetCore.Builder.UseMiddlewareExtensions
+    name: UseMiddlewareExtensions
+- uid: Microsoft.AspNetCore.Builder.Extensions
+  name: Microsoft.AspNetCore.Builder.Extensions
+  items:
+  - uid: Microsoft.AspNetCore.Builder.Extensions.MapMiddleware
+    name: MapMiddleware
+  - uid: Microsoft.AspNetCore.Builder.Extensions.MapOptions
+    name: MapOptions
+  - uid: Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware
+    name: MapWhenMiddleware
+  - uid: Microsoft.AspNetCore.Builder.Extensions.MapWhenOptions
+    name: MapWhenOptions
+- uid: Microsoft.AspNetCore.Builder.Internal
+  name: Microsoft.AspNetCore.Builder.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder
+    name: ApplicationBuilder
+- uid: Microsoft.AspNetCore.Http
+  name: Microsoft.AspNetCore.Http
+  items:
+  - uid: Microsoft.AspNetCore.Http.ConnectionInfo
+    name: ConnectionInfo
+  - uid: Microsoft.AspNetCore.Http.CookieOptions
+    name: CookieOptions
+  - uid: Microsoft.AspNetCore.Http.CookieSecurePolicy
+    name: CookieSecurePolicy
+  - uid: Microsoft.AspNetCore.Http.DefaultHttpContext
+    name: DefaultHttpContext
+  - uid: Microsoft.AspNetCore.Http.FormCollection
+    name: FormCollection
+  - uid: Microsoft.AspNetCore.Http.FormCollection.Enumerator
+    name: FormCollection.Enumerator
+  - uid: Microsoft.AspNetCore.Http.FragmentString
+    name: FragmentString
+  - uid: Microsoft.AspNetCore.Http.HeaderDictionary
+    name: HeaderDictionary
+  - uid: Microsoft.AspNetCore.Http.HeaderDictionary.Enumerator
+    name: HeaderDictionary.Enumerator
+  - uid: Microsoft.AspNetCore.Http.HeaderDictionaryExtensions
+    name: HeaderDictionaryExtensions
+  - uid: Microsoft.AspNetCore.Http.HeaderDictionaryTypeExtensions
+    name: HeaderDictionaryTypeExtensions
+  - uid: Microsoft.AspNetCore.Http.HostString
+    name: HostString
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+  - uid: Microsoft.AspNetCore.Http.HttpContextAccessor
+    name: HttpContextAccessor
+  - uid: Microsoft.AspNetCore.Http.HttpContextFactory
+    name: HttpContextFactory
+  - uid: Microsoft.AspNetCore.Http.HttpRequest
+    name: HttpRequest
+  - uid: Microsoft.AspNetCore.Http.HttpResponse
+    name: HttpResponse
+  - uid: Microsoft.AspNetCore.Http.HttpResponseWritingExtensions
+    name: HttpResponseWritingExtensions
+  - uid: Microsoft.AspNetCore.Http.IFormCollection
+    name: IFormCollection
+  - uid: Microsoft.AspNetCore.Http.IFormFile
+    name: IFormFile
+  - uid: Microsoft.AspNetCore.Http.IFormFileCollection
+    name: IFormFileCollection
+  - uid: Microsoft.AspNetCore.Http.IHeaderDictionary
+    name: IHeaderDictionary
+  - uid: Microsoft.AspNetCore.Http.IHttpContextAccessor
+    name: IHttpContextAccessor
+  - uid: Microsoft.AspNetCore.Http.IHttpContextFactory
+    name: IHttpContextFactory
+  - uid: Microsoft.AspNetCore.Http.IQueryCollection
+    name: IQueryCollection
+  - uid: Microsoft.AspNetCore.Http.IRequestCookieCollection
+    name: IRequestCookieCollection
+  - uid: Microsoft.AspNetCore.Http.IResponseCookies
+    name: IResponseCookies
+  - uid: Microsoft.AspNetCore.Http.ISession
+    name: ISession
+  - uid: Microsoft.AspNetCore.Http.PathString
+    name: PathString
+  - uid: Microsoft.AspNetCore.Http.QueryString
+    name: QueryString
+  - uid: Microsoft.AspNetCore.Http.RequestDelegate
+    name: RequestDelegate
+  - uid: Microsoft.AspNetCore.Http.RequestFormReaderExtensions
+    name: RequestFormReaderExtensions
+  - uid: Microsoft.AspNetCore.Http.ResponseExtensions
+    name: ResponseExtensions
+  - uid: Microsoft.AspNetCore.Http.SendFileResponseExtensions
+    name: SendFileResponseExtensions
+  - uid: Microsoft.AspNetCore.Http.SessionExtensions
+    name: SessionExtensions
+  - uid: Microsoft.AspNetCore.Http.StatusCodes
+    name: StatusCodes
+  - uid: Microsoft.AspNetCore.Http.WebSocketAcceptContext
+    name: WebSocketAcceptContext
+  - uid: Microsoft.AspNetCore.Http.WebSocketManager
+    name: WebSocketManager
+- uid: Microsoft.AspNetCore.Http.Authentication
+  name: Microsoft.AspNetCore.Http.Authentication
+  items:
+  - uid: Microsoft.AspNetCore.Http.Authentication.AuthenticateInfo
+    name: AuthenticateInfo
+  - uid: Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription
+    name: AuthenticationDescription
+  - uid: Microsoft.AspNetCore.Http.Authentication.AuthenticationManager
+    name: AuthenticationManager
+  - uid: Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties
+    name: AuthenticationProperties
+- uid: Microsoft.AspNetCore.Http.Authentication.Internal
+  name: Microsoft.AspNetCore.Http.Authentication.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Http.Authentication.Internal.DefaultAuthenticationManager
+    name: DefaultAuthenticationManager
+- uid: Microsoft.AspNetCore.Http.Extensions
+  name: Microsoft.AspNetCore.Http.Extensions
+  items:
+  - uid: Microsoft.AspNetCore.Http.Extensions.QueryBuilder
+    name: QueryBuilder
+  - uid: Microsoft.AspNetCore.Http.Extensions.StreamCopyOperation
+    name: StreamCopyOperation
+  - uid: Microsoft.AspNetCore.Http.Extensions.UriHelper
+    name: UriHelper
+- uid: Microsoft.AspNetCore.Http.Features
+  name: Microsoft.AspNetCore.Http.Features
+  items:
+  - uid: Microsoft.AspNetCore.Http.Features.DefaultSessionFeature
+    name: DefaultSessionFeature
+  - uid: Microsoft.AspNetCore.Http.Features.FeatureCollection
+    name: FeatureCollection
+  - uid: Microsoft.AspNetCore.Http.Features.FeatureReference`1
+    name: FeatureReference<T>
+    name.vb: FeatureReference(Of T)
+  - uid: Microsoft.AspNetCore.Http.Features.FeatureReferences`1
+    name: FeatureReferences<TCache>
+    name.vb: FeatureReferences(Of TCache)
+  - uid: Microsoft.AspNetCore.Http.Features.FormFeature
+    name: FormFeature
+  - uid: Microsoft.AspNetCore.Http.Features.FormOptions
+    name: FormOptions
+  - uid: Microsoft.AspNetCore.Http.Features.HttpConnectionFeature
+    name: HttpConnectionFeature
+  - uid: Microsoft.AspNetCore.Http.Features.HttpRequestFeature
+    name: HttpRequestFeature
+  - uid: Microsoft.AspNetCore.Http.Features.HttpRequestIdentifierFeature
+    name: HttpRequestIdentifierFeature
+  - uid: Microsoft.AspNetCore.Http.Features.HttpRequestLifetimeFeature
+    name: HttpRequestLifetimeFeature
+  - uid: Microsoft.AspNetCore.Http.Features.HttpResponseFeature
+    name: HttpResponseFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IFeatureCollection
+    name: IFeatureCollection
+  - uid: Microsoft.AspNetCore.Http.Features.IFormFeature
+    name: IFormFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpBufferingFeature
+    name: IHttpBufferingFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpConnectionFeature
+    name: IHttpConnectionFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpRequestFeature
+    name: IHttpRequestFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpRequestIdentifierFeature
+    name: IHttpRequestIdentifierFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpRequestLifetimeFeature
+    name: IHttpRequestLifetimeFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpResponseFeature
+    name: IHttpResponseFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpSendFileFeature
+    name: IHttpSendFileFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpUpgradeFeature
+    name: IHttpUpgradeFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IHttpWebSocketFeature
+    name: IHttpWebSocketFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IItemsFeature
+    name: IItemsFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IQueryFeature
+    name: IQueryFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IRequestCookiesFeature
+    name: IRequestCookiesFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IResponseCookiesFeature
+    name: IResponseCookiesFeature
+  - uid: Microsoft.AspNetCore.Http.Features.IServiceProvidersFeature
+    name: IServiceProvidersFeature
+  - uid: Microsoft.AspNetCore.Http.Features.ISessionFeature
+    name: ISessionFeature
+  - uid: Microsoft.AspNetCore.Http.Features.ItemsFeature
+    name: ItemsFeature
+  - uid: Microsoft.AspNetCore.Http.Features.ITlsConnectionFeature
+    name: ITlsConnectionFeature
+  - uid: Microsoft.AspNetCore.Http.Features.ITlsTokenBindingFeature
+    name: ITlsTokenBindingFeature
+  - uid: Microsoft.AspNetCore.Http.Features.QueryFeature
+    name: QueryFeature
+  - uid: Microsoft.AspNetCore.Http.Features.RequestCookiesFeature
+    name: RequestCookiesFeature
+  - uid: Microsoft.AspNetCore.Http.Features.ResponseCookiesFeature
+    name: ResponseCookiesFeature
+  - uid: Microsoft.AspNetCore.Http.Features.ServiceProvidersFeature
+    name: ServiceProvidersFeature
+  - uid: Microsoft.AspNetCore.Http.Features.TlsConnectionFeature
+    name: TlsConnectionFeature
+- uid: Microsoft.AspNetCore.Http.Features.Authentication
+  name: Microsoft.AspNetCore.Http.Features.Authentication
+  items:
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.AuthenticateContext
+    name: AuthenticateContext
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.ChallengeBehavior
+    name: ChallengeBehavior
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.ChallengeContext
+    name: ChallengeContext
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.DescribeSchemesContext
+    name: DescribeSchemesContext
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.HttpAuthenticationFeature
+    name: HttpAuthenticationFeature
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.IAuthenticationHandler
+    name: IAuthenticationHandler
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.IHttpAuthenticationFeature
+    name: IHttpAuthenticationFeature
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.SignInContext
+    name: SignInContext
+  - uid: Microsoft.AspNetCore.Http.Features.Authentication.SignOutContext
+    name: SignOutContext
+- uid: Microsoft.AspNetCore.Http.Headers
+  name: Microsoft.AspNetCore.Http.Headers
+  items:
+  - uid: Microsoft.AspNetCore.Http.Headers.RequestHeaders
+    name: RequestHeaders
+  - uid: Microsoft.AspNetCore.Http.Headers.ResponseHeaders
+    name: ResponseHeaders
+- uid: Microsoft.AspNetCore.Http.Internal
+  name: Microsoft.AspNetCore.Http.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Http.Internal.BufferingHelper
+    name: BufferingHelper
+  - uid: Microsoft.AspNetCore.Http.Internal.DefaultConnectionInfo
+    name: DefaultConnectionInfo
+  - uid: Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+    name: DefaultHttpRequest
+  - uid: Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+    name: DefaultHttpResponse
+  - uid: Microsoft.AspNetCore.Http.Internal.DefaultWebSocketManager
+    name: DefaultWebSocketManager
+  - uid: Microsoft.AspNetCore.Http.Internal.FormFile
+    name: FormFile
+  - uid: Microsoft.AspNetCore.Http.Internal.FormFileCollection
+    name: FormFileCollection
+  - uid: Microsoft.AspNetCore.Http.Internal.ItemsDictionary
+    name: ItemsDictionary
+  - uid: Microsoft.AspNetCore.Http.Internal.QueryCollection
+    name: QueryCollection
+  - uid: Microsoft.AspNetCore.Http.Internal.QueryCollection.Enumerator
+    name: QueryCollection.Enumerator
+  - uid: Microsoft.AspNetCore.Http.Internal.RequestCookieCollection
+    name: RequestCookieCollection
+  - uid: Microsoft.AspNetCore.Http.Internal.RequestCookieCollection.Enumerator
+    name: RequestCookieCollection.Enumerator
+  - uid: Microsoft.AspNetCore.Http.Internal.ResponseCookies
+    name: ResponseCookies
+- uid: Microsoft.AspNetCore.Owin
+  name: Microsoft.AspNetCore.Owin
+  items:
+  - uid: Microsoft.AspNetCore.Owin.IOwinEnvironmentFeature
+    name: IOwinEnvironmentFeature
+  - uid: Microsoft.AspNetCore.Owin.OwinEnvironment
+    name: OwinEnvironment
+  - uid: Microsoft.AspNetCore.Owin.OwinEnvironment.FeatureMap
+    name: OwinEnvironment.FeatureMap
+  - uid: Microsoft.AspNetCore.Owin.OwinEnvironment.FeatureMap`1
+    name: OwinEnvironment.FeatureMap<TFeature>
+    name.vb: OwinEnvironment.FeatureMap(Of TFeature)
+  - uid: Microsoft.AspNetCore.Owin.OwinEnvironmentFeature
+    name: OwinEnvironmentFeature
+  - uid: Microsoft.AspNetCore.Owin.OwinFeatureCollection
+    name: OwinFeatureCollection
+  - uid: Microsoft.AspNetCore.Owin.OwinWebSocketAcceptAdapter
+    name: OwinWebSocketAcceptAdapter
+  - uid: Microsoft.AspNetCore.Owin.OwinWebSocketAcceptContext
+    name: OwinWebSocketAcceptContext
+  - uid: Microsoft.AspNetCore.Owin.OwinWebSocketAdapter
+    name: OwinWebSocketAdapter
+  - uid: Microsoft.AspNetCore.Owin.WebSocketAcceptAdapter
+    name: WebSocketAcceptAdapter
+  - uid: Microsoft.AspNetCore.Owin.WebSocketAdapter
+    name: WebSocketAdapter
+- uid: Microsoft.AspNetCore.WebUtilities
+  name: Microsoft.AspNetCore.WebUtilities
+  items:
+  - uid: Microsoft.AspNetCore.WebUtilities.FileBufferingReadStream
+    name: FileBufferingReadStream
+  - uid: Microsoft.AspNetCore.WebUtilities.FormReader
+    name: FormReader
+  - uid: Microsoft.AspNetCore.WebUtilities.HttpRequestStreamReader
+    name: HttpRequestStreamReader
+  - uid: Microsoft.AspNetCore.WebUtilities.HttpResponseStreamWriter
+    name: HttpResponseStreamWriter
+  - uid: Microsoft.AspNetCore.WebUtilities.KeyValueAccumulator
+    name: KeyValueAccumulator
+  - uid: Microsoft.AspNetCore.WebUtilities.MultipartReader
+    name: MultipartReader
+  - uid: Microsoft.AspNetCore.WebUtilities.MultipartSection
+    name: MultipartSection
+  - uid: Microsoft.AspNetCore.WebUtilities.QueryHelpers
+    name: QueryHelpers
+  - uid: Microsoft.AspNetCore.WebUtilities.ReasonPhrases
+    name: ReasonPhrases
+  - uid: Microsoft.AspNetCore.WebUtilities.StreamHelperExtensions
+    name: StreamHelperExtensions
+  - uid: Microsoft.AspNetCore.WebUtilities.WebEncoders
+    name: WebEncoders
+- uid: Microsoft.Net.Http.Headers
+  name: Microsoft.Net.Http.Headers
+  items:
+  - uid: Microsoft.Net.Http.Headers.CacheControlHeaderValue
+    name: CacheControlHeaderValue
+  - uid: Microsoft.Net.Http.Headers.ContentDispositionHeaderValue
+    name: ContentDispositionHeaderValue
+  - uid: Microsoft.Net.Http.Headers.ContentRangeHeaderValue
+    name: ContentRangeHeaderValue
+  - uid: Microsoft.Net.Http.Headers.CookieHeaderValue
+    name: CookieHeaderValue
+  - uid: Microsoft.Net.Http.Headers.EntityTagHeaderValue
+    name: EntityTagHeaderValue
+  - uid: Microsoft.Net.Http.Headers.HeaderNames
+    name: HeaderNames
+  - uid: Microsoft.Net.Http.Headers.HeaderQuality
+    name: HeaderQuality
+  - uid: Microsoft.Net.Http.Headers.HeaderUtilities
+    name: HeaderUtilities
+  - uid: Microsoft.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+  - uid: Microsoft.Net.Http.Headers.MediaTypeHeaderValueComparer
+    name: MediaTypeHeaderValueComparer
+  - uid: Microsoft.Net.Http.Headers.NameValueHeaderValue
+    name: NameValueHeaderValue
+  - uid: Microsoft.Net.Http.Headers.RangeConditionHeaderValue
+    name: RangeConditionHeaderValue
+  - uid: Microsoft.Net.Http.Headers.RangeHeaderValue
+    name: RangeHeaderValue
+  - uid: Microsoft.Net.Http.Headers.RangeItemHeaderValue
+    name: RangeItemHeaderValue
+  - uid: Microsoft.Net.Http.Headers.SetCookieHeaderValue
+    name: SetCookieHeaderValue
+  - uid: Microsoft.Net.Http.Headers.StringWithQualityHeaderValue
+    name: StringWithQualityHeaderValue
+  - uid: Microsoft.Net.Http.Headers.StringWithQualityHeaderValueComparer
+    name: StringWithQualityHeaderValueComparer
+- uid: SampleApp
+  name: SampleApp
+  items:
+  - uid: SampleApp.PooledHttpContext
+    name: PooledHttpContext
+  - uid: SampleApp.PooledHttpContextFactory
+    name: PooledHttpContextFactory
+  - uid: SampleApp.Program
+    name: Program

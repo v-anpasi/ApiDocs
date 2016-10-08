@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  id: Microsoft.AspNetCore.Hosting
+  children:
+  - Microsoft.AspNetCore.Hosting.WebHostBuilderIISExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Server.IISIntegration
+references:
+- uid: Microsoft.AspNetCore.Hosting.WebHostBuilderIISExtensions
+  commentId: T:Microsoft.AspNetCore.Hosting.WebHostBuilderIISExtensions
+  isExternal: false
+  name: WebHostBuilderIISExtensions
+  nameWithType: WebHostBuilderIISExtensions
+  fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderIISExtensions

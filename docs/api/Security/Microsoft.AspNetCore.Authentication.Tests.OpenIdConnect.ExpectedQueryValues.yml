@@ -1,0 +1,1221 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  commentId: T:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  id: ExpectedQueryValues
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  children:
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.#ctor(System.String,Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration)
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Authority
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.CheckValues(System.String,System.Collections.Generic.IEnumerable{System.String})
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ClientId
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Configuration
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Defaults(System.String)
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Encoder
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedAuthority
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedClientId
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedRedirectUri
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResource
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResponseMode
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedScope
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedState
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RedirectUri
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RequestType
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Resource
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseMode
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseType
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Scope
+  - Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.State
+  langs:
+  - csharp
+  - vb
+  name: ExpectedQueryValues
+  nameWithType: ExpectedQueryValues
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedQueryValues
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 16
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  summary: "\nThis helper class is used to check that query string parameters are as expected.\n"
+  example: []
+  syntax:
+    content: public class ExpectedQueryValues
+    content.vb: Public Class ExpectedQueryValues
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.#ctor(System.String,Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration)
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.#ctor(System.String,Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration)
+  id: '#ctor(System.String,Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration)'
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedQueryValues(String, OpenIdConnectConfiguration)
+  nameWithType: ExpectedQueryValues.ExpectedQueryValues(String, OpenIdConnectConfiguration)
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedQueryValues(System.String, Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration)
+  type: Constructor
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: .ctor
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public ExpectedQueryValues(string authority, OpenIdConnectConfiguration configuration = null)
+    content.vb: Public Sub New(authority As String, configuration As OpenIdConnectConfiguration = Nothing)
+    parameters:
+    - id: authority
+      type: System.String
+    - id: configuration
+      type: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Defaults(System.String)
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Defaults(System.String)
+  id: Defaults(System.String)
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: Defaults(String)
+  nameWithType: ExpectedQueryValues.Defaults(String)
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Defaults(System.String)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Defaults
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 24
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public static ExpectedQueryValues Defaults(string authority)
+    content.vb: Public Shared Function Defaults(authority As String) As ExpectedQueryValues
+    parameters:
+    - id: authority
+      type: System.String
+    return:
+      type: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.CheckValues(System.String,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.CheckValues(System.String,System.Collections.Generic.IEnumerable{System.String})
+  id: CheckValues(System.String,System.Collections.Generic.IEnumerable{System.String})
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: CheckValues(String, IEnumerable<String>)
+  nameWithType: ExpectedQueryValues.CheckValues(String, IEnumerable<String>)
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.CheckValues(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: CheckValues
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public void CheckValues(string query, IEnumerable<string> parameters)
+    content.vb: Public Sub CheckValues(query As String, parameters As IEnumerable(Of String))
+    parameters:
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.IEnumerable{System.String}
+  nameWithType.vb: ExpectedQueryValues.CheckValues(String, IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.CheckValues(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: CheckValues(String, IEnumerable(Of String))
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Encoder
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Encoder
+  id: Encoder
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: Encoder
+  nameWithType: ExpectedQueryValues.Encoder
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Encoder
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Encoder
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 105
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public UrlEncoder Encoder { get; set; }
+    content.vb: Public Property Encoder As UrlEncoder
+    parameters: []
+    return:
+      type: System.Text.Encodings.Web.UrlEncoder
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Authority
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Authority
+  id: Authority
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: Authority
+  nameWithType: ExpectedQueryValues.Authority
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Authority
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Authority
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 107
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string Authority { get; set; }
+    content.vb: Public Property Authority As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ClientId
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ClientId
+  id: ClientId
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: ExpectedQueryValues.ClientId
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ClientId
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ClientId
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 109
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ClientId { get; set; }
+    content.vb: Public Property ClientId As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RedirectUri
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RedirectUri
+  id: RedirectUri
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: RedirectUri
+  nameWithType: ExpectedQueryValues.RedirectUri
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RedirectUri
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RedirectUri
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 111
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string RedirectUri { get; set; }
+    content.vb: Public Property RedirectUri As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RequestType
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RequestType
+  id: RequestType
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: RequestType
+  nameWithType: ExpectedQueryValues.RequestType
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.RequestType
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: RequestType
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 113
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public OpenIdConnectRequestType RequestType { get; set; }
+    content.vb: Public Property RequestType As OpenIdConnectRequestType
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectRequestType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Resource
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Resource
+  id: Resource
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ExpectedQueryValues.Resource
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Resource
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Resource
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 115
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string Resource { get; set; }
+    content.vb: Public Property Resource As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseMode
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseMode
+  id: ResponseMode
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ResponseMode
+  nameWithType: ExpectedQueryValues.ResponseMode
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseMode
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ResponseMode
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 117
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ResponseMode { get; set; }
+    content.vb: Public Property ResponseMode As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseType
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseType
+  id: ResponseType
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ResponseType
+  nameWithType: ExpectedQueryValues.ResponseType
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ResponseType
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ResponseType
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 119
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ResponseType { get; set; }
+    content.vb: Public Property ResponseType As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Scope
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Scope
+  id: Scope
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: ExpectedQueryValues.Scope
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Scope
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Scope
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 121
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string Scope { get; set; }
+    content.vb: Public Property Scope As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.State
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.State
+  id: State
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ExpectedQueryValues.State
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.State
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: State
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 123
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string State { get; set; }
+    content.vb: Public Property State As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedAuthority
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedAuthority
+  id: ExpectedAuthority
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedAuthority
+  nameWithType: ExpectedQueryValues.ExpectedAuthority
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedAuthority
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedAuthority
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 125
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedAuthority { get; }
+    content.vb: Public ReadOnly Property ExpectedAuthority As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Configuration
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Configuration
+  id: Configuration
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: ExpectedQueryValues.Configuration
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.Configuration
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: Configuration
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 142
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public OpenIdConnectConfiguration Configuration { get; set; }
+    content.vb: Public Property Configuration As OpenIdConnectConfiguration
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedClientId
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedClientId
+  id: ExpectedClientId
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedClientId
+  nameWithType: ExpectedQueryValues.ExpectedClientId
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedClientId
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedClientId
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 144
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedClientId { get; }
+    content.vb: Public ReadOnly Property ExpectedClientId As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedRedirectUri
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedRedirectUri
+  id: ExpectedRedirectUri
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedRedirectUri
+  nameWithType: ExpectedQueryValues.ExpectedRedirectUri
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedRedirectUri
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedRedirectUri
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 149
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedRedirectUri { get; }
+    content.vb: Public ReadOnly Property ExpectedRedirectUri As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResource
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResource
+  id: ExpectedResource
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedResource
+  nameWithType: ExpectedQueryValues.ExpectedResource
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResource
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedResource
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 154
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedResource { get; }
+    content.vb: Public ReadOnly Property ExpectedResource As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResponseMode
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResponseMode
+  id: ExpectedResponseMode
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedResponseMode
+  nameWithType: ExpectedQueryValues.ExpectedResponseMode
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedResponseMode
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedResponseMode
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 159
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedResponseMode { get; }
+    content.vb: Public ReadOnly Property ExpectedResponseMode As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedScope
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedScope
+  id: ExpectedScope
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedScope
+  nameWithType: ExpectedQueryValues.ExpectedScope
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedScope
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedScope
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 164
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedScope { get; }
+    content.vb: Public ReadOnly Property ExpectedScope As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedState
+  commentId: P:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedState
+  id: ExpectedState
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  langs:
+  - csharp
+  - vb
+  name: ExpectedState
+  nameWithType: ExpectedQueryValues.ExpectedState
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues.ExpectedState
+  type: Property
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+      branch: master
+      repo: https://github.com/aspnet/Security.git
+    id: ExpectedState
+    path: test/Microsoft.AspNetCore.Authentication.Test/OpenIdConnect/ExpectedQueryValues.cs
+    startLine: 169
+  assemblies:
+  - Microsoft.AspNetCore.Authentication.Test
+  namespace: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  syntax:
+    content: public string ExpectedState { get; }
+    content.vb: Public ReadOnly Property ExpectedState As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  commentId: N:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  isExternal: false
+  name: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  nameWithType: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration
+  commentId: T:Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration
+  parent: Microsoft.IdentityModel.Protocols.OpenIdConnect
+  isExternal: true
+  name: OpenIdConnectConfiguration
+  nameWithType: OpenIdConnectConfiguration
+  fullName: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfiguration
+- uid: Microsoft.IdentityModel.Protocols.OpenIdConnect
+  commentId: N:Microsoft.IdentityModel.Protocols.OpenIdConnect
+  isExternal: false
+  name: Microsoft.IdentityModel.Protocols.OpenIdConnect
+  nameWithType: Microsoft.IdentityModel.Protocols.OpenIdConnect
+  fullName: Microsoft.IdentityModel.Protocols.OpenIdConnect
+- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  commentId: T:Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+  parent: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
+  isExternal: false
+  name: ExpectedQueryValues
+  nameWithType: ExpectedQueryValues
+  fullName: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Text.Encodings.Web.UrlEncoder
+  commentId: T:System.Text.Encodings.Web.UrlEncoder
+  parent: System.Text.Encodings.Web
+  isExternal: true
+  name: UrlEncoder
+  nameWithType: UrlEncoder
+  fullName: System.Text.Encodings.Web.UrlEncoder
+- uid: System.Text.Encodings.Web
+  commentId: N:System.Text.Encodings.Web
+  isExternal: false
+  name: System.Text.Encodings.Web
+  nameWithType: System.Text.Encodings.Web
+  fullName: System.Text.Encodings.Web
+- uid: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectRequestType
+  commentId: T:Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectRequestType
+  parent: Microsoft.IdentityModel.Protocols.OpenIdConnect
+  isExternal: true
+  name: OpenIdConnectRequestType
+  nameWithType: OpenIdConnectRequestType
+  fullName: Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectRequestType

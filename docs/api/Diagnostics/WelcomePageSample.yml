@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: WelcomePageSample
+  commentId: N:WelcomePageSample
+  id: WelcomePageSample
+  children:
+  - WelcomePageSample.Startup
+  langs:
+  - csharp
+  - vb
+  name: WelcomePageSample
+  nameWithType: WelcomePageSample
+  fullName: WelcomePageSample
+  type: Namespace
+  assemblies:
+  - WelcomePageSample
+references:
+- uid: WelcomePageSample.Startup
+  commentId: T:WelcomePageSample.Startup
+  isExternal: false
+  name: Startup
+  nameWithType: Startup
+  fullName: WelcomePageSample.Startup

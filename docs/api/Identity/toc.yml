@@ -1,0 +1,609 @@
+### YamlMime:TableOfContent
+- uid: IdentitySample
+  name: IdentitySample
+  items:
+  - uid: IdentitySample.Program
+    name: Program
+  - uid: IdentitySample.Startup
+    name: Startup
+- uid: IdentitySample.Controllers
+  name: IdentitySample.Controllers
+  items:
+  - uid: IdentitySample.Controllers.AccountController
+    name: AccountController
+  - uid: IdentitySample.Controllers.HomeController
+    name: HomeController
+- uid: IdentitySample.Data.Migrations
+  name: IdentitySample.Data.Migrations
+  items:
+  - uid: IdentitySample.Data.Migrations.CreateIdentitySchema
+    name: CreateIdentitySchema
+- uid: IdentitySample.Models
+  name: IdentitySample.Models
+  items:
+  - uid: IdentitySample.Models.ApplicationDbContext
+    name: ApplicationDbContext
+  - uid: IdentitySample.Models.ApplicationUser
+    name: ApplicationUser
+- uid: IdentitySample.Models.AccountViewModels
+  name: IdentitySample.Models.AccountViewModels
+  items:
+  - uid: IdentitySample.Models.AccountViewModels.ExternalLoginConfirmationViewModel
+    name: ExternalLoginConfirmationViewModel
+  - uid: IdentitySample.Models.AccountViewModels.ForgotPasswordViewModel
+    name: ForgotPasswordViewModel
+  - uid: IdentitySample.Models.AccountViewModels.LoginViewModel
+    name: LoginViewModel
+  - uid: IdentitySample.Models.AccountViewModels.RegisterViewModel
+    name: RegisterViewModel
+  - uid: IdentitySample.Models.AccountViewModels.ResetPasswordViewModel
+    name: ResetPasswordViewModel
+  - uid: IdentitySample.Models.AccountViewModels.SendCodeViewModel
+    name: SendCodeViewModel
+  - uid: IdentitySample.Models.AccountViewModels.VerifyCodeViewModel
+    name: VerifyCodeViewModel
+- uid: IdentitySample.Models.ManageViewModels
+  name: IdentitySample.Models.ManageViewModels
+  items:
+  - uid: IdentitySample.Models.ManageViewModels.AddPhoneNumberViewModel
+    name: AddPhoneNumberViewModel
+  - uid: IdentitySample.Models.ManageViewModels.ChangePasswordViewModel
+    name: ChangePasswordViewModel
+  - uid: IdentitySample.Models.ManageViewModels.ConfigureTwoFactorViewModel
+    name: ConfigureTwoFactorViewModel
+  - uid: IdentitySample.Models.ManageViewModels.FactorViewModel
+    name: FactorViewModel
+  - uid: IdentitySample.Models.ManageViewModels.IndexViewModel
+    name: IndexViewModel
+  - uid: IdentitySample.Models.ManageViewModels.ManageLoginsViewModel
+    name: ManageLoginsViewModel
+  - uid: IdentitySample.Models.ManageViewModels.RemoveLoginViewModel
+    name: RemoveLoginViewModel
+  - uid: IdentitySample.Models.ManageViewModels.SetPasswordViewModel
+    name: SetPasswordViewModel
+  - uid: IdentitySample.Models.ManageViewModels.VerifyPhoneNumberViewModel
+    name: VerifyPhoneNumberViewModel
+- uid: IdentitySample.Services
+  name: IdentitySample.Services
+  items:
+  - uid: IdentitySample.Services.AuthMessageSender
+    name: AuthMessageSender
+  - uid: IdentitySample.Services.IEmailSender
+    name: IEmailSender
+  - uid: IdentitySample.Services.ISmsSender
+    name: ISmsSender
+- uid: IdentitySamples
+  name: IdentitySamples
+  items:
+  - uid: IdentitySamples.MessageServices
+    name: MessageServices
+- uid: IdentitySamples.Controllers
+  name: IdentitySamples.Controllers
+  items:
+  - uid: IdentitySamples.Controllers.ManageController
+    name: ManageController
+  - uid: IdentitySamples.Controllers.ManageController.ManageMessageId
+    name: ManageController.ManageMessageId
+- uid: Microsoft.AspNet.Identity.CoreCompat
+  name: Microsoft.AspNet.Identity.CoreCompat
+  items:
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityDbContext`7
+    name: IdentityDbContext<TUser, TRole, TKey, TUserLogin, TUserRole, TUserClaim, TRoleClaim>
+    name.vb: IdentityDbContext(Of TUser, TRole, TKey, TUserLogin, TUserRole, TUserClaim, TRoleClaim)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityDbContext`1
+    name: IdentityDbContext<TUser>
+    name.vb: IdentityDbContext(Of TUser)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityRole
+    name: IdentityRole
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityRole`2
+    name: IdentityRole<TKey, TUserRole>
+    name.vb: IdentityRole(Of TKey, TUserRole)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityRoleClaim
+    name: IdentityRoleClaim
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityRoleClaim`1
+    name: IdentityRoleClaim<TKey>
+    name.vb: IdentityRoleClaim(Of TKey)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityUser
+    name: IdentityUser
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityUser`4
+    name: IdentityUser<TKey, TUserLogin, TUserRole, TUserClaim>
+    name.vb: IdentityUser(Of TKey, TUserLogin, TUserRole, TUserClaim)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityUserLogin
+    name: IdentityUserLogin
+  - uid: Microsoft.AspNet.Identity.CoreCompat.IdentityUserLogin`1
+    name: IdentityUserLogin<TKey>
+    name.vb: IdentityUserLogin(Of TKey)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.UserStore`6
+    name: UserStore<TUser, TRole, TKey, TUserLogin, TUserRole, TUserClaim>
+    name.vb: UserStore(Of TUser, TRole, TKey, TUserLogin, TUserRole, TUserClaim)
+  - uid: Microsoft.AspNet.Identity.CoreCompat.UserStore`1
+    name: UserStore<TUser>
+    name.vb: UserStore(Of TUser)
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.BuilderExtensions
+    name: BuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.IdentityOptions
+    name: IdentityOptions
+- uid: Microsoft.AspNetCore.Identity
+  name: Microsoft.AspNetCore.Identity
+  items:
+  - uid: Microsoft.AspNetCore.Identity.ClaimsIdentityOptions
+    name: ClaimsIdentityOptions
+  - uid: Microsoft.AspNetCore.Identity.DataProtectionTokenProviderOptions
+    name: DataProtectionTokenProviderOptions
+  - uid: Microsoft.AspNetCore.Identity.DataProtectorTokenProvider`1
+    name: DataProtectorTokenProvider<TUser>
+    name.vb: DataProtectorTokenProvider(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.EmailTokenProvider`1
+    name: EmailTokenProvider<TUser>
+    name.vb: EmailTokenProvider(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.ExternalLoginInfo
+    name: ExternalLoginInfo
+  - uid: Microsoft.AspNetCore.Identity.IdentityBuilder
+    name: IdentityBuilder
+  - uid: Microsoft.AspNetCore.Identity.IdentityCookieOptions
+    name: IdentityCookieOptions
+  - uid: Microsoft.AspNetCore.Identity.IdentityError
+    name: IdentityError
+  - uid: Microsoft.AspNetCore.Identity.IdentityErrorDescriber
+    name: IdentityErrorDescriber
+  - uid: Microsoft.AspNetCore.Identity.IdentityMarkerService
+    name: IdentityMarkerService
+  - uid: Microsoft.AspNetCore.Identity.IdentityResult
+    name: IdentityResult
+  - uid: Microsoft.AspNetCore.Identity.ILookupNormalizer
+    name: ILookupNormalizer
+  - uid: Microsoft.AspNetCore.Identity.IPasswordHasher`1
+    name: IPasswordHasher<TUser>
+    name.vb: IPasswordHasher(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IPasswordValidator`1
+    name: IPasswordValidator<TUser>
+    name.vb: IPasswordValidator(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IQueryableRoleStore`1
+    name: IQueryableRoleStore<TRole>
+    name.vb: IQueryableRoleStore(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.IQueryableUserStore`1
+    name: IQueryableUserStore<TUser>
+    name.vb: IQueryableUserStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IRoleClaimStore`1
+    name: IRoleClaimStore<TRole>
+    name.vb: IRoleClaimStore(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.IRoleStore`1
+    name: IRoleStore<TRole>
+    name.vb: IRoleStore(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.IRoleValidator`1
+    name: IRoleValidator<TRole>
+    name.vb: IRoleValidator(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.ISecurityStampValidator
+    name: ISecurityStampValidator
+  - uid: Microsoft.AspNetCore.Identity.IUserAuthenticationTokenStore`1
+    name: IUserAuthenticationTokenStore<TUser>
+    name.vb: IUserAuthenticationTokenStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserClaimsPrincipalFactory`1
+    name: IUserClaimsPrincipalFactory<TUser>
+    name.vb: IUserClaimsPrincipalFactory(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserClaimStore`1
+    name: IUserClaimStore<TUser>
+    name.vb: IUserClaimStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserEmailStore`1
+    name: IUserEmailStore<TUser>
+    name.vb: IUserEmailStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserLockoutStore`1
+    name: IUserLockoutStore<TUser>
+    name.vb: IUserLockoutStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserLoginStore`1
+    name: IUserLoginStore<TUser>
+    name.vb: IUserLoginStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserPasswordStore`1
+    name: IUserPasswordStore<TUser>
+    name.vb: IUserPasswordStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserPhoneNumberStore`1
+    name: IUserPhoneNumberStore<TUser>
+    name.vb: IUserPhoneNumberStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserRoleStore`1
+    name: IUserRoleStore<TUser>
+    name.vb: IUserRoleStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserSecurityStampStore`1
+    name: IUserSecurityStampStore<TUser>
+    name.vb: IUserSecurityStampStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserStore`1
+    name: IUserStore<TUser>
+    name.vb: IUserStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserTwoFactorStore`1
+    name: IUserTwoFactorStore<TUser>
+    name.vb: IUserTwoFactorStore(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserTwoFactorTokenProvider`1
+    name: IUserTwoFactorTokenProvider<TUser>
+    name.vb: IUserTwoFactorTokenProvider(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.IUserValidator`1
+    name: IUserValidator<TUser>
+    name.vb: IUserValidator(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.LockoutOptions
+    name: LockoutOptions
+  - uid: Microsoft.AspNetCore.Identity.PasswordHasher`1
+    name: PasswordHasher<TUser>
+    name.vb: PasswordHasher(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.PasswordHasherCompatibilityMode
+    name: PasswordHasherCompatibilityMode
+  - uid: Microsoft.AspNetCore.Identity.PasswordHasherOptions
+    name: PasswordHasherOptions
+  - uid: Microsoft.AspNetCore.Identity.PasswordOptions
+    name: PasswordOptions
+  - uid: Microsoft.AspNetCore.Identity.PasswordValidator`1
+    name: PasswordValidator<TUser>
+    name.vb: PasswordValidator(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.PasswordVerificationResult
+    name: PasswordVerificationResult
+  - uid: Microsoft.AspNetCore.Identity.PhoneNumberTokenProvider`1
+    name: PhoneNumberTokenProvider<TUser>
+    name.vb: PhoneNumberTokenProvider(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager<TRole>
+    name.vb: RoleManager(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.RoleValidator`1
+    name: RoleValidator<TRole>
+    name.vb: RoleValidator(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.SecurityStampValidator
+    name: SecurityStampValidator
+  - uid: Microsoft.AspNetCore.Identity.SecurityStampValidator`1
+    name: SecurityStampValidator<TUser>
+    name.vb: SecurityStampValidator(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager<TUser>
+    name.vb: SignInManager(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.SignInOptions
+    name: SignInOptions
+  - uid: Microsoft.AspNetCore.Identity.SignInResult
+    name: SignInResult
+  - uid: Microsoft.AspNetCore.Identity.TokenOptions
+    name: TokenOptions
+  - uid: Microsoft.AspNetCore.Identity.TokenProviderDescriptor
+    name: TokenProviderDescriptor
+  - uid: Microsoft.AspNetCore.Identity.TotpSecurityStampBasedTokenProvider`1
+    name: TotpSecurityStampBasedTokenProvider<TUser>
+    name.vb: TotpSecurityStampBasedTokenProvider(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.UpperInvariantLookupNormalizer
+    name: UpperInvariantLookupNormalizer
+  - uid: Microsoft.AspNetCore.Identity.UserClaimsPrincipalFactory`2
+    name: UserClaimsPrincipalFactory<TUser, TRole>
+    name.vb: UserClaimsPrincipalFactory(Of TUser, TRole)
+  - uid: Microsoft.AspNetCore.Identity.UserLoginInfo
+    name: UserLoginInfo
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager<TUser>
+    name.vb: UserManager(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.UserOptions
+    name: UserOptions
+  - uid: Microsoft.AspNetCore.Identity.UserValidator`1
+    name: UserValidator<TUser>
+    name.vb: UserValidator(Of TUser)
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  items:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext
+    name: IdentityDbContext
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`8
+    name: IdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>
+    name.vb: IdentityDbContext(Of TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`3
+    name: IdentityDbContext<TUser, TRole, TKey>
+    name.vb: IdentityDbContext(Of TUser, TRole, TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`1
+    name: IdentityDbContext<TUser>
+    name.vb: IdentityDbContext(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
+    name: IdentityRole
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`3
+    name: IdentityRole<TKey, TUserRole, TRoleClaim>
+    name.vb: IdentityRole(Of TKey, TUserRole, TRoleClaim)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole`1
+    name: IdentityRole<TKey>
+    name.vb: IdentityRole(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim`1
+    name: IdentityRoleClaim<TKey>
+    name.vb: IdentityRoleClaim(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser
+    name: IdentityUser
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser`4
+    name: IdentityUser<TKey, TUserClaim, TUserRole, TUserLogin>
+    name.vb: IdentityUser(Of TKey, TUserClaim, TUserRole, TUserLogin)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser`1
+    name: IdentityUser<TKey>
+    name.vb: IdentityUser(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserClaim`1
+    name: IdentityUserClaim<TKey>
+    name.vb: IdentityUserClaim(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin`1
+    name: IdentityUserLogin<TKey>
+    name.vb: IdentityUserLogin(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole`1
+    name: IdentityUserRole<TKey>
+    name.vb: IdentityUserRole(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserToken`1
+    name: IdentityUserToken<TKey>
+    name.vb: IdentityUserToken(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.RoleStore`5
+    name: RoleStore<TRole, TContext, TKey, TUserRole, TRoleClaim>
+    name.vb: RoleStore(Of TRole, TContext, TKey, TUserRole, TRoleClaim)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.RoleStore`3
+    name: RoleStore<TRole, TContext, TKey>
+    name.vb: RoleStore(Of TRole, TContext, TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.RoleStore`2
+    name: RoleStore<TRole, TContext>
+    name.vb: RoleStore(Of TRole, TContext)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.RoleStore`1
+    name: RoleStore<TRole>
+    name.vb: RoleStore(Of TRole)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore
+    name: UserStore
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`8
+    name: UserStore<TUser, TRole, TContext, TKey, TUserClaim, TUserRole, TUserLogin, TUserToken>
+    name.vb: UserStore(Of TUser, TRole, TContext, TKey, TUserClaim, TUserRole, TUserLogin, TUserToken)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`4
+    name: UserStore<TUser, TRole, TContext, TKey>
+    name.vb: UserStore(Of TUser, TRole, TContext, TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`3
+    name: UserStore<TUser, TRole, TContext>
+    name.vb: UserStore(Of TUser, TRole, TContext)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`1
+    name: UserStore<TUser>
+    name.vb: UserStore(Of TUser)
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test
+  items:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.ClaimEqualityComparer
+    name: ClaimEqualityComparer
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserClaimWithIssuer
+    name: IdentityUserClaimWithIssuer
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserLoginWithContext
+    name: IdentityUserLoginWithContext
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserRoleWithDate
+    name: IdentityUserRoleWithDate
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserTokenWithStuff
+    name: IdentityUserTokenWithStuff
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.IdentityUserWithGenerics
+    name: IdentityUserWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryContext
+    name: InMemoryContext
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryContext`8
+    name: InMemoryContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>
+    name.vb: InMemoryContext(Of TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryContext`3
+    name: InMemoryContext<TUser, TRole, TKey>
+    name.vb: InMemoryContext(Of TUser, TRole, TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryContext`1
+    name: InMemoryContext<TUser>
+    name.vb: InMemoryContext(Of TUser)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryContextWithGenerics
+    name: InMemoryContextWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryEFUserStoreTest
+    name: InMemoryEFUserStoreTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.InMemoryEFUserStoreTestWithGenerics
+    name: InMemoryEFUserStoreTestWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.MyIdentityRole
+    name: MyIdentityRole
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreTest
+    name: RoleStoreTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.RoleStoreWithGenerics
+    name: RoleStoreWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.TestIdentityFactory
+    name: TestIdentityFactory
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.InMemory.Test.UserStoreWithGenerics
+    name: UserStoreWithGenerics
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test
+  items:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ApplicationUser
+    name: ApplicationUser
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ClaimEqualityComparer
+    name: ClaimEqualityComparer
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ContextWithGenerics
+    name: ContextWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest
+    name: CustomPocoTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.CustomDbContext`1
+    name: CustomPocoTest.CustomDbContext<TKey>
+    name.vb: CustomPocoTest.CustomDbContext(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.CustomPocoTest.User`1
+    name: CustomPocoTest.User<TKey>
+    name.vb: CustomPocoTest.User(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DbUtil
+    name: DbUtil
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.DefaultPocoTest
+    name: DefaultPocoTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidRole
+    name: GuidRole
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.GuidUser
+    name: GuidUser
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserClaimWithIssuer
+    name: IdentityUserClaimWithIssuer
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserLoginWithContext
+    name: IdentityUserLoginWithContext
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserRoleWithDate
+    name: IdentityUserRoleWithDate
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserTokenWithStuff
+    name: IdentityUserTokenWithStuff
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IdentityUserWithGenerics
+    name: IdentityUserWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntRole
+    name: IntRole
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.IntUser
+    name: IntUser
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.MyIdentityRole
+    name: MyIdentityRole
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.RoleStoreWithGenerics
+    name: RoleStoreWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.ScratchDatabaseFixture
+    name: ScratchDatabaseFixture
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3
+    name: SqlStoreTestBase<TUser, TRole, TKey>
+    name.vb: SqlStoreTestBase(Of TUser, TRole, TKey)
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.SqlStoreTestBase`3.TestDbContext
+    name: SqlStoreTestBase<TUser, TRole, TKey>.TestDbContext
+    name.vb: SqlStoreTestBase(Of TUser, TRole, TKey).TestDbContext
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringRole
+    name: StringRole
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.StringUser
+    name: StringUser
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest
+    name: UserStoreGuidTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationRoleStore
+    name: UserStoreGuidTest.ApplicationRoleStore
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreGuidTest.ApplicationUserStore
+    name: UserStoreGuidTest.ApplicationUserStore
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreIntTest
+    name: UserStoreIntTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreStringKeyTest
+    name: UserStoreStringKeyTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest
+    name: UserStoreTest
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreTest.ApplicationDbContext
+    name: UserStoreTest.ApplicationDbContext
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenerics
+    name: UserStoreWithGenerics
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.UserStoreWithGenericsTest
+    name: UserStoreWithGenericsTest
+- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities
+  items:
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.SqlServerTestStore
+    name: SqlServerTestStore
+  - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.Test.Utilities.TestEnvironment
+    name: TestEnvironment
+- uid: Microsoft.AspNetCore.Identity.InMemory
+  name: Microsoft.AspNetCore.Identity.InMemory
+  items:
+  - uid: Microsoft.AspNetCore.Identity.InMemory.FunctionalTest
+    name: FunctionalTest
+  - uid: Microsoft.AspNetCore.Identity.InMemory.InMemoryStore`2
+    name: InMemoryStore<TUser, TRole>
+    name.vb: InMemoryStore(Of TUser, TRole)
+  - uid: Microsoft.AspNetCore.Identity.InMemory.TestClock
+    name: TestClock
+- uid: Microsoft.AspNetCore.Identity.InMemory.Test
+  name: Microsoft.AspNetCore.Identity.InMemory.Test
+  items:
+  - uid: Microsoft.AspNetCore.Identity.InMemory.Test.ControllerTest
+    name: ControllerTest
+  - uid: Microsoft.AspNetCore.Identity.InMemory.Test.InMemoryStoreTest
+    name: InMemoryStoreTest
+- uid: Microsoft.AspNetCore.Identity.Test
+  name: Microsoft.AspNetCore.Identity.Test
+  items:
+  - uid: Microsoft.AspNetCore.Identity.Test.ApiConsistencyTest
+    name: ApiConsistencyTest
+  - uid: Microsoft.AspNetCore.Identity.Test.ApiConsistencyTestBase
+    name: ApiConsistencyTestBase
+  - uid: Microsoft.AspNetCore.Identity.Test.ClaimsIdentityExtensionsTest
+    name: ClaimsIdentityExtensionsTest
+  - uid: Microsoft.AspNetCore.Identity.Test.IdentityBuilderTest
+    name: IdentityBuilderTest
+  - uid: Microsoft.AspNetCore.Identity.Test.IdentityOptionsTest
+    name: IdentityOptionsTest
+  - uid: Microsoft.AspNetCore.Identity.Test.IdentityResultAssert
+    name: IdentityResultAssert
+  - uid: Microsoft.AspNetCore.Identity.Test.IdentityResultTest
+    name: IdentityResultTest
+  - uid: Microsoft.AspNetCore.Identity.Test.ITestLogger
+    name: ITestLogger
+  - uid: Microsoft.AspNetCore.Identity.Test.MockHelpers
+    name: MockHelpers
+  - uid: Microsoft.AspNetCore.Identity.Test.NoopRoleStore
+    name: NoopRoleStore
+  - uid: Microsoft.AspNetCore.Identity.Test.NoopUserStore
+    name: NoopUserStore
+  - uid: Microsoft.AspNetCore.Identity.Test.PasswordHasherTest
+    name: PasswordHasherTest
+  - uid: Microsoft.AspNetCore.Identity.Test.PasswordValidatorTest
+    name: PasswordValidatorTest
+  - uid: Microsoft.AspNetCore.Identity.Test.PasswordValidatorTest.Errors
+    name: PasswordValidatorTest.Errors
+  - uid: Microsoft.AspNetCore.Identity.Test.PriorityOrderer
+    name: PriorityOrderer
+  - uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+    name: RoleManagerTest
+  - uid: Microsoft.AspNetCore.Identity.Test.RoleValidatorTest
+    name: RoleValidatorTest
+  - uid: Microsoft.AspNetCore.Identity.Test.SecurityStampTest
+    name: SecurityStampTest
+  - uid: Microsoft.AspNetCore.Identity.Test.SignManagerInTest
+    name: SignManagerInTest
+  - uid: Microsoft.AspNetCore.Identity.Test.TestLogger`1
+    name: TestLogger<TName>
+    name.vb: TestLogger(Of TName)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestPriorityAttribute
+    name: TestPriorityAttribute
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRole
+    name: TestRole
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRole`1
+    name: TestRole<TKey>
+    name.vb: TestRole(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim
+    name: TestRoleClaim
+  - uid: Microsoft.AspNetCore.Identity.Test.TestRoleClaim`1
+    name: TestRoleClaim<TKey>
+    name.vb: TestRoleClaim(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUser
+    name: TestUser
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUser`1
+    name: TestUser<TKey>
+    name.vb: TestUser(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserClaim
+    name: TestUserClaim
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserClaim`1
+    name: TestUserClaim<TKey>
+    name.vb: TestUserClaim(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin
+    name: TestUserLogin
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserLogin`1
+    name: TestUserLogin<TKey>
+    name.vb: TestUserLogin(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserRole
+    name: TestUserRole
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserRole`1
+    name: TestUserRole<TKey>
+    name.vb: TestUserRole(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserToken
+    name: TestUserToken
+  - uid: Microsoft.AspNetCore.Identity.Test.TestUserToken`1
+    name: TestUserToken<TKey>
+    name.vb: TestUserToken(Of TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.UserClaimsPrincipalFactoryTest
+    name: UserClaimsPrincipalFactoryTest
+  - uid: Microsoft.AspNetCore.Identity.Test.UserManagerTest
+    name: UserManagerTest
+  - uid: Microsoft.AspNetCore.Identity.Test.UserManagerTest.CustomRoleManager
+    name: UserManagerTest.CustomRoleManager
+  - uid: Microsoft.AspNetCore.Identity.Test.UserManagerTest.CustomUserManager
+    name: UserManagerTest.CustomUserManager
+  - uid: Microsoft.AspNetCore.Identity.Test.UserManagerTest.TestErrorDescriber
+    name: UserManagerTest.TestErrorDescriber
+  - uid: Microsoft.AspNetCore.Identity.Test.UserManagerTestBase`3
+    name: UserManagerTestBase<TUser, TRole, TKey>
+    name.vb: UserManagerTestBase(Of TUser, TRole, TKey)
+  - uid: Microsoft.AspNetCore.Identity.Test.UserManagerTestBase`2
+    name: UserManagerTestBase<TUser, TRole>
+    name.vb: UserManagerTestBase(Of TUser, TRole)
+  - uid: Microsoft.AspNetCore.Identity.Test.UserValidatorTest
+    name: UserValidatorTest
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceBuilderExtension
+    name: EntityFrameworkServiceBuilderExtension
+  - uid: Microsoft.Extensions.DependencyInjection.IdentityEntityFrameworkBuilderExtensions
+    name: IdentityEntityFrameworkBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.IdentityServiceCollectionExtensions
+    name: IdentityServiceCollectionExtensions
+- uid: Owin
+  name: Owin
+  items:
+  - uid: Owin.CookieInterop
+    name: CookieInterop
+- uid: System.Security.Claims
+  name: System.Security.Claims
+  items:
+  - uid: System.Security.Claims.PrincipalExtensions
+    name: PrincipalExtensions

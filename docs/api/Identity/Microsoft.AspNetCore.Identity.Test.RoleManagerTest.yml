@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  commentId: T:Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  id: RoleManagerTest
+  parent: Microsoft.AspNetCore.Identity.Test
+  children:
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CanFindByNameCallsStoreWithoutNormalizedName
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CreateCallsStore
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.DisposeAfterDisposeDoesNotThrow
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.FindByNameCallsStoreWithNormalizedName
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleExistsCallsStoreWithNormalizedName
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleManagerPublicNullChecks
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RolesQueryableFailWhenStoreNotImplemented
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleStoreMethodsThrowWhenDisposed
+  - Microsoft.AspNetCore.Identity.Test.RoleManagerTest.UpdateCallsStore
+  langs:
+  - csharp
+  - vb
+  name: RoleManagerTest
+  nameWithType: RoleManagerTest
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  type: Class
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleManagerTest
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 13
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: public class RoleManagerTest
+    content.vb: Public Class RoleManagerTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CreateCallsStore
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CreateCallsStore
+  id: CreateCallsStore
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: CreateCallsStore()
+  nameWithType: RoleManagerTest.CreateCallsStore()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CreateCallsStore()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CreateCallsStore
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 15
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CreateCallsStore()
+    content.vb: >-
+      <Fact>
+
+      Public Function CreateCallsStore As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.UpdateCallsStore
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.UpdateCallsStore
+  id: UpdateCallsStore
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: UpdateCallsStore()
+  nameWithType: RoleManagerTest.UpdateCallsStore()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.UpdateCallsStore()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: UpdateCallsStore
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 34
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task UpdateCallsStore()
+    content.vb: >-
+      <Fact>
+
+      Public Function UpdateCallsStore As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RolesQueryableFailWhenStoreNotImplemented
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RolesQueryableFailWhenStoreNotImplemented
+  id: RolesQueryableFailWhenStoreNotImplemented
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: RolesQueryableFailWhenStoreNotImplemented()
+  nameWithType: RoleManagerTest.RolesQueryableFailWhenStoreNotImplemented()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RolesQueryableFailWhenStoreNotImplemented()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RolesQueryableFailWhenStoreNotImplemented
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 53
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void RolesQueryableFailWhenStoreNotImplemented()
+    content.vb: >-
+      <Fact>
+
+      Public Sub RolesQueryableFailWhenStoreNotImplemented
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.FindByNameCallsStoreWithNormalizedName
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.FindByNameCallsStoreWithNormalizedName
+  id: FindByNameCallsStoreWithNormalizedName
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: FindByNameCallsStoreWithNormalizedName()
+  nameWithType: RoleManagerTest.FindByNameCallsStoreWithNormalizedName()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.FindByNameCallsStoreWithNormalizedName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: FindByNameCallsStoreWithNormalizedName
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 61
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task FindByNameCallsStoreWithNormalizedName()
+    content.vb: >-
+      <Fact>
+
+      Public Function FindByNameCallsStoreWithNormalizedName As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CanFindByNameCallsStoreWithoutNormalizedName
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CanFindByNameCallsStoreWithoutNormalizedName
+  id: CanFindByNameCallsStoreWithoutNormalizedName
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: CanFindByNameCallsStoreWithoutNormalizedName()
+  nameWithType: RoleManagerTest.CanFindByNameCallsStoreWithoutNormalizedName()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.CanFindByNameCallsStoreWithoutNormalizedName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: CanFindByNameCallsStoreWithoutNormalizedName
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 78
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task CanFindByNameCallsStoreWithoutNormalizedName()
+    content.vb: >-
+      <Fact>
+
+      Public Function CanFindByNameCallsStoreWithoutNormalizedName As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleExistsCallsStoreWithNormalizedName
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleExistsCallsStoreWithNormalizedName
+  id: RoleExistsCallsStoreWithNormalizedName
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: RoleExistsCallsStoreWithNormalizedName()
+  nameWithType: RoleManagerTest.RoleExistsCallsStoreWithNormalizedName()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleExistsCallsStoreWithNormalizedName()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleExistsCallsStoreWithNormalizedName
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 96
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RoleExistsCallsStoreWithNormalizedName()
+    content.vb: >-
+      <Fact>
+
+      Public Function RoleExistsCallsStoreWithNormalizedName As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.DisposeAfterDisposeDoesNotThrow
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.DisposeAfterDisposeDoesNotThrow
+  id: DisposeAfterDisposeDoesNotThrow
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: DisposeAfterDisposeDoesNotThrow()
+  nameWithType: RoleManagerTest.DisposeAfterDisposeDoesNotThrow()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.DisposeAfterDisposeDoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: DisposeAfterDisposeDoesNotThrow
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 114
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public void DisposeAfterDisposeDoesNotThrow()
+    content.vb: >-
+      <Fact>
+
+      Public Sub DisposeAfterDisposeDoesNotThrow
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleManagerPublicNullChecks
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleManagerPublicNullChecks
+  id: RoleManagerPublicNullChecks
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: RoleManagerPublicNullChecks()
+  nameWithType: RoleManagerTest.RoleManagerPublicNullChecks()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleManagerPublicNullChecks()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleManagerPublicNullChecks
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 122
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RoleManagerPublicNullChecks()
+    content.vb: >-
+      <Fact>
+
+      Public Function RoleManagerPublicNullChecks As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleStoreMethodsThrowWhenDisposed
+  commentId: M:Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleStoreMethodsThrowWhenDisposed
+  id: RoleStoreMethodsThrowWhenDisposed
+  parent: Microsoft.AspNetCore.Identity.Test.RoleManagerTest
+  langs:
+  - csharp
+  - vb
+  name: RoleStoreMethodsThrowWhenDisposed()
+  nameWithType: RoleManagerTest.RoleStoreMethodsThrowWhenDisposed()
+  fullName: Microsoft.AspNetCore.Identity.Test.RoleManagerTest.RoleStoreMethodsThrowWhenDisposed()
+  type: Method
+  source:
+    remote:
+      path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+      branch: master
+      repo: https://github.com/aspnet/Identity.git
+    id: RoleStoreMethodsThrowWhenDisposed
+    path: test/Microsoft.AspNetCore.Identity.Test/RoleManagerTest.cs
+    startLine: 135
+  assemblies:
+  - Microsoft.AspNetCore.Identity.Test
+  namespace: Microsoft.AspNetCore.Identity.Test
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task RoleStoreMethodsThrowWhenDisposed()
+    content.vb: >-
+      <Fact>
+
+      Public Function RoleStoreMethodsThrowWhenDisposed As Task
+    return:
+      type: System.Threading.Tasks.Task
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.AspNetCore.Identity.Test
+  commentId: N:Microsoft.AspNetCore.Identity.Test
+  isExternal: false
+  name: Microsoft.AspNetCore.Identity.Test
+  nameWithType: Microsoft.AspNetCore.Identity.Test
+  fullName: Microsoft.AspNetCore.Identity.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
