@@ -182,12 +182,3 @@
   items:
   - uid: Microsoft.Extensions.DependencyInjection.RoutingServiceCollectionExtensions
     name: RoutingServiceCollectionExtensions
-- uid: RoutingSample.Web
-  name: RoutingSample.Web
-  items:
-  - uid: RoutingSample.Web.PrefixRoute
-    name: PrefixRoute
-  - uid: RoutingSample.Web.RouteBuilderExtensions
-    name: RouteBuilderExtensions
-  - uid: RoutingSample.Web.Startup
-    name: Startup

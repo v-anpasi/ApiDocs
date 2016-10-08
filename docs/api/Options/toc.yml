@@ -4,16 +4,11 @@
   items:
   - uid: Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
     name: OptionsConfigurationServiceCollectionExtensions
-  - uid: Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
-    name: OptionsMonitorServiceCollectionExtensions
   - uid: Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions
     name: OptionsServiceCollectionExtensions
 - uid: Microsoft.Extensions.Options
   name: Microsoft.Extensions.Options
   items:
-  - uid: Microsoft.Extensions.Options.ConfigurationChangeTokenSource`1
-    name: ConfigurationChangeTokenSource<TOptions>
-    name.vb: ConfigurationChangeTokenSource(Of TOptions)
   - uid: Microsoft.Extensions.Options.ConfigureFromConfigurationOptions`1
     name: ConfigureFromConfigurationOptions<TOptions>
     name.vb: ConfigureFromConfigurationOptions(Of TOptions)
@@ -26,9 +21,6 @@
   - uid: Microsoft.Extensions.Options.IOptions`1
     name: IOptions<TOptions>
     name.vb: IOptions(Of TOptions)
-  - uid: Microsoft.Extensions.Options.IOptionsChangeTokenSource`1
-    name: IOptionsChangeTokenSource<TOptions>
-    name.vb: IOptionsChangeTokenSource(Of TOptions)
   - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
     name: IOptionsMonitor<TOptions>
     name.vb: IOptionsMonitor(Of TOptions)
@@ -37,42 +29,6 @@
   - uid: Microsoft.Extensions.Options.OptionsManager`1
     name: OptionsManager<TOptions>
     name.vb: OptionsManager(Of TOptions)
-  - uid: Microsoft.Extensions.Options.OptionsMonitor`1
-    name: OptionsMonitor<TOptions>
-    name.vb: OptionsMonitor(Of TOptions)
   - uid: Microsoft.Extensions.Options.OptionsWrapper`1
     name: OptionsWrapper<TOptions>
     name.vb: OptionsWrapper(Of TOptions)
-- uid: Microsoft.Extensions.Options.Tests
-  name: Microsoft.Extensions.Options.Tests
-  items:
-  - uid: Microsoft.Extensions.Options.Tests.FakeOptions
-    name: FakeOptions
-  - uid: Microsoft.Extensions.Options.Tests.FakeOptionsSetupA
-    name: FakeOptionsSetupA
-  - uid: Microsoft.Extensions.Options.Tests.FakeOptionsSetupB
-    name: FakeOptionsSetupB
-  - uid: Microsoft.Extensions.Options.Tests.FakeOptionsSetupC
-    name: FakeOptionsSetupC
-  - uid: Microsoft.Extensions.Options.Tests.OptionsMonitorTest
-    name: OptionsMonitorTest
-  - uid: Microsoft.Extensions.Options.Tests.OptionsMonitorTest.Controller
-    name: OptionsMonitorTest.Controller
-  - uid: Microsoft.Extensions.Options.Tests.OptionsMonitorTest.CountIncrement
-    name: OptionsMonitorTest.CountIncrement
-  - uid: Microsoft.Extensions.Options.Tests.OptionsMonitorTest.FakeChangeToken
-    name: OptionsMonitorTest.FakeChangeToken
-  - uid: Microsoft.Extensions.Options.Tests.OptionsMonitorTest.FakeSource
-    name: OptionsMonitorTest.FakeSource
-  - uid: Microsoft.Extensions.Options.Tests.OptionsTest
-    name: OptionsTest
-  - uid: Microsoft.Extensions.Options.Tests.OptionsTest.ComplexOptions
-    name: OptionsTest.ComplexOptions
-  - uid: Microsoft.Extensions.Options.Tests.OptionsTest.DerivedOptions
-    name: OptionsTest.DerivedOptions
-  - uid: Microsoft.Extensions.Options.Tests.OptionsTest.EnumOptions
-    name: OptionsTest.EnumOptions
-  - uid: Microsoft.Extensions.Options.Tests.OptionsTest.NestedOptions
-    name: OptionsTest.NestedOptions
-  - uid: Microsoft.Extensions.Options.Tests.OptionsTest.NullableOptions
-    name: OptionsTest.NullableOptions

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  id: Microsoft.AspNetCore.Builder
+  children:
+  - Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions
+  - Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions
+  - Microsoft.AspNetCore.Builder.WebApiCompatShimRouteBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  type: Namespace
+  assemblies:
+  - Microsoft.AspNetCore.Mvc.Core
+references:
+- uid: Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions
+  isExternal: false
+  name: MvcApplicationBuilderExtensions
+  nameWithType: MvcApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions
+  isExternal: false
+  name: MvcAreaRouteBuilderExtensions
+  nameWithType: MvcAreaRouteBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.WebApiCompatShimRouteBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.WebApiCompatShimRouteBuilderExtensions
+  isExternal: false
+  name: WebApiCompatShimRouteBuilderExtensions
+  nameWithType: WebApiCompatShimRouteBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.WebApiCompatShimRouteBuilderExtensions

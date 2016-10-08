@@ -4,12 +4,9 @@ items:
   commentId: N:Microsoft.AspNetCore.DataProtection.Repositories
   id: Microsoft.AspNetCore.DataProtection.Repositories
   children:
-  - Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepositoryTests
   - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository
-  - Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
   - Microsoft.AspNetCore.DataProtection.Repositories.IXmlRepository
   - Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepository
-  - Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepositoryTests
   langs:
   - csharp
   - vb
@@ -39,24 +36,6 @@ references:
   name: RegistryXmlRepository
   nameWithType: RegistryXmlRepository
   fullName: Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepository
-- uid: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepositoryTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepositoryTests
-  isExternal: false
-  name: EphemeralXmlRepositoryTests
-  nameWithType: EphemeralXmlRepositoryTests
-  fullName: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepositoryTests
-- uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
-  isExternal: false
-  name: FileSystemXmlRepositoryTests
-  nameWithType: FileSystemXmlRepositoryTests
-  fullName: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
-- uid: Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepositoryTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepositoryTests
-  isExternal: false
-  name: RegistryXmlRepositoryTests
-  nameWithType: RegistryXmlRepositoryTests
-  fullName: Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepositoryTests
 - uid: Microsoft.AspNetCore.DataProtection.Repositories
   commentId: N:Microsoft.AspNetCore.DataProtection.Repositories
   isExternal: false

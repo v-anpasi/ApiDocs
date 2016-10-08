@@ -1,9 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: MemoryCacheSample
-  name: MemoryCacheSample
-  items:
-  - uid: MemoryCacheSample.Program
-    name: Program
 - uid: Microsoft.Extensions.Caching.Distributed
   name: Microsoft.Extensions.Caching.Distributed
   items:
@@ -81,23 +76,3 @@
     name: ISystemClock
   - uid: Microsoft.Extensions.Internal.SystemClock
     name: SystemClock
-- uid: ProfilingSample
-  name: ProfilingSample
-  items:
-  - uid: ProfilingSample.Program
-    name: Program
-- uid: RedisCacheSample
-  name: RedisCacheSample
-  items:
-  - uid: RedisCacheSample.Program
-    name: Program
-- uid: SqlServerCacheConcurrencySample
-  name: SqlServerCacheConcurrencySample
-  items:
-  - uid: SqlServerCacheConcurrencySample.Program
-    name: Program
-- uid: SqlServerCacheSample
-  name: SqlServerCacheSample
-  items:
-  - uid: SqlServerCacheSample.Program
-    name: Program

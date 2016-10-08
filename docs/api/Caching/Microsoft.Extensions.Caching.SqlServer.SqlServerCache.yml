@@ -38,6 +38,7 @@ items:
     content: 'public class SqlServerCache : IDistributedCache'
     content.vb: >-
       Public Class SqlServerCache
+
           Implements IDistributedCache
   inheritance:
   - System.Object

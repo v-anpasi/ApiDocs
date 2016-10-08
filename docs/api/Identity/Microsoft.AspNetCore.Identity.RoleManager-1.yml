@@ -1745,12 +1745,6 @@ references:
   commentId: T:System.NotSupportedException
 - uid: Microsoft.AspNetCore.Identity.RoleManager`1.SupportsQueryableRoles
   commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.SupportsQueryableRoles
-  isExternal: false
-  name: SupportsQueryableRoles
-  nameWithType: RoleManager<TRole>.SupportsQueryableRoles
-  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SupportsQueryableRoles
-  nameWithType.vb: RoleManager(Of TRole).SupportsQueryableRoles
-  fullname.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SupportsQueryableRoles
 - uid: System.Linq.IQueryable{{TRole}}
   commentId: T:System.Linq.IQueryable{`0}
   parent: System.Linq

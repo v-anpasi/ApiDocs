@@ -1,0 +1,43 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.WebSocketMiddlewareExtensions
+    name: WebSocketMiddlewareExtensions
+  - uid: Microsoft.AspNetCore.Builder.WebSocketOptions
+    name: WebSocketOptions
+- uid: Microsoft.AspNetCore.WebSockets.Client
+  name: Microsoft.AspNetCore.WebSockets.Client
+  items:
+  - uid: Microsoft.AspNetCore.WebSockets.Client.Constants
+    name: Constants
+  - uid: Microsoft.AspNetCore.WebSockets.Client.Constants.Headers
+    name: Constants.Headers
+  - uid: Microsoft.AspNetCore.WebSockets.Client.WebSocketClient
+    name: WebSocketClient
+- uid: Microsoft.AspNetCore.WebSockets.Protocol
+  name: Microsoft.AspNetCore.WebSockets.Protocol
+  items:
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.CommonWebSocket
+    name: CommonWebSocket
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.Constants
+    name: Constants
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.Constants.Headers
+    name: Constants.Headers
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.Constants.OpCodes
+    name: Constants.OpCodes
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.FrameHeader
+    name: FrameHeader
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.HandshakeHelpers
+    name: HandshakeHelpers
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.Utilities
+    name: Utilities
+  - uid: Microsoft.AspNetCore.WebSockets.Protocol.Utilities.Utf8MessageState
+    name: Utilities.Utf8MessageState
+- uid: Microsoft.AspNetCore.WebSockets.Server
+  name: Microsoft.AspNetCore.WebSockets.Server
+  items:
+  - uid: Microsoft.AspNetCore.WebSockets.Server.ExtendedWebSocketAcceptContext
+    name: ExtendedWebSocketAcceptContext
+  - uid: Microsoft.AspNetCore.WebSockets.Server.WebSocketMiddleware
+    name: WebSocketMiddleware

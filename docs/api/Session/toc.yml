@@ -26,8 +26,3 @@
   items:
   - uid: Microsoft.Extensions.DependencyInjection.SessionServiceCollectionExtensions
     name: SessionServiceCollectionExtensions
-- uid: SessionSample
-  name: SessionSample
-  items:
-  - uid: SessionSample.Startup
-    name: Startup

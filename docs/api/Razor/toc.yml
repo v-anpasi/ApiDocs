@@ -1,0 +1,465 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Razor
+  name: Microsoft.AspNetCore.Razor
+  items:
+  - uid: Microsoft.AspNetCore.Razor.CSharpRazorCodeLanguage
+    name: CSharpRazorCodeLanguage
+  - uid: Microsoft.AspNetCore.Razor.DocumentParseCompleteEventArgs
+    name: DocumentParseCompleteEventArgs
+  - uid: Microsoft.AspNetCore.Razor.ErrorSink
+    name: ErrorSink
+  - uid: Microsoft.AspNetCore.Razor.ParserResults
+    name: ParserResults
+  - uid: Microsoft.AspNetCore.Razor.PartialParseResult
+    name: PartialParseResult
+  - uid: Microsoft.AspNetCore.Razor.RazorCodeLanguage
+    name: RazorCodeLanguage
+  - uid: Microsoft.AspNetCore.Razor.RazorEditorParser
+    name: RazorEditorParser
+  - uid: Microsoft.AspNetCore.Razor.RazorEngineHost
+    name: RazorEngineHost
+  - uid: Microsoft.AspNetCore.Razor.RazorError
+    name: RazorError
+  - uid: Microsoft.AspNetCore.Razor.RazorTemplateEngine
+    name: RazorTemplateEngine
+  - uid: Microsoft.AspNetCore.Razor.SourceLocation
+    name: SourceLocation
+- uid: Microsoft.AspNetCore.Razor.Chunks
+  name: Microsoft.AspNetCore.Razor.Chunks
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Chunks.AddTagHelperChunk
+    name: AddTagHelperChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Chunk
+    name: Chunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.ChunkTree
+    name: ChunkTree
+  - uid: Microsoft.AspNetCore.Razor.Chunks.ChunkTreeBuilder
+    name: ChunkTreeBuilder
+  - uid: Microsoft.AspNetCore.Razor.Chunks.CodeAttributeChunk
+    name: CodeAttributeChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.DynamicCodeAttributeChunk
+    name: DynamicCodeAttributeChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.ExpressionBlockChunk
+    name: ExpressionBlockChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.ExpressionChunk
+    name: ExpressionChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.LiteralChunk
+    name: LiteralChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.LiteralCodeAttributeChunk
+    name: LiteralCodeAttributeChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.ParentChunk
+    name: ParentChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.ParentLiteralChunk
+    name: ParentLiteralChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.PreallocatedTagHelperAttributeChunk
+    name: PreallocatedTagHelperAttributeChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.RemoveTagHelperChunk
+    name: RemoveTagHelperChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.SectionChunk
+    name: SectionChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.SetBaseTypeChunk
+    name: SetBaseTypeChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.StatementChunk
+    name: StatementChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.TagHelperAttributeTracker
+    name: TagHelperAttributeTracker
+  - uid: Microsoft.AspNetCore.Razor.Chunks.TagHelperChunk
+    name: TagHelperChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.TagHelperPrefixDirectiveChunk
+    name: TagHelperPrefixDirectiveChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.TemplateChunk
+    name: TemplateChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.TypeMemberChunk
+    name: TypeMemberChunk
+  - uid: Microsoft.AspNetCore.Razor.Chunks.UsingChunk
+    name: UsingChunk
+- uid: Microsoft.AspNetCore.Razor.Chunks.Generators
+  name: Microsoft.AspNetCore.Razor.Chunks.Generators
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.AddImportChunkGenerator
+    name: AddImportChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.AddTagHelperChunkGenerator
+    name: AddTagHelperChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.AttributeBlockChunkGenerator
+    name: AttributeBlockChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.ChunkGeneratorContext
+    name: ChunkGeneratorContext
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.DynamicAttributeBlockChunkGenerator
+    name: DynamicAttributeBlockChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.ExpressionChunkGenerator
+    name: ExpressionChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.IParentChunkGenerator
+    name: IParentChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.ISpanChunkGenerator
+    name: ISpanChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.LiteralAttributeChunkGenerator
+    name: LiteralAttributeChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.MarkupChunkGenerator
+    name: MarkupChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.ParentChunkGenerator
+    name: ParentChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.RazorChunkGenerator
+    name: RazorChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.RazorCommentChunkGenerator
+    name: RazorCommentChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.RemoveTagHelperChunkGenerator
+    name: RemoveTagHelperChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.SectionChunkGenerator
+    name: SectionChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.SetBaseTypeChunkGenerator
+    name: SetBaseTypeChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.SpanChunkGenerator
+    name: SpanChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.StatementChunkGenerator
+    name: StatementChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.TagHelperChunkGenerator
+    name: TagHelperChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.TagHelperPrefixDirectiveChunkGenerator
+    name: TagHelperPrefixDirectiveChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.TemplateBlockChunkGenerator
+    name: TemplateBlockChunkGenerator
+  - uid: Microsoft.AspNetCore.Razor.Chunks.Generators.TypeMemberChunkGenerator
+    name: TypeMemberChunkGenerator
+- uid: Microsoft.AspNetCore.Razor.CodeGenerators
+  name: Microsoft.AspNetCore.Razor.CodeGenerators
+  items:
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CodeGenerator
+    name: CodeGenerator
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CodeGeneratorContext
+    name: CodeGeneratorContext
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CodeGeneratorResult
+    name: CodeGeneratorResult
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CodeWriter
+    name: CodeWriter
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpCodeGenerator
+    name: CSharpCodeGenerator
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpCodeWriter
+    name: CSharpCodeWriter
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpCodeWritingScope
+    name: CSharpCodeWritingScope
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpDisableWarningScope
+    name: CSharpDisableWarningScope
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpLineMappingWriter
+    name: CSharpLineMappingWriter
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpPaddingBuilder
+    name: CSharpPaddingBuilder
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.CSharpTagHelperCodeRenderer
+    name: CSharpTagHelperCodeRenderer
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.ExpressionRenderingMode
+    name: ExpressionRenderingMode
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.GeneratedClassContext
+    name: GeneratedClassContext
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.GeneratedTagHelperContext
+    name: GeneratedTagHelperContext
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.GeneratorResults
+    name: GeneratorResults
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.LineMapping
+    name: LineMapping
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.LineMappingManager
+    name: LineMappingManager
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.MappingLocation
+    name: MappingLocation
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.TagHelperAttributeValueCodeRenderer
+    name: TagHelperAttributeValueCodeRenderer
+- uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors
+  name: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors
+  items:
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.ChunkVisitor`1
+    name: ChunkVisitor<TWriter>
+    name.vb: ChunkVisitor(Of TWriter)
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CodeVisitor`1
+    name: CodeVisitor<TWriter>
+    name.vb: CodeVisitor(Of TWriter)
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpBaseTypeVisitor
+    name: CSharpBaseTypeVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpCodeVisitor
+    name: CSharpCodeVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpDesignTimeCodeVisitor
+    name: CSharpDesignTimeCodeVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpTagHelperAttributeValueVisitor
+    name: CSharpTagHelperAttributeValueVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpTagHelperFieldDeclarationVisitor
+    name: CSharpTagHelperFieldDeclarationVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpTagHelperPropertyInitializationVisitor
+    name: CSharpTagHelperPropertyInitializationVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpTypeMemberVisitor
+    name: CSharpTypeMemberVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.CSharpUsingVisitor
+    name: CSharpUsingVisitor
+  - uid: Microsoft.AspNetCore.Razor.CodeGenerators.Visitors.IChunkVisitor
+    name: IChunkVisitor
+- uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers
+  name: Microsoft.AspNetCore.Razor.Compilation.TagHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.ITagHelperDescriptorResolver
+    name: ITagHelperDescriptorResolver
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperAttributeDescriptor
+    name: TagHelperAttributeDescriptor
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperAttributeDesignTimeDescriptor
+    name: TagHelperAttributeDesignTimeDescriptor
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDescriptor
+    name: TagHelperDescriptor
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDescriptorComparer
+    name: TagHelperDescriptorComparer
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDescriptorProvider
+    name: TagHelperDescriptorProvider
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDescriptorResolutionContext
+    name: TagHelperDescriptorResolutionContext
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDesignTimeDescriptor
+    name: TagHelperDesignTimeDescriptor
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDirectiveDescriptor
+    name: TagHelperDirectiveDescriptor
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperDirectiveType
+    name: TagHelperDirectiveType
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperRequiredAttributeDescriptor
+    name: TagHelperRequiredAttributeDescriptor
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperRequiredAttributeDescriptorComparer
+    name: TagHelperRequiredAttributeDescriptorComparer
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperRequiredAttributeNameComparison
+    name: TagHelperRequiredAttributeNameComparison
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TagHelperRequiredAttributeValueComparison
+    name: TagHelperRequiredAttributeValueComparison
+  - uid: Microsoft.AspNetCore.Razor.Compilation.TagHelpers.TypeBasedTagHelperDescriptorComparer
+    name: TypeBasedTagHelperDescriptorComparer
+- uid: Microsoft.AspNetCore.Razor.Editor
+  name: Microsoft.AspNetCore.Razor.Editor
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Editor.AutoCompleteEditHandler
+    name: AutoCompleteEditHandler
+  - uid: Microsoft.AspNetCore.Razor.Editor.EditorHints
+    name: EditorHints
+  - uid: Microsoft.AspNetCore.Razor.Editor.EditResult
+    name: EditResult
+  - uid: Microsoft.AspNetCore.Razor.Editor.ImplicitExpressionEditHandler
+    name: ImplicitExpressionEditHandler
+  - uid: Microsoft.AspNetCore.Razor.Editor.SingleLineMarkupEditHandler
+    name: SingleLineMarkupEditHandler
+  - uid: Microsoft.AspNetCore.Razor.Editor.SpanEditHandler
+    name: SpanEditHandler
+- uid: Microsoft.AspNetCore.Razor.Internal
+  name: Microsoft.AspNetCore.Razor.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Internal.TaskCache
+    name: TaskCache
+- uid: Microsoft.AspNetCore.Razor.Parser
+  name: Microsoft.AspNetCore.Razor.Parser
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Parser.BalancingModes
+    name: BalancingModes
+  - uid: Microsoft.AspNetCore.Razor.Parser.CSharpCodeParser
+    name: CSharpCodeParser
+  - uid: Microsoft.AspNetCore.Razor.Parser.CSharpCodeParser.Block
+    name: CSharpCodeParser.Block
+  - uid: Microsoft.AspNetCore.Razor.Parser.CSharpLanguageCharacteristics
+    name: CSharpLanguageCharacteristics
+  - uid: Microsoft.AspNetCore.Razor.Parser.ISyntaxTreeRewriter
+    name: ISyntaxTreeRewriter
+  - uid: Microsoft.AspNetCore.Razor.Parser.LanguageCharacteristics`3
+    name: LanguageCharacteristics<TTokenizer, TSymbol, TSymbolType>
+    name.vb: LanguageCharacteristics(Of TTokenizer, TSymbol, TSymbolType)
+  - uid: Microsoft.AspNetCore.Razor.Parser.ParserBase
+    name: ParserBase
+  - uid: Microsoft.AspNetCore.Razor.Parser.ParserContext
+    name: ParserContext
+  - uid: Microsoft.AspNetCore.Razor.Parser.ParserHelpers
+    name: ParserHelpers
+  - uid: Microsoft.AspNetCore.Razor.Parser.ParserVisitor
+    name: ParserVisitor
+  - uid: Microsoft.AspNetCore.Razor.Parser.ParserVisitorExtensions
+    name: ParserVisitorExtensions
+  - uid: Microsoft.AspNetCore.Razor.Parser.RazorParser
+    name: RazorParser
+  - uid: Microsoft.AspNetCore.Razor.Parser.RewritingContext
+    name: RewritingContext
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxConstants
+    name: SyntaxConstants
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxConstants.CSharp
+    name: SyntaxConstants.CSharp
+  - uid: Microsoft.AspNetCore.Razor.Parser.TokenizerBackedParser`3
+    name: TokenizerBackedParser<TTokenizer, TSymbol, TSymbolType>
+    name.vb: TokenizerBackedParser(Of TTokenizer, TSymbol, TSymbolType)
+- uid: Microsoft.AspNetCore.Razor.Parser.Internal
+  name: Microsoft.AspNetCore.Razor.Parser.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Parser.Internal.CallbackVisitor
+    name: CallbackVisitor
+  - uid: Microsoft.AspNetCore.Razor.Parser.Internal.HtmlLanguageCharacteristics
+    name: HtmlLanguageCharacteristics
+  - uid: Microsoft.AspNetCore.Razor.Parser.Internal.HtmlMarkupParser
+    name: HtmlMarkupParser
+- uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree
+  name: Microsoft.AspNetCore.Razor.Parser.SyntaxTree
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.AcceptedCharacters
+    name: AcceptedCharacters
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.Block
+    name: Block
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.BlockBuilder
+    name: BlockBuilder
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.BlockType
+    name: BlockType
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.Span
+    name: Span
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.SpanBuilder
+    name: SpanBuilder
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.SpanKind
+    name: SpanKind
+  - uid: Microsoft.AspNetCore.Razor.Parser.SyntaxTree.SyntaxTreeNode
+    name: SyntaxTreeNode
+- uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers
+  name: Microsoft.AspNetCore.Razor.Parser.TagHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.TagHelperAttributeNode
+    name: TagHelperAttributeNode
+  - uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.TagHelperBlock
+    name: TagHelperBlock
+  - uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.TagHelperBlockBuilder
+    name: TagHelperBlockBuilder
+  - uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.TagHelperDirectiveSpanVisitor
+    name: TagHelperDirectiveSpanVisitor
+- uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.Internal
+  name: Microsoft.AspNetCore.Razor.Parser.TagHelpers.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.Internal.TagHelperBlockRewriter
+    name: TagHelperBlockRewriter
+  - uid: Microsoft.AspNetCore.Razor.Parser.TagHelpers.Internal.TagHelperParseTreeRewriter
+    name: TagHelperParseTreeRewriter
+- uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers
+  name: Microsoft.AspNetCore.Razor.Runtime.TagHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.ITagHelperDescriptorFactory
+    name: ITagHelperDescriptorFactory
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.ITagHelperTypeResolver
+    name: ITagHelperTypeResolver
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperConventions
+    name: TagHelperConventions
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperDescriptorFactory
+    name: TagHelperDescriptorFactory
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperDescriptorResolver
+    name: TagHelperDescriptorResolver
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperDesignTimeDescriptorFactory
+    name: TagHelperDesignTimeDescriptorFactory
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext
+    name: TagHelperExecutionContext
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner
+    name: TagHelperRunner
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager
+    name: TagHelperScopeManager
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperTypeResolver
+    name: TagHelperTypeResolver
+  - uid: Microsoft.AspNetCore.Razor.Runtime.TagHelpers.XmlDocumentationProvider
+    name: XmlDocumentationProvider
+- uid: Microsoft.AspNetCore.Razor.TagHelpers
+  name: Microsoft.AspNetCore.Razor.TagHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.DefaultTagHelperContent
+    name: DefaultTagHelperContent
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNameAttribute
+    name: HtmlAttributeNameAttribute
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNotBoundAttribute
+    name: HtmlAttributeNotBoundAttribute
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle
+    name: HtmlAttributeValueStyle
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute
+    name: HtmlTargetElementAttribute
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper
+    name: ITagHelper
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.NullHtmlEncoder
+    name: NullHtmlEncoder
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.OutputElementHintAttribute
+    name: OutputElementHintAttribute
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.ReadOnlyTagHelperAttributeList
+    name: ReadOnlyTagHelperAttributeList
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.RestrictChildrenAttribute
+    name: RestrictChildrenAttribute
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelper
+    name: TagHelper
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute
+    name: TagHelperAttribute
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeList
+    name: TagHelperAttributeList
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContent
+    name: TagHelperContent
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+    name: TagHelperContext
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+    name: TagHelperOutput
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagMode
+    name: TagMode
+  - uid: Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+    name: TagStructure
+- uid: Microsoft.AspNetCore.Razor.Text
+  name: Microsoft.AspNetCore.Razor.Text
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Text.ITextBuffer
+    name: ITextBuffer
+  - uid: Microsoft.AspNetCore.Razor.Text.ITextDocument
+    name: ITextDocument
+  - uid: Microsoft.AspNetCore.Razor.Text.LocationTagged`1
+    name: LocationTagged<TValue>
+    name.vb: LocationTagged(Of TValue)
+  - uid: Microsoft.AspNetCore.Razor.Text.LookaheadTextReader
+    name: LookaheadTextReader
+  - uid: Microsoft.AspNetCore.Razor.Text.LookaheadToken
+    name: LookaheadToken
+  - uid: Microsoft.AspNetCore.Razor.Text.SeekableTextReader
+    name: SeekableTextReader
+  - uid: Microsoft.AspNetCore.Razor.Text.SourceLocationTracker
+    name: SourceLocationTracker
+  - uid: Microsoft.AspNetCore.Razor.Text.TextChange
+    name: TextChange
+  - uid: Microsoft.AspNetCore.Razor.Text.TextDocumentReader
+    name: TextDocumentReader
+- uid: Microsoft.AspNetCore.Razor.Tokenizer
+  name: Microsoft.AspNetCore.Razor.Tokenizer
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.ITokenizer
+    name: ITokenizer
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Tokenizer`2
+    name: Tokenizer<TSymbol, TSymbolType>
+    name.vb: Tokenizer(Of TSymbol, TSymbolType)
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Tokenizer`2.RazorCommentTokenizerState
+    name: Tokenizer<TSymbol, TSymbolType>.RazorCommentTokenizerState
+    name.vb: Tokenizer(Of TSymbol, TSymbolType).RazorCommentTokenizerState
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Tokenizer`2.StateResult
+    name: Tokenizer<TSymbol, TSymbolType>.StateResult
+    name.vb: Tokenizer(Of TSymbol, TSymbolType).StateResult
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.TokenizerView`3
+    name: TokenizerView<TTokenizer, TSymbol, TSymbolType>
+    name.vb: TokenizerView(Of TTokenizer, TSymbol, TSymbolType)
+- uid: Microsoft.AspNetCore.Razor.Tokenizer.Internal
+  name: Microsoft.AspNetCore.Razor.Tokenizer.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Internal.CSharpHelpers
+    name: CSharpHelpers
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Internal.CSharpTokenizer
+    name: CSharpTokenizer
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Internal.HtmlTokenizer
+    name: HtmlTokenizer
+- uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols
+  name: Microsoft.AspNetCore.Razor.Tokenizer.Symbols
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.CSharpKeyword
+    name: CSharpKeyword
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.CSharpSymbol
+    name: CSharpSymbol
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.CSharpSymbolType
+    name: CSharpSymbolType
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.ISymbol
+    name: ISymbol
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.KnownSymbolType
+    name: KnownSymbolType
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.SymbolBase`1
+    name: SymbolBase<TType>
+    name.vb: SymbolBase(Of TType)
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.SymbolExtensions
+    name: SymbolExtensions
+- uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.Internal
+  name: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.Internal.HtmlSymbol
+    name: HtmlSymbol
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.Internal.HtmlSymbolExtensions
+    name: HtmlSymbolExtensions
+  - uid: Microsoft.AspNetCore.Razor.Tokenizer.Symbols.Internal.HtmlSymbolType
+    name: HtmlSymbolType

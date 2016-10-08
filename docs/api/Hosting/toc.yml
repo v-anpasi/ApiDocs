@@ -151,22 +151,3 @@
     name: TestServer
   - uid: Microsoft.AspNetCore.TestHost.WebSocketClient
     name: WebSocketClient
-- uid: SampleStartups
-  name: SampleStartups
-  items:
-  - uid: SampleStartups.IMyCustomService
-    name: IMyCustomService
-  - uid: SampleStartups.MyCustomService
-    name: MyCustomService
-  - uid: SampleStartups.MyHostLoggerProvider
-    name: MyHostLoggerProvider
-  - uid: SampleStartups.StartupBlockingOnStart
-    name: StartupBlockingOnStart
-  - uid: SampleStartups.StartupConfigureAddresses
-    name: StartupConfigureAddresses
-  - uid: SampleStartups.StartupExternallyControlled
-    name: StartupExternallyControlled
-  - uid: SampleStartups.StartupFullControl
-    name: StartupFullControl
-  - uid: SampleStartups.StartupHelloWorld
-    name: StartupHelloWorld

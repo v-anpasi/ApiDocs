@@ -11,7 +11,6 @@ items:
   - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults
   - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
   - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddleware
-  - Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
   - Microsoft.AspNetCore.Authentication.JwtBearer.MessageReceivedContext
   - Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
   langs:
@@ -84,12 +83,6 @@ references:
   name: TokenValidatedContext
   nameWithType: TokenValidatedContext
   fullName: Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
-- uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
-  commentId: T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
-  isExternal: false
-  name: JwtBearerMiddlewareTests
-  nameWithType: JwtBearerMiddlewareTests
-  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
 - uid: Microsoft.AspNetCore.Authentication.JwtBearer
   commentId: N:Microsoft.AspNetCore.Authentication.JwtBearer
   isExternal: false

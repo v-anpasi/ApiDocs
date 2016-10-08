@@ -7,7 +7,6 @@ items:
   - Microsoft.Owin.Security.Interop.AspNetTicketDataFormat
   - Microsoft.Owin.Security.Interop.AspNetTicketSerializer
   - Microsoft.Owin.Security.Interop.ChunkingCookieManager
-  - Microsoft.Owin.Security.Interop.CookiesInteropTests
   - Microsoft.Owin.Security.Interop.DataProtectorShim
   langs:
   - csharp
@@ -44,12 +43,6 @@ references:
   name: DataProtectorShim
   nameWithType: DataProtectorShim
   fullName: Microsoft.Owin.Security.Interop.DataProtectorShim
-- uid: Microsoft.Owin.Security.Interop.CookiesInteropTests
-  commentId: T:Microsoft.Owin.Security.Interop.CookiesInteropTests
-  isExternal: false
-  name: CookiesInteropTests
-  nameWithType: CookiesInteropTests
-  fullName: Microsoft.Owin.Security.Interop.CookiesInteropTests
 - uid: Microsoft.Owin.Security.Interop
   commentId: N:Microsoft.Owin.Security.Interop
   isExternal: false

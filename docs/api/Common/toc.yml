@@ -1,0 +1,63 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.Extensions.CommandLineUtils
+  name: Microsoft.Extensions.CommandLineUtils
+  items:
+  - uid: Microsoft.Extensions.CommandLineUtils.AnsiConsole
+    name: AnsiConsole
+  - uid: Microsoft.Extensions.CommandLineUtils.CommandArgument
+    name: CommandArgument
+  - uid: Microsoft.Extensions.CommandLineUtils.CommandLineApplication
+    name: CommandLineApplication
+  - uid: Microsoft.Extensions.CommandLineUtils.CommandOption
+    name: CommandOption
+  - uid: Microsoft.Extensions.CommandLineUtils.CommandOptionType
+    name: CommandOptionType
+  - uid: Microsoft.Extensions.CommandLineUtils.CommandParsingException
+    name: CommandParsingException
+- uid: Microsoft.Extensions.ObjectPool
+  name: Microsoft.Extensions.ObjectPool
+  items:
+  - uid: Microsoft.Extensions.ObjectPool.DefaultObjectPool`1
+    name: DefaultObjectPool<T>
+    name.vb: DefaultObjectPool(Of T)
+  - uid: Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider
+    name: DefaultObjectPoolProvider
+  - uid: Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1
+    name: DefaultPooledObjectPolicy<T>
+    name.vb: DefaultPooledObjectPolicy(Of T)
+  - uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+    name: IPooledObjectPolicy<T>
+    name.vb: IPooledObjectPolicy(Of T)
+  - uid: Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1
+    name: LeakTrackingObjectPool<T>
+    name.vb: LeakTrackingObjectPool(Of T)
+  - uid: Microsoft.Extensions.ObjectPool.LeakTrackingObjectPoolProvider
+    name: LeakTrackingObjectPoolProvider
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPool`1
+    name: ObjectPool<T>
+    name.vb: ObjectPool(Of T)
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPoolProvider
+    name: ObjectPoolProvider
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPoolProviderExtensions
+    name: ObjectPoolProviderExtensions
+  - uid: Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy
+    name: StringBuilderPooledObjectPolicy
+- uid: Microsoft.Extensions.Primitives
+  name: Microsoft.Extensions.Primitives
+  items:
+  - uid: Microsoft.Extensions.Primitives.CancellationChangeToken
+    name: CancellationChangeToken
+  - uid: Microsoft.Extensions.Primitives.ChangeToken
+    name: ChangeToken
+  - uid: Microsoft.Extensions.Primitives.IChangeToken
+    name: IChangeToken
+  - uid: Microsoft.Extensions.Primitives.StringSegment
+    name: StringSegment
+  - uid: Microsoft.Extensions.Primitives.StringTokenizer
+    name: StringTokenizer
+  - uid: Microsoft.Extensions.Primitives.StringTokenizer.Enumerator
+    name: StringTokenizer.Enumerator
+  - uid: Microsoft.Extensions.Primitives.StringValues
+    name: StringValues
+  - uid: Microsoft.Extensions.Primitives.StringValues.Enumerator
+    name: StringValues.Enumerator

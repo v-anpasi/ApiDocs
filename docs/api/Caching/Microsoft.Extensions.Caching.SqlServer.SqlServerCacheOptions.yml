@@ -35,6 +35,7 @@ items:
     content: 'public class SqlServerCacheOptions : IOptions<SqlServerCacheOptions>'
     content.vb: >-
       Public Class SqlServerCacheOptions
+
           Implements IOptions(Of SqlServerCacheOptions)
   inheritance:
   - System.Object

@@ -1,11 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: CorsMiddlewareWebSite
-  name: CorsMiddlewareWebSite
-  items:
-  - uid: CorsMiddlewareWebSite.EchoMiddleware
-    name: EchoMiddleware
-  - uid: CorsMiddlewareWebSite.Startup
-    name: Startup
 - uid: Microsoft.AspNetCore.Builder
   name: Microsoft.AspNetCore.Builder
   items:
@@ -25,35 +18,18 @@
     name: CorsConstants
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware
     name: CorsMiddleware
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareFunctionalTests
-    name: CorsMiddlewareFunctionalTests
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddlewareTests
-    name: CorsMiddlewareTests
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
     name: CorsOptions
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy
     name: CorsPolicy
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder
     name: CorsPolicyBuilder
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilderTests
-    name: CorsPolicyBuilderTests
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyTest
-    name: CorsPolicyTest
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsResult
     name: CorsResult
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsResultTest
-    name: CorsResultTest
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsService
     name: CorsService
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsServiceTests
-    name: CorsServiceTests
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsTestFixture`1
-    name: CorsTestFixture<TStartup>
-    name.vb: CorsTestFixture(Of TStartup)
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.DefaultCorsPolicyProvider
     name: DefaultCorsPolicyProvider
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.DefaultPolicyProviderTests
-    name: DefaultPolicyProviderTests
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider
     name: ICorsPolicyProvider
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.ICorsService
@@ -62,8 +38,6 @@
     name: IDisableCorsAttribute
   - uid: Microsoft.AspNetCore.Cors.Infrastructure.IEnableCorsAttribute
     name: IEnableCorsAttribute
-  - uid: Microsoft.AspNetCore.Cors.Infrastructure.TestCorsOptions
-    name: TestCorsOptions
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   items:

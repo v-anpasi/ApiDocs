@@ -37,6 +37,7 @@ items:
     content: 'public class RedisCache : IDistributedCache, IDisposable'
     content.vb: >-
       Public Class RedisCache
+
           Implements IDistributedCache, IDisposable
   inheritance:
   - System.Object

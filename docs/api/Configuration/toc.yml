@@ -46,36 +46,10 @@
     name: IniConfigurationExtensions
   - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
     name: JsonConfigurationExtensions
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationTest
-    name: JsonConfigurationTest
   - uid: Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions
     name: MemoryConfigurationBuilderExtensions
   - uid: Microsoft.Extensions.Configuration.XmlConfigurationExtensions
     name: XmlConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.Binder.Test
-  name: Microsoft.Extensions.Configuration.Binder.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests
-    name: ConfigurationBinderTests
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ComplexOptions
-    name: ConfigurationBinderTests.ComplexOptions
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.ConfigurationInterfaceOptions
-    name: ConfigurationBinderTests.ConfigurationInterfaceOptions
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptions
-    name: ConfigurationBinderTests.DerivedOptions
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.DerivedOptionsWithIConfigurationSection
-    name: ConfigurationBinderTests.DerivedOptionsWithIConfigurationSection
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.EnumOptions
-    name: ConfigurationBinderTests.EnumOptions
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.GenericOptions`1
-    name: ConfigurationBinderTests.GenericOptions<T>
-    name.vb: ConfigurationBinderTests.GenericOptions(Of T)
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.NestedOptions
-    name: ConfigurationBinderTests.NestedOptions
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationBinderTests.NullableOptions
-    name: ConfigurationBinderTests.NullableOptions
-  - uid: Microsoft.Extensions.Configuration.Binder.Test.ConfigurationCollectionBinding
-    name: ConfigurationCollectionBinding
 - uid: Microsoft.Extensions.Configuration.CommandLine
   name: Microsoft.Extensions.Configuration.CommandLine
   items:
@@ -83,11 +57,6 @@
     name: CommandLineConfigurationProvider
   - uid: Microsoft.Extensions.Configuration.CommandLine.CommandLineConfigurationSource
     name: CommandLineConfigurationSource
-- uid: Microsoft.Extensions.Configuration.CommandLine.Test
-  name: Microsoft.Extensions.Configuration.CommandLine.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.CommandLine.Test.CommandLineTest
-    name: CommandLineTest
 - uid: Microsoft.Extensions.Configuration.EnvironmentVariables
   name: Microsoft.Extensions.Configuration.EnvironmentVariables
   items:
@@ -95,16 +64,6 @@
     name: EnvironmentVariablesConfigurationProvider
   - uid: Microsoft.Extensions.Configuration.EnvironmentVariables.EnvironmentVariablesConfigurationSource
     name: EnvironmentVariablesConfigurationSource
-- uid: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
-  name: Microsoft.Extensions.Configuration.EnvironmentVariables.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariables.Test.EnvironmentVariablesTest
-    name: EnvironmentVariablesTest
-- uid: Microsoft.Extensions.Configuration.FunctionalTests
-  name: Microsoft.Extensions.Configuration.FunctionalTests
-  items:
-  - uid: Microsoft.Extensions.Configuration.FunctionalTests.ArrayTests
-    name: ArrayTests
 - uid: Microsoft.Extensions.Configuration.Ini
   name: Microsoft.Extensions.Configuration.Ini
   items:
@@ -112,29 +71,13 @@
     name: IniConfigurationProvider
   - uid: Microsoft.Extensions.Configuration.Ini.IniConfigurationSource
     name: IniConfigurationSource
-- uid: Microsoft.Extensions.Configuration.Ini.Test
-  name: Microsoft.Extensions.Configuration.Ini.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationExtensionsTest
-    name: IniConfigurationExtensionsTest
-  - uid: Microsoft.Extensions.Configuration.Ini.Test.IniConfigurationTest
-    name: IniConfigurationTest
 - uid: Microsoft.Extensions.Configuration.Json
   name: Microsoft.Extensions.Configuration.Json
   items:
-  - uid: Microsoft.Extensions.Configuration.Json.FileConfigurationBuilderExtensionsTest
-    name: FileConfigurationBuilderExtensionsTest
-  - uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationExtensionsTest
-    name: JsonConfigurationExtensionsTest
   - uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
     name: JsonConfigurationProvider
   - uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationSource
     name: JsonConfigurationSource
-- uid: Microsoft.Extensions.Configuration.Json.Test
-  name: Microsoft.Extensions.Configuration.Json.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.Json.Test.ArrayTest
-    name: ArrayTest
 - uid: Microsoft.Extensions.Configuration.Memory
   name: Microsoft.Extensions.Configuration.Memory
   items:
@@ -142,29 +85,6 @@
     name: MemoryConfigurationProvider
   - uid: Microsoft.Extensions.Configuration.Memory.MemoryConfigurationSource
     name: MemoryConfigurationSource
-- uid: Microsoft.Extensions.Configuration.Test
-  name: Microsoft.Extensions.Configuration.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationPathComparerTest
-    name: ConfigurationPathComparerTest
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationPathTest
-    name: ConfigurationPathTest
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationProviderExtensions
-    name: ConfigurationProviderExtensions
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest
-    name: ConfigurationTest
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationTest.TestMemorySourceProvider
-    name: ConfigurationTest.TestMemorySourceProvider
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests
-    name: ConfigurationTests
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.TestIniSourceProvider
-    name: ConfigurationTests.TestIniSourceProvider
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.TestJsonSourceProvider
-    name: ConfigurationTests.TestJsonSourceProvider
-  - uid: Microsoft.Extensions.Configuration.Test.ConfigurationTests.TestXmlSourceProvider
-    name: ConfigurationTests.TestXmlSourceProvider
-  - uid: Microsoft.Extensions.Configuration.Test.TestStreamHelpers
-    name: TestStreamHelpers
 - uid: Microsoft.Extensions.Configuration.Xml
   name: Microsoft.Extensions.Configuration.Xml
   items:
@@ -174,10 +94,3 @@
     name: XmlConfigurationSource
   - uid: Microsoft.Extensions.Configuration.Xml.XmlDocumentDecryptor
     name: XmlDocumentDecryptor
-- uid: Microsoft.Extensions.Configuration.Xml.Test
-  name: Microsoft.Extensions.Configuration.Xml.Test
-  items:
-  - uid: Microsoft.Extensions.Configuration.Xml.Test.XmlConfigurationExtensionsTest
-    name: XmlConfigurationExtensionsTest
-  - uid: Microsoft.Extensions.Configuration.Xml.Test.XmlConfigurationTest
-    name: XmlConfigurationTest

@@ -8,10 +8,8 @@ items:
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.CertificateXmlEncryptor
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGProtectionDescriptorFlags
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlDecryptor
-  - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptionTests
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptor
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor
-  - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptionTests
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.EncryptedXmlDecryptor
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.EncryptedXmlInfo
@@ -19,9 +17,7 @@ items:
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.IXmlDecryptor
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.IXmlEncryptor
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlDecryptor
-  - Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
   - Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptor
-  - Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensionsTests
   langs:
   - csharp
   - vb
@@ -121,30 +117,6 @@ references:
   name: NullXmlEncryptor
   nameWithType: NullXmlEncryptor
   fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptor
-- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptionTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptionTests
-  isExternal: false
-  name: DpapiNGXmlEncryptionTests
-  nameWithType: DpapiNGXmlEncryptionTests
-  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptionTests
-- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptionTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptionTests
-  isExternal: false
-  name: DpapiXmlEncryptionTests
-  nameWithType: DpapiXmlEncryptionTests
-  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptionTests
-- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
-  isExternal: false
-  name: NullXmlEncryptionTests
-  nameWithType: NullXmlEncryptionTests
-  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
-- uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensionsTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensionsTests
-  isExternal: false
-  name: XmlEncryptionExtensionsTests
-  nameWithType: XmlEncryptionExtensionsTests
-  fullName: Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensionsTests
 - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption
   commentId: N:Microsoft.AspNetCore.DataProtection.XmlEncryption
   isExternal: false

@@ -49,8 +49,3 @@
   items:
   - uid: Microsoft.Extensions.DependencyInjection.DirectoryBrowserServiceExtensions
     name: DirectoryBrowserServiceExtensions
-- uid: StaticFilesSample
-  name: StaticFilesSample
-  items:
-  - uid: StaticFilesSample.Startup
-    name: Startup

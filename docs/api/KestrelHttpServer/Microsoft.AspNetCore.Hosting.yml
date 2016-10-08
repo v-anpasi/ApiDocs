@@ -4,7 +4,6 @@ items:
   commentId: N:Microsoft.AspNetCore.Hosting
   id: Microsoft.AspNetCore.Hosting
   children:
-  - Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
   - Microsoft.AspNetCore.Hosting.KestrelServerOptionsConnectionLoggingExtensions
   - Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
   - Microsoft.AspNetCore.Hosting.WebHostBuilderKestrelExtensions
@@ -38,12 +37,6 @@ references:
   name: KestrelServerOptionsHttpsExtensions
   nameWithType: KestrelServerOptionsHttpsExtensions
   fullName: Microsoft.AspNetCore.Hosting.KestrelServerOptionsHttpsExtensions
-- uid: Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
-  commentId: T:Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
-  isExternal: false
-  name: IWebHostPortExtensions
-  nameWithType: IWebHostPortExtensions
-  fullName: Microsoft.AspNetCore.Hosting.IWebHostPortExtensions
 - uid: Microsoft.AspNetCore.Hosting
   commentId: N:Microsoft.AspNetCore.Hosting
   isExternal: false

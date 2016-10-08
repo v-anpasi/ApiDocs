@@ -604,7 +604,6 @@ references:
   fullName: Microsoft.AspNetCore.Cors.Infrastructure.CorsService
 - uid: Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
   commentId: T:Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions
-  parent: Microsoft.AspNetCore.Cors.Infrastructure
   isExternal: false
   name: CorsOptions
   nameWithType: CorsOptions

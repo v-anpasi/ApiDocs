@@ -25,8 +25,36 @@ items:
   fullName: Microsoft.AspNetCore.Builder
   type: Namespace
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
 references:
+- uid: Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: DatabaseErrorPageExtensions
+  nameWithType: DatabaseErrorPageExtensions
+  fullName: Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
+- uid: Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
+  commentId: T:Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: DatabaseErrorPageOptions
+  nameWithType: DatabaseErrorPageOptions
+  fullName: Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
+- uid: Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: MigrationsEndPointExtensions
+  nameWithType: MigrationsEndPointExtensions
+  fullName: Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
+- uid: Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
+  commentId: T:Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: MigrationsEndPointOptions
+  nameWithType: MigrationsEndPointOptions
+  fullName: Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
 - uid: Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions
   commentId: T:Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions
   parent: Microsoft.AspNetCore.Builder
@@ -83,34 +111,6 @@ references:
   name: WelcomePageOptions
   nameWithType: WelcomePageOptions
   fullName: Microsoft.AspNetCore.Builder.WelcomePageOptions
-- uid: Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: DatabaseErrorPageExtensions
-  nameWithType: DatabaseErrorPageExtensions
-  fullName: Microsoft.AspNetCore.Builder.DatabaseErrorPageExtensions
-- uid: Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
-  commentId: T:Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: DatabaseErrorPageOptions
-  nameWithType: DatabaseErrorPageOptions
-  fullName: Microsoft.AspNetCore.Builder.DatabaseErrorPageOptions
-- uid: Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: MigrationsEndPointExtensions
-  nameWithType: MigrationsEndPointExtensions
-  fullName: Microsoft.AspNetCore.Builder.MigrationsEndPointExtensions
-- uid: Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
-  commentId: T:Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: MigrationsEndPointOptions
-  nameWithType: MigrationsEndPointOptions
-  fullName: Microsoft.AspNetCore.Builder.MigrationsEndPointOptions
 - uid: Microsoft.AspNetCore.Builder.ElmExtensions
   commentId: T:Microsoft.AspNetCore.Builder.ElmExtensions
   parent: Microsoft.AspNetCore.Builder

@@ -2268,7 +2268,6 @@ references:
     fullName: )
 - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext
   commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext
-  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
   isExternal: false
   name: IdentityDbContext
   nameWithType: IdentityDbContext

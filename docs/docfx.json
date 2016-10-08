@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -20,7 +20,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -36,7 +36,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -52,7 +52,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -70,7 +70,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -86,7 +86,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -102,7 +102,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -118,7 +118,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -136,7 +136,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -152,7 +152,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -168,7 +168,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -184,7 +184,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -200,7 +200,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -216,7 +216,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -232,7 +232,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -248,7 +248,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -265,7 +265,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -281,7 +281,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -297,7 +297,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -313,7 +313,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -329,7 +329,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -345,7 +345,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -361,7 +361,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -378,7 +378,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -396,7 +396,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -412,7 +412,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -428,7 +428,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -444,7 +444,7 @@
       "src": [
         {
           "files": [
-            "**/project.json"
+            "src/**/project.json"
           ],
           "exclude": [
             "**/bin/**",
@@ -454,7 +454,7 @@
           "src": "../aspnet/Common"
         }
       ],
-      "dest": "api/PlatformAbstractions"
+      "dest": "api/Common"
     }
   ],
   "build": {

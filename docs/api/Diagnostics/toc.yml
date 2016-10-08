@@ -1,30 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: DatabaseErrorPageSample
-  name: DatabaseErrorPageSample
-  items:
-  - uid: DatabaseErrorPageSample.Blog
-    name: Blog
-  - uid: DatabaseErrorPageSample.MyContext
-    name: MyContext
-  - uid: DatabaseErrorPageSample.Startup
-    name: Startup
-- uid: DeveloperExceptionPageSample
-  name: DeveloperExceptionPageSample
-  items:
-  - uid: DeveloperExceptionPageSample.Startup
-    name: Startup
-- uid: ElmPageSample
-  name: ElmPageSample
-  items:
-  - uid: ElmPageSample.HelloWorldMiddleware
-    name: HelloWorldMiddleware
-  - uid: ElmPageSample.Startup
-    name: Startup
-- uid: ExceptionHandlerSample
-  name: ExceptionHandlerSample
-  items:
-  - uid: ExceptionHandlerSample.Startup
-    name: Startup
 - uid: Microsoft.AspNetCore.Builder
   name: Microsoft.AspNetCore.Builder
   items:
@@ -136,50 +110,6 @@
     name: DataStoreErrorLoggerProvider
   - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware
     name: MigrationsEndPointMiddleware
-- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
-  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers
-  items:
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.PlatformHelper
-    name: PlatformHelper
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider
-    name: TestLoggerProvider
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger
-    name: TestLoggerProvider.TestLogger
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.FunctionalTests.Helpers.TestLoggerProvider.TestLogger.NullScope
-    name: TestLoggerProvider.TestLogger.NullScope
-- uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
-  name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests
-  items:
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.Blog
-    name: Blog
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContext
-    name: BloggingContext
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations
-    name: BloggingContextWithMigrations
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations.BloggingContextWithMigrationsModelSnapshot
-    name: BloggingContextWithMigrations.BloggingContextWithMigrationsModelSnapshot
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations.MigrationOne
-    name: BloggingContextWithMigrations.MigrationOne
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithMigrations.MigrationTwo
-    name: BloggingContextWithMigrations.MigrationTwo
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges
-    name: BloggingContextWithPendingModelChanges
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.BloggingModelSnapshot
-    name: BloggingContextWithPendingModelChanges.BloggingModelSnapshot
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithPendingModelChanges.MigrationOne
-    name: BloggingContextWithPendingModelChanges.MigrationOne
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows
-    name: BloggingContextWithSnapshotThatThrows
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.BloggingContextWithSnapshotThatThrowsModelSnapshot
-    name: BloggingContextWithSnapshotThatThrows.BloggingContextWithSnapshotThatThrowsModelSnapshot
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.BloggingContextWithSnapshotThatThrows.MigrationOne
-    name: BloggingContextWithSnapshotThatThrows.MigrationOne
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.DatabaseErrorPageMiddlewareTest
-    name: DatabaseErrorPageMiddlewareTest
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.MigrationsEndPointMiddlewareTest
-    name: MigrationsEndPointMiddlewareTest
-  - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Tests.SqlServerTestStore
-    name: SqlServerTestStore
 - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views
   name: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views
   items:
@@ -187,26 +117,6 @@
     name: DatabaseErrorPage
   - uid: Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPageModel
     name: DatabaseErrorPageModel
-- uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests
-  name: Microsoft.AspNetCore.Diagnostics.FunctionalTests
-  items:
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DatabaseErrorPageSampleTest
-    name: DatabaseErrorPageSampleTest
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.DeveloperExceptionPageSampleTest
-    name: DeveloperExceptionPageSampleTest
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ElmPageSampleTest
-    name: ElmPageSampleTest
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.ExceptionHandlerSampleTest
-    name: ExceptionHandlerSampleTest
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.MiddlewareAnalysisSampleTest
-    name: MiddlewareAnalysisSampleTest
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.StatusCodeSampleTest
-    name: StatusCodeSampleTest
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.TestFixture`1
-    name: TestFixture<TStartup>
-    name.vb: TestFixture(Of TStartup)
-  - uid: Microsoft.AspNetCore.Diagnostics.FunctionalTests.WelcomePageSampleTest
-    name: WelcomePageSampleTest
 - uid: Microsoft.AspNetCore.Diagnostics.Views
   name: Microsoft.AspNetCore.Diagnostics.Views
   items:
@@ -251,25 +161,8 @@
     name: AnalysisServiceCollectionExtensions
   - uid: Microsoft.Extensions.DependencyInjection.ElmServiceCollectionExtensions
     name: ElmServiceCollectionExtensions
-- uid: MiddlewareAnaysisSample
-  name: MiddlewareAnaysisSample
-  items:
-  - uid: MiddlewareAnaysisSample.Startup
-    name: Startup
-  - uid: MiddlewareAnaysisSample.Startup.TestDiagnosticListener
-    name: Startup.TestDiagnosticListener
 - uid: PageGenerator
   name: PageGenerator
   items:
   - uid: PageGenerator.Program
     name: Program
-- uid: StatusCodePagesSample
-  name: StatusCodePagesSample
-  items:
-  - uid: StatusCodePagesSample.Startup
-    name: Startup
-- uid: WelcomePageSample
-  name: WelcomePageSample
-  items:
-  - uid: WelcomePageSample.Startup
-    name: Startup

@@ -1107,7 +1107,6 @@ references:
     fullName: )
 - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser
   commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser
-  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
   isExternal: false
   name: IdentityUser
   nameWithType: IdentityUser

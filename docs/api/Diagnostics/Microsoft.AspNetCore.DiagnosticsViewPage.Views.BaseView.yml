@@ -44,7 +44,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 19
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nInfrastructure\n"
   example: []
@@ -89,7 +89,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 24
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nThe request context\n"
   example: []
@@ -125,7 +125,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 29
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nThe request\n"
   example: []
@@ -161,7 +161,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 34
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nThe response\n"
   example: []
@@ -197,7 +197,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 39
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nThe output stream\n"
   example: []
@@ -233,7 +233,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 44
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nHtml encoder used to encode content.\n"
   example: []
@@ -269,7 +269,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 49
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nUrl encoder used to encode content.\n"
   example: []
@@ -305,7 +305,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 54
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nJavaScript encoder used to encode content.\n"
   example: []
@@ -341,7 +341,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 60
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nExecute an individual request\n"
   example: []
@@ -378,7 +378,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 73
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nExecute an individual request\n"
   example: []
@@ -413,7 +413,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 79
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrite the given value directly to the output\n"
   example: []
@@ -448,7 +448,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 88
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrite the given value directly to the output\n"
   example: []
@@ -483,7 +483,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 95
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   syntax:
     content: protected void WriteAttributeValue(string thingy, int startPostion, object value, int endValue, int dealyo, bool yesno)
@@ -525,7 +525,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 107
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   syntax:
     content: protected void BeginWriteAttribute(string name, string begining, int startPosition, string ending, int endPosition, int thingy)
@@ -567,7 +567,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 115
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   syntax:
     content: protected void EndWriteAttribute()
@@ -596,7 +596,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 135
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrites the given attribute to the given writer\n"
   example: []
@@ -646,7 +646,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 214
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nConvert to string and html encode\n"
   example: []
@@ -681,7 +681,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 223
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nHtml encode and write\n"
   example: []
@@ -716,7 +716,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 232
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\n<xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult.WriteTo(System.IO.TextWriter)\" data-throw-if-not-resolved=\"false\"></xref> is invoked\n"
   example: []
@@ -751,7 +751,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 247
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrites the specified <em>value</em> to <em>writer</em>.\n"
   remarks: "\n<xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult.WriteTo(System.IO.TextWriter)\" data-throw-if-not-resolved=\"false\"></xref> is invoked for <xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult\" data-throw-if-not-resolved=\"false\"></xref> types.\nFor all other types, the encoded result of <xref href=\"System.Object.ToString\" data-throw-if-not-resolved=\"false\"></xref> is written to the\n<em>writer</em>.\n"
@@ -790,7 +790,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 268
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrites the specified <em>value</em> with HTML encoding to <em>writer</em>.\n"
   example: []
@@ -828,7 +828,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 278
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrites the specified <em>value</em> without HTML encoding to the <em>writer</em>.\n"
   example: []
@@ -866,7 +866,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 288
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nWrites the specified <em>value</em> without HTML encoding to <xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.BaseView.Output\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
@@ -904,7 +904,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/BaseView.cs
     startLine: 296
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   syntax:
     content: protected string HtmlEncodeAndReplaceLineBreaks(string input)

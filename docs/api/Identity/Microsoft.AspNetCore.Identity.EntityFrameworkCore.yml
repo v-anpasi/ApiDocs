@@ -40,7 +40,6 @@ items:
 references:
 - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext
   commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext
-  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
   isExternal: false
   name: IdentityDbContext
   nameWithType: IdentityDbContext
@@ -266,7 +265,6 @@ references:
     fullName: )
 - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
   commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
-  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
   isExternal: false
   name: IdentityRole
   nameWithType: IdentityRole
@@ -408,7 +406,6 @@ references:
     fullName: )
 - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser
   commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUser
-  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
   isExternal: false
   name: IdentityUser
   nameWithType: IdentityUser
@@ -1201,9 +1198,3 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore
-  commentId: N:Microsoft.AspNetCore.Identity.EntityFrameworkCore
-  isExternal: false
-  name: Microsoft.AspNetCore.Identity.EntityFrameworkCore
-  nameWithType: Microsoft.AspNetCore.Identity.EntityFrameworkCore
-  fullName: Microsoft.AspNetCore.Identity.EntityFrameworkCore

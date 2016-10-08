@@ -4,8 +4,6 @@ items:
   commentId: N:Microsoft.Extensions.Configuration.Json
   id: Microsoft.Extensions.Configuration.Json
   children:
-  - Microsoft.Extensions.Configuration.Json.FileConfigurationBuilderExtensionsTest
-  - Microsoft.Extensions.Configuration.Json.JsonConfigurationExtensionsTest
   - Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
   - Microsoft.Extensions.Configuration.Json.JsonConfigurationSource
   langs:
@@ -16,17 +14,10 @@ items:
   fullName: Microsoft.Extensions.Configuration.Json
   type: Namespace
   assemblies:
-  - Microsoft.Extensions.Configuration.FileExtensions.Test
+  - Microsoft.Extensions.Configuration.Json
 references:
-- uid: Microsoft.Extensions.Configuration.Json.FileConfigurationBuilderExtensionsTest
-  commentId: T:Microsoft.Extensions.Configuration.Json.FileConfigurationBuilderExtensionsTest
-  isExternal: false
-  name: FileConfigurationBuilderExtensionsTest
-  nameWithType: FileConfigurationBuilderExtensionsTest
-  fullName: Microsoft.Extensions.Configuration.Json.FileConfigurationBuilderExtensionsTest
 - uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Json
   isExternal: false
   name: JsonConfigurationProvider
   nameWithType: JsonConfigurationProvider
@@ -38,12 +29,6 @@ references:
   name: JsonConfigurationSource
   nameWithType: JsonConfigurationSource
   fullName: Microsoft.Extensions.Configuration.Json.JsonConfigurationSource
-- uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationExtensionsTest
-  commentId: T:Microsoft.Extensions.Configuration.Json.JsonConfigurationExtensionsTest
-  isExternal: false
-  name: JsonConfigurationExtensionsTest
-  nameWithType: JsonConfigurationExtensionsTest
-  fullName: Microsoft.Extensions.Configuration.Json.JsonConfigurationExtensionsTest
 - uid: Microsoft.Extensions.Configuration.Json
   commentId: N:Microsoft.Extensions.Configuration.Json
   isExternal: false

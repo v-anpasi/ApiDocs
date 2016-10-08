@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.Extensions.PlatformAbstractions
+  name: Microsoft.Extensions.PlatformAbstractions
+  items:
+  - uid: Microsoft.Extensions.PlatformAbstractions.ApplicationEnvironment
+    name: ApplicationEnvironment
+  - uid: Microsoft.Extensions.PlatformAbstractions.PlatformServices
+    name: PlatformServices

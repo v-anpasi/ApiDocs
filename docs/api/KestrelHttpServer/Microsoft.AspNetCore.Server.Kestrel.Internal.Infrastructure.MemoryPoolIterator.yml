@@ -59,7 +59,6 @@ items:
   - Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator.Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIteratorExtensions.GetArraySegment(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator)
   - Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator.Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIteratorExtensions.GetKnownMethod(System.String@)
   - Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator.Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIteratorExtensions.GetKnownVersion(System.String@)
-  - Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator.Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(System.Int32)
   modifiers.csharp:
   - public
   - struct
@@ -1210,45 +1209,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator.Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(System.Int32)
-  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator,System.Int32)
-  parent: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions
-  definition: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator,System.Int32)
-  name: Add(Int32)
-  nameWithType: MemoryPoolExtensions.Add(Int32)
-  fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(System.Int32)
-  spec.csharp:
-  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(System.Int32)
-    name: Add
-    nameWithType: MemoryPoolExtensions.Add
-    fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(System.Int32)
-    name: Add
-    nameWithType: MemoryPoolExtensions.Add
-    fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.ValueType
   commentId: T:System.ValueType
   parent: System
@@ -1524,77 +1484,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator,System.Int32)
-  commentId: M:Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator,System.Int32)
-  isExternal: true
-  name: Add(MemoryPoolIterator, Int32)
-  nameWithType: MemoryPoolExtensions.Add(MemoryPoolIterator, Int32)
-  fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator, System.Int32)
-  spec.csharp:
-  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator,System.Int32)
-    name: Add
-    nameWithType: MemoryPoolExtensions.Add
-    fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator
-    name: MemoryPoolIterator
-    nameWithType: MemoryPoolIterator
-    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add(Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator,System.Int32)
-    name: Add
-    nameWithType: MemoryPoolExtensions.Add
-    fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions.Add
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator
-    name: MemoryPoolIterator
-    nameWithType: MemoryPoolIterator
-    fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolIterator
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions
-  commentId: T:Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions
-  parent: Microsoft.AspNetCore.Server.KestrelTests
-  isExternal: false
-  name: MemoryPoolExtensions
-  nameWithType: MemoryPoolExtensions
-  fullName: Microsoft.AspNetCore.Server.KestrelTests.MemoryPoolExtensions
 - uid: System
   commentId: N:System
   isExternal: false
   name: System
   nameWithType: System
   fullName: System
-- uid: Microsoft.AspNetCore.Server.KestrelTests
-  commentId: N:Microsoft.AspNetCore.Server.KestrelTests
-  isExternal: false
-  name: Microsoft.AspNetCore.Server.KestrelTests
-  nameWithType: Microsoft.AspNetCore.Server.KestrelTests
-  fullName: Microsoft.AspNetCore.Server.KestrelTests
 - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolBlock
   commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure.MemoryPoolBlock
   parent: Microsoft.AspNetCore.Server.Kestrel.Internal.Infrastructure

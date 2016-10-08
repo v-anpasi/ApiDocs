@@ -24,7 +24,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/HelperResult.cs
     startLine: 11
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nRepresents a deferred write operation in a <xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.BaseView\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
@@ -67,7 +67,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/HelperResult.cs
     startLine: 17
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nCreates a new instance of <xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
@@ -105,7 +105,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/HelperResult.cs
     startLine: 22
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   syntax:
     content: public Action<TextWriter> WriteAction { get; }
@@ -139,7 +139,7 @@ items:
     path: src/Microsoft.AspNetCore.DiagnosticsViewPage.Sources/HelperResult.cs
     startLine: 28
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
   namespace: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   summary: "\nMethod invoked to produce content from the <xref href=\"Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []

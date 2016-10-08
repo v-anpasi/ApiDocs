@@ -63,84 +63,6 @@ references:
   name: RemoteAuthenticationOptions
   nameWithType: RemoteAuthenticationOptions
   fullName: Microsoft.AspNetCore.Builder.RemoteAuthenticationOptions
-- uid: Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
-  isExternal: false
-  name: OpenIdConnectAppBuilderExtensions
-  nameWithType: OpenIdConnectAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.OpenIdConnectOptions
-  commentId: T:Microsoft.AspNetCore.Builder.OpenIdConnectOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: OpenIdConnectOptions
-  nameWithType: OpenIdConnectOptions
-  fullName: Microsoft.AspNetCore.Builder.OpenIdConnectOptions
-- uid: Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
-  isExternal: false
-  name: CookieAppBuilderExtensions
-  nameWithType: CookieAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
-  commentId: T:Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: CookieAuthenticationOptions
-  nameWithType: CookieAuthenticationOptions
-  fullName: Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
-- uid: Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
-  isExternal: false
-  name: OAuthAppBuilderExtensions
-  nameWithType: OAuthAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.OAuthOptions
-  commentId: T:Microsoft.AspNetCore.Builder.OAuthOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: OAuthOptions
-  nameWithType: OAuthOptions
-  fullName: Microsoft.AspNetCore.Builder.OAuthOptions
-- uid: Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
-  isExternal: false
-  name: FacebookAppBuilderExtensions
-  nameWithType: FacebookAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.FacebookOptions
-  commentId: T:Microsoft.AspNetCore.Builder.FacebookOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: FacebookOptions
-  nameWithType: FacebookOptions
-  fullName: Microsoft.AspNetCore.Builder.FacebookOptions
-- uid: Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
-  isExternal: false
-  name: GoogleAppBuilderExtensions
-  nameWithType: GoogleAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.GoogleOptions
-  commentId: T:Microsoft.AspNetCore.Builder.GoogleOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: GoogleOptions
-  nameWithType: GoogleOptions
-  fullName: Microsoft.AspNetCore.Builder.GoogleOptions
-- uid: Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
-  isExternal: false
-  name: MicrosoftAccountAppBuilderExtensions
-  nameWithType: MicrosoftAccountAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
-  commentId: T:Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
-  parent: Microsoft.AspNetCore.Builder
-  isExternal: false
-  name: MicrosoftAccountOptions
-  nameWithType: MicrosoftAccountOptions
-  fullName: Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
 - uid: Microsoft.AspNetCore.Builder.TwitterAppBuilderExtensions
   commentId: T:Microsoft.AspNetCore.Builder.TwitterAppBuilderExtensions
   isExternal: false
@@ -154,19 +76,32 @@ references:
   name: TwitterOptions
   nameWithType: TwitterOptions
   fullName: Microsoft.AspNetCore.Builder.TwitterOptions
-- uid: Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
-  commentId: T:Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
   isExternal: false
-  name: CookiePolicyAppBuilderExtensions
-  nameWithType: CookiePolicyAppBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.CookiePolicyOptions
-  commentId: T:Microsoft.AspNetCore.Builder.CookiePolicyOptions
+  name: OAuthAppBuilderExtensions
+  nameWithType: OAuthAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.OAuthAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.OAuthOptions
+  commentId: T:Microsoft.AspNetCore.Builder.OAuthOptions
   parent: Microsoft.AspNetCore.Builder
   isExternal: false
-  name: CookiePolicyOptions
-  nameWithType: CookiePolicyOptions
-  fullName: Microsoft.AspNetCore.Builder.CookiePolicyOptions
+  name: OAuthOptions
+  nameWithType: OAuthOptions
+  fullName: Microsoft.AspNetCore.Builder.OAuthOptions
+- uid: Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
+  isExternal: false
+  name: MicrosoftAccountAppBuilderExtensions
+  nameWithType: MicrosoftAccountAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.MicrosoftAccountAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
+  commentId: T:Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: MicrosoftAccountOptions
+  nameWithType: MicrosoftAccountOptions
+  fullName: Microsoft.AspNetCore.Builder.MicrosoftAccountOptions
 - uid: Microsoft.AspNetCore.Builder.JwtBearerAppBuilderExtensions
   commentId: T:Microsoft.AspNetCore.Builder.JwtBearerAppBuilderExtensions
   isExternal: false
@@ -180,6 +115,71 @@ references:
   name: JwtBearerOptions
   nameWithType: JwtBearerOptions
   fullName: Microsoft.AspNetCore.Builder.JwtBearerOptions
+- uid: Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
+  isExternal: false
+  name: FacebookAppBuilderExtensions
+  nameWithType: FacebookAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.FacebookAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.FacebookOptions
+  commentId: T:Microsoft.AspNetCore.Builder.FacebookOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: FacebookOptions
+  nameWithType: FacebookOptions
+  fullName: Microsoft.AspNetCore.Builder.FacebookOptions
+- uid: Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
+  isExternal: false
+  name: CookiePolicyAppBuilderExtensions
+  nameWithType: CookiePolicyAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.CookiePolicyOptions
+  commentId: T:Microsoft.AspNetCore.Builder.CookiePolicyOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: CookiePolicyOptions
+  nameWithType: CookiePolicyOptions
+  fullName: Microsoft.AspNetCore.Builder.CookiePolicyOptions
+- uid: Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
+  isExternal: false
+  name: CookieAppBuilderExtensions
+  nameWithType: CookieAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
+  commentId: T:Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: CookieAuthenticationOptions
+  nameWithType: CookieAuthenticationOptions
+  fullName: Microsoft.AspNetCore.Builder.CookieAuthenticationOptions
+- uid: Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
+  isExternal: false
+  name: OpenIdConnectAppBuilderExtensions
+  nameWithType: OpenIdConnectAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.OpenIdConnectAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.OpenIdConnectOptions
+  commentId: T:Microsoft.AspNetCore.Builder.OpenIdConnectOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: OpenIdConnectOptions
+  nameWithType: OpenIdConnectOptions
+  fullName: Microsoft.AspNetCore.Builder.OpenIdConnectOptions
+- uid: Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
+  isExternal: false
+  name: GoogleAppBuilderExtensions
+  nameWithType: GoogleAppBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.GoogleAppBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.GoogleOptions
+  commentId: T:Microsoft.AspNetCore.Builder.GoogleOptions
+  parent: Microsoft.AspNetCore.Builder
+  isExternal: false
+  name: GoogleOptions
+  nameWithType: GoogleOptions
+  fullName: Microsoft.AspNetCore.Builder.GoogleOptions
 - uid: Microsoft.AspNetCore.Builder
   commentId: N:Microsoft.AspNetCore.Builder
   isExternal: false

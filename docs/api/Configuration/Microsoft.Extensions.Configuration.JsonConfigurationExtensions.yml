@@ -258,7 +258,6 @@ items:
 references:
 - uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Json
   isExternal: false
   name: JsonConfigurationProvider
   nameWithType: JsonConfigurationProvider
@@ -555,12 +554,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.Extensions.Configuration.Json
-  commentId: N:Microsoft.Extensions.Configuration.Json
-  isExternal: false
-  name: Microsoft.Extensions.Configuration.Json
-  nameWithType: Microsoft.Extensions.Configuration.Json
-  fullName: Microsoft.Extensions.Configuration.Json
 - uid: System
   commentId: N:System
   isExternal: false

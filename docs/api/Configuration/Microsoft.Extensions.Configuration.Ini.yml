@@ -18,7 +18,6 @@ items:
 references:
 - uid: Microsoft.Extensions.Configuration.Ini.IniConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Ini.IniConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Ini
   isExternal: false
   name: IniConfigurationProvider
   nameWithType: IniConfigurationProvider

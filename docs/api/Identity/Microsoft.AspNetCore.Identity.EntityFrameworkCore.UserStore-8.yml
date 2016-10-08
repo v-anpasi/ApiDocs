@@ -9270,11 +9270,6 @@ references:
     fullName: )
 - uid: System.DateTimeOffset
   commentId: T:System.DateTimeOffset
-  parent: System
-  isExternal: true
-  name: DateTimeOffset
-  nameWithType: DateTimeOffset
-  fullName: System.DateTimeOffset
 - uid: Microsoft.AspNetCore.Identity.IUserLockoutStore{{TUser}}.GetLockoutEndDateAsync({TUser},System.Threading.CancellationToken)
   commentId: M:Microsoft.AspNetCore.Identity.IUserLockoutStore{`0}.GetLockoutEndDateAsync(`0,System.Threading.CancellationToken)
   parent: Microsoft.AspNetCore.Identity.IUserLockoutStore{{TUser}}

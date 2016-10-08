@@ -55,7 +55,6 @@ references:
   fullName: Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelThread
 - uid: Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelTrace
   commentId: T:Microsoft.AspNetCore.Server.Kestrel.Internal.KestrelTrace
-  parent: Microsoft.AspNetCore.Server.Kestrel.Internal
   isExternal: false
   name: KestrelTrace
   nameWithType: KestrelTrace

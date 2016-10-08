@@ -13,7 +13,6 @@ items:
   - Microsoft.AspNetCore.Authentication.Twitter.TwitterDefaults
   - Microsoft.AspNetCore.Authentication.Twitter.TwitterEvents
   - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddleware
-  - Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
   - Microsoft.AspNetCore.Authentication.Twitter.TwitterRedirectToAuthorizationEndpointContext
   langs:
   - csharp
@@ -90,12 +89,6 @@ references:
   name: RequestTokenSerializer
   nameWithType: RequestTokenSerializer
   fullName: Microsoft.AspNetCore.Authentication.Twitter.RequestTokenSerializer
-- uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
-  commentId: T:Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
-  isExternal: false
-  name: TwitterMiddlewareTests
-  nameWithType: TwitterMiddlewareTests
-  fullName: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
 - uid: Microsoft.AspNetCore.Authentication.Twitter
   commentId: N:Microsoft.AspNetCore.Authentication.Twitter
   isExternal: false

@@ -37,6 +37,7 @@ items:
     content: 'public interface ICacheEntry : IDisposable'
     content.vb: >-
       Public Interface ICacheEntry
+
           Inherits IDisposable
   inheritedMembers:
   - System.IDisposable.Dispose

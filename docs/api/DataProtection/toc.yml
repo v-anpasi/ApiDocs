@@ -1,24 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: Microsoft.AspNetCore.Cryptography
-  name: Microsoft.AspNetCore.Cryptography
-  items:
-  - uid: Microsoft.AspNetCore.Cryptography.CryptoUtilTests
-    name: CryptoUtilTests
-  - uid: Microsoft.AspNetCore.Cryptography.UnsafeBufferUtilTests
-    name: UnsafeBufferUtilTests
-  - uid: Microsoft.AspNetCore.Cryptography.WeakReferenceHelpersTests
-    name: WeakReferenceHelpersTests
-- uid: Microsoft.AspNetCore.Cryptography.Cng
-  name: Microsoft.AspNetCore.Cryptography.Cng
-  items:
-  - uid: Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
-    name: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO_Tests
-  - uid: Microsoft.AspNetCore.Cryptography.Cng.BCRYPT_KEY_LENGTHS_STRUCT_Tests
-    name: BCRYPT_KEY_LENGTHS_STRUCT_Tests
-  - uid: Microsoft.AspNetCore.Cryptography.Cng.BCryptUtilTests
-    name: BCryptUtilTests
-  - uid: Microsoft.AspNetCore.Cryptography.Cng.CachedAlgorithmHandlesTests
-    name: CachedAlgorithmHandlesTests
 - uid: Microsoft.AspNetCore.Cryptography.KeyDerivation
   name: Microsoft.AspNetCore.Cryptography.KeyDerivation
   items:
@@ -26,42 +6,23 @@
     name: KeyDerivation
   - uid: Microsoft.AspNetCore.Cryptography.KeyDerivation.KeyDerivationPrf
     name: KeyDerivationPrf
-  - uid: Microsoft.AspNetCore.Cryptography.KeyDerivation.Pbkdf2Tests
-    name: Pbkdf2Tests
-- uid: Microsoft.AspNetCore.Cryptography.SafeHandles
-  name: Microsoft.AspNetCore.Cryptography.SafeHandles
-  items:
-  - uid: Microsoft.AspNetCore.Cryptography.SafeHandles.SecureLocalAllocHandleTests
-    name: SecureLocalAllocHandleTests
 - uid: Microsoft.AspNetCore.DataProtection
   name: Microsoft.AspNetCore.DataProtection
   items:
-  - uid: Microsoft.AspNetCore.DataProtection.ActivatorTests
-    name: ActivatorTests
   - uid: Microsoft.AspNetCore.DataProtection.DataProtectionAdvancedExtensions
     name: DataProtectionAdvancedExtensions
-  - uid: Microsoft.AspNetCore.DataProtection.DataProtectionAdvancedExtensionsTests
-    name: DataProtectionAdvancedExtensionsTests
   - uid: Microsoft.AspNetCore.DataProtection.DataProtectionBuilderExtensions
     name: DataProtectionBuilderExtensions
   - uid: Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions
     name: DataProtectionCommonExtensions
-  - uid: Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensionsTests
-    name: DataProtectionCommonExtensionsTests
   - uid: Microsoft.AspNetCore.DataProtection.DataProtectionOptions
     name: DataProtectionOptions
   - uid: Microsoft.AspNetCore.DataProtection.DataProtectionProvider
     name: DataProtectionProvider
-  - uid: Microsoft.AspNetCore.DataProtection.DataProtectionProviderTests
-    name: DataProtectionProviderTests
   - uid: Microsoft.AspNetCore.DataProtection.DataProtectionUtilityExtensions
     name: DataProtectionUtilityExtensions
-  - uid: Microsoft.AspNetCore.DataProtection.DataProtectionUtilityExtensionsTests
-    name: DataProtectionUtilityExtensionsTests
   - uid: Microsoft.AspNetCore.DataProtection.EphemeralDataProtectionProvider
     name: EphemeralDataProtectionProvider
-  - uid: Microsoft.AspNetCore.DataProtection.EphemeralDataProtectionProviderTests
-    name: EphemeralDataProtectionProviderTests
   - uid: Microsoft.AspNetCore.DataProtection.IDataProtectionBuilder
     name: IDataProtectionBuilder
   - uid: Microsoft.AspNetCore.DataProtection.IDataProtectionProvider
@@ -74,20 +35,8 @@
     name: ISecret
   - uid: Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector
     name: ITimeLimitedDataProtector
-  - uid: Microsoft.AspNetCore.DataProtection.RC1ForwardingActivatorTests
-    name: RC1ForwardingActivatorTests
-  - uid: Microsoft.AspNetCore.DataProtection.RegistryPolicyResolverTests
-    name: RegistryPolicyResolverTests
   - uid: Microsoft.AspNetCore.DataProtection.Secret
     name: Secret
-  - uid: Microsoft.AspNetCore.DataProtection.SecretAssert
-    name: SecretAssert
-  - uid: Microsoft.AspNetCore.DataProtection.SecretTests
-    name: SecretTests
-  - uid: Microsoft.AspNetCore.DataProtection.TimeLimitedDataProtectorTests
-    name: TimeLimitedDataProtectorTests
-  - uid: Microsoft.AspNetCore.DataProtection.XmlAssert
-    name: XmlAssert
 - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
   name: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption
   items:
@@ -114,34 +63,18 @@
     name: AuthenticatedEncryptorDescriptor
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer
     name: AuthenticatedEncryptorDescriptorDeserializer
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializerTests
-    name: AuthenticatedEncryptorDescriptorDeserializerTests
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorTests
-    name: AuthenticatedEncryptorDescriptorTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorConfiguration
     name: CngCbcAuthenticatedEncryptorConfiguration
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorConfigurationTests
-    name: CngCbcAuthenticatedEncryptorConfigurationTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor
     name: CngCbcAuthenticatedEncryptorDescriptor
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptorDeserializer
     name: CngCbcAuthenticatedEncryptorDescriptorDeserializer
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptorDeserializerTests
-    name: CngCbcAuthenticatedEncryptorDescriptorDeserializerTests
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptorTests
-    name: CngCbcAuthenticatedEncryptorDescriptorTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngGcmAuthenticatedEncryptorConfiguration
     name: CngGcmAuthenticatedEncryptorConfiguration
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngGcmAuthenticatedEncryptorConfigurationTests
-    name: CngGcmAuthenticatedEncryptorConfigurationTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngGcmAuthenticatedEncryptorDescriptor
     name: CngGcmAuthenticatedEncryptorDescriptor
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngGcmAuthenticatedEncryptorDescriptorDeserializer
     name: CngGcmAuthenticatedEncryptorDescriptorDeserializer
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngGcmAuthenticatedEncryptorDescriptorDeserializerTests
-    name: CngGcmAuthenticatedEncryptorDescriptorDeserializerTests
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngGcmAuthenticatedEncryptorDescriptorTests
-    name: CngGcmAuthenticatedEncryptorDescriptorTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.IAuthenticatedEncryptorConfiguration
     name: IAuthenticatedEncryptorConfiguration
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.IAuthenticatedEncryptorDescriptor
@@ -150,36 +83,19 @@
     name: IAuthenticatedEncryptorDescriptorDeserializer
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorConfiguration
     name: ManagedAuthenticatedEncryptorConfiguration
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorConfigurationTests
-    name: ManagedAuthenticatedEncryptorConfigurationTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor
     name: ManagedAuthenticatedEncryptorDescriptor
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializer
     name: ManagedAuthenticatedEncryptorDescriptorDeserializer
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorDeserializerTests
-    name: ManagedAuthenticatedEncryptorDescriptorDeserializerTests
-  - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptorTests
-    name: ManagedAuthenticatedEncryptorDescriptorTests
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.XmlExtensions
     name: XmlExtensions
   - uid: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.XmlSerializedDescriptorInfo
     name: XmlSerializedDescriptorInfo
-- uid: Microsoft.AspNetCore.DataProtection.Cng
-  name: Microsoft.AspNetCore.DataProtection.Cng
-  items:
-  - uid: Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptorTests
-    name: CbcAuthenticatedEncryptorTests
-  - uid: Microsoft.AspNetCore.DataProtection.Cng.GcmAuthenticatedEncryptorTests
-    name: GcmAuthenticatedEncryptorTests
 - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal
   name: Microsoft.AspNetCore.DataProtection.Cng.Internal
   items:
   - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
     name: CngAuthenticatedEncryptorBase
-  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests
-    name: CngAuthenticatedEncryptorBaseTests
-  - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
-    name: CngAuthenticatedEncryptorBaseTests.MockableEncryptor
 - uid: Microsoft.AspNetCore.DataProtection.Internal
   name: Microsoft.AspNetCore.DataProtection.Internal
   items:
@@ -190,34 +106,16 @@
 - uid: Microsoft.AspNetCore.DataProtection.KeyManagement
   name: Microsoft.AspNetCore.DataProtection.KeyManagement
   items:
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.CacheableKeyRingTests
-    name: CacheableKeyRingTests
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolverTests
-    name: DefaultKeyResolverTests
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKeyTests
-    name: DeferredKeyTests
   - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.IKey
     name: IKey
   - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.IKeyEscrowSink
     name: IKeyEscrowSink
   - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.IKeyManager
     name: IKeyManager
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyEscrowServiceProviderExtensionsTests
-    name: KeyEscrowServiceProviderExtensionsTests
   - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyManagementOptions
     name: KeyManagementOptions
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtectorTests
-    name: KeyRingBasedDataProtectorTests
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
-    name: KeyRingProviderTests
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
-    name: KeyRingTests
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyTests
-    name: KeyTests
   - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
     name: XmlKeyManager
-  - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
-    name: XmlKeyManagerTests
 - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.Internal
   name: Microsoft.AspNetCore.DataProtection.KeyManagement.Internal
   items:
@@ -237,43 +135,20 @@
     name: IKeyRing
   - uid: Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IKeyRingProvider
     name: IKeyRingProvider
-- uid: Microsoft.AspNetCore.DataProtection.Managed
-  name: Microsoft.AspNetCore.DataProtection.Managed
-  items:
-  - uid: Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptorTests
-    name: ManagedAuthenticatedEncryptorTests
 - uid: Microsoft.AspNetCore.DataProtection.Repositories
   name: Microsoft.AspNetCore.DataProtection.Repositories
   items:
-  - uid: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepositoryTests
-    name: EphemeralXmlRepositoryTests
   - uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository
     name: FileSystemXmlRepository
-  - uid: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepositoryTests
-    name: FileSystemXmlRepositoryTests
   - uid: Microsoft.AspNetCore.DataProtection.Repositories.IXmlRepository
     name: IXmlRepository
   - uid: Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepository
     name: RegistryXmlRepository
-  - uid: Microsoft.AspNetCore.DataProtection.Repositories.RegistryXmlRepositoryTests
-    name: RegistryXmlRepositoryTests
-- uid: Microsoft.AspNetCore.DataProtection.SP800_108
-  name: Microsoft.AspNetCore.DataProtection.SP800_108
-  items:
-  - uid: Microsoft.AspNetCore.DataProtection.SP800_108.SP800_108Tests
-    name: SP800_108Tests
 - uid: Microsoft.AspNetCore.DataProtection.SystemWeb
   name: Microsoft.AspNetCore.DataProtection.SystemWeb
   items:
   - uid: Microsoft.AspNetCore.DataProtection.SystemWeb.DataProtectionStartup
     name: DataProtectionStartup
-- uid: Microsoft.AspNetCore.DataProtection.Test.Shared
-  name: Microsoft.AspNetCore.DataProtection.Test.Shared
-  items:
-  - uid: Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindows8OrLaterAttribute
-    name: ConditionalRunTestOnlyOnWindows8OrLaterAttribute
-  - uid: Microsoft.AspNetCore.DataProtection.Test.Shared.ConditionalRunTestOnlyOnWindowsAttribute
-    name: ConditionalRunTestOnlyOnWindowsAttribute
 - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption
   name: Microsoft.AspNetCore.DataProtection.XmlEncryption
   items:
@@ -285,14 +160,10 @@
     name: DpapiNGProtectionDescriptorFlags
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlDecryptor
     name: DpapiNGXmlDecryptor
-  - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptionTests
-    name: DpapiNGXmlEncryptionTests
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiNGXmlEncryptor
     name: DpapiNGXmlEncryptor
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor
     name: DpapiXmlDecryptor
-  - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptionTests
-    name: DpapiXmlEncryptionTests
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor
     name: DpapiXmlEncryptor
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.EncryptedXmlDecryptor
@@ -307,12 +178,8 @@
     name: IXmlEncryptor
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlDecryptor
     name: NullXmlDecryptor
-  - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptionTests
-    name: NullXmlEncryptionTests
   - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.NullXmlEncryptor
     name: NullXmlEncryptor
-  - uid: Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensionsTests
-    name: XmlEncryptionExtensionsTests
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   items:

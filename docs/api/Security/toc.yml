@@ -1,29 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: CookieSample
-  name: CookieSample
-  items:
-  - uid: CookieSample.Program
-    name: Program
-  - uid: CookieSample.Startup
-    name: Startup
-- uid: CookieSessionSample
-  name: CookieSessionSample
-  items:
-  - uid: CookieSessionSample.MemoryCacheTicketStore
-    name: MemoryCacheTicketStore
-  - uid: CookieSessionSample.Program
-    name: Program
-  - uid: CookieSessionSample.Startup
-    name: Startup
-- uid: JwtBearerSample
-  name: JwtBearerSample
-  items:
-  - uid: JwtBearerSample.Program
-    name: Program
-  - uid: JwtBearerSample.Startup
-    name: Startup
-  - uid: JwtBearerSample.Todo
-    name: Todo
 - uid: Microsoft.AspNetCore.Authentication
   name: Microsoft.AspNetCore.Authentication
   items:
@@ -32,8 +7,6 @@
   - uid: Microsoft.AspNetCore.Authentication.AuthenticationHandler`1
     name: AuthenticationHandler<TOptions>
     name.vb: AuthenticationHandler(Of TOptions)
-  - uid: Microsoft.AspNetCore.Authentication.AuthenticationHandlerFacts
-    name: AuthenticationHandlerFacts
   - uid: Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1
     name: AuthenticationMiddleware<TOptions>
     name.vb: AuthenticationMiddleware(Of TOptions)
@@ -45,8 +18,6 @@
     name: AuthenticationTokenExtensions
   - uid: Microsoft.AspNetCore.Authentication.Base64UrlTextEncoder
     name: Base64UrlTextEncoder
-  - uid: Microsoft.AspNetCore.Authentication.Base64UrlTextEncoderTests
-    name: Base64UrlTextEncoderTests
   - uid: Microsoft.AspNetCore.Authentication.BaseContext
     name: BaseContext
   - uid: Microsoft.AspNetCore.Authentication.BaseControlContext
@@ -91,26 +62,12 @@
     name: SharedAuthenticationOptions
   - uid: Microsoft.AspNetCore.Authentication.SystemClock
     name: SystemClock
-  - uid: Microsoft.AspNetCore.Authentication.TestClock
-    name: TestClock
-  - uid: Microsoft.AspNetCore.Authentication.TestExtensions
-    name: TestExtensions
-  - uid: Microsoft.AspNetCore.Authentication.TestHttpMessageHandler
-    name: TestHttpMessageHandler
   - uid: Microsoft.AspNetCore.Authentication.TicketDataFormat
     name: TicketDataFormat
   - uid: Microsoft.AspNetCore.Authentication.TicketReceivedContext
     name: TicketReceivedContext
   - uid: Microsoft.AspNetCore.Authentication.TicketSerializer
     name: TicketSerializer
-  - uid: Microsoft.AspNetCore.Authentication.TicketSerializerTests
-    name: TicketSerializerTests
-  - uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests
-    name: TokenExtensionTests
-  - uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.TestAuthHandler
-    name: TokenExtensionTests.TestAuthHandler
-  - uid: Microsoft.AspNetCore.Authentication.Transaction
-    name: Transaction
 - uid: Microsoft.AspNetCore.Authentication.Cookies
   name: Microsoft.AspNetCore.Authentication.Cookies
   items:
@@ -124,8 +81,6 @@
     name: CookieAuthenticationEvents
   - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware
     name: CookieAuthenticationMiddleware
-  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieMiddlewareTests
-    name: CookieMiddlewareTests
   - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieRedirectContext
     name: CookieRedirectContext
   - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieSignedInContext
@@ -142,16 +97,6 @@
     name: ICookieManager
   - uid: Microsoft.AspNetCore.Authentication.Cookies.ITicketStore
     name: ITicketStore
-- uid: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
-  name: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure
-  items:
-  - uid: Microsoft.AspNetCore.Authentication.Cookies.Infrastructure.CookieChunkingTests
-    name: CookieChunkingTests
-- uid: Microsoft.AspNetCore.Authentication.DataHandler
-  name: Microsoft.AspNetCore.Authentication.DataHandler
-  items:
-  - uid: Microsoft.AspNetCore.Authentication.DataHandler.SecureDataFormatTests
-    name: SecureDataFormatTests
 - uid: Microsoft.AspNetCore.Authentication.Facebook
   name: Microsoft.AspNetCore.Authentication.Facebook
   items:
@@ -161,8 +106,6 @@
     name: FacebookHelper
   - uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware
     name: FacebookMiddleware
-  - uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddlewareTests
-    name: FacebookMiddlewareTests
 - uid: Microsoft.AspNetCore.Authentication.Google
   name: Microsoft.AspNetCore.Authentication.Google
   items:
@@ -172,8 +115,6 @@
     name: GoogleHelper
   - uid: Microsoft.AspNetCore.Authentication.Google.GoogleMiddleware
     name: GoogleMiddleware
-  - uid: Microsoft.AspNetCore.Authentication.Google.GoogleMiddlewareTests
-    name: GoogleMiddlewareTests
 - uid: Microsoft.AspNetCore.Authentication.JwtBearer
   name: Microsoft.AspNetCore.Authentication.JwtBearer
   items:
@@ -191,8 +132,6 @@
     name: JwtBearerEvents
   - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddleware
     name: JwtBearerMiddleware
-  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerMiddlewareTests
-    name: JwtBearerMiddlewareTests
   - uid: Microsoft.AspNetCore.Authentication.JwtBearer.MessageReceivedContext
     name: MessageReceivedContext
   - uid: Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
@@ -258,22 +197,6 @@
     name: TokenValidatedContext
   - uid: Microsoft.AspNetCore.Authentication.OpenIdConnect.UserInformationReceivedContext
     name: UserInformationReceivedContext
-- uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
-  name: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount
-  items:
-  - uid: Microsoft.AspNetCore.Authentication.Tests.MicrosoftAccount.MicrosoftAccountMiddlewareTests
-    name: MicrosoftAccountMiddlewareTests
-- uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
-  name: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect
-  items:
-  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.AuthenticationPropertiesFormaterKeyValue
-    name: AuthenticationPropertiesFormaterKeyValue
-  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.ExpectedQueryValues
-    name: ExpectedQueryValues
-  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.OpenIdConnectMiddlewareTests
-    name: OpenIdConnectMiddlewareTests
-  - uid: Microsoft.AspNetCore.Authentication.Tests.OpenIdConnect.TestUtilities
-    name: TestUtilities
 - uid: Microsoft.AspNetCore.Authentication.Twitter
   name: Microsoft.AspNetCore.Authentication.Twitter
   items:
@@ -295,8 +218,6 @@
     name: TwitterEvents
   - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddleware
     name: TwitterMiddleware
-  - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterMiddlewareTests
-    name: TwitterMiddlewareTests
   - uid: Microsoft.AspNetCore.Authentication.Twitter.TwitterRedirectToAuthorizationEndpointContext
     name: TwitterRedirectToAuthorizationEndpointContext
 - uid: Microsoft.AspNetCore.Authorization
@@ -355,38 +276,6 @@
     name: PassThroughAuthorizationHandler
   - uid: Microsoft.AspNetCore.Authorization.Infrastructure.RolesAuthorizationRequirement
     name: RolesAuthorizationRequirement
-- uid: Microsoft.AspNetCore.Authorization.Test
-  name: Microsoft.AspNetCore.Authorization.Test
-  items:
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests
-    name: DefaultAuthorizationServiceTests
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomHandler
-    name: DefaultAuthorizationServiceTests.CustomHandler
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.CustomRequirement
-    name: DefaultAuthorizationServiceTests.CustomRequirement
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.DynamicPolicyProvider
-    name: DefaultAuthorizationServiceTests.DynamicPolicyProvider
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.EvenHandler
-    name: DefaultAuthorizationServiceTests.EvenHandler
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReport
-    name: DefaultAuthorizationServiceTests.ExpenseReport
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
-    name: DefaultAuthorizationServiceTests.ExpenseReportAuthorizationHandler
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.NotCalledHandler
-    name: DefaultAuthorizationServiceTests.NotCalledHandler
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.Operations
-    name: DefaultAuthorizationServiceTests.Operations
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.PassThroughRequirement
-    name: DefaultAuthorizationServiceTests.PassThroughRequirement
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.StaticPolicyProvider
-    name: DefaultAuthorizationServiceTests.StaticPolicyProvider
-  - uid: Microsoft.AspNetCore.Authorization.Test.DefaultAuthorizationServiceTests.SuperUserHandler
-    name: DefaultAuthorizationServiceTests.SuperUserHandler
-- uid: Microsoft.AspNetCore.Authroization.Test
-  name: Microsoft.AspNetCore.Authroization.Test
-  items:
-  - uid: Microsoft.AspNetCore.Authroization.Test.AuthorizationPolicyFacts
-    name: AuthorizationPolicyFacts
 - uid: Microsoft.AspNetCore.Builder
   name: Microsoft.AspNetCore.Builder
   items:
@@ -445,15 +334,6 @@
     name: DeleteCookieContext
   - uid: Microsoft.AspNetCore.CookiePolicy.HttpOnlyPolicy
     name: HttpOnlyPolicy
-  - uid: Microsoft.AspNetCore.CookiePolicy.TestExtensions
-    name: TestExtensions
-  - uid: Microsoft.AspNetCore.CookiePolicy.Transaction
-    name: Transaction
-- uid: Microsoft.AspNetCore.CookiePolicy.Test
-  name: Microsoft.AspNetCore.CookiePolicy.Test
-  items:
-  - uid: Microsoft.AspNetCore.CookiePolicy.Test.CookiePolicyTests
-    name: CookiePolicyTests
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   items:
@@ -470,35 +350,5 @@
     name: AspNetTicketSerializer
   - uid: Microsoft.Owin.Security.Interop.ChunkingCookieManager
     name: ChunkingCookieManager
-  - uid: Microsoft.Owin.Security.Interop.CookiesInteropTests
-    name: CookiesInteropTests
   - uid: Microsoft.Owin.Security.Interop.DataProtectorShim
     name: DataProtectorShim
-- uid: Microsoft.Owin.Security.Interop.Test
-  name: Microsoft.Owin.Security.Interop.Test
-  items:
-  - uid: Microsoft.Owin.Security.Interop.Test.TicketInteropTests
-    name: TicketInteropTests
-- uid: OpenIdConnect.AzureAdSample
-  name: OpenIdConnect.AzureAdSample
-  items:
-  - uid: OpenIdConnect.AzureAdSample.AuthPropertiesTokenCache
-    name: AuthPropertiesTokenCache
-  - uid: OpenIdConnect.AzureAdSample.Program
-    name: Program
-  - uid: OpenIdConnect.AzureAdSample.Startup
-    name: Startup
-- uid: OpenIdConnectSample
-  name: OpenIdConnectSample
-  items:
-  - uid: OpenIdConnectSample.Program
-    name: Program
-  - uid: OpenIdConnectSample.Startup
-    name: Startup
-- uid: SocialSample
-  name: SocialSample
-  items:
-  - uid: SocialSample.Program
-    name: Program
-  - uid: SocialSample.Startup
-    name: Startup

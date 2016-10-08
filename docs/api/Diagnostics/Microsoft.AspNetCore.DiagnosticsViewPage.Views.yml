@@ -15,7 +15,7 @@ items:
   fullName: Microsoft.AspNetCore.DiagnosticsViewPage.Views
   type: Namespace
   assemblies:
-  - Microsoft.AspNetCore.Diagnostics
+  - Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
 references:
 - uid: Microsoft.AspNetCore.DiagnosticsViewPage.Views.AttributeValue
   commentId: T:Microsoft.AspNetCore.DiagnosticsViewPage.Views.AttributeValue

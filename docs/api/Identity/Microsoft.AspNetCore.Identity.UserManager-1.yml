@@ -6286,11 +6286,6 @@ references:
     fullName: )
 - uid: System.DateTimeOffset
   commentId: T:System.DateTimeOffset
-  parent: System
-  isExternal: true
-  name: DateTimeOffset
-  nameWithType: DateTimeOffset
-  fullName: System.DateTimeOffset
 - uid: System.Threading.Tasks.Task{System.Nullable{System.DateTimeOffset}}
   commentId: T:System.Threading.Tasks.Task{System.Nullable{System.DateTimeOffset}}
   parent: System.Threading.Tasks

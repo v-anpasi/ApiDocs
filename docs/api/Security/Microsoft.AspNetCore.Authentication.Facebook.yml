@@ -7,7 +7,6 @@ items:
   - Microsoft.AspNetCore.Authentication.Facebook.FacebookDefaults
   - Microsoft.AspNetCore.Authentication.Facebook.FacebookHelper
   - Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware
-  - Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddlewareTests
   langs:
   - csharp
   - vb
@@ -36,9 +35,3 @@ references:
   name: FacebookMiddleware
   nameWithType: FacebookMiddleware
   fullName: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddleware
-- uid: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddlewareTests
-  commentId: T:Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddlewareTests
-  isExternal: false
-  name: FacebookMiddlewareTests
-  nameWithType: FacebookMiddlewareTests
-  fullName: Microsoft.AspNetCore.Authentication.Facebook.FacebookMiddlewareTests

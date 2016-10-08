@@ -843,7 +843,6 @@ references:
     fullName: )
 - uid: Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
   commentId: T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole
-  parent: Microsoft.AspNetCore.Identity.EntityFrameworkCore
   isExternal: false
   name: IdentityRole
   nameWithType: IdentityRole

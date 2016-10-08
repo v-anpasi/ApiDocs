@@ -47,27 +47,27 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
   extensionMethods:
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
+  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.IniConfigurationExtensions.AddIniFile(System.String)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.IniConfigurationExtensions.AddIniFile(System.String,System.Boolean)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.IniConfigurationExtensions.AddIniFile(System.String,System.Boolean,System.Boolean)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.IniConfigurationExtensions.AddIniFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(System.String)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(System.String,System.Boolean)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(System.String,System.Boolean,System.Boolean)
   - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
-  - Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
   modifiers.csharp:
   - public
   - class
@@ -526,6 +526,583 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
+  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+  parent: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+  name: AddCommandLine(String[])
+  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(String[])
+  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
+  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(String())
+  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String())
+  name.vb: AddCommandLine(String())
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+  parent: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+  name: AddCommandLine(String[], IDictionary<String, String>)
+  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(String[], IDictionary<String, String>)
+  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[], System.Collections.Generic.IDictionary<System.String, System.String>)
+  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(String(), IDictionary(Of String, String))
+  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String(), System.Collections.Generic.IDictionary(Of System.String, System.String))
+  name.vb: AddCommandLine(String(), IDictionary(Of String, String))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
+  parent: Microsoft.Extensions.Configuration.FileConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
+  name: SetFileProvider(IFileProvider)
+  nameWithType: FileConfigurationExtensions.SetFileProvider(IFileProvider)
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
+    name: SetFileProvider
+    nameWithType: FileConfigurationExtensions.SetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
+    name: SetFileProvider
+    nameWithType: FileConfigurationExtensions.SetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  parent: Microsoft.Extensions.Configuration.FileConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  name: GetFileProvider()
+  nameWithType: FileConfigurationExtensions.GetFileProvider()
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider()
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+    name: GetFileProvider
+    nameWithType: FileConfigurationExtensions.GetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+    name: GetFileProvider
+    nameWithType: FileConfigurationExtensions.GetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  parent: Microsoft.Extensions.Configuration.FileConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  name: SetBasePath(String)
+  nameWithType: FileConfigurationExtensions.SetBasePath(String)
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
+    name: SetBasePath
+    nameWithType: FileConfigurationExtensions.SetBasePath
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
+    name: SetBasePath
+    nameWithType: FileConfigurationExtensions.SetBasePath
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  parent: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+  definition: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  name: AddEnvironmentVariables()
+  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables()
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables()
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
+  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  parent: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+  definition: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  name: AddEnvironmentVariables(String)
+  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables(String)
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  name: AddJsonFile(String)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(String)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+  name: AddJsonFile(String, Boolean)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(String, Boolean)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
+  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
+  name: AddJsonFile(String, Boolean, Boolean)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(String, Boolean, Boolean)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+  name: AddJsonFile(IFileProvider, String, Boolean, Boolean)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(IFileProvider, String, Boolean, Boolean)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection
   commentId: M:Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection(Microsoft.Extensions.Configuration.IConfigurationBuilder)
   parent: Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions
@@ -909,331 +1486,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
-  parent: Microsoft.Extensions.Configuration.FileConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
-  name: SetFileProvider(IFileProvider)
-  nameWithType: FileConfigurationExtensions.SetFileProvider(IFileProvider)
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
-    name: SetFileProvider
-    nameWithType: FileConfigurationExtensions.SetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.FileProviders.IFileProvider)
-    name: SetFileProvider
-    nameWithType: FileConfigurationExtensions.SetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  parent: Microsoft.Extensions.Configuration.FileConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  name: GetFileProvider()
-  nameWithType: FileConfigurationExtensions.GetFileProvider()
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider()
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-    name: GetFileProvider
-    nameWithType: FileConfigurationExtensions.GetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-    name: GetFileProvider
-    nameWithType: FileConfigurationExtensions.GetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  parent: Microsoft.Extensions.Configuration.FileConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  name: SetBasePath(String)
-  nameWithType: FileConfigurationExtensions.SetBasePath(String)
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
-    name: SetBasePath
-    nameWithType: FileConfigurationExtensions.SetBasePath
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(System.String)
-    name: SetBasePath
-    nameWithType: FileConfigurationExtensions.SetBasePath
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  parent: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-  definition: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  name: AddEnvironmentVariables()
-  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables()
-  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables()
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
-  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  parent: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-  definition: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  name: AddEnvironmentVariables(String)
-  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables(String)
-  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(System.String)
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
-  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
-  parent: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
-  name: AddCommandLine(String[])
-  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(String[])
-  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
-  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(String())
-  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String())
-  name.vb: AddCommandLine(String())
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[])
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-  parent: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-  name: AddCommandLine(String[], IDictionary<String, String>)
-  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(String[], IDictionary<String, String>)
-  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[], System.Collections.Generic.IDictionary<System.String, System.String>)
-  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(String(), IDictionary(Of String, String))
-  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String(), System.Collections.Generic.IDictionary(Of System.String, System.String))
-  name.vb: AddCommandLine(String(), IDictionary(Of String, String))
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(System.String)
   commentId: M:Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
   parent: Microsoft.Extensions.Configuration.XmlConfigurationExtensions
@@ -1486,264 +1738,748 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  name: AddJsonFile(String)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(String)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-  name: AddJsonFile(String, Boolean)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(String, Boolean)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String, System.Boolean)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
-  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
-  name: AddJsonFile(String, Boolean, Boolean)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(String, Boolean, Boolean)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String, System.Boolean, System.Boolean)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.IConfigurationBuilder.Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  parent: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  definition: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  name: AddJsonFile(IFileProvider, String, Boolean, Boolean)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(IFileProvider, String, Boolean, Boolean)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider, System.String, System.Boolean, System.Boolean)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: false
   name: System
   nameWithType: System
   fullName: System
+- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+  isExternal: true
+  name: AddCommandLine(IConfigurationBuilder, String[])
+  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String[])
+  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String[])
+  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String())
+  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String())
+  name.vb: AddCommandLine(IConfigurationBuilder, String())
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: CommandLineConfigurationExtensions
+  nameWithType: CommandLineConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+  isExternal: true
+  name: AddCommandLine(IConfigurationBuilder, String[], IDictionary<String, String>)
+  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String[], IDictionary<String, String>)
+  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String[], System.Collections.Generic.IDictionary<System.String, System.String>)
+  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String(), IDictionary(Of String, String))
+  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String(), System.Collections.Generic.IDictionary(Of System.String, System.String))
+  name.vb: AddCommandLine(IConfigurationBuilder, String(), IDictionary(Of String, String))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
+    name: AddCommandLine
+    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
+    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
+  isExternal: true
+  name: SetFileProvider(IConfigurationBuilder, IFileProvider)
+  nameWithType: FileConfigurationExtensions.SetFileProvider(IConfigurationBuilder, IFileProvider)
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder, Microsoft.Extensions.FileProviders.IFileProvider)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
+    name: SetFileProvider
+    nameWithType: FileConfigurationExtensions.SetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
+    name: SetFileProvider
+    nameWithType: FileConfigurationExtensions.SetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.FileConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: FileConfigurationExtensions
+  nameWithType: FileConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions
+- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  isExternal: false
+  name: GetFileProvider(IConfigurationBuilder)
+  nameWithType: FileConfigurationExtensions.GetFileProvider(IConfigurationBuilder)
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+    name: GetFileProvider
+    nameWithType: FileConfigurationExtensions.GetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+    name: GetFileProvider
+    nameWithType: FileConfigurationExtensions.GetFileProvider
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  isExternal: true
+  name: SetBasePath(IConfigurationBuilder, String)
+  nameWithType: FileConfigurationExtensions.SetBasePath(IConfigurationBuilder, String)
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+    name: SetBasePath
+    nameWithType: FileConfigurationExtensions.SetBasePath
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+    name: SetBasePath
+    nameWithType: FileConfigurationExtensions.SetBasePath
+    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  isExternal: false
+  name: AddEnvironmentVariables(IConfigurationBuilder)
+  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables(IConfigurationBuilder)
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+  commentId: T:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: EnvironmentVariablesExtensions
+  nameWithType: EnvironmentVariablesExtensions
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  isExternal: true
+  name: AddEnvironmentVariables(IConfigurationBuilder, String)
+  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables(IConfigurationBuilder, String)
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+    name: AddEnvironmentVariables
+    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
+    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  isExternal: true
+  name: AddJsonFile(IConfigurationBuilder, String)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, String)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: JsonConfigurationExtensions
+  nameWithType: JsonConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+  isExternal: true
+  name: AddJsonFile(IConfigurationBuilder, String, Boolean)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, String, Boolean)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddJsonFile(IConfigurationBuilder, String, Boolean, Boolean)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, String, Boolean, Boolean)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddJsonFile(IConfigurationBuilder, IFileProvider, String, Boolean, Boolean)
+  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, IFileProvider, String, Boolean, Boolean)
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, Microsoft.Extensions.FileProviders.IFileProvider, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
+    name: AddJsonFile
+    nameWithType: JsonConfigurationExtensions.AddJsonFile
+    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.FileProviders.IFileProvider
+    name: IFileProvider
+    nameWithType: IFileProvider
+    fullName: Microsoft.Extensions.FileProviders.IFileProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection(Microsoft.Extensions.Configuration.IConfigurationBuilder)
   commentId: M:Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection(Microsoft.Extensions.Configuration.IConfigurationBuilder)
   isExternal: false
@@ -2213,431 +2949,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
-  isExternal: true
-  name: SetFileProvider(IConfigurationBuilder, IFileProvider)
-  nameWithType: FileConfigurationExtensions.SetFileProvider(IConfigurationBuilder, IFileProvider)
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder, Microsoft.Extensions.FileProviders.IFileProvider)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
-    name: SetFileProvider
-    nameWithType: FileConfigurationExtensions.SetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider)
-    name: SetFileProvider
-    nameWithType: FileConfigurationExtensions.SetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.FileConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: FileConfigurationExtensions
-  nameWithType: FileConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  isExternal: false
-  name: GetFileProvider(IConfigurationBuilder)
-  nameWithType: FileConfigurationExtensions.GetFileProvider(IConfigurationBuilder)
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-    name: GetFileProvider
-    nameWithType: FileConfigurationExtensions.GetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-    name: GetFileProvider
-    nameWithType: FileConfigurationExtensions.GetFileProvider
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileProvider
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  isExternal: true
-  name: SetBasePath(IConfigurationBuilder, String)
-  nameWithType: FileConfigurationExtensions.SetBasePath(IConfigurationBuilder, String)
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-    name: SetBasePath
-    nameWithType: FileConfigurationExtensions.SetBasePath
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-    name: SetBasePath
-    nameWithType: FileConfigurationExtensions.SetBasePath
-    fullName: Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  isExternal: false
-  name: AddEnvironmentVariables(IConfigurationBuilder)
-  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables(IConfigurationBuilder)
-  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-  commentId: T:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: EnvironmentVariablesExtensions
-  nameWithType: EnvironmentVariablesExtensions
-  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  commentId: M:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  isExternal: true
-  name: AddEnvironmentVariables(IConfigurationBuilder, String)
-  nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables(IConfigurationBuilder, String)
-  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-    name: AddEnvironmentVariables
-    nameWithType: EnvironmentVariablesExtensions.AddEnvironmentVariables
-    fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions.AddEnvironmentVariables
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
-  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
-  isExternal: true
-  name: AddCommandLine(IConfigurationBuilder, String[])
-  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String[])
-  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String[])
-  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String())
-  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String())
-  name.vb: AddCommandLine(IConfigurationBuilder, String())
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: CommandLineConfigurationExtensions
-  nameWithType: CommandLineConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-  commentId: M:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-  isExternal: true
-  name: AddCommandLine(IConfigurationBuilder, String[], IDictionary<String, String>)
-  nameWithType: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String[], IDictionary<String, String>)
-  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String[], System.Collections.Generic.IDictionary<System.String, System.String>)
-  nameWithType.vb: CommandLineConfigurationExtensions.AddCommandLine(IConfigurationBuilder, String(), IDictionary(Of String, String))
-  fullname.vb: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String(), System.Collections.Generic.IDictionary(Of System.String, System.String))
-  name.vb: AddCommandLine(IConfigurationBuilder, String(), IDictionary(Of String, String))
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[],System.Collections.Generic.IDictionary{System.String,System.String})
-    name: AddCommandLine
-    nameWithType: CommandLineConfigurationExtensions.AddCommandLine
-    fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions.AddCommandLine
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
   commentId: M:Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
   isExternal: true
@@ -2907,317 +3218,6 @@ references:
     name: AddXmlFile
     nameWithType: XmlConfigurationExtensions.AddXmlFile
     fullName: Microsoft.Extensions.Configuration.XmlConfigurationExtensions.AddXmlFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  isExternal: true
-  name: AddJsonFile(IConfigurationBuilder, String)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, String)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: JsonConfigurationExtensions
-  nameWithType: JsonConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-  isExternal: true
-  name: AddJsonFile(IConfigurationBuilder, String, Boolean)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, String, Boolean)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String, System.Boolean)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
-  isExternal: true
-  name: AddJsonFile(IConfigurationBuilder, String, Boolean, Boolean)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, String, Boolean, Boolean)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String, System.Boolean, System.Boolean)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  commentId: M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-  isExternal: true
-  name: AddJsonFile(IConfigurationBuilder, IFileProvider, String, Boolean, Boolean)
-  nameWithType: JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder, IFileProvider, String, Boolean, Boolean)
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder, Microsoft.Extensions.FileProviders.IFileProvider, System.String, System.Boolean, System.Boolean)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
-    name: IConfigurationBuilder
-    nameWithType: IConfigurationBuilder
-    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: Microsoft.Extensions.FileProviders.IFileProvider
-    name: IFileProvider
-    nameWithType: IFileProvider
-    fullName: Microsoft.Extensions.FileProviders.IFileProvider
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,Microsoft.Extensions.FileProviders.IFileProvider,System.String,System.Boolean,System.Boolean)
-    name: AddJsonFile
-    nameWithType: JsonConfigurationExtensions.AddJsonFile
-    fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile
   - name: (
     nameWithType: (
     fullName: (

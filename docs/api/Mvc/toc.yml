@@ -1,0 +1,1829 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions
+    name: MvcApplicationBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions
+    name: MvcAreaRouteBuilderExtensions
+  - uid: Microsoft.AspNetCore.Builder.WebApiCompatShimRouteBuilderExtensions
+    name: WebApiCompatShimRouteBuilderExtensions
+- uid: Microsoft.AspNetCore.Mvc
+  name: Microsoft.AspNetCore.Mvc
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute
+    name: AcceptVerbsAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ActionContext
+    name: ActionContext
+  - uid: Microsoft.AspNetCore.Mvc.ActionContextAttribute
+    name: ActionContextAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ActionNameAttribute
+    name: ActionNameAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult
+    name: ActionResult
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorerSettingsAttribute
+    name: ApiExplorerSettingsAttribute
+  - uid: Microsoft.AspNetCore.Mvc.AreaAttribute
+    name: AreaAttribute
+  - uid: Microsoft.AspNetCore.Mvc.AutoValidateAntiforgeryTokenAttribute
+    name: AutoValidateAntiforgeryTokenAttribute
+  - uid: Microsoft.AspNetCore.Mvc.BadRequestObjectResult
+    name: BadRequestObjectResult
+  - uid: Microsoft.AspNetCore.Mvc.BadRequestResult
+    name: BadRequestResult
+  - uid: Microsoft.AspNetCore.Mvc.BindAttribute
+    name: BindAttribute
+  - uid: Microsoft.AspNetCore.Mvc.CacheProfile
+    name: CacheProfile
+  - uid: Microsoft.AspNetCore.Mvc.ChallengeResult
+    name: ChallengeResult
+  - uid: Microsoft.AspNetCore.Mvc.ConsumesAttribute
+    name: ConsumesAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ContentResult
+    name: ContentResult
+  - uid: Microsoft.AspNetCore.Mvc.Controller
+    name: Controller
+  - uid: Microsoft.AspNetCore.Mvc.ControllerAttribute
+    name: ControllerAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ControllerBase
+    name: ControllerBase
+  - uid: Microsoft.AspNetCore.Mvc.ControllerContext
+    name: ControllerContext
+  - uid: Microsoft.AspNetCore.Mvc.ControllerContextAttribute
+    name: ControllerContextAttribute
+  - uid: Microsoft.AspNetCore.Mvc.CreatedAtActionResult
+    name: CreatedAtActionResult
+  - uid: Microsoft.AspNetCore.Mvc.CreatedAtRouteResult
+    name: CreatedAtRouteResult
+  - uid: Microsoft.AspNetCore.Mvc.CreatedResult
+    name: CreatedResult
+  - uid: Microsoft.AspNetCore.Mvc.EmptyResult
+    name: EmptyResult
+  - uid: Microsoft.AspNetCore.Mvc.FileContentResult
+    name: FileContentResult
+  - uid: Microsoft.AspNetCore.Mvc.FileResult
+    name: FileResult
+  - uid: Microsoft.AspNetCore.Mvc.FileStreamResult
+    name: FileStreamResult
+  - uid: Microsoft.AspNetCore.Mvc.ForbidResult
+    name: ForbidResult
+  - uid: Microsoft.AspNetCore.Mvc.FormatFilterAttribute
+    name: FormatFilterAttribute
+  - uid: Microsoft.AspNetCore.Mvc.FromBodyAttribute
+    name: FromBodyAttribute
+  - uid: Microsoft.AspNetCore.Mvc.FromFormAttribute
+    name: FromFormAttribute
+  - uid: Microsoft.AspNetCore.Mvc.FromHeaderAttribute
+    name: FromHeaderAttribute
+  - uid: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    name: FromQueryAttribute
+  - uid: Microsoft.AspNetCore.Mvc.FromRouteAttribute
+    name: FromRouteAttribute
+  - uid: Microsoft.AspNetCore.Mvc.FromServicesAttribute
+    name: FromServicesAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HiddenInputAttribute
+    name: HiddenInputAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+    name: HttpDeleteAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    name: HttpGetAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpHeadAttribute
+    name: HttpHeadAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpOptionsAttribute
+    name: HttpOptionsAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpPatchAttribute
+    name: HttpPatchAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+    name: HttpPostAttribute
+  - uid: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+    name: HttpPutAttribute
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+  - uid: Microsoft.AspNetCore.Mvc.IgnoreAntiforgeryTokenAttribute
+    name: IgnoreAntiforgeryTokenAttribute
+  - uid: Microsoft.AspNetCore.Mvc.IUrlHelper
+    name: IUrlHelper
+  - uid: Microsoft.AspNetCore.Mvc.IViewComponentHelper
+    name: IViewComponentHelper
+  - uid: Microsoft.AspNetCore.Mvc.IViewComponentResult
+    name: IViewComponentResult
+  - uid: Microsoft.AspNetCore.Mvc.JsonPatchExtensions
+    name: JsonPatchExtensions
+  - uid: Microsoft.AspNetCore.Mvc.JsonResult
+    name: JsonResult
+  - uid: Microsoft.AspNetCore.Mvc.LocalRedirectResult
+    name: LocalRedirectResult
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinderAttribute
+    name: ModelBinderAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ModelMetadataTypeAttribute
+    name: ModelMetadataTypeAttribute
+  - uid: Microsoft.AspNetCore.Mvc.MvcJsonOptions
+    name: MvcJsonOptions
+  - uid: Microsoft.AspNetCore.Mvc.MvcOptions
+    name: MvcOptions
+  - uid: Microsoft.AspNetCore.Mvc.MvcViewOptions
+    name: MvcViewOptions
+  - uid: Microsoft.AspNetCore.Mvc.NoContentResult
+    name: NoContentResult
+  - uid: Microsoft.AspNetCore.Mvc.NonActionAttribute
+    name: NonActionAttribute
+  - uid: Microsoft.AspNetCore.Mvc.NonControllerAttribute
+    name: NonControllerAttribute
+  - uid: Microsoft.AspNetCore.Mvc.NotFoundObjectResult
+    name: NotFoundObjectResult
+  - uid: Microsoft.AspNetCore.Mvc.NotFoundResult
+    name: NotFoundResult
+  - uid: Microsoft.AspNetCore.Mvc.ObjectResult
+    name: ObjectResult
+  - uid: Microsoft.AspNetCore.Mvc.OkObjectResult
+    name: OkObjectResult
+  - uid: Microsoft.AspNetCore.Mvc.OkResult
+    name: OkResult
+  - uid: Microsoft.AspNetCore.Mvc.PartialViewResult
+    name: PartialViewResult
+  - uid: Microsoft.AspNetCore.Mvc.PhysicalFileResult
+    name: PhysicalFileResult
+  - uid: Microsoft.AspNetCore.Mvc.ProducesAttribute
+    name: ProducesAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ProducesResponseTypeAttribute
+    name: ProducesResponseTypeAttribute
+  - uid: Microsoft.AspNetCore.Mvc.RazorViewEngineOptionsSetup
+    name: RazorViewEngineOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.RedirectResult
+    name: RedirectResult
+  - uid: Microsoft.AspNetCore.Mvc.RedirectToActionResult
+    name: RedirectToActionResult
+  - uid: Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+    name: RedirectToRouteResult
+  - uid: Microsoft.AspNetCore.Mvc.RemoteAttribute
+    name: RemoteAttribute
+  - uid: Microsoft.AspNetCore.Mvc.RequireHttpsAttribute
+    name: RequireHttpsAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ResponseCacheAttribute
+    name: ResponseCacheAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ResponseCacheLocation
+    name: ResponseCacheLocation
+  - uid: Microsoft.AspNetCore.Mvc.RouteAttribute
+    name: RouteAttribute
+  - uid: Microsoft.AspNetCore.Mvc.SerializableError
+    name: SerializableError
+  - uid: Microsoft.AspNetCore.Mvc.ServiceFilterAttribute
+    name: ServiceFilterAttribute
+  - uid: Microsoft.AspNetCore.Mvc.SignInResult
+    name: SignInResult
+  - uid: Microsoft.AspNetCore.Mvc.SignOutResult
+    name: SignOutResult
+  - uid: Microsoft.AspNetCore.Mvc.SkipStatusCodePagesAttribute
+    name: SkipStatusCodePagesAttribute
+  - uid: Microsoft.AspNetCore.Mvc.StatusCodeResult
+    name: StatusCodeResult
+  - uid: Microsoft.AspNetCore.Mvc.TypeFilterAttribute
+    name: TypeFilterAttribute
+  - uid: Microsoft.AspNetCore.Mvc.UnauthorizedResult
+    name: UnauthorizedResult
+  - uid: Microsoft.AspNetCore.Mvc.UnsupportedMediaTypeResult
+    name: UnsupportedMediaTypeResult
+  - uid: Microsoft.AspNetCore.Mvc.UrlHelperExtensions
+    name: UrlHelperExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute
+    name: ValidateAntiForgeryTokenAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponent
+    name: ViewComponent
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponentAttribute
+    name: ViewComponentAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponentResult
+    name: ViewComponentResult
+  - uid: Microsoft.AspNetCore.Mvc.ViewResult
+    name: ViewResult
+  - uid: Microsoft.AspNetCore.Mvc.VirtualFileResult
+    name: VirtualFileResult
+- uid: Microsoft.AspNetCore.Mvc.Abstractions
+  name: Microsoft.AspNetCore.Mvc.Abstractions
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptor
+    name: ActionDescriptor
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptorExtensions
+    name: ActionDescriptorExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptorProviderContext
+    name: ActionDescriptorProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.ActionInvokerProviderContext
+    name: ActionInvokerProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.IActionDescriptorProvider
+    name: IActionDescriptorProvider
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.IActionInvoker
+    name: IActionInvoker
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.IActionInvokerProvider
+    name: IActionInvokerProvider
+  - uid: Microsoft.AspNetCore.Mvc.Abstractions.ParameterDescriptor
+    name: ParameterDescriptor
+- uid: Microsoft.AspNetCore.Mvc.ActionConstraints
+  name: Microsoft.AspNetCore.Mvc.ActionConstraints
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.ActionConstraintContext
+    name: ActionConstraintContext
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.ActionConstraintItem
+    name: ActionConstraintItem
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.ActionConstraintProviderContext
+    name: ActionConstraintProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.ActionMethodSelectorAttribute
+    name: ActionMethodSelectorAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.ActionSelectorCandidate
+    name: ActionSelectorCandidate
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraint
+    name: IActionConstraint
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintFactory
+    name: IActionConstraintFactory
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintMetadata
+    name: IActionConstraintMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintProvider
+    name: IActionConstraintProvider
+- uid: Microsoft.AspNetCore.Mvc.ApiExplorer
+  name: Microsoft.AspNetCore.Mvc.ApiExplorer
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescription
+    name: ApiDescription
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionExtensions
+    name: ApiDescriptionExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroup
+    name: ApiDescriptionGroup
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollection
+    name: ApiDescriptionGroupCollection
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider
+    name: ApiDescriptionGroupCollectionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionProviderContext
+    name: ApiDescriptionProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiParameterDescription
+    name: ApiParameterDescription
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiParameterRouteInfo
+    name: ApiParameterRouteInfo
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiRequestFormat
+    name: ApiRequestFormat
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseFormat
+    name: ApiResponseFormat
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseType
+    name: ApiResponseType
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider
+    name: DefaultApiDescriptionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionGroupCollectionProvider
+    name: IApiDescriptionGroupCollectionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionGroupNameProvider
+    name: IApiDescriptionGroupNameProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionProvider
+    name: IApiDescriptionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionVisibilityProvider
+    name: IApiDescriptionVisibilityProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiRequestFormatMetadataProvider
+    name: IApiRequestFormatMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiRequestMetadataProvider
+    name: IApiRequestMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiResponseMetadataProvider
+    name: IApiResponseMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApiExplorer.IApiResponseTypeMetadataProvider
+    name: IApiResponseTypeMetadataProvider
+- uid: Microsoft.AspNetCore.Mvc.ApplicationModels
+  name: Microsoft.AspNetCore.Mvc.ApplicationModels
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ActionModel
+    name: ActionModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ApiExplorerModel
+    name: ApiExplorerModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModel
+    name: ApplicationModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelProviderContext
+    name: ApplicationModelProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel
+    name: AttributeRouteModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel
+    name: ControllerModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IActionModelConvention
+    name: IActionModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IApiExplorerModel
+    name: IApiExplorerModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IApplicationModelConvention
+    name: IApplicationModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IApplicationModelProvider
+    name: IApplicationModelProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IBindingModel
+    name: IBindingModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ICommonModel
+    name: ICommonModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IControllerModelConvention
+    name: IControllerModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IFilterModel
+    name: IFilterModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IParameterModelConvention
+    name: IParameterModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.IPropertyModel
+    name: IPropertyModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.ParameterModel
+    name: ParameterModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.PropertyModel
+    name: PropertyModel
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationModels.SelectorModel
+    name: SelectorModel
+- uid: Microsoft.AspNetCore.Mvc.ApplicationParts
+  name: Microsoft.AspNetCore.Mvc.ApplicationParts
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPart
+    name: ApplicationPart
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartManager
+    name: ApplicationPartManager
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart
+    name: AssemblyPart
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.IApplicationFeatureProvider
+    name: IApplicationFeatureProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.IApplicationFeatureProvider`1
+    name: IApplicationFeatureProvider<TFeature>
+    name.vb: IApplicationFeatureProvider(Of TFeature)
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.IApplicationPartTypeProvider
+    name: IApplicationPartTypeProvider
+  - uid: Microsoft.AspNetCore.Mvc.ApplicationParts.ICompilationReferencesProvider
+    name: ICompilationReferencesProvider
+- uid: Microsoft.AspNetCore.Mvc.Authorization
+  name: Microsoft.AspNetCore.Mvc.Authorization
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Authorization.AllowAnonymousFilter
+    name: AllowAnonymousFilter
+  - uid: Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter
+    name: AuthorizeFilter
+  - uid: Microsoft.AspNetCore.Mvc.Authorization.IAllowAnonymousFilter
+    name: IAllowAnonymousFilter
+- uid: Microsoft.AspNetCore.Mvc.Controllers
+  name: Microsoft.AspNetCore.Mvc.Controllers
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor
+    name: ControllerActionDescriptor
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.ControllerBoundPropertyDescriptor
+    name: ControllerBoundPropertyDescriptor
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.ControllerFeature
+    name: ControllerFeature
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.ControllerFeatureProvider
+    name: ControllerFeatureProvider
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.ControllerParameterDescriptor
+    name: ControllerParameterDescriptor
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerActivator
+    name: DefaultControllerActivator
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory
+    name: DefaultControllerFactory
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.IControllerActivator
+    name: IControllerActivator
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.IControllerFactory
+    name: IControllerFactory
+  - uid: Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator
+    name: ServiceBasedControllerActivator
+- uid: Microsoft.AspNetCore.Mvc.Cors
+  name: Microsoft.AspNetCore.Mvc.Cors
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter
+    name: CorsAuthorizationFilter
+- uid: Microsoft.AspNetCore.Mvc.Cors.Internal
+  name: Microsoft.AspNetCore.Mvc.Cors.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Cors.Internal.CorsApplicationModelProvider
+    name: CorsApplicationModelProvider
+  - uid: Microsoft.AspNetCore.Mvc.Cors.Internal.CorsAuthorizationFilterFactory
+    name: CorsAuthorizationFilterFactory
+  - uid: Microsoft.AspNetCore.Mvc.Cors.Internal.DisableCorsAuthorizationFilter
+    name: DisableCorsAuthorizationFilter
+  - uid: Microsoft.AspNetCore.Mvc.Cors.Internal.ICorsAuthorizationFilter
+    name: ICorsAuthorizationFilter
+- uid: Microsoft.AspNetCore.Mvc.DataAnnotations
+  name: Microsoft.AspNetCore.Mvc.DataAnnotations
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.IAttributeAdapter
+    name: IAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.IValidationAttributeAdapterProvider
+    name: IValidationAttributeAdapterProvider
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.MvcDataAnnotationsLocalizationOptions
+    name: MvcDataAnnotationsLocalizationOptions
+- uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal
+  name: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.AttributeAdapterBase`1
+    name: AttributeAdapterBase<TAttribute>
+    name.vb: AttributeAdapterBase(Of TAttribute)
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.CompareAttributeAdapter
+    name: CompareAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DataAnnotationsClientModelValidatorProvider
+    name: DataAnnotationsClientModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DataAnnotationsLocalizationServices
+    name: DataAnnotationsLocalizationServices
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DataAnnotationsMetadataProvider
+    name: DataAnnotationsMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DataAnnotationsModelValidator
+    name: DataAnnotationsModelValidator
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DataAnnotationsModelValidatorProvider
+    name: DataAnnotationsModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DataTypeAttributeAdapter
+    name: DataTypeAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.DefaultClientModelValidatorProvider
+    name: DefaultClientModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.MaxLengthAttributeAdapter
+    name: MaxLengthAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.MinLengthAttributeAdapter
+    name: MinLengthAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.MvcDataAnnotationsLocalizationOptionsSetup
+    name: MvcDataAnnotationsLocalizationOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.MvcDataAnnotationsMvcOptionsSetup
+    name: MvcDataAnnotationsMvcOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.NumericClientModelValidator
+    name: NumericClientModelValidator
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.NumericClientModelValidatorProvider
+    name: NumericClientModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.RangeAttributeAdapter
+    name: RangeAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.RegularExpressionAttributeAdapter
+    name: RegularExpressionAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.RequiredAttributeAdapter
+    name: RequiredAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.StringLengthAttributeAdapter
+    name: StringLengthAttributeAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.ValidatableObjectAdapter
+    name: ValidatableObjectAdapter
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.ValidationAttributeAdapter`1
+    name: ValidationAttributeAdapter<TAttribute>
+    name.vb: ValidationAttributeAdapter(Of TAttribute)
+  - uid: Microsoft.AspNetCore.Mvc.DataAnnotations.Internal.ValidationAttributeAdapterProvider
+    name: ValidationAttributeAdapterProvider
+- uid: Microsoft.AspNetCore.Mvc.Filters
+  name: Microsoft.AspNetCore.Mvc.Filters
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext
+    name: ActionExecutedContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate
+    name: ActionExecutionDelegate
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute
+    name: ActionFilterAttribute
+  - uid: Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext
+    name: AuthorizationFilterContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ExceptionContext
+    name: ExceptionContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ExceptionFilterAttribute
+    name: ExceptionFilterAttribute
+  - uid: Microsoft.AspNetCore.Mvc.Filters.FilterCollection
+    name: FilterCollection
+  - uid: Microsoft.AspNetCore.Mvc.Filters.FilterContext
+    name: FilterContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.FilterDescriptor
+    name: FilterDescriptor
+  - uid: Microsoft.AspNetCore.Mvc.Filters.FilterItem
+    name: FilterItem
+  - uid: Microsoft.AspNetCore.Mvc.Filters.FilterProviderContext
+    name: FilterProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.FilterScope
+    name: FilterScope
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IActionFilter
+    name: IActionFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter
+    name: IAsyncActionFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IAsyncAuthorizationFilter
+    name: IAsyncAuthorizationFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IAsyncExceptionFilter
+    name: IAsyncExceptionFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IAsyncResourceFilter
+    name: IAsyncResourceFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IAsyncResultFilter
+    name: IAsyncResultFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IAuthorizationFilter
+    name: IAuthorizationFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IExceptionFilter
+    name: IExceptionFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IFilterContainer
+    name: IFilterContainer
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IFilterFactory
+    name: IFilterFactory
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata
+    name: IFilterMetadata
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IFilterProvider
+    name: IFilterProvider
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter
+    name: IOrderedFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IResourceFilter
+    name: IResourceFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.IResultFilter
+    name: IResultFilter
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResourceExecutedContext
+    name: ResourceExecutedContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResourceExecutingContext
+    name: ResourceExecutingContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResourceExecutionDelegate
+    name: ResourceExecutionDelegate
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResultExecutedContext
+    name: ResultExecutedContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext
+    name: ResultExecutingContext
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate
+    name: ResultExecutionDelegate
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ResultFilterAttribute
+    name: ResultFilterAttribute
+- uid: Microsoft.AspNetCore.Mvc.Formatters
+  name: Microsoft.AspNetCore.Mvc.Formatters
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.FormatFilter
+    name: FormatFilter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.FormatterCollection`1
+    name: FormatterCollection<TFormatter>
+    name.vb: FormatterCollection(Of TFormatter)
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.FormatterMappings
+    name: FormatterMappings
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter
+    name: HttpNoContentOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.IInputFormatter
+    name: IInputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.InputFormatter
+    name: InputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.InputFormatterContext
+    name: InputFormatterContext
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.InputFormatterResult
+    name: InputFormatterResult
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter
+    name: IOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter
+    name: JsonInputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter
+    name: JsonOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter
+    name: JsonPatchInputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.JsonSerializerSettingsProvider
+    name: JsonSerializerSettingsProvider
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.MediaType
+    name: MediaType
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.MediaTypeCollection
+    name: MediaTypeCollection
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter
+    name: OutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.OutputFormatterCanWriteContext
+    name: OutputFormatterCanWriteContext
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.OutputFormatterWriteContext
+    name: OutputFormatterWriteContext
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter
+    name: StreamOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter
+    name: StringOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.TextInputFormatter
+    name: TextInputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.TextOutputFormatter
+    name: TextOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter
+    name: XmlDataContractSerializerInputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter
+    name: XmlDataContractSerializerOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerInputFormatter
+    name: XmlSerializerInputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter
+    name: XmlSerializerOutputFormatter
+- uid: Microsoft.AspNetCore.Mvc.Formatters.Internal
+  name: Microsoft.AspNetCore.Mvc.Formatters.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Internal.AcceptHeaderParser
+    name: AcceptHeaderParser
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Internal.HttpParseResult
+    name: HttpParseResult
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Internal.HttpTokenParsingRules
+    name: HttpTokenParsingRules
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Internal.IFormatFilter
+    name: IFormatFilter
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Internal.MediaTypeSegmentWithQuality
+    name: MediaTypeSegmentWithQuality
+- uid: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal
+  name: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonArrayPool`1
+    name: JsonArrayPool<T>
+    name.vb: JsonArrayPool(Of T)
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor
+    name: JsonResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonSerializerObjectPolicy
+    name: JsonSerializerObjectPolicy
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.MvcJsonMvcOptionsSetup
+    name: MvcJsonMvcOptionsSetup
+- uid: Microsoft.AspNetCore.Mvc.Formatters.Xml
+  name: Microsoft.AspNetCore.Mvc.Formatters.Xml
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.DelegatingEnumerable`2
+    name: DelegatingEnumerable<TWrapped, TDeclared>
+    name.vb: DelegatingEnumerable(Of TWrapped, TDeclared)
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.DelegatingEnumerator`2
+    name: DelegatingEnumerator<TWrapped, TDeclared>
+    name.vb: DelegatingEnumerator(Of TWrapped, TDeclared)
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.EnumerableWrapperProvider
+    name: EnumerableWrapperProvider
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.EnumerableWrapperProviderFactory
+    name: EnumerableWrapperProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.IUnwrappable
+    name: IUnwrappable
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.IWrapperProvider
+    name: IWrapperProvider
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.IWrapperProviderFactory
+    name: IWrapperProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.SerializableErrorWrapper
+    name: SerializableErrorWrapper
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.SerializableErrorWrapperProvider
+    name: SerializableErrorWrapperProvider
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.SerializableErrorWrapperProviderFactory
+    name: SerializableErrorWrapperProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.WrapperProviderContext
+    name: WrapperProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.WrapperProviderFactoriesExtensions
+    name: WrapperProviderFactoriesExtensions
+- uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal
+  name: Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.FormattingUtilities
+    name: FormattingUtilities
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.MvcXmlDataContractSerializerMvcOptionsSetup
+    name: MvcXmlDataContractSerializerMvcOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.MvcXmlSerializerMvcOptionsSetup
+    name: MvcXmlSerializerMvcOptionsSetup
+- uid: Microsoft.AspNetCore.Mvc.Infrastructure
+  name: Microsoft.AspNetCore.Mvc.Infrastructure
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Infrastructure.ActionContextAccessor
+    name: ActionContextAccessor
+  - uid: Microsoft.AspNetCore.Mvc.Infrastructure.ActionDescriptorCollection
+    name: ActionDescriptorCollection
+  - uid: Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor
+    name: IActionContextAccessor
+  - uid: Microsoft.AspNetCore.Mvc.Infrastructure.IActionDescriptorCollectionProvider
+    name: IActionDescriptorCollectionProvider
+  - uid: Microsoft.AspNetCore.Mvc.Infrastructure.IActionSelector
+    name: IActionSelector
+- uid: Microsoft.AspNetCore.Mvc.Internal
+  name: Microsoft.AspNetCore.Mvc.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ActionConstraintCache
+    name: ActionConstraintCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider
+    name: ActionDescriptorCollectionProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory
+    name: ActionInvokerFactory
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ActionSelectionDecisionTree
+    name: ActionSelectionDecisionTree
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ActionSelector
+    name: ActionSelector
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ActionSelectorDecisionTreeProvider
+    name: ActionSelectorDecisionTreeProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException
+    name: AmbiguousActionException
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ApiDescriptionActionData
+    name: ApiDescriptionActionData
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ApplicationModelConventions
+    name: ApplicationModelConventions
+  - uid: Microsoft.AspNetCore.Mvc.Internal.AttributeRoute
+    name: AttributeRoute
+  - uid: Microsoft.AspNetCore.Mvc.Internal.AttributeRouteEntries
+    name: AttributeRouteEntries
+  - uid: Microsoft.AspNetCore.Mvc.Internal.AttributeRouting
+    name: AttributeRouting
+  - uid: Microsoft.AspNetCore.Mvc.Internal.AuthorizationApplicationModelProvider
+    name: AuthorizationApplicationModelProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ClientValidatorCache
+    name: ClientValidatorCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorBuilder
+    name: ControllerActionDescriptorBuilder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider
+    name: ControllerActionDescriptorProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionExecutor
+    name: ControllerActionExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter
+    name: ControllerActionFilter
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker
+    name: ControllerActionInvoker
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache
+    name: ControllerActionInvokerCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.ControllerActionInvokerState
+    name: ControllerActionInvokerCache.ControllerActionInvokerState
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider
+    name: ControllerActionInvokerProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ControllerResultFilter
+    name: ControllerResultFilter
+  - uid: Microsoft.AspNetCore.Mvc.Internal.CopyOnWriteList`1
+    name: CopyOnWriteList<T>
+    name.vb: CopyOnWriteList(Of T)
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultActionConstraintProvider
+    name: DefaultActionConstraintProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultApplicationModelProvider
+    name: DefaultApplicationModelProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultAssemblyPartDiscoveryProvider
+    name: DefaultAssemblyPartDiscoveryProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultBindingMetadataProvider
+    name: DefaultBindingMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultCollectionValidationStrategy
+    name: DefaultCollectionValidationStrategy
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultComplexObjectValidationStrategy
+    name: DefaultComplexObjectValidationStrategy
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultCompositeMetadataDetailsProvider
+    name: DefaultCompositeMetadataDetailsProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultControllerArgumentBinder
+    name: DefaultControllerArgumentBinder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultControllerPropertyActivator
+    name: DefaultControllerPropertyActivator
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider
+    name: DefaultFilterProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultModelValidatorProvider
+    name: DefaultModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultObjectValidator
+    name: DefaultObjectValidator
+  - uid: Microsoft.AspNetCore.Mvc.Internal.DefaultValidationMetadataProvider
+    name: DefaultValidationMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ElementalValueProvider
+    name: ElementalValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ExplicitIndexCollectionValidationStrategy
+    name: ExplicitIndexCollectionValidationStrategy
+  - uid: Microsoft.AspNetCore.Mvc.Internal.FileContentResultExecutor
+    name: FileContentResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.FileResultExecutorBase
+    name: FileResultExecutorBase
+  - uid: Microsoft.AspNetCore.Mvc.Internal.FileStreamResultExecutor
+    name: FileStreamResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.FilterDescriptorOrderComparer
+    name: FilterDescriptorOrderComparer
+  - uid: Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint
+    name: HttpMethodActionConstraint
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IActionInvokerFactory
+    name: IActionInvokerFactory
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IActionSelectionDecisionTree
+    name: IActionSelectionDecisionTree
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IActionSelectorDecisionTreeProvider
+    name: IActionSelectorDecisionTreeProvider
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IConsumesActionConstraint
+    name: IConsumesActionConstraint
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IControllerArgumentBinder
+    name: IControllerArgumentBinder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IControllerPropertyActivator
+    name: IControllerPropertyActivator
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IHttpRequestStreamReaderFactory
+    name: IHttpRequestStreamReaderFactory
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IHttpResponseStreamWriterFactory
+    name: IHttpResponseStreamWriterFactory
+  - uid: Microsoft.AspNetCore.Mvc.Internal.IResponseCacheFilter
+    name: IResponseCacheFilter
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ITypeActivatorCache
+    name: ITypeActivatorCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.LocalRedirectResultExecutor
+    name: LocalRedirectResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MemoryPoolHttpRequestStreamReaderFactory
+    name: MemoryPoolHttpRequestStreamReaderFactory
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MemoryPoolHttpResponseStreamWriterFactory
+    name: MemoryPoolHttpResponseStreamWriterFactory
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler
+    name: MvcAttributeRouteHandler
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcBuilder
+    name: MvcBuilder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcCoreBuilder
+    name: MvcCoreBuilder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcCoreDiagnosticSourceExtensions
+    name: MvcCoreDiagnosticSourceExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcCoreMvcOptionsSetup
+    name: MvcCoreMvcOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcCoreRouteOptionsSetup
+    name: MvcCoreRouteOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcMarkerService
+    name: MvcMarkerService
+  - uid: Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler
+    name: MvcRouteHandler
+  - uid: Microsoft.AspNetCore.Mvc.Internal.NonDisposableStream
+    name: NonDisposableStream
+  - uid: Microsoft.AspNetCore.Mvc.Internal.NoOpBinder
+    name: NoOpBinder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor
+    name: ObjectMethodExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor
+    name: ObjectResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.PhysicalFileResultExecutor
+    name: PhysicalFileResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.PlaceholderBinder
+    name: PlaceholderBinder
+  - uid: Microsoft.AspNetCore.Mvc.Internal.PrefixContainer
+    name: PrefixContainer
+  - uid: Microsoft.AspNetCore.Mvc.Internal.RedirectResultExecutor
+    name: RedirectResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.RedirectToActionResultExecutor
+    name: RedirectToActionResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.RedirectToRouteResultExecutor
+    name: RedirectToRouteResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ResponseCacheFilter
+    name: ResponseCacheFilter
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ResponseContentTypeHelper
+    name: ResponseContentTypeHelper
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ShortFormDictionaryValidationStrategy`2
+    name: ShortFormDictionaryValidationStrategy<TKey, TValue>
+    name.vb: ShortFormDictionaryValidationStrategy(Of TKey, TValue)
+  - uid: Microsoft.AspNetCore.Mvc.Internal.TaskCache
+    name: TaskCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.TaskCache`1
+    name: TaskCache<T>
+    name.vb: TaskCache(Of T)
+  - uid: Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache
+    name: TypeActivatorCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.ValidatorCache
+    name: ValidatorCache
+  - uid: Microsoft.AspNetCore.Mvc.Internal.VirtualFileResultExecutor
+    name: VirtualFileResultExecutor
+- uid: Microsoft.AspNetCore.Mvc.Localization
+  name: Microsoft.AspNetCore.Mvc.Localization
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Localization.HtmlLocalizer
+    name: HtmlLocalizer
+  - uid: Microsoft.AspNetCore.Mvc.Localization.HtmlLocalizer`1
+    name: HtmlLocalizer<TResource>
+    name.vb: HtmlLocalizer(Of TResource)
+  - uid: Microsoft.AspNetCore.Mvc.Localization.HtmlLocalizerExtensions
+    name: HtmlLocalizerExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Localization.HtmlLocalizerFactory
+    name: HtmlLocalizerFactory
+  - uid: Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer
+    name: IHtmlLocalizer
+  - uid: Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer`1
+    name: IHtmlLocalizer<TResource>
+    name.vb: IHtmlLocalizer(Of TResource)
+  - uid: Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerFactory
+    name: IHtmlLocalizerFactory
+  - uid: Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer
+    name: IViewLocalizer
+  - uid: Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString
+    name: LocalizedHtmlString
+  - uid: Microsoft.AspNetCore.Mvc.Localization.ViewLocalizer
+    name: ViewLocalizer
+- uid: Microsoft.AspNetCore.Mvc.Localization.Internal
+  name: Microsoft.AspNetCore.Mvc.Localization.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Localization.Internal.MvcLocalizationServices
+    name: MvcLocalizationServices
+- uid: Microsoft.AspNetCore.Mvc.ModelBinding
+  name: Microsoft.AspNetCore.Mvc.ModelBinding
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindingBehavior
+    name: BindingBehavior
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindingBehaviorAttribute
+    name: BindingBehaviorAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindingInfo
+    name: BindingInfo
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource
+    name: BindingSource
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindingSourceValueProvider
+    name: BindingSourceValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindNeverAttribute
+    name: BindNeverAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.BindRequiredAttribute
+    name: BindRequiredAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.CompositeBindingSource
+    name: CompositeBindingSource
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.CompositeValueProvider
+    name: CompositeValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.DefaultModelBindingContext
+    name: DefaultModelBindingContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.DefaultPropertyFilterProvider`1
+    name: DefaultPropertyFilterProvider<TModel>
+    name.vb: DefaultPropertyFilterProvider(Of TModel)
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider
+    name: EmptyModelMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.EnumGroupAndName
+    name: EnumGroupAndName
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.FormValueProvider
+    name: FormValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.FormValueProviderFactory
+    name: FormValueProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IBinderTypeProviderMetadata
+    name: IBinderTypeProviderMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IBindingSourceMetadata
+    name: IBindingSourceMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IBindingSourceValueProvider
+    name: IBindingSourceValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ICollectionModelBinder
+    name: ICollectionModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IEnumerableValueProvider
+    name: IEnumerableValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder
+    name: IModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinderFactory
+    name: IModelBinderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinderProvider
+    name: IModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider
+    name: IModelMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IModelNameProvider
+    name: IModelNameProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IOptionalBinderMetadata
+    name: IOptionalBinderMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IPropertyFilterProvider
+    name: IPropertyFilterProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider
+    name: IValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.IValueProviderFactory
+    name: IValueProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.JQueryFormValueProvider
+    name: JQueryFormValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.JQueryFormValueProviderFactory
+    name: JQueryFormValueProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelAttributes
+    name: ModelAttributes
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+    name: ModelBinderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactoryContext
+    name: ModelBinderFactoryContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderProviderContext
+    name: ModelBinderProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext
+    name: ModelBindingContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext.NestedScope
+    name: ModelBindingContext.NestedScope
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingResult
+    name: ModelBindingResult
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelError
+    name: ModelError
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelErrorCollection
+    name: ModelErrorCollection
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata
+    name: ModelMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadataProviderExtensions
+    name: ModelMetadataProviderExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelNames
+    name: ModelNames
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelPropertyCollection
+    name: ModelPropertyCollection
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary
+    name: ModelStateDictionary
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.Enumerator
+    name: ModelStateDictionary.Enumerator
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.KeyEnumerable
+    name: ModelStateDictionary.KeyEnumerable
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.KeyEnumerator
+    name: ModelStateDictionary.KeyEnumerator
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.PrefixEnumerable
+    name: ModelStateDictionary.PrefixEnumerable
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.ValueEnumerable
+    name: ModelStateDictionary.ValueEnumerable
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.ValueEnumerator
+    name: ModelStateDictionary.ValueEnumerator
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionaryExtensions
+    name: ModelStateDictionaryExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateEntry
+    name: ModelStateEntry
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelValidationState
+    name: ModelValidationState
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.QueryStringValueProvider
+    name: QueryStringValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.QueryStringValueProviderFactory
+    name: QueryStringValueProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.RouteValueProvider
+    name: RouteValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.RouteValueProviderFactory
+    name: RouteValueProviderFactory
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.SuppressChildValidationMetadataProvider
+    name: SuppressChildValidationMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.TooManyModelErrorsException
+    name: TooManyModelErrorsException
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeException
+    name: UnsupportedContentTypeException
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter
+    name: UnsupportedContentTypeFilter
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ValueProviderFactoryContext
+    name: ValueProviderFactoryContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ValueProviderResult
+    name: ValueProviderResult
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ValueProviderResultExtensions
+    name: ValueProviderResultExtensions
+- uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders
+  name: Microsoft.AspNetCore.Mvc.ModelBinding.Binders
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinder`1
+    name: ArrayModelBinder<TElement>
+    name.vb: ArrayModelBinder(Of TElement)
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider
+    name: ArrayModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinder
+    name: BinderTypeModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider
+    name: BinderTypeModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder
+    name: BodyModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider
+    name: BodyModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinder
+    name: ByteArrayModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider
+    name: ByteArrayModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinder
+    name: CancellationTokenModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider
+    name: CancellationTokenModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinder`1
+    name: CollectionModelBinder<TElement>
+    name.vb: CollectionModelBinder(Of TElement)
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider
+    name: CollectionModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinder
+    name: ComplexTypeModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+    name: ComplexTypeModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinder`2
+    name: DictionaryModelBinder<TKey, TValue>
+    name.vb: DictionaryModelBinder(Of TKey, TValue)
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider
+    name: DictionaryModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinder
+    name: FormCollectionModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider
+    name: FormCollectionModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder
+    name: FormFileModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider
+    name: FormFileModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinder
+    name: HeaderModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider
+    name: HeaderModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinder`2
+    name: KeyValuePairModelBinder<TKey, TValue>
+    name.vb: KeyValuePairModelBinder(Of TKey, TValue)
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider
+    name: KeyValuePairModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinder
+    name: ServicesModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider
+    name: ServicesModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder
+    name: SimpleTypeModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider
+    name: SimpleTypeModelBinderProvider
+- uid: Microsoft.AspNetCore.Mvc.ModelBinding.Internal
+  name: Microsoft.AspNetCore.Mvc.ModelBinding.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Internal.ModelBindingHelper
+    name: ModelBindingHelper
+- uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata
+  name: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.BindingMetadata
+    name: BindingMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.BindingMetadataProviderContext
+    name: BindingMetadataProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.DataMemberRequiredBindingMetadataProvider
+    name: DataMemberRequiredBindingMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.DefaultMetadataDetails
+    name: DefaultMetadataDetails
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.DefaultModelMetadata
+    name: DefaultModelMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.DefaultModelMetadataProvider
+    name: DefaultModelMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.DisplayMetadata
+    name: DisplayMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.DisplayMetadataProviderContext
+    name: DisplayMetadataProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ExcludeBindingMetadataProvider
+    name: ExcludeBindingMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.IBindingMetadataProvider
+    name: IBindingMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ICompositeMetadataDetailsProvider
+    name: ICompositeMetadataDetailsProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.IDisplayMetadataProvider
+    name: IDisplayMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.IMetadataDetailsProvider
+    name: IMetadataDetailsProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.IModelBindingMessageProvider
+    name: IModelBindingMessageProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.IValidationMetadataProvider
+    name: IValidationMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ModelBindingMessageProvider
+    name: ModelBindingMessageProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ModelMetadataIdentity
+    name: ModelMetadataIdentity
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ModelMetadataKind
+    name: ModelMetadataKind
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ValidationMetadata
+    name: ValidationMetadata
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Metadata.ValidationMetadataProviderContext
+    name: ValidationMetadataProviderContext
+- uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation
+  name: Microsoft.AspNetCore.Mvc.ModelBinding.Validation
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ClientModelValidationContext
+    name: ClientModelValidationContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ClientValidatorItem
+    name: ClientValidatorItem
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ClientValidatorProviderContext
+    name: ClientValidatorProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.CompositeClientModelValidatorProvider
+    name: CompositeClientModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.CompositeModelValidatorProvider
+    name: CompositeModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IClientModelValidator
+    name: IClientModelValidator
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IClientModelValidatorProvider
+    name: IClientModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidator
+    name: IModelValidator
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidatorProvider
+    name: IModelValidatorProvider
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IObjectModelValidator
+    name: IObjectModelValidator
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IValidationStrategy
+    name: IValidationStrategy
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ModelValidationContext
+    name: ModelValidationContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ModelValidationContextBase
+    name: ModelValidationContextBase
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ModelValidationResult
+    name: ModelValidationResult
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ModelValidatorProviderContext
+    name: ModelValidatorProviderContext
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationEntry
+    name: ValidationEntry
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationStateDictionary
+    name: ValidationStateDictionary
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationStateEntry
+    name: ValidationStateEntry
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor
+    name: ValidationVisitor
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidatorItem
+    name: ValidatorItem
+- uid: Microsoft.AspNetCore.Mvc.Razor
+  name: Microsoft.AspNetCore.Mvc.Razor
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Razor.GeneratedTagHelperAttributeContext
+    name: GeneratedTagHelperAttributeContext
+  - uid: Microsoft.AspNetCore.Mvc.Razor.HelperResult
+    name: HelperResult
+  - uid: Microsoft.AspNetCore.Mvc.Razor.IMvcRazorHost
+    name: IMvcRazorHost
+  - uid: Microsoft.AspNetCore.Mvc.Razor.InjectChunk
+    name: InjectChunk
+  - uid: Microsoft.AspNetCore.Mvc.Razor.InjectChunkVisitor
+    name: InjectChunkVisitor
+  - uid: Microsoft.AspNetCore.Mvc.Razor.InjectParameterGenerator
+    name: InjectParameterGenerator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.IRazorPage
+    name: IRazorPage
+  - uid: Microsoft.AspNetCore.Mvc.Razor.IRazorPageActivator
+    name: IRazorPageActivator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.IRazorPageFactoryProvider
+    name: IRazorPageFactoryProvider
+  - uid: Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine
+    name: IRazorViewEngine
+  - uid: Microsoft.AspNetCore.Mvc.Razor.ITagHelperActivator
+    name: ITagHelperActivator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.ITagHelperFactory
+    name: ITagHelperFactory
+  - uid: Microsoft.AspNetCore.Mvc.Razor.ITagHelperInitializer`1
+    name: ITagHelperInitializer<TTagHelper>
+    name.vb: ITagHelperInitializer(Of TTagHelper)
+  - uid: Microsoft.AspNetCore.Mvc.Razor.IViewLocationExpander
+    name: IViewLocationExpander
+  - uid: Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpander
+    name: LanguageViewLocationExpander
+  - uid: Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat
+    name: LanguageViewLocationExpanderFormat
+  - uid: Microsoft.AspNetCore.Mvc.Razor.ModelChunk
+    name: ModelChunk
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcCSharpChunkVisitor
+    name: MvcCSharpChunkVisitor
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcCSharpCodeGenerator
+    name: MvcCSharpCodeGenerator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcCSharpCodeVisitor
+    name: MvcCSharpCodeVisitor
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcCSharpDesignTimeCodeVisitor
+    name: MvcCSharpDesignTimeCodeVisitor
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcRazorCodeParser
+    name: MvcRazorCodeParser
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcRazorHost
+    name: MvcRazorHost
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcRazorParser
+    name: MvcRazorParser
+  - uid: Microsoft.AspNetCore.Mvc.Razor.MvcTagHelperAttributeValueCodeRenderer
+    name: MvcTagHelperAttributeValueCodeRenderer
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorPage
+    name: RazorPage
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorPage`1
+    name: RazorPage<TModel>
+    name.vb: RazorPage(Of TModel)
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator
+    name: RazorPageActivator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorPageFactoryResult
+    name: RazorPageFactoryResult
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorPageResult
+    name: RazorPageResult
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorView
+    name: RazorView
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine
+    name: RazorViewEngine
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions
+    name: RazorViewEngineOptions
+  - uid: Microsoft.AspNetCore.Mvc.Razor.RenderAsyncDelegate
+    name: RenderAsyncDelegate
+  - uid: Microsoft.AspNetCore.Mvc.Razor.TagHelperInitializer`1
+    name: TagHelperInitializer<TTagHelper>
+    name.vb: TagHelperInitializer(Of TTagHelper)
+  - uid: Microsoft.AspNetCore.Mvc.Razor.ViewHierarchyUtility
+    name: ViewHierarchyUtility
+  - uid: Microsoft.AspNetCore.Mvc.Razor.ViewLocationExpanderContext
+    name: ViewLocationExpanderContext
+- uid: Microsoft.AspNetCore.Mvc.Razor.Compilation
+  name: Microsoft.AspNetCore.Mvc.Razor.Compilation
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationFailedException
+    name: CompilationFailedException
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationResult
+    name: CompilationResult
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.ICompilationService
+    name: ICompilationService
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.IRazorCompilationService
+    name: IRazorCompilationService
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.MetadataReferenceFeature
+    name: MetadataReferenceFeature
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.MetadataReferenceFeatureProvider
+    name: MetadataReferenceFeatureProvider
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.RelativeFileInfo
+    name: RelativeFileInfo
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Compilation.RoslynCompilationContext
+    name: RoslynCompilationContext
+- uid: Microsoft.AspNetCore.Mvc.Razor.Directives
+  name: Microsoft.AspNetCore.Mvc.Razor.Directives
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.ChunkHelper
+    name: ChunkHelper
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.ChunkInheritanceUtility
+    name: ChunkInheritanceUtility
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.ChunkTreeResult
+    name: ChunkTreeResult
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.DefaultChunkTreeCache
+    name: DefaultChunkTreeCache
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.IChunkMerger
+    name: IChunkMerger
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.IChunkTreeCache
+    name: IChunkTreeCache
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.InjectChunkMerger
+    name: InjectChunkMerger
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.SetBaseTypeChunkMerger
+    name: SetBaseTypeChunkMerger
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Directives.UsingChunkMerger
+    name: UsingChunkMerger
+- uid: Microsoft.AspNetCore.Mvc.Razor.Internal
+  name: Microsoft.AspNetCore.Mvc.Razor.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.CompilerCache
+    name: CompilerCache
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.CompilerCacheResult
+    name: CompilerCacheResult
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultCompilerCacheProvider
+    name: DefaultCompilerCacheProvider
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorPageFactoryProvider
+    name: DefaultRazorPageFactoryProvider
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorViewEngineFileProviderAccessor
+    name: DefaultRazorViewEngineFileProviderAccessor
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService
+    name: DefaultRoslynCompilationService
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultTagHelperActivator
+    name: DefaultTagHelperActivator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultTagHelperFactory
+    name: DefaultTagHelperFactory
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DependencyContextRazorViewEngineOptionsSetup
+    name: DependencyContextRazorViewEngineOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.DesignTimeRazorPathNormalizer
+    name: DesignTimeRazorPathNormalizer
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ExpressionRewriter
+    name: ExpressionRewriter
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ICompilerCache
+    name: ICompilerCache
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ICompilerCacheProvider
+    name: ICompilerCacheProvider
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.IRazorViewEngineFileProviderAccessor
+    name: IRazorViewEngineFileProviderAccessor
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.MvcRazorMvcViewOptionsSetup
+    name: MvcRazorMvcViewOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService
+    name: RazorCompilationService
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute
+    name: RazorInjectAttribute
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPathNormalizer
+    name: RazorPathNormalizer
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ServiceBasedTagHelperActivator
+    name: ServiceBasedTagHelperActivator
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.SymbolsUtility
+    name: SymbolsUtility
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.TagHelpersAsServices
+    name: TagHelpersAsServices
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ViewLocationCacheItem
+    name: ViewLocationCacheItem
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ViewLocationCacheKey
+    name: ViewLocationCacheKey
+  - uid: Microsoft.AspNetCore.Mvc.Razor.Internal.ViewLocationCacheResult
+    name: ViewLocationCacheResult
+- uid: Microsoft.AspNetCore.Mvc.Razor.TagHelpers
+  name: Microsoft.AspNetCore.Mvc.Razor.TagHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Razor.TagHelpers.FeatureTagHelperTypeResolver
+    name: FeatureTagHelperTypeResolver
+  - uid: Microsoft.AspNetCore.Mvc.Razor.TagHelpers.TagHelperFeature
+    name: TagHelperFeature
+  - uid: Microsoft.AspNetCore.Mvc.Razor.TagHelpers.TagHelperFeatureProvider
+    name: TagHelperFeatureProvider
+- uid: Microsoft.AspNetCore.Mvc.Rendering
+  name: Microsoft.AspNetCore.Mvc.Rendering
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.FormMethod
+    name: FormMethod
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.Html5DateRenderingMode
+    name: Html5DateRenderingMode
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions
+    name: HtmlHelperDisplayExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayNameExtensions
+    name: HtmlHelperDisplayNameExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperEditorExtensions
+    name: HtmlHelperEditorExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions
+    name: HtmlHelperFormExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions
+    name: HtmlHelperInputExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLabelExtensions
+    name: HtmlHelperLabelExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions
+    name: HtmlHelperLinkExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperNameExtensions
+    name: HtmlHelperNameExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions
+    name: HtmlHelperPartialExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperSelectExtensions
+    name: HtmlHelperSelectExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions
+    name: HtmlHelperValidationExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValueExtensions
+    name: HtmlHelperValueExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper
+    name: IHtmlHelper
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1
+    name: IHtmlHelper<TModel>
+    name.vb: IHtmlHelper(Of TModel)
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper
+    name: IJsonHelper
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.MultiSelectList
+    name: MultiSelectList
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.MvcForm
+    name: MvcForm
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectList
+    name: SelectList
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectListGroup
+    name: SelectListGroup
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    name: SelectListItem
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.TagBuilder
+    name: TagBuilder
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.TagRenderMode
+    name: TagRenderMode
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary
+    name: ValidationSummary
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.ViewComponentHelperExtensions
+    name: ViewComponentHelperExtensions
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+    name: ViewContext
+- uid: Microsoft.AspNetCore.Mvc.Routing
+  name: Microsoft.AspNetCore.Mvc.Routing
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.Routing.AttributeRouteInfo
+    name: AttributeRouteInfo
+  - uid: Microsoft.AspNetCore.Mvc.Routing.HttpMethodAttribute
+    name: HttpMethodAttribute
+  - uid: Microsoft.AspNetCore.Mvc.Routing.IActionHttpMethodProvider
+    name: IActionHttpMethodProvider
+  - uid: Microsoft.AspNetCore.Mvc.Routing.IRouteTemplateProvider
+    name: IRouteTemplateProvider
+  - uid: Microsoft.AspNetCore.Mvc.Routing.IRouteValueProvider
+    name: IRouteValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.Routing.IUrlHelperFactory
+    name: IUrlHelperFactory
+  - uid: Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint
+    name: KnownRouteValueConstraint
+  - uid: Microsoft.AspNetCore.Mvc.Routing.RouteValueAttribute
+    name: RouteValueAttribute
+  - uid: Microsoft.AspNetCore.Mvc.Routing.UrlActionContext
+    name: UrlActionContext
+  - uid: Microsoft.AspNetCore.Mvc.Routing.UrlHelper
+    name: UrlHelper
+  - uid: Microsoft.AspNetCore.Mvc.Routing.UrlHelperFactory
+    name: UrlHelperFactory
+  - uid: Microsoft.AspNetCore.Mvc.Routing.UrlRouteContext
+    name: UrlRouteContext
+- uid: Microsoft.AspNetCore.Mvc.TagHelpers
+  name: Microsoft.AspNetCore.Mvc.TagHelpers
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper
+    name: AnchorTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper
+    name: CacheTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelperBase
+    name: CacheTagHelperBase
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper
+    name: DistributedCacheTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper
+    name: EnvironmentTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper
+    name: FormTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper
+    name: ImageTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper
+    name: InputTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper
+    name: LabelTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper
+    name: LinkTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper
+    name: OptionTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper
+    name: ScriptTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper
+    name: SelectTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.TagHelperOutputExtensions
+    name: TagHelperOutputExtensions
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper
+    name: TextAreaTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper
+    name: ValidationMessageTagHelper
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper
+    name: ValidationSummaryTagHelper
+- uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache
+  name: Microsoft.AspNetCore.Mvc.TagHelpers.Cache
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.CacheTagKey
+    name: CacheTagKey
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormatter
+    name: DistributedCacheTagHelperFormatter
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext
+    name: DistributedCacheTagHelperFormattingContext
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperService
+    name: DistributedCacheTagHelperService
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperStorage
+    name: DistributedCacheTagHelperStorage
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.IDistributedCacheTagHelperFormatter
+    name: IDistributedCacheTagHelperFormatter
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.IDistributedCacheTagHelperService
+    name: IDistributedCacheTagHelperService
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Cache.IDistributedCacheTagHelperStorage
+    name: IDistributedCacheTagHelperStorage
+- uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal
+  name: Microsoft.AspNetCore.Mvc.TagHelpers.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.AttributeMatcher
+    name: AttributeMatcher
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.CryptographyAlgorithms
+    name: CryptographyAlgorithms
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.CurrentValues
+    name: CurrentValues
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.FileProviderGlobbingDirectory
+    name: FileProviderGlobbingDirectory
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.FileProviderGlobbingFile
+    name: FileProviderGlobbingFile
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.FileVersionProvider
+    name: FileVersionProvider
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.GlobbingUrlBuilder
+    name: GlobbingUrlBuilder
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.JavaScriptResources
+    name: JavaScriptResources
+  - uid: Microsoft.AspNetCore.Mvc.TagHelpers.Internal.ModeAttributes`1
+    name: ModeAttributes<TMode>
+    name.vb: ModeAttributes(Of TMode)
+- uid: Microsoft.AspNetCore.Mvc.ViewComponents
+  name: Microsoft.AspNetCore.Mvc.ViewComponents
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ContentViewComponentResult
+    name: ContentViewComponentResult
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentActivator
+    name: DefaultViewComponentActivator
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentDescriptorCollectionProvider
+    name: DefaultViewComponentDescriptorCollectionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentDescriptorProvider
+    name: DefaultViewComponentDescriptorProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentFactory
+    name: DefaultViewComponentFactory
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper
+    name: DefaultViewComponentHelper
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker
+    name: DefaultViewComponentInvoker
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvokerFactory
+    name: DefaultViewComponentInvokerFactory
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentSelector
+    name: DefaultViewComponentSelector
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.HtmlContentViewComponentResult
+    name: HtmlContentViewComponentResult
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentActivator
+    name: IViewComponentActivator
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentDescriptorCollectionProvider
+    name: IViewComponentDescriptorCollectionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentDescriptorProvider
+    name: IViewComponentDescriptorProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentFactory
+    name: IViewComponentFactory
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentInvoker
+    name: IViewComponentInvoker
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentInvokerFactory
+    name: IViewComponentInvokerFactory
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.IViewComponentSelector
+    name: IViewComponentSelector
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ServiceBasedViewComponentActivator
+    name: ServiceBasedViewComponentActivator
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentContext
+    name: ViewComponentContext
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentContextAttribute
+    name: ViewComponentContextAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentConventions
+    name: ViewComponentConventions
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentDescriptor
+    name: ViewComponentDescriptor
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentDescriptorCollection
+    name: ViewComponentDescriptorCollection
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentFeature
+    name: ViewComponentFeature
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentFeatureProvider
+    name: ViewComponentFeatureProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+    name: ViewViewComponentResult
+- uid: Microsoft.AspNetCore.Mvc.ViewEngines
+  name: Microsoft.AspNetCore.Mvc.ViewEngines
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine
+    name: CompositeViewEngine
+  - uid: Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine
+    name: ICompositeViewEngine
+  - uid: Microsoft.AspNetCore.Mvc.ViewEngines.IView
+    name: IView
+  - uid: Microsoft.AspNetCore.Mvc.ViewEngines.IViewEngine
+    name: IViewEngine
+  - uid: Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult
+    name: ViewEngineResult
+- uid: Microsoft.AspNetCore.Mvc.ViewFeatures
+  name: Microsoft.AspNetCore.Mvc.ViewFeatures
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.AntiforgeryExtensions
+    name: AntiforgeryExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.AttributeDictionary
+    name: AttributeDictionary
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.AttributeDictionary.Enumerator
+    name: AttributeDictionary.Enumerator
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator
+    name: DefaultHtmlGenerator
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.FormContext
+    name: FormContext
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper
+    name: HtmlHelper
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1
+    name: HtmlHelper<TModel>
+    name.vb: HtmlHelper(Of TModel)
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelperOptions
+    name: HtmlHelperOptions
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+    name: IAntiforgeryPolicy
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator
+    name: IHtmlGenerator
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.IKeepTempDataResult
+    name: IKeepTempDataResult
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider
+    name: IModelExpressionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.InputType
+    name: InputType
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionary
+    name: ITempDataDictionary
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory
+    name: ITempDataDictionaryFactory
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataProvider
+    name: ITempDataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.IViewContextAware
+    name: IViewContextAware
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.JsonHelper
+    name: JsonHelper
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer
+    name: ModelExplorer
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorerExtensions
+    name: ModelExplorerExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression
+    name: ModelExpression
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider
+    name: ModelExpressionProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ModelMetadataProviderExtensions
+    name: ModelMetadataProviderExtensions
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.SaveTempDataAttribute
+    name: SaveTempDataAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.SessionStateTempDataProvider
+    name: SessionStateTempDataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.StringHtmlContent
+    name: StringHtmlContent
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.TempDataDictionary
+    name: TempDataDictionary
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.TempDataDictionaryFactory
+    name: TempDataDictionaryFactory
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.TemplateInfo
+    name: TemplateInfo
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.TryGetValueDelegate
+    name: TryGetValueDelegate
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.TryGetValueProvider
+    name: TryGetValueProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewContextAttribute
+    name: ViewContextAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary
+    name: ViewDataDictionary
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary`1
+    name: ViewDataDictionary<TModel>
+    name.vb: ViewDataDictionary(Of TModel)
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionaryAttribute
+    name: ViewDataDictionaryAttribute
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionaryControllerPropertyActivator
+    name: ViewDataDictionaryControllerPropertyActivator
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataEvaluator
+    name: ViewDataEvaluator
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataInfo
+    name: ViewDataInfo
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor
+    name: ViewExecutor
+- uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal
+  name: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.AutoValidateAntiforgeryTokenAuthorizationFilter
+    name: AutoValidateAntiforgeryTokenAuthorizationFilter
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.CachedExpressionCompiler
+    name: CachedExpressionCompiler
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.DefaultDisplayTemplates
+    name: DefaultDisplayTemplates
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.DefaultEditorTemplates
+    name: DefaultEditorTemplates
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.DynamicViewData
+    name: DynamicViewData
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ExpressionHelper
+    name: ExpressionHelper
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ExpressionMetadataProvider
+    name: ExpressionMetadataProvider
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ExpressionTextCache
+    name: ExpressionTextCache
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.IViewBufferScope
+    name: IViewBufferScope
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MemoryPoolViewBufferScope
+    name: MemoryPoolViewBufferScope
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewOptionsSetup
+    name: MvcViewOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.NullView
+    name: NullView
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.PagedBufferedTextWriter
+    name: PagedBufferedTextWriter
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.PartialViewResultExecutor
+    name: PartialViewResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter
+    name: SaveTempDataFilter
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.TempDataMvcOptionsSetup
+    name: TempDataMvcOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.TemplateBuilder
+    name: TemplateBuilder
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.TemplateRenderer
+    name: TemplateRenderer
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter
+    name: ValidateAntiforgeryTokenAuthorizationFilter
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidationHelpers
+    name: ValidationHelpers
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewBuffer
+    name: ViewBuffer
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewBufferPage
+    name: ViewBufferPage
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewBufferTextWriter
+    name: ViewBufferTextWriter
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewBufferValue
+    name: ViewBufferValue
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewComponentInvokerCache
+    name: ViewComponentInvokerCache
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewComponentResultExecutor
+    name: ViewComponentResultExecutor
+  - uid: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor
+    name: ViewResultExecutor
+- uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim
+  name: Microsoft.AspNetCore.Mvc.WebApiCompatShim
+  items:
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.FormDataCollectionExtensions
+    name: FormDataCollectionExtensions
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.HttpRequestMessageFeature
+    name: HttpRequestMessageFeature
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.HttpRequestMessageHttpContextExtensions
+    name: HttpRequestMessageHttpContextExtensions
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.HttpRequestMessageModelBinder
+    name: HttpRequestMessageModelBinder
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.HttpRequestMessageModelBinderProvider
+    name: HttpRequestMessageModelBinderProvider
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.HttpResponseExceptionActionFilter
+    name: HttpResponseExceptionActionFilter
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.HttpResponseMessageOutputFormatter
+    name: HttpResponseMessageOutputFormatter
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.IHttpRequestMessageFeature
+    name: IHttpRequestMessageFeature
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.IUseWebApiActionConventions
+    name: IUseWebApiActionConventions
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.IUseWebApiOverloading
+    name: IUseWebApiOverloading
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.IUseWebApiParameterConventions
+    name: IUseWebApiParameterConventions
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.IUseWebApiRoutes
+    name: IUseWebApiRoutes
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.OverloadActionConstraint
+    name: OverloadActionConstraint
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.UseWebApiActionConventionsAttribute
+    name: UseWebApiActionConventionsAttribute
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.UseWebApiOverloadingAttribute
+    name: UseWebApiOverloadingAttribute
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.UseWebApiParameterConventionsAttribute
+    name: UseWebApiParameterConventionsAttribute
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.UseWebApiRoutesAttribute
+    name: UseWebApiRoutesAttribute
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.WebApiActionConventionsApplicationModelConvention
+    name: WebApiActionConventionsApplicationModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.WebApiCompatShimOptions
+    name: WebApiCompatShimOptions
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.WebApiCompatShimOptionsSetup
+    name: WebApiCompatShimOptionsSetup
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.WebApiOverloadingApplicationModelConvention
+    name: WebApiOverloadingApplicationModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.WebApiParameterConventionsApplicationModelConvention
+    name: WebApiParameterConventionsApplicationModelConvention
+  - uid: Microsoft.AspNetCore.Mvc.WebApiCompatShim.WebApiRoutesApplicationModelConvention
+    name: WebApiRoutesApplicationModelConvention
+- uid: Microsoft.AspNetCore.Razor.Generator
+  name: Microsoft.AspNetCore.Razor.Generator
+  items:
+  - uid: Microsoft.AspNetCore.Razor.Generator.ModelChunkGenerator
+    name: ModelChunkGenerator
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.ApplicationModelConventionExtensions
+    name: ApplicationModelConventionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.IMvcBuilder
+    name: IMvcBuilder
+  - uid: Microsoft.Extensions.DependencyInjection.IMvcCoreBuilder
+    name: IMvcCoreBuilder
+  - uid: Microsoft.Extensions.DependencyInjection.MvcApiExplorerMvcCoreBuilderExtensions
+    name: MvcApiExplorerMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions
+    name: MvcCoreMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcCoreMvcCoreBuilderExtensions
+    name: MvcCoreMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcCoreServiceCollectionExtensions
+    name: MvcCoreServiceCollectionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcCorsMvcCoreBuilderExtensions
+    name: MvcCorsMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcDataAnnotationsMvcBuilderExtensions
+    name: MvcDataAnnotationsMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcDataAnnotationsMvcCoreBuilderExtensions
+    name: MvcDataAnnotationsMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions
+    name: MvcJsonMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcJsonMvcCoreBuilderExtensions
+    name: MvcJsonMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcLocalizationMvcBuilderExtensions
+    name: MvcLocalizationMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcLocalizationMvcCoreBuilderExtensions
+    name: MvcLocalizationMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcRazorMvcBuilderExtensions
+    name: MvcRazorMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcRazorMvcCoreBuilderExtensions
+    name: MvcRazorMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions
+    name: MvcServiceCollectionExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcViewFeaturesMvcBuilderExtensions
+    name: MvcViewFeaturesMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcViewFeaturesMvcCoreBuilderExtensions
+    name: MvcViewFeaturesMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcXmlMvcBuilderExtensions
+    name: MvcXmlMvcBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.MvcXmlMvcCoreBuilderExtensions
+    name: MvcXmlMvcCoreBuilderExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.TagHelperServicesExtensions
+    name: TagHelperServicesExtensions
+  - uid: Microsoft.Extensions.DependencyInjection.WebApiCompatShimMvcBuilderExtensions
+    name: WebApiCompatShimMvcBuilderExtensions
+- uid: System.Net.Http
+  name: System.Net.Http
+  items:
+  - uid: System.Net.Http.HttpRequestMessageExtensions
+    name: HttpRequestMessageExtensions
+- uid: System.Web.Http
+  name: System.Web.Http
+  items:
+  - uid: System.Web.Http.ApiController
+    name: ApiController
+  - uid: System.Web.Http.BadRequestErrorMessageResult
+    name: BadRequestErrorMessageResult
+  - uid: System.Web.Http.ConflictResult
+    name: ConflictResult
+  - uid: System.Web.Http.ExceptionResult
+    name: ExceptionResult
+  - uid: System.Web.Http.FromUriAttribute
+    name: FromUriAttribute
+  - uid: System.Web.Http.HttpError
+    name: HttpError
+  - uid: System.Web.Http.HttpErrorKeys
+    name: HttpErrorKeys
+  - uid: System.Web.Http.HttpResponseException
+    name: HttpResponseException
+  - uid: System.Web.Http.InternalServerErrorResult
+    name: InternalServerErrorResult
+  - uid: System.Web.Http.InvalidModelStateResult
+    name: InvalidModelStateResult
+  - uid: System.Web.Http.NegotiatedContentResult`1
+    name: NegotiatedContentResult<T>
+    name.vb: NegotiatedContentResult(Of T)
+  - uid: System.Web.Http.ResponseMessageResult
+    name: ResponseMessageResult

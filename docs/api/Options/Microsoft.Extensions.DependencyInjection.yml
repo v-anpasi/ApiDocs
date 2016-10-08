@@ -5,7 +5,6 @@ items:
   id: Microsoft.Extensions.DependencyInjection
   children:
   - Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
-  - Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
   - Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions
   langs:
   - csharp
@@ -29,9 +28,3 @@ references:
   name: OptionsConfigurationServiceCollectionExtensions
   nameWithType: OptionsConfigurationServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions
-- uid: Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
-  commentId: T:Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions
-  isExternal: false
-  name: OptionsMonitorServiceCollectionExtensions
-  nameWithType: OptionsMonitorServiceCollectionExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.OptionsMonitorServiceCollectionExtensions

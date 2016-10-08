@@ -445,7 +445,6 @@ references:
   fullName: System
 - uid: Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Json
   isExternal: false
   name: JsonConfigurationProvider
   nameWithType: JsonConfigurationProvider

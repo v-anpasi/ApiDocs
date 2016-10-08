@@ -32,6 +32,7 @@ items:
     content: 'public interface IMemoryCache : IDisposable'
     content.vb: >-
       Public Interface IMemoryCache
+
           Inherits IDisposable
   inheritedMembers:
   - System.IDisposable.Dispose

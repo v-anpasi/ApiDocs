@@ -9,7 +9,6 @@ items:
   - Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException
   - Microsoft.AspNetCore.Antiforgery.IAntiforgery
   - Microsoft.AspNetCore.Antiforgery.IAntiforgeryAdditionalDataProvider
-  - Microsoft.AspNetCore.Antiforgery.TestOptionsManager
   langs:
   - csharp
   - vb
@@ -54,12 +53,6 @@ references:
   name: IAntiforgeryAdditionalDataProvider
   nameWithType: IAntiforgeryAdditionalDataProvider
   fullName: Microsoft.AspNetCore.Antiforgery.IAntiforgeryAdditionalDataProvider
-- uid: Microsoft.AspNetCore.Antiforgery.TestOptionsManager
-  commentId: T:Microsoft.AspNetCore.Antiforgery.TestOptionsManager
-  isExternal: false
-  name: TestOptionsManager
-  nameWithType: TestOptionsManager
-  fullName: Microsoft.AspNetCore.Antiforgery.TestOptionsManager
 - uid: Microsoft.AspNetCore.Antiforgery
   commentId: N:Microsoft.AspNetCore.Antiforgery
   isExternal: false

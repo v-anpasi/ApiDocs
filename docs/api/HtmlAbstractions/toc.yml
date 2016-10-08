@@ -1,0 +1,37 @@
+### YamlMime:TableOfContent
+- uid: Microsoft.AspNetCore.Html
+  name: Microsoft.AspNetCore.Html
+  items:
+  - uid: Microsoft.AspNetCore.Html.HtmlContentBuilder
+    name: HtmlContentBuilder
+  - uid: Microsoft.AspNetCore.Html.HtmlContentBuilderExtensions
+    name: HtmlContentBuilderExtensions
+  - uid: Microsoft.AspNetCore.Html.HtmlFormattableString
+    name: HtmlFormattableString
+  - uid: Microsoft.AspNetCore.Html.HtmlString
+    name: HtmlString
+  - uid: Microsoft.AspNetCore.Html.IHtmlContent
+    name: IHtmlContent
+  - uid: Microsoft.AspNetCore.Html.IHtmlContentBuilder
+    name: IHtmlContentBuilder
+  - uid: Microsoft.AspNetCore.Html.IHtmlContentContainer
+    name: IHtmlContentContainer
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.EncoderServiceCollectionExtensions
+    name: EncoderServiceCollectionExtensions
+- uid: Microsoft.Extensions.WebEncoders
+  name: Microsoft.Extensions.WebEncoders
+  items:
+  - uid: Microsoft.Extensions.WebEncoders.WebEncoderOptions
+    name: WebEncoderOptions
+- uid: Microsoft.Extensions.WebEncoders.Testing
+  name: Microsoft.Extensions.WebEncoders.Testing
+  items:
+  - uid: Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder
+    name: HtmlTestEncoder
+  - uid: Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder
+    name: JavaScriptTestEncoder
+  - uid: Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder
+    name: UrlTestEncoder

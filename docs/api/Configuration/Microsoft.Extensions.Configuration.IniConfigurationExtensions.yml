@@ -261,7 +261,6 @@ items:
 references:
 - uid: Microsoft.Extensions.Configuration.Ini.IniConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Ini.IniConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Ini
   isExternal: false
   name: IniConfigurationProvider
   nameWithType: IniConfigurationProvider
@@ -558,12 +557,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Microsoft.Extensions.Configuration.Ini
-  commentId: N:Microsoft.Extensions.Configuration.Ini
-  isExternal: false
-  name: Microsoft.Extensions.Configuration.Ini
-  nameWithType: Microsoft.Extensions.Configuration.Ini
-  fullName: Microsoft.Extensions.Configuration.Ini
 - uid: System
   commentId: N:System
   isExternal: false

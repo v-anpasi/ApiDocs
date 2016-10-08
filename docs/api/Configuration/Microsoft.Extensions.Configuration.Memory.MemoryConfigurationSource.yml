@@ -567,7 +567,6 @@ references:
   fullName: System.Collections.Generic
 - uid: Microsoft.Extensions.Configuration.Memory.MemoryConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Memory.MemoryConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Memory
   isExternal: false
   name: MemoryConfigurationProvider
   nameWithType: MemoryConfigurationProvider

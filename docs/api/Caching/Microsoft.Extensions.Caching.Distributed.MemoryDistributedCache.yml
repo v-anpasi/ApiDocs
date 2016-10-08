@@ -36,6 +36,7 @@ items:
     content: 'public class MemoryDistributedCache : IDistributedCache'
     content.vb: >-
       Public Class MemoryDistributedCache
+
           Implements IDistributedCache
   inheritance:
   - System.Object

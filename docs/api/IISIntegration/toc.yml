@@ -1,9 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: IISSample
-  name: IISSample
-  items:
-  - uid: IISSample.Startup
-    name: Startup
 - uid: Microsoft.AspNetCore.Builder
   name: Microsoft.AspNetCore.Builder
   items:
@@ -21,17 +16,6 @@
     name: IISDefaults
   - uid: Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware
     name: IISMiddleware
-- uid: Microsoft.AspNetCore.Server.IISIntegration.FunctionalTests
-  name: Microsoft.AspNetCore.Server.IISIntegration.FunctionalTests
-  items:
-  - uid: Microsoft.AspNetCore.Server.IISIntegration.FunctionalTests.HelloWorldTests
-    name: HelloWorldTests
-  - uid: Microsoft.AspNetCore.Server.IISIntegration.FunctionalTests.Helpers
-    name: Helpers
-  - uid: Microsoft.AspNetCore.Server.IISIntegration.FunctionalTests.HttpsTest
-    name: HttpsTest
-  - uid: Microsoft.AspNetCore.Server.IISIntegration.FunctionalTests.NtlmAuthenticationTests
-    name: NtlmAuthenticationTests
 - uid: Microsoft.AspNetCore.Server.IISIntegration.Tools
   name: Microsoft.AspNetCore.Server.IISIntegration.Tools
   items:
@@ -50,19 +34,3 @@
     name: AnsiConsole
   - uid: Microsoft.Extensions.Cli.Utils.Reporter
     name: Reporter
-- uid: TestSites
-  name: TestSites
-  items:
-  - uid: TestSites.Program
-    name: Program
-  - uid: TestSites.StartupHelloWorld
-    name: StartupHelloWorld
-  - uid: TestSites.StartupHttpsHelloWorld
-    name: StartupHttpsHelloWorld
-  - uid: TestSites.StartupNtlmAuthentication
-    name: StartupNtlmAuthentication
-- uid: TestSites.Portable
-  name: TestSites.Portable
-  items:
-  - uid: TestSites.Portable.Program
-    name: Program

@@ -38,6 +38,7 @@ items:
     content: 'public class MemoryCache : IMemoryCache, IDisposable'
     content.vb: >-
       Public Class MemoryCache
+
           Implements IMemoryCache, IDisposable
   inheritance:
   - System.Object

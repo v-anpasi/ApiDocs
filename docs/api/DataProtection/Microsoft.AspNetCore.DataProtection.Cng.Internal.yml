@@ -5,8 +5,6 @@ items:
   id: Microsoft.AspNetCore.DataProtection.Cng.Internal
   children:
   - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
-  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests
-  - Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
   langs:
   - csharp
   - vb
@@ -19,26 +17,7 @@ items:
 references:
 - uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
   commentId: T:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
-  parent: Microsoft.AspNetCore.DataProtection.Cng.Internal
   isExternal: false
   name: CngAuthenticatedEncryptorBase
   nameWithType: CngAuthenticatedEncryptorBase
   fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase
-- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests
-  isExternal: false
-  name: CngAuthenticatedEncryptorBaseTests
-  nameWithType: CngAuthenticatedEncryptorBaseTests
-  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests
-- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
-  commentId: T:Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
-  isExternal: false
-  name: CngAuthenticatedEncryptorBaseTests.MockableEncryptor
-  nameWithType: CngAuthenticatedEncryptorBaseTests.MockableEncryptor
-  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBaseTests.MockableEncryptor
-- uid: Microsoft.AspNetCore.DataProtection.Cng.Internal
-  commentId: N:Microsoft.AspNetCore.DataProtection.Cng.Internal
-  isExternal: false
-  name: Microsoft.AspNetCore.DataProtection.Cng.Internal
-  nameWithType: Microsoft.AspNetCore.DataProtection.Cng.Internal
-  fullName: Microsoft.AspNetCore.DataProtection.Cng.Internal

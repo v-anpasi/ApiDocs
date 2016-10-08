@@ -6,7 +6,6 @@ items:
   children:
   - Microsoft.AspNetCore.Cryptography.KeyDerivation.KeyDerivation
   - Microsoft.AspNetCore.Cryptography.KeyDerivation.KeyDerivationPrf
-  - Microsoft.AspNetCore.Cryptography.KeyDerivation.Pbkdf2Tests
   langs:
   - csharp
   - vb
@@ -30,12 +29,6 @@ references:
   name: KeyDerivationPrf
   nameWithType: KeyDerivationPrf
   fullName: Microsoft.AspNetCore.Cryptography.KeyDerivation.KeyDerivationPrf
-- uid: Microsoft.AspNetCore.Cryptography.KeyDerivation.Pbkdf2Tests
-  commentId: T:Microsoft.AspNetCore.Cryptography.KeyDerivation.Pbkdf2Tests
-  isExternal: false
-  name: Pbkdf2Tests
-  nameWithType: Pbkdf2Tests
-  fullName: Microsoft.AspNetCore.Cryptography.KeyDerivation.Pbkdf2Tests
 - uid: Microsoft.AspNetCore.Cryptography.KeyDerivation
   commentId: N:Microsoft.AspNetCore.Cryptography.KeyDerivation
   isExternal: false

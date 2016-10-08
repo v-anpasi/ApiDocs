@@ -50,7 +50,6 @@ references:
   fullName: Microsoft.AspNetCore.Authorization.Infrastructure.NameAuthorizationRequirement
 - uid: Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
   commentId: T:Microsoft.AspNetCore.Authorization.Infrastructure.OperationAuthorizationRequirement
-  parent: Microsoft.AspNetCore.Authorization.Infrastructure
   isExternal: false
   name: OperationAuthorizationRequirement
   nameWithType: OperationAuthorizationRequirement

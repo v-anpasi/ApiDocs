@@ -9,7 +9,6 @@ items:
   - Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults
   - Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents
   - Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware
-  - Microsoft.AspNetCore.Authentication.Cookies.CookieMiddlewareTests
   - Microsoft.AspNetCore.Authentication.Cookies.CookieRedirectContext
   - Microsoft.AspNetCore.Authentication.Cookies.CookieSignedInContext
   - Microsoft.AspNetCore.Authentication.Cookies.CookieSigningInContext
@@ -115,12 +114,6 @@ references:
   name: ICookieAuthenticationEvents
   nameWithType: ICookieAuthenticationEvents
   fullName: Microsoft.AspNetCore.Authentication.Cookies.ICookieAuthenticationEvents
-- uid: Microsoft.AspNetCore.Authentication.Cookies.CookieMiddlewareTests
-  commentId: T:Microsoft.AspNetCore.Authentication.Cookies.CookieMiddlewareTests
-  isExternal: false
-  name: CookieMiddlewareTests
-  nameWithType: CookieMiddlewareTests
-  fullName: Microsoft.AspNetCore.Authentication.Cookies.CookieMiddlewareTests
 - uid: Microsoft.AspNetCore.Authentication.Cookies
   commentId: N:Microsoft.AspNetCore.Authentication.Cookies
   isExternal: false

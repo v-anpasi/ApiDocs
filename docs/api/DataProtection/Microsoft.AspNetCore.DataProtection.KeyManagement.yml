@@ -4,20 +4,11 @@ items:
   commentId: N:Microsoft.AspNetCore.DataProtection.KeyManagement
   id: Microsoft.AspNetCore.DataProtection.KeyManagement
   children:
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.CacheableKeyRingTests
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolverTests
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKeyTests
   - Microsoft.AspNetCore.DataProtection.KeyManagement.IKey
   - Microsoft.AspNetCore.DataProtection.KeyManagement.IKeyEscrowSink
   - Microsoft.AspNetCore.DataProtection.KeyManagement.IKeyManager
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyEscrowServiceProviderExtensionsTests
   - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyManagementOptions
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtectorTests
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.KeyTests
   - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
-  - Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
   langs:
   - csharp
   - vb
@@ -61,60 +52,6 @@ references:
   name: XmlKeyManager
   nameWithType: XmlKeyManager
   fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.CacheableKeyRingTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.CacheableKeyRingTests
-  isExternal: false
-  name: CacheableKeyRingTests
-  nameWithType: CacheableKeyRingTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.CacheableKeyRingTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolverTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolverTests
-  isExternal: false
-  name: DefaultKeyResolverTests
-  nameWithType: DefaultKeyResolverTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolverTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKeyTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKeyTests
-  isExternal: false
-  name: DeferredKeyTests
-  nameWithType: DeferredKeyTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKeyTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyEscrowServiceProviderExtensionsTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyEscrowServiceProviderExtensionsTests
-  isExternal: false
-  name: KeyEscrowServiceProviderExtensionsTests
-  nameWithType: KeyEscrowServiceProviderExtensionsTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyEscrowServiceProviderExtensionsTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtectorTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtectorTests
-  isExternal: false
-  name: KeyRingBasedDataProtectorTests
-  nameWithType: KeyRingBasedDataProtectorTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtectorTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
-  isExternal: false
-  name: KeyRingProviderTests
-  nameWithType: KeyRingProviderTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProviderTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
-  isExternal: false
-  name: KeyRingTests
-  nameWithType: KeyRingTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.KeyTests
-  isExternal: false
-  name: KeyTests
-  nameWithType: KeyTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyTests
-- uid: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
-  commentId: T:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
-  isExternal: false
-  name: XmlKeyManagerTests
-  nameWithType: XmlKeyManagerTests
-  fullName: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManagerTests
 - uid: Microsoft.AspNetCore.DataProtection.KeyManagement
   commentId: N:Microsoft.AspNetCore.DataProtection.KeyManagement
   isExternal: false

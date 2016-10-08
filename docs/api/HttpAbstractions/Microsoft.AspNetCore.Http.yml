@@ -235,7 +235,6 @@ references:
   fullName: Microsoft.AspNetCore.Http.HttpResponseWritingExtensions
 - uid: Microsoft.AspNetCore.Http.DefaultHttpContext
   commentId: T:Microsoft.AspNetCore.Http.DefaultHttpContext
-  parent: Microsoft.AspNetCore.Http
   isExternal: false
   name: DefaultHttpContext
   nameWithType: DefaultHttpContext

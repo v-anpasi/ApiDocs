@@ -1,13 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: AntiforgerySample
-  name: AntiforgerySample
-  items:
-  - uid: AntiforgerySample.Startup
-    name: Startup
-  - uid: AntiforgerySample.TodoItem
-    name: TodoItem
-  - uid: AntiforgerySample.TodoRepository
-    name: TodoRepository
 - uid: Microsoft.AspNetCore.Antiforgery
   name: Microsoft.AspNetCore.Antiforgery
   items:
@@ -21,15 +12,6 @@
     name: IAntiforgery
   - uid: Microsoft.AspNetCore.Antiforgery.IAntiforgeryAdditionalDataProvider
     name: IAntiforgeryAdditionalDataProvider
-  - uid: Microsoft.AspNetCore.Antiforgery.TestOptionsManager
-    name: TestOptionsManager
-- uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests
-  name: Microsoft.AspNetCore.Antiforgery.FunctionalTests
-  items:
-  - uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiForgerySampleTestFixture
-    name: AntiForgerySampleTestFixture
-  - uid: Microsoft.AspNetCore.Antiforgery.FunctionalTests.AntiforgerySampleTests
-    name: AntiforgerySampleTests
 - uid: Microsoft.AspNetCore.Antiforgery.Internal
   name: Microsoft.AspNetCore.Antiforgery.Internal
   items:
@@ -37,44 +19,28 @@
     name: AntiforgeryFeature
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryOptionsSetup
     name: AntiforgeryOptionsSetup
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryOptionsSetupTest
-    name: AntiforgeryOptionsSetupTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.AntiforgerySerializationContext
     name: AntiforgerySerializationContext
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.AntiforgerySerializationContextPooledObjectPolicy
     name: AntiforgerySerializationContextPooledObjectPolicy
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryToken
     name: AntiforgeryToken
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryTokenTest
-    name: AntiforgeryTokenTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.BinaryBlob
     name: BinaryBlob
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.BinaryBlobTest
-    name: BinaryBlobTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.CryptographyAlgorithms
     name: CryptographyAlgorithms
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery
     name: DefaultAntiforgery
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryAdditionalDataProvider
     name: DefaultAntiforgeryAdditionalDataProvider
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTest
-    name: DefaultAntiforgeryTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGenerator
     name: DefaultAntiforgeryTokenGenerator
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenGeneratorProviderTest
-    name: DefaultAntiforgeryTokenGeneratorProviderTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializer
     name: DefaultAntiforgeryTokenSerializer
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenSerializerTest
-    name: DefaultAntiforgeryTokenSerializerTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStore
     name: DefaultAntiforgeryTokenStore
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgeryTokenStoreTest
-    name: DefaultAntiforgeryTokenStoreTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultClaimUidExtractor
     name: DefaultClaimUidExtractor
-  - uid: Microsoft.AspNetCore.Antiforgery.Internal.DefaultClaimUidExtractorTest
-    name: DefaultClaimUidExtractorTest
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.IAntiforgeryFeature
     name: IAntiforgeryFeature
   - uid: Microsoft.AspNetCore.Antiforgery.Internal.IAntiforgeryTokenGenerator

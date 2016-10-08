@@ -358,12 +358,3 @@
     name: StringWithQualityHeaderValue
   - uid: Microsoft.Net.Http.Headers.StringWithQualityHeaderValueComparer
     name: StringWithQualityHeaderValueComparer
-- uid: SampleApp
-  name: SampleApp
-  items:
-  - uid: SampleApp.PooledHttpContext
-    name: PooledHttpContext
-  - uid: SampleApp.PooledHttpContextFactory
-    name: PooledHttpContextFactory
-  - uid: SampleApp.Program
-    name: Program

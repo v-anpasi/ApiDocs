@@ -30,6 +30,7 @@ items:
     content: 'public class SystemClock : ISystemClock'
     content.vb: >-
       Public Class SystemClock
+
           Implements ISystemClock
   inheritance:
   - System.Object

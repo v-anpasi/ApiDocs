@@ -445,7 +445,6 @@ references:
   fullName: System
 - uid: Microsoft.Extensions.Configuration.Xml.XmlConfigurationProvider
   commentId: T:Microsoft.Extensions.Configuration.Xml.XmlConfigurationProvider
-  parent: Microsoft.Extensions.Configuration.Xml
   isExternal: false
   name: XmlConfigurationProvider
   nameWithType: XmlConfigurationProvider

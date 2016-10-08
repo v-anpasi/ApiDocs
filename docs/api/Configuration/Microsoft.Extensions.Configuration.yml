@@ -26,7 +26,6 @@ items:
   - Microsoft.Extensions.Configuration.IConfigurationSource
   - Microsoft.Extensions.Configuration.IniConfigurationExtensions
   - Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  - Microsoft.Extensions.Configuration.JsonConfigurationTest
   - Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions
   - Microsoft.Extensions.Configuration.XmlConfigurationExtensions
   langs:
@@ -140,6 +139,13 @@ references:
   name: MemoryConfigurationBuilderExtensions
   nameWithType: MemoryConfigurationBuilderExtensions
   fullName: Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions
+- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: CommandLineConfigurationExtensions
+  nameWithType: CommandLineConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
 - uid: Microsoft.Extensions.Configuration.FileConfigurationExtensions
   commentId: T:Microsoft.Extensions.Configuration.FileConfigurationExtensions
   parent: Microsoft.Extensions.Configuration
@@ -161,47 +167,6 @@ references:
   name: FileConfigurationSource
   nameWithType: FileConfigurationSource
   fullName: Microsoft.Extensions.Configuration.FileConfigurationSource
-- uid: Microsoft.Extensions.Configuration.IniConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.IniConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: IniConfigurationExtensions
-  nameWithType: IniConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.IniConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-  commentId: T:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: EnvironmentVariablesExtensions
-  nameWithType: EnvironmentVariablesExtensions
-  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
-- uid: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: CommandLineConfigurationExtensions
-  nameWithType: CommandLineConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.CommandLineConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: JsonConfigurationExtensions
-  nameWithType: JsonConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
-- uid: Microsoft.Extensions.Configuration.JsonConfigurationTest
-  commentId: T:Microsoft.Extensions.Configuration.JsonConfigurationTest
-  isExternal: false
-  name: JsonConfigurationTest
-  nameWithType: JsonConfigurationTest
-  fullName: Microsoft.Extensions.Configuration.JsonConfigurationTest
-- uid: Microsoft.Extensions.Configuration.XmlConfigurationExtensions
-  commentId: T:Microsoft.Extensions.Configuration.XmlConfigurationExtensions
-  parent: Microsoft.Extensions.Configuration
-  isExternal: false
-  name: XmlConfigurationExtensions
-  nameWithType: XmlConfigurationExtensions
-  fullName: Microsoft.Extensions.Configuration.XmlConfigurationExtensions
 - uid: Microsoft.Extensions.Configuration.ConfigurationBinder
   commentId: T:Microsoft.Extensions.Configuration.ConfigurationBinder
   parent: Microsoft.Extensions.Configuration
@@ -209,6 +174,34 @@ references:
   name: ConfigurationBinder
   nameWithType: ConfigurationBinder
   fullName: Microsoft.Extensions.Configuration.ConfigurationBinder
+- uid: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+  commentId: T:Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: EnvironmentVariablesExtensions
+  nameWithType: EnvironmentVariablesExtensions
+  fullName: Microsoft.Extensions.Configuration.EnvironmentVariablesExtensions
+- uid: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: JsonConfigurationExtensions
+  nameWithType: JsonConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.JsonConfigurationExtensions
+- uid: Microsoft.Extensions.Configuration.IniConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.IniConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: IniConfigurationExtensions
+  nameWithType: IniConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.IniConfigurationExtensions
+- uid: Microsoft.Extensions.Configuration.XmlConfigurationExtensions
+  commentId: T:Microsoft.Extensions.Configuration.XmlConfigurationExtensions
+  parent: Microsoft.Extensions.Configuration
+  isExternal: false
+  name: XmlConfigurationExtensions
+  nameWithType: XmlConfigurationExtensions
+  fullName: Microsoft.Extensions.Configuration.XmlConfigurationExtensions
 - uid: Microsoft.Extensions.Configuration
   commentId: N:Microsoft.Extensions.Configuration
   isExternal: false

@@ -6,13 +6,11 @@ items:
   children:
   - Microsoft.AspNetCore.Authentication.AuthenticateResult
   - Microsoft.AspNetCore.Authentication.AuthenticationHandler`1
-  - Microsoft.AspNetCore.Authentication.AuthenticationHandlerFacts
   - Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1
   - Microsoft.AspNetCore.Authentication.AuthenticationTicket
   - Microsoft.AspNetCore.Authentication.AuthenticationToken
   - Microsoft.AspNetCore.Authentication.AuthenticationTokenExtensions
   - Microsoft.AspNetCore.Authentication.Base64UrlTextEncoder
-  - Microsoft.AspNetCore.Authentication.Base64UrlTextEncoderTests
   - Microsoft.AspNetCore.Authentication.BaseContext
   - Microsoft.AspNetCore.Authentication.BaseControlContext
   - Microsoft.AspNetCore.Authentication.ClaimsTransformationContext
@@ -33,16 +31,9 @@ items:
   - Microsoft.AspNetCore.Authentication.SecureDataFormat`1
   - Microsoft.AspNetCore.Authentication.SharedAuthenticationOptions
   - Microsoft.AspNetCore.Authentication.SystemClock
-  - Microsoft.AspNetCore.Authentication.TestClock
-  - Microsoft.AspNetCore.Authentication.TestExtensions
-  - Microsoft.AspNetCore.Authentication.TestHttpMessageHandler
   - Microsoft.AspNetCore.Authentication.TicketDataFormat
   - Microsoft.AspNetCore.Authentication.TicketReceivedContext
   - Microsoft.AspNetCore.Authentication.TicketSerializer
-  - Microsoft.AspNetCore.Authentication.TicketSerializerTests
-  - Microsoft.AspNetCore.Authentication.TokenExtensionTests
-  - Microsoft.AspNetCore.Authentication.TokenExtensionTests.TestAuthHandler
-  - Microsoft.AspNetCore.Authentication.Transaction
   langs:
   - csharp
   - vb
@@ -433,60 +424,6 @@ references:
   name: TicketReceivedContext
   nameWithType: TicketReceivedContext
   fullName: Microsoft.AspNetCore.Authentication.TicketReceivedContext
-- uid: Microsoft.AspNetCore.Authentication.AuthenticationHandlerFacts
-  commentId: T:Microsoft.AspNetCore.Authentication.AuthenticationHandlerFacts
-  isExternal: false
-  name: AuthenticationHandlerFacts
-  nameWithType: AuthenticationHandlerFacts
-  fullName: Microsoft.AspNetCore.Authentication.AuthenticationHandlerFacts
-- uid: Microsoft.AspNetCore.Authentication.TestClock
-  commentId: T:Microsoft.AspNetCore.Authentication.TestClock
-  isExternal: false
-  name: TestClock
-  nameWithType: TestClock
-  fullName: Microsoft.AspNetCore.Authentication.TestClock
-- uid: Microsoft.AspNetCore.Authentication.TestExtensions
-  commentId: T:Microsoft.AspNetCore.Authentication.TestExtensions
-  isExternal: false
-  name: TestExtensions
-  nameWithType: TestExtensions
-  fullName: Microsoft.AspNetCore.Authentication.TestExtensions
-- uid: Microsoft.AspNetCore.Authentication.TestHttpMessageHandler
-  commentId: T:Microsoft.AspNetCore.Authentication.TestHttpMessageHandler
-  isExternal: false
-  name: TestHttpMessageHandler
-  nameWithType: TestHttpMessageHandler
-  fullName: Microsoft.AspNetCore.Authentication.TestHttpMessageHandler
-- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests
-  commentId: T:Microsoft.AspNetCore.Authentication.TokenExtensionTests
-  isExternal: false
-  name: TokenExtensionTests
-  nameWithType: TokenExtensionTests
-  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests
-- uid: Microsoft.AspNetCore.Authentication.TokenExtensionTests.TestAuthHandler
-  commentId: T:Microsoft.AspNetCore.Authentication.TokenExtensionTests.TestAuthHandler
-  isExternal: false
-  name: TokenExtensionTests.TestAuthHandler
-  nameWithType: TokenExtensionTests.TestAuthHandler
-  fullName: Microsoft.AspNetCore.Authentication.TokenExtensionTests.TestAuthHandler
-- uid: Microsoft.AspNetCore.Authentication.Transaction
-  commentId: T:Microsoft.AspNetCore.Authentication.Transaction
-  isExternal: false
-  name: Transaction
-  nameWithType: Transaction
-  fullName: Microsoft.AspNetCore.Authentication.Transaction
-- uid: Microsoft.AspNetCore.Authentication.Base64UrlTextEncoderTests
-  commentId: T:Microsoft.AspNetCore.Authentication.Base64UrlTextEncoderTests
-  isExternal: false
-  name: Base64UrlTextEncoderTests
-  nameWithType: Base64UrlTextEncoderTests
-  fullName: Microsoft.AspNetCore.Authentication.Base64UrlTextEncoderTests
-- uid: Microsoft.AspNetCore.Authentication.TicketSerializerTests
-  commentId: T:Microsoft.AspNetCore.Authentication.TicketSerializerTests
-  isExternal: false
-  name: TicketSerializerTests
-  nameWithType: TicketSerializerTests
-  fullName: Microsoft.AspNetCore.Authentication.TicketSerializerTests
 - uid: Microsoft.AspNetCore.Authentication
   commentId: N:Microsoft.AspNetCore.Authentication
   isExternal: false

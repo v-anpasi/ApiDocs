@@ -4,10 +4,8 @@ items:
   commentId: N:Microsoft.Extensions.Logging
   id: Microsoft.Extensions.Logging
   children:
-  - Microsoft.Extensions.Logging.AnsiLogConsoleTest
   - Microsoft.Extensions.Logging.ConsoleLoggerExtensions
   - Microsoft.Extensions.Logging.DebugLoggerFactoryExtensions
-  - Microsoft.Extensions.Logging.DebugLoggerTest
   - Microsoft.Extensions.Logging.EventId
   - Microsoft.Extensions.Logging.EventLoggerFactoryExtensions
   - Microsoft.Extensions.Logging.FilterLoggerFactoryExtensions
@@ -21,19 +19,9 @@ items:
   - Microsoft.Extensions.Logging.LoggerExtensions
   - Microsoft.Extensions.Logging.LoggerFactory
   - Microsoft.Extensions.Logging.LoggerFactoryExtensions
-  - Microsoft.Extensions.Logging.LoggerFilterTest
   - Microsoft.Extensions.Logging.LoggerMessage
-  - Microsoft.Extensions.Logging.LoggerMessageTest
-  - Microsoft.Extensions.Logging.LoggerTest
   - Microsoft.Extensions.Logging.LogLevel
-  - Microsoft.Extensions.Logging.TestLoggerExtensions
-  - Microsoft.Extensions.Logging.TestLoggerExtensions.ActionMatchedInfo
-  - Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithThreeParameters
-  - Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithTwoParameters
-  - Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithOneParameter
-  - Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithoutAnyParameters
   - Microsoft.Extensions.Logging.TraceSourceFactoryExtensions
-  - Microsoft.Extensions.Logging.WriteContext
   langs:
   - csharp
   - vb
@@ -200,13 +188,6 @@ references:
   name: TraceSourceFactoryExtensions
   nameWithType: TraceSourceFactoryExtensions
   fullName: Microsoft.Extensions.Logging.TraceSourceFactoryExtensions
-- uid: Microsoft.Extensions.Logging.ConsoleLoggerExtensions
-  commentId: T:Microsoft.Extensions.Logging.ConsoleLoggerExtensions
-  parent: Microsoft.Extensions.Logging
-  isExternal: false
-  name: ConsoleLoggerExtensions
-  nameWithType: ConsoleLoggerExtensions
-  fullName: Microsoft.Extensions.Logging.ConsoleLoggerExtensions
 - uid: Microsoft.Extensions.Logging.FilterLoggerFactoryExtensions
   commentId: T:Microsoft.Extensions.Logging.FilterLoggerFactoryExtensions
   parent: Microsoft.Extensions.Logging
@@ -227,80 +208,13 @@ references:
   name: IFilterLoggerSettings
   nameWithType: IFilterLoggerSettings
   fullName: Microsoft.Extensions.Logging.IFilterLoggerSettings
-- uid: Microsoft.Extensions.Logging.AnsiLogConsoleTest
-  commentId: T:Microsoft.Extensions.Logging.AnsiLogConsoleTest
-  isExternal: false
-  name: AnsiLogConsoleTest
-  nameWithType: AnsiLogConsoleTest
-  fullName: Microsoft.Extensions.Logging.AnsiLogConsoleTest
-- uid: Microsoft.Extensions.Logging.DebugLoggerTest
-  commentId: T:Microsoft.Extensions.Logging.DebugLoggerTest
-  isExternal: false
-  name: DebugLoggerTest
-  nameWithType: DebugLoggerTest
-  fullName: Microsoft.Extensions.Logging.DebugLoggerTest
-- uid: Microsoft.Extensions.Logging.LoggerFilterTest
-  commentId: T:Microsoft.Extensions.Logging.LoggerFilterTest
-  isExternal: false
-  name: LoggerFilterTest
-  nameWithType: LoggerFilterTest
-  fullName: Microsoft.Extensions.Logging.LoggerFilterTest
-- uid: Microsoft.Extensions.Logging.LoggerMessageTest
-  commentId: T:Microsoft.Extensions.Logging.LoggerMessageTest
-  isExternal: false
-  name: LoggerMessageTest
-  nameWithType: LoggerMessageTest
-  fullName: Microsoft.Extensions.Logging.LoggerMessageTest
-- uid: Microsoft.Extensions.Logging.LoggerTest
-  commentId: T:Microsoft.Extensions.Logging.LoggerTest
-  isExternal: false
-  name: LoggerTest
-  nameWithType: LoggerTest
-  fullName: Microsoft.Extensions.Logging.LoggerTest
-- uid: Microsoft.Extensions.Logging.TestLoggerExtensions
-  commentId: T:Microsoft.Extensions.Logging.TestLoggerExtensions
+- uid: Microsoft.Extensions.Logging.ConsoleLoggerExtensions
+  commentId: T:Microsoft.Extensions.Logging.ConsoleLoggerExtensions
   parent: Microsoft.Extensions.Logging
   isExternal: false
-  name: TestLoggerExtensions
-  nameWithType: TestLoggerExtensions
-  fullName: Microsoft.Extensions.Logging.TestLoggerExtensions
-- uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithoutAnyParameters
-  commentId: T:Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithoutAnyParameters
-  isExternal: false
-  name: TestLoggerExtensions.ScopeWithoutAnyParameters
-  nameWithType: TestLoggerExtensions.ScopeWithoutAnyParameters
-  fullName: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithoutAnyParameters
-- uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ActionMatchedInfo
-  commentId: T:Microsoft.Extensions.Logging.TestLoggerExtensions.ActionMatchedInfo
-  isExternal: false
-  name: TestLoggerExtensions.ActionMatchedInfo
-  nameWithType: TestLoggerExtensions.ActionMatchedInfo
-  fullName: Microsoft.Extensions.Logging.TestLoggerExtensions.ActionMatchedInfo
-- uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithOneParameter
-  commentId: T:Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithOneParameter
-  isExternal: false
-  name: TestLoggerExtensions.ScopeWithOneParameter
-  nameWithType: TestLoggerExtensions.ScopeWithOneParameter
-  fullName: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeWithOneParameter
-- uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithTwoParameters
-  commentId: T:Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithTwoParameters
-  isExternal: false
-  name: TestLoggerExtensions.ScopeInfoWithTwoParameters
-  nameWithType: TestLoggerExtensions.ScopeInfoWithTwoParameters
-  fullName: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithTwoParameters
-- uid: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithThreeParameters
-  commentId: T:Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithThreeParameters
-  isExternal: false
-  name: TestLoggerExtensions.ScopeInfoWithThreeParameters
-  nameWithType: TestLoggerExtensions.ScopeInfoWithThreeParameters
-  fullName: Microsoft.Extensions.Logging.TestLoggerExtensions.ScopeInfoWithThreeParameters
-- uid: Microsoft.Extensions.Logging.WriteContext
-  commentId: T:Microsoft.Extensions.Logging.WriteContext
-  parent: Microsoft.Extensions.Logging
-  isExternal: false
-  name: WriteContext
-  nameWithType: WriteContext
-  fullName: Microsoft.Extensions.Logging.WriteContext
+  name: ConsoleLoggerExtensions
+  nameWithType: ConsoleLoggerExtensions
+  fullName: Microsoft.Extensions.Logging.ConsoleLoggerExtensions
 - uid: Microsoft.Extensions.Logging
   commentId: N:Microsoft.Extensions.Logging
   isExternal: false
